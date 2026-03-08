@@ -1,0 +1,2037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POAMS Engineering Design: Controlled Flight Through Spin Angular Momentum Manipulation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f5f5f5;
+            --bg-tertiary: #e8e8e8;
+            --text-primary: #1a1a1a;
+            --text-secondary: #444444;
+            --text-muted: #777777;
+            --accent-blue: #1a6dd4;
+            --accent-green: #2e7d32;
+            --accent-red: #c62828;
+            --accent-orange: #e65100;
+            --border: #ddd;
+            --shadow: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
+            padding: 3rem 2rem;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 30% 20%, rgba(74, 158, 255, 0.1), transparent 50%);
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 300;
+            margin-bottom: 1rem;
+            color: var(--accent-blue);
+        }
+
+        .subtitle {
+            font-size: clamp(1rem, 3vw, 1.5rem);
+            color: var(--text-secondary);
+            font-weight: 300;
+        }
+
+        .container {
+            display: flex;
+            min-height: calc(100vh - 200px);
+            position: relative;
+        }
+
+        .sidebar {
+            width: 300px;
+            background-color: var(--bg-secondary);
+            border-right: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow-y: auto;
+            z-index: 100;
+            transition: transform 0.3s ease;
+        }
+
+        .sidebar-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border);
+            background-color: var(--bg-tertiary);
+        }
+
+        .toc-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .nav-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .nav-item {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .nav-item:last-child {
+            border-bottom: none;
+        }
+
+        .nav-link {
+            display: block;
+            padding: 0.75rem 1.5rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+            border-left: 3px solid transparent;
+        }
+
+        .nav-link:hover {
+            background-color: var(--bg-primary);
+            color: var(--accent-blue);
+            border-left-color: var(--accent-blue);
+        }
+
+        .nav-link.active {
+            background-color: var(--bg-primary);
+            color: var(--accent-blue);
+            border-left-color: var(--accent-blue);
+            font-weight: 500;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 2rem;
+            max-width: calc(100% - 300px);
+            background-color: var(--bg-primary);
+        }
+
+        .section {
+            margin-bottom: 3rem;
+            scroll-margin-top: 2rem;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--accent-blue);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--accent-blue);
+        }
+
+        .subsection-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 2rem 0 1rem 0;
+            padding-left: 1rem;
+            border-left: 4px solid var(--accent-green);
+        }
+
+        .subsubsection-title {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: var(--text-primary);
+            margin: 1.5rem 0 1rem 0;
+            padding-left: 0.75rem;
+            border-left: 3px solid var(--accent-orange);
+        }
+
+        .content-text {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(26, 109, 212, 0.05) 0%, rgba(26, 109, 212, 0.02) 100%);
+            border: 1px solid rgba(26, 109, 212, 0.2);
+            border-left: 4px solid var(--accent-blue);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .formula-box {
+            background-color: var(--bg-tertiary);
+            border: 1px solid var(--border);
+            padding: 1rem;
+            margin: 1rem 0;
+            font-family: 'Courier New', monospace;
+            font-size: 1.1rem;
+            text-align: center;
+            border-radius: 4px;
+        }
+
+        .strength-item {
+            background: linear-gradient(135deg, rgba(46, 125, 50, 0.05) 0%, rgba(46, 125, 50, 0.02) 100%);
+            border: 1px solid rgba(46, 125, 50, 0.2);
+            border-left: 4px solid var(--accent-green);
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 6px 6px 0;
+        }
+
+        .weakness-item {
+            background: linear-gradient(135deg, rgba(198, 40, 40, 0.05) 0%, rgba(198, 40, 40, 0.02) 100%);
+            border: 1px solid rgba(198, 40, 40, 0.2);
+            border-left: 4px solid var(--accent-red);
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 6px 6px 0;
+        }
+
+        .neutral-item {
+            background: linear-gradient(135deg, rgba(119, 119, 119, 0.05) 0%, rgba(119, 119, 119, 0.02) 100%);
+            border: 1px solid rgba(119, 119, 119, 0.2);
+            border-left: 4px solid var(--text-muted);
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 6px 6px 0;
+        }
+
+        .book-item {
+            background: linear-gradient(135deg, rgba(230, 81, 0, 0.05) 0%, rgba(230, 81, 0, 0.02) 100%);
+            border: 1px solid rgba(230, 81, 0, 0.2);
+            border-left: 4px solid var(--accent-orange);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .book-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--accent-orange);
+            margin-bottom: 0.5rem;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.95rem;
+        }
+
+        .data-table th {
+            background-color: var(--bg-tertiary);
+            color: var(--text-primary);
+            font-weight: 600;
+            text-align: left;
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border);
+        }
+
+        .data-table td {
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border);
+            vertical-align: top;
+        }
+
+        .data-table tr:nth-child(even) {
+            background-color: var(--bg-secondary);
+        }
+
+        ul, ol {
+            margin: 1rem 0 1rem 2rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+
+        strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        em {
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        code {
+            background-color: var(--bg-tertiary);
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            position: fixed;
+            top: 1rem;
+            left: 1rem;
+            z-index: 200;
+            background: var(--accent-blue);
+            color: white;
+            border: none;
+            padding: 0.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100vh;
+                width: 280px;
+                transform: translateX(-100%);
+                box-shadow: 2px 0 10px var(--shadow);
+                z-index: 150;
+            }
+
+            .sidebar.active {
+                transform: translateX(0);
+            }
+
+            .main-content {
+                max-width: 100%;
+                padding: 1rem;
+                margin-top: 3rem;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+            }
+
+            .subsection-title {
+                font-size: 1.25rem;
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.6s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .scroll-indicator {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(to right, var(--accent-blue) 0%, var(--accent-green) 100%);
+            transform-origin: left;
+            transform: scaleX(0);
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="scroll-indicator"></div>
+    
+    <button class="mobile-menu-btn" onclick="toggleSidebar()">☰</button>
+    
+    <header class="header">
+        <div class="header-content">
+            <h1>POAMS Engineering Design</h1>
+            <p class="subtitle">Controlled Flight Through Spin Angular Momentum Manipulation</p>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 1rem;">
+                Framework: Normal Realism / Pope-Osborne Angular Momentum Synthesis (NR-POAMS) · February 2026
+            </p>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h3 class="toc-title">Table of Contents</h3>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#materials" class="nav-link">1. Materials Research</a></li>
+                <li class="nav-item"><a href="#polarization" class="nav-link">2. Polarization Techniques</a></li>
+                <li class="nav-item"><a href="#testrig" class="nav-link">3. Test Rig Design</a></li>
+                <li class="nav-item"><a href="#instrumentation" class="nav-link">4. Instrumentation</a></li>
+                <li class="nav-item"><a href="#scaling" class="nav-link">5. Scaling Path</a></li>
+                <li class="nav-item"><a href="#stanford" class="nav-link">6. Stanford Resources</a></li>
+                <li class="nav-item"><a href="#priorart" class="nav-link">7. Prior Art</a></li>
+                <li class="nav-item"><a href="#validation" class="nav-link">8. Experimental Validation</a></li>
+                <li class="nav-item"><a href="#risk" class="nav-link">9. Risk Assessment</a></li>
+                <li class="nav-item"><a href="#mems-prototype" class="nav-link">10. MEMS Phase Rotation Prototype</a></li>
+                <li class="nav-item"><a href="#conclusion" class="nav-link">11. Conclusion</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+
+            <!-- SECTION 1: MATERIALS RESEARCH -->
+            <section id="materials" class="section fade-in">
+                <h2 class="section-title">1. Materials Research</h2>
+
+                <h3 class="subsection-title">1.1 Bismuth: The Optimal Naturally Occurring Element</h3>
+                <p class="content-text">
+                    Bismuth-209 represents the optimal naturally occurring material for spin correlation-based orbital radius manipulation due to several unique properties:
+                </p>
+
+                <h4 class="subsubsection-title">Quantum Accumulator Spin Properties</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li><strong>I = 9/2</strong>: Bismuth-209 possesses an exceptionally high quantum accumulator spin quantum number (9/2), allowing it to store substantial spin angular momentum per atom</li>
+                        <li><strong>Large hyperfine coupling</strong>: Electron-quantum accumulator hyperfine interactions in bismuth are among the strongest known, facilitating efficient polarization transfer</li>
+                        <li><strong>Stable isotope</strong>: ²⁰⁹Bi comprises nearly 100% of natural bismuth, eliminating isotopic complications that reduce polarization efficiency</li>
+                        <li><strong>Long coherence times</strong>: Research in silicon-doped bismuth shows coherence times suitable for sustained polarization states</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Electronic Structure Advantages</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li><strong>Unpaired electrons</strong>: Bismuth compounds readily form paramagnetic centers essential for dynamic spin correlation polarization</li>
+                        <li><strong>Heavy atom effects</strong>: The high atomic number enhances spin-orbit coupling, increasing the effectiveness of spin correlation mechanisms</li>
+                        <li><strong>Crystal structure compatibility</strong>: Bismuth forms crystal structures that facilitate bulk spin alignment</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Engineering Properties</h4>
+                <div class="neutral-item">
+                    <ul>
+                        <li><strong>Non-toxic</strong>: Unlike many heavy elements, bismuth is biocompatible and safe for laboratory handling</li>
+                        <li><strong>Machinability</strong>: Pure bismuth and bismuth alloys can be precisely machined into test specimens</li>
+                        <li><strong>Thermal properties</strong>: Manageable melting point (271°C) allows for controlled processing and annealing</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">1.2 Candidate Materials and Alloys</h3>
+
+                <h4 class="subsubsection-title">Bismuth Alloys for Enhanced Performance</h4>
+                <ul>
+                    <li><strong>Bi-Mn alloys</strong>: Manganese doping introduces paramagnetic centers while maintaining bismuth's favorable quantum accumulator properties</li>
+                    <li><strong>Bi-Fe compounds</strong>: Iron incorporation provides strong spin correlation sites for efficient polarization transfer</li>
+                    <li><strong>Bi₂Te₃ topological insulators</strong>: Surface states may enable novel polarization mechanisms</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Alternative High-Spin Elements</h4>
+                <ul>
+                    <li><strong>Gadolinium (Gd)</strong>: I = 7/2 quantum accumulator spin, strong paramagnetic properties, but less favorable electronic structure</li>
+                    <li><strong>Terbium (Tb)</strong>: I = 3/2, but superior spin correlation coupling constants in certain compounds</li>
+                    <li><strong>Europium (Eu)</strong>: Large quantum accumulator magnetic moments, though challenging to process</li>
+                </ul>
+
+                <h3 class="subsection-title">1.3 Engineered Meta-Materials for Ultimate Performance</h3>
+
+                <h4 class="subsubsection-title">Designed Crystal Structures</h4>
+                <ul>
+                    <li><strong>Bismuth nanowire arrays</strong>: One-dimensional structures to maximize spin correlation anisotropy and enable directional control</li>
+                    <li><strong>Bi-based quantum dots</strong>: Quantum confinement effects to enhance hyperpolarization efficiency</li>
+                    <li><strong>Layered bismuth compounds</strong>: 2D structures optimized for in-plane spin alignment</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Composite Materials</h4>
+                <ul>
+                    <li><strong>Bi-diamond composites</strong>: Nitrogen-vacancy centers in diamond for optical pumping combined with bismuth for bulk spin storage</li>
+                    <li><strong>Bi-polymer matrices</strong>: Organic frameworks to control bismuth domain orientation and prevent depolarization</li>
+                    <li><strong>Bi-carbon nanotube hybrids</strong>: CNT networks for enhanced spin transport and coherence</li>
+                </ul>
+
+                <h3 class="subsection-title">1.4 Crystal Structure Considerations</h3>
+
+                <h4 class="subsubsection-title">Optimizing Bulk Spin Alignment</h4>
+                <ul>
+                    <li><strong>Anisotropic crystal fields</strong>: Engineer crystal environments that favor specific spin orientations</li>
+                    <li><strong>Reduced symmetry structures</strong>: Lower symmetry to break spin degeneracy and enable bulk alignment</li>
+                    <li><strong>Controlled grain boundaries</strong>: Minimize domains that can independently randomize spins</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Processing Requirements</h4>
+                <div class="neutral-item">
+                    <ul>
+                        <li><strong>Single crystal growth</strong>: Eliminate grain boundaries that disrupt coherent spin polarization</li>
+                        <li><strong>Controlled atmosphere processing</strong>: Prevent oxidation that creates paramagnetic centers in wrong locations</li>
+                        <li><strong>Stress-controlled cooling</strong>: Manage thermal stress to maintain optimal crystal field gradients</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">1.5 Temperature and Pressure Optimization</h3>
+
+                <h4 class="subsubsection-title">Temperature Considerations</h4>
+                <ul>
+                    <li><strong>Optimal polarization temperature</strong>: Balance between thermal randomization and spin correlation efficiency (typically 1–10K for maximum effect)</li>
+                    <li><strong>Operating temperature trade-offs</strong>: Room temperature operation reduces polarization but enables practical applications</li>
+                    <li><strong>Thermal management</strong>: Cryogenic systems for maximum polarization vs. room temperature for practical deployment</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Pressure Effects</h4>
+                <ul>
+                    <li><strong>Hydrostatic pressure</strong>: Modify crystal field splitting to optimize spin alignment energetics</li>
+                    <li><strong>Uniaxial stress</strong>: Create preferential spin orientation axes for directional control</li>
+                    <li><strong>Pressure-induced phase transitions</strong>: Access crystal structures not available at ambient pressure</li>
+                </ul>
+            </section>
+
+            <!-- SECTION 2: POLARIZATION TECHNIQUES -->
+            <section id="polarization" class="section fade-in">
+                <h2 class="section-title">2. Polarization Techniques</h2>
+
+                <h3 class="subsection-title">2.1 Current State-of-Art Hyperpolarization Methods</h3>
+
+                <h4 class="subsubsection-title">Dynamic Spin Correlation Polarization (DSCP) — POAMS Terminology for DNP</h4>
+                <div class="highlight-box">
+                    <p class="content-text"><em>Research shows remarkable achievements in bulk spin alignment:</em></p>
+                    <ul>
+                        <li><strong>34% spin polarization</strong> achieved in bulk samples containing &gt;10¹⁹ spins at room temperature</li>
+                        <li><strong>250,000× enhancement</strong> over thermal equilibrium polarization at 0.4T</li>
+                        <li><strong>Photo-excited triplet state polarization</strong>: Using optical excitation to create highly polarized electron spins</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Mechanisms for Bismuth Application</h4>
+                <ol>
+                    <li><strong>Overhauser Effect</strong>: Direct polarization transfer from electron to quantum accumulator spins via hyperfine coupling</li>
+                    <li><strong>Solid Effect</strong>: Microwave-driven polarization transfer at frequencies matching electron resonance conditions</li>
+                    <li><strong>Cross Effect</strong>: Multi-electron mechanisms for enhanced polarization efficiency</li>
+                    <li><strong>Thermal Mixing</strong>: Exploiting electron spin-spin interactions for bulk polarization</li>
+                </ol>
+
+                <h3 class="subsection-title">2.2 Microwave-Driven Spin Alignment</h3>
+
+                <h4 class="subsubsection-title">Resonance Frequency Targeting</h4>
+                <ul>
+                    <li><strong>X-band (9.4 GHz)</strong>: Standard frequency for electron spin resonance in bismuth compounds</li>
+                    <li><strong>High-field systems</strong>: Up to 263 GHz for maximum polarization efficiency</li>
+                    <li><strong>Power requirements</strong>: Typically 100mW microwave power for sustained polarization</li>
+                    <li><strong>Frequency sweep protocols</strong>: Dynamic frequency adjustment to maintain resonance conditions</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Apparatus Requirements</h4>
+                <div class="neutral-item">
+                    <ul>
+                        <li><strong>Microwave sources</strong>: High-stability frequency generators with power control</li>
+                        <li><strong>Resonant cavities</strong>: Optimized for bismuth sample geometry and coupling efficiency</li>
+                        <li><strong>Cryogenic compatibility</strong>: Microwave delivery systems functional at liquid helium temperatures</li>
+                        <li><strong>Power distribution</strong>: Uniform microwave field distribution throughout sample volume</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">2.3 Optical Pumping Methods (POAMS-Adapted)</h3>
+
+                <h4 class="subsubsection-title">Photo-Excited Spin Polarization</h4>
+                <ul>
+                    <li><strong>Nitrogen-vacancy centers</strong>: Optically pumped diamond NV centers for indirect polarization of adjacent bismuth</li>
+                    <li><strong>Direct optical excitation</strong>: Laser pumping of bismuth electronic transitions to create spin-polarized states</li>
+                    <li><strong>Circularly polarized light</strong>: Selection rules to preferentially populate specific spin states</li>
+                    <li><strong>Wavelength optimization</strong>: Match optical transitions in bismuth compounds for maximum efficiency</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Hybrid Optical-Microwave Schemes</h4>
+                <ul>
+                    <li><strong>OPSR (Optically Pumped Spin Resonance)</strong>: Optical pumping combined with microwave manipulation for enhanced control</li>
+                    <li><strong>Photo-initiated DNP</strong>: Light-triggered radical formation followed by microwave-driven polarization transfer</li>
+                    <li><strong>Frequency-narrowed laser systems</strong>: Improved polarization efficiency through reduced spectral width</li>
+                </ul>
+
+                <h3 class="subsection-title">2.4 Advanced Polarization Techniques Beyond NASA Marshall Results</h3>
+
+                <h4 class="subsubsection-title">Multi-Modal Approaches</h4>
+                <ul>
+                    <li><strong>Sequential polarization</strong>: Multiple stages with different mechanisms to achieve &gt;50% bulk alignment</li>
+                    <li><strong>Spin-selective optical pumping</strong>: Wavelength tuning to selectively populate high-spin states</li>
+                    <li><strong>Dynamic decoupling</strong>: Pulse sequences to maintain coherence during polarization buildup</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Novel Mechanisms</h4>
+                <ul>
+                    <li><strong>Spin injection</strong>: Direct injection of polarized electrons from external sources</li>
+                    <li><strong>Chemical-induced polarization</strong>: Photochemical reactions that generate spin-correlated radical pairs</li>
+                    <li><strong>Mechanical-spin coupling</strong>: Using sample rotation (Barnett effect in POAMS terms) to enhance polarization</li>
+                </ul>
+
+                <h3 class="subsection-title">2.5 Sustaining Polarization — Preventing Randomization</h3>
+
+                <h4 class="subsubsection-title">Spin-Lattice Relaxation Suppression</h4>
+                <ul>
+                    <li><strong>Temperature optimization</strong>: Operating at temperatures where relaxation times exceed application requirements</li>
+                    <li><strong>Isotopic purification</strong>: Remove quantum accumulator species that facilitate relaxation (e.g., eliminate ¹³C in organic matrices)</li>
+                    <li><strong>Decoupling sequences</strong>: RF pulse sequences to interrupt relaxation pathways</li>
+                    <li><strong>Magic angle spinning</strong>: For certain applications, rotation at 54.7° to average dipolar interactions</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Environmental Control</h4>
+                <div class="neutral-item">
+                    <ul>
+                        <li><strong>Magnetic field stability</strong>: Ultra-stable fields to prevent polarization loss due to field fluctuations</li>
+                        <li><strong>Vibration isolation</strong>: Prevent mechanical perturbations that couple to spin system</li>
+                        <li><strong>Electromagnetic shielding</strong>: Eliminate external RF that could cause relaxation</li>
+                        <li><strong>Chemical environment</strong>: Deuteration and other chemical modifications to extend relaxation times</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Active Polarization Maintenance</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li><strong>Continuous wave irradiation</strong>: Low-power microwave field to maintain polarization</li>
+                        <li><strong>Feedback control</strong>: Real-time monitoring and adjustment of polarization conditions</li>
+                        <li><strong>Polarization replenishment</strong>: Periodic re-polarization cycles to maintain bulk alignment</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">2.6 Directional Control — Controlling Spin Plane Orientation</h3>
+
+                <h4 class="subsubsection-title">Spin Vector Manipulation</h4>
+                <ul>
+                    <li><strong>Multi-axis microwave coils</strong>: Independent control of polarization direction in 3D space</li>
+                    <li><strong>Adiabatic rotation</strong>: Slowly varying field directions to rotate bulk spin alignment</li>
+                    <li><strong>Gradient field techniques</strong>: Spatial field gradients to create different orientations in different sample regions</li>
+                    <li><strong>Pulse sequence programming</strong>: Complex RF sequences for precise spin orientation control</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Real-Time Direction Control</h4>
+                <div class="highlight-box">
+                    <ul>
+                        <li><strong>Fast switching systems</strong>: Rapid reorientation of polarization for dynamic flight control</li>
+                        <li><strong>Phase-controlled arrays</strong>: Multiple coils with phase relationships for beam steering analogies</li>
+                        <li><strong>Feedback stabilization</strong>: Closed-loop control to maintain desired polarization orientation</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SECTION 3: TEST RIG DESIGN -->
+            <section id="testrig" class="section fade-in">
+                <h2 class="section-title">3. Test Rig Design</h2>
+
+                <h3 class="subsection-title">3.1 Laboratory Apparatus for Orbital Radius Change Detection</h3>
+
+                <h4 class="subsubsection-title">Primary Measurement Platform</h4>
+                <div class="highlight-box">
+                    <ul>
+                        <li><strong>Ultra-precise microbalance</strong>: 0.1 microgram resolution (Cahn 1000 series or equivalent)</li>
+                        <li><strong>Vibration isolation table</strong>: Multi-stage pneumatic isolation to eliminate environmental noise</li>
+                        <li><strong>Electromagnetic shielding</strong>: Faraday cage with μ-metal shielding for residual field elimination</li>
+                        <li><strong>Temperature control</strong>: ±0.001K stability to prevent thermal expansion artifacts</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Sample Mounting System</h4>
+                <ul>
+                    <li><strong>Non-magnetic suspension</strong>: Quartz fiber or sapphire wire suspension for bismuth sample</li>
+                    <li><strong>Rotational degrees of freedom</strong>: Allow spin plane orientation changes while maintaining mass measurement</li>
+                    <li><strong>Electrical connectivity</strong>: Non-magnetic leads for sample heating/cooling and field application</li>
+                    <li><strong>Optical access</strong>: Windows for laser-based measurements and optical pumping</li>
+                </ul>
+
+                <h3 class="subsection-title">3.2 High-Precision Mass Measurement Systems</h3>
+
+                <h4 class="subsubsection-title">Microbalance Specifications</h4>
+                <div class="neutral-item">
+                    <ul>
+                        <li><strong>Sensitivity</strong>: 0.1 μg minimum detectable change (sufficient for milligram-scale samples)</li>
+                        <li><strong>Stability</strong>: Long-term drift &lt;1 μg/hour</li>
+                        <li><strong>Response time</strong>: &lt;1 second for dynamic measurements</li>
+                        <li><strong>Capacity</strong>: 50g maximum to accommodate practical sample sizes</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Alternative Mass Measurement Approaches</h4>
+                <ul>
+                    <li><strong>Quartz Crystal Microbalance (QCM)</strong>: Frequency-based mass detection with ng sensitivity</li>
+                    <li><strong>Piezoelectric force sensors</strong>: Direct force measurement with sub-μN resolution</li>
+                    <li><strong>Optical interferometry</strong>: Displacement-based measurement of apparent weight changes</li>
+                    <li><strong>Magnetic levitation force balance</strong>: Non-contact measurement using known reference forces</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Calibration and Reference Systems</h4>
+                <ul>
+                    <li><strong>Traceable mass standards</strong>: NIST-traceable references for absolute calibration</li>
+                    <li><strong>Environmental monitoring</strong>: Continuous tracking of temperature, pressure, humidity effects</li>
+                    <li><strong>Reference samples</strong>: Non-polarizable materials for systematic error detection</li>
+                    <li><strong>Automated calibration cycles</strong>: Periodic re-calibration to maintain accuracy</li>
+                </ul>
+
+                <h3 class="subsection-title">3.3 Environmental Isolation Requirements</h3>
+
+                <h4 class="subsubsection-title">Vibration Control</h4>
+                <ul>
+                    <li><strong>Seismic isolation</strong>: Multi-stage pneumatic isolation tables with &lt;1 Hz cutoff frequency</li>
+                    <li><strong>Acoustic isolation</strong>: Sound-absorbing enclosure to prevent acoustic coupling</li>
+                    <li><strong>Building selection</strong>: Ground floor location away from elevators, HVAC, and foot traffic</li>
+                    <li><strong>Monitoring systems</strong>: Accelerometers to verify isolation performance</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Thermal Isolation</h4>
+                <ul>
+                    <li><strong>Temperature-controlled room</strong>: ±0.1K stability in laboratory environment</li>
+                    <li><strong>Thermal mass</strong>: Large thermal mass around experiment to reduce temperature fluctuations</li>
+                    <li><strong>Air circulation</strong>: Laminar, filtered air flow to prevent thermal gradients</li>
+                    <li><strong>Insulation</strong>: Multi-layer thermal insulation around critical components</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Atmospheric Control</h4>
+                <ul>
+                    <li><strong>Pressure stability</strong>: Barometric pressure monitoring and compensation</li>
+                    <li><strong>Humidity control</strong>: Dehumidification to prevent condensation and corrosion</li>
+                    <li><strong>Gas composition</strong>: Inert atmosphere capability for specialized measurements</li>
+                    <li><strong>Filtration</strong>: HEPA filtration to remove particulate contamination</li>
+                </ul>
+
+                <h3 class="subsection-title">3.4 Spin State Monitoring Instrumentation</h3>
+
+                <h4 class="subsubsection-title">Spin Resonance Spectroscopy (POAMS term for NMR/EPR)</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li><strong>High-field spectrometer</strong>: 9.4T or higher for maximum resolution and sensitivity</li>
+                        <li><strong>Cryogenic probe</strong>: Variable temperature capability from 4K to 300K</li>
+                        <li><strong>Pulse sequence capability</strong>: Complex RF sequences for spin manipulation and measurement</li>
+                        <li><strong>Real-time monitoring</strong>: Continuous polarization state assessment during experiments</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Alternative Spin Monitoring</h4>
+                <ul>
+                    <li><strong>SQUID magnetometry</strong>: Ultra-sensitive measurement of sample spin correlation</li>
+                    <li><strong>Optical detection</strong>: Fluorescence or absorption changes correlated with spin state</li>
+                    <li><strong>Force-detected resonance</strong>: Coupling spin transitions to mechanical force measurements</li>
+                    <li><strong>Quantum sensing</strong>: NV centers or other quantum sensors for spin state readout</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Polarization Quantification</h4>
+                <ul>
+                    <li><strong>Enhancement factor measurement</strong>: Comparison with thermal equilibrium signal levels</li>
+                    <li><strong>Absolute polarization determination</strong>: Calibrated measurements of total spin alignment</li>
+                    <li><strong>Spatial distribution mapping</strong>: Imaging polarization uniformity across sample</li>
+                    <li><strong>Temporal dynamics</strong>: Time-resolved polarization evolution and decay measurements</li>
+                </ul>
+
+                <h3 class="subsection-title">3.5 Power Delivery Systems</h3>
+
+                <h4 class="subsubsection-title">Microwave Systems</h4>
+                <ul>
+                    <li><strong>High-stability sources</strong>: Frequency stability &lt;1 ppm for coherent polarization</li>
+                    <li><strong>Power amplification</strong>: Up to 1kW capability for large sample volumes</li>
+                    <li><strong>Delivery networks</strong>: Low-loss waveguides and coaxial systems</li>
+                    <li><strong>Safety interlocks</strong>: Personnel protection from high-power microwave radiation</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Laser Systems (for optical pumping)</h4>
+                <ul>
+                    <li><strong>Wavelength tuning</strong>: Broad tuning range to match bismuth optical transitions</li>
+                    <li><strong>Power control</strong>: Variable power from mW to W levels with precise control</li>
+                    <li><strong>Beam shaping</strong>: Uniform illumination of entire sample volume</li>
+                    <li><strong>Safety systems</strong>: Laser safety interlocks and beam containment</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Cryogenic Systems</h4>
+                <ul>
+                    <li><strong>Liquid helium systems</strong>: Reliable 4K operation for maximum polarization efficiency</li>
+                    <li><strong>Temperature control</strong>: Precise temperature regulation across 1–300K range</li>
+                    <li><strong>Sample thermometry</strong>: Accurate temperature measurement at sample location</li>
+                    <li><strong>Low-vibration design</strong>: Pulse-tube coolers or other low-vibration cooling methods</li>
+                </ul>
+
+                <h3 class="subsection-title">3.6 Safety Considerations</h3>
+
+                <h4 class="subsubsection-title">Cryogenic Safety</h4>
+                <div class="weakness-item">
+                    <ul>
+                        <li><strong>Oxygen displacement monitoring</strong>: Continuous O₂ level monitoring in laboratory</li>
+                        <li><strong>Pressure relief systems</strong>: Safe venting of cryogen vapor pressure</li>
+                        <li><strong>Personal protective equipment</strong>: Training and equipment for cryogenic handling</li>
+                        <li><strong>Emergency procedures</strong>: Evacuation protocols for cryogenic emergencies</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Microwave Radiation Safety</h4>
+                <div class="weakness-item">
+                    <ul>
+                        <li><strong>Shielding requirements</strong>: Compliance with FCC/OSHA microwave exposure limits</li>
+                        <li><strong>Interlock systems</strong>: Personnel protection from accidental exposure</li>
+                        <li><strong>Monitoring equipment</strong>: Power density measurements in laboratory areas</li>
+                        <li><strong>Training requirements</strong>: Microwave safety training for all personnel</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">High Field Safety</h4>
+                <div class="weakness-item">
+                    <ul>
+                        <li><strong>Magnetic field mapping</strong>: Documentation of field levels throughout laboratory</li>
+                        <li><strong>Pacemaker restrictions</strong>: Personnel screening and access control</li>
+                        <li><strong>Projectile hazards</strong>: Removal of ferromagnetic objects from high-field areas</li>
+                        <li><strong>Quench procedures</strong>: Emergency procedures for superconducting magnet quenches</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SECTION 4: INSTRUMENTATION -->
+            <section id="instrumentation" class="section fade-in">
+                <h2 class="section-title">4. Instrumentation Requirements</h2>
+
+                <h3 class="subsection-title">4.1 Critical Measurements and Methodologies</h3>
+
+                <h4 class="subsubsection-title">Primary Observable: Orbital Radius Change</h4>
+                <div class="highlight-box">
+                    <ul>
+                        <li><strong>Direct measurement</strong>: Apparent weight change detection with μg sensitivity</li>
+                        <li><strong>Relative sensitivity</strong>: 10⁻⁶ fractional weight change detection capability</li>
+                        <li><strong>Temporal resolution</strong>: Sub-second response time for dynamic effects</li>
+                        <li><strong>Systematic error control</strong>: &lt;10⁻⁷ systematic uncertainty in weight measurements</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Secondary Observables</h4>
+                <ul>
+                    <li><strong>Spin polarization state</strong>: Real-time monitoring of bulk spin alignment</li>
+                    <li><strong>Sample temperature</strong>: μK-level thermometry to separate thermal from radius effects</li>
+                    <li><strong>Environmental parameters</strong>: Continuous monitoring of all environmental variables</li>
+                    <li><strong>Control measurements</strong>: Simultaneous measurement of non-polarizable reference samples</li>
+                </ul>
+
+                <h3 class="subsection-title">4.2 Sensitivity Requirements Based on E=mc² Energy Density</h3>
+
+                <h4 class="subsubsection-title">Theoretical Sensitivity Limits</h4>
+                <p class="content-text">
+                    Given the enormous energy density implications of E=mc², even small polarization percentages should produce measurable effects:
+                </p>
+                <div class="formula-box">
+                    1% polarization → For 1g bismuth sample, theoretical weight change ~10 μg<br>
+                    10% polarization → Theoretical weight change ~100 μg (easily measurable)<br>
+                    Experimental threshold → NASA Marshall achieved measurable changes, suggesting &lt;1% bulk polarization
+                </div>
+
+                <h4 class="subsubsection-title">Required Instrumental Sensitivity</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li><strong>Weight measurement</strong>: 0.1 μg resolution (1000× better than theoretical minimum)</li>
+                        <li><strong>Polarization measurement</strong>: 0.01% absolute polarization measurement</li>
+                        <li><strong>Temperature stability</strong>: 1 mK to separate thermal expansion from radius effects</li>
+                        <li><strong>Field stability</strong>: 1 ppm magnetic field stability to maintain polarization</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">4.3 Real-Time Monitoring Systems</h3>
+
+                <h4 class="subsubsection-title">Polarization State Assessment</h4>
+                <ul>
+                    <li><strong>Continuous wave monitoring</strong>: Low-power spin resonance for non-invasive polarization measurement</li>
+                    <li><strong>Pulse sequence measurements</strong>: Periodic accurate polarization quantification</li>
+                    <li><strong>Spatial mapping</strong>: Multi-dimensional polarization distribution assessment</li>
+                    <li><strong>Decay time monitoring</strong>: Real-time tracking of polarization relaxation</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Environmental Monitoring</h4>
+                <div class="neutral-item">
+                    <ul>
+                        <li><strong>Multi-channel data acquisition</strong>: Simultaneous recording of all environmental parameters</li>
+                        <li><strong>High-frequency sampling</strong>: 1 kHz or faster for capturing transient effects</li>
+                        <li><strong>Automated alert systems</strong>: Warnings for parameter excursions beyond acceptable limits</li>
+                        <li><strong>Data logging</strong>: Continuous recording for post-experiment analysis</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">4.4 Spin Correlation Percentage Measurement</h3>
+
+                <h4 class="subsubsection-title">Quantification Methods</h4>
+                <ul>
+                    <li><strong>Signal enhancement factors</strong>: Ratio of polarized to thermal equilibrium signals</li>
+                    <li><strong>Absolute measurement techniques</strong>: Calibrated measurement of total quantum accumulator spin alignment</li>
+                    <li><strong>Statistical analysis</strong>: Error analysis and confidence intervals for polarization measurements</li>
+                    <li><strong>Cross-validation</strong>: Multiple independent measurement methods for verification</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Calibration Standards</h4>
+                <ul>
+                    <li><strong>Reference materials</strong>: Well-characterized samples with known polarization properties</li>
+                    <li><strong>Theoretical calculations</strong>: Ab initio calculations of maximum possible polarization</li>
+                    <li><strong>Historical comparisons</strong>: Benchmarking against published hyperpolarization results</li>
+                    <li><strong>Interlaboratory comparisons</strong>: Validation through measurement at multiple facilities</li>
+                </ul>
+
+                <h3 class="subsection-title">4.5 Detection of Small Radius Changes</h3>
+
+                <h4 class="subsubsection-title">Measurement Approaches</h4>
+                <ul>
+                    <li><strong>Direct gravimetric</strong>: Primary method using ultra-precise mass measurement</li>
+                    <li><strong>Optical interferometry</strong>: Secondary verification through distance measurement changes</li>
+                    <li><strong>Force balance methods</strong>: Alternative force-based measurement approaches</li>
+                    <li><strong>Frequency-based detection</strong>: Using resonance frequency changes of suspended samples</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Signal Processing</h4>
+                <div class="neutral-item">
+                    <ul>
+                        <li><strong>Lock-in detection</strong>: Phase-sensitive measurement to improve signal-to-noise ratio</li>
+                        <li><strong>Digital filtering</strong>: Advanced filtering algorithms to remove systematic noise</li>
+                        <li><strong>Statistical analysis</strong>: Ensemble averaging and uncertainty analysis</li>
+                        <li><strong>Artifact rejection</strong>: Automated identification and removal of measurement artifacts</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SECTION 5: SCALING PATH -->
+            <section id="scaling" class="section fade-in">
+                <h2 class="section-title">5. Scaling Path</h2>
+
+                <h3 class="subsection-title">5.1 From Measurable Weight Change to Zero-Weight Condition</h3>
+
+                <h4 class="subsubsection-title">Current Status Assessment</h4>
+                <div class="highlight-box">
+                    <p class="content-text">
+                        NASA Marshall experiments achieved measurable weight changes in both directions but did not reach zero-weight condition. This suggests:
+                    </p>
+                    <ul>
+                        <li><strong>Achieved polarization</strong>: Estimated 0.1–1% bulk polarization based on observed effects</li>
+                        <li><strong>Required improvement</strong>: 10–100× increase in polarization percentage needed</li>
+                        <li><strong>Mechanism validation</strong>: Proof of principle established, scaling challenge identified</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Systematic Improvement Path</h4>
+                <div class="strength-item">
+                    <ol>
+                        <li><strong>Phase 1</strong>: Reproduce NASA Marshall results with improved measurement precision</li>
+                        <li><strong>Phase 2</strong>: Achieve 5–10% bulk polarization through optimized techniques</li>
+                        <li><strong>Phase 3</strong>: Reach 50%+ polarization using engineered materials and methods</li>
+                        <li><strong>Phase 4</strong>: Demonstrate zero-weight condition with controlled flight</li>
+                    </ol>
+                </div>
+
+                <h3 class="subsection-title">5.2 Estimated Polarization Percentages Needed</h3>
+
+                <h4 class="subsubsection-title">Theoretical Analysis</h4>
+                <p class="content-text">Based on POAMS framework and E=mc² energy density considerations:</p>
+                <ul>
+                    <li><strong>Detectable effect</strong>: 0.01% polarization (demonstrated at NASA Marshall)</li>
+                    <li><strong>Significant levitation</strong>: 1–10% polarization for substantial weight reduction</li>
+                    <li><strong>Zero-weight condition</strong>: 10–50% polarization depending on sample geometry and field uniformity</li>
+                    <li><strong>Controlled flight</strong>: 50%+ polarization with directional control capability</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Material-Specific Targets</h4>
+                <div class="formula-box">
+                    Pure bismuth → 20–30% maximum achievable polarization<br>
+                    Optimized alloys → 40–60% through enhanced hyperfine coupling<br>
+                    Engineered metamaterials → 70–90% through quantum-designed structures<br>
+                    Ultimate theoretical limit → ~95% accounting for thermal fluctuations
+                </div>
+
+                <h3 class="subsection-title">5.3 Power Requirements Analysis</h3>
+
+                <h4 class="subsubsection-title">Current State Systems</h4>
+                <ul>
+                    <li><strong>Laboratory hyperpolarization</strong>: 100mW–1W microwave power for small samples</li>
+                    <li><strong>Cryogenic cooling</strong>: 1–10kW for liquid helium systems</li>
+                    <li><strong>Support systems</strong>: Additional 10kW for environmental control and monitoring</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Scaled System Requirements</h4>
+                <ul>
+                    <li><strong>Large sample polarization</strong>: 1–100kW microwave power for kilogram-scale samples</li>
+                    <li><strong>Room temperature operation</strong>: 100kW–1MW for maintaining high polarization without cryogenics</li>
+                    <li><strong>Vehicle-scale systems</strong>: Multi-MW power for practical flight applications</li>
+                    <li><strong>Efficiency optimization</strong>: Focus on pulsed systems and polarization maintenance rather than continuous generation</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Power Scaling Strategies</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li><strong>Pulsed operation</strong>: High peak power for polarization buildup, low maintenance power</li>
+                        <li><strong>Distributed arrays</strong>: Multiple smaller polarization systems rather than single large system</li>
+                        <li><strong>Energy recovery</strong>: Capture and reuse energy from depolarization processes</li>
+                        <li><strong>Advanced materials</strong>: Higher efficiency polarization transfer mechanisms</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">5.4 Material Volume and Mass Considerations</h3>
+
+                <h4 class="subsubsection-title">Sample Size Scaling</h4>
+                <ul>
+                    <li><strong>Laboratory proof-of-principle</strong>: 1–10g samples for mechanism validation</li>
+                    <li><strong>Engineering demonstration</strong>: 100g–1kg samples for significant levitation effects</li>
+                    <li><strong>Prototype vehicle</strong>: 10–100kg of polarizable material for vehicle-scale demonstration</li>
+                    <li><strong>Production systems</strong>: Ton-scale material processing for practical applications</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Manufacturing Considerations</h4>
+                <div class="neutral-item">
+                    <ul>
+                        <li><strong>Pure bismuth availability</strong>: Current global production ~20,000 tons/year, adequate for research</li>
+                        <li><strong>Specialized alloy production</strong>: Need to develop industrial processes for optimized materials</li>
+                        <li><strong>Quality control</strong>: Maintain polarization-grade purity and crystal structure</li>
+                        <li><strong>Cost optimization</strong>: Reduce material and processing costs for commercial viability</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">5.5 Timeline and Milestones for Systematic Program</h3>
+
+                <div class="book-item">
+                    <div class="book-title">Phase 1: Foundation (Years 1–2)</div>
+                    <ul>
+                        <li>Establish Stanford laboratory facility with all required instrumentation</li>
+                        <li>Reproduce NASA Marshall results with enhanced precision and measurement capability</li>
+                        <li>Demonstrate &gt;1% bulk polarization using optimized conventional techniques</li>
+                        <li>Complete material characterization and process optimization studies</li>
+                    </ul>
+                </div>
+
+                <div class="book-item">
+                    <div class="book-title">Phase 2: Enhancement (Years 2–4)</div>
+                    <ul>
+                        <li>Achieve 5–10% bulk polarization through advanced techniques and materials</li>
+                        <li>Demonstrate measurable levitation effects (significant weight reduction)</li>
+                        <li>Develop room temperature polarization methods for practical applications</li>
+                        <li>Establish automated, repeatable polarization processes</li>
+                    </ul>
+                </div>
+
+                <div class="book-item">
+                    <div class="book-title">Phase 3: Integration (Years 4–6)</div>
+                    <ul>
+                        <li>Scale to larger samples (100g–1kg) maintaining high polarization percentages</li>
+                        <li>Demonstrate directional control and spatial polarization gradient techniques</li>
+                        <li>Achieve zero-weight condition under laboratory conditions</li>
+                        <li>Complete engineering design for vehicle-scale systems</li>
+                    </ul>
+                </div>
+
+                <div class="book-item">
+                    <div class="book-title">Phase 4: Application (Years 6–8)</div>
+                    <ul>
+                        <li>Prototype vehicle-scale demonstration system</li>
+                        <li>Validate controlled flight capability in laboratory environment</li>
+                        <li>Develop commercial applications and manufacturing processes</li>
+                        <li>Technology transfer and intellectual property commercialization</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Milestone Validation Criteria</h4>
+                <div class="highlight-box">
+                    <ul>
+                        <li><strong>Quantitative polarization measurements</strong>: Verified by multiple independent techniques</li>
+                        <li><strong>Reproducible weight changes</strong>: Statistical significance &gt;5σ for all claimed effects</li>
+                        <li><strong>Third-party verification</strong>: Independent replication by at least one other research group</li>
+                        <li><strong>Theoretical consistency</strong>: Experimental results consistent with POAMS framework predictions</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SECTION 6: STANFORD RESOURCES -->
+            <section id="stanford" class="section fade-in">
+                <h2 class="section-title">6. Stanford Resources</h2>
+
+                <h3 class="subsection-title">6.1 Relevant Departments and Laboratories</h3>
+
+                <div class="book-item">
+                    <div class="book-title">Q-FARM (Stanford Quantum Fundamentals, ARchitecture and Machines)</div>
+                    <ul>
+                        <li><strong>Mission</strong>: Collaboration of quantum science and engineering researchers across Stanford and SLAC</li>
+                        <li><strong>Relevant expertise</strong>: Quantum computing, quantum materials, quantum sensing</li>
+                        <li><strong>Location</strong>: Physics and Astrophysics Building 452 Lomita Mall PAB 102/103</li>
+                        <li><strong>Faculty</strong>: 50+ faculty across multiple departments working on quantum technologies</li>
+                        <li><strong>Equipment access</strong>: State-of-the-art quantum measurement and control systems</li>
+                    </ul>
+                </div>
+
+                <div class="book-item">
+                    <div class="book-title">Materials Science and Engineering Department</div>
+                    <ul>
+                        <li><strong>Specialized facilities</strong>: Crystal growth, materials characterization, thin film deposition</li>
+                        <li><strong>Relevant faculty</strong>: Materials synthesis, magnetic materials, quantum materials research</li>
+                        <li><strong>Equipment</strong>: X-ray diffraction, electron microscopy, materials processing equipment</li>
+                        <li><strong>Location</strong>: William F. Durand Building 496 Lomita Mall</li>
+                    </ul>
+                </div>
+
+                <div class="book-item">
+                    <div class="book-title">Stanford Magnetic Resonance Laboratory (SMRL)</div>
+                    <ul>
+                        <li><strong>Director</strong>: Prof. Jody Puglisi</li>
+                        <li><strong>Capabilities</strong>: High-field spin resonance spectroscopy, solution and solid-state measurements</li>
+                        <li><strong>Equipment</strong>: Multiple high-field spectrometers, including systems optimized for solids</li>
+                        <li><strong>Location</strong>: Stanford University School of Medicine</li>
+                        <li><strong>Expertise</strong>: Advanced spin manipulation and measurement techniques</li>
+                    </ul>
+                </div>
+
+                <div class="book-item">
+                    <div class="book-title">Ginzton Laboratory</div>
+                    <ul>
+                        <li><strong>Focus</strong>: Interdisciplinary research in quantum science, photonic science, and nanoscience</li>
+                        <li><strong>Capabilities</strong>: Laser systems, optical measurement, quantum optics</li>
+                        <li><strong>Relevance</strong>: Optical pumping systems and precision optical measurements</li>
+                        <li><strong>Equipment</strong>: Broad range of laser systems and optical measurement equipment</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">6.2 Specific Equipment and Capabilities Available</h3>
+
+                <h4 class="subsubsection-title">High-Field Magnetometry</h4>
+                <ul>
+                    <li><strong>SQUID magnetometers</strong>: Ultra-sensitive measurements of sample spin correlation</li>
+                    <li><strong>Vibrating sample magnetometry</strong>: Characterization of bulk material properties</li>
+                    <li><strong>Precision force measurement</strong>: Systems capable of sub-μN force detection</li>
+                    <li><strong>Cryogenic systems</strong>: Extensive liquid helium and liquid nitrogen facilities</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Spin Resonance Systems</h4>
+                <ul>
+                    <li><strong>High-field spectrometers</strong>: Systems operating up to 23T (1 GHz proton frequency)</li>
+                    <li><strong>Variable temperature capability</strong>: 4K to 400K operation range</li>
+                    <li><strong>Solid-state probes</strong>: Specialized hardware for bismuth and other solid samples</li>
+                    <li><strong>Pulse sequence capability</strong>: Advanced RF control for complex spin manipulation</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Materials Processing</h4>
+                <ul>
+                    <li><strong>Crystal growth facilities</strong>: Capabilities for growing high-quality single crystals</li>
+                    <li><strong>Thin film deposition</strong>: Sputtering, MBE, and other deposition techniques</li>
+                    <li><strong>Materials characterization</strong>: Complete suite of structural and property measurement tools</li>
+                    <li><strong>Clean room facilities</strong>: Controlled environment processing for sensitive materials</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Precision Measurement Systems</h4>
+                <ul>
+                    <li><strong>Ultra-high vacuum systems</strong>: Background pressures below 10⁻¹⁰ torr</li>
+                    <li><strong>Vibration isolation</strong>: Commercial and custom isolation systems</li>
+                    <li><strong>Environmental control</strong>: Precision temperature, humidity, and pressure control</li>
+                    <li><strong>Data acquisition</strong>: High-speed, high-resolution measurement systems</li>
+                </ul>
+
+                <h3 class="subsection-title">6.3 Faculty Expertise Areas Aligned with Program</h3>
+
+                <h4 class="subsubsection-title">Quantum Materials and Magnetism</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li><strong>Prof. Srinivasa Raghu</strong>: Theoretical condensed matter physics, quantum materials</li>
+                        <li><strong>Prof. Ian Fisher</strong>: Experimental condensed matter, quantum materials synthesis</li>
+                        <li><strong>Prof. Aharon Kapitulnik</strong>: Quantum materials, precision measurements, novel magnetic phases</li>
+                        <li><strong>Prof. Steven Kivelson</strong>: Theoretical quantum many-body physics</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Precision Measurements and Instrumentation</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li><strong>Prof. Mark Kasevich</strong>: Atomic interferometry, precision measurements, quantum sensors</li>
+                        <li><strong>Prof. Peter Graham</strong>: Theoretical physics, fundamental symmetries, precision tests</li>
+                        <li><strong>Prof. Surjeet Rajendran</strong>: Dark matter detection, precision measurements, quantum technologies</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Materials Science and Engineering</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li><strong>Prof. Jennifer Dionne</strong>: Nanoscale materials, optical properties, quantum materials</li>
+                        <li><strong>Prof. Paul McIntyre</strong>: Electronic materials, crystal growth, materials processing</li>
+                        <li><strong>Prof. William Nix</strong>: Materials mechanical properties, precision measurement techniques</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Quantum Computing and Control</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li><strong>Prof. Jelena Vuckovic</strong>: Nanoscale quantum photonics, quantum information processing</li>
+                        <li><strong>Prof. Hideo Mabuchi</strong>: Quantum feedback control, quantum measurement theory</li>
+                        <li><strong>Prof. Shanhui Fan</strong>: Theoretical nanophotonics, quantum optics</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">6.4 Framing Research for Academic Collaboration</h3>
+
+                <h4 class="subsubsection-title">POAMS-Compatible Research Directions</h4>
+                <div class="highlight-box">
+                    <ul>
+                        <li><strong>"Novel Spin-Orbit Coupling Effects in Heavy Element Systems"</strong>: Academic framing that avoids controversial physics claims while investigating bismuth spin properties</li>
+                        <li><strong>"Precision Magnetometry Using Bulk Spin Hyperpolarization"</strong>: Focus on measurement technique development</li>
+                        <li><strong>"Quantum-Enhanced Sensors Using Collective Spin States"</strong>: Quantum sensing applications of hyperpolarized materials</li>
+                        <li><strong>"Materials Engineering for Enhanced Hyperpolarization"</strong>: Materials science focus on optimizing polarization properties</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Collaborative Research Proposals</h4>
+                <ul>
+                    <li><strong>NSF Quantum Sensing</strong>: Leverage quantum sensing funding opportunities for precision measurement development</li>
+                    <li><strong>DOE Basic Energy Sciences</strong>: Materials research funding for novel quantum materials</li>
+                    <li><strong>DARPA Quantum Programs</strong>: Defense applications of quantum-enhanced sensing and materials</li>
+                    <li><strong>Industry partnerships</strong>: Collaborate with quantum technology companies for equipment and expertise</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Publication Strategy</h4>
+                <div class="neutral-item">
+                    <ul>
+                        <li><strong>Incremental disclosure</strong>: Publish materials and measurement results without full theoretical framework initially</li>
+                        <li><strong>Focus on measurements</strong>: Emphasize experimental results rather than theoretical implications</li>
+                        <li><strong>Technology development</strong>: Frame as enabling technology for other applications</li>
+                        <li><strong>Cross-disciplinary approach</strong>: Collaborate across multiple departments to build broader support</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">6.5 Stanford Research Park Industrial Connections</h3>
+
+                <h4 class="subsubsection-title">Quantum Technology Companies</h4>
+                <ul>
+                    <li><strong>Rigetti Computing</strong>: Quantum computing hardware, access to quantum control systems</li>
+                    <li><strong>IonQ</strong>: Trapped ion quantum systems, precision measurement techniques</li>
+                    <li><strong>Atom Computing</strong>: Atomic quantum systems, laser and control technology</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Precision Instrumentation</h4>
+                <ul>
+                    <li><strong>Keysight Technologies</strong>: High-frequency electronics, precision measurement instruments</li>
+                    <li><strong>Hewlett Packard Enterprise</strong>: High-performance computing, data analysis capabilities</li>
+                    <li><strong>Applied Materials</strong>: Materials processing and characterization equipment</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Materials and Manufacturing</h4>
+                <ul>
+                    <li><strong>Intel</strong>: Semiconductor processing, materials characterization, fabrication capabilities</li>
+                    <li><strong>Google Research</strong>: Materials research, quantum computing applications</li>
+                    <li><strong>Various startups</strong>: Access to specialized equipment and expertise through Stanford connections</li>
+                </ul>
+            </section>
+
+            <!-- SECTION 7: PRIOR ART -->
+            <section id="priorart" class="section fade-in">
+                <h2 class="section-title">7. Prior Art and Related Work (POAMS Framework)</h2>
+
+                <h3 class="subsection-title">7.1 Hayasaka-Takeuchi Experiments — Spin Correlation Effects</h3>
+
+                <h4 class="subsubsection-title">Experimental Observations (POAMS Reinterpretation)</h4>
+                <p class="content-text">
+                    The Hayasaka-Takeuchi experiments (Physical Review Letters, 1989) demonstrated measurable weight changes in spinning gyroscopes, with effects that are entirely consistent with the POAMS framework:
+                </p>
+                <div class="highlight-box">
+                    <ul>
+                        <li><strong>Asymmetric effects</strong>: Right-hand rotation (spin vector downward) caused weight decreases of several milligrams</li>
+                        <li><strong>Frequency dependence</strong>: Effects proportional to rotation frequency (3,000–13,000 RPM)</li>
+                        <li><strong>Magnitude</strong>: 5×10⁻⁵ fractional weight changes, consistent with partial quantum accumulator alignment</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">POAMS Explanation</h4>
+                <div class="strength-item">
+                    <p class="content-text">
+                        Contrary to the conventional interpretation attempting to invoke "gravitational effects," the Hayasaka experiments demonstrate <strong>partial alignment of atomic quantum accumulator spins due to macroscopic rotation</strong>:
+                    </p>
+                    <ol>
+                        <li><strong>Macroscopic rotation</strong> → <strong>Barnett effect</strong> → <strong>bulk alignment of atomic spins</strong></li>
+                        <li><strong>Increased total spin angular momentum</strong> → <strong>conservation requires orbital radius change</strong></li>
+                        <li><strong>Radius change</strong> → <strong>apparent weight change</strong> (not gravitational modification)</li>
+                    </ol>
+                    <p class="content-text">
+                        The asymmetric nature (only right-hand rotation effective) suggests <strong>constructive interference</strong> between Earth's angular momentum and sample rotation for specific spin orientations.
+                    </p>
+                </div>
+
+                <h4 class="subsubsection-title">Replication Status</h4>
+                <ul>
+                    <li><strong>Quinn and Picard (1990)</strong>: Found 5% of Hayasaka's effect, likely due to insufficient rotational speed or sample mass</li>
+                    <li><strong>Multiple attempts</strong>: Various replication efforts with mixed results, suggesting technique sensitivity</li>
+                    <li><strong>POAMS prediction</strong>: Effect should be reproducible with proper attention to sample composition and spin coherence</li>
+                </ul>
+
+                <h3 class="subsection-title">7.2 Einstein-de Haas Effect — Spin Correlation ↔ Torque Equivalence</h3>
+
+                <h4 class="subsubsection-title">Historical Significance (POAMS Framework)</h4>
+                <p class="content-text">
+                    The Einstein-de Haas effect provides fundamental experimental proof that <strong>spin correlation and mechanical torque are equivalent manifestations of angular momentum conservation</strong>.
+                </p>
+
+                <div class="neutral-item">
+                    <strong>Classical Interpretation Problems:</strong>
+                    <ul>
+                        <li>Conventional physics treats this as "electromagnetic field" interacting with "magnetic moments"</li>
+                        <li>Creates unnecessary conceptual complexity and metaphysical assumptions about "fields"</li>
+                    </ul>
+                </div>
+
+                <div class="strength-item">
+                    <strong>POAMS Understanding:</strong>
+                    <ul>
+                        <li><strong>Direct demonstration</strong>: Spin angular momentum ↔ mechanical angular momentum equivalence</li>
+                        <li><strong>No fields required</strong>: Angular momentum conservation operates instantaneously without mediation</li>
+                        <li><strong>Gyromagnetic ratio measurements</strong>: Confirm that atomic spin properties determine bulk mechanical response</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Engineering Implications</h4>
+                <ul>
+                    <li><strong>Torque generation</strong>: Controlled spin alignment can generate mechanical torques for attitude control</li>
+                    <li><strong>Angular momentum storage</strong>: Bulk spin states represent distributed angular momentum storage</li>
+                    <li><strong>Scaling relationships</strong>: Laboratory demonstrations scale to bulk material applications</li>
+                </ul>
+
+                <h3 class="subsection-title">7.3 Barnett Effect — Rotation → Spin Correlation</h3>
+
+                <p class="content-text">The Barnett effect shows the inverse relationship: <strong>mechanical rotation induces bulk spin correlation</strong>:</p>
+
+                <h4 class="subsubsection-title">Mechanism (POAMS Terms)</h4>
+                <ol>
+                    <li><strong>Sample rotation</strong> → <strong>reference frame effects on quantum accumulator spins</strong></li>
+                    <li><strong>Preferential population</strong> of certain spin states due to rotation</li>
+                    <li><strong>Bulk spin correlation development</strong> → detectable as sample-wide spin alignment</li>
+                </ol>
+
+                <h4 class="subsubsection-title">Applications to POAMS Engineering</h4>
+                <ul>
+                    <li><strong>Spin preparation technique</strong>: Mechanical rotation as alternative to microwave/optical methods</li>
+                    <li><strong>Feedback control</strong>: Rotation-induced spin changes for system stabilization</li>
+                    <li><strong>Hybrid approaches</strong>: Combine rotation with other polarization techniques for enhanced efficiency</li>
+                </ul>
+
+                <h3 class="subsection-title">7.4 Dynamic Spin Orientation (Jefferies Method) — POAMS Applications</h3>
+
+                <p class="content-text">
+                    C.D. Jeffries developed techniques for <strong>dynamic orientation of quantum accumulator spins</strong> in semiconductors, providing crucial methods applicable to POAMS engineering:
+                </p>
+
+                <h4 class="subsubsection-title">Key Techniques (POAMS Adapted)</h4>
+                <ul>
+                    <li><strong>Optical pumping with circularly polarized light</strong>: Selective population of specific quantum accumulator spin states</li>
+                    <li><strong>Cross-relaxation processes</strong>: Coupling between different spin species for enhanced polarization transfer</li>
+                    <li><strong>Dynamic decoupling</strong>: Pulse sequences to maintain spin alignment against environmental relaxation</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Bismuth Applications</h4>
+                <ul>
+                    <li><strong>Direct optical pumping</strong>: Adapt Jeffries techniques to bismuth electronic transitions</li>
+                    <li><strong>Indirect pumping</strong>: Use intermediate species to transfer polarization to bismuth quantum accumulators</li>
+                    <li><strong>Pulse sequence optimization</strong>: Develop bismuth-specific protocols for maximum efficiency</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Engineering Advantages</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li><strong>Room temperature operation</strong>: Optical methods can work without cryogenic cooling</li>
+                        <li><strong>Rapid switching</strong>: Fast optical control enables dynamic polarization direction changes</li>
+                        <li><strong>Spatial control</strong>: Laser beam shaping for spatially selective polarization</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">7.5 Contemporary Hyperpolarization Research — POAMS Context</h3>
+
+                <h4 class="subsubsection-title">Bulk Hyperpolarization</h4>
+                <div class="highlight-box">
+                    <ul>
+                        <li><strong>34% polarization</strong> in bulk samples at room temperature (&gt;10¹⁹ spins aligned)</li>
+                        <li><strong>250,000× enhancement</strong> over thermal equilibrium</li>
+                        <li><strong>Photo-excited triplet state methods</strong>: Using optical excitation rather than cryogenic cooling</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Technical Developments</h4>
+                <ul>
+                    <li><strong>Dissolution dynamic spin resonance</strong>: Rapid transfer of hyperpolarized samples to measurement conditions</li>
+                    <li><strong>Cross-polarization techniques</strong>: Efficient transfer between different quantum accumulator species</li>
+                    <li><strong>Real-time monitoring</strong>: Continuous assessment of polarization state during experiments</li>
+                </ul>
+
+                <h4 class="subsubsection-title">POAMS Applications</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li><strong>Proven feasibility</strong>: Bulk hyperpolarization is not only possible but routinely achieved</li>
+                        <li><strong>Room temperature operation</strong>: Removes cryogenic requirements for practical applications</li>
+                        <li><strong>Scaling demonstrated</strong>: Methods work with substantial material quantities</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">7.6 Precision Force Measurement Technology</h3>
+
+                <h4 class="subsubsection-title">Microbalance Technology</h4>
+                <ul>
+                    <li><strong>0.1 μg resolution</strong>: Easily detects milligram-scale weight changes predicted by POAMS</li>
+                    <li><strong>Long-term stability</strong>: Hours of stable measurement at required precision</li>
+                    <li><strong>Environmental control</strong>: Proven methods for eliminating systematic errors</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Alternative Approaches</h4>
+                <ul>
+                    <li><strong>Quartz crystal microbalance</strong>: Nanogram sensitivity through frequency measurements</li>
+                    <li><strong>Optical interferometry</strong>: Direct measurement of dimensional changes from radius effects</li>
+                    <li><strong>Levitation-based methods</strong>: Force measurement through controlled levitation systems</li>
+                </ul>
+
+                <h3 class="subsection-title">7.7 Contemporary "Anomalous" Effects — POAMS Consistency</h3>
+
+                <h4 class="subsubsection-title">EmDrive and Related Claims</h4>
+                <p class="content-text">Various reported "anomalous propulsion" effects gain coherent explanation within POAMS framework:</p>
+
+                <div class="neutral-item">
+                    <strong>POAMS Analysis:</strong>
+                    <ul>
+                        <li><strong>Microwave cavity effects</strong>: Partial alignment of quantum accumulator spins in cavity walls</li>
+                        <li><strong>Asymmetric geometries</strong>: Create preferential spin orientations leading to bulk effects</li>
+                        <li><strong>Small force observations</strong>: Consistent with low-level spin polarization in conventional materials</li>
+                    </ul>
+                </div>
+
+                <div class="strength-item">
+                    <strong>Lessons for Engineering:</strong>
+                    <ul>
+                        <li><strong>Material optimization</strong>: Purpose-designed materials will show much larger effects than accidental configurations</li>
+                        <li><strong>Systematic approach</strong>: Deliberate spin polarization rather than accidental alignment</li>
+                        <li><strong>Measurement techniques</strong>: Proper measurement methods separate real effects from artifacts</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SECTION 8: EXPERIMENTAL VALIDATION -->
+            <section id="validation" class="section fade-in">
+                <h2 class="section-title">8. Experimental Validation Program</h2>
+
+                <h3 class="subsection-title">8.1 Immediate Objectives (Phase 1: 6 months)</h3>
+
+                <h4 class="subsubsection-title">Facility Establishment</h4>
+                <ul>
+                    <li><strong>Laboratory setup</strong>: Complete installation of precision measurement systems at Stanford</li>
+                    <li><strong>Personnel training</strong>: Staff training on POAMS framework and measurement techniques</li>
+                    <li><strong>Baseline measurements</strong>: Characterize all systematic effects and noise sources</li>
+                    <li><strong>Material procurement</strong>: Obtain high-purity bismuth and reference materials</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Proof of Principle Experiments</h4>
+                <div class="highlight-box">
+                    <ul>
+                        <li><strong>Reproduce NASA Marshall results</strong>: Validate measurable weight changes in bismuth samples</li>
+                        <li><strong>Measurement precision enhancement</strong>: Achieve 10× improvement in measurement sensitivity</li>
+                        <li><strong>Systematic error elimination</strong>: Identify and eliminate all non-POAMS sources of apparent weight change</li>
+                        <li><strong>Spin state correlation</strong>: Demonstrate correlation between spin polarization and weight changes</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">8.2 Advanced Technique Development (Phase 2: 12 months)</h3>
+
+                <h4 class="subsubsection-title">Polarization Enhancement</h4>
+                <ul>
+                    <li><strong>Advanced DNP techniques</strong>: Implement state-of-art hyperpolarization methods for bismuth</li>
+                    <li><strong>Room temperature methods</strong>: Develop techniques that don't require cryogenic cooling</li>
+                    <li><strong>Optical pumping integration</strong>: Combine microwave and optical techniques for maximum efficiency</li>
+                    <li><strong>Material optimization</strong>: Test bismuth alloys and engineered materials</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Measurement System Enhancement</h4>
+                <div class="neutral-item">
+                    <ul>
+                        <li><strong>Real-time monitoring</strong>: Continuous measurement of both spin state and apparent weight</li>
+                        <li><strong>Multi-parameter correlation</strong>: Simultaneous monitoring of all relevant experimental variables</li>
+                        <li><strong>Statistical analysis</strong>: Rigorous statistical treatment of all measurements</li>
+                        <li><strong>Third-party verification</strong>: Independent verification of measurements by outside groups</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">8.3 Scale-Up and Optimization (Phase 3: 18 months)</h3>
+
+                <h4 class="subsubsection-title">Larger Sample Studies</h4>
+                <ul>
+                    <li><strong>Mass scaling</strong>: Demonstrate effects in 100g+ samples while maintaining high polarization</li>
+                    <li><strong>Geometric optimization</strong>: Test different sample shapes and configurations</li>
+                    <li><strong>Multi-sample systems</strong>: Investigate coherent effects between multiple polarized samples</li>
+                    <li><strong>Directional control</strong>: Demonstrate controlled orientation of spin-induced forces</li>
+                </ul>
+
+                <h4 class="subsubsection-title">Engineering Development</h4>
+                <ul>
+                    <li><strong>Automated systems</strong>: Develop automated polarization and measurement systems</li>
+                    <li><strong>Process optimization</strong>: Optimize all aspects for reliability and repeatability</li>
+                    <li><strong>Cost analysis</strong>: Complete cost analysis for larger-scale implementation</li>
+                    <li><strong>Safety protocols</strong>: Develop comprehensive safety procedures for larger systems</li>
+                </ul>
+
+                <h3 class="subsection-title">8.4 Practical Demonstration (Phase 4: 24 months)</h3>
+
+                <h4 class="subsubsection-title">Zero-Weight Achievement</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li><strong>Complete weight cancellation</strong>: Demonstrate samples with zero apparent weight</li>
+                        <li><strong>Controlled levitation</strong>: Stable levitation with position control</li>
+                        <li><strong>Flight demonstration</strong>: Controlled horizontal motion of levitated objects</li>
+                        <li><strong>Load carrying</strong>: Levitation of objects attached to polarized bismuth</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Technology Transfer</h4>
+                <ul>
+                    <li><strong>Patent applications</strong>: Comprehensive intellectual property protection</li>
+                    <li><strong>Commercial partnerships</strong>: Establish relationships with potential commercial partners</li>
+                    <li><strong>Manufacturing scale-up</strong>: Develop processes for larger-scale production</li>
+                    <li><strong>Applications development</strong>: Identify and develop specific commercial applications</li>
+                </ul>
+            </section>
+
+            <!-- SECTION 9: RISK ASSESSMENT -->
+            <section id="risk" class="section fade-in">
+                <h2 class="section-title">9. Risk Assessment and Mitigation</h2>
+
+                <h3 class="subsection-title">9.1 Technical Risks</h3>
+
+                <div class="weakness-item">
+                    <strong>Polarization Achievement Risk</strong>
+                    <ul>
+                        <li><strong>Risk</strong>: Unable to achieve sufficient polarization percentages for zero-weight condition</li>
+                        <li><strong>Mitigation</strong>: Multiple polarization techniques, engineered materials, systematic optimization</li>
+                        <li><strong>Fallback</strong>: Even partial success enables valuable sensing and measurement applications</li>
+                    </ul>
+                </div>
+
+                <div class="weakness-item">
+                    <strong>Material Properties Risk</strong>
+                    <ul>
+                        <li><strong>Risk</strong>: Bismuth materials properties inadequate for sustained high polarization</li>
+                        <li><strong>Mitigation</strong>: Comprehensive materials testing, alternative element investigation, alloy development</li>
+                        <li><strong>Fallback</strong>: Other high-spin elements available if bismuth proves inadequate</li>
+                    </ul>
+                </div>
+
+                <div class="weakness-item">
+                    <strong>Measurement Precision Risk</strong>
+                    <ul>
+                        <li><strong>Risk</strong>: Environmental noise prevents detection of small orbital radius changes</li>
+                        <li><strong>Mitigation</strong>: Advanced isolation techniques, multiple measurement methods, statistical analysis</li>
+                        <li><strong>Fallback</strong>: Larger samples or higher polarizations to increase signal-to-noise ratio</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">9.2 Scientific Acceptance Risks</h3>
+
+                <div class="neutral-item">
+                    <strong>Paradigm Resistance Risk</strong>
+                    <ul>
+                        <li><strong>Risk</strong>: Scientific community rejection based on challenge to conventional physics</li>
+                        <li><strong>Mitigation</strong>: Incremental disclosure, focus on measurements rather than theory, collaboration with respected institutions</li>
+                        <li><strong>Approach</strong>: Frame as advanced materials research and precision measurement technique development</li>
+                    </ul>
+                </div>
+
+                <div class="neutral-item">
+                    <strong>Publication Challenges</strong>
+                    <ul>
+                        <li><strong>Risk</strong>: Difficulty publishing results in conventional physics journals</li>
+                        <li><strong>Mitigation</strong>: Target materials science and engineering journals, emphasize applications</li>
+                        <li><strong>Strategy</strong>: Build credibility through conventional measurements before introducing POAMS interpretations</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">9.3 Commercialization Risks</h3>
+
+                <div class="neutral-item">
+                    <strong>Market Acceptance Risk</strong>
+                    <ul>
+                        <li><strong>Risk</strong>: Market resistance to revolutionary technology</li>
+                        <li><strong>Mitigation</strong>: Focus on high-value applications, demonstrate clear advantages, incremental market entry</li>
+                        <li><strong>Strategy</strong>: Target aerospace and defense markets first, where performance advantages justify costs</li>
+                    </ul>
+                </div>
+
+                <div class="neutral-item">
+                    <strong>Regulatory Challenges</strong>
+                    <ul>
+                        <li><strong>Risk</strong>: Regulatory barriers to new propulsion technologies</li>
+                        <li><strong>Mitigation</strong>: Early engagement with regulatory bodies, safety-first approach, comprehensive testing</li>
+                        <li><strong>Approach</strong>: Work within existing frameworks while demonstrating safety and control</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SECTION 10: MEMS PHASE ROTATION PROTOTYPE -->
+            <section id="mems-prototype" class="section fade-in">
+                <h2 class="section-title">10. MEMS Phase Rotation Prototype</h2>
+
+                <p class="content-text">
+                    This section details a MEMS-based prototype designed to detect inertial and temporal effects arising from internal angular momentum phase cycling—rotation without classical motion. The core hypothesis: a closed, internally rotating MEMS system maintaining zero net angular momentum can produce measurable deviations in mass, timebase, or inertial response due to relational phase shifts alone.
+                </p>
+
+                <h3 class="subsection-title">10.1 Theoretical Foundation: Complex Phase Rotation as Physical Operation</h3>
+
+                <p class="content-text">
+                    The mathematical expression 2<sup>i</sup> = e<sup>(i ln 2)</sup> ≈ 0.7682 + 0.6400i yields a point on the unit circle in the complex plane. The modulus |2<sup>i</sup>| = |e<sup>(i ln 2)</sup>| = 1 — this is pure phase rotation with no amplitude change. The angle θ = ln 2 ≈ 0.6931 radians determines where the rotation lands on the unit circle.
+                </p>
+
+                <p class="content-text">
+                    Within the POAMS framework, this is not mathematical abstraction. Complex exponentiation IS the fundamental operation of angular momentum evolution. Euler's formula e<sup>(ix)</sup> = cos(x) + i sin(x) maps directly to physical phase states — every point on the unit circle represents a real configuration of a phase-coherent angular system.
+                </p>
+
+                <p class="content-text">
+                    The derivative d/dx(e<sup>(ix)</sup>) = i·e<sup>(ix)</sup> is orthogonal to the function itself. This means the exponential of an imaginary number describes rotation at constant speed, not motion in a direction. Multiplying by e<sup>(iθ)</sup> is mathematically equivalent to rotating a vector by angle θ — and in POAMS, this rotation is ontologically real.
+                </p>
+
+                <div class="highlight-box">
+                    <p class="content-text">
+                        <strong>Rotation without motion</strong> — this is the key concept. Phase evolution accumulates without classical displacement. In quantum mechanics, a wavefunction accumulates phase as it evolves: ψ(t) = e<sup>(−iEt/ℏ)</sup>ψ(0). This is rotation in complex space with no classical motion, yet it drives interference, resonance, and all observable phenomena. What changes is not position in space but the relation between phase states.
+                    </p>
+                    <p class="content-text">
+                        The expression a<sup>i</sup> (for any real a &gt; 0) always lies on the unit circle — it is purely a rotation, a phase shift, not a scaling. In POAMS terms, this represents a shift in action without energy or force — a purely geometric transformation in complex phase space with direct consequences for resonance and interference.
+                    </p>
+                </div>
+
+                <h3 class="subsection-title">10.2 Machian Interpretation</h3>
+
+                <p class="content-text">
+                    Angular momentum is not merely L = r × p. More fundamentally, it is action per angle: <strong>L = dS/dθ</strong>. If action (harmonic accumulation) is the primitive quantity, then angular momentum is the conserved currency of cyclic processes. All observable dynamics — inertia, mass, energy, time — emerge from phase-coherent angular relations between systems. This reverses Newtonian assumptions: conserved angular momentum, not force or mass, is the primitive.
+                </p>
+
+                <div class="strength-item">
+                    <p><strong>Key principles of the Machian interpretation:</strong></p>
+                    <ul>
+                        <li><strong>No fields needed</strong> — only phase coherence between systems. Gravitational and electromagnetic "fields" are bookkeeping conveniences for misunderstood relational exchanges.</li>
+                        <li><strong>Linear momentum is derivative of rotational phase gradients</strong> — force fields are fictions masking relational phase exchanges.</li>
+                        <li><strong>"Motion" is change in relational phase between oscillatory systems</strong> — not objects traveling through a substrate. Everything is rotation; straight-line motion is a projected arc from a larger cycle.</li>
+                        <li><strong>Energy is rate of angular exchange</strong> — action per cycle, not scalar field values.</li>
+                        <li><strong>Rotation doesn't require an axis in space</strong> — just a change in relational phase. Phase evolution in complex space represents a relational shift in stored angular momentum.</li>
+                    </ul>
+                </div>
+
+                <div class="neutral-item">
+                    <p>This framework is radical but testable. By designing a system where net torque and linear motion are zero but internal phase varies, we isolate pure geometric rotation in action space. No classical theory predicts a measurable change in inertia, time, or weight in such a setup. If we observe one, we have exposed hidden structure in the conserved symmetries.</p>
+                </div>
+
+                <h3 class="subsection-title">10.3 MEMS Prototype Architecture</h3>
+
+                <h4 class="subsubsection-title">A. Counter-Rotating MEMS Disks</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li>Two ultra-light silicon disks, each 100–500 μm in diameter, ~10 μm thickness</li>
+                        <li>Material: polysilicon or silicon carbide (SiC) for high-Q mechanical properties</li>
+                        <li>Mounted on independent spindles using electrostatic or piezoelectric actuation</li>
+                        <li>Capable of matched spin at ±Ω (10⁴–10⁶ RPM) and phase modulation of one rotor relative to the other</li>
+                        <li><strong>Goal</strong>: Maintain zero net angular momentum while modulating internal phase difference</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">B. Phase-Modulated Actuation</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li>Voltage-controlled drive to modulate phase offset between rotors without applying net torque</li>
+                        <li>Programmable cycling profiles: sinusoidal, stepwise, or swept phase changes over time</li>
+                        <li>Electrostatic (capacitive) drive for high-frequency response, piezoelectric option for higher torque at lower frequencies</li>
+                        <li><strong>Goal</strong>: Cycle internal action without changing net motion — rotation without torque</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">C. Measurement Subsystems</h4>
+
+                <p class="content-text"><strong>i. Mass / Inertia Detection (Inertial Balance Platform)</strong></p>
+                <div class="neutral-item">
+                    <ul>
+                        <li>MEMS assembly suspended on high-Q balance arm (flexure or cantilever)</li>
+                        <li>Nanogram-sensitive resolution (&lt; 1 ng)</li>
+                        <li>External laser vibrometer or interferometer to detect mass shift-like behavior</li>
+                        <li>Optional: entire unit mounted on torsion pendulum for inertial response measurement</li>
+                    </ul>
+                </div>
+
+                <p class="content-text"><strong>ii. Clock Phase Shift Detection (Proper Time Proxy)</strong></p>
+                <div class="neutral-item">
+                    <ul>
+                        <li>Onboard MEMS oscillator (reference crystal or vibrating beam)</li>
+                        <li>Monitor for frequency drift or phase lag correlated to spin phase cycling</li>
+                        <li>External reference: rubidium clock or GPS-derived synchronization</li>
+                        <li>Time resolution: &lt; 1 ppm required for clock drift detection</li>
+                    </ul>
+                </div>
+
+                <p class="content-text"><strong>iii. Laser Interferometry</strong></p>
+                <div class="neutral-item">
+                    <ul>
+                        <li>Detect angular or positional shifts at femtometer scale</li>
+                        <li>Monitor rotor phase directly and detect any anomalous displacement of the assembly</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">D. Environmental Isolation</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li><strong>UHV vacuum chamber</strong> (&lt; 10⁻⁶ torr) — eliminates atmospheric coupling and acoustic interference</li>
+                        <li><strong>Thermally stabilized baseplate</strong> — prevents thermal drift from contaminating measurements</li>
+                        <li><strong>Faraday cage shielding</strong> — decouples electromagnetic interference from phase measurements</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">10.4 Experimental Protocol</h3>
+
+                <h4 class="subsubsection-title">Phase 1: Calibration</h4>
+                <div class="neutral-item">
+                    <ol>
+                        <li>Spin both rotors at ±Ω with static phase offset (0°)</li>
+                        <li>Record baseline measurements: mass, oscillator frequency, noise floor across all instruments</li>
+                        <li>Characterize thermal drift, mechanical resonances, and electromagnetic background</li>
+                    </ol>
+                </div>
+
+                <h4 class="subsubsection-title">Phase 2: Phase Cycling Protocol</h4>
+                <div class="neutral-item">
+                    <ol>
+                        <li>Modulate phase of one rotor relative to the other through controlled sweep (0°–360° in programmable increments)</li>
+                        <li>Maintain net angular momentum = 0 throughout</li>
+                        <li>Record continuously:
+                            <ul>
+                                <li>Any shift in center of mass or inertial force (balance platform)</li>
+                                <li>Any change in oscillator frequency (Δf) (clock monitor)</li>
+                                <li>Any electromagnetic anomalies (unexpected induction, drift, voltage spikes)</li>
+                                <li>Mechanical response at beat frequency between rotors</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+
+                <h4 class="subsubsection-title">Phase 3: Control Runs</h4>
+                <div class="neutral-item">
+                    <ol>
+                        <li>One rotor off, same drive input applied — should produce no anomalous effect</li>
+                        <li>Random (non-coherent) phase offset — monitor for decoherence effects vs. coherent cycling</li>
+                        <li>Reversed rotation directions — verify symmetry of any observed effects</li>
+                    </ol>
+                </div>
+
+                <h4 class="subsubsection-title">Expected Signals</h4>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Effect</th>
+                            <th>Possible Interpretation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Weight variation</td><td>Proper time shift → effective mass modulation</td></tr>
+                        <tr><td>Clock drift</td><td>Time dilation analog from relational phase cycling</td></tr>
+                        <tr><td>Mechanical noise at beat frequency</td><td>Angular momentum coupling across system boundary</td></tr>
+                        <tr><td>Nonlinear feedback</td><td>Emergent coherence or back-action from relational medium</td></tr>
+                    </tbody>
+                </table>
+
+                <h4 class="subsubsection-title">Design Parameters</h4>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Parameter</th>
+                            <th>Target Value</th>
+                            <th>Rationale</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Rotor Diameter</td><td>100–500 μm</td><td>Maximize angular rate with low moment of inertia</td></tr>
+                        <tr><td>RPM</td><td>10⁴–10⁶</td><td>High frequency = high phase cycling rate</td></tr>
+                        <tr><td>Phase Shift Range</td><td>0–360°</td><td>Full relational sweep</td></tr>
+                        <tr><td>Modulation Rate</td><td>0.1–10 Hz</td><td>Match detection sensitivity bands</td></tr>
+                        <tr><td>Balance Sensitivity</td><td>&lt; 1 ng</td><td>Detect tiny inertia fluctuations</td></tr>
+                        <tr><td>Time Resolution</td><td>&lt; 1 ppm</td><td>Required for clock drift detection</td></tr>
+                    </tbody>
+                </table>
+
+                <h3 class="subsection-title">10.5 Historical Precedent</h3>
+
+                <p class="content-text">
+                    Several experimental programs provide precedent for phase-driven effects in the absence of classical force:
+                </p>
+
+                <div class="highlight-box">
+                    <p class="content-text">
+                        <strong>Aharonov-Bohm Effect (1959–Present)</strong> — The strongest precedent. Charged particles exhibit interference pattern shifts due to vector potentials in regions where no fields exist. This is direct experimental proof that phase has real, measurable effects where force is zero. Physics is sensitive not to forces but to geometric phase evolution. This validates the core premise of the MEMS prototype: that phase manipulation alone, absent classical force, can produce observable consequences.
+                    </p>
+                </div>
+
+                <div class="highlight-box">
+                    <p class="content-text">
+                        <strong>Berry Phase Experiments</strong> — Geometric phase evolution produces real interference effects. When a quantum system is transported around a closed loop in parameter space, it acquires a phase that depends only on the geometry of the path — not on dynamics or energy. This demonstrates that purely geometric (rotational) properties of a system's evolution have measurable physical consequences.
+                    </p>
+                </div>
+
+                <div class="neutral-item">
+                    <p class="content-text">
+                        <strong>Podkletnov Superconducting Rotors (1990s)</strong> — Rotating supercooled superconductors appeared to produce small gravitational shielding effects. Results were never officially replicated, but NASA and Boeing studied the design. In POAMS interpretation: Cooper pairs in phase coherence form a rotating action reservoir — a macroscopic quantum system with coherent internal angular momentum.
+                    </p>
+                </div>
+
+                <div class="neutral-item">
+                    <p class="content-text">
+                        <strong>T.T. Brown Electrogravitics (1920s–1950s)</strong> — Brown demonstrated that high-voltage capacitors produced net thrust, including in vacuum conditions. POAMS interpretation: Brown may have been modulating internal angular potential via harmonic electric fields — rotation in phase space rather than field pressure.
+                    </p>
+                </div>
+
+                <div class="strength-item">
+                    <p><strong>Common threads across all precedents:</strong></p>
+                    <ul>
+                        <li>Counter-rotation or phase cycling isolates internal angular momentum (motionless action loop)</li>
+                        <li>High frequency amplifies internal phase cycling (nonlinear phase accumulation)</li>
+                        <li>Coherence and symmetry are key to sustaining effects (resonance-dependent)</li>
+                        <li>Vacuum or cryogenic isolation prevents classical coupling (preserves pure relational phase)</li>
+                        <li>Anomalous mass, time, or inertial effects are reported (phase affects spacetime geometry)</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">10.6 Bridge to Hyperpolarization Program</h3>
+
+                <div class="highlight-box">
+                    <p class="content-text">
+                        This subsection is critical. The MEMS phase rotation prototype and the bismuth hyperpolarization program described in earlier sections of this document are two approaches to the same underlying POAMS principle: <strong>coherent phase alignment of angular momentum produces measurable effects on inertia, mass, and time.</strong>
+                    </p>
+                </div>
+
+                <h4 class="subsubsection-title">Unified Principle</h4>
+                <div class="strength-item">
+                    <ul>
+                        <li>Both MEMS mechanical rotation and quantum accumulator hyperpolarization are methods of coherently aligning internal angular momentum</li>
+                        <li>MEMS achieves this mechanically at macro scale — physical counter-rotating disks with controlled phase offset</li>
+                        <li>Hyperpolarization achieves this at the quantum accumulator level — aligning the spin angular momentum of quantum accumulators (bismuth-209) through NMR and optical pumping techniques</li>
+                        <li>The physics is identical in POAMS terms: both create systems with high internal angular momentum coherence while constraining net external angular momentum</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Strategic Relationship</h4>
+                <div class="neutral-item">
+                    <ul>
+                        <li>The MEMS prototype serves as <strong>classical-scale validation</strong> of POAMS predictions before investing in the more complex and expensive quantum accumulator manipulation program</li>
+                        <li>If coherent phase cycling of macro-scale angular momentum produces measurable inertial or temporal effects, this validates the theoretical basis for expecting similar (and potentially much larger) effects from quantum accumulator polarization</li>
+                        <li>Experimental results from MEMS directly inform <strong>polarization targets</strong> for the bismuth program — observed effect magnitudes at known angular momentum densities calibrate predictions for quantum accumulator systems</li>
+                    </ul>
+                </div>
+
+                <h4 class="subsubsection-title">Combined Development Path</h4>
+                <div class="strength-item">
+                    <ol>
+                        <li><strong>MEMS validates principle</strong> → Demonstrates that coherent internal angular momentum phase cycling produces measurable effects on inertia/mass/time at macro scale</li>
+                        <li><strong>Hyperpolarization scales the effect</strong> → Quantum accumulator spin alignment achieves far higher angular momentum density per unit mass, potentially amplifying effects by orders of magnitude</li>
+                        <li><strong>Engineered materials optimize it</strong> → Results from both programs inform design of purpose-built materials that maximize coherent angular momentum density</li>
+                    </ol>
+                </div>
+
+                <h4 class="subsubsection-title">Cross-Program Data Flow</h4>
+                <div class="neutral-item">
+                    <ul>
+                        <li>MEMS phase-cycling frequency sweeps identify optimal modulation rates → Applied to NMR pulse sequences in hyperpolarization</li>
+                        <li>MEMS inertial balance measurements calibrate expected Δm per unit angular momentum → Predicts required polarization percentages for bismuth samples</li>
+                        <li>MEMS clock drift measurements establish temporal sensitivity requirements → Informs instrumentation specifications for hyperpolarization test rig</li>
+                        <li>Both programs share environmental isolation requirements (vacuum, thermal stability, EM shielding)</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">10.7 Phase 2 Enhancements</h3>
+
+                <p class="content-text">
+                    Upon successful demonstration of measurable effects from dual-rotor phase cycling, the following enhancements extend the prototype's capability:
+                </p>
+
+                <div class="highlight-box">
+                    <p class="content-text">
+                        <strong>Third Rotor for Triangular Phase Beating</strong> — Adding a third counter-rotating MEMS disk enables triangular phase beating patterns. This mimics orbital precession — a three-body angular momentum interaction. Triangular configurations allow exploration of non-trivial phase topologies (analogous to Berry phase accumulation in parameter space).
+                    </p>
+                </div>
+
+                <div class="highlight-box">
+                    <p class="content-text">
+                        <strong>Optomechanical Cavity Coupling</strong> — Couple the MEMS rotor assembly to a high-finesse optical cavity. Monitor for phase-modulated photon effects: frequency shifts, intensity modulation, or anomalous photon statistics correlated with rotor phase cycling. Tests whether angular momentum phase coherence couples to electromagnetic radiation.
+                    </p>
+                </div>
+
+                <div class="highlight-box">
+                    <p class="content-text">
+                        <strong>Josephson Phase Ring Integration</strong> — Add a superconducting Josephson junction loop adjacent to the MEMS assembly. Cycle the Josephson phase bias through 2π intervals. Compare effects from mechanical (MEMS) and quantum (Josephson) phase cycling. SQUID magnetometry reads quantum phase directly for correlation with mechanical measurements.
+                    </p>
+                </div>
+
+                <div class="highlight-box">
+                    <p class="content-text">
+                        <strong>Integration with Bismuth Test Rig</strong> — Mount a hyperpolarized bismuth sample adjacent to the MEMS assembly. Simultaneously cycle MEMS rotor phase and measure bismuth quantum accumulator polarization response. Test for cross-coupling: does mechanical phase coherence influence quantum accumulator coherence times, or vice versa?
+                    </p>
+                </div>
+            </section>
+
+            <!-- SECTION 11: CONCLUSION -->
+            <section id="conclusion" class="section fade-in">
+                <h2 class="section-title">11. Conclusion</h2>
+
+                <div class="highlight-box">
+                    <p class="content-text">
+                        This comprehensive engineering design document provides a complete roadmap for achieving controlled flight through spin angular momentum manipulation using the POAMS framework. The convergence of several key factors makes this program technically feasible.
+                    </p>
+                </div>
+
+                <h3 class="subsection-title">Technical Readiness</h3>
+                <div class="strength-item">
+                    <ul>
+                        <li><strong>Hyperpolarization technology</strong>: Current techniques achieve &gt;30% bulk polarization in appropriate materials</li>
+                        <li><strong>Precision measurement</strong>: Existing instrumentation easily detects predicted orbital radius changes</li>
+                        <li><strong>Material science</strong>: Bismuth provides optimal naturally occurring properties, with engineered alternatives possible</li>
+                        <li><strong>Stanford resources</strong>: World-class facilities and expertise available for all required research areas</li>
+                    </ul>
+                </div>
+
+                <h3 class="subsection-title">Systematic Approach</h3>
+                <p class="content-text">
+                    The four-phase program provides systematic progression from proof-of-principle through practical demonstration, with clear milestones and validation criteria at each stage.
+                </p>
+
+                <h3 class="subsection-title">Risk Mitigation</h3>
+                <p class="content-text">
+                    Multiple technical approaches and fallback positions ensure program success even if specific techniques prove challenging.
+                </p>
+
+                <h3 class="subsection-title">Commercial Potential</h3>
+                <p class="content-text">
+                    Success would enable revolutionary transportation, aerospace, and energy applications worth hundreds of billions in market value.
+                </p>
+
+                <div class="highlight-box">
+                    <p class="content-text">
+                        The NASA Marshall experiments have already demonstrated that measurable weight changes are achievable through spin-related effects in bismuth. With systematic application of advanced hyperpolarization techniques and precision measurement methods, progression to zero-weight condition and controlled flight represents an achievable engineering challenge rather than a physics impossibility.
+                    </p>
+                    <p class="content-text">
+                        <strong>The POAMS framework provides both the theoretical understanding and practical engineering approach needed to transform these effects from laboratory curiosities to revolutionary technological capabilities.</strong>
+                    </p>
+                </div>
+
+                <div class="neutral-item">
+                    <em>Document prepared using POAMS (Pope-Osborne Angular Momentum Synthesis) terminology throughout. No conventional physics terms contradicting the Normal Realism framework have been employed.</em>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script>
+        // Smooth scrolling and active navigation
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('.nav-link');
+            const sections = document.querySelectorAll('.section');
+            const scrollIndicator = document.querySelector('.scroll-indicator');
+
+            // Smooth scrolling
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    
+                    if (targetSection) {
+                        targetSection.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                        
+                        // Update active link
+                        links.forEach(l => l.classList.remove('active'));
+                        this.classList.add('active');
+                        
+                        // Close mobile menu
+                        document.getElementById('sidebar').classList.remove('active');
+                    }
+                });
+            });
+
+            // Scroll indicator
+            window.addEventListener('scroll', function() {
+                const scrollTop = window.pageYOffset;
+                const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
+                const scrollPercent = scrollTop / documentHeight;
+                
+                scrollIndicator.style.transform = `scaleX(${scrollPercent})`;
+                
+                // Update active section
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.getBoundingClientRect().top;
+                    if (sectionTop <= 100) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                
+                if (current) {
+                    links.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + current) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+
+            // Fade in animations
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('fade-in');
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+
+        // Mobile sidebar toggle
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+
+        // Close sidebar when clicking outside on mobile
+        document.addEventListener('click', function(e) {
+            const sidebar = document.getElementById('sidebar');
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            
+            if (window.innerWidth <= 768 && 
+                !sidebar.contains(e.target) && 
+                !menuBtn.contains(e.target) && 
+                sidebar.classList.contains('active')) {
+                sidebar.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

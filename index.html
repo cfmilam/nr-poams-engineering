@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NR-POAMS Engineering Applications</title>
+<style>
+:root {
+  --bg: #1a1a2e; --fg: #e0e0e0; --accent: #c9a84c; --accent2: #8b6914;
+  --link: #c9a84c; --card-bg: rgba(255,255,255,0.03); --card-border: #333;
+}
+.light {
+  --bg: #faf8f2; --fg: #2a2a2a; --accent: #8b6914; --accent2: #c9a84c;
+  --link: #8b6914; --card-bg: rgba(0,0,0,0.02); --card-border: #ddd;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Georgia, serif; background: var(--bg); color: var(--fg); line-height: 1.6; font-size: 16px; }
+main { max-width: 800px; margin: 0 auto; padding: 3rem 2rem; }
+h1 { font-size: 2rem; color: var(--accent); margin-bottom: 0.3rem; }
+h2 { font-size: 1.3rem; color: var(--accent); margin: 2.5rem 0 0.8rem; border-bottom: 2px solid var(--accent); padding-bottom: 0.3rem; }
+.subtitle { color: var(--accent2); margin-bottom: 0.5rem; font-size: 1rem; }
+.intro { color: var(--fg); opacity: 0.85; margin-bottom: 2rem; font-size: 0.95rem; line-height: 1.7; }
+.nav-links { margin-bottom: 2rem; font-size: 0.9rem; }
+.nav-links a { color: var(--link); margin-right: 1.5rem; }
+.exhibit { margin: 0.8rem 0; padding: 1rem 1.2rem; background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 8px; transition: border-color 0.2s; }
+.exhibit:hover { border-color: var(--accent); }
+.exhibit h3 { font-size: 1.05rem; margin: 0 0 0.3rem; }
+.exhibit h3 a { color: var(--link); text-decoration: none; }
+.exhibit h3 a:hover { text-decoration: underline; }
+.exhibit .desc { font-size: 0.88rem; color: var(--fg); opacity: 0.8; line-height: 1.5; }
+.exhibit .tags { font-size: 0.78rem; color: var(--accent2); margin-top: 0.4rem; }
+.tag { display: inline-block; background: rgba(201,168,76,0.1); border: 1px solid rgba(201,168,76,0.2); border-radius: 4px; padding: 0.1rem 0.5rem; margin-right: 0.4rem; margin-top: 0.2rem; }
+#theme-btn {
+  position: fixed; top: 1rem; right: 1rem; z-index: 200;
+  background: var(--accent); color: var(--bg); border: none;
+  width: 40px; height: 40px; border-radius: 8px; font-size: 1.3rem;
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+}
+footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--card-border); font-size: 0.85rem; color: var(--accent2); }
+footer a { color: var(--link); }
+@media (max-width: 768px) { main { padding: 2rem 1rem; } }
+</style>
+</head>
+<body>
+<button id="theme-btn" onclick="document.body.classList.toggle('light');localStorage.setItem('theme',document.body.classList.contains('light')?'light':'dark')" title="Toggle theme">🌙</button>
+<main>
+<h1>NR-POAMS Engineering</h1>
+<p class="subtitle">Practical Applications of Normal Realism &amp; POAMS</p>
+
+<p class="intro">If POAMS is correct — if spin angular momentum genuinely modifies effective G — then controlled flight without conventional propulsion becomes theoretically possible. These documents explore the engineering implications of the Pope-Osborne Angular Momentum Synthesis, from the underlying cone model geometry to detailed design proposals for spin-momentum propulsion systems.</p>
+
+<div class="nav-links">
+  <a href="https://cfmilam.github.io/nr-poams-papers/">📄 Papers</a>
+  <a href="https://cfmilam.github.io/nr-poams-books/">📚 Books</a>
+  <a href="https://cfmilam.github.io/nr-poams-exhibits/">🔬 Exhibits</a>
+</div>
+
+<h2>Documents</h2>
+
+<div class="exhibit">
+  <h3><a href="poams-engineering-review.html">POAMS Engineering Design: Controlled Flight Through Spin Angular Momentum Manipulation</a></h3>
+  <p class="desc">Comprehensive engineering review exploring how POAMS's variable G* could enable propulsion through controlled spin angular momentum. Detailed technical analysis of gyroscopic systems, energy requirements, and design parameters.</p>
+  <div class="tags"><span class="tag">Propulsion</span><span class="tag">Variable G*</span><span class="tag">Design</span></div>
+</div>
+
+<div class="exhibit">
+  <h3><a href="cone-model-paper.html">The Pope-Osborne Cone Model of Observer Space-Time</a></h3>
+  <p class="desc">The geometric foundation: the rectangular cone t² = τ² + (s/c)² from which all of POAMS relativity flows. Detailed mathematical treatment of the cone model and its implications for observer-relative physics.</p>
+  <div class="tags"><span class="tag">Cone Model</span><span class="tag">Geometry</span><span class="tag">Foundations</span></div>
+</div>
+
+<div class="exhibit">
+  <h3><a href="poams-engineering-design.md">Engineering Design Specification (Markdown)</a></h3>
+  <p class="desc">Raw engineering design document with detailed calculations, material specifications, and system architecture for a spin-momentum propulsion prototype.</p>
+  <div class="tags"><span class="tag">Specification</span><span class="tag">Calculations</span><span class="tag">Prototype</span></div>
+</div>
+
+<footer>
+  <p>Based on the work of <strong>N. Vivian Pope</strong> and <strong>Anthony D. Osborne</strong>.</p>
+  <p style="margin-top:0.5rem;"><a href="https://cfmilam.github.io/nr-poams-papers/">Papers</a> · <a href="https://cfmilam.github.io/nr-poams-books/">Books</a> · <a href="https://cfmilam.github.io/nr-poams-exhibits/">Exhibits</a> · <a href="https://github.com/cfmilam/nr-poams-engineering">Source</a></p>
+</footer>
+</main>
+<script>
+if(localStorage.getItem('theme')==='light') document.body.classList.add('light');
+document.addEventListener('keydown',e=>{
+  if(e.key==='t'||e.key==='T'){document.body.classList.toggle('light');localStorage.setItem('theme',document.body.classList.contains('light')?'light':'dark');}
+});
+</script>
+</body>
+</html>
