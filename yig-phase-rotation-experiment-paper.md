@@ -162,13 +162,15 @@ Reversing the Helmholtz field flips the precession direction, which flips the si
 
 **The distinction in one sentence:** Alignment is static (sets the precondition). Spin rate is constitutive (defines the element). Phase advance is dynamic (rotates the collective vector without changing its magnitude) — and it is the only operation that changes the system's angular momentum relationship to the Earth frame.
 
-#### Experimental Confirmation: Magnonic Einstein–de Haas Effect
+#### Theoretical Confirmation: Magnonic Einstein–de Haas Effect
 
-This three-step distinction is not theoretical. In 2022, Kani et al. demonstrated the phase advance mechanism directly with a levitated YIG microsphere inside a high-Q microwave cavity (Phys. Rev. Lett. 129, 257201). They drove magnon modes — collective spin excitations carrying orbital angular momentum — using linearly polarized microwaves. Conservation of angular momentum transferred mechanical torque to the crystal lattice. The YIG sphere spun up to mechanical rotation rates exceeding **10 GHz**.
+The phase advance mechanism has been analyzed in detail by mainstream physics. In 2022, Kani, Quijandría, and Twamley showed theoretically that magnon modes in a levitated YIG microsphere — collective spin excitations carrying orbital angular momentum — when driven by linearly polarized microwaves in a high-Q cavity, must transfer mechanical torque to the crystal lattice by conservation of angular momentum (Phys. Rev. Lett. 129, 257201). Their calculation predicts rotation rates exceeding **10 GHz**.
 
-No material survives mechanical rotation at 10 GHz. But the angular momentum is real, the torque is real, and the rotation is real. The magnon modes did not increase the spin rate of individual atoms (that would be transmutation). They advanced the collective phase, and angular momentum conservation did the rest. This is the Einstein–de Haas effect scaled from DC to GHz — precisely what cannot be achieved by mechanical means.
+The physics is straightforward: microwave-driven phase advance of collective spin excitations produces real angular momentum. The magnon modes do not increase the spin rate of individual atoms (that would be transmutation). They advance the collective phase, and angular momentum conservation demands the lattice absorb the difference. This is the Einstein–de Haas effect scaled from DC to GHz — precisely what cannot be achieved by mechanical means. No material survives 10 GHz rotation, but the angular momentum is real and the torque follows from conservation. *Physical Review Letters* published this — the mainstream physics community accepts the mechanism.
 
-What Kani et al. measured was mechanical rotation of a levitated sphere. What POAMS predicts is that this same angular momentum transfer also changes the system's natural force-free orbital radius relative to Earth, manifesting as a change in constraint force (weight). Our experiment measures what theirs did not: the gravitational consequence of microwave-driven collective phase advance in YIG. The mechanism is proven. The weight change is what remains to be measured.
+What POAMS adds to Kani et al.'s analysis is the prediction that this angular momentum transfer also changes the system's natural force-free orbital radius relative to Earth, manifesting as a change in constraint force (weight). Our experiment measures what their theory did not address: the gravitational consequence of microwave-driven collective phase advance in YIG. The mechanism is accepted. The weight change is what remains to be measured.
+
+The reason for this approach is simple: we are trying to amend the natural force-free orbital radius of the test mass by injecting and holding spin angular momentum. We cannot do this mechanically — no material survives the rotation rates needed, and there is no way to mechanically spin something at 5.6 GHz. The microwave-driven phase advance achieves the same angular momentum transfer without structural stress, at rates seven orders of magnitude beyond what any motor can provide.
 
 ### 3.5 Collective Phase Advance — The Mechanism
 
@@ -1137,7 +1139,7 @@ The replication is what matters. Once ten labs have done it, the argument is ove
 
 15. Pozar, D.M. *Microwave Engineering.* 4th ed. Wiley, 2011. (Cavity design, Q factors, coupling theory.)
 
-16. Kani, A. et al. "Magnonic Einstein–de Haas Effect: Ultrafast Rotation of Magnonic Microspheres." *Physical Review Letters* 129, 257201, 2022. (Microwave-driven magnon modes in levitated YIG sphere produce mechanical rotation exceeding 10 GHz via collective phase advance — direct experimental confirmation that phase advance transfers macroscopic angular momentum.)
+16. Kani, A., Quijandría, F. & Twamley, J. "Magnonic Einstein–de Haas Effect: Ultrafast Rotation of Magnonic Microspheres." *Physical Review Letters* 129, 257201, 2022. (Theoretical analysis showing microwave-driven magnon modes in levitated YIG sphere transfer macroscopic angular momentum to the lattice via collective phase advance, predicting rotation rates exceeding 10 GHz.)
 
 ---
 
