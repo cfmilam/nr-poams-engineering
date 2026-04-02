@@ -133,7 +133,36 @@ This effect is:
 
 The directional dependence is the critical discriminant. No conventional mechanism — thermal, electromagnetic, acoustic, or mechanical — produces a weight change that reverses sign when alignment field polarity flips. Detection of this signature is detection of the POAMS-predicted effect.
 
-### 3.4 Collective Phase Advance — The Mechanism
+### 3.4 Three Distinct Operations: Alignment, Spin Rate, and Phase Advance
+
+Before describing the mechanism, it is essential to distinguish three conceptually separate operations that can be performed on a collection of atomic vortices. Conflating any two leads to confusion about what this experiment does and does not attempt.
+
+**Operation 1: Alignment (Polarization)**
+
+In bulk material, atomic vortices spin on randomly oriented axes. The net angular momentum of the ensemble is zero — not because nothing spins, but because everything spins in uncorrelated directions. An external magnetic field imposes a preferred axis by coupling its own angular momentum (a three-dimensional circulation pattern, not flat "field lines" on paper) to the atomic vortices, torquing their axes into alignment.
+
+In a ferromagnet like YIG, the exchange interaction between neighboring sites already favors parallel alignment within domains. The external field rotates entire domains until they all point the same direction. At saturation (~1750 Oe for YIG), alignment is essentially complete. This operation alone changes the net angular momentum of the bulk from zero to a macroscopic vector. But it is a *static* operation — once aligned, the system sits in its new ground state.
+
+**Operation 2: Spin Rate (Constitutive — Cannot Be Changed)**
+
+The rate at which each atomic vortex circulates is constitutive — it defines what element the atom is. Iron is mode-26 with 56ħ. Add one quantum of action to the accumulator and it transmutes to cobalt-57. Subtract one and it transmutes the other direction. The periodic table is a *count*: each element is defined by its ħ total. The spin rate is the identity.
+
+This experiment operates at energies millions of times below the threshold for transmutation. We cannot and do not attempt to change what the atoms are.
+
+**Operation 3: Phase Advance (Dynamic — What This Experiment Does)**
+
+After alignment, all vortices spin in correlated planes, same direction, same rate. But each has a *phase angle* — where it is in its rotation cycle at any given instant. A microwave drive at the ferromagnetic resonance frequency induces *precession* of the collective magnetization vector: the angular momentum axis traces a cone around the field direction. The magnetization does not spin faster (that would add ħ). It *precesses* — the collective orientation is continuously rotated relative to the Earth frame at GHz rates.
+
+The terminology of "leading" and "lagging" phase is precise and intentional. Unlike "spin-up/spin-down" (which describes a binary orientation) or "CW/CCW" (which describes a rotation direction), leading and lagging describe the *rate of angular position change* relative to a reference frame:
+
+- **Leading phase:** The collective vector advances faster than the reference frame → net angular momentum addition → co-spin → radius contraction → heavier
+- **Lagging phase:** The collective vector advances slower than the reference frame → net angular momentum subtraction → anti-spin → radius extension → lighter
+
+Reversing the Helmholtz field flips the precession direction, which flips the sign of the effect.
+
+**The distinction in one sentence:** Alignment is static (sets the precondition). Spin rate is constitutive (defines the element). Phase advance is dynamic (rotates the collective vector without changing its magnitude) — and it is the only operation that changes the system's angular momentum relationship to the Earth frame.
+
+### 3.5 Collective Phase Advance — The Mechanism
 
 The mechanism for adding angular momentum to a material without changing its elemental identity is **collective phase advance**.
 
@@ -173,7 +202,7 @@ Each aligned vortex accumulates ~560 extra phase cycles' worth of angular moment
 
 **The swing analogy.** Pulsed drive may outperform continuous-wave (CW) drive for the same reason a child pumps a swing: correctly timed impulses can build amplitude more efficiently than constant force. The Alzofon protocol (2 μs on, 2–6 ms off) may exploit this — each pulse kicks the precession to a larger cone angle, and the off-time allows the system to settle into a new equilibrium before the next kick. The experiment will test both CW and pulsed regimes.
 
-### 3.5 YIG Under the Vortex Model
+### 3.6 YIG Under the Vortex Model
 
 Yttrium iron garnet, Y₃Fe₅O₁₂, is the optimal material for this experiment. Under POAMS, a single formula unit contains:
 
