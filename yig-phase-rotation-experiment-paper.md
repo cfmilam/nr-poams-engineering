@@ -162,15 +162,23 @@ Reversing the Helmholtz field flips the precession direction, which flips the si
 
 **The distinction in one sentence:** Alignment is static (sets the precondition). Spin rate is constitutive (defines the element). Phase advance is dynamic (rotates the collective vector without changing its magnitude) — and it is the only operation that changes the system's angular momentum relationship to the Earth frame.
 
-#### Theoretical Confirmation: Magnonic Einstein–de Haas Effect
+#### Why Phase Advance Changes Orbital Radius
 
-The phase advance mechanism has been analyzed in detail by mainstream physics. In 2022, Kani, Quijandría, and Twamley showed theoretically that magnon modes in a levitated YIG microsphere — collective spin excitations carrying orbital angular momentum — when driven by linearly polarized microwaves in a high-Q cavity, must transfer mechanical torque to the crystal lattice by conservation of angular momentum (Phys. Rev. Lett. 129, 257201). Their calculation predicts rotation rates exceeding **10 GHz**.
+The chain of reasoning is direct:
 
-The physics is straightforward: microwave-driven phase advance of collective spin excitations produces real angular momentum. The magnon modes do not increase the spin rate of individual atoms (that would be transmutation). They advance the collective phase, and angular momentum conservation demands the lattice absorb the difference. This is the Einstein–de Haas effect scaled from DC to GHz — precisely what cannot be achieved by mechanical means. No material survives 10 GHz rotation, but the angular momentum is real and the torque follows from conservation. *Physical Review Letters* published this — the mainstream physics community accepts the mechanism.
+1. **Phase advance is angular momentum.** Angular momentum is action per angle: L = dS/dθ. When the cavity drive coherently advances the precession phase of 10²² aligned vortices, the system accumulates real, macroscopic angular momentum. Each FMR cycle adds a small increment δL to every aligned vortex simultaneously. At 5.6 GHz, that is 5.6 billion increments per second.
 
-What POAMS adds to Kani et al.'s analysis is the prediction that this angular momentum transfer also changes the system's natural force-free orbital radius relative to Earth, manifesting as a change in constraint force (weight). Our experiment measures what their theory did not address: the gravitational consequence of microwave-driven collective phase advance in YIG. The mechanism is accepted. The weight change is what remains to be measured.
+2. **Angular momentum determines orbital radius.** In POAMS, every orbiting body occupies a natural force-free radius set by its total angular momentum relative to the central body. This is not a new claim — it is Kepler's second law read as a definition: r = L/mv. Change L, change r.
 
-The reason for this approach is simple: we are trying to amend the natural force-free orbital radius of the test mass by injecting and holding spin angular momentum. We cannot do this mechanically — no material survives the rotation rates needed, and there is no way to mechanically spin something at 5.6 GHz. The microwave-driven phase advance achieves the same angular momentum transfer without structural stress, at rates seven orders of magnitude beyond what any motor can provide.
+3. **Weight is the constraint force that prevents occupation of the natural radius.** A test mass on a laboratory bench cannot move to its natural orbital radius because the bench is in the way. The force the bench exerts to prevent that motion is what we call weight. If the natural radius changes (because L changed), the constraint force changes proportionally.
+
+4. **The experiment changes L without changing the material.** Phase advance rotates the collective angular momentum vector without adding ħ to any individual vortex (which would be transmutation). The atoms remain iron. The ensemble gains net angular momentum. The direction of the gain — co-spin or anti-spin relative to Earth's rotation — determines whether the natural radius contracts (heavier) or extends (lighter).
+
+This is experimentally testable because the effect is **directional and reversible**: reversing the Helmholtz field flips the precession direction, which flips the sign of the weight change. Same material, same drive power, opposite result. No conventional mechanism produces a direction-dependent weight change from ferromagnetic resonance.
+
+The reason we use microwave-driven phase advance rather than mechanical rotation is practical necessity: we are trying to inject angular momentum at rates that no mechanical system can achieve. No material survives rotation at 5.6 GHz. No motor can spin a rotor at billions of RPM. But electromagnetic phase advance achieves the same angular momentum transfer without structural stress, at rates seven orders of magnitude beyond what any motor can provide. The brass gyroscope data (Section 4.5) shows measurable weight change at 170 Hz mechanical rotation. Electromagnetic phase advance at 5.6 GHz is 33 million times faster winding.
+
+**Einstein and de Haas proved the bridge in 1915:** reversing atomic spin alignment in an iron rod produces measurable mechanical rotation. Spin angular momentum and mechanical angular momentum are the same quantity observed at different scales. What we add is the measurement their experiment did not make — the gravitational consequence.
 
 ### 3.5 Collective Phase Advance — The Mechanism
 
@@ -1138,8 +1146,6 @@ The replication is what matters. Once ten labs have done it, the argument is ove
 14. Sparks, M. *Ferromagnetic-Relaxation Theory.* McGraw-Hill, 1964.
 
 15. Pozar, D.M. *Microwave Engineering.* 4th ed. Wiley, 2011. (Cavity design, Q factors, coupling theory.)
-
-16. Kani, A., Quijandría, F. & Twamley, J. "Magnonic Einstein–de Haas Effect: Ultrafast Rotation of Magnonic Microspheres." *Physical Review Letters* 129, 257201, 2022. (Theoretical analysis showing microwave-driven magnon modes in levitated YIG sphere transfer macroscopic angular momentum to the lattice via collective phase advance, predicting rotation rates exceeding 10 GHz.)
 
 ---
 
