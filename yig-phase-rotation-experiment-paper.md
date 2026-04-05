@@ -931,7 +931,44 @@ All data streams are logged to USB storage and optionally streamed to a host com
 
 5. **Thermal characterization.** Run CW drive at FMR for 10 minutes at 1 W. Monitor temperature rise and FMR frequency drift. Establish the thermal drift coefficient for the feedback system.
 
-### 7.2 Phase 2: Detection — CW and Pulsed Drive
+### 7.2 Phase 2: Polarization-Only Baseline (Field On, Drive Off)
+
+**Objective:** Measure weight change from magnetic polarization alone — before any microwave drive is applied.
+
+This is the simplest possible test of the POAMS prediction. Applying the bias field transitions the YIG sphere from multi-domain (random cancellation, near-zero net spin angular momentum) to single-domain (full magnetic saturation, net spin angular momentum ~4.16 × 10⁻¹³ J·s). If the coupling between internal spin polarization and constraint force is real, the scale must move at this step — with nothing but a magnet.
+
+**Procedure:**
+
+1. Record baseline weight for 10 minutes. Field off, drive off.
+2. Energize alignment field to full strength (2000 Oe), positive polarity. Record weight for 10 minutes.
+3. Kill field. Record relaxation back to baseline.
+4. Repeat with negative polarity (reverse current). Record weight for 10 minutes.
+5. Kill field. Record relaxation.
+6. Repeat 3× each polarity for statistics.
+
+**Decision criteria:**
+
+| Observation | Interpretation |
+|---|---|
+| Weight change that reverses with field polarity | Polarization alone couples to constraint force. FMR drive will amplify this. |
+| Weight change same sign both polarities | Magnetostriction or magnetic force artifact. Subtract as baseline for Phase 3. |
+| No weight change beyond noise | Polarization alone is below detection threshold. Proceed to Phase 3 — resonant pumping may be required to cross the threshold. |
+
+**Why this matters:** This measurement requires no cavity, no VCO, no amplifier, no microwave hardware at all. A YIG sphere, an electromagnet, and an analytical balance. Total cost: ~$400. If polarization alone produces a detectable signal, the experiment is validated before Phase 3 begins. If not, Phase 3 (FMR drive) adds the accelerator — pumping angular momentum at 5.6 billion cycles per second on top of the aligned state.
+
+The full measurement staircase across all phases:
+
+```
+Step 1:  Field OFF,  Drive OFF   →  Baseline weight
+Step 2:  Field ON,   Drive OFF   →  Polarization-only shift (this phase)
+Step 3:  Field ON,   Drive ON    →  Polarization + pumping (Phase 3)
+Step 4:  Kill drive,  Field ON   →  Does weight drop to Step 2 or baseline?
+Step 5:  Kill field               →  Relaxation curve back to baseline
+```
+
+Each step isolates a different variable. The staircase structure makes artifacts obvious — any conventional effect (thermal, mechanical, magnetic force) cannot reproduce this five-step signature with the correct sign reversals.
+
+### 7.3 Phase 3: Detection — CW and Pulsed Drive
 
 **Objective:** Detect weight change under FMR drive.
 
@@ -958,13 +995,13 @@ All data streams are logged to USB storage and optionally streamed to a host com
 
 **Expected observation:** Weight change that increases with RF power, appears only within the FMR linewidth, and has a sign (increase or decrease) that depends on the alignment field polarity.
 
-### 7.3 Phase 3: Direction Reversal (Go/No-Go Gate)
+### 7.4 Phase 4: Direction Reversal (Go/No-Go Gate)
 
 **This is the most important measurement in the entire experiment.**
 
 **Procedure:**
 
-1. Using the optimal drive parameters from Phase 2, record weight change with positive alignment field polarity.
+1. Using the optimal drive parameters from Phase 3, record weight change with positive alignment field polarity.
 2. Kill drive. Wait for full recovery to baseline.
 3. Reverse alignment field polarity (reverse current through electromagnet).
 4. Re-lock FMR (frequency will be the same; only the direction of precession changes).
@@ -974,7 +1011,7 @@ All data streams are logged to USB storage and optionally streamed to a host com
 
 | Observation | Action |
 |---|---|
-| Weight change reverses sign | **GO.** Proceed to Phase 4 controls, then Phase 5 levitation. |
+| Weight change reverses sign | **GO.** Proceed to Phase 5 controls, then Phase 6 levitation. |
 | Weight change same sign both directions | **INVESTIGATE.** Likely thermal or mechanical artifact. Debug. |
 | No weight change either direction | **NULL.** Increase power, improve coupling, check for errors. |
 | Weight change only one direction | **PARTIAL.** May indicate asymmetric coupling or systematic error. Debug. |
@@ -988,12 +1025,12 @@ All data streams are logged to USB storage and optionally streamed to a host com
 
 If the weight change reverses, we have detected angular momentum coupling to orbital radius. This IS the POAMS prediction.
 
-### 7.4 Phase 4: Controls
+### 7.5 Phase 5: Controls
 
 After passing the go/no-go gate, systematic controls establish that the effect is real and attributable to FMR-driven phase advance:
 
 **Control 1: Non-magnetic sphere.**
-Replace YIG sphere with a glass bead of similar size and mass. Repeat Phase 2–3 protocol. Expected: zero weight change. This rules out cavity heating, radiation pressure, and other sphere-independent effects.
+Replace YIG sphere with a glass bead of similar size and mass. Repeat Phase 3–4 protocol. Expected: zero weight change. This rules out cavity heating, radiation pressure, and other sphere-independent effects.
 
 **Control 2: Off-resonance drive.**
 Return YIG sphere. Detune VCO to FMR + 500 MHz (well outside the ~1 MHz linewidth). Apply same power. Expected: zero weight change. This confirms the effect requires resonant coupling, not just microwave illumination.
@@ -1004,7 +1041,7 @@ Repeat measurement at alignment fields of 1000, 1500, and 2000 Oe (FMR at 2.8, 4
 **Control 4: Atmosphere independence.**
 Repeat measurement in helium and argon atmospheres (via simple gas displacement in a sealed enclosure). If the weight change is identical in all three atmospheres, convection artifacts are excluded. Helium (low density, high thermal conductivity) and argon (high density, low thermal conductivity) bracket the thermal property space.
 
-### 7.5 Phase 5: Power Ramp & Levitation
+### 7.6 Phase 6: Power Ramp & Levitation
 
 **Prerequisites:** Go/no-go gate passed, all controls clean.
 
@@ -1037,7 +1074,7 @@ Every Phase 5 run will be recorded on video from multiple angles, with all instr
 **Challenge:** RF power heats the cavity and sphere, causing thermal expansion, FMR frequency drift, and convective air currents that produce apparent weight changes.
 
 **Mitigation:**
-- The direction reversal protocol (Phase 3) is the primary defense. Thermal effects are symmetric with respect to alignment polarity. Any weight change that reverses with polarity is non-thermal.
+- The direction reversal protocol (Phase 4) is the primary defense. Thermal effects are symmetric with respect to alignment polarity. Any weight change that reverses with polarity is non-thermal.
 - Pulsed drive reduces average power dissipation.
 - Thermal baseline established in Phase 1.
 - Atmosphere independence test (helium/argon) directly addresses convection.
