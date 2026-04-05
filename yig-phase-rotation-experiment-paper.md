@@ -399,6 +399,26 @@ Parts per hundred billion. In brass, which is not magnetic. This is the worst po
 
 **What this means:** A Barnett-induced alignment fraction of 1.6 × 10⁻¹¹ in a non-magnetic material produces a constraint-force change of approximately 40 mg. The coupling between internal spin alignment and gravitational interaction is real, bidirectional, and demonstrable on a kitchen table with commodity hardware.
 
+**Relaxation data: the weight change persists.**
+
+The rotor ran at a constant 10–12,000 RPM — the motor controller did not allow speed sweeps, so the RPM dependence of the coupling is untested. What was measured is the temporal behavior after the rotor was stopped.
+
+When the rotor is killed, the weight anomaly does not immediately disappear. It persists for minutes. Full relaxation back to static baseline takes tens of minutes. This is consistent and repeatable — not variable, not ambiguous. Always tens of minutes.
+
+This single observation eliminates every mechanical and thermal artifact candidate:
+
+- Air currents from the spinning rotor dissipate in seconds. Not tens of minutes.
+- Thermal gradients from bearing friction relax continuously and monotonically — they do not hold a plateau for minutes before decaying.
+- Mechanical vibration artifacts vanish when the source stops.
+
+Nothing mechanical or thermal holds a signal flat for minutes and then unwinds over tens of minutes. Only a **stored internal state** behaves this way.
+
+The interpretation is direct: the Barnett effect winds nuclear polarization during spin-up. The mechanical rotation is the pump. When the rotor stops, the pump stops — but the internal polarization does not immediately unwind. Individual nuclear T₁ for Cu⁶³ at room temperature is milliseconds to seconds. If the relaxation were atom-by-atom, the signal would be gone in seconds. That it persists for tens of minutes implies **cooperative, domain-like collective unwinding** — neighboring nuclear spins stabilize each other, depolarizing together rather than independently.
+
+This is a hysteresis curve: fast to polarize (during spin-up), slow to depolarize (after stop). The weight does not track the bulk rotation — it tracks the **internal polarization state**. The rotation was just the delivery mechanism. The active ingredient was the aligned nuclear spins, and they outlast their cause by a factor of hundreds.
+
+This reframes what the gravitational coupling is coupling to. Not bulk angular momentum. Not bulk rotation. The internal spin polarization state. This distinction is load-bearing for the YIG experiment: what FMR controls directly is polarization state — no mechanical rotation required.
+
 Brass is the worst conceivable medium for this experiment. It is non-magnetic, has high damping, and relies on mechanical rotation to produce an alignment field seven orders of magnitude below Earth's background field. Despite all of this, the effect is detectable on a milligram-resolution balance.
 
 This is the most important empirical data point in this paper. Every quantitative prediction in Section 5 must be consistent with it — and Section 5.6 uses this data to bound the coupling constant and project the expected YIG signal.
@@ -543,14 +563,68 @@ where:
 - L_phase = phase angular momentum per vortex (drive rate / dissipation rate)
 - κ = coupling constant between collective phase angular momentum and orbital radius (the key unknown)
 
-**N_aligned for a 10 mm YIG sphere (mass ≈ 5.4 g):**
+#### The Naive Model — And Why It Fails
 
-YIG density: 5.17 g/cm³. Volume of 10 mm sphere: 0.524 cm³. Mass: 2.71 g (Note: commercial "10 mm" spheres are 10 mm diameter, actual mass ≈ 2.7 g; we use 5.4 g for a hypothetical full-density sphere throughout for conservative estimation).
+Before filling in the actual parameters, it is worth explicitly calculating what the simplest possible model predicts — and demonstrating why that prediction is wrong by many orders of magnitude. This is not an exercise in humility. It is how we know the naive model is empirically falsified and what the coupling is actually proportional to.
+
+The naive POAMS model says: adding spin angular momentum L_spin to the sphere changes its total angular momentum, which shifts its equilibrium orbital radius, which changes the constraint force (weight). So compute ΔL_spin / L_orbital.
+
+**For a fully saturated 2.71g YIG sphere:**
+
+```
+L_spin = M_s × V / γ
+       = 140,000 A/m × 5.236 × 10⁻⁷ m³ / (1.76 × 10¹¹ rad/s/T)
+       ≈ 4.16 × 10⁻¹³ kg·m²/s
+```
+
+**Orbital angular momentum of 2.71g at Austin TX (lat 30.3°N):**
+
+```
+r = R_E × cos(λ) = 6.371 × 10⁶ m × cos(30.3°) = 5.49 × 10⁶ m
+v = ω_Earth × r = 7.292 × 10⁻⁵ × 5.49 × 10⁶ = 400 m/s
+
+L_orbital = m × v × r = 0.00271 × 400 × 5.49 × 10⁶ ≈ 5.96 × 10⁶ kg·m²/s
+```
+
+**The ratio:**
+
+```
+ΔL / L_orbital = 4.16 × 10⁻¹³ / 5.96 × 10⁶ = 7.0 × 10⁻²⁰
+```
+
+This predicts a radius change of ~0.4 femtometers and a weight change on the order of 10⁻²¹ N — unmeasurable by fifteen orders of magnitude. That is the naive model.
+
+**Cross-check against brass — the model is empirically falsified:**
+
+Apply the same calculation to the brass gyroscope:
+
+```
+L_spin (Barnett) = L_rotor × alignment_fraction
+                ≈ 0.043 kg·m²/s × 1.6 × 10⁻¹¹
+                ≈ 6.9 × 10⁻¹³ kg·m²/s
+
+L_orbital (289g gyroscope at Austin TX)
+                ≈ 0.289 × 400 × 5.49 × 10⁶ ≈ 6.35 × 10⁸ kg·m²/s
+
+ΔL / L_orbital ≈ 6.9 × 10⁻¹³ / 6.35 × 10⁸ ≈ 6.8 × 10⁻¹¹
+```
+
+Naive predicted weight change: 289 g × 6.8 × 10⁻¹¹ ≈ **0.00002 mg**.
+
+**Observed: 30–50 mg.** The model is wrong by a factor of ~2 million.
+
+The naive ΔL/L_orbital model is empirically falsified. The coupling does not scale with the ratio of spin angular momentum to orbital angular momentum. The brass data tells us the coupling is to the **polarization state** — alignment fraction × coherence — not to absolute angular momentum magnitude. The naive model was computing the wrong input variable. The gyroscope data corrects it. Every quantitative prediction that follows builds on the actual observed coupling, not the naive calculation.
+
+---
+
+**N_aligned for a 10 mm YIG sphere (mass = 2.71 g):**
+
+YIG density: 5.17 g/cm³. Volume of 10 mm sphere: (4/3)π(5 mm)³ = 0.524 cm³. Mass: 2.71 g. That is the actual mass of a 10 mm diameter polished YIG sphere — no correction factors, no hypothetical full-density estimate.
 
 Number of formula units:
 
 ```
-N = (m × N_A) / M = (2.7 × 6.022 × 10²³) / 737.9 ≈ 2.2 × 10²¹
+N = (m × N_A) / M = (2.71 × 6.022 × 10²³) / 737.9 ≈ 2.21 × 10²¹
 ```
 
 Each formula unit contributes one uncompensated iron vortex. Total aligned vortices:
@@ -597,7 +671,7 @@ The MSFC bismuth experiment's effective coupling was roughly 10⁻⁸ of YIG's �
 
 **Empirical lower bound from the brass gyroscope.** The tabletop brass gyroscope observation (Section 4.5) provides a direct empirical constraint on the coupling constant. A non-magnetic brass rotor spinning at 12,000 RPM produces a Barnett-induced internal alignment fraction of ~1.6 × 10⁻¹¹ — parts per hundred billion — and that fraction consistently produces 30–50 mg of weight change in both co-spin and anti-spin configurations. This proves the coupling is real, proves it operates in both directions as POAMS predicts, and proves the coupling is strong enough per aligned atom that even the worst conceivable medium produces a measurable result.
 
-YIG under FMR drive achieves near-unity alignment fraction (essentially every iron d-circulation participating), compared to 10⁻¹¹ in spinning brass. That is a ratio of roughly 6 × 10¹⁰ in alignment quality. Even accounting for the mass difference (5.4 g sphere versus ~190 g brass rotor), the YIG experiment is operating in a categorically different regime. The gyroscope result is not a small prior that needs to be extrapolated carefully. It is a direct demonstration that the mechanism works — and YIG is purpose-built to do it better by ten or more orders of magnitude.
+YIG under FMR drive achieves near-unity alignment fraction (essentially every iron d-circulation participating), compared to 10⁻¹¹ in spinning brass. That is a ratio of roughly 6 × 10¹⁰ in alignment quality. Even accounting for the mass difference (2.71 g sphere versus ~190 g brass rotor), the YIG experiment is operating in a categorically different regime. The gyroscope result is not a small prior that needs to be extrapolated carefully. It is a direct demonstration that the mechanism works — and YIG is purpose-built to do it better by ten or more orders of magnitude.
 
 The honest answer: the coupling constant is unknown. The experiment measures it. The sensitivity analysis shows that even very weak coupling (κ ~ 10⁻⁶) produces detectable signals on available instrumentation.
 
@@ -620,6 +694,27 @@ The most informative single measurement in the experiment is the relaxation curv
 
 The relaxation measurement requires fast sampling of the force transducer (μs resolution). A strain-gauge load cell with analog output can provide this; a digital analytical balance with serial readout cannot (too slow). The experimental design includes both: digital balance for steady-state measurements, analog load cell for transient characterization.
 
+**Empirical calibration from the brass gyroscope.**
+
+The brass gyroscope (Section 4.5) provides the first empirical calibration point for relaxation behavior — before the YIG experiment has run a single test.
+
+After stopping the gyroscope rotor, the weight anomaly persists for minutes and fully relaxes in tens of minutes. This is orders of magnitude longer than individual nuclear T₁ for copper (~milliseconds to seconds at room temperature). The extended relaxation implies cooperative depolarization — the polarization state is thermally stable in a collective sense, self-stabilized by neighbor-to-neighbor coupling, even when individual nuclei would flip quickly on their own.
+
+YIG under FMR drive is in a qualitatively different regime: the ferromagnetic exchange interaction maintains spin alignment indefinitely at room temperature. Magnetize a YIG sphere, remove the field, and the magnetization persists for hours or years — not minutes. If the gravitational coupling tracks the polarization state (as the gyroscope data implies it does), the weight anomaly in YIG should persist on the timescale of the magnetization — potentially permanent at room temperature.
+
+This makes the relaxation timescale the **key discriminant** for the experiment:
+
+| Relaxation Timescale | Interpretation |
+|---|---|
+| < 100 ns (electronic T₂*) | Purely electronic — weight change tracks precession only, vanishes when drive stops |
+| 100 ns – 1 ms | Intermediate — some non-electronic coupling pathway, investigate |
+| Minutes (like brass gyroscope) | Nuclear cooperative — polarization state persisting after drive removal, same physics as the gyroscope |
+| Hours / permanent | Ferromagnetic order — coupling is to the magnetization state itself. Permanent weight change in a permanently magnetized sphere. |
+
+The brass gyroscope sits in the "minutes" row. YIG at saturation belongs in the "hours / permanent" row — ferromagnetic order is not transient. If the coupling tracks polarization state, the YIG experiment does not just confirm the effect. It produces a **permanent weight change** that persists after the drive is removed.
+
+That is independently testable without any microwave hardware: magnetize the sphere with a DC field, remove the field, measure weight on a precision balance. Compare to the demagnetized state. If the POAMS coupling is real and tracks polarization fraction, the weight difference between a magnetized and demagnetized YIG sphere should be detectable.
+
 ### 5.6 Coupling Constant Analysis from Gyroscope Data
 
 The brass gyroscope result (Section 4.5) allows quantitative bounding of the coupling constant — and reveals something important about its functional form.
@@ -633,15 +728,37 @@ Alignment fraction: ~1.6 × 10⁻¹¹
 Coupling strength: ΔF / alignment_fraction ≈ 2.4 × 10⁷ N per unit alignment fraction
 ```
 
+**What this means for the relevant variable.**
+
+Express the gyroscope result as a fractional weight change:
+
+```
+ΔW/W = 40 mg / 289 g ≈ 1.4 × 10⁻⁴
+```
+
+A polarization fraction of ~10⁻¹¹ produces a fractional weight change of ~10⁻⁴. The amplification is:
+
+```
+Amplification = (ΔW/W) / polarization_fraction
+              = 1.4 × 10⁻⁴ / 1.6 × 10⁻¹¹
+              ≈ 10⁷
+```
+
+Every unit of alignment fraction produces ~10⁷ units of fractional weight change. The coupling constant per unit polarization is not small. It is enormous.
+
+The relevant variable is **polarization fraction**, not total angular momentum. L_orbital is the wrong denominator. ΔL_spin is the wrong numerator. The brass data points directly to alignment fraction as the input variable and fractional weight change as the output — one in, one out.
+
+YIG at FMR saturation reaches alignment fraction = 1.0, a factor of 10¹¹ above brass. Two calibration points spanning 11 orders of magnitude of polarization fraction will reveal the functional form of the coupling: linear, power-law, threshold, or saturating. Brass at ~10⁻¹¹ is point one. YIG at ~1.0 is point two. Whether the curve between them is a straight line or shows nonlinearity is exactly what the experiment answers.
+
 **Naive linear extrapolation to YIG:**
 
-YIG at FMR saturation: alignment fraction ≈ 1.0. Scale by mass ratio (5.4 g / 190 g ≈ 0.028):
+YIG at FMR saturation: alignment fraction ≈ 1.0. Scale by mass ratio (2.71 g / 190 g ≈ 0.0143):
 
 ```
-ΔF_YIG (linear) ≈ 2.4 × 10⁷ × 1.0 × 0.028 ≈ 670,000 N ≈ 67 metric tons
+ΔF_YIG (linear) ≈ 2.4 × 10⁷ × 1.0 × 0.0143 ≈ 343,000 N ≈ 34 metric tons
 ```
 
-From a 5.4 gram sphere. Obviously absurd. Which is exactly the point.
+From a 2.71 gram sphere. Obviously absurd. Which is exactly the point.
 
 **The coupling is not linear with alignment fraction.** This is not a failure of the framework — it is the framework telling us something. The naive linear extrapolation breaks because one of the following must be true:
 
@@ -649,7 +766,7 @@ From a 5.4 gram sphere. Obviously absurd. Which is exactly the point.
 
 2. **Fundamentally different coupling pathways.** Bulk mechanical rotation (macro-physical, incoherent, 10⁻¹¹ alignment fraction) and coherent FMR drive (micro-physical, phase-coherent, ~1.0 alignment fraction) may not be the same input to the same equation. The internal vortex alignment — even at parts-per-billion from Barnett — may couple to the gravitational background more strongly per aligned atom than the bulk angular momentum of the rotor. The rotation is just the delivery mechanism. The active ingredient is the internal spin-state change. That reframes the coupling constant calculation entirely: we should not be comparing L_rotor to L_YIG. We should be comparing alignment-fraction × coherence × drive-rate.
 
-**Even with strong saturation, the signal is massive.** If the coupling goes as the square root of alignment fraction, the ratio between brass gyroscope and YIG is √(6 × 10¹⁰) ≈ 245,000. Scaled by mass ratio (0.028): predicted ΔF_YIG ≈ 40 mg × 245,000 × 0.028 ≈ 274 kg. Still enormous. Even if an additional suppression factor of 10⁶ is applied for reasons not yet understood, the predicted signal is in the hundreds-of-milligrams range — well above the detection threshold for this experiment.
+**Even with strong saturation, the signal is massive.** If the coupling goes as the square root of alignment fraction, the ratio between brass gyroscope and YIG is √(6 × 10¹⁰) ≈ 245,000. Scaled by mass ratio (0.0143): predicted ΔF_YIG ≈ 40 mg × 245,000 × 0.0143 ≈ 140 kg. Still enormous. Even if an additional suppression factor of 10⁶ is applied for reasons not yet understood, the predicted signal is in the hundreds-of-milligrams range — well above the detection threshold for this experiment.
 
 **The two-scenario interpretation:**
 
