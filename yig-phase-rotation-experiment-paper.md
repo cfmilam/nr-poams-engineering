@@ -165,10 +165,10 @@ This experiment operates at energies millions of times below the threshold for t
 
 After alignment, all vortices spin in correlated planes, same direction, same rate. But each has a *phase angle* — where it is in its rotation cycle at any given instant. A microwave drive at the ferromagnetic resonance frequency induces *precession* of the collective magnetization vector: the angular momentum axis traces a cone around the field direction. The magnetization does not spin faster (that would add ħ). It *precesses* — the collective orientation is continuously rotated relative to the Earth frame at GHz rates.
 
-The terminology of "leading" and "lagging" phase is precise and intentional. Unlike "spin-up/spin-down" (which describes a binary orientation) or "CW/CCW" (which describes a rotation direction), leading and lagging describe the *rate of angular position change* relative to a reference frame:
+The quantity this experiment drives is **phase slip** — the *rate* at which the collective phase advances relative to a reference frame (dφ/dt). This must be distinguished from **phase sense**, the binary, topologically quantized *sign* of a vortex's closed internal circulation (∮dφ = ±2πn), which is what underlies spin and charge and is *not* what this experiment manipulates. Phase slip is continuous and drivable; phase sense is binary and topologically protected. A drive changes phase slip (hence weight) but never phase sense (hence not charge) — which is precisely why this is weight-modification without charge conversion. Accordingly, "leading" and "lagging" here denote the sign of the *slip rate*, not a binary orientation ("spin-up/down") or rotation direction ("CW/CCW"):
 
-- **Leading phase:** The collective vector advances faster than the reference frame → net angular momentum addition → co-spin → radius contraction → heavier
-- **Lagging phase:** The collective vector advances slower than the reference frame → net angular momentum subtraction → anti-spin → radius extension → lighter
+- **Leading slip:** The collective vector advances faster than the reference frame → net angular momentum addition → spin composes in the same sense as orbital → radius contraction → heavier
+- **Lagging slip:** The collective vector advances slower than the reference frame → net angular momentum subtraction → spin composes opposed to orbital → radius extension → lighter
 
 Reversing the Helmholtz field flips the precession direction, which flips the sign of the effect.
 
