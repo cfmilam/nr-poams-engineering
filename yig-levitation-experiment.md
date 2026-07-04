@@ -11,6 +11,7 @@ Demonstrate measurable weight change in a Yttrium Iron Garnet (YIG) sphere by dr
 - Changing the net angular momentum state of the bulk material changes its orbital radius
 - Anti-spin (opposing Earth's rotation) → radius extension → reduced weight
 - Co-spin (aligned with Earth's rotation) → radius contraction → increased weight
+- **Sign — two handedness choices, explicit:** (a) *Labeling:* right-hand rule; "co-spin" = body's spin vector parallel to Earth's rotation. This alone does NOT set the sign (a left-hand rule relabels body and Earth together, physics unchanged). (b) *Physical, load-bearing:* the co/anti → heavier/lighter direction is fixed by the physical handedness of Earth's field gradient — we take the field to thin outward in the co-rotating sense, so co-spin pushes the natural radius outward (surface holds body further inside it → heavier), anti-spin inward (→ lighter). This is an EMPIRICAL INPUT, not a labeling choice and not a theorem of conservation: reverse the physical gradient handedness and both signs flip with the right-hand rule untouched. The experiment measures the sign directly, so a reversed result fixes the gradient handedness empirically rather than refuting POAMS. (Surfaced 2026-07-03: an independent re-derivation using identical right-hand labeling reached the opposite sign because it assumed the opposite physical gradient — proving the sign lives in (b), not (a).)
 - Coherent phase rotation = all accumulators precessing in lockstep = macroscopic angular momentum state change
 
 ## Why YIG
