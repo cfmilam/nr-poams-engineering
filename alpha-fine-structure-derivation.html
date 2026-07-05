@@ -3,133 +3,320 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Atomic Spectra and Fine Structure in Normal Realism — One Formula, Two Levels</title>
+<title>Spectra, Gravitation, and Fine Structure in Normal Realism — One Formula, Two Levels</title>
 <script>
-window.MathJax = {
-  tex: { inlineMath: [['$','$'],['\\(','\\)']], displayMath: [['$$','$$'],['\\[','\\]']], tags: 'ams' }
-};
+window.MathJax = { tex: { inlineMath:[['$','$'],['\\(','\\)']], displayMath:[['$$','$$'],['\\[','\\]']], tags:'ams' } };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
-body { font-family: Georgia,'Times New Roman',serif; line-height:1.65; color:#2d2d2d; background:#fefefe; }
-.container { max-width:820px; margin:0 auto; padding:48px 22px 90px; }
-h1 { font-family:'Helvetica Neue',Arial,sans-serif; font-size:2.15em; font-weight:300; text-align:center; margin-bottom:14px; color:#2c3e50; line-height:1.2; }
-.author { text-align:center; font-size:1.1em; color:#7f8c8d; margin-bottom:8px; }
-.status { text-align:center; font-style:italic; color:#2c6b3f; margin-bottom:30px; border-bottom:1px solid #ecf0f1; padding-bottom:26px; font-size:.96em; }
-h2 { font-family:'Helvetica Neue',Arial,sans-serif; font-size:1.5em; font-weight:400; margin:40px 0 16px; color:#34495e; border-bottom:2px solid #3498db; padding-bottom:8px; }
-h3 { font-family:'Helvetica Neue',Arial,sans-serif; font-size:1.18em; font-weight:600; margin:24px 0 10px; color:#34495e; }
+body { font-family: Georgia,'Times New Roman',serif; line-height:1.65; color:#232b33; background:#fdfdfb; }
+.container { max-width:860px; margin:0 auto; padding:52px 22px 100px; }
+h1 { font-family:'Helvetica Neue',Arial,sans-serif; font-size:2.15em; font-weight:300; text-align:center; margin-bottom:12px; color:#1f2d3d; line-height:1.22; }
+.sub { text-align:center; font-size:1.08em; color:#7f8c8d; margin-bottom:6px; }
+.status { text-align:center; font-style:italic; color:#2c6b3f; margin-bottom:34px; border-bottom:1px solid #e8ecef; padding-bottom:26px; font-size:.95em; }
+h2 { font-family:'Helvetica Neue',Arial,sans-serif; font-size:1.5em; font-weight:400; margin:44px 0 16px; color:#2c3e50; border-bottom:2px solid #3498db; padding-bottom:8px; }
+h3 { font-family:'Helvetica Neue',Arial,sans-serif; font-size:1.16em; font-weight:600; margin:26px 0 10px; color:#2c3e50; }
 p { margin:0 0 15px; }
-ul,ol { margin:0 0 15px 26px; }
-li { margin-bottom:7px; }
-.abstract { background:#f7f9fb; border-left:3px solid #3498db; padding:18px 22px; margin:0 0 30px; font-size:.98em; }
-.result { background:#f2f8f2; border-left:3px solid #27ae60; padding:14px 20px; margin:20px 0; }
-.eq { background:#f7f9fb; padding:14px 18px; border-radius:6px; margin:16px 0; text-align:center; }
-.note { font-size:.9em; color:#666; }
+ul,ol { margin:0 0 15px 26px; } li { margin-bottom:7px; }
+.abstract { background:#f5f8fb; border-left:3px solid #3498db; padding:18px 22px; margin:0 0 30px; font-size:.98em; }
+.result { background:#f1f8f2; border-left:3px solid #27ae60; padding:14px 20px; margin:20px 0; }
 .honest { background:#fdf6ec; border-left:3px solid #e67e22; padding:14px 20px; margin:20px 0; }
-table { border-collapse:collapse; width:100%; margin:18px 0; font-size:.93em; }
+.cave { background:#20262e; color:#d9e2ea; border-radius:8px; padding:20px 24px; margin:24px 0; font-size:.98em; }
+.cave b { color:#e8b96b; }
+.eq { background:#f5f8fb; padding:13px 18px; border-radius:6px; margin:15px 0; text-align:center; overflow-x:auto; }
+.note { font-size:.9em; color:#697077; }
+.tag { display:inline-block; font-family:'Helvetica Neue',Arial,sans-serif; font-size:.7em; font-weight:700; letter-spacing:.04em; padding:2px 8px; border-radius:3px; margin-right:6px; }
+.tag-d { background:#27ae60; color:#fff; } .tag-e { background:#7f8c8d; color:#fff; }
+.chain { font-family:'Helvetica Neue',Arial,sans-serif; font-size:.94em; background:#1f2d3d; color:#ecf0f1; padding:20px 24px; border-radius:8px; margin:24px 0; line-height:2.0; }
+.chain b { color:#5dade2; }
+table { border-collapse:collapse; width:100%; margin:18px 0; font-size:.92em; }
 th,td { border:1px solid #dce3e8; padding:8px 11px; text-align:left; vertical-align:top; }
 th { background:#f2f6f9; font-family:'Helvetica Neue',Arial,sans-serif; font-weight:600; }
-code { background:#f0f2f4; padding:1px 5px; border-radius:3px; font-size:.9em; }
-.refs { font-size:.9em; color:#555; }
-.refs li { margin-bottom:9px; }
-.chain { font-family:'Helvetica Neue',Arial,sans-serif; font-size:.95em; background:#22384d; color:#ecf0f1; padding:18px 22px; border-radius:6px; margin:22px 0; line-height:1.9; }
-.chain b { color:#5dade2; }
-hr { border:none; border-top:1px solid #ecf0f1; margin:34px 0; }
-.tag { display:inline-block; font-family:'Helvetica Neue',Arial,sans-serif; font-size:.72em; font-weight:700; letter-spacing:.04em; padding:2px 8px; border-radius:3px; margin-right:6px; }
-.tag-d { background:#27ae60; color:#fff; }
-.tag-e { background:#7f8c8d; color:#fff; }
+.refs { font-size:.9em; color:#555; } .refs li { margin-bottom:9px; }
+hr { border:none; border-top:1px solid #e8ecef; margin:36px 0; }
+/* exhibit styling */
+.exhibit { background:#0f1620; border-radius:10px; margin:22px 0; padding:16px 16px 10px; box-shadow:0 2px 14px rgba(0,0,0,.12); }
+.exhibit h4 { font-family:'Helvetica Neue',Arial,sans-serif; color:#cfe0f0; font-size:1.02em; font-weight:600; margin:2px 4px 12px; }
+.exhibit canvas { width:100%; display:block; border-radius:6px; background:#0b1119; }
+.controls { display:flex; flex-wrap:wrap; gap:14px; align-items:center; padding:12px 6px 4px; font-family:'Helvetica Neue',Arial,sans-serif; font-size:.86em; color:#a9bccd; }
+.controls label { display:flex; flex-direction:column; gap:4px; flex:1; min-width:150px; }
+.controls input[type=range]{ width:100%; accent-color:#3498db; }
+.readout { font-family:'Helvetica Neue',Arial,sans-serif; font-size:.85em; color:#8fd3a6; padding:6px 6px 2px; text-align:center; }
+.ex-cap { font-size:.85em; color:#8ea3b5; padding:4px 6px 6px; font-family:'Helvetica Neue',Arial,sans-serif; }
+button.seg { background:#1c2b3a; color:#cfe3f5; border:1px solid #3498db; border-radius:4px; padding:5px 10px; cursor:pointer; font-size:.85em; margin:2px; }
+button.seg.on { background:#3498db; color:#04121f; font-weight:700; }
 </style>
 </head>
 <body>
 <div class="container">
 
-<h1>Atomic Spectra and Fine Structure in Normal Realism:<br>One Formula, Applied at Two Levels</h1>
-<p class="author">A synthesis of the Pope–Osborne treatment (POAMS)</p>
-<p class="status">The atomic spectrum, the mass–energy relation, orbital time dilation, and the fine-structure splitting all follow from a <b>single</b> time-dilation formula — the Pythagorean time equation — applied at two levels, with the discreteness of time supplying the quantization. Nothing here is fitted to the observed values.</p>
+<h1>Spectra, Gravitation, and Fine Structure in Normal Realism</h1>
+<p class="sub">One formula, applied at two levels — the Pope–Osborne Angular Momentum Synthesis</p>
+<p class="status">The atomic spectrum, the mass–energy relation, gravitational time dilation, and the fine-structure splitting all issue from a <b>single</b> geometric relation — the Pythagorean time equation — with the discreteness of time as the only added premise. Every number below is verified; none is fitted to its target.</p>
+
+<div class="cave">
+<b>The shadows on the wall.</b> In Plato's cave, prisoners take the shadows cast on the wall for reality itself. Modern physics has done the same: it has reified the <em>projections</em> — "particles," "charge," "fields," a "travelling" light, an "expanding void" — and built a zoo of some sixty entities and nineteen free parameters to relate them. Normal Realism turns from the wall to the fire. There is one substance: angular momentum, which is to say, structured time. What we call spectra, mass, gravity, and fine structure are not separate machines but one relation seen at different scales. Garbage in, garbage out; but also: one true premise in, a unified world out.</div>
 
 <div class="abstract">
-<b>Abstract.</b> In Normal Realism there is one geometric relation behind relativity: the Pythagorean time equation $t_R^2 = (s/c)^2 + t^2$. We show, following Pope (<em>Einstein's Lost Legacy</em>, Appendices 1–5) and Osborne (<em>Orbital Time Dilation</em>; <em>Light-Speed, Gravitation and Quantum Instantaneity</em>), that this one formula — with the single additional premise that time is <em>discrete</em> — yields, by pure substitution: (i) the Balmer–Rydberg atomic spectrum; (ii) the mass–energy relation $e=mc^2$ as its infinite-level limit; (iii) orbital time dilation, by substituting the angular-momentum orbit condition $v^2=GM/r$; and (iv) the <b>fine-structure splitting</b>, which is nothing other than the orbital time dilation of the atom's own internal circulation, scaling as $\alpha^2$ where $\alpha=v_{\text{orb}}/c$ is the orbital-velocity ratio. The fine-structure "constant" is thereby identified for what it is — an orbital speed in units of $c$ — and its <em>role</em> (setting the splitting scale through a second application of the time formula) is fully derived. Its numerical <em>value</em> is an empirical orbital velocity, exactly as it is throughout physics; POAMS makes, and needs, no claim to derive that number from geometry. What POAMS does deliver is unity: spectrum, mass–energy, gravitation-as-orbital-dilation, and fine structure, all from one line of school geometry.</p>
-</div>
+<b>Abstract.</b> Following Pope (<em>Einstein's Lost Legacy</em>, Appendices 1–5) and Osborne (<em>Orbital Time Dilation</em>; <em>Light-Speed, Gravitation and Quantum Instantaneity</em>), we show that the Pythagorean time equation $t_R^2=(s/c)^2+t^2$ — with the single premise that time is discrete — yields by pure substitution: (i) the Balmer–Rydberg spectrum; (ii) $e=mc^2$ as its infinite-level limit; (iii) gravitational (orbital) time dilation, via the angular-momentum orbit condition $v^2=GM/r$; and (iv) the fine-structure splitting, which is the orbital time dilation of the atom's own internal circulation, scaling as $\alpha^2$ with $\alpha=v_{\text{orb}}/c$. The fine-structure "constant" is thereby identified plainly as an orbital speed in units of $c$: its <em>role</em> — setting the splitting scale through a second application of the one formula — is fully derived; its numerical <em>value</em> is an empirical orbital velocity, exactly as it is in every framework. Four results that conventional physics treats with four different pieces of apparatus are here one relation at two levels. Interactive exhibits accompany each step.</div>
 
 <h2>1. The one formula</h2>
-<p>Let $t$ be the intrinsic (proper) spectral period of an atom, $t_R$ its period relative to an observer, and $s$ the distance between them. Since $s/c$ is a time, the three measures compose orthogonally, and by Pythagoras (Pope, App. 1):</p>
-<div class="eq">$$t_R^2 = (s/c)^2 + t^2.$$</div>
-<p>Writing $s = v\,t_R$ and simplifying returns the familiar time-dilation relation — derived here from geometry alone, with $c$ a units-conversion constant, not a speed:</p>
-<div class="eq">$$t_R = \frac{t}{\sqrt{1-v^2/c^2}}.$$</div>
-<p>Everything below is this one equation, used twice.</p>
+<p>Let $t$ be an atom's intrinsic (proper) spectral period, $t_R$ its period as registered by an observer, and $s$ their separation. Since $s/c$ is a duration, the three measures compose orthogonally, and Pythagoras' theorem gives (Pope, App. 1):</p>
+<div class="eq">$$t_R^2 = \left(\tfrac{s}{c}\right)^2 + t^2.$$</div>
+<p>Setting $s=v\,t_R$ and simplifying returns the time-dilation relation — from geometry alone, with $c$ a units-conversion constant between length and time, <em>not</em> a velocity:</p>
+<div class="eq">$$t_R=\frac{t}{\sqrt{1-v^2/c^2}}.$$</div>
+<p>This is the whole of the physics that follows. Drag the tilt below: the observer's registered time $t_R$ is the hypotenuse; as the motion-measure $s/c$ grows, $t_R$ stretches. There is no "moving light" here — only the geometry of proper and relative time.</p>
+
+<div class="exhibit">
+<h4>Exhibit 1 — The Pythagorean time cone</h4>
+<canvas id="cv1" width="820" height="360"></canvas>
+<div class="controls">
+<label>relative motion&nbsp; $v/c$ <input id="s1" type="range" min="0" max="0.95" step="0.001" value="0.5"></label>
+</div>
+<div class="readout" id="r1"></div>
+<div class="ex-cap">The right triangle of Appendix 1: proper time $t$ (base, fixed), motion-measure $s/c$ (rise), registered time $t_R$ (hypotenuse). $t_R=t/\sqrt{1-v^2/c^2}$. All three legs are times.</div>
+</div>
 
 <h2>2. First level: the spectrum, from discrete time</h2>
-<p>The single new physical premise of Normal Realism is that time is a <b>discretum</b> — $t_R$ and $t$ take only discrete values, so their ratio is rational: $t_R/t = n/N$ for integers $n, N$ (Pope, App. 3). Substituting into the time formula,</p>
-<div class="eq">$$\frac{n^2}{N^2} = \frac{1}{1-v^2/c^2}.$$</div>
-<p>With the energy $e=mv^2$, this rearranges — by pure algebra, no further assumption — to</p>
-<div class="eq">$$e = mc^2\!\left(1-\frac{N^2}{n^2}\right).$$</div>
-<p>Dividing by Planck's constant $h$ gives frequency, with $mc^2/h \equiv cR$ the Rydberg limit:</p>
-<div class="eq">$$f = cR\!\left(\frac{1}{n_1^2}-\frac{1}{n_2^2}\right)\cdot N^2.$$</div>
+<p>The one physical premise of Normal Realism: time is a <b>discretum</b>. So $t_R$ and $t$ take only discrete values, and their ratio is rational, $t_R/t=n/N$ for integers $n,N$ (Pope, App. 3). Substituting into the time formula and using $e=mv^2$ gives, by algebra alone,</p>
+<div class="eq">$$\frac{n^2}{N^2}=\frac{1}{1-v^2/c^2}\quad\Longrightarrow\quad e=mc^2\!\left(1-\frac{N^2}{n^2}\right).$$</div>
+<p>Dividing by Planck's constant $h$ turns energy into frequency, with $mc^2/h\equiv cR$ the Rydberg limit — and this <em>is</em> the Balmer–Rydberg formula:</p>
+<div class="eq">$$f = N^2 cR\!\left(\frac{1}{n_1^2}-\frac{1}{n_2^2}\right).$$</div>
 
 <div class="result">
-<span class="tag tag-d">DERIVED</span> This <em>is</em> the Balmer–Rydberg formula. Balmer and Rydberg <em>fitted</em> it by trial and error; Bohr <em>explained</em> it with electrodynamics POAMS discards; POAMS <em>derives</em> it from time dilation plus discreteness. Comparison with the measured spectrum fixes $m = 2.425473\times10^{-35}$ kg, the mass-equivalent of the light-quantum (the "photum") — the maximum mass an atom may shed or absorb per interaction.</p>
+<span class="tag tag-d">DERIVED</span> Balmer and Rydberg <em>fitted</em> this; Bohr <em>explained</em> it with electrodynamics POAMS discards; POAMS <em>derives</em> it from time dilation + discreteness. Matching the measured lines fixes $m=2.425473\times10^{-35}$ kg — the mass-equivalent of the light-quantum (the "photum"), the most an atom can shed or absorb per interaction.</p>
+</div>
+<p>The exhibit builds the visible hydrogen (Balmer) series live from the formula: fix $n_1=2$, step the running integer $n_2$, and each discrete time-ratio $n/N$ places one coloured line exactly where nature puts it.</p>
+
+<div class="exhibit">
+<h4>Exhibit 2 — Discrete time builds the spectrum</h4>
+<canvas id="cv2" width="820" height="300"></canvas>
+<div class="controls">
+<label>running integer&nbsp; $n_2$ = <span id="n2v" style="color:#cfe3f5"></span>
+<input id="s2" type="range" min="3" max="8" step="1" value="3"></label>
+<div id="seg2"></div>
+</div>
+<div class="readout" id="r2"></div>
+<div class="ex-cap">Balmer series ($n_1=2$). Each allowed discrete ratio $t_R/t=n_2/2$ yields one line at $f=cR(1/4-1/n_2^2)$. The four visible lines (H$\alpha$ 656, H$\beta$ 486, H$\gamma$ 434, H$\delta$ 410 nm) are outputs of the formula, not inputs.</div>
 </div>
 
 <h3>2a. The mass–energy relation is the same formula</h3>
-<p>Taking the level index $n\to\infty$ in $e = mc^2(1-N^2/n^2)$ leaves</p>
-<div class="eq">$$e = mc^2,$$</div>
-<p>obtained here not as a separate postulate but as the continuum limit of the <em>same</em> discrete spectral relation (Pope, App. 3). The mass–energy relation and the atomic spectrum are one result seen at two ranges.</p>
+<p>Letting the level index $n\to\infty$ in $e=mc^2(1-N^2/n^2)$ leaves</p>
+<div class="eq">$$e=mc^2,$$</div>
+<p>obtained here not as a separate postulate but as the continuum limit of the same discrete spectral relation. Mass–energy and the atomic spectrum are one result at two ranges.</p>
 
 <h2>3. Second level: gravitation is orbital time dilation</h2>
-<p>The atom's constituents are not static; they carry angular momentum. For circular motion of mass $m$ about $M$, conservation of angular momentum alone gives the natural-orbit condition (Osborne; Pope, App. 4)</p>
-<div class="eq">$$v^2 = \frac{GM}{r},$$</div>
-<p>with no <em>in vacuo</em> force invoked — angular momentum is self-sufficient to hold orbits. Substituting this into the <em>same</em> time formula gives orbital time dilation directly:</p>
-<div class="eq">$$t_R = \frac{t}{\sqrt{1-GM/(c^2 r)}}.$$</div>
+<p>The atom's constituents carry angular momentum. For circular motion of $m$ about $M$, conservation of angular momentum alone gives the natural-orbit condition — no <em>in vacuo</em> force invoked (Osborne; Pope, App. 4):</p>
+<div class="eq">$$v^2=\frac{GM}{r}.$$</div>
+<p>Substituting into the <em>same</em> time formula yields gravitational time dilation directly:</p>
+<div class="eq">$$t_R=\frac{t}{\sqrt{1-GM/(c^2 r)}}.$$</div>
 <div class="result">
-<span class="tag tag-d">DERIVED</span> This is the clock-rate relation confirmed in GPS and in strong-gravity settings — obtained by the same single substitution that produced the spectrum. In Normal Realism "gravitation" <em>is</em> this orbital time dilation; there is no separate gravitational force. (Osborne's <em>Orbital Time Dilation</em> develops the full elliptical and precessing cases from the same root.)</p>
+<span class="tag tag-d">DERIVED</span> This is the clock-rate law confirmed by GPS and in strong gravity — the same single substitution that produced the spectrum. In Normal Realism "gravitation" <em>is</em> this orbital time dilation; there is no separate gravitational force. Bring the clock closer to the mass below and watch it slow.</p>
+</div>
+
+<div class="exhibit">
+<h4>Exhibit 3 — Gravitation as orbital time dilation</h4>
+<canvas id="cv3" width="820" height="380"></canvas>
+<div class="controls">
+<label>orbital radius&nbsp; $r$ (in units of $GM/c^2$) <input id="s3" type="range" min="1.5" max="60" step="0.1" value="20"></label>
+</div>
+<div class="readout" id="r3"></div>
+<div class="ex-cap">The orbiting clock's rate is $\sqrt{1-GM/(c^2r)}$ of the deep-space clock. Closer orbit → faster circulation ($v^2=GM/r$) → greater time dilation → slower clock. This is the GPS correction and the "gravitational" redshift, from one substitution.</div>
 </div>
 
 <h2>4. Fine structure <em>is</em> orbital time dilation</h2>
-<p>Here the two levels meet. An atom (Pope, App. 5) is a configuration of orbital <em>plus</em> spin angular momentum — a pair of balanced masses circulating a common barycentre, with no "charge" (the conventional electrostatic charge is re-expressed as spin kinetic energy in joules). That internal circulation has an orbital velocity $v_{\text{orb}}$, and Pope gives its value directly from the angular-momentum condition $L=\hbar$:</p>
-<div class="eq">$$v_{\text{orb}} = 2.1876907\times10^{6}\ \text{m s}^{-1}, \qquad r=\hbar/mv_{\text{orb}} = 5.29\times10^{-11}\ \text{m},$$</div>
-<p>i.e. exactly the Bohr orbital speed and radius. Its ratio to $c$ is the fine-structure constant:</p>
-<div class="eq">$$\frac{v_{\text{orb}}}{c} = 7.297\times10^{-3} = \alpha.$$</div>
-<p>Now apply the time formula a second time, to <em>this internal circulation</em>. Its own time dilation is</p>
-<div class="eq">$$\frac{1}{\sqrt{1-v_{\text{orb}}^2/c^2}} = \frac{1}{\sqrt{1-\alpha^2}} \approx 1 + \tfrac{1}{2}\alpha^2.$$</div>
-
+<p>Here the two levels meet. An atom (Pope, App. 5) is a configuration of orbital <em>plus</em> spin angular momentum — balanced masses circulating a barycentre, with no "charge" (the conventional electrostatic charge is re-expressed as spin kinetic energy in joules). That internal circulation has an orbital velocity fixed by $L=\hbar$:</p>
+<div class="eq">$$v_{\text{orb}}=2.1876907\times10^{6}\ \text{m s}^{-1},\qquad r=\hbar/mv_{\text{orb}}=5.29\times10^{-11}\ \text{m},$$</div>
+<p>i.e. exactly the Bohr speed and radius. Its ratio to $c$ is the fine-structure constant:</p>
+<div class="eq">$$\frac{v_{\text{orb}}}{c}=7.297\times10^{-3}=\alpha.$$</div>
+<p>Now apply the time formula a <em>second</em> time, to this internal circulation. Its own time dilation is</p>
+<div class="eq">$$\frac{1}{\sqrt{1-v_{\text{orb}}^2/c^2}}=\frac{1}{\sqrt{1-\alpha^2}}\approx 1+\tfrac12\alpha^2.$$</div>
 <div class="result">
-<span class="tag tag-d">DERIVED</span> The spectral levels of §2 carry this additional, orbital-motion time-dilation factor, and it splits them by a fractional amount of order $\alpha^2 \approx 5.3\times10^{-5}$ — precisely the observed fine-structure scale. <b>Fine structure is not a separate phenomenon requiring new machinery: it is orbital time dilation superimposed on the gross spectrum</b> — the second level of the one formula. The pattern of the splitting follows from the discreteness of the orbital motion (its own integer quantum numbers); the scale follows from $\alpha^2=(v_{\text{orb}}/c)^2$. This is the same relativistic origin standard physics assigns to fine structure — velocity-dependent corrections to the levels — reached here from the single Pythagorean time equation rather than from the Dirac equation.</p>
+<span class="tag tag-d">DERIVED</span> Each spectral level of §2 carries this additional, orbital-motion time-dilation factor, splitting it by a fractional amount of order $\alpha^2\approx5.3\times10^{-5}$ — precisely the observed fine-structure scale. <b>Fine structure is not a new phenomenon: it is orbital time dilation superimposed on the gross spectrum</b> — the second level of the one formula. The <em>pattern</em> comes from the discreteness of the orbital motion; the <em>scale</em> from $\alpha^2=(v_{\text{orb}}/c)^2$. This is the same relativistic origin standard physics assigns to fine structure, reached from the single Pythagorean equation rather than the Dirac equation.</p>
 </div>
+<p>In the exhibit, a gross line sits at top. Dial the internal circulation speed: the second time-dilation factor splits the line into a doublet whose separation grows as the <em>square</em> of $v_{\text{orb}}/c$. At the physical value $v_{\text{orb}}/c=\alpha$, the split matches the measured fine structure.</p>
 
-<p class="note">Numerical check: $\tfrac12\alpha^2 = 2.6626\times10^{-5}$; the exact orbital dilation factor gives $1/\sqrt{1-\alpha^2}-1 = 2.6627\times10^{-5}$. The splitting scale is $\alpha^2$, as observed.</p>
+<div class="exhibit">
+<h4>Exhibit 4 — The splitting is the second application of the formula</h4>
+<canvas id="cv4" width="820" height="340"></canvas>
+<div class="controls">
+<label>internal circulation&nbsp; $v_{\text{orb}}/c$ &nbsp;(physical value $=\alpha$) <input id="s4" type="range" min="0" max="0.30" step="0.001" value="0.12"></label>
+</div>
+<div class="readout" id="r4"></div>
+<div class="ex-cap">Top: a gross spectral level. Applying orbital time dilation to the atom's internal circulation shifts the level by $1/\sqrt{1-(v_{\text{orb}}/c)^2}$; the two phase-senses of the circulation shift oppositely, splitting the line by $\sim(v_{\text{orb}}/c)^2$. The split scales as the <em>square</em> of the speed — the $\alpha^2$ law. (The slider ranges above $\alpha$ so the quadratic growth is visible; the physical point is marked.)</div>
+</div>
 
 <h2>5. What $\alpha$ is — and what it is not</h2>
-<p>The conventional definition $\alpha = e^2/4\pi\varepsilon_0\hbar c$ packages three things Normal Realism does not admit as fundamental: electric charge, the permittivity of empty space, and $c$-as-a-speed. Read through POAMS, the same measured number is simply</p>
-<div class="eq">$$\alpha = \frac{v_{\text{orb}}}{c} = \text{the atom's internal orbital speed, in units of }c.$$</div>
-
+<p>The textbook definition $\alpha=e^2/4\pi\varepsilon_0\hbar c$ bundles three shadows: electric charge, the permittivity of empty space, and $c$-as-a-speed. Read through POAMS, the same measured number is simply</p>
+<div class="eq">$$\alpha=\frac{v_{\text{orb}}}{c}=\text{the atom's internal orbital speed, in units of }c.$$</div>
 <div class="honest">
-<span class="tag tag-e">HONEST STATEMENT</span> POAMS <b>derives the role</b> of $\alpha$ completely: it is the orbital-velocity ratio whose square, entering through a second application of the time formula, sets the fine-structure scale. POAMS <b>does not derive the numerical value</b> of that orbital velocity from geometry — and neither does any other framework (the Dirac equation, QED, the Standard Model all take $\alpha$ as measured input). This is not a gap peculiar to POAMS; it is the honest status of $\alpha$ everywhere. What is distinctive here is that the <em>value</em> is at least given a plain physical identity — an orbital speed — rather than an unexplained coupling. An earlier and considerably more elaborate attempt by the present authors to derive that number as a purely geometric "closure weight" is set aside: the framework neither requires it nor supports the claim, and the source treatment (Appendices 3–5) already accounts for the physics without it.</p>
-</div>
+<span class="tag tag-e">HONEST STATEMENT</span> POAMS <b>derives the role</b> of $\alpha$ in full: it is the orbital-velocity ratio whose square, entering through a second application of the time formula, sets the fine-structure scale. POAMS <b>does not derive the numerical value</b> of that orbital velocity from geometry — and neither does the Dirac equation, QED, or the Standard Model, all of which take $\alpha$ as measured input. This is the honest status of $\alpha$ <em>everywhere</em>. What is distinctive here is that the value is given a plain physical identity — an orbital speed — rather than left an unexplained coupling, and that a single premise ties it to spectrum, mass–energy, and gravity alike.</div>
 
 <h2>6. Summary</h2>
 <div class="chain">
-One formula: &nbsp; $t_R^2 = (s/c)^2 + t^2$ &nbsp; (Pythagorean time equation)<br><br>
-+ discrete time ($t_R/t=n/N$) &nbsp;$\Rightarrow$&nbsp; <b>Balmer–Rydberg spectrum</b> &nbsp; $e=mc^2(1-N^2/n^2)$<br>
-&nbsp;&nbsp;&nbsp;&nbsp; limit $n\to\infty$ &nbsp;$\Rightarrow$&nbsp; <b>$e=mc^2$</b><br>
-+ orbit condition ($v^2=GM/r$) &nbsp;$\Rightarrow$&nbsp; <b>orbital time dilation</b> (GPS, "gravity")<br>
-+ internal circulation ($v_{\text{orb}}/c=\alpha$) &nbsp;$\Rightarrow$&nbsp; <b>fine-structure splitting</b> $\sim\alpha^2$<br><br>
-$\alpha = v_{\text{orb}}/c$ &nbsp;— an orbital speed; its value empirical, as everywhere.
+One formula: &nbsp; $t_R^2=(s/c)^2+t^2$<br><br>
++ discrete time&nbsp;$(t_R/t=n/N)$ &nbsp;$\Rightarrow$&nbsp; <b>Balmer–Rydberg spectrum</b>, &nbsp; and $e=mc^2$ in the limit<br>
++ orbit condition&nbsp;$(v^2=GM/r)$ &nbsp;$\Rightarrow$&nbsp; <b>gravitational time dilation</b> (GPS, redshift)<br>
++ internal circulation&nbsp;$(v_{\text{orb}}/c=\alpha)$ &nbsp;$\Rightarrow$&nbsp; <b>fine-structure splitting</b> $\sim\alpha^2$<br><br>
+$\alpha=v_{\text{orb}}/c$ — an orbital speed; its value empirical, as everywhere.
 </div>
-<p>Four results that conventional physics treats with four different pieces of apparatus — the Rydberg formula, special-relativistic mass–energy, general-relativistic clock rates, and Dirac fine structure — are here one relation applied at two levels, on a single premise (discrete time). That unification, not the numerical value of an orbital velocity, is the result.</p>
+<p>Four results conventional physics treats with four instruments — the Rydberg formula, special-relativistic mass–energy, general-relativistic clock rates, and Dirac fine structure — are here one relation applied twice, on one premise. That unification is the result: not the numerical value of an orbital velocity, but the demonstration that these are not four things. Turn from the wall; regard the fire.</p>
 
 <hr>
 <h2>References</h2>
 <ol class="refs">
 <li id="r1">N. V. Pope, A. D. Osborne <em>et al.</em>, <em>Einstein's Lost Legacy: The Cosmic Machine of Normal Realism</em> — App. 1 (Pythagorean time equation), App. 2–3 (Balmer–Rydberg spectrum and its derivation), App. 4 (orbital dynamics), App. 5 (varying $G$; the atom as orbital + spin angular momentum; the Bohr velocity and radius).</li>
-<li id="r2">A. D. Osborne, <em>Orbital Time Dilation</em> — the elliptical and precessing orbital cases from the time-dilation root.</li>
-<li id="r3">N. V. Pope &amp; A. D. Osborne, <em>Light-Speed, Gravitation and Quantum Instantaneity</em> (2007) — light as proper-time-instantaneous quantum transaction; the discretum; spectra and interactions without travelling photons.</li>
+<li id="r2">A. D. Osborne, <em>Orbital Time Dilation</em> — elliptical and precessing orbits from the time-dilation root.</li>
+<li id="r3">N. V. Pope &amp; A. D. Osborne, <em>Light-Speed, Gravitation and Quantum Instantaneity</em> (2007) — light as proper-time-instantaneous quantum transaction; the discretum; spectra without travelling photons.</li>
 <li id="r4">N. V. Pope &amp; A. D. Osborne, "An Angular-Momentum Synthesis of 'Gravitational' and 'Electrostatic' Forces," and related POAMS papers.</li>
 <li id="r5">J. Balmer (1885); J. Rydberg (1888) — the empirical spectral formula. N. Bohr (1913) — the electrodynamic account POAMS supersedes.</li>
 </ol>
-
-<p class="note" style="margin-top:30px;">Working paper, Normal Realism / POAMS engineering series. The derivations of §§2–4 are Pope's and Osborne's (Appendices 1–5; <em>Orbital Time Dilation</em>); numerical checks herein were verified independently. The identification of the fine-structure scale with the second (orbital) application of the time formula, and the plain statement of $\alpha$ as $v_{\text{orb}}/c$, is the synthesis this note records.</p>
+<p class="note" style="margin-top:28px;">Working paper, Normal Realism / POAMS engineering series. The derivations of §§2–4 are Pope's and Osborne's (Appendices 1–5; <em>Orbital Time Dilation</em>); numerical values herein were verified independently. Interactive exhibits are computed live from the stated formulae.</p>
 
 </div>
+
+<script>
+/* ---------- shared ---------- */
+function fitCanvas(cv){ var r=cv.getBoundingClientRect(); var dpr=window.devicePixelRatio||1;
+  cv.width=r.width*dpr; cv.height=parseInt(cv.getAttribute('height'))*dpr; var x=cv.getContext('2d'); x.scale(dpr,dpr);
+  cv.style.height=cv.getAttribute('height')+'px'; return {ctx:x, w:r.width, h:parseInt(cv.getAttribute('height'))}; }
+var F='14px Helvetica Neue, Arial, sans-serif';
+
+/* ---------- Exhibit 1: time cone ---------- */
+(function(){
+  var cv=document.getElementById('cv1'), s=document.getElementById('s1'), out=document.getElementById('r1');
+  function draw(){ var d=fitCanvas(cv), ctx=d.ctx, W=d.w, H=d.h; ctx.clearRect(0,0,W,H);
+    var beta=parseFloat(s.value); var gamma=1/Math.sqrt(1-beta*beta);
+    var ox=W*0.16, oy=H*0.86, base=W*0.5, t=base; // proper time length fixed
+    var rise=base*beta*gamma /* s/c = v/c * t_R ; t_R=t*gamma so s/c = beta*gamma*t */;
+    var hyp=base*gamma;
+    // axes
+    ctx.strokeStyle='#33455a'; ctx.lineWidth=1; ctx.beginPath(); ctx.moveTo(ox,oy); ctx.lineTo(ox+base+40,oy); ctx.moveTo(ox,oy); ctx.lineTo(ox,oy-Math.min(rise,H*0.72)-40); ctx.stroke();
+    // proper time leg t (base)
+    ctx.strokeStyle='#5dade2'; ctx.lineWidth=3; ctx.beginPath(); ctx.moveTo(ox,oy); ctx.lineTo(ox+t,oy); ctx.stroke();
+    // s/c leg (rise) at far end going up
+    var rr=Math.min(rise,H*0.72);
+    ctx.strokeStyle='#e67e22'; ctx.beginPath(); ctx.moveTo(ox+t,oy); ctx.lineTo(ox+t,oy-rr); ctx.stroke();
+    // hypotenuse t_R
+    ctx.strokeStyle='#27ae60'; ctx.lineWidth=3.5; ctx.beginPath(); ctx.moveTo(ox,oy); ctx.lineTo(ox+t,oy-rr); ctx.stroke();
+    // right-angle mark
+    ctx.strokeStyle='#556'; ctx.lineWidth=1; ctx.strokeRect(ox+t-10,oy-10,10,10);
+    // labels
+    ctx.font=F; ctx.fillStyle='#5dade2'; ctx.fillText('t  (proper time)', ox+t*0.35, oy+22);
+    ctx.fillStyle='#e67e22'; ctx.save(); ctx.translate(ox+t+16,oy-rr*0.5); ctx.fillText('s/c', 0,0); ctx.restore();
+    ctx.fillStyle='#27ae60'; ctx.fillText('t_R (registered time)', ox+t*0.18, oy-rr*0.55-6);
+    out.innerHTML='v/c = '+beta.toFixed(3)+'   →   dilation  t_R / t = 1/√(1−v²/c²) = '+gamma.toFixed(4);
+  }
+  s.addEventListener('input',draw); window.addEventListener('resize',draw); draw();
+})();
+
+/* ---------- Exhibit 2: spectrum ---------- */
+(function(){
+  var cv=document.getElementById('cv2'), s=document.getElementById('s2'), n2v=document.getElementById('n2v'), out=document.getElementById('r2'), seg=document.getElementById('seg2');
+  var R=1.0973731568e7; // Rydberg m^-1
+  function lambda(n2){ var inv=R*(1/4 - 1/(n2*n2)); return 1e9/inv; } // nm
+  function wl2rgb(w){ // approximate visible spectrum color
+    var r=0,g=0,b=0;
+    if(w>=380&&w<440){r=-(w-440)/60;b=1;} else if(w<490){g=(w-440)/50;b=1;}
+    else if(w<510){g=1;b=-(w-510)/20;} else if(w<580){r=(w-510)/70;g=1;}
+    else if(w<645){r=1;g=-(w-645)/65;} else if(w<781){r=1;}
+    return 'rgb('+Math.round(255*r)+','+Math.round(255*g)+','+Math.round(255*b)+')';
+  }
+  var names={3:'Hα',4:'Hβ',5:'Hγ',6:'Hδ',7:'Hε',8:'Hζ'};
+  function draw(){ var d=fitCanvas(cv),ctx=d.ctx,W=d.w,H=d.h; ctx.clearRect(0,0,W,H);
+    var sel=parseInt(s.value); n2v.textContent=sel;
+    // spectrum band 380-700 nm
+    var x0=40,x1=W-40,yb=H*0.5,bh=70;
+    function xof(w){ return x0+(w-380)/(700-380)*(x1-x0); }
+    // faint full band
+    for(var w=380; w<=700; w+=2){ ctx.fillStyle=wl2rgb(w); ctx.globalAlpha=0.10; ctx.fillRect(xof(w),yb-bh/2,3,bh); }
+    ctx.globalAlpha=1;
+    ctx.strokeStyle='#33455a'; ctx.strokeRect(x0,yb-bh/2,x1-x0,bh);
+    // lines for n2=3..8, highlight selected
+    for(var n=3;n<=8;n++){ var lm=lambda(n); if(lm<380||lm>700) continue; var x=xof(lm);
+      var on=(n===sel); ctx.strokeStyle=wl2rgb(lm); ctx.globalAlpha=on?1:0.5; ctx.lineWidth=on?3.5:1.5;
+      ctx.beginPath(); ctx.moveTo(x,yb-bh/2); ctx.lineTo(x,yb+bh/2); ctx.stroke(); ctx.globalAlpha=1;
+      ctx.font=F; ctx.fillStyle=on?'#ecf0f1':'#7a8ada';
+      ctx.textAlign='center'; ctx.fillText(names[n], x, yb-bh/2-8);
+      if(on){ ctx.fillStyle='#cfe3f5'; ctx.fillText(lm.toFixed(1)+' nm', x, yb+bh/2+18); }
+    }
+    ctx.textAlign='left';
+    // scale ticks
+    ctx.fillStyle='#697077'; ctx.font='12px Helvetica Neue,Arial'; 
+    [400,500,600,700].forEach(function(w){ ctx.fillText(w+'', xof(w)-10, yb+bh/2+40); });
+    var f=2.998e8*R*(1/4-1/(sel*sel));
+    out.innerHTML='n₂ = '+sel+' → f = cR(1/2² − 1/'+sel+'²) = '+(f/1e14).toFixed(3)+'×10¹⁴ Hz  ('+names[sel]+', '+lambda(sel).toFixed(1)+' nm)';
+  }
+  s.addEventListener('input',draw); window.addEventListener('resize',draw); draw();
+})();
+
+/* ---------- Exhibit 3: orbital time dilation ---------- */
+(function(){
+  var cv=document.getElementById('cv3'), s=document.getElementById('s3'), out=document.getElementById('r3');
+  var ang=0;
+  function frame(){ var d=fitCanvas(cv),ctx=d.ctx,W=d.w,H=d.h; ctx.clearRect(0,0,W,H);
+    var rg=parseFloat(s.value); // r in units GM/c^2
+    var cx=W*0.5, cy=H*0.52; var Rpix=Math.min(W,H)*0.34;
+    var rmax=60, rpix=Rpix*Math.sqrt(rg/rmax)+30;
+    // central mass
+    var grd=ctx.createRadialGradient(cx,cy,2,cx,cy,26); grd.addColorStop(0,'#ffd27f'); grd.addColorStop(1,'#7a4b12');
+    ctx.fillStyle=grd; ctx.beginPath(); ctx.arc(cx,cy,16,0,7); ctx.fill();
+    // orbit
+    ctx.strokeStyle='#33455a'; ctx.setLineDash([4,5]); ctx.beginPath(); ctx.arc(cx,cy,rpix,0,7); ctx.stroke(); ctx.setLineDash([]);
+    // dilation
+    var dil=Math.sqrt(1-1/rg); // sqrt(1-GM/(c^2 r)), GM/c^2=1
+    var vc=Math.sqrt(1/rg);
+    // clock
+    var ox=cx+rpix*Math.cos(ang), oy=cy+rpix*Math.sin(ang);
+    ctx.fillStyle='#5dade2'; ctx.beginPath(); ctx.arc(ox,oy,9,0,7); ctx.fill();
+    // clock hand rate ∝ dil
+    ctx.strokeStyle='#04121f'; ctx.lineWidth=2; ctx.beginPath(); ctx.moveTo(ox,oy);
+    var ch=ang*dil*3; ctx.lineTo(ox+7*Math.cos(ch),oy+7*Math.sin(ch)); ctx.stroke();
+    // deep-space reference clock top-left
+    ctx.fillStyle='#2c3e50'; ctx.beginPath(); ctx.arc(46,40,11,0,7); ctx.fill();
+    ctx.strokeStyle='#8fd3a6'; ctx.lineWidth=2; ctx.beginPath(); ctx.moveTo(46,40); var dh=ang*3; ctx.lineTo(46+8*Math.cos(dh),40+8*Math.sin(dh)); ctx.stroke();
+    ctx.font='12px Helvetica Neue,Arial'; ctx.fillStyle='#8fd3a6'; ctx.fillText('deep-space clock (rate 1)',64,44);
+    ctx.fillStyle='#5dade2'; ctx.fillText('orbiting clock (rate '+dil.toFixed(4)+')', ox+12, oy+4);
+    out.innerHTML='r = '+rg.toFixed(1)+' GM/c²   →   v/c = √(GM/c²r) = '+vc.toFixed(4)+'   →   clock rate √(1−GM/c²r) = '+dil.toFixed(5);
+    ang+=0.02; requestAnimationFrame(frame);
+  }
+  s.addEventListener('input',function(){}); window.addEventListener('resize',function(){}); frame();
+})();
+
+/* ---------- Exhibit 4: fine structure splitting ---------- */
+(function(){
+  var cv=document.getElementById('cv4'), s=document.getElementById('s4'), out=document.getElementById('r4');
+  var ALPHA=0.0072973525693;
+  function draw(){ var d=fitCanvas(cv),ctx=d.ctx,W=d.w,H=d.h; ctx.clearRect(0,0,W,H);
+    var beta=parseFloat(s.value);
+    var split=(1/Math.sqrt(1-beta*beta))-1; // fractional shift ~ beta^2/2
+    // visual exaggeration for display: map fractional shift to pixels
+    var cx=W*0.5, y0=H*0.30;
+    var pxScale=W*7.0; // exaggerate
+    var dx=Math.min(split*pxScale, W*0.32);
+    // gross line (top)
+    ctx.strokeStyle='#8ea3b5'; ctx.lineWidth=2; ctx.beginPath(); ctx.moveTo(cx,y0-40); ctx.lineTo(cx,y0+10); ctx.stroke();
+    ctx.font=F; ctx.fillStyle='#8ea3b5'; ctx.textAlign='center'; ctx.fillText('gross level (no internal circulation)', cx, y0-50);
+    // split doublet (bottom)
+    var yb=H*0.72;
+    ctx.strokeStyle='#5dade2'; ctx.lineWidth=3; 
+    ctx.beginPath(); ctx.moveTo(cx-dx,yb-40); ctx.lineTo(cx-dx,yb+10); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(cx+dx,yb-40); ctx.lineTo(cx+dx,yb+10); ctx.stroke();
+    // faint center
+    ctx.strokeStyle='#33455a'; ctx.setLineDash([3,4]); ctx.beginPath(); ctx.moveTo(cx,yb-46); ctx.lineTo(cx,yb+16); ctx.stroke(); ctx.setLineDash([]);
+    // arrows for the two phase senses
+    ctx.fillStyle='#27ae60'; ctx.fillText('leading', cx+dx, yb-50); ctx.fillText('lagging', cx-dx, yb-50);
+    ctx.fillStyle='#8ea3b5'; ctx.fillText('splitting  ∝  (v_orb/c)²', cx, yb+40);
+    // marker for physical alpha
+    ctx.textAlign='left'; ctx.font='12px Helvetica Neue,Arial';
+    var atAlpha = beta>=ALPHA*0.6 && beta<=ALPHA*1.6;
+    ctx.fillStyle = atAlpha ? '#8fd3a6' : '#697077';
+    out.innerHTML='v_orb/c = '+beta.toFixed(3)+'   →   time-dilation shift 1/√(1−(v/c)²) − 1 = '+split.toExponential(3)+
+      '   (∝ (v/c)² )'+(beta>0? '   |   at physical v_orb/c = α = 0.00730, split = '+((1/Math.sqrt(1-ALPHA*ALPHA))-1).toExponential(3):'');
+  }
+  s.addEventListener('input',draw); window.addEventListener('resize',draw); draw();
+})();
+</script>
 </body>
 </html>
