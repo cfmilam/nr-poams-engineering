@@ -251,11 +251,11 @@ var F='14px Helvetica Neue, Arial, sans-serif';
   s.addEventListener('input',draw); window.addEventListener('resize',draw); draw();
 })();
 
-/* ---------- Exhibit 3: orbital time dilation ---------- */
+/* ---------- Exhibit 3: orbital time dilation (animated, viewport-gated) ---------- */
 (function(){
   var cv=document.getElementById('cv3'), s=document.getElementById('s3'), out=document.getElementById('r3');
-  var ang=0;
-  function frame(){ var d=fitCanvas(cv),ctx=d.ctx,W=d.w,H=d.h; ctx.clearRect(0,0,W,H);
+  var D=fitCanvas(cv), ang=0, running=false, raf=0, onscreen=false;
+  function render(){ var ctx=D.ctx,W=D.w,H=D.h; ctx.clearRect(0,0,W,H);
     var rg=parseFloat(s.value); // r in units GM/c^2
     var cx=W*0.5, cy=H*0.52; var Rpix=Math.min(W,H)*0.34;
     var rmax=60, rpix=Rpix*Math.sqrt(rg/rmax)+30;
@@ -279,9 +279,16 @@ var F='14px Helvetica Neue, Arial, sans-serif';
     ctx.font='12px Helvetica Neue,Arial'; ctx.fillStyle='#8fd3a6'; ctx.fillText('deep-space clock (rate 1)',64,44);
     ctx.fillStyle='#5dade2'; ctx.fillText('orbiting clock (rate '+dil.toFixed(4)+')', ox+12, oy+4);
     out.innerHTML='r = '+rg.toFixed(1)+' GM/c²   →   v/c = √(GM/c²r) = '+vc.toFixed(4)+'   →   clock rate √(1−GM/c²r) = '+dil.toFixed(5);
-    ang+=0.02; requestAnimationFrame(frame);
   }
-  s.addEventListener('input',function(){}); window.addEventListener('resize',function(){}); frame();
+  function loop(){ if(!running) return; ang+=0.02; render(); raf=requestAnimationFrame(loop); }
+  function upd(){ if(onscreen && !document.hidden){ if(!running){ running=true; raf=requestAnimationFrame(loop); } }
+                  else { running=false; if(raf){ cancelAnimationFrame(raf); raf=0; } } }
+  s.addEventListener('input',render);
+  window.addEventListener('resize',function(){ D=fitCanvas(cv); render(); });
+  document.addEventListener('visibilitychange',upd);
+  if('IntersectionObserver' in window){ new IntersectionObserver(function(es){ onscreen=es[0].isIntersecting; upd(); },{threshold:0.05}).observe(cv); }
+  else { onscreen=true; upd(); }
+  render();
 })();
 
 /* ---------- Exhibit 4: fine structure splitting ---------- */
