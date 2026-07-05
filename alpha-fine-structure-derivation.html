@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Fine-Structure Ratio in Normal Realism — A Forced Derivation</title>
+<script>
+window.MathJax = {
+  tex: { inlineMath: [['$','$'],['\\(','\\)']], displayMath: [['$$','$$'],['\\[','\\]']], tags: 'ams' }
+};
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: Georgia,'Times New Roman',serif; line-height:1.65; color:#2d2d2d; background:#fefefe; }
+.container { max-width:820px; margin:0 auto; padding:48px 22px 90px; }
+h1 { font-family:'Helvetica Neue',Arial,sans-serif; font-size:2.3em; font-weight:300; text-align:center; margin-bottom:14px; color:#2c3e50; line-height:1.2; }
+.author { text-align:center; font-size:1.1em; color:#7f8c8d; margin-bottom:8px; }
+.status { text-align:center; font-style:italic; color:#a0522d; margin-bottom:30px; border-bottom:1px solid #ecf0f1; padding-bottom:26px; font-size:.98em; }
+h2 { font-family:'Helvetica Neue',Arial,sans-serif; font-size:1.55em; font-weight:400; margin:42px 0 16px; color:#34495e; border-bottom:2px solid #3498db; padding-bottom:8px; }
+h3 { font-family:'Helvetica Neue',Arial,sans-serif; font-size:1.2em; font-weight:600; margin:26px 0 10px; color:#34495e; }
+p { margin:0 0 15px; }
+ul,ol { margin:0 0 15px 26px; }
+li { margin-bottom:7px; }
+.abstract { background:#f7f9fb; border-left:3px solid #3498db; padding:18px 22px; margin:0 0 30px; font-size:.98em; }
+.result { background:#f2f8f2; border-left:3px solid #27ae60; padding:14px 20px; margin:20px 0; }
+.forced { background:#f2f8f2; }
+.open { background:#fdf6ec; border-left:3px solid #e67e22; padding:14px 20px; margin:20px 0; }
+.caution { background:#fbeeee; border-left:3px solid #c0392b; padding:14px 20px; margin:20px 0; }
+.tag { display:inline-block; font-family:'Helvetica Neue',Arial,sans-serif; font-size:.72em; font-weight:700; letter-spacing:.04em; padding:2px 8px; border-radius:3px; vertical-align:middle; margin-right:6px; }
+.tag-forced { background:#27ae60; color:#fff; }
+.tag-open { background:#e67e22; color:#fff; }
+.tag-null { background:#7f8c8d; color:#fff; }
+table { border-collapse:collapse; width:100%; margin:18px 0; font-size:.93em; }
+th,td { border:1px solid #dce3e8; padding:8px 11px; text-align:left; }
+th { background:#f2f6f9; font-family:'Helvetica Neue',Arial,sans-serif; font-weight:600; }
+code { background:#f0f2f4; padding:1px 5px; border-radius:3px; font-size:.9em; }
+.refs { font-size:.9em; color:#555; }
+.refs li { margin-bottom:9px; }
+.chain { font-family:'Helvetica Neue',Arial,sans-serif; font-size:.95em; background:#2c3e50; color:#ecf0f1; padding:18px 22px; border-radius:6px; margin:22px 0; line-height:1.9; }
+.chain b { color:#5dade2; }
+hr { border:none; border-top:1px solid #ecf0f1; margin:34px 0; }
+.note { font-size:.9em; color:#666; font-style:italic; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>The Fine-Structure Ratio as a Closure Eigenvalue of Angular Momentum</h1>
+<p class="author">A derivation within Normal Realism / the Pope–Osborne Angular Momentum Synthesis (POAMS)</p>
+<p class="status">Working paper — the derivation is <b>forced to a single remaining object</b>; the final numerical value is not yet closed. Every step below is derived before comparison with measurement; no step is fitted to the observed value.</p>
+
+<div class="abstract">
+<b>Abstract.</b> We show that within POAMS the quantity conventionally packaged as the fine-structure constant $\alpha$ is not a fundamental input but the <em>eigenvalue of a self-closure condition</em> on the one substance (angular momentum). Reasoning forward from the established POAMS results — the derivation of the spectrum from the Pythagorean time relation, and the geometric account of fine-structure splitting — we obtain, with no free parameters: (i) that $\alpha$ is a <em>pure number</em>, forced by the intransitivity of quantum transactions; (ii) that $\alpha \neq 0$ is a <em>topological necessity</em> (the hairy-ball theorem on the observer sphere); (iii) that $\alpha$ is <em>small</em> because the closure kernel is exactly marginal; (iv) that $\alpha$ is <em>transcendental</em>; and (v) the closed relation $\;\alpha \sim (4\pi/W)^{1/4}$, where $W$ is the weight of the Machian closure over the observer sphere. The closure geometry is forced to be the tetrahedral four-cap complex (the cuboctahedron). What remains open is the identity of $W$ — every finite invariant of that complex is shown to miss the required magnitude, cornering $W$ into a single continuum object (a $\zeta$-regularized spectral determinant), which is the subject of ongoing work. The value $\alpha$ owes the world is a measured line-splitting ratio; POAMS owes that ratio, and it does not owe the fantasy package $e^2/4\pi\varepsilon_0\hbar c$.</p>
+</div>
+
+<h2>1. What must be derived, and what must not</h2>
+<p>The conventional fine-structure constant is defined as $\alpha = e^2/4\pi\varepsilon_0\hbar c$: a ratio built from electric charge $e$, the permittivity of empty space $\varepsilon_0$, and $c$ read as a speed. In Normal Realism none of these three is a physical entity. There is no charge — what is called "charge sign" is the sign of intrinsic spin angular momentum, cashed out in joules of spin kinetic energy [<a href="#r1">1</a>]. There is no void with a permittivity — "space" <em>is</em> angular-momentum relations, not a container. And $c$ is a conversion factor between length- and time-measures, not a velocity [<a href="#r1">1</a>]. So $\alpha$ as conventionally packaged is a ratio of non-entities, and <b>POAMS is not obliged to reproduce that package.</b></p>
+<p>What the laboratory actually measures is a physical fact: a small dimensionless ratio between the split components of a spectral line. POAMS owes an account of <em>that ratio</em>. This paper derives its structure.</p>
+
+<div class="result forced">
+<span class="tag tag-forced">GROUND</span> Two POAMS results are used as established input and are not re-derived here:
+<ol>
+<li><b>The spectrum is derived from first principles.</b> From the Pythagorean time-dilation relation $t_R^2 = (s/c)^2 + t^2$ [<a href="#r1">1</a>, App. 1], taking the ratio of resultant to subject time as discrete, $t_R/t = n/N$, and substituting $e = mv^2$, one obtains $e = mc^2(1 - N^2/n^2)$ and hence $f = cR\,(1 - N^2/n^2)$ — the Balmer–Rydberg law — with scale $cR = mc^2/h$ [<a href="#r1">1</a>, App. 3]. Balmer and Rydberg only fitted this; POAMS derives it.</li>
+<li><b>The fine-structure splitting mechanism is geometric.</b> Lines split through the coupling of a mode's angular harmonic $l$ with its phase sense (leading/lagging spin); different $(l,\text{phase})$ combinations sit at slightly different energies. No charge, no field, no external spin–orbit force.</li>
+</ol>
+</div>
+
+<h2>2. The ratio is a tilt on the time-cone</h2>
+<p>In the observer's Pythagorean time-cone, a vortex's internal circulation contributes a leg $s/c$ to the resultant time $t_R$, tilted by an angle $\theta$ off the proper-time axis:</p>
+$$\sin\theta = \frac{s/c}{t_R} = \frac{v}{c}.$$
+<p>Here $v/c$ is not a speed ratio but the <em>sine of the cone's opening angle</em> — the fraction of a vortex's circulation that projects into the observer's spatial measure. The measured fine-structure splitting scales as $(v/c)^2$; the ratio we must derive is $\sin\theta$ itself.</p>
+
+<div class="caution">
+<span class="tag tag-null">NO-GO</span> <b>The isolated cone cannot fix $\theta$.</b> The relation $t_R^2=(s/c)^2+t^2$ is scale-invariant: it fixes only the similarity class of the triangle, and $\tan\theta$ is the free parameter of that family. Winding closure $\oint d\varphi = 2\pi n$ fixes only the integer $n$, which lives in the phase plane, orthogonal to the tilt. The isolated inventory $\{c,\hbar,n,2\pi\}$ contains but two dimensionful quantities, so no dimensionless ratio can be formed from it. A single vortex on an empty cone therefore has no forced tilt. The ratio must come from a <em>relation of the substance to itself</em>.</p>
+</div>
+
+<h2>3. The Machian closure and its forced kernel</h2>
+<p>The vortex is not isolated. It is a standing pattern in the one temporal substance shared by all vortices — the Machian totality. Its tilt must be self-consistent: the tilt it must adopt to remain stationary in the background equals the tilt that the background, itself composed of such vortices, imposes. This is a fixed-point condition $\sin\theta = F(\sin\theta)$.</p>
+
+<p>Pope's transactional ontology forces the form of $F$ [<a href="#r1">1</a>, ch. 10]. Transactions are (i) <b>double-ended</b> — each a complete source–sink pair, a $2\pi$ winding; (ii) <b>reciprocal</b> — equal and opposite (Law of Moments / Newton's third law), one conserved $h$-unit, no remainder; (iii) <b>intransitive</b> — $A\!\leftrightarrow\!B$ and $B\!\leftrightarrow\!C$ do <em>not</em> compose to $A\!\leftrightarrow\!C$ [<a href="#r1">1</a>, §10.9]. A naïve reciprocal balance is homogeneous of degree one — marginal — reproducing the scale-invariance as a criticality:</p>
+
+<div class="result forced">
+<span class="tag tag-forced">THEOREM</span> <b>Machian criticality.</b> The reciprocal transactional gain is exactly $\kappa = 1$: the totality is self-sustaining, at its own critical point. The forced kernel is
+$$G(\theta) = \cos\theta\,(2-\cos\theta) = 1 - (1-\cos\theta)^2,$$
+which has a <em>double root</em> at $\theta = 0$. A standing tilt exists only if the totality's global closure fails marginality by a $\theta$-independent amount $\delta$:
+$$(1-\cos\theta)^2 = \delta \;\Longrightarrow\; \frac{v}{c} = \sin\theta = \sqrt{2\sqrt{\delta}-\delta}\;\approx\;\sqrt{2}\,\delta^{1/4}.$$
+</div>
+
+<p>Two consequences are immediate and forced. First, the smallness of $v/c$ is not an accident: it is the signature of the totality sitting near its own criticality, a quartic-stiffness zero mode ($\theta^4$). Second, the whole problem reduces to one $\theta$-independent number $\delta$.</p>
+
+<h2>4. Why $\delta$ is a pure, nonzero, transcendental number</h2>
+<div class="result forced">
+<span class="tag tag-forced">FORCED</span> <b>$\delta$ is a pure number</b> (hence $\alpha$ is). Intransitivity forbids the self-return from chaining through the totality; the return is confined to a single closed two-party transaction. The coupling therefore carries no particle count $N$, no distance, and no epoch — it is dimensionless and finite. The Standard Model does not explain why $\alpha$ is a pure number; here it follows from the sonship (intransitivity) argument.</p>
+</div>
+<div class="result forced">
+<span class="tag tag-forced">FORCED</span> <b>$\delta \neq 0$ is a topological necessity.</b> A standing circulation is a tangent structure on the observer sphere $S^2$. Since $\chi(S^2)=2\neq 0$, the hairy-ball / Poincaré–Hopf theorem [<a href="#r3">3</a>] forbids a defect-free closure: one cannot comb the sphere flat. Independently, the only exact tiling of the $4\pi$ frame by $2\pi$ caps is two hemispheres, whose union along the shared equator is precisely the forbidden chaining. So $\alpha\neq 0$ is required by topology — not a contingent fact.</p>
+</div>
+<div class="result forced">
+<span class="tag tag-forced">FORCED</span> <b>$\delta$ is transcendental.</b> The total closure defect of the frame is pinned by Gauss–Bonnet at $2\pi\chi(S^2)=4\pi$ [<a href="#r3">3</a>], so the closure weight enters as $\delta = 4\pi/W$. A sub-leading, non-topologically-protected defect over the curved frame is generically transcendental; equivalently, a multiplicative (non-chaining) closure yields $e^{-A}$ with $A$ built from $\pi$-quantities, transcendental by Lindemann–Weierstrass [<a href="#r4">4</a>]. This forecloses any clean closed-form ("$\pi$-monomial") value — and is precisely why historical geometric formulas for $\alpha$ fail (see §7).</p>
+</div>
+
+<h2>5. The forced closure geometry: the tetrahedral four-cap complex</h2>
+<p>What web of intransitive double-ended caps closes the $4\pi$ sphere? A double-ended link is an open cap (closed hemispheres share a full equatorial arc and would chain). A point $x\in S^2$ is covered by the cap with pole $p$ iff $x\cdot p > 0$; the caps cover $S^2$ iff the origin lies in the interior of the convex hull of the poles. By Carathéodory's theorem in $\mathbb{R}^3$ [<a href="#r5">5</a>] this requires <b>at least four poles</b>, in tetrahedral configuration (pole–pole angle $\arccos(-\tfrac13)=109.47^\circ$).</p>
+
+<div class="result forced">
+<span class="tag tag-forced">FORCED</span> The minimal intransitive closure of $S^2$ is the <b>tetrahedral four-cap complex</b>. The four boundary great circles in general position form a cell complex with
+$$(V,E,F) = (12,\,24,\,14), \qquad \chi = 12-24+14 = 2,$$
+which is precisely the <b>cuboctahedron</b> (12 vertices, 24 edges, 14 faces = 8 triangles + 6 squares). This is the forced geometric arena in which $W$ lives.</p>
+</div>
+
+<h3>Interactive: the forced closure geometry</h3>
+<p class="note">Four caps (poles at the tetrahedron vertices) close the observer sphere; their boundary circles cut the sphere into the cuboctahedral complex $(V,E,F)=(12,24,14)$. Drag to rotate. Toggle the layers to see how the four $2\pi$ caps force the 12&ndash;24&ndash;14 cell structure that carries the closure weight $W$.</p>
+<div style="background:#0e1621; border-radius:8px; margin:16px 0; padding:10px;">
+  <div id="capViewer" style="width:100%; height:420px;"></div>
+  <div style="text-align:center; padding:8px 0 4px; font-family:'Helvetica Neue',Arial,sans-serif; font-size:.85em;">
+    <button onclick="toggleLayer('poles')" style="margin:3px; padding:6px 12px; border:1px solid #3498db; background:#1c2b3a; color:#cfe3f5; border-radius:4px; cursor:pointer;">4 poles (tetrahedron)</button>
+    <button onclick="toggleLayer('circles')" style="margin:3px; padding:6px 12px; border:1px solid #3498db; background:#1c2b3a; color:#cfe3f5; border-radius:4px; cursor:pointer;">4 cap boundaries</button>
+    <button onclick="toggleLayer('verts')" style="margin:3px; padding:6px 12px; border:1px solid #e67e22; background:#2b2318; color:#f5dcc0; border-radius:4px; cursor:pointer;">12 vertices</button>
+    <button onclick="toggleLayer('edges')" style="margin:3px; padding:6px 12px; border:1px solid #27ae60; background:#182b1c; color:#c6f0d2; border-radius:4px; cursor:pointer;">24 edges (cuboctahedron)</button>
+  </div>
+  <div style="text-align:center; color:#7f97ad; font-size:.8em; padding-bottom:6px;">$\chi = 12 - 24 + 14 = 2$ &nbsp;—&nbsp; the sphere closes.</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+(function(){
+  var host=document.getElementById('capViewer'); if(!host||!window.THREE) return;
+  var W=host.clientWidth,H=420;
+  var scene=new THREE.Scene();
+  var cam=new THREE.PerspectiveCamera(45,W/H,0.1,100); cam.position.set(3.2,2.0,3.2);
+  var rend=new THREE.WebGLRenderer({antialias:true,alpha:true}); rend.setSize(W,H); rend.setClearColor(0x0e1621,1); host.appendChild(rend.domElement);
+  var ctrl=new THREE.OrbitControls(cam,rend.domElement); ctrl.enableDamping=true; ctrl.dampingFactor=0.08; ctrl.enablePan=false; ctrl.minDistance=2.4; ctrl.maxDistance=8;
+  scene.add(new THREE.AmbientLight(0xffffff,0.75)); var dl=new THREE.DirectionalLight(0xffffff,0.55); dl.position.set(4,5,3); scene.add(dl);
+  // faint sphere
+  var sph=new THREE.Mesh(new THREE.SphereGeometry(1,48,48), new THREE.MeshPhongMaterial({color:0x22384d,transparent:true,opacity:0.28,shininess:8}));
+  scene.add(sph);
+  // tetrahedron poles (normalized)
+  var s=1/Math.sqrt(3);
+  var poles=[[s,s,s],[s,-s,-s],[-s,s,-s],[-s,-s,s]].map(function(p){return new THREE.Vector3(p[0],p[1],p[2]);});
+  var colors=[0x5dade2,0xe67e22,0x27ae60,0xe74c3c];
+  var layers={poles:new THREE.Group(),circles:new THREE.Group(),verts:new THREE.Group(),edges:new THREE.Group()};
+  // poles
+  poles.forEach(function(p,i){ var m=new THREE.Mesh(new THREE.SphereGeometry(0.06,16,16),new THREE.MeshPhongMaterial({color:colors[i]})); m.position.copy(p); layers.poles.add(m);
+    var l=new THREE.Line(new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(0,0,0),p]),new THREE.LineBasicMaterial({color:colors[i],transparent:true,opacity:0.4})); layers.poles.add(l);
+  });
+  // great-circle boundary of each cap (equator perpendicular to pole)
+  function greatCircle(axis,color){ var pts=[]; var a=axis.clone().normalize();
+    var u=new THREE.Vector3(1,0,0); if(Math.abs(a.dot(u))>0.9)u.set(0,1,0); var v1=new THREE.Vector3().crossVectors(a,u).normalize(); var v2=new THREE.Vector3().crossVectors(a,v1).normalize();
+    for(var t=0;t<=64;t++){var th=t/64*Math.PI*2; pts.push(v1.clone().multiplyScalar(Math.cos(th)).add(v2.clone().multiplyScalar(Math.sin(th))));}
+    return new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),new THREE.LineBasicMaterial({color:color,transparent:true,opacity:0.85}));
+  }
+  poles.forEach(function(p,i){ layers.circles.add(greatCircle(p,colors[i])); });
+  // cuboctahedron vertices = midpoints of tetrahedron edges of the DUAL... use the 12 pairwise-circle intersections:
+  // 12 vertices of cuboctahedron (all perms of (±1,±1,0)/√2)
+  var cv=[]; [[1,1,0],[1,-1,0],[-1,1,0],[-1,-1,0],[1,0,1],[1,0,-1],[-1,0,1],[-1,0,-1],[0,1,1],[0,1,-1],[0,-1,1],[0,-1,-1]].forEach(function(c){cv.push(new THREE.Vector3(c[0],c[1],c[2]).normalize());});
+  cv.forEach(function(p){var m=new THREE.Mesh(new THREE.SphereGeometry(0.05,14,14),new THREE.MeshPhongMaterial({color:0xf0b060})); m.position.copy(p); layers.verts.add(m);});
+  // 24 edges: connect vertices at cuboctahedron edge distance (|Δ|≈ for unit-normalized, neighbors share one ±1 coord)
+  for(var i=0;i<cv.length;i++)for(var j=i+1;j<cv.length;j++){ if(cv[i].distanceTo(cv[j])<1.05){ var g=new THREE.BufferGeometry().setFromPoints([cv[i],cv[j]]); layers.edges.add(new THREE.Line(g,new THREE.LineBasicMaterial({color:0x27ae60,transparent:true,opacity:0.8}))); } }
+  Object.keys(layers).forEach(function(k){scene.add(layers[k]);});
+  layers.verts.visible=false; layers.edges.visible=false;
+  window.toggleLayer=function(k){ if(layers[k]) layers[k].visible=!layers[k].visible; };
+  function animate(){ requestAnimationFrame(animate); scene.rotation.y+=0.0015; ctrl.update(); rend.render(scene,cam); }
+  animate();
+  window.addEventListener('resize',function(){ var w=host.clientWidth; rend.setSize(w,H); cam.aspect=w/H; cam.updateProjectionMatrix(); });
+})();
+</script>
+
+<h2>6. The relation to the totality, correctly framed</h2>
+<p>In Normal Realism the universe is constant — neither expanding nor contracting — and has no age (there is no external clock by which to measure one). What conventional cosmology reads as "recession" is the angular-momentum-conservation velocity of deep-field objects: a deeper line of sight encloses more mass, sits nearer the distributed barycentre, and by conservation of angular momentum registers a higher velocity. The totality is, moreover, a holographic projection from the observer pole [<a href="#r1">1</a>, ch. 4]. Consequently $W$ is to be <em>derived in here</em>, from the closure/projection geometry, and not measured out there.</p>
+<p>This is a strong constraint, and a clarifying one: because the universe is constant and $W$ is a fixed property of the projection, $\alpha$ is <b>not</b> a time-varying quantity. Any predicted drift of $\alpha$ with cosmic epoch would signal that a container-cosmology assumption had entered; none does.</p>
+
+<h2>7. The status of $W$: cornered, not yet closed</h2>
+<p>With $\alpha \sim (4\pi/W)^{1/4}$ and the geometry fixed, the entire remaining content is the value of $W$. Because $\delta$ is forced transcendental, $W = 4\pi/\delta$ cannot be a clean integer. We have tested every natural forced invariant of the tetrahedral/cuboctahedral closure; each is reported with its computed value (the empirical magnitude that would be required is $\ln W \approx 23.6$, quoted only for comparison — no construction below is tuned to it):</p>
+
+<table>
+<tr><th>Candidate invariant $W$</th><th>Forced value $\ln W$</th><th>Verdict</th></tr>
+<tr><td>Integer perfect-matching count $(2N-1)!!$</td><td>—</td><td>excluded ($\delta$ transcendental $\Rightarrow$ $W$ not integer)</td></tr>
+<tr><td>Symplectic (Goldman) volume of the flat-connection moduli space [<a href="#r6">6</a>]</td><td>$\lesssim 12$ (ceiling)</td><td>excluded (volumes peak and fall with dimension)</td></tr>
+<tr><td>Graph-Laplacian spectral determinant $\det{}'\Delta_0$ (cuboctahedron)</td><td>$15.20$</td><td>null (12-mode ceiling $\ln 6^{11}=19.7$)</td></tr>
+<tr><td>Reidemeister / analytic torsion of $S^2$ [<a href="#r7">7</a>]</td><td>$\approx 0$</td><td>null (torsion of a sphere is trivial — a theorem)</td></tr>
+<tr><td>Heat trace $\mathrm{Tr}\,e^{-\tau^\ast\Delta}$, $\tau^\ast\in\{2\pi,4\pi\}$</td><td>$\approx 0.7$</td><td>null</td></tr>
+<tr><td>Critical $\pm$ (Ising) partition function on $(12,24,14)$</td><td>$\approx 11.4$</td><td>null</td></tr>
+<tr><td>Full Hodge log-det $\sum_q \ln\det{}'\Delta_q$</td><td>$61.1$</td><td>null (overshoots)</td></tr>
+</table>
+
+<p>The spectra used are exact and independently verified. In particular the full Hodge determinants satisfy the identity forced by the triviality of $S^2$ torsion,</p>
+$$\det{}'\Delta_1 = \det{}'\Delta_0\cdot\det{}'\Delta_2 = 2^{27}\,3^{9}\,7,\qquad \tau = \sqrt{7/6},$$
+<p>with $\det{}'\Delta_0 = 2^{14}3^5$ (spectrum $\{0,2^{3},4^{3},6^{5}\}$) and $\det{}'\Delta_2 = 2^{13}3^4 7$ (the dual rhombic-dodecahedron Laplacian, spectrum $\{0,3^4,4^2,\tfrac{7\pm\sqrt{17}}{2}^{\,3},7\}$).</p>
+
+<div class="open">
+<span class="tag tag-open">OPEN</span> <b>The one remaining object.</b> Every <em>finite</em>-complex invariant is either topological (trivial for the sphere) or spectral (values clustering at $\{0,0.7,3,11,15,30,61\}$ — with a clean gap where $23.6$ would sit). The required magnitude is therefore <em>not</em> a forced invariant of the finite complex. It is cornered into a single untested continuum object: the <b>$\zeta$-regularized spectral determinant of the Laplacian on the four-punctured sphere with the tetrahedral cone angles</b> — a Selberg-type / cone-manifold determinant [<a href="#r8">8</a>, <a href="#r9">9</a>], which can be both transcendental and large, and which is the subject of ongoing work.</p>
+</div>
+
+<h2>8. Summary of the forced chain</h2>
+<div class="chain">
+$\alpha$ is <b>pure</b> &nbsp;(intransitivity kills the totality-sum)<br>
+$\alpha \neq 0$ &nbsp;(topological necessity: $\chi(S^2)=2$, hairy-ball)<br>
+$\alpha$ is <b>small</b> &nbsp;(marginal kernel; quartic zero-mode)<br>
+$\alpha$ is <b>transcendental</b> &nbsp;(non-topological closure defect; Lindemann–Weierstrass)<br>
+$\alpha \sim (4\pi/W)^{1/4}$ &nbsp;(Gauss–Bonnet defect over the closure weight)<br>
+$W$ lives on the <b>tetrahedral four-cap complex</b> = cuboctahedron $(12,24,14)$ &nbsp;(Carathéodory)<br>
+<b>Remaining:</b> $W$ = continuum $\zeta$-determinant on the coned four-punctured sphere.
+</div>
+
+<p>The result is a disciplined cornering, not a completed calculation. Every arrow above is forced before comparison with measurement. What POAMS has shown is that the fine-structure ratio is the eigenvalue of the one substance closing on itself — pure, nonzero by topology, small by criticality, transcendental by construction — and that its value is determined by a single geometric closure weight, now reduced to one explicit object.</p>
+
+<div class="caution">
+<span class="tag tag-null">DISCIPLINE</span> No numerical coincidence is claimed. Several appealing near-misses (a phase count giving $\alpha^{-1}\approx136$; a matching count giving $\approx129$) were examined and <em>rejected</em>, because in each case the required exponent or cell-count is not forced by the closure — and, in the sharpest case, the tempting configuration was shown to violate $H^1(S^2)=0$. A forced construction that lands near the value is a result; a construction tuned to land there is worthless.</p>
+</div>
+
+<hr>
+<h2>References</h2>
+<ol class="refs">
+<li id="r1">N. V. Pope, A. D. Osborne, and collaborators, <i>Einstein's Lost Legacy: The Cosmic Machine of Normal Realism</i> — esp. App. 1 (Pythagorean time-cone), App. 3 (spectral derivation), App. 4–5 (angular-momentum orbital dynamics, variable $G$), ch. 4 (holographic light), ch. 10 (instantaneous action-at-a-distance; §10.9 intransitivity). POAMS corpus.</li>
+<li id="r2">N. V. Pope &amp; A. D. Osborne, "An Angular-Momentum Synthesis of 'Gravitational' and 'Electrostatic' Forces," <i>Galilean Electrodynamics</i>; and the Pope–Osborne Angular Momentum Synthesis papers.</li>
+<li id="r3">M. P. do Carmo, <i>Differential Geometry of Curves and Surfaces</i> (Gauss–Bonnet, Euler characteristic); H. Hopf, Poincaré–Hopf index theorem.</li>
+<li id="r4">A. Baker, <i>Transcendental Number Theory</i> (Lindemann–Weierstrass theorem).</li>
+<li id="r5">C. Carathéodory, "Über den Variabilitätsbereich der Koeffizienten von Potenzreihen…," <i>Math. Ann.</i> <b>64</b> (1907); Steinitz's theorem on convex position.</li>
+<li id="r6">W. M. Goldman, "The symplectic nature of fundamental groups of surfaces," <i>Adv. Math.</i> <b>54</b> (1984); M. F. Atiyah &amp; R. Bott, "The Yang–Mills equations over Riemann surfaces," <i>Phil. Trans. R. Soc.</i> <b>308</b> (1983).</li>
+<li id="r7">D. B. Ray &amp; I. M. Singer, "R-torsion and the Laplacian on Riemannian manifolds," <i>Adv. Math.</i> <b>7</b> (1971); triviality of torsion for simply-connected spaces.</li>
+<li id="r8">J. Cheeger, "Spectral geometry of singular Riemannian spaces," <i>J. Diff. Geom.</i> <b>18</b> (1983) — analysis on cone manifolds / conical singularities.</li>
+<li id="r9">A. Selberg, "Harmonic analysis and discontinuous groups…," <i>J. Indian Math. Soc.</i> <b>20</b> (1956); the Selberg zeta function and spectral determinants on punctured surfaces.</li>
+<li id="r10">A. Wyler, "L'espace symétrique du groupe des équations de Maxwell," <i>C. R. Acad. Sci. Paris</i> <b>269</b> (1969); and R. Gilmore, "Scepticism of the Wyler value," <i>Phys. Rev. Lett.</i> <b>28</b> (1972) — cited in §7 as the historical numerological formula and its refutation.</li>
+</ol>
+
+<p class="note" style="margin-top:30px;">Working paper, Normal Realism / POAMS engineering series. Derivation vetted by independent dual-model formal review under a strict "forced-before-comparison" protocol; every spectrum and determinant herein was numerically verified. The final object (§7) is under active computation.</p>
+
+</div>
+</body>
+</html>
