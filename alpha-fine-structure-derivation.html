@@ -178,9 +178,17 @@ $\alpha=v_{\text{orb}}/c$ — an orbital speed; its value empirical, as everywhe
 
 <script>
 /* ---------- shared ---------- */
-function fitCanvas(cv){ var r=cv.getBoundingClientRect(); var dpr=window.devicePixelRatio||1;
-  cv.width=r.width*dpr; cv.height=parseInt(cv.getAttribute('height'))*dpr; var x=cv.getContext('2d'); x.scale(dpr,dpr);
-  cv.style.height=cv.getAttribute('height')+'px'; return {ctx:x, w:r.width, h:parseInt(cv.getAttribute('height'))}; }
+function fitCanvas(cv){ var dpr=window.devicePixelRatio||1;
+  // capture the intended base height ONCE — setting cv.height reflects into the
+  // height attribute, so re-reading getAttribute('height') would compound by dpr
+  // every redraw (the Retina blow-up). Stash it in data-baseh and never re-derive.
+  if(cv.dataset.baseh===undefined){ cv.dataset.baseh=String(parseInt(cv.getAttribute('height'))||cv.clientHeight||300); }
+  var baseH=parseInt(cv.dataset.baseh);
+  var cssW=cv.clientWidth||Math.round(cv.getBoundingClientRect().width)||cv.parentNode.clientWidth;
+  cv.style.width='100%'; cv.style.height=baseH+'px';
+  cv.width=Math.max(1,Math.round(cssW*dpr)); cv.height=Math.max(1,Math.round(baseH*dpr));
+  var x=cv.getContext('2d'); x.setTransform(dpr,0,0,dpr,0,0);
+  return {ctx:x, w:cssW, h:baseH}; }
 var F='14px Helvetica Neue, Arial, sans-serif';
 
 /* ---------- Exhibit 1: time cone ---------- */
