@@ -1,0 +1,393 @@
+================================================================================
+POAMS — THE BOOTSTRAP: N FROM THE MINIMAL PREDISPOSITION ("SOMETHING NOT
+NOTHING") — INDEPENDENT FORMALIZER / DEVIL'S ADVOCATE (Fable-5)
+Date: 2026-07-06. Parallel to Opus-4.8; reasoned independently.
+Discipline: substrate/coupling/order-parameter/ε_c PRE-REGISTERED before any
+number; target (37,558) HIDDEN during construction, used only as a disclosed
+post-hoc locator; every step tagged DERIVED / ASSUMED / FROM-SOURCE; all
+arithmetic Python-checked this session; the documented confident-wrong failure
+mode held in view; firewall (no α, 137, 274, 37,558, R∞, m_e as inputs)
+enforced; NULL/CONTINGENT first-class.
+================================================================================
+
+--------------------------------------------------------------------------------
+0. INHERITED GROUND (cited, not re-proved)
+--------------------------------------------------------------------------------
+I0.1 α = sinθ = √(2/N); N = W/4π = totality AM-phase-coherence number; the
+     value of N is the ONE unfixed object (derive-N runs, both models).
+I0.2 ISOLATED-CONE NO-GO: {ħ,c} form no dimensionless number; the cone is
+     scale-invariant; no single-vortex construction fixes θ. [ALPHA-CONE]
+I0.3 ORDER-UNITY THEOREM: every forced closure/ratio in the licensed operation
+     algebra (coefficients in the sphere/cone set, ℚ(π)) has order-unity roots;
+     nothing forced outputs ≫1. [ALPHA-kernel-fable Thm 3]
+I0.4 MARGINALITY, recurring: κ = 1 identity; kernel G(θ)=1−(1−cosθ)² exactly
+     marginal (double root at θ=0); σ·Ω_cap = 1 fixes a product, leaving the
+     orthogonal direction flat. [KERNEL, DERIVE-N]
+I0.5 TOPOLOGY: α ≠ 0 forced — χ(S²)=2, closure cannot be defect-free; total
+     defect exactly 4π (Gauss–Bonnet); per-channel defect δ = 4π/W = 1/N.
+     [DELTA runs]
+I0.6 CLOSURE GEOMETRY forced: intransitive cover of the sphere = tetrahedral
+     4-cap complex = cuboctahedron graph (12 vertices, 4-REGULAR, 24 edges,
+     14 faces); adjacency spectrum {4, 2³, 0³, −2⁵}, Parzival-verified.
+     [CLOSURE, FINDINGS-LEDGER]
+I0.7 LATTICE EXCLUSIONS (sovereign data): 2/α² is 2.3×10⁴σ off ℤ; N is a
+     continuous measure, not a count. [ALPHA-rho]
+I0.8 Every forced invariant of the finite closure complex (count, moduli
+     volume, spectral det, torsion, heat trace, Ising Z, ζ-det) clusters in
+     {0…61} in ln, with a clean gap at the target. [EXP, ZETA-DET, ledger]
+
+FIREWALL, restated so it cannot be cheated: FORBIDDEN as inputs — α, 1/137,
+137.036, 274, 37,558, R∞, measured m_e, hR/c-as-value, anything containing α.
+ALLOWED — ħ, c, the discrete-stochastic substrate axioms, the forced closure
+connectivity (I0.6), and sovereign DATA as judge (never as input).
+
+--------------------------------------------------------------------------------
+1. PRE-REGISTRATION (committed BEFORE any number was evaluated)
+--------------------------------------------------------------------------------
+1.1 SUBSTRATE (registered, with the selection argument disclosed up front):
+    ħ-quanta, each carrying a binary phase-SENSE s_i ∈ {+,−} (= time-
+    orientation, liturgy §9; "charge"=spin-sign), stochastically re-drawn per
+    winding (the discretum is stochastic by axiom — this is native, not an
+    imported thermal bath). Connectivity candidates, fixed in advance:
+      S1: the finite cuboctahedron graph itself (12 vertices, 4-regular) —
+          the forced closure unit (I0.6).
+      S2: the FCC lattice (cuboctahedron as coordination shell, z=12) —
+          FLAGGED at registration: extending closure shells transitively is
+          CHAINING, which intransitivity forbids; container-flavored. Computed
+          only for robustness.
+      S3 (PRIMARY): the intransitive matching substrate — the totality's
+          links are double-ended, reciprocal, non-chaining (the perfect-
+          matching structure forced in CLOSURE). A web built by non-chaining
+          pairing of link-ends with local degree inherited from the closure
+          graph (z = 4, the cuboctahedron's regularity) is precisely a
+          locally TREE-LIKE 4-regular graph (configuration model). This is
+          the POAMS-licensed infinite substrate: relational, no container,
+          no loops of chained correlation. [DERIVED selection: intransitivity
+          ⇒ correlation paths do not compose ⇒ no correlation loops ⇒ locally
+          tree-like. z=4 from I0.6, not adjustable afterward.]
+
+1.2 COUPLING / PREDISPOSITION (registered as a two-channel test — decided by
+    structure, not by outcome):
+      Channel H (sign-bias): a bias h toward one phase-sense (+ over −); a
+        literal time-arrow preference per quantum.
+      Channel J (alignment-coupling): a bias J toward AM-sign ALIGNMENT of
+        linked quanta, sign-symmetric; weight e^{+J} per aligned link, e^{−J}
+        per anti-aligned link (J in nats, dimensionless — a log-probability
+        bias; no temperature imported). Physically: the stiffness of the
+        AM-conservation correlation itself.
+      Max-entropy symmetric noise = h = 0, J = 0.
+
+1.3 ORDER PARAMETER + COHERENCE NUMBER (registered): persistent coherence =
+    long-range phase-sense order surviving re-drawing (the ordered phase).
+    Coherence NUMBER 𝒩 = the effective number of totality quanta whose
+    phase-sense is correlated with a given quantum = the susceptibility-type
+    sum 𝒩(J) = Σ_j ⟨s_i s_j⟩ (mean coherent-cluster size in the percolation
+    reading). [ASSUMED identification: this 𝒩 = the derive-N induction-
+    channel count. Both are "independent correlated units seen by one
+    vortex"; the identification is plausible, not derived — flagged. The
+    verdict below is invariant under any monotone re-identification.]
+
+1.4 ε_c DEFINITION (registered): ε_c = the critical value of the
+    predisposition below which no persistent order exists on the infinite
+    substrate and above which it does. Minimal predisposition = ε_c (the
+    brief's proposal, tested as stated).
+
+1.5 PRE-REGISTERED PREDICTIONS (stated before numbers, per I0.3/I0.4):
+    P1: ε_c will be an order-unity computable constant of the connectivity
+        (consistent with the order-unity theorem, which governs thresholds).
+    P2: the coherence number AT ε_c will not be a finite forced number — at a
+        critical point there is no characteristic scale; expect divergence
+        (infinite substrate) or system-size dependence (finite substrate).
+    P3: therefore the run will end CONTINGENT or NULL unless a surprise
+        appears, in which case maximal suspicion applies.
+
+--------------------------------------------------------------------------------
+2. CHANNEL ANALYSIS — WHAT THE PREDISPOSITION MUST BE (structure, no numbers)
+--------------------------------------------------------------------------------
+2.1 CHANNEL H HAS NO THRESHOLD [DERIVED]. With pure sign-bias h and no
+    coupling, each quantum is independently biased: coherent fraction
+    ~ tanh h > 0 for ANY h > 0, decaying nowhere, requiring no minimum. The
+    infimum of "biases that give something" is 0 and is not attained; there
+    is no least element, hence no ε_c, hence no bootstrap closure in this
+    channel. A "minimal sign-bias" does not exist.
+
+2.2 CHANNEL J HAS A THRESHOLD [DERIVED]. Alignment coupling on a connected
+    infinite substrate has an order–disorder transition at finite J_c:
+    below, correlations die exponentially and nothing persists (every
+    pattern is re-drawn away — Star Lord's symmetric-noise argument holds
+    exactly here); above, spontaneous symmetry breaking yields a persistent
+    macroscopic phase-sense — SOMETHING.
+
+2.3 CONSEQUENCE — THE PREDISPOSITION IS A CORRELATION LAW, NOT A SIGN
+    PREFERENCE [DERIVED, and a genuine sharpening of Star Lord's principle]:
+    minimality is only well-defined in the coupling channel. The prime
+    mover's minimal act is not "prefer + over −"; it is "legislate that
+    linked AM-senses cohere with at least critical stiffness" — i.e., the
+    predisposition IS the conservation-of-angular-momentum correlation
+    itself, at sufficient strength. The DIRECTION of the time-arrow then
+    falls out by spontaneous symmetry breaking (a binary with no magnitude —
+    contingent but dial-free). POAMS-resonant: the one law POAMS keeps is AM
+    conservation; the bootstrap says that law's existence-at-critical-
+    strength is exactly the minimal predisposition.
+
+2.4 DEVIL'S-ADVOCATE NOTE against the naive reading of the principle
+    [disclosed]: spontaneous symmetry breaking means a sign-SYMMETRIC system
+    (J > J_c, h = 0) does produce persistent order — so "symmetric noise can
+    never make something" is true only of the FULLY symmetric (J = 0)
+    substrate. The principle survives in corrected form: what cannot be
+    dispensed with is the correlation bias J, not an asymmetry between + and −.
+
+--------------------------------------------------------------------------------
+3. THEOREM 1 — ε_c EXISTS, IS COMPUTABLE, AND IS ORDER UNITY
+--------------------------------------------------------------------------------
+On the primary substrate S3 (locally tree-like, z = 4, forced by
+intransitivity + closure regularity), exact results [DERIVED, textbook-grade
+tree computations, Python-checked]:
+
+  Bond/site percolation threshold:  p_c = 1/(z−1) = 1/3.
+  Order–disorder critical coupling: tanh J_c = 1/(z−1) = 1/3
+      ⇒  J_c = atanh(1/3) = ½ ln 2 ≈ 0.34657 nats.        (exact identity ✓)
+
+  THE MINIMAL PREDISPOSITION, in closed form:
+      ε_c = ½ ln 2  ≈ 0.3466 nats of time-orientation alignment stiffness
+      per ħ-link — HALF A BIT PER LINK. The least legislation under which
+      anything can persist at all.
+
+  Robustness (computed, disclosed): z = 12 (FCC reading) gives
+  J_c = atanh(1/11) ≈ 0.0912; FCC literature thresholds p_c^site ≈ 0.1992,
+  p_c^bond ≈ 0.1202, K_c^Ising ≈ 0.1021; finite cuboctahedron spectral
+  pseudo-threshold 1/λ_max = 1/4. ALL order unity. No substrate choice
+  changes anything that follows — the verdict is z-independent.
+
+  Side result [DERIVED, amusing, disclosed]: STATIC percolation needs no
+  predisposition at all — symmetric noise gives P(align) = ½ > p_c = 1/3, so
+  aligned-bond clusters percolate geometrically even unbiased. But a static
+  percolating snapshot of noise is re-drawn next winding: persistence is the
+  DYNAMIC/order question, which is why the transition that matters is the
+  order–disorder one (Channel J), not static percolation.
+
+This CONFIRMS prediction P1 and the order-unity theorem (I0.3): thresholds
+are order-unity geometric constants. No α anywhere in them: ½ ln 2 contains
+no 137, no R∞, no electron. Non-circularity of ε_c: proven by inspection —
+it is a function of the integer z = 4 alone.
+
+--------------------------------------------------------------------------------
+4. THEOREM 2 — THE COHERENCE NUMBER AT ε_c IS NOT A NUMBER (category
+   refutation of the brief's leading mechanism)
+--------------------------------------------------------------------------------
+Exact tree susceptibility (disordered side), t = tanh J [DERIVED, checked]:
+      𝒩(J) = 1 + z·t/(1 − (z−1)t) = 1 + 4t/(1 − 3t).
+  At J = 0: 𝒩 = 1 (nothing, correctly).
+  As J → J_c (t → 1/3): 𝒩 → ∞. DIVERGES.
+On the ordered side (J > J_c): the coherent cluster is infinite (that IS
+persistence); the fluctuation-coherence 𝒩 ~ C/(J − J_c) again diverges as
+J → J_c⁺. On the FINITE forced complex (12 vertices): 𝒩 ≤ 12.
+
+∴ "N = the coherence number at ε_c" is ILL-POSED as stated: at a critical
+point there is by definition no characteristic scale — the coherence number
+is ∞ on the infinite substrate, ≤ 12 on the finite forced complex, and
+system-size-dependent (Λ^{1/3}-type, a census number) in a finite totality.
+None of these is a computable pure number of order 10⁴·⁶. The brief's hope
+that "percolation thresholds are computable geometric constants" transfers
+to N confuses two objects: the THRESHOLD (order-unity, computable, forced —
+Theorem 1) and the COHERENCE AT the threshold (scale-free, not a number).
+Large numbers arise near criticality only as (distance from threshold)^(−γ)
+— and the distance is not a threshold constant. [DERIVED]
+
+This confirms prediction P2 exactly.
+
+--------------------------------------------------------------------------------
+5. THEOREM 3 — THE FLAT-DIRECTION (BOOTSTRAP-DEGENERACY) THEOREM:
+   the minimal predisposition provably CANNOT fix N
+--------------------------------------------------------------------------------
+The one conceivable rescue is a SELF-CONSISTENCY loop: the coherence web
+back-reacts and pins its own distance from criticality. POAMS supplies
+exactly one candidate loop, all links inherited:
+   (L1) coherence N sets the per-channel closure defect: δ = 4π/W = 1/N
+        [I0.5, Gauss–Bonnet, forced];
+   (L2) the defect frustrates alignment and holds the system off criticality:
+        τ ≡ (J − J_c)/J_c = k₂ δ^m  [ASSUMED coupling; m = 1 is the natural
+        case — the ledger's corrected kernel result says the angular defect
+        couples LINEARLY];
+   (L3) off-criticality sets coherence: N = k₃ τ^(−γ)  [DERIVED, critical
+        scaling], with k₂, k₃ order-unity constants of the forced geometry.
+
+Substituting:  N^(1 − mγ) = k₃ k₂^(−γ) k₁^(−mγ)   (k₁ = 4π/4π-normalization).
+
+CASE γ = 1 (mean field), m = 1:  the exponent is 0 — N DROPS OUT IDENTICALLY.
+The loop is satisfied for EVERY N once one order-unity relation among the
+constants holds. The bootstrap has an EXACTLY FLAT DIRECTION along N.
+
+CASE mγ ≠ 1:  N = [order-unity]^(1/(1−mγ)) = order unity (Python-checked:
+e.g. γ = 1.2373, k = 2 ⇒ N ≈ 0.05, i.e. order unity/its reciprocal) —
+EXCLUDED BY SOVEREIGN DATA (measured N is 3.8×10⁴).
+
+AND THE EXPONENT IS NOT FREE [DERIVED — the crux]: intransitivity forces
+γ = 1. Non-chaining correlations cannot compose around loops ⇒ the effective
+correlation graph is tree-like ⇒ the transition is EXACTLY mean-field ⇒
+γ = 1 exactly (Bethe/tree universality). So POAMS's own deepest structural
+axiom (intransitivity) forces the degenerate case: the self-consistency loop
+that could have pinned N is exactly, structurally, provably FLAT.
+
+★ This retro-explains every marginality the program kept hitting: κ = 1
+(identity), the marginal kernel's double root, σ·Ω_cap = 1 fixing only the
+product, the homogeneity that survived every dressing — they are all the
+SAME flat direction, seen from different angles. An intransitive totality
+sits at a mean-field critical manifold whose flat coordinate IS N. The
+bootstrap does not close on a value because γ = 1 makes the closure map the
+identity. This is not a failure to find the argument; it is a proof that
+the argument does not exist within these axioms. [DERIVED]
+
+--------------------------------------------------------------------------------
+6. EXACT MINIMALITY IS EXCLUDED — THE PREDISPOSITION IS PROVABLY
+   SUPER-MINIMAL (and its excess is the contingent dial)
+--------------------------------------------------------------------------------
+If the predisposition sat AT ε_c exactly: N = ∞ (Theorem 2) ⇒ α = √(2/N) = 0.
+But α = 0 is forbidden twice over: by sovereign data (α ≠ 0) and by POAMS's
+own topology (χ(S²) = 2 — closure cannot be defect-free, I0.5). ∴ the actual
+predisposition is STRICTLY above the minimum. "Something, barely" is almost
+right — but literal minimality would give a universe of infinite coherence
+and zero coupling, which POAMS itself forbids. The universe is necessarily
+MORE than minimally predisposed, and the measured excess is [post-hoc
+locator, disclosed, Python-checked]:
+
+   t_required = (N−1)/(3N+1) = 0.333321…  vs  t_c = 1/3
+   relative offset (t_c − t)/t_c = 4/(3N+1) = 3.5501×10⁻⁵ = (2/3)α²  ✓
+   (J_c − J)/J_c = 3.84×10⁻⁵    [tree formula, disordered-side illustration;
+    ordered side differs by a mean-field amplitude factor ~2 — order-unity,
+    verdict-neutral]
+
+   i.e. THE PREDISPOSITION SITS WITHIN ~4 PARTS IN 10⁵ OF THE EXISTENCE
+   THRESHOLD. That closeness is the derived content ("why α is small":
+   near-minimal predisposition ⇒ near-critical ⇒ large N — the brief's
+   non-anthropic smallness argument SURVIVES and is now exact). The VALUE
+   of the offset is the flat coordinate of Theorem 3: nothing forces
+   3.55×10⁻⁵ over 10⁻⁴ or 10⁻⁷. Note the identity-character of the locator:
+   offset = (2/3)α² is a restatement of N = 2/α², not a derivation — stated
+   so no future run counts it as a hit.
+
+--------------------------------------------------------------------------------
+7. NUMBERS LEDGER (all Python-verified this session; threshold block computed
+   with target hidden, locator block after and labelled)
+--------------------------------------------------------------------------------
+THRESHOLDS (forced, non-circular, no target used):
+  p_c(bond, z=4 tree) = 1/3;  J_c = atanh(1/3) = ½ln2 = 0.3465735903 ✓
+  J_c(z=12) = atanh(1/11) = 0.0911608;  1/λ_max(cuboct) = 1/4
+  FCC (literature): p_c^site ≈ 0.1992365, p_c^bond ≈ 0.1201635, K_c ≈ 0.1021
+  𝒩(J=0) = 1;  𝒩(t=0.30) = 13.0;  𝒩(t→1/3) = ∞
+LOCATORS (target used, disclosed):
+  N = 2/α² = 37557.7301;  δ = 1/N = 2.66257×10⁻⁵ (=1−cosθ ✓)
+  t_req = 0.3333214998;  1/3 − t_req = 1.18335×10⁻⁵
+  rel. offset = 3.55006×10⁻⁵ = 4/(3N+1) ✓ = (2/3)α² ✓
+  J_req = 0.3465603;  (J_c−J_req)/J_c = 3.8412×10⁻⁵
+FINITE-SIZE FISHING DOC (computed only to document refusal):
+  Λ = N³ = 5.30×10¹³;  Λ = N² = 1.41×10⁹;  Λ = N^{3/2} = 7.28×10⁶
+  (free exponent + free census = guaranteed hit; none forced; all refused)
+FLAT-DIRECTION CHECK: exponent 1−mγ = 0 at γ=1, m=1 (N drops out);
+  γ=1.2373 branch ⇒ N order unity ⇒ excluded by data. ✓
+
+--------------------------------------------------------------------------------
+8. FISHING TEMPTATIONS RAISED AND REFUSED (mandatory disclosure)
+--------------------------------------------------------------------------------
+F1 FINITE-SIZE CRITICALITY: "at ε_c in a finite totality of Λ quanta,
+   N ~ Λ^{1/3} (or Λ^{1/2}, or Λ^{2/3}) — choose Λ ≈ 5×10¹³ (or 1.4×10⁹, or
+   7.3×10⁶) and hit 37,558 exactly." A free exponent TIMES a free census
+   number = a guaranteed hit with zero content, and the liturgy-corrected
+   constant universe licenses no census anyway. REFUSED. (This was the
+   single most seductive route this run — a "percolation number that hits
+   37,558" exactly as the brief warned. It is manufacturable at will; that
+   is why it is worthless.)
+F2 QUANTIZED-BIAS DODGE: "the discretum quantizes J, so the minimal
+   super-critical bias is J_c + one quantum, forcing the offset." Nothing in
+   {ħ,c} quantizes a dimensionless log-probability; the natural candidate
+   (J ∈ ℤ, minimal = 1) puts the system deep in order ⇒ N order unity ⇒
+   falsified; tuning the quantum to 10⁻⁵ = fishing. REFUSED.
+F3 DEFECT-PINS-OFFSET AS A DERIVATION: presenting L1–L3 with γ=1 as "the
+   topology fixes the offset δ ⇒ N derived" — it is an IDENTITY at γ=1
+   (Theorem 3: N cancels). The most dangerous costume in this run because it
+   looks like closure. EXPOSED as the flat direction, not used.
+F4 SUBSTRATE SHOPPING: scanning z (4? 12? 6?) or lattice (FCC/HCP/Bethe) for
+   a threshold combination near a target. z = 4 was fixed at registration
+   from the forced closure graph; alternatives computed only for robustness;
+   no combination was searched against 37,558. REFUSED.
+F5 ½ln2 NUMEROLOGY: extending the (genuinely pretty) ε_c = half-a-bit-per-
+   link result into products/powers marching toward 137 or 37,558 (e.g.
+   ln N/ln 2 = 15.2 "bits"...). Not computed beyond this disclosure. REFUSED.
+F6 "SOMETHING, BARELY" AS EXACT MINIMALITY: claiming the principle itself
+   forces sitting AT ε_c and then reading a finite N off it — Theorem 2
+   shows exact minimality gives N = ∞/α = 0, which POAMS's own topology
+   forbids. Anyone selling a finite N "at threshold" has smuggled a cutoff.
+   FLAGGED as the generic future-fishing pattern for this route.
+
+--------------------------------------------------------------------------------
+9. HOW CRITICALITY RELATES TO THE NO-GO THEOREMS (asked; answered exactly)
+--------------------------------------------------------------------------------
+The percolation/order-disorder route does NOT evade the isolated-cone and
+order-unity theorems — it OBEYS them, informatively:
+ • Isolated-cone no-go: ε_c is a dimensionless property of the TOTALITY's
+   connectivity, not of {ħ,c} or the single vortex — precisely the kind of
+   object the no-go says α must come from. Consistent.
+ • Order-unity theorem: the thresholds ARE order-unity (1/3, ½ln2, 0.1992…)
+   — the theorem correctly governs them. Criticality's only mechanism for
+   producing a LARGE number is the divergence (distance)^(−γ), i.e. a large
+   number as the reciprocal of an UNFORCED small dial. So criticality escapes
+   the no-gos' bound on magnitude, but only by introducing a continuum of
+   admissible values — it buys largeness at the exact price of forcing.
+ • And the new Theorem 3 closes the last exit: the one self-consistency loop
+   that could have pinned the dial is exactly degenerate BECAUSE
+   intransitivity forces mean-field (γ=1). The no-gos, the marginality
+   results, and the bootstrap degeneracy are one phenomenon.
+
+--------------------------------------------------------------------------------
+10. VERDICT
+--------------------------------------------------------------------------------
+**CONTINGENT — and for the first time, the latitude is PROVEN, not merely
+unfound.**
+
+WHAT THE MINIMAL PREDISPOSITION FORCES (theorem grade):
+ 1. Its own existence and its channel: persistence is impossible in the
+    symmetric substrate (J = 0 has no order); the predisposition must be an
+    ALIGNMENT-CORRELATION law (AM conservation with stiffness), not a
+    sign-preference (Channel H has no minimum — no threshold, no bootstrap).
+    Star Lord's principle holds, sharpened: the prime mover's undeniable act
+    is legislating that angular-momentum senses cohere.
+ 2. Its minimal magnitude: ε_c = atanh(1/(z−1)) = ½ ln 2 ≈ 0.347 nats of
+    time-arrow alignment per ħ-link on the forced 4-regular intransitive
+    web — computable, non-circular, order unity, exactly as the order-unity
+    theorem demands.
+ 3. That the actual universe is STRICTLY super-minimal: exact minimality ⇒
+    N = ∞ ⇒ α = 0, forbidden by χ(S²) = 2 and by data. Existence of THIS
+    universe (α ≠ 0) proves the predisposition exceeds the minimum.
+ 4. Why α is small, non-anthropically: near-minimal predisposition ⇒
+    near-critical ⇒ N large. The brief's smallness argument survives exactly.
+
+WHAT IT PROVABLY DOES NOT FORCE: the value 37,558. The coherence number at
+the threshold is not a number (scale-free — Theorem 2); away from threshold
+it is set by the offset, and the unique POAMS self-consistency loop that
+could pin the offset is EXACTLY FLAT because intransitivity forces mean-field
+γ = 1 (Theorem 3). N is the flat coordinate of the bootstrap. The recurring
+κ = 1 / marginal-kernel / product-only results of the whole program are this
+one flat direction.
+
+THE ANSWER TO THE REFRAMED TARGET: the prime mover is a NECESSITY as to
+existence and channel (a "WHAT"), and a CHOOSER as to magnitude (a
+"WHICH") — the dial is the excess of the alignment stiffness over ½ ln 2,
+sitting at ~4×10⁻⁵ relative, whose readout is N = 37,558, i.e. α. POAMS can
+now say precisely WHAT was chosen, in what units, and that it HAD to be
+chosen (no axiom fixes it, provably); it cannot say WHY this value — and
+Theorem 3 says no derivation from the current axioms ever will.
+
+[HOSTILE-PREP] "You've re-derived textbook mean-field theory and called it
+metaphysics." Preempt: the textbook objects are the vehicle; the POAMS
+content is the selection (intransitivity ⇒ tree-like ⇒ γ=1 forced, not
+assumed), the channel theorem (predisposition must be correlational), the
+super-minimality proof (topology + data exclude the threshold itself), and
+the degeneracy theorem unifying five independent marginality results. None
+of those is in a textbook.
+
+BRUTALLY HONEST SENTENCE: The minimal predisposition does NOT force N — it
+forces that something exists, that the bias is a correlation law of measured
+minimal size ½ ln 2 per link, and that our universe overshoots that minimum
+by an amount nothing in the axioms determines; N = 37,558 is the signature
+of that overshoot, i.e. the prime mover is, provably within POAMS, a chooser.
+================================================================================

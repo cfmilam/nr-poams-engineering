@@ -1,0 +1,271 @@
+================================================================================
+POAMS α — INTERNAL TWO-QUANTA / 2-D-DISK ↔ 3-D-SPHERE MISMATCH
+INDEPENDENT FORMALIZER / DEVIL'S ADVOCATE (Fable-5) — 2026-07-05 evening
+Parallel to Opus-4.8 frame-holder; reasoned independently. Target HIDDEN during
+forcing; all numbers Python-checked this run; NULL first-class.
+================================================================================
+
+QUESTION. Star Lord's steer: universe limitless → totality action infinite →
+naive Machian sum diverges. Internal lever candidate: the two quanta live in
+different geometries — inner spin = flowing 2-D planar disk (rate c, Laplace
+flattening), outer orbital = stable 3-D spherical configurations (rate v).
+AM-magnitude composition is homogeneous degree-0 → proven scale-invariant null
+(ALPHA-rho A.2). The 2-D↔3-D DIMENSIONAL MISMATCH is not: planar measures scale
+as r², spherical as r³; planar angle 2π vs solid angle 4π or 2π(1−cosθ). Does
+matching the ONE substance across the eyewall (2-D→3-D boundary) FORCE θ (=α),
+reduce it to one internal constant, or leave it free — NO totality term?
+
+--------------------------------------------------------------------------------
+0. SETUP — INVENTORY (each line tagged)
+--------------------------------------------------------------------------------
+D0.1 FROM-SOURCE (ALPHA-rho D0.1–D0.3, machine-verified there and re-checked):
+     r_s = ħ/(2mc), L_s = ħ/2, inner rate c (eyewall speed);
+     r_orb = ħ/(mv), L_o = ħ, outer rate v;
+     ρ ≡ r_orb/r_s = 2c/v = 2/α;  sinθ = v/c (cone runs) ⟹ **ρ = 2/sinθ**.
+D0.2 FROM-SOURCE (poams-periodic-table.html, "Why the Core Flattens"):
+     core = FLOWING 2-D planar disk (Laplace flattening theorem — the man's
+     flattening result, note: the source does NOT invoke the Laplace *equation*;
+     where I use 2-D harmonic/log structure below I tag it ASSUMED-SHARPENING);
+     outer modes = stable 3-D spherical-harmonic configurations, not flowing.
+D0.3 FROM-SOURCE (same file, "Eyewall Force Profile"): F(r) = 0 (eye, r→0);
+     ∞ (eyewall, r = r_wall); k/r² (outer). Multipole of order l attenuates as
+     1/r^(l+1) (line 877). The eyewall is a SINGULAR layer by the source's own
+     declaration — remember this; it bites in §3-M2.
+D0.4 DERIVED (domain): sinθ = 2/ρ ≤ 1 ⟹ **physical domain ρ ≥ 2**, θ ∈ (0, π/2].
+D0.5 DERIVED (bookkeeping, inherited): single non-compact modulus = the tilt.
+     ρ and θ are the SAME degree of freedom (D0.1). So ONE independent equation
+     in (ρ, θ) that is NOT homogeneous in the rescaling v → λv fixes θ. All
+     prior nulls (cone, composition, closure) were homogeneous. The question is
+     therefore exactly two-part: (i) is the 2-D/3-D matching inhomogeneous?
+     (ii) if yes, WHERE do its roots land?
+
+--------------------------------------------------------------------------------
+1. LEMMA 1 (DERIVED) — the mismatch IS the right kind of lever
+--------------------------------------------------------------------------------
+A planar measure of the substance built at the disk scale goes as r_s^p·(2π);
+a spherical measure at the mode scale goes as r_orb^q·(4π or 2π(1−cosθ)), with
+p ≠ q generically (area vs volume, per-length vs per-area, etc.). Any equation
+between them contains ρ^(q−p) with q−p ≠ 0 ⟹ NOT invariant under v → λv
+(which sends ρ → ρ/λ). The protection theorem ALPHA-rho A.2 does NOT apply.
+**So the brief's instinct is formally correct: this is the first internal
+condition class with traction on the modulus.** Generic members FORCE θ.
+Everything now turns on which member is forced and what number it yields.
+
+--------------------------------------------------------------------------------
+2. PRE-REGISTRATION (all equations committed BEFORE any number is inserted;
+   every variant listed here is solved in §3 — none dropped, none added after)
+--------------------------------------------------------------------------------
+Notation: Ω(θ) = 2π(1−cosθ) = solid angle of the tilt cone; full sphere = 4π;
+planar full angle = 2π. Internal lengths available: r_s, r_orb only.
+
+M1  PHASE/SUBSTANCE PER-ANGLE CONTINUITY (the brief's candidate, cleanest form):
+    the substance's circulation per unit angle is continuous across the boundary.
+    (M1a)  L_s/(2π)  =  L_o/(4π)                                    [disk↔sphere]
+    (M1b)  L_s/(2π)  =  L_o/Ω(θ)                                    [disk↔cone]
+    (M1b') L_s/Ω(θ)  =  L_o/(4π)                                    [cone↔sphere]
+    Caveat pre-registered: equating per-radian with per-steradian quantities
+    needs one conversion factor with angle units; the choice of that factor is
+    a genuine convention freedom, flagged wherever it matters.
+
+M2  SUBSTANCE-DENSITY CONTINUITY, area↔volume (brief's literal candidate:
+    "planar 2π/area vs solid-angle 2π(1−cosθ)/volume"), dimensions closed by an
+    internal thickness ℓ ∈ {r_s, r_orb} (both solved; no third choice exists):
+    (M2a)  L_s/(π r_s²)  =  [L_o/((4/3)π r_orb³)]·ℓ
+    (M2b)  (2π)/(π r_s²) =  [Ω(θ)/((4/3)π r_orb³)]·ℓ
+    Also the inverted-cone family (cone factor on the SMALL-measure side),
+    covered by the general family F below.
+
+M3  ACTION/ENERGY MATCHING WITH THE 2-D HARMONIC (LOG) STRUCTURE
+    [ASSUMED-SHARPENING: a stationary, conserved, irrotational planar flow has
+    harmonic phase; the 2-D vortex stream function is (Γ/2π)ln r, so any energy/
+    action integral of the disk's flow between two radii is logarithmic, while
+    the 3-D side is power-law (source's 1/r^(l+1)). This is standard 2-D flow
+    mathematics implied by flattening, but the source never states the Laplace
+    EQUATION — hence ASSUMED.]
+    Planar-tail energy between eyewall and orbit, v(r) = c·r_s/r, areal density
+    σ: E_tail = π σ c² r_s² ln ρ. Pre-registered closures:
+    (M3a)  E_tail = E_s = mc²  with σ = m/(π r_s²)   ⟹  ln ρ = 1
+    (M3b)  E_tail = E_o = mv²  with σ = m/(π r_s²)   ⟹  ρ² ln ρ = 4
+    (Any other σ or endpoint is a free function — flagged, not fitted.)
+
+F   GENERAL FAMILY (the reachability theorem is proved over this):
+    Σ_k C_k · ρ^(p_k) · (1−cosθ)^(q_k) · (ln ρ)^(s_k) = 0,
+    C_k = rationals of small height × π-powers, |C_k| ∈ [~1/4, 4π];
+    p_k ∈ {−3,…,3} (dimension mismatch bounded by 3); q_k ∈ {0,1}; s_k ∈ {0,1}.
+    With ρ = 2/sinθ this is ONE transcendental equation in θ.
+
+CROSS-CHECK COMMITMENTS (numbers evaluated only in §5): does any root give
+finite small θ with no totality term? does W = 2πρ² reach ≈4.72×10⁵ (N≈37,558,
+α=√(2/N))? Any march toward 137/274/37,558 is fishing and will be flagged.
+
+--------------------------------------------------------------------------------
+3. SOLUTIONS (all arithmetic Python-verified this run)
+--------------------------------------------------------------------------------
+M1a: (ħ/2)/(2π) = ħ/(4π). LHS = 0.0795775·ħ = RHS **identically. An IDENTITY,
+     true for every θ.** No constraint on the tilt — but a real positive find:
+     per-angle substance density is continuous across the 2-D→3-D boundary IF
+     AND ONLY IF L_s = L_o·(2π/4π) = L_o/2. **The half-quantum is the planar-
+     to-solid angle ratio.** Read forward: demanding per-angle continuity of
+     the one substance across the disk↔sphere boundary FORCES the inner quantum
+     to be ħ/2 when the outer is ħ — i.e. the dimensional mismatch is exactly
+     the condition already SPENT in the (ħ/2, ħ) assignment, and the factor 2
+     in ρ = 2/α IS the angle-measure ratio 4π/2π. (Convention caveat of §2-M1
+     applies: rad↔sr identification is the simplest choice; that the simplest
+     choice lands on the known assignment with zero residue is the finding.)
+     → Forces the COMPACT structure (the ½), not the modulus. Same shape as
+     every prior run: compact forced, tilt free.
+
+M1b: (1/2)/(2π) = 1/(2π(1−cosθ)) ⟹ 1−cosθ = 2 ⟹ cosθ = −1, θ = π.
+     Outside physical domain (θ ≤ π/2). DEGENERATE — no root.
+M1b': (1/2)/(2π(1−cosθ)) = 1/(4π) ⟹ 1−cosθ = 1 ⟹ θ = π/2, i.e. v = c, ρ = 2.
+     Order-unity/edge. Not small. (And unforced relative to M1a/M1b — three
+     orientation choices, no principle selects one: convention freedom again.)
+
+M2a: ℓ = r_s:   (1/2)/r_s² = (3/(4 r_orb³))·r_s  ⟹ ρ³ = 3/2 ⟹ ρ = 1.1447.
+     ℓ = r_orb: ⟹ ρ² = 3/2 ⟹ ρ = 1.2247.
+     Both < 2 ⟹ **NO PHYSICAL ROOT** (D0.4: ρ ≥ 2 required). Empty.
+M2b: ℓ = r_s:   2/r_s² = (3/2)(1−cosθ)r_s/r_orb³ ⟹ ρ³ = (3/4)(1−cosθ) ≤ 3/2
+     ⟹ ρ ≤ 1.145 < 2. Empty.  ℓ = r_orb: ρ² = (3/4)(1−cosθ) ≤ 3/2 ⟹ ρ ≤ 1.22
+     < 2. Empty. **The brief's literal candidate has no solution at all.**
+     [INTERNAL finding, on the FOUNDATION brief, not on the source: substance-
+     density CONTINUITY across the eyewall contradicts the source's own Eyewall
+     Force Profile, which declares F → ∞ at r_wall — a singular layer. POAMS's
+     own geometry says the densities do NOT match smoothly there; the wall
+     exists precisely because they cannot. A continuity-type matching at the
+     eyewall is therefore anti-forced by the source. The empty solution set is
+     the mathematics agreeing with the eyewall.]
+
+M3a: ln ρ = 1 ⟹ ρ = e = 2.7183 ⟹ sinθ = 2/e = 0.7358, θ = 47.4°.
+     TRANSCENDENTAL, finite, no totality term — but ORDER UNITY.
+M3b: ρ² ln ρ = 4 ⟹ ρ = 2.2320 (root machine-verified, f(ρ) < 10⁻¹⁴)
+     ⟹ sinθ = 0.8961, θ = 63.6°. Order unity.
+     (Both closures carried the flagged free choice σ = m/(π r_s²); other σ
+     slide the root but — see Theorem 3 — never out of order-unity without an
+     inserted large number.)
+
+--------------------------------------------------------------------------------
+4. THEOREM 2 (DERIVED — the deep structural result of this run):
+   ASYMPTOTIC RESTORATION OF HOMOGENEITY — the lever goes soft exactly at small θ
+--------------------------------------------------------------------------------
+The advertised homogeneity-breaker is the cone solid angle Ω(θ) = 2π(1−cosθ).
+But 1−cosθ = sin²θ/(1+cosθ) = (2/ρ)²/(1+cosθ): **the cone factor itself
+carries degree −2 in ρ.** Exact algebraic identity (verified numerically at 5
+points to 8 digits; also one line of algebra):
+
+        (1−cosθ)·ρ² = 4/(1+cosθ)  ∈ [2, 4]  for θ ∈ [0, π/2].
+
+Consequences:
+(i)  Any matching that pits an area-type measure (ρ²) against the tilt-cone
+     solid angle is NOT inhomogeneous after all — the combination collapses to
+     4/(1+cosθ), bounded in [2,4]. The p = 2 case of family F is MARGINAL:
+     the very factor advertised as breaking scale-invariance RESTORES it to
+     leading order as θ → 0, because Ω(θ) ≈ πθ² ∝ 1/ρ².
+(ii) The inhomogeneity of the ENTIRE mismatch class is O(θ²) at small θ.
+     The lever has traction only at order-unity tilt; in the small-tilt regime
+     — precisely where α lives — the disk and cone measures re-align, the
+     similarity protection re-emerges, and the internal equation loses its grip
+     on the modulus. **Small α is structurally the regime the internal matching
+     CANNOT reach.** This is the geometric reason the roots in §3 all pile up
+     at θ ~ 45–90° or vanish.
+(iii) THE MARGINAL FAMILY, made exact. Write the p = 2 matching as
+     (1−cosθ)ρ² = C. Then C = 4/(1+cosθ):
+       • C < 2 or C > 4: no root.  • C ∈ (2, 4]: one order-unity root.
+       • C = 2: root θ = 0 exactly — the critical/degenerate corner (cone
+         closed, α = 0), which is FORBIDDEN by the inherited topological
+         necessity (χ(S²) = 2: the outer circulation must exist, α ≠ 0).
+     Small-θ expansion (exact): C − 2 = 2 tan²(θ/2) = (α²/2)(1 + O(α²)).
+     With the inherited Machian bookkeeping α = √(2/N), N = W/4π:
+         **C = 2 + 1/N·(1+O(α²)) = 2 + 4π/W + …**
+     Machine check at measured θ: C − 2 = 2.662639×10⁻⁵ vs α²/2 = 1/N =
+     2.662568×10⁻⁵ (agree to the predicted O(α²) relative correction). ✓
+     Honesty note: this identity is a REPARAMETRIZATION of α = √(2/N), not an
+     independent derivation of W. Its content is structural: the internal
+     marginal family and the Machian route meet at the SAME critical point.
+     The internal geometry can force C = 2 exactly (marginality — identity-type
+     matchings like M1a naturally produce clean rationals); it possesses NO
+     small number to force the offset 4π/W ≈ 2.66×10⁻⁵ — by the inherited
+     inventory theorem ({c, ħ, n, 2π} admits no dimensionless ratio), any
+     internal offset would itself be order-unity. The offset must be external.
+
+--------------------------------------------------------------------------------
+5. THEOREM 3 (DERIVED) — REACHABILITY BOUND over the whole family F,
+   and the post-derivation cross-check
+--------------------------------------------------------------------------------
+Over family F (§2), with ρ = 2/sinθ:
+ • p's all equal (homogeneous): prior null re-lands; θ free or order-unity.
+ • p's differ, no log: root ρ^Δp = O(1)-ratio of C's ≤ (4π)/(1/4) ≈ 50 with
+   Δp ≥ 1 ⟹ ρ ≤ ~50, generically ρ ~ 1–12; many members (all continuity-type)
+   land ρ < 2 ⟹ EMPTY. Best case α = 2/ρ ≥ ~0.04.
+ • marginal p = 2 with cone: Theorem 2 — order-unity root or θ = 0 or empty.
+ • log members (the only magnitude-viable route): roots ln ρ = C_eff. Needed:
+   ln ρ = ln 274.0720 = 5.6133908… The forced closures computed give C_eff = 1
+   (M3a) and the ρ²lnρ = 4 form (M3b) — roots ρ = 2.72, 2.23. Every honest
+   coefficient lands in ~[1/2, 2.5]. To reach 5.6133908 the coefficient must be
+   tuned to ~10⁻⁸ (CODATA precision) with no selecting principle:
+   **Wyler-in-logarithms. REFUSED.**
+Cross-check against the standing target (opened only now, per protocol):
+ W = 2πρ² (exact: W = 4πN = 8π/α² = 2πρ², machine-checked: 471,964.356 both
+ ways). Internal roots ρ ∈ [2, ~12] ⟹ **W_internal ∈ [~25, ~905]** (ρ = e →
+ W = 46.4; ρ = 12 → W = 904.8); the most generous non-log stretch (ρ ~ 25–50)
+ gives W ≤ ~1.6×10⁴. Required: **W ≈ 4.72×10⁵.** Shortfall e^(4.5…9). The
+ internal lever does NOT close the Δln W ≈ 4–5 gap; it lands at or below the
+ local-route W ~ 10³ the gap was measured FROM.
+Sovereign data check: best internal roots predict α = 2/ρ ~ 0.17–0.90 vs
+measured 0.0072973525693 — off by 20–120×. As the SOLE source of the tilt, the
+internal mismatch is empirically excluded, not merely incomplete.
+
+--------------------------------------------------------------------------------
+6. FISHING FLAGS RAISED AND REFUSED THIS RUN (mandatory disclosure)
+--------------------------------------------------------------------------------
+1. ln ρ = 2π ⟹ ρ = e^{2π} = 535.49 ⟹ α⁻¹ = 267.75 ≈ 2×137 (off ×1.954);
+   equivalently ln(2ρ) = 6.3065 vs 2π = 6.2832 (0.37% ⟹ ~10⁶σ at CODATA
+   precision). Unforced (why 2π and not 1, 2, π, 4π?) AND wrong. REFUSED.
+2. ln W − 4π = 0.4983 ≈ ½ ("W = 4π·e^{1/2}·…"): numerology, no mechanism,
+   0.35% off. REFUSED.
+3. The marginal-family identity C = 2 + 4π/W could be dressed as "the internal
+   route DERIVES the totality coupling" — it does not; it derives only the
+   critical point C = 2. Presenting the offset as internal would be the
+   documented confident-wrong failure mode. REFUSED.
+4. ρ = 274 / N = 37,558 integer temptations: already excluded at 1.7×10⁶σ /
+   2.3×10⁴σ in ALPHA-rho; nothing here revives them.
+
+--------------------------------------------------------------------------------
+7. VERDICT
+--------------------------------------------------------------------------------
+**NULL on the value; POSITIVE on structure; the totality is unavoidable.**
+
+1. FORCES θ? — Generic members of the mismatch class DO force θ (Lemma 1: the
+   first internal condition class with any traction on the modulus; the steer
+   was aimed at the right degree of freedom). But every pre-registered forced
+   member yields: an IDENTITY (M1a), an EMPTY set (M2 — continuity is anti-
+   forced by the source's own eyewall singularity), or an ORDER-UNITY,
+   transcendental θ ~ 45–90° (M3, and family F generally). None yields small θ.
+2. WHY it cannot yield small θ (the theorem worth keeping): the cone solid
+   angle carries degree −2 in ρ, so (1−cosθ)ρ² = 4/(1+cosθ) ∈ [2,4] — the
+   mismatch's inhomogeneity is O(θ²) and the similarity protection is
+   ASYMPTOTICALLY RESTORED as θ → 0. The internal lever is real but goes soft
+   exactly in the small-tilt regime where α lives. Small α is not merely
+   unreached — it is the regime the internal equation structurally cannot pin.
+3. What the mismatch DOES force (kept): (a) per-angle continuity of the one
+   substance across 2-D→3-D forces L_s = L_o/2 — the ħ/2 half-quantum IS the
+   planar/solid angle ratio 2π/4π, i.e. the factor 2 in ρ = 2/α is derived
+   geometry, not bookkeeping (convention caveat flagged); (b) marginality: the
+   internal matching's clean value is C = 2, the critical corner θ = 0, which
+   topology (χ(S²) = 2) forbids — so the vortex is forced NEAR criticality
+   with a nonzero offset it cannot itself size.
+4. THE MARRIAGE, now as one exact line:  C = 2 + 4π/W·(1+O(α²)).
+   Internal two-quanta geometry supplies the FORM and the critical point
+   (the "2" — forced, exact); the limitless totality supplies the finite
+   offset 4π/W (external, and STILL requiring W ≈ 4.72×10⁵, Δln W ≈ 4–5
+   unclosed). Star Lord's infinity is dodged only in this sense: the internal
+   structure reduces the totality's job from "produce α" to "produce the small
+   offset from an internally-forced critical point" — a regularized, near-
+   critical coupling, not a divergent naive sum. The tilt cannot come from
+   inside alone. W remains the frontier.
+
+Exact expressions for verification: ρ = 2/α = 274.0719981674; ln ρ = 5.6133908;
+W = 2πρ² = 8π/α² = 471,964.356; N = W/4π = 2/α² = 37,557.730; C − 2 at measured
+θ = 2.662639×10⁻⁵ vs 1/N = 2.662568×10⁻⁵; roots: (3/2)^{1/3} = 1.1447,
+√(3/2) = 1.2247 (< 2, empty); ρ = e (θ = 47.37°); ρ²lnρ = 4 → ρ = 2.23202
+(θ = 63.64°); e^{2π} = 535.4917 (refused).
+================================================================================

@@ -1,0 +1,76 @@
+model.run via local
+provider: anthropic
+model: claude-fable-5
+outputs: 1
+# Evaluation: Wyler's α Formula Under POAMS Interpretation
+
+## 1. NUMERICS — What the Formula Actually Gives
+
+Computing to full precision:
+
+| Quantity | Value |
+|---|---|
+| π⁵ | 306.0196847853 |
+| π⁵/(2⁴·5!) = π⁵/1920 | 0.1593852525 |
+| (π⁵/1920)^(1/4) | 0.6318471 *(exhibit's 0.63180 is slightly off)* |
+| 8π⁴ | 779.2727283 |
+| 9/8π⁴ | 0.0115492300 |
+| **α_Wyler** | **0.007297348** |
+| **1/α_Wyler** | **137.03608** |
+
+Against measurement:
+
+```
+Wyler:     1/α = 137.036082...
+CODATA:    1/α = 137.035999084(21)
+                     ^^^^^^
+           agreement:  137.0360  (~6 significant figures, 0.6 ppm)
+           divergence: begins at the 6th–7th digit
+           discrepancy: 8.3×10⁻⁵ in 1/α  ≈  4,000 experimental standard deviations
+```
+
+The exhibit's claim of "5 significant figures" is arithmetically honest (it's actually ~6). But α is measured to **12 significant figures** (relative uncertainty ~1.5×10⁻¹⁰). Wyler's formula is not "close" — it is **excluded at ~4,000σ**. 
+
+The historical trajectory is the classic numerology signature: in 1971, measurement gave 1/α = 137.03602(21) and Wyler's 137.03608 sat *inside* the error bars. As precision improved, the measured value moved away and the formula died. **π has never done this.** Every improvement in circle measurement confirms more digits of π. Every improvement in α measurement has *refuted* more digits of Wyler. By POAMS's own chosen standard — "α is to AM topology as π is to a circle" — this is disqualifying. A true self-ratio of topology cannot be wrong in the 6th digit.
+
+## 2. NUMEROLOGY TEST — Fitted, Not Forced
+
+**Mainstream assessment and why.** Wyler (C. R. Acad. Sci. 269A, 743 (1969); 271A, 186 (1971)) drew brief attention (Physics Today, Aug. 1971; Robertson, PRL 27, 1545) and was then dismantled, decisively by **Gilmore (PRL 28, 462 (1972))**, on grounds that remain fatal:
+
+- **Volumes of bounded domains are not invariant numbers.** They depend on the arbitrary normalization (the "radius") of the domain and on which measure you choose (Euclidean vs. Bergman/invariant vs. Šilov boundary measure). Rescale the domain and every "volume" rescales. The pure numbers π⁵/1920 and 8π⁴ are **convention artifacts**, and the conventions were selected after the target was known.
+- **No dynamical bridge.** There is no derivation — none — of why a coupling constant should equal (volume ratio)×(fourth root of another volume) rather than its square, its logarithm, or any other combination. The ¼ power ("interior→boundary reduction") is not a mathematical operation that produces couplings; it is a phrase.
+- **The look-elsewhere effect.** The space of expressions built from small integers, factorials, powers of π, and rational exponents is dense enough to hit any 5–6 digit target. Example: **4π³ + π² + π = 137.0363**, an entirely unrelated "geometric" expression that matches to the same precision as Wyler. Two independent formulas can't both be the true topological identity for α; therefore 6-digit agreement carries almost no evidential weight.
+- **The structural killer:** measured low-energy α includes QED vacuum-polarization contributions from the *entire charged particle spectrum* (muons, taus, quarks/hadrons), and α **runs with energy scale** (α(m_Z) ≈ 1/128). A pure geometric constant cannot know the lepton and quark masses. Any geometry-only formula must specify *which* α it derives and *why at that scale* — Wyler doesn't, and answering would introduce exactly the free parameters the claim forbids.
+
+**Verdict on this test:** curve-fitting. Matches ~6 digits then diverges; the components were tunable and were tuned.
+
+## 3. POAMS INTERPRETATION — Narration, Not Derivation
+
+Applying Discipline 1 honestly: the POAMS ontological claim — that α, being dimensionless, should be a *self-ratio* of angular-momentum structure rather than a contingent input — is coherent, is a legitimate metaphysical position, and is actually a respectable framing of a question mainstream physics also asks (Feynman's "magic number"). I do not dismiss it.
+
+But the question here is narrower: **does POAMS independently force Wyler's specific factors?** Test each:
+
+- **Why SO(4,2)?** POAMS's own structure ("three AM organization modes + time") most naturally motivates SO(3) or SO(3,1). SO(4,2) — the conformal group — enters only because *Wyler used it*. No POAMS text derives "5 complex dimensions" from AM ontology before knowing the answer.
+- **Why the Cartan type IV domain, and why the Euclidean volume normalization?** POAMS is silent. These are precisely the tunable choices Gilmore identified.
+- **Why the ¼ power?** "10 real dims → 4 real dims" would suggest 4/10 or 2/5, not 1/4, by any naive dimensional logic. The ¼ is what the target number requires.
+- **Why 9?** "3×3 Lorentz-mode coupling channels" — but why do channels multiply into the coupling linearly? Why not 3, 6, or 9²? The number 9 is retro-fitted; the story is written after the arithmetic.
+
+Decisive test for retrofit vs. derivation: **could a POAMS theorist, given only the AM ontology and no knowledge of 1/137, have written down this formula and no other?** Plainly no. Every branch point has POAMS-flavored narration available for multiple options; the one that lands on 137.036 was selected. That is post-hoc rationalization. POAMS does not derive Wyler's formula; it *decorates* it.
+
+This also confirms the prior two-model result: α is not derivable from POAMS primitives {ħ, m, m/M, c, spin-½, geometry}. The "open door" — a genuine topological invariant provably equal to 1/α without fitting — has **not** been walked through. Wyler is the fitting they warned against, and the 6th-digit failure is the empirical proof.
+
+## 4. VERDICT: **(C) NUMEROLOGY**
+
+Wyler's formula is curve-fitting: convention-dependent volumes, unmotivated exponents and factors, ~6-digit agreement followed by a 4,000σ divergence, and a historical pattern of being falsified by improved measurement. Hitching POAMS to it hands a hostile reviewer the entire framework's head on a plate: *"Their flagship 'zero-free-parameter derivation' is a rebranded 1969 result refuted by Gilmore in 1972 and excluded by CODATA at thousands of sigma."* One paragraph, framework dismissed.
+
+(The *ontology* — α as AM self-ratio — earns a B-grade "open frontier" status on its own. But the exhibit's claim as written is (C), and the exhibit is what gets reviewed.)
+
+## 5. What the Exhibit Should Say Instead
+
+Replace Section 14 with something like:
+
+> **α: The Open Frontier.** Because α is dimensionless, POAMS holds that it cannot be an arbitrary input: it must be a self-ratio of angular-momentum topology, standing to vortex structure as π stands to a circle. **This is a conjecture, not a result.** No formula currently meets the standard the π analogy demands. Wyler's 1969 expression (9/8π⁴)(π⁵/2⁴·5!)^{1/4} = 1/137.03608 is instructive as a *cautionary* case: it matches measurement to ~6 digits but diverges thereafter (measured: 137.035999084(21) — a ~4,000σ discrepancy), and its geometric factors depend on arbitrary normalization choices (Gilmore 1972). It is what a *near-miss* looks like, and it defines our acceptance criteria. A genuine POAMS derivation of α must: (1) be forced by the AM ontology *before* comparison with data — every factor uniquely motivated, no branch points; (2) match all 12 measured digits and keep matching as precision improves; (3) explain the running of α and specify the scale at which the geometric value applies. Until a candidate passes all three tests, POAMS treats α the way it treats any measured quantity: data is sovereign, and α remains the framework's most important unsolved problem.
+
+This keeps the legitimate insight, converts an exploitable overclaim into a falsifiable research program, and — crucially — demonstrates that the framework can police its own numerology, which is worth more credibility than any 6-digit coincidence.
+
+**Bottom line:** the door the two models left open remains open. Wyler is not the invariant; the 6th digit says so, and the 6th digit outranks the liturgy.

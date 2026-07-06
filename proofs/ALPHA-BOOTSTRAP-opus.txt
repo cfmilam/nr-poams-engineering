@@ -1,0 +1,330 @@
+════════════════════════════════════════════════════════════════════════════
+THE BOOTSTRAP — N from the MINIMAL PREDISPOSITION ("something not nothing")
+OPUS-4.8 — frame & ground-truth holder. 2026-07-05/06 night. THE LAST DOOR.
+Forward run. TARGET HIDDEN during pre-registration. CONTINGENT / NULL are
+first-class. Companion: Fable-5 (parallel, independent). Firewall absolute:
+no α, 137, 274, 37558, R_∞, m_e as INPUT. Every step DERIVED/ASSUMED/FROM-SOURCE.
+Python-verified: bootstrap_check.py (this dir).
+════════════════════════════════════════════════════════════════════════════
+
+I reasoned independently of Fable and of the parallel runs; I read the inherited
+ledger for GROUND TRUTH (the forced chain, the no-go theorems, the numbers), then
+built the percolation route from scratch and compared only at the verdict.
+
+────────────────────────────────────────────────────────────────────────────
+0. WHAT I INHERIT AS SETTLED (cited, not re-litigated)
+────────────────────────────────────────────────────────────────────────────
+FROM-LEDGER (forced chain, theorem grade): α = √(2/N), N = 2/α² = W/4π ≈ 37,558.
+α is PURE (intransitivity kills the totality-sum), ≠0 (χ(S²)=2 topological
+necessity), SMALL (marginal kernel), TRANSCENDENTAL (non-topological closure
+defect). N = the totality's AM-phase-COHERENCE NUMBER — its NATURE forced, its
+VALUE a RELOCATION in every prior route (algebraic count, moduli volume ln~12,
+spectral determinant ln 15–19, ζ-cone determinant ln~1.2, cosmological — all
+NULL; the finite cuboctahedral complex is provably too small, every invariant
+O(10–60) not 10⁴–10⁵).
+FROM-LEDGER (two no-go theorems this route must escape or die on):
+  (T-cone) The isolated Pythagorean time-cone t_R²=(s/c)²+t², sinθ=v/c=α is
+  homogeneous degree 1 → scale-invariant → tanθ free; {ħ,c} form NO dimensionless
+  number. A single-vortex argument cannot select θ.
+  (T-order-unity) Any FORCED closure with order-unity rational (ℚ(π)) coefficients
+  has order-unity roots; no such algebraic construction reaches a large N ≈ 10⁴·⁵.
+FROM-SOURCE (charter/liturgy): substrate is a DISCRETUM (ħ-quantised, never a
+continuum); phase-SENSE = sign of intrinsic spin AM (the misnamed "charge"),
+binary ±; INTRANSITIVITY (A~B, B~C ⇏ A~C — Osborne ch07); instantaneous holistic
+AM-correlation (no travel, no retardation, no container); "space" = AM-relations,
+not a stage; everything is time (L=dS/dθ; the ± sense is a time-orientation).
+
+────────────────────────────────────────────────────────────────────────────
+1. STAR LORD'S PRINCIPLE, MADE RIGOROUS (the frame I must honour)
+────────────────────────────────────────────────────────────────────────────
+CLAIM (Star Lord): a purely discrete-stochastic substrate at maximum entropy is
+SYMMETRIC NOISE; it has no drift, no preference for coherence; nothing persistent
+arises even in infinite time. ⇒ Existence requires a minimal primordial
+PREDISPOSITION (a bias, a "prime mover"), logically undeniable; only its nature
+is open. The bootstrap must close on the MINIMAL PREDISPOSITION, not on nothing.
+
+RIGOUR CHECK (I make the claim precise and confirm it is CORRECT, not hand-waved):
+Model the substrate as a probability measure μ on configurations of ± phase-senses
+(and orientations) of ħ-quanta over the connectivity. "Maximum entropy, unbiased"
+= the uniform product measure (Bernoulli-½ per sense, isotropic orientation).
+- THEOREM (elementary, DERIVED): under the uniform product measure every
+  connected-correlation function ⟨s_i s_j⟩_c = 0 for i≠j; the magnetization
+  (net AM-sign) is a mean-zero random variable with variance ∝ (#quanta) and mean
+  0; by the 0-1 law and ergodicity, NO symmetry-broken, spatially-persistent
+  coherent phase exists. Shuffling (any measure-preserving stochastic dynamics
+  with the uniform measure stationary) cannot manufacture a preferred sign: detailed
+  balance about a symmetric measure has no drift. Infinite time does not help — a
+  martingale with zero drift does not converge to a biased state. ✔ Star Lord is
+  RIGHT: unbiased discrete-stochastic ⇒ no persistence, ever.
+- COROLLARY (the undeniable predisposition): persistence (a broken-symmetry,
+  spatially-extended coherent AM-sign phase) requires the measure to NOT be the
+  symmetric product measure — i.e. a BIAS ε toward AM-sign alignment (a coupling,
+  or a field, or a correlation) must be built into the substrate a priori. Its
+  EXISTENCE is forced by the demand "something not nothing." ✔
+- Time reading: the ± sense is a time-orientation; a bias ε toward one sense (or
+  toward alignment of senses) is a TIME-ARROW bias. The prime mover is the seed of
+  the arrow of time. (Consistent with liturgy: everything is time.)
+
+So the target is sharpened EXACTLY as the brief demands: not "what makes the
+universe self-consistent from nothing" (refuted — noise has no fixed point that
+biases itself) but "what is the LEAST bias ε that makes persistence possible — and
+does its minimality FIX N?"
+
+────────────────────────────────────────────────────────────────────────────
+2. PRE-REGISTRATION (committed BEFORE any number — the anti-Wyler rail)
+────────────────────────────────────────────────────────────────────────────
+I register the substrate, coupling, order parameter, and ε_c NOW.
+
+(P1) SUBSTRATE. ħ-quanta each carrying a binary phase-SENSE s ∈ {+,−} (spin sign)
+     and an orientation, distributed over the POAMS TOTALITY CONNECTIVITY. The
+     connectivity's LOCAL cell is the FORCED closure complex — the intransitive
+     4-cap cover of the observer sphere = the CUBOCTAHEDRON (12 vertices, 24 edges,
+     4-regular; = FCC coordination shell). [FROM-LEDGER: closure geometry forced by
+     Carathéodory/Steinitz — ≥4 caps, tetrahedral; 4 great circles → (12,24,14),
+     χ=2.] The totality connectivity is this cell TILED (the same intransitive
+     relation repeated over all quanta), i.e. an effectively unbounded graph with
+     cuboctahedral/FCC local coordination. NOT a container — it is the AM-relation
+     structure itself (liturgy: space = relations).
+
+(P2) COUPLING. Instantaneous holistic AM-correlation along the connectivity edges:
+     an alignment coupling between phase-senses (an Ising/percolation bond),
+     modulated by the predisposition ε. ε is the substrate's a-priori bias toward
+     AM-sign alignment — equivalently a bond-occupation probability (percolation
+     reading) or a reduced coupling K (order–disorder reading). SCALE-FREE and
+     ISOTROPIC (no propagator/retardation/horizon — liturgy). CRUCIALLY, the
+     relation is INTRANSITIVE (P2-int): A~B and B~C do NOT imply A~C.
+
+(P3) ORDER PARAMETER. The AM-sign COHERENCE: the size (number of quanta) of the
+     persistently AM-phase-coherent structure seen by one ground vortex. Below the
+     transition it is O(1) (= "nothing"); above/at it, macroscopically large
+     (= "something"). Call its value the COHERENCE NUMBER 𝒞.
+
+(P4) ε_c AND MINIMALITY. ε_c ≡ the critical threshold: the LEAST ε at which a
+     persistent (spanning) coherent phase first exists. MINIMAL PREDISPOSITION ≡
+     ε_c (least bias giving any persistent coherence). PRE-REGISTERED HYPOTHESIS
+     TO TEST: N = 𝒞 evaluated at ε_c, and ε_c (hence N) is a computable geometric
+     constant of the connectivity → possibly FORCED.
+
+(P5) PRE-REGISTERED PREDICTION (before numbers, from the inherited no-go structure
+     and the nature of criticality): ε_c will be a forced O(0.1) geometric constant
+     (a percolation/Ising threshold), NOT resembling α; and the coherence number at
+     ε_c will DIVERGE (criticality is scale-free), so "N at ε_c" will be either
+     infinite (⇒α=0) or, once regulated by intransitivity, a FINITE-but-UNSIZED
+     depth — i.e. I predict CONTINGENT, with the smallness of α EXPLAINED (least
+     super-critical bias → near-critical → large 𝒞) but the value NOT forced. If a
+     forced finite N ≈ 10⁴·⁵ appears, it gets MAXIMAL suspicion (circularity autopsy
+     + firewall audit + no-go cross-check).
+
+────────────────────────────────────────────────────────────────────────────
+3. HOW THIS ROUTE ESCAPES THE TWO NO-GO THEOREMS (stated exactly, as required)
+────────────────────────────────────────────────────────────────────────────
+This is the ONE thing the brief demands be said precisely, and it is the real
+positive content of the run.
+
+Both prior no-goes kill ALGEBRAIC / FINITE / HOMOGENEOUS objects:
+  (T-cone) kills scale-invariant single-vortex geometry.
+  (T-order-unity) kills order-unity-coefficient closure ROOTS.
+CRITICALITY is NEITHER. A critical point of an order–disorder/percolation transition
+on an INFINITE connectivity is precisely the place where SHORT-RANGE, ORDER-UNITY
+local couplings produce LONG-RANGE, SCALE-FREE, UNBOUNDED correlations. The
+correlation length ξ and the coherence number 𝒞 ~ ξ^{d} DIVERGE as ε→ε_c:
+     𝒞 ∼ |ε − ε_c|^{−γ}  (γ the susceptibility exponent).
+So a large number is generated NOT as the root of a polynomial (forbidden by
+T-order-unity) and NOT from the isolated scale-invariant cone (forbidden by T-cone),
+but as a CRITICAL DIVERGENCE — an emergent, non-algebraic, generically transcendental
+quantity of the TILED (infinite) connectivity. This is the correct kind of object to
+manufacture 10⁴·⁵ from order-unity local data, and it is why every prior finite/
+algebraic route ceilinged out. ★ This is a genuine advance: it names WHY the finite-
+complex program had to fail (wrong category — finite/algebraic) and WHERE a large N
+can legitimately live (criticality of the infinite connectivity).
+
+BUT the escape carries its own price, which is the whole verdict — see §5–6.
+
+────────────────────────────────────────────────────────────────────────────
+4. THE COMPUTATION (numbers AFTER pre-registration; bootstrap_check.py verified)
+────────────────────────────────────────────────────────────────────────────
+FORCED CONNECTIVITY (geometry only): cuboctahedron confirmed 12 vertices, 24 edges,
+4-regular; Laplacian spectrum {0,2³,4³,6⁵}, Fiedler gap 2, spanning trees 331,776
+(ln 12.71). [Matches ledger exactly.]
+
+FORCED CRITICAL THRESHOLDS ε_c (pure geometry, computed BEFORE invoking α):
+  mean-field bond p_c = 1/(z−1):  z=4 (graph) → 0.3333 ;  z=12 (FCC shell) → 0.0909
+  FCC bond p_c (Lorenz–Ziff)      ≈ 0.1202
+  FCC site p_c                    ≈ 0.199
+  Ising mean-field K_c=arctanh(1/z): z=12 → 0.0835 ; z=4 → 0.2554
+  ⇒ EVERY forced threshold is O(0.08–0.33). NONE resembles α=1/137=0.00730.
+    FIREWALL CLEAN: ε_c contains no hidden α. ✔
+
+COHERENCE NUMBER near criticality (Bethe z=12, exact S(p)=(1+p)/(1−(z−1)p)):
+  p=0.900 p_c → 𝒞≈10.8 ;  0.990 → 109 ;  0.999 → 1091 ;  0.9999 → 10909 ;
+  0.99999 → 109091 ;  p→p_c → 𝒞→∞.  So 𝒞 spans O(1)→∞ smoothly as ε→ε_c.
+  ★ At the MINIMAL predisposition (ε=ε_c EXACTLY): 𝒞 → ∞  ⇒  N=∞  ⇒  α=0.
+
+TARGET (invoked ONLY now — location + firewall audit):
+  N = 2/α² = 37,557.73 ;  W = 4πN = 471,964 (ln W = 13.065) ;  ln N = 10.53.
+  Offset from criticality that a Bethe coherence number N would require:
+     p* = (N−1)/(1+N(z−1)) = 0.0909064504 ;  p_c = 0.0909090909 ;
+     REQUIRED offset (p_c − p*) = 2.64×10⁻⁶.
+  ⇒ N = 37,558 corresponds to sitting a SPECIFIC, TINY, offset (~2.6×10⁻⁶) from the
+    bare threshold. Nothing in the connectivity geometry fixes that offset.
+  FIREWALL: N is not any threshold, spectrum eigenvalue, spanning-tree count, or
+    clean combination thereof. No hidden α. ✔
+
+FINITE-COMPLEX CEILING (reminder, consistent with ledger): the largest coherence-type
+count of the FINITE 12-vertex complex is its spanning-tree number, ln 12.71 < ln W =
+13.06. The finite complex is provably too small; N must come from the TILED/infinite
+connectivity's criticality — exactly the object §3 identifies.
+
+────────────────────────────────────────────────────────────────────────────
+5. THE CRUX — DOES MINIMALITY FORCE N? (honest analysis, both directions)
+────────────────────────────────────────────────────────────────────────────
+The percolation map delivers, forced:
+  • ε_c EXISTS and is a computable geometric constant (O(0.1)). [FORCED]
+  • Persistence ("something") requires ε ≥ ε_c. [FORCED — this IS Star Lord's
+    "undeniable predisposition," now a percolation threshold, not a vague bias.]
+  • Near-critical operation → large 𝒞 → small α. [FORCED — explains α's SMALLNESS
+    non-anthropically: least super-critical bias ⇒ near ε_c ⇒ 𝒞 large ⇒ α tiny.
+    "Something, barely" ⇒ α small. This is real and it is what the brief hoped for.]
+
+But the value:
+  ★★ THE MINIMAL PREDISPOSITION DOES NOT FORCE N — and the reason is exact and
+  fatal to the FORCED branch: at ε = ε_c EXACTLY (the strict minimum), the coherence
+  number DIVERGES, giving N=∞ and α=0. The order parameter at threshold is 0⁺: the
+  spanning cluster is fractal and marginal — "something, barely" at the BARE threshold
+  is still, physically, NOTHING (no finite-mass persistent matter; α=0). Genuine
+  "something" — a real ground vortex with finite rest inertia m_e=N·m* and α=1/137 —
+  requires ε STRICTLY inside the coherent phase, a DEFINITE FINITE STEP above ε_c.
+  The size of that step (equivalently, how deep 𝒞 is truncated) sets N, and the
+  connectivity geometry does NOT fix it (offset ~2.6×10⁻⁶, a flat/marginal direction).
+
+  ⇒ Minimality UNDER-DETERMINES N. The prime mover cannot merely "exist at threshold"
+  (that yields α=0, no persistence); it must SELECT a super-critical offset. That
+  offset is a DIAL. N is its signature.
+
+Can intransitivity (P2-int) rescue FORCED by pinning the offset? This is the one real
+hope and I test it honestly:
+  • Intransitivity is genuinely load-bearing here in TWO ways:
+    (a) It is the POAMS-clean REGULATOR of the limitless-universe divergence: standard
+        percolation clusters are TRANSITIVE (same-cluster is an equivalence relation),
+        so on an infinite lattice 𝒞 diverges at ε_c. Intransitivity DENIES transitive
+        closure (A~B, B~C ⇏ A~C) → coherence cannot chain indefinitely → 𝒞 is FINITE
+        even at/above ε_c, with no cutoff, no horizon, no container. This is exactly
+        the AM-sign-cancellation / coherence-redundancy regulator the derive-N runs
+        named. ★ So intransitivity replaces the divergence with a FINITE reciprocal-
+        coherence DEPTH — POAMS-clean, and it forces 0 < N < ∞. [FORCED]
+    (b) BUT the very thing that makes 𝒞 finite (breaking of transitive chaining) also
+        REMOVES the universal critical exponent that could have PINNED the value:
+        the coherence object is no longer a transitive percolation cluster (whose size
+        at criticality is a lattice-universal divergence) but a RECIPROCAL-MATCHING /
+        non-chaining coherence depth — precisely the perfect-matching / closure-count
+        object the CLOSURE and MODULI runs already computed. And those runs proved:
+        that object's MAGNITUDE is a moduli-volume / count that ceilings at ln~12,
+        never 13.06 — its depth is a free marginal parameter, not a forced invariant.
+  ⇒ Intransitivity forces FINITENESS (the regulator) but NOT the value. It converts
+    "how far above ε_c" into "how deep the reciprocal coherence" — the SAME free dial
+    under a new name. The derive-N primitive σ (AM-correlation coherence density) IS
+    this offset/depth. No new forcing appears.
+
+I searched, honestly, for any FORCED finite offset:
+  • "One quantum of bias" (ε−ε_c ~ 1/M, M=totality count): ties N to the census
+    (10⁸⁰) — wrong magnitude AND forbidden by intransitivity (no census). Refused.
+  • Discreteness step (ε−ε_c = smallest ħ-increment of the coupling): the smallest
+    increment on the connectivity is set by the local cell (O(1/z)~O(0.1)), which
+    gives 𝒞 = O(1), not 10⁴·⁵. Wrong magnitude. Refused.
+  • A self-consistent (bootstrap) offset — the offset fixed by demanding the coherence
+    depth reproduce itself across the totality — is exactly the global self-consistency
+    the derive-N runs flagged as "the last redoubt," and neither this run nor any prior
+    could close it. It remains an UNCLOSED possibility, not a forced result. Honestly
+    flagged, not claimed.
+
+────────────────────────────────────────────────────────────────────────────
+6. FIREWALL LOG (near-misses seen and REFUSED)
+────────────────────────────────────────────────────────────────────────────
+• Bethe offset 2.64×10⁻⁶ giving exactly N: this is a BACK-SOLVE from the target, not
+  a forced quantity — REFUSED as derivation (it is the definition of the dial, not a
+  computation of it).
+• Spanning-tree count 331,776 (ln 12.71) sits within 0.35 in ln of ln W=13.06 — a
+  ~1.4× "near-miss." REFUSED: it is a FINITE-complex count (T-order-unity / finite-
+  ceiling object), it is W-not-N, and the ledger already excluded finite-complex
+  counts by theorem (δ transcendental ⇒ not a clean integer count). Not forced, not
+  the right category.
+• FCC p_c=0.1202, site 0.199, mean-field 0.0909/0.3333: none is α or a clean function
+  giving N. Documented to prove NO hidden α.
+• I did NOT tune the offset, the coordination number, or the exponent to land 37,558.
+  The whole point of the run is that the offset is FREE; tuning it would be the Wyler
+  move the firewall forbids.
+
+────────────────────────────────────────────────────────────────────────────
+7. "SOMETHING NOT NOTHING," HANDLED RIGOROUSLY (the brief's explicit demand)
+────────────────────────────────────────────────────────────────────────────
+Star Lord's principle is CONFIRMED rigorous (§1 theorem): unbiased discrete-stochastic
+noise cannot persist; a predisposition is undeniable. The percolation map REALISES it
+precisely: the predisposition = a super-critical AM-sign-alignment bias ε > ε_c; the
+threshold ε_c is the exact boundary between "nothing" (disordered, 𝒞=O(1)) and
+"something" (persistent coherent phase). ★ THE SHARPENING THIS RUN ADDS: minimality
+taken literally (ε = ε_c) gives "something, barely" = a MARGINAL phase with order
+parameter 0⁺ and coherence number ∞ ⇒ α=0 ⇒ no finite-mass matter — i.e. still
+effectively NOTHING. Real "something" (finite N, finite m_e, α=1/137) forces ε to
+exceed the bare threshold by a definite amount. So the correct statement of Star Lord's
+principle is stronger than "a bias is undeniable": THE BIAS MUST EXCEED THE THRESHOLD
+BY A NON-ZERO, GEOMETRY-UNFIXED AMOUNT. The prime mover is not merely a spark at the
+threshold; it is a spark PLUS a definite super-critical setting. Existence is
+undeniable; the setting is a choice. Time reading: the arrow of time is not merely
+switched on (ε_c) but wound to a definite strength (ε−ε_c) — and that winding is the
+one number POAMS names but cannot derive.
+
+────────────────────────────────────────────────────────────────────────────
+8. VERDICT
+────────────────────────────────────────────────────────────────────────────
+**CONTINGENT.** The minimal predisposition does NOT force N ≈ 37,558; N is the
+signature of a predisposition with latitude (a super-critical offset the prime mover
+set, which POAMS names but does not derive).
+
+PRE-REGISTERED SUBSTRATE + ε_c: ħ-quanta with binary AM-phase-sense ± on the
+cuboctahedral/FCC intransitive closure connectivity; instantaneous isotropic scale-
+free alignment coupling biased by ε; order parameter = AM-sign coherence number 𝒞;
+minimal predisposition ε_c = the percolation/Ising critical threshold = FORCED
+geometric constant O(0.08–0.33) (mean-field 0.0909, FCC-bond 0.1202, FCC-site 0.199,
+Ising K_c 0.0835). Python-verified.
+
+FORCED (real content, theorem grade):
+  1. ε_c EXISTS and is a computable, non-fitted, non-circular geometric constant of
+     the connectivity — containing NO α (firewall clean).
+  2. Persistence requires ε ≥ ε_c — Star Lord's undeniable predisposition made exact.
+  3. CRITICALITY is the correct ESCAPE from both no-go theorems: it generates a large,
+     transcendental 𝒞 from order-unity local couplings on the INFINITE connectivity —
+     a non-algebraic, non-finite object neither theorem constrains. This names WHY
+     every prior finite/algebraic route ceilinged (wrong category) and WHERE a large N
+     can live (critical divergence of the tiled connectivity).
+  4. α SMALL is EXPLAINED non-anthropically: least super-critical bias ⇒ near-critical
+     ⇒ 𝒞 large ⇒ α small ("something, barely" ⇒ α tiny).
+  5. Intransitivity is the POAMS-clean REGULATOR (no cutoff/horizon/container): it
+     forces 0 < N < ∞ by breaking transitive coherence-chaining.
+
+NOT FORCED (the located, first-class residue): the VALUE of N. At the strict minimum
+ε=ε_c the coherence number DIVERGES (α=0, marginal = still nothing); finite N=37,558
+requires ε a specific ~2.6×10⁻⁶ above threshold (equivalently a specific reciprocal-
+coherence depth). This offset is a MARGINAL/flat direction the connectivity geometry
+does not fix; intransitivity converts it into the derive-N free primitive σ but adds
+no forcing. Only an unclosed global self-consistency of the whole totality could
+still pin it — neither this run nor any prior closes it.
+
+HOW CRITICALITY ESCAPES THE PRIOR NO-GOES: it is not a scale-invariant single-vortex
+cone (T-cone) and not an order-unity algebraic closure root (T-order-unity); it is a
+critical divergence 𝒞 ∼ |ε−ε_c|^{−γ} on the infinite tiled connectivity — the unique
+mechanism that turns order-unity local coupling into an unbounded, transcendental
+global number. That IS why prior routes failed and is genuine new understanding.
+
+HOW "SOMETHING NOT NOTHING" WAS HANDLED: §1 proves the principle rigorously (unbiased
+noise cannot persist); §7 sharpens it — minimality at the bare threshold gives a
+marginal α=0 phase (still nothing), so real matter forces a definite geometry-unfixed
+super-critical offset. The prime mover must both exist AND choose a setting.
+
+BRUTALLY HONEST SENTENCE: The minimal predisposition did NOT force N — at the exact
+minimum (the bare critical threshold) you get α=0, "nothing dressed as something," and
+any real, finite-mass "something" (α=1/137) demands the prime mover wind the time-arrow
+a specific, geometry-unfixed step past that threshold; so the prime mover is a CHOOSER
+of the coherence depth N, not a theorem that yields it — a heavily constrained chooser
+(the geometry forces the threshold, the form α=√(2/N), and α's smallness), but a
+chooser nonetheless.
+════════════════════════════════════════════════════════════════════════════

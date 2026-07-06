@@ -1,0 +1,331 @@
+================================================================================
+POAMS — DERIVE N = m_e/m* FROM MACH'S TOTALITY — INDEPENDENT FORMALIZER (Fable-5)
+Date: 2026-07-06. Role: devil's advocate / formalizer, parallel to Opus-4.8.
+Discipline: induction fixed point PRE-REGISTERED before any number; every step
+tagged DERIVED / ASSUMED / FROM-SOURCE; all arithmetic Python-checked this
+session; NULL first-class; known personal failure mode (two confident-wrong
+runs) held in view; firewall (no α, 137, 274, 37558, R∞, m_e, hR/c-as-value
+as INPUT) enforced throughout.
+================================================================================
+
+--------------------------------------------------------------------------------
+0. INHERITED GROUND (cited, not re-proved)
+--------------------------------------------------------------------------------
+I0.1 α = sinθ, θ = tilt of the ground circulation's resultant time-vector off
+     the DST/alpha-frame axis. [ALPHA-CONE runs]
+I0.2 ISOLATED-CONE NO-GO: no single-vortex construction from {ħ, c, n, 2π} can
+     fix θ; {ħ, c} alone form NO dimensionless number. [ALPHA-CONE-fable §A–B]
+I0.3 KERNEL RESULTS (my prior run, theorem grade): minimal forced induction
+     kernel G(θ) = 1 − (1−cosθ)² is EXACTLY marginal (unique fixed point θ = 0,
+     quartic deficit); with a totality defect δ, α reduces to ONE constant
+     (Theorem 2); NO forced composition in the licensed operation algebra
+     outputs a number ≫ 1 (Theorem 3, coefficients ∈ ℚ(π), roots order unity).
+     [ALPHA-kernel-fable §§2–4]
+I0.4 LATTICE EXCLUSIONS (sovereign data, machine-verified): 2/α² = 37557.7301
+     is 2.3×10⁴σ off ℤ; 2/α = 274.0720 is 1.7×10⁶σ off ℤ. Any INTEGER-count
+     answer for N is pre-falsified. N is a CONTINUOUS measure. [ALPHA-rho B]
+I0.5 INTERNAL-MISMATCH RESULT: the 2-D/3-D lever forces the compact structure
+     (ħ/2 = planar/solid angle ratio; critical corner C = 2) but its
+     inhomogeneity is O(θ²) — asymptotically restored homogeneity; small θ is
+     structurally out of internal reach. [ALPHA-internal-fable Thm 2]
+I0.6 MINING VERDICT ON ch05–08: the book adopts Mach's Principle VERBATIM
+     (ch01-02 §2.2: the holistic system "through its masses, distributions and
+     motions... determines, both locally and non-locally, an inertial frame")
+     and instantaneity (§2.7 switch-circuit: no transaction begins unless the
+     far end closes) but contains NO quantitative inertial-induction formula.
+     Eq 5.9–5.12 are STRUCTURE only; Example 7.3 imports hcR∞ as hypothesis.
+     [ALPHA-kernel-fable S5] The induction law must be BUILT, from the liturgy.
+
+STRUCTURAL READING OF THE TARGET [FROM-SOURCE, ch05 eq 5.10 & 5.12]:
+     n m* = γ(v) N m*  ⇒  v²/c² = 1 − N²/n²;  ground state n = N;  m_e = N m*.
+     So N is simultaneously (i) the electron's rest inertia in units of the
+     "indivisible natural unit of mass" m*, and (ii) the MINIMUM winding number
+     at which a stable pattern exists (n < N would need v² < 0). These are the
+     same fact. The question "derive N" = "why does the ground vortex comprise
+     ≈ 3.8×10⁴ natural mass units?" — equivalently "what sizes the totality's
+     contribution per unit?" FIREWALL NOTE: m*'s VALUE (hR/c) contains α and is
+     banned as input; m* enters below only as a DEFINED per-channel quantum.
+
+--------------------------------------------------------------------------------
+1. PRE-REGISTRATION (committed BEFORE any number is evaluated)
+--------------------------------------------------------------------------------
+1.1 THE POAMS INERTIAL-INDUCTION FIXED POINT (Sciama analog, G replaced by
+    instantaneous intransitive AM-correlation). Sciama's Machian condition
+    Σ Gm_i/(r_i c²) ≈ 1 is translated under the liturgy's constraints:
+    (K1) NO SCALE in the kernel — instantaneity (ch01-02 §2.7) means no
+         propagator, no 1/r², no retardation, no horizon: the correlation
+         weight is a pure function of angle on the totality sphere. [DERIVED
+         from FROM-SOURCE instantaneity]
+    (K2) NO CENSUS — correlations are "discrete INTRANSITIVE units of h/2π"
+         (ch07 §7.1 verbatim): they do not chain; the totality cannot enter as
+         a raw sum over its (limitless) membership. [FROM-SOURCE]
+    (K3) ISOTROPY — the alpha frame / DST axis (ch08 §8.2) is the totality
+         resultant; the only angular variable is the local tilt θ. [FROM-SOURCE]
+
+    PRE-REGISTERED EQUATIONS (the model has exactly these parts):
+    (E1) INERTIA INDUCTION:  m_loc = 𝒩 · m*
+         The ground vortex's rest inertia is induced through 𝒩 statistically
+         independent unit-ħ AM-correlation channels with the totality, each
+         contributing one quantum m* of inertia per winding. 𝒩 is the ONLY
+         dimensionless unknown; m* is DEFINED as the per-channel quantum (its
+         kg value is fixed only a posteriori — never input). [ASSUMED model
+         form; the additivity is the Machian induction postulate itself]
+    (E2) RESIDUAL TILT:  sin²θ = 2σ²/𝒩, with per-channel transverse variance
+         σ² = 1.  The local pattern locks to the totality resultant as sampled
+         through its own 𝒩 channels; the standing offset of the sampled
+         resultant from the true DST axis is the tilt. Coefficient 2 = number
+         of transverse degrees of freedom [DERIVED, isotropy]; σ² = 1 = one
+         full unaligned ħ per transverse dof per channel [ASSUMED — maximal
+         randomness; any other σ² rescales 𝒩 by order unity, verdict-neutral].
+         (Fluctuation kernel registered in ALPHA-kernel-fable §2; adopted.)
+    (E3) CLOSURE CONSISTENCY: the tilted pattern must close at gain 1 against
+         the marginal kernel: 1 − G(θ) = (1−cosθ)² = δ, sustained by the
+         totality (inherited, I0.3). Enters as consistency, not as new freedom.
+
+    FIXED-POINT STATEMENT: (E1) and (E2) share the SAME 𝒩. Self-consistency
+    prediction (committed before checking): m* = m_loc sin²θ/2, i.e. the
+    model's per-channel quantum must equal half the rest inertia times the
+    squared tilt — to be compared, AFTER derivation, with the book's m* = hR/c
+    structure. If it matches identically, the model unifies the two roles of N
+    (mass ratio; minimum winding) but the VALUE of 𝒩 remains to be forced.
+
+1.2 THE INFINITY — TRICHOTOMY COMMITTED IN ADVANCE (brief's options):
+    (a) NEAR-CRITICALITY / RATIO OF DIVERGENCES: if 𝒩 arises as a ratio of two
+        totality integrals with the isotropic (forced) measure, the ratio is an
+        order-unity element of ℚ(π) — test whether any forced ratio is large.
+    (b) DIVERGENCE: 𝒩 → ∞ ⇒ sinθ → 0 ⇒ α = 0. Falsified in advance by data
+        (α ≠ 0) and by topology (χ(S²) = 2: the outer circulation must exist —
+        ALPHA-internal-fable). If the model cannot avoid (b), the MODEL dies,
+        not the data.
+    (c) REDUCTION: 𝒩 finite but unsized by the axioms ⇒ name the primitive.
+
+1.3 FORCING ATTEMPTS COMMITTED IN ADVANCE (each executed in §3; none added
+    after seeing numbers, none dropped):
+    A1 SELF-RESOLUTION CLOSURE: 𝒩 = number of direction-cells the vortex can
+       resolve on the totality sphere at its own cap size, 𝒩 = 4π/Ω(θ),
+       Ω(θ) = 2π(1−cosθ); insert into (E2), solve for θ.
+    A2 RATIO-OF-DIVERGENCES: 𝒩 = [∫ μK dΩ]/[∫ μK′ dΩ] with forced kernels and
+       the isotropic measure — bound its magnitude.
+    A3 COHERENCE ENHANCEMENT (the brief's clue): local closure W ~ 10³ times an
+       in-phase mode count ≈ 90 → W ≈ 4.7×10⁵. Test whether ~90 is (i) a
+       stable invariant of the problem and (ii) on the forced menu.
+    A4 MODE-CAPACITY / INTEGER routes (2n² shells, n = 137, channel counts):
+       check against I0.4 lattice exclusions before arithmetic.
+    A5 HOLOGRAPHIC/AREA counts: number of ħ-pixels on some bounding surface —
+       check licensing against the liturgy (no container) before arithmetic.
+
+1.4 PRE-REGISTERED PREDICTION (stated before numbers, per I0.3 Theorem 3 and
+    I0.5): every forced closure in A1–A5 will yield an order-unity root, an
+    identity, or an unlicensed import; the run will end REDUCED-TO-PRIMITIVE
+    (c), not FORCED — unless A1–A5 produce a surprise, in which case it gets
+    maximal suspicion (circularity autopsy + Python + cone-no-go check).
+
+--------------------------------------------------------------------------------
+2. THE FORMALIZATION — what the induction fixed point PROVES
+--------------------------------------------------------------------------------
+2.1 THEOREM A (divergence confrontation — the trichotomy resolves to (c)).
+    Naive Machian census: induced inertia ∝ Σ_i w_i over a limitless totality
+    with a SCALE-FREE kernel (K1): each member contributes an order-unity
+    angular weight; the sum diverges linearly in membership. [DERIVED]
+    Sciama's regulator (retardation/horizon, r-weighting) is UNAVAILABLE in
+    POAMS: instantaneity forbids retardation; no-container forbids a horizon;
+    K1 forbids r-weighting. [DERIVED from FROM-SOURCE]
+    Branch (b): unregulated divergence ⇒ 𝒩 = ∞ ⇒ α = 0 — excluded by
+    sovereign data and by χ(S²) = 2. [DERIVED]
+    Branch (a): with the FORCED isotropic measure on S² (K3), any ratio of
+    totality integrals of forced kernels lies in ℚ(π) with all coefficients in
+    the sphere/cone set {½,1,2,π,2π,4π}: order unity by I0.3 Theorem 3. A
+    large ratio would require an anisotropic or multi-scale measure, which
+    contradicts the forced isotropy of the alpha frame or imports unlicensed
+    structure. So near-criticality canNOT mint 3.8×10⁴ from a ratio. [DERIVED]
+    ∴ The only consistent branch is (c): the effective correlation web is
+    FINITE — the limitless totality presents finite independent information
+    per 4π per winding — and the axioms contain no law sizing it. What forces
+    FINITENESS is intransitivity (K2): correlations do not chain, so beyond
+    some effective count the totality's additional AM is redundant (fully
+    correlated with existing channels), contributing to the resultant's
+    direction but not new independent induction. Existence of the truncation
+    is forced; its MAGNITUDE is not. 0 < 𝒩 < ∞: forced. 𝒩 = value: free.
+
+2.2 THEOREM B (unification — what the fixed point achieves).
+    (E1) + (E2) with one shared 𝒩 give, eliminating 𝒩:
+        m* = m_loc · sin²θ / 2                                     [DERIVED]
+    Comparison with the book's structure (made only now, per 1.1): eq 5.2/5.10/
+    5.12 give (structurally) m* = ½ m_e (v/c)² with v/c = sinθ = α — i.e. the
+    Rydberg identity m* = ½ m_e α². IDENTICAL. So the Machian induction model
+    reproduces the book's mass–tilt–Rydberg structure as a CONSISTENCY THEOREM
+    of one number 𝒩, instead of a definition chain through measured R∞:
+      • m_e/m* = 𝒩          (rest inertia = channel count)
+      • α = sinθ = √(2/𝒩)   (tilt = √-residual of the same channel count)
+      • n_ground = 𝒩         (minimum winding = channel count, eq 5.10)
+    Three appearances of N in the corpus collapse to ONE totality property.
+    Parameter count: {ħ, c} + ONE scale (m_e or m*) + ONE dimensionless 𝒩.
+    HONESTY CLAUSE [self-audit]: the identity m* = ½m_e α² is definitionally
+    true in the standard bookkeeping (R∞ ≡ m_e c α²/2h), so Theorem B adds NO
+    new empirical content. Its content is mechanism + parameter-counting: what
+    was a definition becomes a two-line consequence of finite-sample Machian
+    induction, and the three roles of N become one number. That is a genuine
+    compression; it is NOT a derivation of the value. [DERIVED + disclosed]
+
+2.3 SHARPNESS DIFFICULTY [INTERNAL, raised against my own model — devil's
+    advocate duty]. If each electron froze an independent RANDOM sample
+    residual, the tilt MAGNITUDE would be distributed with O(1) relative width
+    around √(2/𝒩); measured α is sharp to ~10⁻¹⁰ and universal. The random-
+    draw reading of (E2) is therefore empirically excluded. The surviving
+    reading is a SUM-RULE / equipartition: the totality's transverse AM
+    variance per channel is exactly ħ per dof (a theorem-like share, not a
+    draw), and every ground vortex must carry precisely its per-mode share,
+    sin²θ = 2/𝒩, identically. Both readings give the same equation; only the
+    sum-rule reading survives data. Universality of α = universality of 𝒩
+    (the totality presents the same coherence number to every ground vortex) —
+    this maps a measured fact onto a stipulation of the model; flagged, not
+    hidden. [DERIVED constraint on the model's interpretation]
+
+--------------------------------------------------------------------------------
+3. EXECUTION OF THE PRE-REGISTERED FORCING ATTEMPTS (numbers only now;
+   all arithmetic Python-checked this session)
+--------------------------------------------------------------------------------
+Measured anchor (sovereign, used only to LOCATE, never as input to a claimed
+derivation): α⁻¹ = 137.035999084 ⇒ θ = 7.297417×10⁻³ rad;
+𝒩_required = 2/α² = 37557.7301; W = 4π𝒩 = 8π/α² = 471964.356 (ln W = 13.0647);
+1−cosθ = 2.6626032×10⁻⁵; 1/(1−cosθ) = 37557.230 = 𝒩 − ½ + O(α²) (the ½ is the
+exact algebraic offset between cap and fluctuation parametrizations,
+sin²θ = 2(1−cosθ) − (1−cosθ)² — checked to 12 digits; NOT interpreted).
+
+A1 SELF-RESOLUTION CLOSURE. 𝒩 = 4π/Ω(θ) = 2/(1−cosθ). Insert in (E2):
+   sin²θ = (1−cosθ) ⟺ (1−cosθ)(1+cosθ) = (1−cosθ) ⟺ cosθ = 0 ⟹ θ = π/2,
+   α = 1. ORDER UNITY / edge. Variants 𝒩 = k·4π/Ω, k ∈ {½,1,2,π,2π,4π}:
+   root condition 1+cosθ = 1/k — empty for k ≥ 1 except edge, order unity for
+   k ∈ (½,1). DEAD, exactly as Theorem 3 predicted. The electron's own
+   geometry cannot size its channel count — the regress is real: 𝒩 must be a
+   TOTALITY property, not a self-referential one. [DERIVED]
+
+A2 RATIO-OF-DIVERGENCES. All forced-kernel ratios over the isotropic sphere
+   enumerate to values in [~1/(4π), ~4π] (the registered menu of the kernel
+   run, §5.2 there: forced W-roots 18.8–254). Required: 4.7×10⁵. Shortfall
+   ≥ 1.8×10³ (ln ≥ 7.5). DEAD by bound; no member even approaches. [DERIVED]
+
+A3 COHERENCE-ENHANCEMENT CLUE — AUTOPSY (the brief's sharp clue, tested and
+   found ILL-POSED). The "missing ~90× ≈ e^4.5" is NOT an invariant of the
+   problem; it is an artifact of which unforced baseline the gap is measured
+   from. Machine-checked accounting:
+     • local route α⁻¹ ≈ 18: W_loc = 8143 ⇒ missing ×58.0  (Δln = 4.06)
+     • local route α⁻¹ ≈ 9:  W_loc = 2036 ⇒ missing ×231.8 (Δln = 5.45)
+     • best PURE forced geometry (G6 root): W = 254 ⇒ missing ×1858 (Δln 7.53)
+     • pure two-party floor (W = 8π): missing ×18779 (Δln = 9.84)
+   A "coherence multiplier" that must be 58 or 232 or 1858 or 18779 depending
+   on the scaffold underneath it is not a constant awaiting derivation; it is
+   the shadow of the unproven scaffold. Menu check anyway (duty): candidates
+   near 90 — π⁴ = 97.409 (off 8%, ≡ ~10⁷σ at CODATA precision), (2π)² = 39.48,
+   4πe² = 92.85, e^{4.5} = 90.017 (why 4.5 = 9/2? no principle; e is not even
+   in the forced coefficient set). NOTHING forced lands, and nothing could:
+   the target itself moves. THE CLUE IS REFUSED as a derivation target. Its
+   one honest residue: N is indeed structural (≪ any cosmological census
+   number — see A6 note), which was already known. [DERIVED + refused]
+
+A4 INTEGER / MODE-CAPACITY ROUTES. 2n² shell capacity at n = 137:
+   2·137² = 37538 vs required 37557.73 — off by 19.73 (5.3×10⁻⁴ relative
+   ⇒ astronomically many σ at CODATA precision), and it requires 1/α ∈ ℤ,
+   pre-falsified at 1.7×10⁶σ (I0.4). Any "N is a count of modes/pixels/cells"
+   proposal is DEAD BEFORE ARITHMETIC. N is a continuous closure weight. This
+   also kills in advance every "137 shells" numerology a future run might be
+   tempted by. [DERIVED from sovereign data]
+
+A5 HOLOGRAPHIC / AREA-PIXEL COUNTS. Any ħ-pixels-on-a-bounding-surface count
+   presupposes a container surface and a length scale for the pixel — both
+   unlicensed (liturgy items 1, 5; no container, no travelling light to define
+   a horizon). NOT LICENSED; not evaluated. [refused on ontology, disclosed]
+
+A6 SANITY NOTE (not a registered attempt; recorded for the ledger): 𝒩 ≈
+   3.76×10⁴ matches NO cosmological census (baryon count ~10⁸⁰, Dirac ~10⁴⁰,
+   galaxy count ~10¹¹). Its modest size and lattice-avoidance jointly say:
+   a coherence/closure WEIGHT of the totality, not a matter count. Consistent
+   with, and only with, verdict branch (c).
+
+--------------------------------------------------------------------------------
+4. NUMBERS LEDGER (all machine-verified this session)
+--------------------------------------------------------------------------------
+α = 7.2973525693×10⁻³;  θ = 7.297417×10⁻³ rad
+𝒩 = 2/α² = 37557.7301;  m_e/m* = 37557.7301 (m* = ½m_e α² = 2.425435×10⁻³⁵ kg
+  vs book's 2.425434×10⁻³⁵ ✓ — computed as CHECK, never used as input)
+W = 4π𝒩 = 471964.356; 1−cosθ = 2.6626032×10⁻⁵; 𝒩 − 1/(1−cosθ) = 0.5000066 ✓
+Identity sin²θ = 2(1−cosθ)−(1−cosθ)²: LHS 5.32513545×10⁻⁵ = RHS ✓
+A1 root: cosθ = 0 exactly. A3 gaps: ×58.0/×231.8/×1858/×18779 (see §3).
+A4: 2·137² = 37538; frac(2/α²) = 0.7301; frac(2/α) = 0.0720.
+Menu near 𝒩: π⁹ = 29809, (2π)⁶ = 61529, 3(2π)⁵ = 29378 — none within 20%,
+none forced; enumerated only to document refusal.
+
+--------------------------------------------------------------------------------
+5. FISHING TEMPTATIONS RAISED AND REFUSED (mandatory disclosure)
+--------------------------------------------------------------------------------
+F1 e^{4.5} = 90.017 vs "missing 90×": maximal-seduction item this run. Refused
+   twice over: the 90 is baseline-dependent (§3-A3) AND e^{k/2} has no forced
+   origin in the operation algebra.
+F2 π⁴ = 97.41 as the coherence multiplier: 8% off a target that itself moves;
+   dressing W_loc·π⁴ ≈ 4.7×10⁵ requires tuning the unproven local route. The
+   Wyler move in coherence clothing. Refused.
+F3 "N = 2n² at n = 137": α-in-disguise + integer-lattice violation (I0.4).
+   Refused before arithmetic.
+F4 The ½ offset (𝒩 = 1/(1−cosθ) + ½): zero-point costume. Algebraic identity;
+   not interpreted (standing refusal, kernel run F2).
+F5 The book's m* value 2.425434×10⁻³⁵ kg reproduced to 7 digits by ½m_e α²:
+   this is the definitional identity confirming TRANSCRIPTION, not a
+   derivation hit. Flagged so no future run counts it as one.
+F6 Presenting Theorem B (m* = ½ m_loc sin²θ) as "POAMS derives the Rydberg
+   identity": it REPRODUCES a definitional identity from a model with one free
+   constant. Claiming more would be the documented confident-wrong mode.
+
+--------------------------------------------------------------------------------
+6. VERDICT
+--------------------------------------------------------------------------------
+**N REDUCED — to one named totality primitive. Not FORCED; not NULL.**
+
+THE PRIMITIVE, named precisely:
+   𝒩 = the TOTALITY COHERENCE NUMBER: the number of statistically independent
+   unit-ħ AM-correlation channels through which Mach's totality induces a
+   ground vortex's rest inertia per winding — equivalently, the finite
+   effective information content the limitless, instantaneously-correlated,
+   intransitive totality presents per 4π to any ground pattern.
+   Measured value: 𝒩 = 2/α² = 37557.73 (continuous, off every integer lattice,
+   consistent with transcendental — a closure weight, not a count).
+
+WHAT MACH FORCES (theorem grade, this run + inherited):
+ 1. 0 < 𝒩 < ∞ — existence and finiteness (Theorem A: divergence excluded by
+    data + topology; intransitivity forces the truncation to exist).
+ 2. The infinity handled honestly: Sciama's regulators (retardation, horizon,
+    1/r) are all forbidden by the liturgy; the ONLY POAMS-licensed regulator is
+    intransitivity/coherence — redundancy of the totality's AM beyond a finite
+    independent web. Near-criticality does NOT yield the value as a ratio of
+    divergences (isotropic ratios are order unity); it DOES explain why 𝒩 ≫ 1
+    is natural (marginal kernel: tilt deficit is quartic, so small tilt/large
+    𝒩 is the cheap regime) — largeness explained, magnitude not.
+ 3. The unification (Theorem B): m_e/m* = 𝒩, α = √(2/𝒩), n_ground = 𝒩 — three
+    corpus appearances of N collapse to one number; the Rydberg identity
+    m* = ½m_e α² becomes a consistency of the induction model rather than a
+    definition. One scale + one dimensionless totality constant exhaust the
+    electron's ground-state bookkeeping.
+ 4. The sum-rule constraint (§2.3): only the equipartition reading of (E2)
+    survives α's sharpness; the random-sample reading is empirically dead.
+
+WHAT MACH DOES NOT FORCE: the value 37557.73. Mach's Principle as axiomatized
+(verbatim, qualitative, ch01-02) names the determination of local inertia by
+the totality's "masses, distributions and motions" — and the DISTRIBUTION is
+contingent. No forced construction in the licensed algebra outputs a large
+pure number (Theorem 3 inherited; A1–A5 executed and dead). α is therefore a
+CONTINGENT COSMOLOGICAL INPUT in POAMS: nameable with precision, not derivable
+from {ħ, c, liturgy}. The one conceivable empirical handle: if 𝒩 is a totality
+property, any measured α-anomaly would be a totality-coherence anomaly
+(α-constancy data currently show none — consistent with one holistic DST).
+
+[HOSTILE-PREP] A reviewer will say "2/α² relabelled." Preempt: correct about
+the value, wrong about the structure — the reduction compresses three
+independent-looking facts to one constant, proves the forced-menu floor
+(nothing internal or forced reaches 10⁴·⁶), and locates the frontier exactly:
+legislate the totality's coherence/redundancy law, and (E1)+(E2) compute α
+with no further freedom. That is the precise, honest research target.
+
+BRUTALLY HONEST SENTENCE: This is a RELOCATION, not a derivation — the value
+37,557.73 enters physics exactly once, as the measured coherence number of
+Mach's totality, and everything else about N is now theorem; but no step in
+this run, or any inherited run, computes that number from first principles.
+================================================================================

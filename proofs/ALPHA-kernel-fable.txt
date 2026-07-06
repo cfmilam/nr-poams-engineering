@@ -1,0 +1,283 @@
+================================================================================
+POAMS α — INDUCTION KERNEL / TOTALITY-CLOSURE — INDEPENDENT FORMALIZER (Fable-5)
+Date: 2026-07-05 night. Role: devil's advocate / formalizer, parallel to Opus-4.8.
+Discipline: kernel equation PRE-REGISTERED before any number; every step tagged
+DERIVED / ASSUMED / FROM-SOURCE; all arithmetic Python-checked; NULL first-class.
+Known personal failure mode (two confident-wrong runs) held in view throughout.
+================================================================================
+
+--------------------------------------------------------------------------------
+0. INHERITED GROUND (not re-proved; cited)
+--------------------------------------------------------------------------------
+I0.1  α = sin θ, θ = tilt of the ground circulation's resultant time-vector off
+      the proper-time axis on the Pythagorean cone. [alpha-cone runs, both models]
+I0.2  ISOLATED-CONE NO-GO (my lemma, standing): the right-triangle similarity
+      group acts transitively on θ ∈ (0,π/2); closure ∮dφ = 2πn and ħ-quantization
+      break SCALE and commute with TILT. No isolated/single-vortex argument can
+      fix θ. [ALPHA-CONE-fable §A–B; re-proved in composition variables,
+      ALPHA-rho-vortex-fable A.2]
+I0.3  Machian condition is constitutively multi-vortex; its single-vortex
+      restriction is an oxymoron. [ALPHA-rho-vortex-fable C.1]
+I0.4  Integer-lattice exclusions (sovereign data): 2/α² = 37557.7301 is
+      2.3×10⁴σ off ℤ; 2/α = 274.0720 is 1.7×10⁶σ off ℤ and ℤ/2.
+      [ALPHA-rho-vortex-fable B.1–B.3, machine-verified]
+      ⇒ STANDING CONSTRAINT ON THIS RUN: any kernel whose output is an integer
+      channel/mode/pixel COUNT is pre-falsified before arithmetic. Whatever the
+      totality supplies must be a CONTINUOUS (predicted transcendental) measure.
+
+--------------------------------------------------------------------------------
+1. SOURCE MINING — what the corpus actually licenses (all FROM-SOURCE, cited)
+--------------------------------------------------------------------------------
+S1  Mach's Principle, verbatim (ch01-02, §2.2): "it is this holistic system,
+    through its masses, distributions and motions, which determines, both
+    locally and non-locally, an inertial frame. This view is essentially
+    Mach's Principle."
+S2  Instantaneity / foreknowledge (ch01-02, §2.7): the connection between source
+    and detector "as a precondition for the transfer of energy is direct and
+    therefore instantaneous"; quantum interactions "take place with
+    foreknowledge of the conditions for their reception at the far end."
+    The switch-circuit argument: NO transaction even BEGINS unless the far end
+    is closed. ⇒ every winding of the vortex is a jointly-closed two-ended
+    transaction with the totality; there is no propagator, no 1/r², no delay,
+    no epoch. THE KERNEL CARRIES NO SCALE. (Kernel = function of angles only.)
+S3  Holistic conservation (ch06 §6.2; ch07 §7.1): natural motion of any body is
+    "instantly correlated with that of each and every other body in the System";
+    agency = conservation of angular momentum, quantised in "discrete
+    INTRANSITIVE units of h/2π" (ch07 §7.1, verbatim "intransitive").
+    ⇒ intransitivity is in the book itself: correlations do not chain; the
+    totality cannot enter as a census sum. THE KERNEL CARRIES NO N.
+S4  The alpha frame (ch08 §8.2, verbatim): "In POAMS, all observations are
+    relative to the 'alpha frame', i.e. Mach's 'fixed frame of the stars'…
+    this datum time is called deep space time (DST)."
+    ⇒ the reference axis against which θ is measured IS the totality's resultant
+    time-flow. (Terminological resonance noted and NOT used as evidence: the
+    book's own name for the totality frame is the alpha frame.)
+S5  QUANTITATIVE MACHIAN MACHINERY IN ch05–08 — the assigned mining question.
+    Finding (negative, important):
+    • ch06's Mach/Berkeley discussion is purely conceptual. The companion
+      equation transcript states it outright: "No equations — purely conceptual
+      discussion of Berkeley, Mach's principle" (ch06-equations.md, line 158).
+    • The ONLY quantitative "holistic-correlation" machinery in ch05–08 is the
+      spin-incorporation bookkeeping of ch07 §§7.3–7.5:
+          𝒦 = K_o + K_s (aligned),  𝒦 = |K_o − K_s| (opposed),
+          𝒦² = K_o² + K_s² + 2K_oK_s cos θ (general),
+          v_s² = 2𝒦/m,  r_s = L/(mv_s),  𝒢 = r_s v_s²/M ∝ 𝒦^(1/2).
+      This is TWO-BODY constant-L bookkeeping. The totality appears nowhere in
+      it as a variable. There is NO sum or integral over the universe's masses,
+      NO Sciama-type ΣGm_i/(c²r_i) analogue, NO "immediate distant action"
+      formula with quantitative content anywhere in ch05–08.
+    • Example 7.3 (hydrogen without electrostatics) IMPORTS its one scale:
+      "K_s = hcR∞ = 2.179872×10⁻¹⁸ J" — the measured Rydberg/ionisation energy,
+      introduced as "our hypothesis." The Bohr radius and velocity then follow
+      by construction. α is fed in through R∞; it is never derived.
+    ⇒ VERDICT ON THE MINING QUESTION: ch05–08 hold NO quantitative
+      inertial-induction / distant-action formula. Nothing in the book can
+      close Δln W ≈ 4–5. The book adopts Mach's Principle verbatim (S1) and
+      cashes it out qualitatively only. The kernel must be BUILT, and the only
+      licensed building material is S1–S4: angles on the totality sphere,
+      projections on the cone, unit-weight instantaneous reciprocity.
+
+--------------------------------------------------------------------------------
+2. PRE-REGISTRATION — the kernel equation, BEFORE any number
+--------------------------------------------------------------------------------
+Forced constraints on any POAMS induction kernel (each from §1):
+  (K1) NO SCALE (S2): kernel is a pure function of angular variables; no r, no t.
+  (K2) NO CENSUS (S3): no N, no epoch; totality enters only as the direction
+       sphere S² of the alpha frame, total measure 4π.
+  (K3) ISOTROPY (S1+S4): kernel depends on the tilt θ of the vortex's resultant
+       time-vector relative to the totality resultant (DST axis) only.
+  (K4) AM CONSERVATION PER WINDING (S3): a standing ground pattern neither gains
+       nor sheds ħ per winding ⇒ closure gain G = 1 exactly. This is the
+       eigenvalue/fixed-point condition.
+  (K5) UNIT-WEIGHT RECIPROCITY (S2 + Law of Moments): what the totality returns
+       per transaction equals what the winding writes — once, undiluted,
+       unretarded. (Double-count branch rejected on the one-conserved-h-unit
+       argument, KERNEL-fable §A.3 — rejection independent of any target.)
+
+Forced operations available to build G (and NOTHING else is licensed):
+  (O1) cone projection: coherent fraction of a tilted circulation = cos θ
+       [Pythagoras on the cone, forced];
+  (O2) cap occupation: a circulation tilted at θ occupies the directional cap
+       Ω(θ) = 2π(1−cos θ); as a fraction of the totality sphere,
+       f(θ) = (1−cos θ)/2 [spherical geometry, forced];
+  (O3) reciprocal return at unit weight (K5);
+  (O4) re-entry of any returned quantity into the sequenced winding through the
+       same cone projection cos θ [the cone acts on both legs — out through the
+       tilt, back through the tilt; forced by O1 applied to the return leg].
+
+PRE-REGISTERED KERNEL (adopting and sharpening the brief's candidate; minimal
+composition using each forced operation exactly once):
+      G(θ) = cos θ  +  cos θ · (1−cos θ)  =  cos θ (2−cos θ)  =  1 − (1−cos θ)²
+      Closure (K4):        G(θ) = 1                                    …(★)
+      Sustained-tilt form: G(θ) + δ = 1  ⟺  (1−cos θ)² = δ             …(★′)
+      Equivalent linear parametrization: 1−cos θ = 4π/W, W ≡ totality
+      closure weight (so δ = (4π/W)², N ≡ W/4π = 1/(1−cos θ)).
+PRE-REGISTERED ALTERNATIVE (independent mechanism, registered now so it cannot
+be selected post hoc): FLUCTUATION KERNEL — the DST axis is constituted by the
+totality resultant sampled through the vortex's transaction web; a resultant
+carried by an effective number N_f of independent unit-ħ channels has RMS
+directional residual sin²θ = 2/N_f. Equation: sin²θ = 2/N_f.
+NOTE the exact identity sin²θ = 2(1−cosθ) − (1−cosθ)²: the two mechanisms give
+the SAME one-constant reduction to leading order (N_f = N + ½ + O(α²) — checked
+in Python; the ½ is noted and NOT interpreted).
+
+PRE-REGISTERED PREDICTION (before evaluating anything): by Theorem 1 below, (★)
+alone has only θ = 0; every nontrivial root of every kernel in the forced
+operation algebra will be ORDER UNITY; therefore the run will end PARTIAL
+(one-constant reduction) or NULL, not FORCED — unless a forced transcendental
+condition materializes in §4, where I try hardest to build one.
+
+--------------------------------------------------------------------------------
+3. THEOREMS (the formal content of this run)
+--------------------------------------------------------------------------------
+THEOREM 1 (Exact marginality — the pure kernel forces θ = 0, not a finite θ).
+Let G be any finite composition of (O1)–(O4) normalized by (K4)-consistency at
+zero tilt, G(0) = 1. Each operation is a weak contraction for θ ∈ (0,π/2):
+multiplication by cos θ < 1, and cap-loss subtracts a positive measure. A finite
+composition of weak contractions, at least one strict, is strict: G(θ) < 1 for
+all θ ∈ (0,π/2). Hence (★) has the UNIQUE root θ = 0.                 [DERIVED]
+For the minimal kernel the deficit is moreover QUARTIC: 1 − G = (1−cosθ)² ≈ θ⁴/4
+(double root at θ=0; the return repays the cap deficit exactly to first order).
+This re-derives the KERNEL-run marginality identity at theorem level: the
+two-party Machian transaction is EXACTLY CRITICAL. Small-but-nonzero θ is not a
+fixed point of the forced kernel; it is a sustained defect.
+Consequence: κ = 1 (Machian criticality) is an identity, and α ≪ 1 is
+structurally explained (tilt costs only θ⁴/4 — a near-zero mode), but α's VALUE
+is expelled from the two-party geometry. The totality must supply δ > 0.
+
+THEOREM 2 (One-constant reduction — what the induction kernel DOES achieve).
+Given (★′): θ = arccos(1 − √δ), hence
+      α = sin θ = √(2√δ − δ)  ≈ √2 · δ^(1/4)          [quartic-root law]
+or in the linear parametrization 1−cos θ = 4π/W:
+      α² = 8π/W − (4π/W)²  ⟹  α ≈ √(8π/W) = √(2/N),  N = W/4π.
+α is reduced to EXACTLY ONE totality constant. All three registered forms
+(δ, W, N_f) are algebraically equivalent parametrizations of that one constant.
+                                                                        [DERIVED]
+THEOREM 3 (Order-unity obstruction — the kernel canNOT force the constant).
+Within the forced operation algebra, coefficients are drawn from the sphere/cone
+set S = {½, 1, 2, π, 2π, 4π} and compositions must each be independently forced
+(in practice ≤ 2–3 steps survive scrutiny). Every criticality equation from this
+algebra is polynomial in x = cos θ with coefficients in ℚ(π), with x = 1 a root
+(Theorem 1). Nontrivial roots, where they exist, are order unity:
+enumeration of the registered menu (evaluated in §5) gives 1−cos θ* ∈ [0.05, 1].
+The measured defect will be shown to be ~10⁻⁵ (§5) — 3.3+ orders below the
+FLOOR of the forced menu. No forced composition manufactures a pure number
+~10⁴–10⁵: the largest available coefficient is 4π ≈ 12.6 and each power of it
+costs one independently-forced composition step that does not exist. [DERIVED]
+Corollary (transcendentality consistency): the totality constant is not the
+root of any low-degree ℚ(π)-polynomial on the menu; combined with I0.4
+(off every integer lattice at 10⁴–10⁶σ) this positively corroborates the
+standing prediction that the constant is transcendental and CONTINUOUS —
+a closure WEIGHT, not a count.
+
+--------------------------------------------------------------------------------
+4. HARDEST ATTEMPT AT A FORCED TRANSCENDENTAL CONDITION (devil's-advocate duty)
+--------------------------------------------------------------------------------
+A transcendental root requires mixing ARC measures (θ, sin θ — lengths on the
+sphere/phase circle) with PROJECTION measures (cos θ). Does Mach + instantaneity
+force such a mixing? The transaction maps the winding's phase circle (length 2π)
+onto the cap boundary on the totality sphere (a circle of circumference
+2π sin θ, traversed once per winding). The map is forced; conditions on it:
+ T1 single-valuedness: automatic for every θ (torus argument, I0.2). No root.
+ T2 commensurability of trace and phase: not forced (rigidity not in the
+    liturgy; same kill as rho-vortex B.4), and any lattice it produced is
+    pre-falsified by I0.4. Dead twice over.
+ T3 cap-area = phase-fraction identification, 2π(1−cosθ) · λ = θ-type relations:
+    the identification of a phase-plane angle with a cone angle is precisely
+    the move my cone-run lemma proved unforced (Attempt 4 = the Wyler move).
+    Registered representative evaluated anyway in §5 (G6). Order-unity root.
+ T4 fluctuation closure with derived N_f: N_f would have to count independent
+    transaction channels of the web. Intransitivity (S3) forbids census;
+    integer N_f is pre-falsified (I0.4); a continuous "effective channel
+    measure" is exactly the free constant again. Circle closed.
+RESULT: no forced transcendental condition exists in the licensed material.
+The pre-registered prediction of §2 stands.                             [DERIVED]
+
+--------------------------------------------------------------------------------
+5. NUMBERS — computed only now, all Python-checked this session
+--------------------------------------------------------------------------------
+Measured input (sovereign, CODATA): α⁻¹ = 137.035999084.
+ 5.1 θ = arcsin α = 7.297417×10⁻³ rad.
+     1−cos θ = 2.6626032×10⁻⁵          [= the defect the totality must supply]
+     δ = (1−cos θ)² = 7.0895×10⁻¹⁰
+     W = 4π/(1−cos θ) = 4.7196×10⁵ ✓  (ln W = 13.065)   N = W/4π = 37557.23
+     Cross-check vs brief: W ≈ 4.72×10⁵, N ≈ 37,558 ✓ (N = 2/α² = 37557.73
+     differs from 1/(1−cosθ) by exactly ½ + O(α²) — convention note below).
+ 5.2 Forced-menu roots (pre-registered §2/§4), for comparison AFTER:
+       G2 (double-count branch, rejected on principle): cos θ = ½ → α = 0.866,
+          W = 8π ≈ 25.1
+       G4 (cap = coherent): cos θ = ⅓ → α = 0.943, W ≈ 18.8
+       G6 (T3 representative, 1−cosθ = sinθ/2π): θ = 0.3157, α = 0.310
+          (α⁻¹ = 3.22), 1−cos θ = 0.0494, W ≈ 254
+     Every root order unity, as Theorem 3 predicted. Best forced W ~ 10²·⁴;
+     required W = 10⁵·⁷. Gap from PURE two-party geometry: Δln W = 9.84.
+ 5.3 Reconciliation of the brief's Δln W ≈ 4–5: prior Machian local routes gave
+     α⁻¹ ≈ 9–18 forward ⇒ W_loc = 8π(α⁻¹_loc)² ≈ 2.0×10³–8.1×10³ ⇒
+     Δln W = ln(4.72×10⁵/W_loc) = 5.45–4.06. ✓ The brief's accounting verifies.
+     My pure-kernel floor is stricter (9.8); the 4–5 figure already credits the
+     unproven local mode-structure of those routes.
+ 5.4 Lattice re-verification: 2/α² frac = 0.7301 (2.3×10⁴σ off ℤ) — any
+     integer-N kernel remains dead. ✓
+
+--------------------------------------------------------------------------------
+6. FISHING FLAGS RAISED AND REFUSED THIS RUN (mandatory disclosure)
+--------------------------------------------------------------------------------
+F1  THE CROSS-CHECK IS THE TARGET IN DISGUISE. W ≈ 4.72×10⁵ is not independent
+    data: W ≡ 4π/(1−cos θ) evaluated AT measured α (equivalently W ≈ 8π/α²).
+    "Supplying W" and "deriving α" are the same act. Any future run that
+    "derives W ≈ 4.72×10⁵" from a construction tuned in sight of that number
+    has derived nothing. I flag this now, against my own future runs too.
+F2  N_f − N = ½ (exact to O(α²)): a zero-point-like ½ appears between the
+    fluctuation and cap parametrizations. Noted as an algebraic identity of
+    sin²θ = 2(1−cosθ) − (1−cosθ)²; NOT interpreted; interpreting it toward
+    "N + ½ quantization" would be numerology.
+F3  The alpha-frame terminology (S4) is a charming coincidence, not evidence.
+F4  Menu monomials near required δ (KERNEL run's (2π)⁻¹², (4π)⁻⁸ bracket) remain
+    refused; nothing this run changed their unforced status.
+F5  CONVENTION COLLISION CAUGHT [INTERNAL, for the ledger]: the corpus uses W
+    for TWO different quantities — W = 4π/(1−cosθ) ≈ 4.72×10⁵ (FOUNDATION,
+    rho-vortex C1, this run) and W = 4π/(1−cosθ)² ≈ 1.77×10¹⁰ (SOLVEW-opus,
+    ln W = 23.60, feeding p ≈ 11.88). Both self-consistent internally; the
+    symbol clash will corrupt any future cross-file arithmetic. Rename one
+    (suggest W₂ = 4π/δ for the quartic version).
+
+--------------------------------------------------------------------------------
+7. VERDICT
+--------------------------------------------------------------------------------
+PARTIAL — the middle tier of the pre-registered criteria, now at theorem grade:
+
+FORCED (new formal results):
+  • The induction kernel exists and is unique at minimal order:
+    G(θ) = 1 − (1−cosθ)², derived from Mach (S1) + instantaneity (S2) +
+    intransitivity (S3) + alpha-frame isotropy (S4) with no free choices.
+  • Theorem 1: the pure kernel is EXACTLY marginal — its fixed point is θ = 0
+    (double root). The totality-coupling does BREAK the isolated cone's
+    scale-invariance (the no-go is genuinely evaded: θ is no longer free to
+    slide — it is pinned to 0 by pure two-party closure), but it pins the WRONG
+    (trivial) point unless the totality supplies a strict positive defect.
+  • Theorem 2: with the defect, α reduces to EXACTLY ONE totality constant:
+        (1−cos θ)² = δ  ⟺  1−cos θ = 4π/W,  α = √(8π/W − (4π/W)²).
+    Named precisely: W = the totality's closure weight — the continuous measure
+    of directional closure the alpha frame supplies per 4π. α IS one Machian
+    number. This is the publishable structural core.
+  • Theorem 3 + §4: NO forced construction in the licensed operation algebra
+    outputs that constant. All forced roots are order unity (floor Δln W ≈ 9.8
+    from pure geometry; ≈ 4–5 credit given to prior local mode routes).
+    The constant is continuous, off every lattice (10⁴–10⁶σ), consistent with
+    transcendental — a weight, not a count.
+
+NOT FORCED: the value W ≈ 4.72×10⁵ (= 1−cosθ ≈ 2.66×10⁻⁵, δ ≈ 7.09×10⁻¹⁰).
+θ is NOT left free (the kernel kills the similarity freedom and dictates the
+functional law α ≈ √2·δ^(1/4)) — but its magnitude is exactly one number the
+two-party geometry cannot reach and ch05–08 contain no machinery to compute
+(S5: the book's Mach's Principle is verbatim but never quantitative; the only
+candidate formula, 𝒦 = K_o ± K_s with 𝒢 ∝ √𝒦, is two-body and imports hcR∞).
+
+HONEST BOTTOM LINE: Mach's Principle, formalized as instantaneous intransitive
+AM-correlation, converts "α is a free angle" (isolated-cone null) into
+"α = √2·(4π/W)^(1/2)·(1 + O(4π/W))^(1/2), W a single continuous totality
+constant with measured value 4.72×10⁵ that nothing yet derives." The gap has a
+precise size (Δln W ≈ 4–5 against the best local routes; ≈ 10 against pure
+transaction geometry) and a precise location (the totality's closure weight per
+4π of the alpha frame). A clean PARTIAL; no fished 137.
+================================================================================

@@ -1,0 +1,90 @@
+model.run via local
+provider: anthropic
+model: claude-fable-5
+outputs: 1
+# Derivation Attempt: Does the Time-Cone Pin sin θ?
+
+I will work only with what POAMS provides: the Pythagorean time relation, c as a length↔time conversion constant, ħ as the quantum of action per closed circulation, the winding integers, and 2π. Every step is checked for whether it is *forced* or *chosen*. Any chosen step terminates the derivation.
+
+---
+
+## A. What sets the tilt angle θ of the ground-state circulation?
+
+**Setup (forced).** The vortex's internal circulation is a phase advancing around a closed loop. Per proper period *t*, phase advances 2π (n = 1, single-valued). The loop has a length-measure per cycle, call it λ (the circumferential advance per period). The cone converts it to time-measure λ/c.
+
+**The circulation as a helix on the cone (forced).** In the (t, s/c) plane, one cycle of the circulation is a right triangle:
+
+- vertical leg: proper period *t*
+- horizontal leg: λ/c
+- hypotenuse: t_R = √(t² + (λ/c)²)
+
+The tilt off the proper-time axis:
+
+$$\sin\theta = \frac{\lambda/c}{t_R} = \frac{v}{c}, \qquad \tan\theta = \frac{\lambda}{ct}$$
+
+This is the correct POAMS reading: v/c is not a speed ratio but the **sine of the opening angle** — the tilt of the circulation's resultant time-vector. So far, form only. The question is whether the geometry fixes λ/(ct).
+
+**Inventory of constraints (forced — this is the crux):**
+
+The loop is characterized by two quantities: the proper period *t* and the circumferential advance λ. The dimensionless data are:
+
+1. the winding number n = ∮dφ/2π
+2. the tilt β = λ/(ct)
+
+The available constraints:
+
+- **(i) Pythagoras** defines t_R *given* (t, λ). It consumes no freedom in (t, β) — it is a definition of the hypotenuse, not an equation on the legs.
+- **(ii) Single-valuedness** forces n ∈ ℤ; ground state forces n = 1. This constrains the *winding*, an angle in the **phase plane** of the circulation.
+- **(iii) Quantization** S = nh per loop, L = dS/dθ = nħ. This fixes the overall **action scale** — it ties the product of the loop's dynamical measures to ħ. It is a scale-fixing, not a ratio-fixing: rescalings that preserve nħ still permit any β.
+
+**Lemma (angle-freedom of the cone).** After conversion by c, the (t, s/c) plane is an ordinary Euclidean plane, and the cone constraint is the ordinary right-triangle relation. The similarity group of right triangles acts *transitively* on θ ∈ (0, π/2). Constraints (ii) and (iii) break the **scale** part of this group (they fix "how much action per turn") but commute with the **tilt** part. Therefore no combination of closure + quantization + Pythagoras selects a θ.
+
+The deep reason: c is *only* a conversion factor. A unit-matching between the two legs is, by construction, **isotropic** in the converted plane — it defines the angle metric but cannot prefer an angle within it. A conversion constant cannot output a direction.
+
+**A-result:** θ is not forced by the single-loop-plus-cone geometry. But before declaring null, I must exhaust the closure/projection routes of Part B — the "hardest attempt."
+
+---
+
+## B. Exhausting closure + projection
+
+**Attempt 1 — Helix commensurability.** Require the standing helix to close: after n turns, phase returns mod 2π. But this is *automatically satisfied for every pitch angle* once n ∈ ℤ — the closure condition lives in the phase circle, the tilt lives in the (t, s/c) plane, and they are independent. If one instead demanded commensurability of pitch and circumference (t_R/t ∈ ℚ, i.e., cos θ rational), the rationals are dense in (0,1): no selection. **Dead end — no forced θ.**
+
+**Attempt 2 — Standing-pattern stationarity.** The vortex is standing: a superposition of ± counter-circulations. Stationarity forces equal and opposite phase rates — a condition symmetric under any common tilt θ. The ± structure (which POAMS correctly uses for the splitting *mechanism*) constrains phase-sense, not tilt magnitude. **Dead end.**
+
+**Attempt 3 — Self-projection fixed point.** Suppose the circulation must project consistently through *its own* cone: v/c = sin θ where θ is the tilt produced by v itself. This is v/c = v/c — a tautology. Any nontrivial recursion (projecting k times, v → v·f(θ)) has fixed points only at sin θ = 0 or 1 (degenerate), unless one inserts an unforced coupling per iteration. **Dead end.**
+
+**Attempt 4 — Identifying phase angle with tilt angle.** One is tempted: "the circulation advances 2π per cycle; set the cone quantities in ratio to 2π," yielding candidates like sin θ = 1/2π. But the 2π lives in the **phase plane** of the internal circulation; θ lives in the **time-cone plane**. Nothing in the geometry identifies them — they are angles in different planes. Any identification is a choice. **This is precisely the Wyler move. Rejected.**
+
+**Attempt 5 — Dimensional exhaustion (decisive).** The isolated system's complete inventory is {c, ħ, n ∈ ℤ, 2π}. c and ħ are dimensionful and there are only two of them: **no dimensionless ratio can be formed from them at all.** The only dimensionless numbers constructible are rational functions of π and integers — a countable menu with *no selection rule supplied by the cone*. A ratio needs two comparable scales; the isolated cone-plus-loop carries exactly one scale (fixed by ħ) and one conversion factor. One scale cannot make a ratio.
+
+**B-result:** Closure + cone-projection do **not** force sin θ. The underdetermination is structural, not a failure of ingenuity: *one* constraint (winding) on *two* dimensionless degrees of freedom (winding, tilt).
+
+---
+
+## C. Compute what the geometry forces — honest comparison
+
+**What is forced:**
+
+$$\frac{v}{c} = \sin\theta, \qquad \text{splitting} \propto \sin^2\theta, \qquad t_R = \frac{t}{\sqrt{1-\sin^2\theta}}, \qquad \oint d\varphi = 2\pi n$$
+
+**What is not forced:** any numerical value of sin θ. The forced computation **terminates at a form with one free continuous parameter.** There is no number to report, because producing one would require selecting from the unforced π-menu. For transparency, the nearest simple menu items versus the target 7.297×10⁻³:
+
+| candidate | value | miss |
+|---|---|---|
+| 1/(2π)² | 2.53×10⁻² | ×3.5 too big |
+| 1/(4π³) | 8.06×10⁻³ | +10.5% |
+| 1/(2π)³ | 4.03×10⁻³ | −45% |
+
+None is forced; the near-miss of 1/(4π³) is exactly the seduction the firewall exists to block. Choosing it would be reverse-engineering. One independent cross-check that the target is *not* a rigid-geometry constant: even in the rival framework's own bookkeeping, the ratio is not scale-independent (it shifts with interaction conditions). A number that varies with environment cannot be the opening angle of a static, isolated cone. This corroborates the null rather than softening it.
+
+---
+
+## D. VERDICT: **NULL** (on magnitude)
+
+The cone forces the **form** — v/c = sin θ, splitting ∝ sin²θ — confirming the mechanism already in hand. But the opening angle θ is a **free continuous parameter**: the Pythagorean relation defines the hypotenuse without constraining the leg ratio; single-valuedness quantizes winding, which is orthogonal to tilt; ħ fixes scale, which is orthogonal to tilt; and c, being a pure conversion factor, is angle-isotropic by construction. One constraint, two dimensionless freedoms. The geometry of an *isolated* vortex-on-cone cannot pin v/c, and no honest manipulation makes it do so.
+
+**What legitimate POAMS structure could fix it:** The missing ingredient is a **second scale**, and POAMS has exactly one non-smuggled place to get it: the vortex is not isolated. It is a standing pattern in the same temporal substance as every other vortex (the Machian totality). The tilt induced in the local cone by a unit-ħ circulation depends on the *compliance of the medium* — a dimensionless stiffness of the shared temporal flux. The ratio v/c would then be the **eigenvalue of a self-consistency condition**: the requirement that every ground-state vortex, embedded in the standing-wave background generated by all others, closes as a stationary pattern — a global fixed-point equation whose solution, if it exists and is unique, is a pure number possibly of the right order. That is a well-posed research target: vortex-*in-medium* closure, not vortex-*on-empty-cone* closure. (Its environment-dependence would also naturally explain why the ratio is not a rigid π-monomial.)
+
+**What would be smuggling:** inserting charge, permittivity, field couplings, or any measured atomic scale; selecting π-powers or integer combinations because they land near 137; Eddington-style counting; or importing the measured ratio as a "boundary condition."
+
+**Plain statement:** The time-cone underdetermines the fine-structure ratio. The angle is free. The honest result of this hardest attempt is a rigorous null with a precisely located gap — the medium's stiffness — and that gap, not the cone, is where the derivation of 1/137 must be fought for.

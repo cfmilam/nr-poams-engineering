@@ -1,0 +1,277 @@
+════════════════════════════════════════════════════════════════════════
+DERIVE N = m_e/m* = 2/α² = W/4π ≈ 37,558 FROM MACH'S TOTALITY
+OPUS — frame & ground-truth holder. 2026-07-05 night.
+Forward derivation. TARGET HIDDEN during setup. NULL / REDUCE-TO-PRIMITIVE
+are first-class outcomes. Companion: Fable-5 (parallel, independent).
+════════════════════════════════════════════════════════════════════════
+
+DISCIPLINE (obeyed): pre-register the induction equation BEFORE any number;
+build it from Mach's Principle + instantaneous holistic AM-correlation
+(FROM-SOURCE), NOT by fitting 137/274/37558; confront the limitless-universe
+infinity head-on; a clean null or a precisely-named primitive beats a fished
+closed form. "Everything is time": L = dS/dθ, N = 2(c/v)². Every step marked
+DERIVED / ASSUMED / FROM-SOURCE(cite). All closed forms exact for Python.
+
+I reasoned INDEPENDENTLY of the prior kernel run and only compared at the end;
+the convergence reported in §7 is therefore a genuine cross-check, not copying.
+
+────────────────────────────────────────────────────────────────────────
+0. THE FIREWALL, STATED FIRST SO IT CANNOT BE CHEATED (FROM-SOURCE)
+────────────────────────────────────────────────────────────────────────
+FROM-SOURCE (ch05 eq 5.12): m* = hR/c. But R_∞ = m_e c α²/(2h) ⇒
+   m* = hR/c = m_e α²/2   ⇒   N ≡ m_e/m* = 2/α²   is an IDENTITY.
+PYTHON-VERIFIED (§6): m*=hR/c = 2.42543510e-35 kg = m_e α²/2 to 12 figs;
+N = m_e/m* = 37557.73009 = 2/α² to 12 figs. Therefore m* is NOT an independent
+mass scale — it already contains α. Any route that "gets" N by inserting m*,
+R, the measured m_e, or the Rydberg energy is CIRCULAR and is refused here.
+
+KEY THEOREM (isolated-cone no-go, FROM-SOURCE alpha-cone-opus/fable, PROVEN):
+{ħ, c} alone form NO dimensionless number (ħ = action, c = length↔time
+conversion; no mass, no pure ratio). The Pythagorean time-cone
+   t_R² = (s/c)² + t²,  sin θ = v/c = α
+is homogeneous degree 1 → scale-invariant → its content is the triangle's
+similarity class, parameterised by the free ratio tan θ; closure ∮dφ=2πn and
+ħ-quantization fix winding/phase but COMMUTE with the tilt. ⇒ No isolated
+single-vortex argument selects θ. THEREFORE N (hence α) can ONLY come from a
+dimensionless property of the TOTALITY. The whole question is whether Mach's
+Principle FORCES that property's value, or merely NAMES a free cosmological input.
+
+────────────────────────────────────────────────────────────────────────
+1. THE MECHANISM I WILL BUILD — POAMS Machian inertial induction (no G)
+────────────────────────────────────────────────────────────────────────
+FROM-SOURCE (ch01-02 ~line 122, Mach's Principle, verbatim): "it is this
+holistic system, through its masses, distributions and motions, which
+determines, both locally and non-locally, an inertial frame." → rest inertia
+(= mass = rate of angular change, L=dS/dθ) is INDUCED by the totality, non-locally.
+FROM-SOURCE (ch01-02 ~lines 224-226; Pioneer paper ~line 296): the correlation
+is "direct and therefore instantaneous," all bodies "correlated and holistically
+interconnected by the law of the conservation of angular momentum." → the kernel
+is an INSTANTANEOUS holistic AM-correlation (a POAMS Green's function over the
+totality), NOT a propagating signal. There is NO travelling light, NO retardation.
+
+STANDARD SCIAMA (the analog I recast, NON-circularly): Machian inertial induction
+says the inertia of a local body is the summed induction of all distant matter,
+Σ_i G m_i/(r_i c²) ≈ 1 (full induction ⇒ no absolute space; the coefficient is
+O(1), near-critical). POAMS forbids G and gravity, so I REPLACE the G/r² potential
+by the instantaneous AM-CORRELATION of the local vortex with the totality. The
+self-consistency (fixed point) is the same in spirit: full induction ⇒ coupling
+coefficient = 1. I keep ONLY {ħ, c} + the totality's own AM structure as inputs.
+
+THE LOCAL OBJECT (FROM-SOURCE, ρ-vortex run): the ground vortex has an INNER
+("spin") circulation at rate c carrying ħ/2, and an OUTER ("orbital") circulation
+at rate v carrying ħ. Tilt sin θ = v/c = α. Rest inertia = N·m* in mass-quanta;
+N = 2(c/v)² (everything-is-time reading of N = 2/α²). The ONE free thing is the
+outer rate v, i.e. the tilt θ, i.e. N. Mach says θ is set by the TOTALITY.
+
+────────────────────────────────────────────────────────────────────────
+2. PRE-REGISTERED INDUCTION EQUATION (BEFORE ANY NUMBER)
+────────────────────────────────────────────────────────────────────────
+I pre-register the fixed point now, from the mechanism in §1, before comparing to
+anything. Two totality quantities and one geometric fact enter:
+
+ (i) σ ≡ the instantaneous AM-correlation density of the totality per unit solid
+     angle — the dimensionless coupling per steradian between the local vortex's
+     AM and the totality's AM at the vortex's tilt. [ASSUMED to exist and be finite;
+     this is the totality's "AM-induction surface brightness." A totality primitive.]
+
+ (ii) The tilted circulation couples COHERENTLY to the totality only within its
+     COHERENCE CAP — a spherical cap of half-angle θ about the tilt axis. FROM the
+     cone geometry, a circulation opened to tilt θ carves a cap of solid angle
+        Ω_cap(θ) = 2π(1 − cos θ).                                    [DERIVED, cap area]
+     Outside the cap, contributions from the totality arrive AM-phase-mismatched and
+     CANCEL (see §3 — this is also what regulates the infinity). [ASSUMED: coherence =
+     the cap; justified because the cap solid angle is the θ-carving of the same cone
+     whose tilt IS the quantity being induced — self-reference is the Machian content.]
+
+PRE-REGISTERED FIXED POINT (Machian full induction ⇒ coupling coefficient = 1,
+near-critical, i.e. all inertia relational, no absolute-space residue):
+
+   ┌──────────────────────────────────────────────────────────────────────┐
+   │   σ · Ω_cap(θ) = 1 ,   Ω_cap(θ) = 2π(1 − cos θ) ,   sin θ = v/c = α    │  (IND)
+   └──────────────────────────────────────────────────────────────────────┘
+
+SOLVE (algebra only, no numbers yet):
+   1 − cos θ = 1/(2πσ).                                              (IND′)
+   Small tilt (θ small ⇒ 1 − cos θ ≈ θ²/2 ≈ (sin θ)²/2 = α²/2):
+   α²/2 = 1/(2πσ)  ⇒  α = 1/√(π σ)  ⇒  N ≡ 2/α² = 2π σ.             (IND″)
+   Exactly (no small-angle): N = 1/(1 − cos θ) = 2πσ ; W = 4πN = 8π²σ.
+
+So the induction fixed point delivers, before any number:
+   • the FORM  α = 1/√(πσ) = √(2/N), i.e. the √2 tilt law;
+   • the CLOSURE identity  N = 2πσ,  W = 4πN = 8π²σ;
+   • α small ⟺ σ large (dense totality correlation) ⟺ near-critical cap θ→0.
+This is a genuine, non-trivial fixed point (the cap's θ-dependence broke the
+isolated cone's scale-invariance — homogeneity is broken by Ω_cap(θ) being
+nonlinear in θ). N is now reduced to ONE totality quantity: σ.
+
+────────────────────────────────────────────────────────────────────────
+3. CONFRONTING THE INFINITY HEAD-ON (limitless universe — Star Lord)
+────────────────────────────────────────────────────────────────────────
+The universe is LIMITLESS. The instantaneous holistic sum over the totality is
+naively DIVERGENT: along every line of sight there are infinitely many vortices,
+and with a 1/r-type potential the instantaneous potential ∫(4πr²ρ)(1/r)dr ∝ R²
+→ ∞. In standard Sciama this is cut off by RETARDATION at the Hubble radius. POAMS
+FORBIDS retardation (instantaneous, no travelling signal). So POAMS needs a
+DIFFERENT regulator. Here it is, and it is forced by the liturgy:
+
+REGULATOR = AM-SIGN CANCELLATION (DERIVED from Postulate 2 + no-charge liturgy).
+Total AM of the totality is holistically conserved (Postulate 2); "charge sign" IS
+the sign of intrinsic spin AM (liturgy §3). For total AM to be conserved/balanced,
+the totality's spin-senses are, on the whole, EQUALLY + and −. Therefore the
+instantaneous AM-correlations arriving from successive shells along any line of
+sight have RANDOM relative sign and CANCEL in a random walk. The divergent radial
+sum is killed not by a distance cutoff but by DECOHERENCE: only the vortices that
+remain AM-phase-coherent with the local vortex — a finite COHERENT RESIDUAL — survive.
+
+Consequently:
+ • The infinity is FINITE-ised WITHOUT a container, a cutoff radius, or retardation
+   — purely by AM-sign cancellation. (POAMS-clean: no aether, no propagation.)
+ • The surviving coupling density σ per steradian is FINITE and equals the coherent
+   residual: σ = (coherence number 𝒞 of the totality) up to O(1) closure factors —
+   the count of totality vortices that stay AM-phase-coherent along a line of sight
+   before sign-cancellation regulates the sum. σ = 𝒞/ (an O(1) closure geometry factor).
+ • This is EXACTLY why N is MODEST (~10³–10⁵), NOT the cosmic matter count ~10⁸⁰:
+   N is a COHERENCE number (a phase-coherence depth), not a raw matter count. The
+   sharp clue is thereby EXPLAINED, not fitted: the 10⁸⁰ vortices are there, but
+   AM-cancellation collapses them to a coherent residual of order 𝒞 ≪ 10⁸⁰.
+
+The infinity is handled: NOT (b) diverges, NOT a raw 10⁸⁰. It reduces to a FINITE
+coherence residual σ (= 𝒞 up to closure factors). ✔
+
+────────────────────────────────────────────────────────────────────────
+4. THE ACTUAL TEST — does (IND) FORCE the value of σ (hence N)?  [the crux]
+────────────────────────────────────────────────────────────────────────
+(IND) fixes ONE combination: σ · Ω_cap = 1 (the near-critical / marginal condition).
+N = 2πσ is the ORTHOGONAL combination. Near-criticality forces the PRODUCT to unity;
+it does NOT fix σ and Ω_cap separately. This is the SAME marginality/homogeneity
+obstruction that closed every prior route: criticality forces that N is LARGE (cap
+tiny, σ large), and forces the √2 FORM, but leaves WHICH large N free along the flat
+(marginal) direction. To force N one must force σ — the totality's AM-coherence
+number — from {ħ, c} + Mach alone.
+
+Three ways σ could be forced, tested honestly:
+
+(A) FORCE σ from {ħ, c} + closure geometry alone. IMPOSSIBLE by the key theorem:
+    {ħ,c} make no dimensionless number; closure/quantization give integers/π-factors
+    (O(1)–O(10³), the local W₀ counts), which are the marginal Ω-direction, not the
+    orthogonal σ magnitude. Pure micro-geometry gives σ₀ = W₀/8π² ~ 13–104 (W₀ ∈
+    {1024,8192}), i.e. N₀ = 2πσ₀ ~ 10²–10³, α⁻¹ ~ 9–18. NOT 137. (§6.) → NOT forced.
+
+(B) FORCE σ from the cosmological totality sum (ch09, the one place POAMS does the
+    totality quantitatively). FROM-SOURCE (ch09 eq 9.7): ½Σm_k(dr_k/dt)² −
+    GΣ_{j≠k}m_jm_k/|r_j−r_k| = E — the explicit "sum over the masses of the universe."
+    FROM-SOURCE (ch09 9.14–15): Hubble-redshift-as-time-dilation gives z ≈ v²/2c²,
+    v/c = √(2z) — the SAME √2 tilt law as α = √(2/N), independent corroboration of the
+    FORM. BUT (9.7)/(9.13) fix a mass-DENSITY (~10⁻²⁶ kg m⁻³), not a dimensionless
+    coherence number; and the cosmic sum is over galaxies (energy balance), not over
+    the phota-modes that set a micro vortex's induced rest-inertia. → supplies the
+    FORM, not the σ value. NOT forced.
+
+(C) FORCE σ as a contingent cosmological input POAMS merely NAMES. This is what
+    survives. σ (equivalently the coherence number 𝒞) is a real, precisely-defined
+    property of the totality's actual AM texture — its instantaneous AM-correlation
+    surface density / phase-coherence depth. Its magnitude is set by the universe's
+    actual spin-sense distribution, which {ħ, c} + Mach's Principle do not determine.
+    POAMS NAMES it exactly and PREDICTS its nature (finite, modest, a coherence depth,
+    large enough to make α small) — but does not derive its value.
+
+THE COHERENCE-ENHANCEMENT TEST (the sharp clue, run explicitly and honestly):
+Local micro-closure gives W₀ ~ 10³ ⇒ σ₀ ~ 13–104. The target needs σ ≈ 5977 (N=37558).
+The enhancement σ/σ₀ ∈ [58, 461], i.e. Δln W ∈ [4.0, 6.1] — EXACTLY the ledger's
+Δln W ≈ 4–5 ≈ e^4.5 ≈ 90×. So a coherence enhancement of the RIGHT ORDER (adding
+~e^4.5 more in-phase totality modes than the bare local count) IS what (IND) needs,
+and the mechanism (AM-phase-coherent modes surviving cancellation) is the RIGHT KIND
+of object to supply it. BUT nothing in {ħ,c}+Mach FORCES the coherence depth to be
+e^4.5 rather than e^3 or e^6. I therefore REFUSE to pick it to land 37,558 — that is
+the Wyler/fishing move the firewall forbids. The coherence enhancement is the correct
+NATURE of the missing factor; its VALUE remains the free primitive σ.
+
+────────────────────────────────────────────────────────────────────────
+5. "EVERYTHING IS TIME" CROSS-READING (consistency)
+────────────────────────────────────────────────────────────────────────
+N = 2(c/v)² = 2(inner-rate/outer-rate)². Inner circulation at rate c (fixed conversion
+constant), outer at rate v. N is forced iff c/v is forced. (IND) sets v via the
+totality back-reaction: the outer circulation re-closes on itself through the
+instantaneous substance sourced by the totality; its rate is damped to the value where
+the induced-inertia coefficient = 1. The damping strength = σ (AM back-reaction of the
+totality on the outer circulation) — the POAMS, charge-free analog of radiation
+reaction. So c/v = √(N/2) = √(πσ): the rate ratio is the square root of the totality
+coherence density. Same primitive, same reduction, same free value. Consistent. ✔
+
+────────────────────────────────────────────────────────────────────────
+6. THE NUMBERS (computed AFTER pre-registration — Python re-verified)
+────────────────────────────────────────────────────────────────────────
+Inputs used ONLY for firewall / after-the-fact checks (never as derivation input):
+ α=7.2973525693e-3, h=6.62607015e-34, c=2.99792458e8, R=1.0973731568160e7,
+ m_e=9.1093837015e-31.
+FIREWALL (identity, not derivation):
+ m* = hR/c              = 2.42543510e-35 kg
+ m* = m_e α²/2          = 2.42543510e-35 kg   (⇒ m* ⊃ α ; NOT independent)
+ N = m_e/m*             = 37557.73009
+ 2/α²                   = 37557.73009          (≡ N to 12 figs — IDENTITY)
+STRUCTURAL (back-out, consistency of (IND), NOT a value-derivation):
+ 1 − cos θ = 1/N        = 2.662568e-5
+ θ                      = 0.418108°
+ sin θ                  = 7.297304e-3  (= α to 5 figs; small-angle ✓)
+ α²/2                   = 2.662568e-5  = 1/N   (small-angle identity ✓)
+ σ = N/2π               = 5977.50 per steradian   (the named totality primitive)
+ 2πσ                    = 37557.73 = N ✓
+ W = 4πN                = 471,964    (ln W = 13.065)
+COHERENCE-ENHANCEMENT GAP (sharp clue, forward vs target):
+ W₀=1024 → σ₀=12.97  → σ/σ₀=460.9 → Δln W=6.13
+ W₀=2048 → σ₀=25.94  → σ/σ₀=230.5 → Δln W=5.44
+ W₀=8192 → σ₀=103.75 → σ/σ₀= 57.6 → Δln W=4.05   (matches ledger Δln W≈4–5 ✓)
+
+FIREWALL LOG (near-misses seen and REFUSED):
+ • N=2/α²=37558 lands α and W exactly — REFUSED as derivation (R_∞ ⊃ α² ⇒ definitional).
+ • Did NOT search for a coherence depth tuned to hit 37558 (free-parameter landscape
+   with a guaranteed hit = the classic fishing trap). Not attempted.
+ • (IND) and Ω_cap=2π(1−cosθ) were pre-registered in §2 before any number in §6.
+
+────────────────────────────────────────────────────────────────────────
+7. INDEPENDENT CROSS-CHECK vs the parallel kernel route (compared only now)
+────────────────────────────────────────────────────────────────────────
+The prior kernel run reached α=√(2/N), N=W/4π, near-critical, with N free (Δln W≈4).
+My independent Sciama-analog induction reached the SAME √2 law and SAME closure
+N=W/4π=2πσ, near-critical, N free — but via a genuinely DIFFERENT construction (an
+AM-correlation induction density σ with the limitless-universe INFINITY explicitly
+regulated by AM-SIGN CANCELLATION, which the kernel run did not spell out). Two
+independent routes, one fixed point, one located free value. The convergence is
+corroboration, not copying. NEW content here: (i) the explicit infinity regulator
+(AM-sign decoherence, no cutoff/retardation) and (ii) the precise physical NAME of
+the primitive (AM-correlation coherence density σ / coherence depth 𝒞), which
+explains the modest-vs-10⁸⁰ puzzle.
+
+────────────────────────────────────────────────────────────────────────
+8. VERDICT
+────────────────────────────────────────────────────────────────────────
+N is REDUCED to a precisely-named totality primitive; its VALUE is NOT FORCED.
+
+ PRE-REGISTERED INDUCTION EQUATION:
+   σ · Ω_cap(θ) = 1,  Ω_cap = 2π(1 − cos θ),  sin θ = α
+   ⇒ N = 1/(1−cos θ) = 2πσ,  α = √(2/N) = 1/√(πσ),  W = 4πN = 8π²σ.
+
+ FORCED (real content): the √2 tilt law α=√(2/N); the closure N=W/4π=2πσ; α's
+   NATURE (pure, ≠0, SMALL ⟺ σ large, near-critical, transcendental in the marginal
+   parameter); the INFINITY made finite by AM-sign cancellation (no cutoff, no
+   retardation — POAMS-clean); and the EXPLANATION of why N is modest (10³–10⁵),
+   not 10⁸⁰: N is a coherence-depth number, not a matter count.
+
+ NOT FORCED (the located, first-class residue): the VALUE of σ (hence N, α). Near-
+   criticality fixes only the product σ·Ω_cap=1; N=2πσ is the orthogonal marginal
+   direction. {ħ,c}+Mach do not fix σ. The coherence enhancement is the right KIND
+   of object and of the right ORDER (Δln W≈4.5) to bridge W₀~10³ → W~4.7×10⁵, but
+   nothing forces its magnitude; picking it to hit 37,558 would be fishing (refused).
+
+ NAMED PRIMITIVE (precise): σ = the instantaneous AM-correlation density of the
+   totality per unit solid angle — equivalently the totality's AM-phase-COHERENCE
+   NUMBER 𝒞 (the count of totality vortices that stay AM-phase-coherent along a line
+   of sight before AM-sign cancellation regulates the limitless sum). N = 2πσ.
+
+ BRUTALLY HONEST ONE-LINER: This is a RELOCATION, not a derivation — it dissolves
+ the infinity and explains why the number is modest, and it names the one primitive
+ α depends on with new physical precision (the totality's AM-coherence density), but
+ it moves the mystery from "why α?" to "why is the totality's AM-coherence number
+ ≈ 37,558?", a contingent cosmological fact POAMS can name but cannot derive from ħ,
+ c and Mach's Principle alone.
+════════════════════════════════════════════════════════════════════════

@@ -1,0 +1,252 @@
+================================================================================
+POAMS α-DERIVATION — SINGLE-VORTEX ρ — INDEPENDENT FORMALIZER (Fable-5)
+Date: 2026-07-05 evening. Role: devil's advocate / formalizer, run parallel to
+Opus-4.8 frame-holder. Target HIDDEN during forcing; every number Python-checked.
+================================================================================
+
+QUESTION. Electron = ONE vortex of the one substance, two circulation scales:
+  inner "spin":   rate c, L_s = ħ/2  →  r_s   = ħ/(2mc)     [half Compton]
+  outer "orbital": rate v, L_o = ħ   →  r_orb = ħ/(mv)      [Bohr]
+  ρ ≡ r_orb/r_s = 2c/v = 2/α.   Forcing ρ ⟺ forcing α.
+Does a single-vortex SELF-CONSISTENCY principle force ρ?
+Mechanisms: (a) spin⊕orbital vector-composition lock; (b) phase-closure of the
+outer winding on the inner; (c) Machian self-consistency eigenvalue.
+NULL is first-class. Known failure mode: my confident-and-wrong runs. Therefore:
+every condition PRE-REGISTERED as an equation before any number is inserted;
+every step tagged DERIVED or ASSUMED; every number machine-verified.
+
+--------------------------------------------------------------------------------
+0. SETUP — VERIFIED GROUND TRUTH (all Python-checked 2026-07-05)
+--------------------------------------------------------------------------------
+D0.1 DERIVED  r_s = ħ/(2mc):  L_s = m·c·r_s = ħ/2.  Numerically r_s = 1.9308e-13 m
+              (= half reduced Compton). Check m·c·r_s/ħ = 0.5000 exactly. ✓
+D0.2 DERIVED  r_orb = ħ/(mv): L_o = m·v·r_orb = ħ.  With v = αc:
+              r_orb = 5.29177e-11 m (Bohr). Check m·v·r_orb/ħ = 1.0000 exactly. ✓
+D0.3 DERIVED  ρ = r_orb/r_s = [ħ/(mv)]·[2mc/ħ] = 2c/v = 2/α = 274.071998168(84). ✓
+D0.4 DERIVED  angular (time-)rates, per the "everything is time" rule L = dS/dθ:
+              ω_s = c/r_s = 2mc²/ħ   (inner phase rate)
+              ω_o = v/r_orb = mv²/ħ  (outer phase rate)
+              ω_s/ω_o = 2c²/v² = 2/α² = 37557.7300899(115). ✓ (machine-checked)
+D0.5 NOTE     Everything above is the RELATIONSHIP (closed, do not re-litigate).
+              The open object is the single pure number ρ (equivalently v/c).
+
+DEGREE-OF-FREEDOM BOOKKEEPING (the frame for all three mechanisms):
+The single-vortex configuration space, POAMS-natively, has
+  (i)  two compact winding integers (inner half-winding → ħ/2; outer → ħ)
+  (ii) one non-compact modulus: the rate-ratio v/c = the TILT of the composed
+       time-flow (Pope's cone: sinθ = v/c, established in the VCA audit)
+  (iii) one overall scale (absorbed by ħ; irrelevant to any pure ratio).
+Any mechanism claiming to force ρ must output a POINT of the non-compact
+modulus (ii). Conditions on compact cycles output INTEGERS; the standing
+theorem from the cone runs (ALPHA-CONE, verified) is that winding ⊥ tilt.
+Each mechanism below is tested against this bookkeeping explicitly.
+
+================================================================================
+MECHANISM (a) — SPIN⊕ORBITAL VECTOR-COMPOSITION LOCK (Pope App. 4–5, one vortex)
+================================================================================
+
+PRE-REGISTERED CONDITION (before any number):
+  App-5 machinery transposed to one vortex: total AM is the vector composition
+    J = L_o ⊕ L_s,   |J| = |ħ ± ħ/2| ∈ {3ħ/2, ħ/2}          ... (A1)
+  and the composition feeds back on the radius through the orbital law
+    r_eff = |J| / (m v).                                       ... (A2)
+  CLAIM TO TEST: does (A1)+(A2) close into an equation with a unique root for
+  v/c (equivalently ρ)?
+
+SOLVE (all steps explicit):
+A.1 DERIVED  From (A1),(A2):
+      aligned:      r_eff = (3ħ/2)/(mv) → ρ_eff = r_eff/r_s = (2c/v)(3/2) = 3/α
+      anti-aligned: r_eff = (ħ/2)/(mv)  → ρ_eff = (2c/v)(1/2)      = 1/α
+    Numerically (α inserted only AFTER the algebra): 411.108 and 137.036.
+    ⚠ FISHING FLAG, self-caught: the anti-aligned composed ratio is c/v = 1/α
+    = 137.036 "on the nose." This is NOT a derivation of 137 — it is 137 fed in
+    through v and handed back relabeled. The composition shuffles ρ's DEFINITION
+    by rational factors {1/2, 3/2}; it never touches v. Any run that presents
+    this as a hit has committed exactly my documented failure mode.
+A.2 DERIVED (the lock theorem — one line):
+    The composition system (A1)–(A2) is HOMOGENEOUS of degree 0 under the
+    rescaling  v → λv, r → r/λ  (all products m·v·r invariant, so every AM
+    magnitude, every |J|, and (A2) itself are invariant), while v/c → λ·(v/c).
+    Hence NO equation built solely from AM magnitudes and the orbital law can
+    have a root at a particular v/c: if (v/c)* solved it, so would λ(v/c)* ∀λ.
+    This is the same scale-invariance theorem as the isolated-cone null,
+    re-proved in composition variables.
+A.3 DERIVED  What (A1) DOES force: the rational order-unity spectrum of
+    composed-to-inner ratios, ρ_eff ∈ (2/α)·{1/2, 3/2} — i.e. STRUCTURE
+    (doubling, j = l ± ½ splitting pattern), never SCALE. Identical in kind to
+    the FS-COUNT result: order-unity rationals cannot manufacture a
+    parametrically large/small number.
+A.4 ASSUMED (flagged): that App-5 composition transposes to a single vortex as
+    scalar ± addition. A richer transposition (continuous tilt angle γ between
+    L_s and L_o, J² = L² + S² + 2LS·cosγ) only ADDS a compact angle γ — one more
+    compact DOF, still orthogonal to v/c by A.2.
+
+EDGE CASE CHECKED (devil's advocate duty): could CONTINUITY of the circulation
+profile across the one substance lock the radii? If the vortex outside the core
+is a single irrotational sheet, v(r)·r = const, then c·r_s = v·r_orb would be
+forced. But c·r_s = ħ/(2m) and v·r_orb = ħ/m — they differ by EXACTLY the
+factor 2 already present in ρ = 2c/v. So single-sheet continuity is
+inconsistent with (ħ/2, ħ) winding assignments — meaning the inner and outer
+circulations are DISTINCT branches (which is why ρ has the 2 in it), and any
+smooth profile v(r) interpolating (r_s, c) → (r_orb, v) exists for EVERY v:
+continuity is one condition on a free function, not a lock. NULL confirmed.
+
+VERDICT (a): LEAVES ρ FREE. Proven by homogeneity (A.2). What it forces is the
+rational fine-structure of the composed spectrum ({1/2, 3/2} factors), which is
+real POAMS content but scale-free. The seductive 137.036 in A.1 is circular.
+
+================================================================================
+MECHANISM (b) — PHASE-CLOSURE OF OUTER ON INNER (one shared substance/phase)
+================================================================================
+
+PRE-REGISTERED CONDITIONS (three natural variants, ALL stated before numbers;
+no variant may be selected post hoc — anti-Wyler rule):
+
+  (b-i) TEMPORAL commensurability: the vortex is one standing pattern in one
+        phase; after one closed outer circuit the inner phase must return:
+          ω_s / ω_o = N ∈ ℤ            ⟹  N = 2/α², α = √(2/N), ρ = √(2N)  (B1)
+  (b-ii) SPATIAL winding closure: an integer number of inner circumferences
+        fits around the outer loop:
+          2πr_orb / 2πr_s = ρ ∈ ℤ      ⟹  α = 2/ρ                          (B2)
+  (b-iii) ACTION closure ("everything is time," L = dS/dθ): the spin action
+        accumulated during one outer period is an integer number of h:
+          S_s/h = (ħ/2)·ω_s·T_orb / h = (1/2)(ω_s/ω_o) = 1/α² = M ∈ ℤ      (B3)
+
+SOLVE — each variant computed, THEN compared to sovereign data (CODATA
+α⁻¹ = 137.035999084(21), rel. unc. 1.53e-10). All machine-verified:
+
+B.1 (B1): N = 2/α² = 37557.7300899 ± 0.0000115.
+    Fractional part 0.7301. Distance to nearest integer = 2.3×10⁴ σ.
+    Nearest lattice points: N=37557 → α⁻¹=137.0346671; N=37558 → α⁻¹=137.0364915.
+    Measured 137.0359991 sits at fractional position 0.73 between them.
+    → strict temporal commensurability is EMPIRICALLY EXCLUDED.
+B.2 (B2): ρ = 2/α = 274.071998168 ± 0.000000042.
+    Fractional part 0.0720. Distance to nearest integer = 1.7×10⁶ σ.
+    ⚠ THE BIG TRAP, named: ρ = 274 gives α⁻¹ = 137.000 EXACTLY. This is the
+    single most seductive wrong answer available in this problem — "an integer
+    number of spin windings round the orbital loop ⇒ 1/137." It is wrong by
+    0.026% = 1.7 MILLION σ. Any confident presentation of ρ=274 as the answer
+    is the documented failure mode in its purest form. Half-integer lattice
+    also fails (ρ mod ½ = 0.0720, same exclusion). REFUSED.
+B.3 (B3): M = 1/α² = 18778.8650450 ± 0.0000058.
+    Fractional part 0.8650. Distance to nearest integer = 2.3×10⁴ σ.
+    Nearest: M=18778 → α⁻¹=137.0328; M=18779 → α⁻¹=137.0364915. Excluded.
+B.4 DERIVED (the structural theorem behind all three failures):
+    Spatial single-valuedness of the phase around each closed loop is what
+    QUANTIZES the two windings (→ ħ/2, ħ) — it is ALREADY SPENT in D0.1–D0.2.
+    TEMPORAL commensurability of the two rates is an ADDITIONAL assumption:
+    a stationary compound circulation e^{i(n_s φ_s + n_o φ_o)} is single-valued
+    for ANY rate ratio, because the two phases wind independent compact circles
+    (a torus flow); only a RIGIDLY-ROTATING pattern needs commensurate rates,
+    and nothing in the liturgy demands rigidity. So (b) closure conditions are
+    (α) not forced, and (β) even if imposed, produce a countable LATTICE of
+    allowed α with a NEW free integer — and sovereign data sits OFF every
+    pre-registered lattice by ≥2×10⁴ σ. Double null.
+B.5 DERIVED (independent corroboration): measured α RUNS with energy (~1/137
+    atomic → ~1/128 at m_Z). A fixed integer commensurability cannot run.
+    Any static winding-lattice answer was dead before arithmetic.
+
+VERDICT (b): does NOT force ρ. In its natural strict forms it is FALSIFIED
+(data off-lattice at 10⁴–10⁶ σ); in its honest form (spatial closure only) it
+is already consumed in defining ħ/2 and ħ and says nothing about v/c.
+This is the empirical companion to A.2: composition can't force ρ (theorem),
+and closure lattices are off the data (measurement).
+
+================================================================================
+MECHANISM (c) — MACHIAN SELF-CONSISTENCY (v/c as eigenvalue of vortex-in-totality)
+================================================================================
+
+PRE-REGISTERED CONDITION:
+  v/c is the fixed point of the vortex's closure ON THE TOTALITY:
+    1 − cosθ = δ,  sinθ = v/c,  δ = 4π/W                       ... (C1)
+  with W the closure weight of the intransitive transaction web (this is the
+  established chain: forced fixed-point + criticality identity κ=1 + marginal
+  kernel G(θ)=1−(1−cosθ)², square-root correction per the audited link).
+
+SOLVE / STATUS (building forward, not re-proving):
+C.1 DERIVED (restriction theorem): restricted to the SINGLE vortex alone —
+    which is what this run was asked to test — (C1) degenerates: with the
+    totality removed there is no second scale; inventory {c, ħ, n, 2π} admits
+    no dimensionless ratio; the isolated closure map is homogeneous degree 1
+    (Machian criticality). This is the CLOSED isolated-cone theorem re-landing:
+    a single vortex closing on ITSELF cannot output a point of the non-compact
+    modulus. So "single-vortex Machian self-consistency" is, strictly, an
+    OXYMORON: the Machian condition is constitutively multi-vortex.
+C.2 DERIVED (what the totality-version forces, transposed into ρ-language —
+    this is new phrasing of established results, worth keeping):
+      • ρ FINITE is a TOPOLOGICAL NECESSITY: α ≠ 0 (χ(S²)=2, hairy-ball) ⟺
+        the vortex CANNOT be pure inner spin with no outer circulation.
+        The outer, slower winding must exist. ρ < ∞ forced.
+      • ρ ≫ 2 forced generically: marginal kernel (quartic zero-mode) ⟹
+        v/c small ⟹ ρ = 2c/v large. Smallness explained, value not given.
+      • ρ transcendental, pure (no N, no epoch, no distance): forced by
+        intransitivity + non-topological closure defect. (Consistent with
+        B.1–B.3: ρ provably off every integer/half-integer lattice — the
+        transcendentality prediction and the lattice exclusions AGREE.)
+C.3 STATUS of the value: W's magnitude remains the located incompleteness
+    (forward-derived α⁻¹ ≈ 9–18 vs measured 137; Δln W ≈ 4–5). Nothing in the
+    single-vortex reduction touches, improves, or worsens that. Honest.
+
+VERDICT (c): as a SINGLE-vortex principle — ILL-POSED (C.1: the Machian
+condition has no single-vortex restriction; removing the totality removes the
+equation). As a totality principle — forces ρ's NATURE (finite, ≫2, pure,
+transcendental) but not its VALUE; that is the standing frontier, unchanged.
+
+================================================================================
+ARE (a), (b), (c) THE SAME STATEMENT? (the transposition question)
+================================================================================
+NO — and the bookkeeping of §0 says precisely how they differ:
+  • (a) and (b) ARE essentially one statement: both are closure conditions on
+    the COMPACT sector (winding integers, composition angles, rational AM
+    ratios). By the homogeneity theorem (A.2) and the winding⊥tilt theorem,
+    that entire sector is ORTHOGONAL to the non-compact modulus v/c that
+    carries ρ. They force structure (ħ/2, ħ, {1/2,3/2} composition factors,
+    splitting patterns) and provably cannot force scale.
+  • (c) is the ONLY statement aimed at the correct degree of freedom (the
+    tilt), and it is constitutively NOT a single-vortex statement (C.1). The
+    single vortex borrows its one dimensionless number from the totality.
+So the transposition "does one vortex's self-composition fix its own ρ?" has a
+theorem-grade answer: it cannot, for the same reason a triangle's similarity
+class is not fixed by naming its vertices.
+
+================================================================================
+FISHING FLAGS RAISED AND REFUSED THIS RUN (mandatory disclosure)
+================================================================================
+1. ρ_eff = c/v = 137.036 from anti-aligned composition (A.1) — circular, α fed
+   in via v. REFUSED as a "hit."
+2. ρ = 274 ⟹ α⁻¹ = 137 exactly (B.2) — the purest trap in the problem;
+   excluded at 1.7×10⁶ σ. REFUSED.
+3. N = 37558 ⟹ α⁻¹ = 137.03649 (B.1) — 3.6×10⁻⁶ relative miss, looks
+   brilliant, is 2.3×10⁴ σ wrong, and no principle picks that N. REFUSED.
+No march toward 137/274 was accepted anywhere; every lattice was pre-registered
+before evaluation and killed by sovereign data.
+
+================================================================================
+OVERALL VERDICT
+================================================================================
+CLEAN NULL, theorem-backed, in the strong sense the task values:
+NO single-vortex self-consistency principle forces ρ.
+  (a) vector-composition lock: leaves ρ FREE (homogeneity theorem A.2);
+      forces only rational order-unity structure {1/2, 3/2}.
+  (b) phase-closure: leaves ρ FREE in its honest form (spatial closure already
+      spent on ħ/2, ħ); its strict lattice forms (B1)(B2)(B3) are EMPIRICALLY
+      FALSIFIED at 2.3×10⁴ σ, 1.7×10⁶ σ, 2.3×10⁴ σ respectively — which
+      POSITIVELY CORROBORATES the standing forced-transcendentality of the
+      ratio: ρ is off every integer lattice because it MUST be.
+  (c) Machian self-consistency: ILL-POSED as a single-vortex principle (the
+      totality IS the equation); as a totality principle it forces ρ's nature
+      (finite — topological necessity; large; pure; transcendental) but not
+      its value, which remains the located W-incompleteness (Δln W ≈ 4–5).
+POSITIVE CONTENT EXTRACTED FROM THE NULL:
+  ρ finite is forced (the outer circulation MUST exist — χ(S²)=2 transposed);
+  ρ non-integer/non-lattice is forced AND now measured (the transcendentality
+  prediction passes its cleanest empirical test yet, at up to 10⁶ σ);
+  and the α-value problem is proven NOT to hide inside the single vortex —
+  it lives, irreducibly, in the vortex–totality relation. α is the one number
+  the electron does not know about itself.
+
+Exact expressions for Python verification (all already machine-checked):
+  ρ = 2/α = 274.071998168(84);  2/α² = 37557.7300899(115);
+  1/α² = 18778.8650450(58);  frac parts 0.0720 / 0.7301 / 0.8650;
+  composed ratios 3/α = 411.107997, 1/α = 137.035999084.
+================================================================================
