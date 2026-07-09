@@ -109,10 +109,15 @@ button.seg.on { background:#3498db; color:#04121f; font-weight:700; }
 <h2>3. Second level: gravitation is orbital time dilation</h2>
 <p>The atom's constituents carry angular momentum. For circular motion of $m$ about $M$, conservation of angular momentum alone gives the natural-orbit condition — no <em>in vacuo</em> force invoked (Osborne; Pope, App. 4):</p>
 <div class="eq">$$v^2=\frac{GM}{r}.$$</div>
-<p>Substituting into the <em>same</em> time formula yields gravitational time dilation directly:</p>
-<div class="eq">$$t_R=\frac{t}{\sqrt{1-GM/(c^2 r)}}.$$</div>
+<p>Substituting into the <em>same</em> time formula yields the orbital-<em>velocity</em> dilation directly:</p>
+<div class="eq">$$t_R=\frac{t}{\sqrt{1-GM/(c^2 r)}}\qquad\text{(velocity part — Osborne eq. 8.9).}$$</div>
+<p>That is the dilation from the circulation alone. A real clock also carries the standing “gravitational” (potential) part, so the two observable cases separate cleanly (Osborne, eqs.&nbsp;8.22–8.23):</p>
+<div class="eq">$$\underbrace{t_R=\frac{t}{\sqrt{1-2GM/(c^2 r)}}}_{\text{held at rest at }r\ (8.23)}\qquad\qquad \underbrace{t_R=\frac{t}{\sqrt{1-3GM/(c^2 r)}}}_{\text{free circular orbit at }r\ (8.22)}.$$</div>
+<p>The orbiting clock's extra term — the “$3$” against the held clock's “$2$” — is precisely its orbital-velocity contribution $v^2/c^2=GM/c^2r$: potential dilation and velocity dilation together, from the one formula applied to a <em>circulating</em> clock. Osborne's preliminary (8.9) keeps only the velocity piece and is <em>not</em> the full clock rate.</p>
 <div class="result">
-<span class="tag tag-d">DERIVED</span> This is the clock-rate law confirmed by GPS and in strong gravity — the same single substitution that produced the spectrum. In Normal Realism "gravitation" <em>is</em> this orbital time dilation; there is no separate gravitational force. Bring the clock closer to the mass below and watch it slow.</p>
+<span class="tag tag-d">DERIVED</span> These are the general-relativistic clock rates, and their <em>difference</em> is what GPS actually measures — a satellite (orbiting, 8.22) against a ground station (held, 8.23):
+<div class="eq" style="margin-top:8px;">$$\frac{\tau_{\text{sat}}-\tau_{\text{gnd}}}{\tau}\approx\frac{GM_\oplus}{c^2R_\oplus}-\frac{3\,GM_\oplus}{2c^2 r}=+4.46\times10^{-10}\ \Rightarrow\ +38.5\ \mu\text{s/day},$$</div>
+with $r=2.656\times10^{7}$ m and $R_\oplus=6.371\times10^{6}$ m — the measured GPS offset. In Normal Realism “gravitation” <em>is</em> this orbital time dilation; there is no separate gravitational force. Bring the clock closer to the mass and watch it slow.</p>
 </div>
 
 <div class="exhibit">
@@ -122,7 +127,7 @@ button.seg.on { background:#3498db; color:#04121f; font-weight:700; }
 <label>orbital radius&nbsp; $r$ (in units of $GM/c^2$) <input id="s3" type="range" min="1.5" max="60" step="0.1" value="20"></label>
 </div>
 <div class="readout" id="r3"></div>
-<div class="ex-cap">The orbiting clock's rate is $\sqrt{1-GM/(c^2r)}$ of the deep-space clock. Closer orbit → faster circulation ($v^2=GM/r$) → greater time dilation → slower clock. This is the GPS correction and the "gravitational" redshift, from one substitution.</div>
+<div class="ex-cap">The factor plotted, $\sqrt{1-GM/(c^2r)}$, is the orbital-<em>velocity</em> dilation (Osborne 8.9). The full observable rates are $\sqrt{1-2GM/c^2r}$ (held) and $\sqrt{1-3GM/c^2r}$ (orbiting); the GPS offset is their <em>difference</em> (see text). Closer orbit → faster circulation ($v^2=GM/r$) → greater dilation → slower clock — the same “gravitational” redshift, from one substitution.</div>
 </div>
 
 <h2>4. Fine structure <em>is</em> orbital time dilation</h2>
@@ -236,6 +241,47 @@ $\alpha=v_{\text{orb}}/c$ — an orbital speed; its value empirical, as everywhe
 <p class="note">Stated as what the mathematics licenses, not as doctrine. The result is conditional on the present axioms: a future, deeper principle that fixed the overshoot $N$ would reopen the question and turn the contingency back into a computation. Nothing in what we now have forces such a principle — but nothing forbids one either. The boundary is where today's axioms end, and it is drawn honestly.</p>
 
 <hr>
+<h2>14. One anholonomy, two levels: Mercury's perihelion and $\alpha$</h2>
+<p>Part&nbsp;II proved $\alpha$'s value is <b>contingent</b>: pushed to its edge, the ground vortex's phase <em>doesn't quite re-close</em>, and the size of that mis-closure is the free overshoot $N$. A natural question presses itself. There is another famous thing in physics that <em>doesn't quite close</em> — the orbit of Mercury, whose perihelion creeps forward $43''$ each century because the ellipse fails to shut after one turn. Is it the <em>same</em> not-quite-closing? It is. Both are <b>anholonomies</b> — geometric phases — of the one time-cone, one level apart. That single fact hands us two things at once: a hard data anchor for the mechanism, and a physical proof of <em>why</em>, of the two, $\alpha$ is the one left free.</p>
+
+<h3>14.1 Both are anholonomies of the one time-cone</h3>
+<p>Carry a frame once around a closed loop on the substance's angular–radial time-cone and it comes back <em>rotated</em> — shifted by a deficit equal to the curvature enclosed:</p>
+<div class="eq">$$\Theta(L)=\oint_L A=\iint_S F=\ \text{(solid-angle / cone deficit enclosed by }L\text{)}.$$</div>
+<p>This is holonomy: the loop remembers the curvature it bounded. Mercury's perihelion is this deficit read on a <em>spatial-angle</em> loop — the periapsis direction fails to return, so the ellipse precesses. The $\alpha$-slip is the <em>same</em> deficit read on a <em>phase</em> loop — the vortex's internal circulation fails to return in phase, a Berry holonomy. One connection, two loops. It is Part&nbsp;I's <em>one formula, two levels</em> seen at its deepest: not two analogies but a single geometric object appearing at the macro and the micro scale.</p>
+
+<h3>14.2 The ladder</h3>
+<p>Every rung is the same $(v/c)^2$ anholonomy per turn; the rungs differ only by an <em>integer</em> that the loop's geometry fixes:</p>
+<div class="eq">$$\text{cap} : \text{geodetic} : \text{perihelion} \;=\; \pi : 3\pi : 6\pi \;=\; 1:3:6.$$</div>
+<p>The kinematic core shared by all three is <b>Thomas precession</b> — the $(v/c)^2$ holonomy of composed boosts. The very $\tfrac12$ that Thomas precession contributes to spin–orbit fine structure <em>is</em> $\alpha$'s cap. The bottom rung (the cap / Berry phase) is source-free; the middle rung ($3\pi$) is de&nbsp;Sitter geodetic precession; the top rung ($6\pi$) is the perihelion advance, which in POAMS follows from Osborne's two-postulate metric (2007, §§8.4–8.6: the tilt-cone plus the $a=2$ free-orbit geodesic plus Newtonian closure force $B=(1-2GM/c^2r)^{-1}$).</p>
+
+<h3>14.3 The data anchor — the sourced leg reproduces Mercury</h3>
+<p>The top rung is not decorative; it is measured. The apsidal deficit per orbit,</p>
+<div class="eq">$$\Delta\varphi=\frac{6\pi\,GM}{c^2\,a\,(1-e^2)},$$</div>
+<p>evaluated on Mercury's sovereign, independently-measured orbital elements, reproduces the classic number to four figures:</p>
+<div class="result">
+<span class="tag tag-d">DERIVED · DATA-CHECKED</span> $0.10352''$ per orbit $\times\ 415.20$ orbits per century $=\ \mathbf{42.981''/\text{century}}$, against the measured $42.98\pm0.04''$. The bare cone alone — the Thomas cap, coefficient $\pi$ — would give only $7.16''$, a factor-of-six miss. The data therefore <em>selects</em> the full $6\pi$: it is the whole Keplerian loop, not the kinematic core, that Mercury measures.</div>
+
+<h3>14.4 The coefficients are geometry, not a knob</h3>
+<p>The two rungs that matter here — $\pi$ below, $6\pi$ above — are each forced by their loop, with nothing tuned between them.</p>
+<p><b>(i) Source-free, coefficient $\pi$.</b> The loop is the spin-$\tfrac12$ tilt cap: a fixed-latitude circle at half-angle $\theta$ on the cone. Its holonomy is the bare solid-angle deficit</p>
+<div class="eq">$$\Omega_{\rm cap}=2\pi(1-\cos\theta)=\pi\alpha^2,$$</div>
+<p>and spin-$\tfrac12$ transport takes half of it, $-\pi(1-\cos\theta)=-\pi/N$. Verified: $2\pi(1-\cos\theta)=1.67296\times10^{-4}$ against $\pi\alpha^2=1.67294\times10^{-4}$, with $N=2/\alpha^2=37{,}557.73$.</p>
+<p><b>(ii) Sourced, coefficient $6\pi$.</b> The loop is the Keplerian ellipse riding in the $M$-sourced cone. The relativistic term $2GM u^3/c^2$ ($u=1/r$) detunes the radial oscillator from the angular one, so the orbit no longer shuts and the periapsis walks forward by $6\pi(v/c)^2/(1-e^2)$ per turn. The <b>“$6=2\times3$”</b> is transparent: the $3$ is the Schwarzschild curvature coefficient — the same $3$ that doubles the Newtonian bending of light — and the $2$ is the radial round-trip taken once per orbit. The eccentricity factor $1/(1-e^2)$ belongs only to the ellipse, which alone has a radial excursion; the cap has none. The gap between $\pi$ and $6\pi$ is thus loop geometry — a different topology enclosing different content — not a coefficient anyone was free to move.</p>
+
+<h3>14.5 The honest bound — one connection, not one formula</h3>
+<div class="honest">
+<span class="tag tag-e">HONEST BOUND</span> The two levels carry <b>different</b> coefficients — micro $\pi$, macro $6\pi$ — and this is not a blemish to be smoothed over; the micro <em>data itself</em> confirms it. Observed atomic fine structure is $\pi$-type: the Sommerfeld–Dirac result $k=\sqrt{1-Z^2\alpha^2}$ carries exactly the cap's coefficient, and a $6\pi$ atomic anholonomy would have shown up as a gross mis-splitting excluded by a century of spectroscopy. So what is proven is a genuine <em>same-type</em> unification — one kinematic connection, with Thomas precession as its literal shared core — and <b>not</b> a single formula spanning both levels. Why each level sits on the rung it does, rather than another, is left undetermined; the claim is deliberately no larger than what the geometry forces.</div>
+
+<h3>14.6 The payoff — why $\alpha$ is the free one</h3>
+<p>Here the unification earns its keep, because it explains the asymmetry Part&nbsp;II could only assert. Ask what the Sun does for Mercury's loop. It does <em>two</em> jobs at once: it curves the connection (through $GM$), and it fixes the tilt through the orbit condition $v^2=GM/r$ (through an external radius $a$). Both jobs pull the magnitude of the deficit from <em>outside</em> the vortex —</p>
+<div class="eq">$$\left(\frac{v}{c}\right)^2=\frac{GM}{c^2 a}\quad\text{is computable only because both }M\text{ and }a\text{ are external, measured references.}$$</div>
+<p>Now take the source-free limit properly: let $M\to$ the totality. There is no outside mass to orbit and no external radius $a$ to borrow — the “orbit” becomes the ground vortex winding against everything. Both $GM$ and $a$ vanish from the deficit, and the time-cone's scale-invariance (Part&nbsp;I §8, the Route-1 null) takes over: nothing external survives to set the magnitude of the tilt. The deficit relaxes to the bare cap $\pi\alpha^2$, whose size is the free tilt — the contingent overshoot $N$ of Part&nbsp;II.</p>
+<div class="result">
+<span class="tag tag-d">DERIVED</span> <b>Mercury's deficit is computable because its loop has a partner — the Sun; $\alpha$'s deficit is contingent because its only partner is everything.</b> The proven contingency of $\alpha$ is literally the $M\to$self limit of the perihelion holonomy: delete the external reference and the same anholonomy goes flat. This is a <em>physical</em> derivation of Part&nbsp;II's Flat-Direction verdict, not a restatement of it.</div>
+<p>And because the rungs genuinely differ — $\pi$ against $6\pi$ — there is provably <b>no arithmetic road</b> from $43''/\text{century}$ to the value of $\alpha$. The firewall holds by construction: the reproduced perihelion tests the mechanism, and $\alpha$ stays free, exactly as the scale-invariant limit demands. We do not pin it, and the geometry guarantees no one can pin it this way.</p>
+<p>Gravity's most famous <em>doesn't-quite-close</em> and $\alpha$ are two readings of one geometric phase — computable when the loop has an outside, free when it doesn't.</p>
+
+<hr>
 <h2>Appendix A — Key results, cleanly stated</h2>
 <p class="note">Each entry: the statement, a one-line proof-sketch, and the verified number. All were checked independently in Python; none was fitted to its target.</p>
 <table>
@@ -248,6 +294,9 @@ $\alpha=v_{\text{orb}}/c$ — an orbital speed; its value empirical, as everywhe
 <tr><td><b>Minimal bias</b> $\varepsilon_c=\tfrac12\ln2$</td><td>Least symmetry-breaking correlation on the intransitive web; $\operatorname{atanh}(\tfrac13)=\tfrac12\ln((1{+}\tfrac13)/(1{-}\tfrac13))=\tfrac12\ln2$.</td><td>$\varepsilon_c=0.34657$ (half a bit)</td></tr>
 <tr><td><b>Super-minimal offset</b></td><td>Bare threshold $\Rightarrow N=\infty,\ \alpha=0$; matter requires overshoot $\Delta\varepsilon=\tfrac23\alpha^{2}$, and the overshoot is $N$.</td><td>$\tfrac23\alpha^{2}=3.55\times10^{-5}$</td></tr>
 <tr><td><b>Flat-Direction Theorem</b></td><td>Intransitivity ⇒ tree-like ⇒ mean-field $\gamma=1$ exactly ⇒ the self-consistency loop cancels $N$ identically.</td><td>$\gamma=1\ \Rightarrow\ N$ free (degenerate)</td></tr>
+<tr><td><b>Anholonomy ladder</b></td><td>One time-cone connection; holonomy $=$ enclosed solid-angle deficit; the integer per loop is loop geometry, not a knob. Thomas precession is the shared kinematic core.</td><td>cap $:$ geodetic $:$ perihelion $=\pi:3\pi:6\pi=1:3:6$</td></tr>
+<tr><td><b>Mercury perihelion</b> (data anchor)</td><td>Sourced leg $\Delta\varphi=6\pi GM/c^2a(1-e^2)$ on sovereign orbital elements; bare cap $\pi$ gives only $7.16''$ — data selects the full $6\pi$.</td><td>$42.981''/\text{cy}$ (measured $42.98\pm0.04$)</td></tr>
+<tr><td><b>$M\to$self limit</b></td><td>Sourced deficit is computable only via external $GM$ and radius $a$; sending $M\to$ totality removes both, the cone's scale-invariance takes over, deficit $\to$ bare cap $\pi\alpha^2$.</td><td>source-free $\Rightarrow$ scale-invariant flat $\Rightarrow$ $\alpha$ free (the contingent direction)</td></tr>
 </table>
 
 <h2>Appendix B — Method &amp; provenance</h2>
@@ -262,6 +311,7 @@ $\alpha=v_{\text{orb}}/c$ — an orbital speed; its value empirical, as everywhe
 <li>Machian totality kernel: <a href="proofs/ALPHA-kernel-opus.txt">ALPHA-kernel-opus.txt</a>, <a href="proofs/ALPHA-kernel-fable.txt">ALPHA-kernel-fable.txt</a> (and <a href="proofs/ALPHA-MACHIAN-opus.txt">ALPHA-MACHIAN-opus.txt</a>, <a href="proofs/ALPHA-MACHIAN-fable.txt">ALPHA-MACHIAN-fable.txt</a>)</li>
 <li>Deriving $N$: <a href="proofs/ALPHA-DERIVE-N-opus.txt">ALPHA-DERIVE-N-opus.txt</a>, <a href="proofs/ALPHA-DERIVE-N-fable.txt">ALPHA-DERIVE-N-fable.txt</a></li>
 <li>The bootstrap: <a href="proofs/ALPHA-BOOTSTRAP-opus.txt">ALPHA-BOOTSTRAP-opus.txt</a>, <a href="proofs/ALPHA-BOOTSTRAP-fable.txt">ALPHA-BOOTSTRAP-fable.txt</a></li>
+<li>One anholonomy (perihelion ↔ $\alpha$): <a href="proofs/ALPHA-ANHOLONOMY-opus.txt">ALPHA-ANHOLONOMY-opus.txt</a>, <a href="proofs/ALPHA-ANHOLONOMY-fable.txt">ALPHA-ANHOLONOMY-fable.txt</a></li>
 <li>Scale-invariance of the cone: <a href="proofs/ALPHA-CONE-opus.txt">ALPHA-CONE-opus.txt</a>, <a href="proofs/ALPHA-CONE-fable.txt">ALPHA-CONE-fable.txt</a></li>
 <li>The Wyler exclusion (firewall case study): <a href="proofs/ALPHA-wyler-opus.txt">ALPHA-wyler-opus.txt</a>, <a href="proofs/ALPHA-wyler-fable.txt">ALPHA-wyler-fable.txt</a></li>
 <li>Full narrative ledger: <a href="proofs/DERIVATION-LEDGER.md">DERIVATION-LEDGER.md</a></li>

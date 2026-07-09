@@ -1,0 +1,282 @@
+════════════════════════════════════════════════════════════════════════════
+ONE ANHOLONOMY, TWO LEVELS — Mercury's perihelion (sourced) and α's Berry
+defect (source-free) as ONE geometric phase of the time-cone.
+OPUS-4.8 — frame & ground-truth holder. 2026-07-08 night. Forward run,
+forced-before-comparison. Parallel to Fable-5 (independent).
+Firewall: do NOT derive α; the perihelion leg IS the data test (43″/cy).
+Everything is time. All numbers Python-verified: /tmp/anholonomy_check.py.
+════════════════════════════════════════════════════════════════════════════
+
+I inherited the CHARTER liturgy (one substance = angular momentum = structured
+time; no container/field; relativity = Pythagoras on a cone; DATA sovereign),
+the FOUNDATION brief, the fine-structure paper (§3 gravitation=orbital time
+dilation, §4 fine structure=orbital time dilation), Osborne's *Orbital Time
+Dilation* (the Schwarzschild metric and perihelion shift AS a consequence of
+time dilation), and the two timekernel runs (Berry defect −π(1−cosθ)=−π/N,
+source-free closure; γ=1 flat direction = the contingent direction). I then
+built the single anholonomy from scratch and compared to data only at verdict.
+
+────────────────────────────────────────────────────────────────────────────
+0. THE OBJECT — one connection on the angular-radial time-cone
+────────────────────────────────────────────────────────────────────────────
+FROM-SOURCE (paper §1; ELL App.1): the whole physics is the Pythagorean time
+triangle  t_R² = t² + (s/c)²,  sin θ = v/c,  cos θ = √(1−v²/c²) = 1/γ. All
+three legs are TIMES; c converts length↔time; there is no spatial container.
+[FROM-SOURCE]
+
+DERIVED — the connection. A stable existent is an ħ-circulation (a vortex): a
+frame that is parallel-transported as the circulation is carried around a
+closed loop on this time-cone. The one substance ⇒ ONE connection: parallel
+transport of the circulation frame on the tilt-cone sin θ = v/c. Its holonomy
+(anholonomy) around a closed loop L is the CONE / SOLID-ANGLE DEFICIT enclosed:
+     ┌─────────────────────────────────────────────────────────────┐
+     │  Θ(L) = ∮_L ω  =  (solid angle / cone deficit enclosed by L)  │  (HOL)
+     └─────────────────────────────────────────────────────────────┘
+For a cone of half-angle θ (a circle of latitude at tilt θ), the deficit is the
+classic  Ω_cap = 2π(1 − cos θ). This is the SAME object whether the tilt θ is
+set by an external mass (v² = GM/r, "gravitation" = orbital time dilation, §3)
+or by the vortex's own internal circulation (v = v_orb, sin θ = α, §4). ONE
+connection; the two legs differ only in WHAT the loop encloses. [DERIVED]
+
+Both legs are order (v/c)² per cycle: perihelion GM/c²a = (v/c)²; α: sinθ=v/c.
+Same shape — geometric-factor × (v/c)². [DERIVED / FROM-SOURCE]
+
+────────────────────────────────────────────────────────────────────────────
+1. IS IT ONE CONNECTION, OR TWO SAME-TYPE? — the Thomas-precession verdict
+────────────────────────────────────────────────────────────────────────────
+Standard physics keeps them apart: perihelion advance = holonomy of the
+Levi-Civita connection on curved spacetime (parallel transport of the periapsis
+/ Runge–Lenz direction around the orbit); Berry phase = holonomy of the spin
+(SU(2)/U(1)) bundle. DIFFERENT connections. The POAMS claim is that one
+substance forces one connection. Candidate physical bridge: THOMAS PRECESSION —
+the (v/c)² holonomy of composed boosts that supplies the ½ in spin-orbit fine
+structure and is kin to geodetic precession. Test it honestly at both levels.
+
+★ EXACT RESULT (Python-verified §A): the Thomas precession per closed loop and
+the time-cone cap deficit are the SAME solid angle.
+   Thomas per loop (lowest order) = 2π(γ − 1).
+   Cap deficit                    = 2π(1 − cos θ),  cos θ = 1/γ  ⇒ 1−cosθ = 1−1/γ.
+   2π(γ−1) and 2π(1−1/γ) agree to O(v²/c²) = O(α²) — Python ratios:
+        b=v/c=1e-3 → 1.0000005 ;  b=α=7.30e-3 → 1.0000266 ;  equal to O(α²).
+This is the KNOWN fact that Thomas precession = the solid angle subtended by the
+boosted velocity's cone on the (rapidity) sphere. In POAMS language: the tilt
+sinθ=v/c IS the boost, and transporting the frame around the tilt-cone gives
+exactly the Thomas solid angle. [DERIVED, matches standard SR geometry.]
+
+CONSEQUENCE — the source-free leg is EXACTLY Thomas-type:
+   Ω_cap = 2π(1 − cos θ) = π α²  (Python: 1.672963e−04 = π α² 1.672941e−04 to O(α⁴)),
+   spin-½ Berry phase = −½ Ω_cap = −π(1−cosθ) = −π/N.
+So the source-free α anholonomy (Berry cap) IS the Thomas precession of the
+ground vortex's own tilt. LEVEL 2: UNIFIED — same connection, same solid angle.
+
+The sourced leg is Thomas-type ONLY IN ITS KINEMATIC CORE. The pure boost
+(Thomas) holonomy of the orbital tilt is π(v/c)² per orbit — but the measured
+perihelion is 6π(v/c)²/(1−e²), i.e. SIX times larger (§2). The extra factor is
+NOT boost-composition; it is the sourced curvature the loop encloses (the mass
+M's own organized AM, via v²=GM/r) plus the eccentric radial–angular loop. So:
+  • Thomas precession is the LITERAL shared kinematic core present at BOTH
+    levels (the ½ in micro spin-orbit; the 1/6 kinematic piece of the macro
+    perihelion; = exactly the whole source-free α leg).
+  • It is NOT the whole perihelion. Claiming "perihelion IS Thomas" is an
+    overreach and is REFUSED. The perihelion is the apsidal anholonomy of the
+    Keplerian action–angle torus in the M-sourced cone; Thomas is 1/6 of it.
+
+HONEST VERDICT ON THE FORK: ONE CONNECTION (the time-cone transport), whose
+holonomy is a solid-angle/cone deficit at both levels — but realized on TWO
+different loops (spin-½ tilt cap vs Keplerian ellipse), so it is ONE CONNECTION
+with SAME-TYPE-but-different-coefficient holonomies, NOT one single formula with
+one coefficient. Thomas precession is the exact bridge for the source-free leg
+and the kinematic core of the sourced leg — the physical thing that makes the
+"one connection" claim more than a slogan.
+
+────────────────────────────────────────────────────────────────────────────
+2. SOURCED LEG — reproduce Mercury's 43″/century (the data test)
+────────────────────────────────────────────────────────────────────────────
+FROM-SOURCE (Osborne, *Orbital Time Dilation*, §4): the Schwarzschild metric is
+DERIVED in POAMS as a consequence of the time-dilation of circular motion, NOT
+from Einstein field equations —
+   −c²dτ² = −c²(1−2M/r)dt² + (1−2M/r)⁻¹dr² + r²dθ²,   M ≡ GM/c².
+The non-circular geodesic equation (eq. 4.6):
+   (du/dθ)² + u² = K* + 2M(c²/β²)u + 2M u³,   u = 1/r.
+The term 2M u³ = 2(GM/c²)u³ is the relativistic correction; it detunes the
+radial oscillator from the angular one, so the orbit no longer closes — the
+perihelion advances. [FROM-SOURCE]
+
+DERIVED (standard reduction of eq. 4.6, the well-known Schwarzschild apsidal
+result): per orbit,
+     ┌────────────────────────────────────────────────────────┐
+     │   Δφ_orbit = 6π G M / ( c² a (1 − e²) )                  │  (PERI)
+     └────────────────────────────────────────────────────────┘
+This IS holonomy (HOL): the failure of the periapsis direction to close after
+one loop = the anholonomy of the transport around the M-sourced cone.
+
+★ DATA TEST (Python §A, sovereign parameters):
+   G M_sun = 1.32712440018e20 m³/s² ; c = 299792458 m/s
+   Mercury: a = 5.790905e10 m, e = 0.205630, T = 87.9691 d
+   Δφ_orbit          = 5.018663e−07 rad
+   orbits/century    = 415.2026
+   ADVANCE           = 42.9807 ″ / century
+   GR/measured value = 42.98 ″/century ;  RATIO = 1.00002.
+REPRODUCED. The famous 43″/century (43″ historically; 42.98″ the modern
+GR-relevant residual) falls out of (PERI) to 4 significant figures. This is the
+genuine, non-fished, data-anchored validation of the sourced leg. [DERIVED,
+Python-verified — not fitted; every input is an independently measured element.]
+
+Coefficient identity check: v² = GM/a ⇒ Δφ_orbit = 6π(v/c)²/(1−e²)
+(Python: 5.018663e−07 rad, exact match). So the sourced coefficient is 6π.
+
+────────────────────────────────────────────────────────────────────────────
+3. THE COEFFICIENT DIFFERENCE — 6π (orbit) vs π (spin cap), from loop geometry
+────────────────────────────────────────────────────────────────────────────
+NOT fudged. The two coefficients are forced by the two DIFFERENT loops, both
+holonomies of the ONE connection (HOL):
+
+ (i) SOURCE-FREE, coefficient π. Loop = the spin-½ tilt cap: a fixed-tilt circle
+     of latitude θ on the cone. Its holonomy is the bare cone deficit
+        Ω_cap = 2π(1 − cos θ) = π(v/c)²  = π α².
+     Pure geometry of a cone of half-angle θ; coefficient = the 2π of the base
+     circle × the (1−cosθ) deficit. This is the Thomas/Berry kinematic holonomy.
+     Spin-½ transport takes half: −π(1−cosθ) = −π/N. [DERIVED]
+
+ (ii) SOURCED, coefficient 6π. Loop = the Keplerian ellipse (a radial–angular
+      action–angle torus, eccentricity e) in the M-sourced cone. The 2Mu³ term
+      detunes the radial period from 2π by the standard Schwarzschild factor,
+      giving apsidal advance 6π(v/c)²/(1−e²). The "6 = 2×3": the 3 is the
+      Schwarzschild coefficient of the u³/curvature term (the same 3 that
+      doubles Newtonian light-bending), the 2 is the round-trip radial
+      oscillation per orbit. [DERIVED, standard]
+
+WHY THEY DIFFER (structural, honest):
+  • DIFFERENT LOOP TOPOLOGY: a fixed-tilt CAP (one latitude circle, no radial
+    excursion) vs a radial-angular ELLIPSE (two coupled oscillators, eccentric).
+    The cap has only the pure solid-angle π; the ellipse's radial–angular
+    resonance detuning multiplies it up to 6π.
+  • DIFFERENT ENCLOSED CONTENT: the source-free cap encloses only the vortex's
+    own tilt (no external mass) → the bare Thomas holonomy π. The orbit encloses
+    the external mass M's sourced curvature → the extra 5π/6 of "gravitational"
+    (=orbital-time-dilation) anholonomy on top of the Thomas core.
+  • COEFFICIENT LADDER (Python §A, all in units of (v/c)² per orbit, circular):
+        Thomas / Berry cap (kinematic core) : π     [source-free α leg]
+        geodetic (de Sitter) precession     : 3π    [3πGM/c²r]
+        perihelion advance                  : 6π    [6πGM/c²a]
+        ratios: perihelion/cap = 6 ; geodetic/cap = 3 ; perihelion/geodetic = 2.
+    The perihelion is 6× the pure Thomas holonomy; the geodetic (a gyroscope
+    transported, no radial resonance) is 3×. These integer ratios are the
+    fingerprints of the loop geometry, NOT tunable knobs. The eccentricity
+    factor 1/(1−e²) appears ONLY for the orbit (it has an eccentric radial
+    excursion); the cap has no eccentricity — consistent.
+
+So the 6π vs π gap is EXPLAINED (Keplerian action-angle ellipse + sourced
+curvature vs spin-½ solid-angle cap), and every step is data-checkable. No
+coefficient was moved to make α and Mercury "match" — indeed they DON'T share a
+coefficient, and that is the correct, firewall-clean result.
+
+────────────────────────────────────────────────────────────────────────────
+4. THE M→SELF SOURCE-FREE LIMIT = THE CONTINGENT (FLAT) DIRECTION
+────────────────────────────────────────────────────────────────────────────
+Claim to test: removing the external mass/reference (M → the totality, no
+outside) sends the COMPUTABLE deficit (PERI) into the SCALE-INVARIANT FLAT one
+(magnitude free), recovering the proven contingency (γ=1 / scale-invariance).
+
+DERIVED. In the sourced deficit Δφ = 6πGM/(c²a(1−e²)), the magnitude is
+COMPUTABLE only because BOTH an external mass GM AND an external loop size a are
+given by measurement: (v/c)² = GM/(c²a) is pinned by things OUTSIDE the vortex.
+Take the source-free limit: M → the totality (there is no outside mass to orbit)
+and there is no external radius a (the "orbit" becomes the ground vortex winding
+against the totality itself). Then:
+  • GM and a both DISAPPEAR — nothing external survives to fix the scale of
+    (v/c)². The only thing left is the vortex's own tilt θ.
+  • The time-cone is SCALE-INVARIANT (paper Part I §8, Route-1 NULL: "the
+    Pythagorean time-cone fixes the similarity class of the tilt triangle but
+    not the tilt itself"). With no external mass and no external length, the
+    tilt's MAGNITUDE is unconstrained.
+  • The deficit becomes the bare cap Ω_cap = 2π(1−cosθ) = πα², whose value is
+    set by the free tilt θ = the contingent overshoot N (bootstrap: α=√(2/N),
+    N a flat direction, γ=1). This is EXACTLY the two timekernel runs' verdict:
+    a real existent's closure carries a continuous, non-integer Berry defect
+    δ = 1−cosθ = 1/N = α²/2, whose magnitude is FREE.
+
+So the M→self limit maps:  [computable 43″/cy, fixed by GM_sun, a, e]  ⟶
+[scale-invariant flat direction, magnitude of πα² free]. The sourced number is
+computable precisely because it references an external mass and radius; delete
+the reference and the SAME anholonomy goes flat — recovering γ=1 / scale-
+invariance as the M→self limit. ✓ The contingent direction is the source-free
+limit of the sourced holonomy. [DERIVED — confirms the firewall: α's magnitude
+stays free; I do NOT pin it.]
+
+FIREWALL CONFIRMED: I did not compute α. The source-free leg's magnitude is
+free (the flat tilt); I confirmed that, did not pin it. I did not use (PERI) to
+"compute" α — the two legs deliberately have DIFFERENT coefficients (6π vs π),
+so no arithmetic path runs perihelion → α. No π/φ/e dressing. The perihelion
+leg reproduced 43″/cy honestly (42.98″, ratio 1.00002).
+
+────────────────────────────────────────────────────────────────────────────
+5. FISHING TEMPTATIONS SEEN AND REFUSED
+────────────────────────────────────────────────────────────────────────────
+• "perihelion 6π / cap 2π = 3, and 3 is the spin-orbit... so α = √(perihelion
+  ratio)/something" — REFUSED. The ratio 6 is loop geometry (Keplerian apsidal
+  factor), carries no α; using it to reach 137 is exactly the banned fish.
+• "Thomas = cap, so set the orbital cap = the spin cap and solve for a" — the
+  two loops are physically distinct (planet ellipse vs electron spin cap); their
+  coefficients are NOT equatable. REFUSED.
+• The standing ½: N − 1/(1−cosθ) = ½ + O(α²) (timekernel F4) — algebraic
+  identity of sin²θ = 2(1−cosθ) − (1−cosθ)²; NOT interpreted here.
+• Did NOT tune M, a, e, or any factor to force α; the perihelion inputs are
+  sovereign measured elements, used only to test 43″/cy.
+
+────────────────────────────────────────────────────────────────────────────
+6. VERDICT
+────────────────────────────────────────────────────────────────────────────
+**UNIFIED-BY-CONNECTION / SAME-TYPE-BY-COEFFICIENT.**
+
+ONE CONNECTION: parallel transport of the ħ-circulation frame on the one time-
+cone (tilt sin θ = v/c). Its holonomy is the cone/solid-angle deficit
+Θ(L) = (solid angle enclosed), at BOTH levels — the direct expression of "one
+substance, no container, relativity = Pythagoras on a cone."
+
+THE THOMAS BRIDGE (real, not slogan): the time-cone cap deficit 2π(1−cosθ) IS
+the Thomas precession solid angle (Python: 2π(γ−1) = 2π(1−1/γ) to O(α²)).
+ • SOURCE-FREE leg = EXACTLY Thomas-type: Ω_cap = πα², spin-½ Berry = −π/N.
+   The α anholonomy is the Thomas precession of the ground vortex's own tilt.
+ • SOURCED leg = Thomas-type only in its kinematic CORE (π of the 6π); the
+   remaining 5/6 is the M-sourced curvature the Keplerian loop encloses.
+   Honest: it is ONE connection but NOT one formula — the loops (spin-½ cap vs
+   Keplerian ellipse) give different coefficients.
+
+MERCURY (data test, sovereign): Δφ = 6πGM/(c²a(1−e²)) ⇒ 42.98″/century
+(Python 42.9807, ratio 1.00002 to the GR/measured value). REPRODUCED, not
+fished — every input an independently measured orbital element.
+
+COEFFICIENTS FROM LOOP GEOMETRY (not fudged): π (source-free) = bare cone
+deficit of the fixed-tilt spin-½ cap; 6π (sourced) = Keplerian action-angle
+ellipse apsidal detuning in the M-sourced cone (6 = 2×3 Schwarzschild; ×1/(1−e²)
+for eccentricity). Ladder cap:geodetic:perihelion = π:3π:6π = 1:3:6, integer
+ratios that are loop fingerprints, not knobs.
+
+M→SELF LIMIT = CONTINGENT DIRECTION: yes. The sourced deficit is computable only
+because GM and a are external references; sending M→totality (no outside)
+removes both, the cone's scale-invariance takes over, and the SAME anholonomy
+goes flat — magnitude of πα² free = γ=1 / the contingent overshoot N. The
+proven contingency is literally the source-free limit of the perihelion
+holonomy. α's magnitude stays FREE (firewall held).
+
+BRUTALLY HONEST SENTENCE: Mercury's 43″/century and α's Berry defect ARE two
+holonomies of one and the same time-cone connection — and the source-free leg
+is exactly Thomas precession, so the unification is real and physical, not
+metaphorical — but they are NOT one formula: the planet's Keplerian ellipse
+carries 6π while the electron's spin-½ cap carries only π (with Thomas the
+literal 1/6 core the two share), the 6-vs-1 gap forced by loop geometry and not
+by any knob, and precisely because those coefficients differ there is no
+arithmetic road from the reproduced 43″/century to the value of α, which remains
+free exactly as the M→self scale-invariant limit demands.
+
+────────────────────────────────────────────────────────────────────────────
+A. PYTHON TRANSCRIPT (/tmp/anholonomy_check.py — key output)
+────────────────────────────────────────────────────────────────────────────
+SOURCED: Δφ/orbit=5.018663e−07 rad; orbits/cy=415.2026; ADVANCE=42.9807 ″/cy;
+         ratio to 42.98 = 1.00002; 6π(v/c)²/(1−e²) == Δφ/orbit ✓
+SOURCE-FREE: θ=0.418111°; Ω_cap=2π(1−cos)=1.672963e−04; πα²=1.672941e−04;
+             Berry=−Ω/2=−8.364815e−05=−π(1−cos) ✓
+THOMAS==CAP: b=1e−3→ratio 1.0000005; b=α→1.0000266; b=1e−2→1.0000500 (O(α²))
+LADDER: cap π : geodetic 3π : perihelion 6π = 1:3:6.
+════════════════════════════════════════════════════════════════════════════

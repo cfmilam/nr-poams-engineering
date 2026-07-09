@@ -1,0 +1,338 @@
+================================================================================
+POAMS — ONE ANHOLONOMY, TWO LEVELS: Mercury's perihelion (sourced) and α's
+Berry defect (source-free) — INDEPENDENT FORMALIZER / DEVIL'S ADVOCATE (Fable-5)
+Date: 2026-07-08. Parallel to Opus-4.8; reasoned independently.
+Discipline: forward, forced-before-comparison; every step tagged DERIVED /
+ASSUMED / FROM-SOURCE(cite); all arithmetic Python-verified this session
+(/tmp/anholonomy_check.py); FIREWALL: no derivation of α, no perihelion→α,
+no π/φ/e dressing toward 137/37,558; the two named traps (over-unification;
+α-fishing) held in view throughout. The 43″/century is treated as sovereign
+data and actually computed, not quoted.
+================================================================================
+
+--------------------------------------------------------------------------------
+0. INHERITED GROUND (cited, not re-proved)
+--------------------------------------------------------------------------------
+I0.1 α = sinθ = √(2/N); N = 2/α² the one unfixed totality constant. [DERIVE-N]
+I0.2 Berry/cap holonomy of the tilted ground circulation per winding:
+     Δφ_slip = 2π(1−cosθ) = solid angle of the tilt cap; leading order πα²;
+     temporal slip ≡ spatial cap defect (one invariant). [TIMEKERNEL T3a]
+I0.3 The contingent direction: γ = 1 exactly (tree/mean-field, theorem grade);
+     the magnitude of the tilt/overshoot is a proven flat direction of the
+     axioms. [BOOTSTRAP Thm 3; CYCLIC §9] Cone scale-invariance. [ALPHA-CONE]
+I0.4 Rank-one Machian coupling: the source-free vortex can couple only to the
+     totality's resultant (DST axis); branch position = continuous function of
+     an undetermined amplitude. [TIMEKERNEL T2]
+I0.5 SOURCE for the sourced leg (decisive for this run): Osborne 2007,
+     complete-book.md §§8.4–8.6 — the actual POAMS perihelion derivation.
+     NOT merely a citation of GR: a variational construction from the
+     time-dilation root. Audited in §3 below.
+I0.6 The paper (alpha-fine-structure-derivation.html §§3–4): gravitation =
+     orbital time dilation, t_R = t/√(1−GM/c²r); fine structure = orbital
+     time dilation of the atom's internal circulation, factor 1/√(1−α²);
+     "one formula, two levels."
+
+--------------------------------------------------------------------------------
+1. PRE-REGISTRATION (committed before the numbers block was run)
+--------------------------------------------------------------------------------
+R1 The anholonomy functional. One object, stated once:
+       H[loop] = ∮_loop A  =  ∫∫_cap F        (deficit = curvature × area)
+   where A is a connection on the one substance's angular-radial time-cone
+   and F its curvature. Both legs must be exhibited as instances, with their
+   connections written explicitly. "Same type" = both are H[loop] of SOME
+   connection (weak, near-vacuous — every holonomy is). "One connection" =
+   the SAME A, evaluated on two loops, yields both coefficients (strong —
+   the POAMS hope). The run must decide between these honestly.
+R2 Sourced predictions (before computing):
+   P1 Full Osborne connection (8.30): Δφ = 6πGM/(c²a(1−e²)) per orbit
+      → Mercury ≈ 42.9–43.0″/century.
+   P2 Bare-cone connection (velocity dilation only, the html §3 formula used
+      as the whole story): coefficient π → ≈ 43/6 ≈ 7.2″/century.
+   P3 Intermediate (time-dilation metric a=2, flat radial part B=1):
+      coefficient 4π → ≈ 28.7″/century.
+   Data (measured GR-residual precession 42.98±0.04″/cy; Osborne quotes
+   43.11±0.45 observed) will select among P1–P3. Whatever it selects is the
+   verdict on how much structure beyond the bare cone the sourced leg needs.
+R3 Source-free predictions: cap deficit 2π(1−cosθ)|_{sinθ=α} = πα²(1+α²/4+…);
+   Thomas holonomy 2π(γ−1)|_{β=α} = πα²(1+3α²/4+…); they agree at O(α²)
+   (both πα²) and split at O(α⁴) by exactly α²/2 fractional. The ½-vs-3/2
+   recurrence offsets (N−½ spherical vs N−3/2 hyperbolic) are pre-declared
+   AS A FISHING HAZARD and will not be interpreted.
+R4 Micro data check: Sommerfeld/Dirac fine structure carries the π-type
+   (SR/velocity) precession, k = √(1−Z²α²). If the atom's internal orbit
+   instead obeyed the sourced (Schwarzschild-type) connection with
+   ℳ_eff u₀ = α², its anholonomy would be 6πα² per orbit — 6× Sommerfeld —
+   excluded by a century of spectroscopy. This is the data test of
+   "one connection" at the micro level.
+R5 FIREWALL restated: α is not derived here; no arithmetic path from 43″ or
+   from 6, 4, 3, 2 to 137/37,558 will be accepted or attempted; any noticed
+   near-miss is disclosed and refused.
+
+--------------------------------------------------------------------------------
+2. THE SOURCE-FREE LEG: the cap holonomy IS Thomas-type (the bridge, tested)
+--------------------------------------------------------------------------------
+2.1 The connection [DERIVED + FROM-SOURCE(TIMEKERNEL T3a)]. The ground vortex
+    is a circulation whose axis is tilted at θ (sinθ = α) against the
+    totality's one distinguished axis (DST, I0.4). Transporting the
+    circulation frame around one closed winding at fixed tilt is parallel
+    transport around a circle of colatitude θ on the orientation sphere; the
+    frame returns rotated by the enclosed solid angle:
+        H_free = 2π(1−cosθ)  per winding  = πα² + πα⁴/4 + …
+    The connection is the Levi-Civita/Berry connection of the orientation
+    sphere; its curvature is the sphere's (constant, kinematic, sourceless).
+    This is I0.2, re-derived: nothing new assumed.
+2.2 THE THOMAS TEST [DERIVED]. Thomas precession is the holonomy of composing
+    boosts around a closed velocity loop: for a loop at speed β the frame
+    returns rotated by
+        H_Thomas = 2π(γ−1) = πβ² + 3πβ⁴/4 + …   (retrograde),
+    i.e. the enclosed area on the velocity hyperboloid (Lobachevsky plane) —
+    the SAME construction as 2.1 with the sphere replaced by its
+    negative-curvature counterpart. At leading order, with β = sinθ = α:
+        H_free = H_Thomas = πα²  + O(α⁴).
+    Python: πα² = 1.672941e−4; cap = 1.672963e−4 (excess α²/4 ✓ = 1.3313e−5);
+    Thomas = 1.673007e−4 (excess 3α²/4 ✓ = 3.9940e−5); difference exactly
+    α²/2 fractional ✓. [All verified this session.]
+    VERDICT ON THE BRIDGE (source-free side): CONFIRMED at O(β²). The α
+    anholonomy is Thomas-type — the ½ in πβ² = ½·2πβ² is literally the
+    spin-orbit Thomas ½ (the cap's ½: area of a small cap = π·θ², half the
+    naive 2π·θ²). The two exact completions differ at O(β⁴) — spherical cap
+    (Euclidean-signature Pythagorean cone, t_R² = t² + (s/c)²) versus
+    hyperbolic (Minkowski composition). This is a real, in-principle
+    falsifiable fork: Sommerfeld/Dirac's exact k = √(1−Z²α²) has the
+    HYPERBOLIC form 2π(1/√(1−x²)−1). At O(α⁴) relative (≈2.7×10⁻⁵ of the
+    splitting) it is experimentally entangled with QED corrections; NOT
+    adjudicated here — flagged only. [HOSTILE-PREP: a reviewer will note the
+    Euclidean cone, taken exactly, disagrees with Dirac at O(α⁴); POAMS
+    should state which completion it asserts.]
+2.3 Recurrence offsets, disclosed and refused: 1/(1−cosθ) = N − ½ + O(α²)
+    (spherical) and 1/(γ−1) = N − 3/2 + O(α²) (hyperbolic); Python:
+    37557.230083 and 37556.230083 vs N = 37557.730090. These are algebraic
+    identities of the two expansions, NOT an explanation of the standing ½.
+    REFUSED (pre-declared, R3).
+
+--------------------------------------------------------------------------------
+3. THE SOURCED LEG: audit of Osborne §§8.4–8.6, and what the data selects
+--------------------------------------------------------------------------------
+3.1 What Osborne actually does [FROM-SOURCE, complete-book.md §§8.4–8.6]:
+    (i)  Start from the cone: circular natural orbit v² = GM/r substituted
+         into velocity dilation gives τ = t√(1−GM/c²r)  (his 8.9 — this is
+         the html §3 formula).
+    (ii) POSTULATE A [his §8.4]: natural circular orbits are circular
+         geodesics of a phenomenological metric
+         c²dτ² = c²(1−aℳ/r)dt² − B(r)dr² − r²dθ², ℳ ≡ GM/c². The
+         Euler–Lagrange condition for circularity at v² = GM/r forces a = 2.
+         Consequences he draws explicitly: orbiting clock τ = t√(1−3GM/c²r)
+         (8.22), rest clock τ = t√(1−2GM/c²r) (8.23) — both GR values; GPS
+         computed from THESE, not from (8.9).
+    (iii) POSTULATE B [his §8.5]: the non-circular geodesics must reduce to
+         the observed Newtonian closed ellipses ⇒ B(r) = (1−2ℳ/r)⁻¹ —
+         the full Schwarzschild equatorial metric (8.29), and the orbit
+         equation (du/dθ)² + u² = k + 2ℳc²u/β² + 2ℳu³  (8.30).
+    (iv) Møller's standard analysis of (8.30) ⇒ Δφ = 3πℳ(u₁+u₂)
+         = 6πGM/(c²a(1−e²)) per orbit; he quotes 43.03″/cy for Mercury.
+    AUDIT: the derivation is internally coherent and honestly labelled in
+    the source ("we postulate", "we claim"). But it is NOT the bare cone:
+    Postulate A (geodesy — the source dilates ALL clocks, doubling the
+    time-time coefficient) and Postulate B (the radial leg of the loop is
+    also dilated — the space-curvature analog) are ADDED to the Pythagorean
+    root. Mark them [FROM-SOURCE, ASSUMED-within-POAMS]. Without them the
+    cone gives different coefficients — computed next, so data can judge.
+3.2 The coefficient ladder [DERIVED, this run]:
+    (L1) Bare cone (velocity dilation only; relativistic Binet with
+         L = γmr²φ̇, inverse-square natural acceleration): the H–J radial
+         equation gives L² → L² − G²M²m²/c², hence
+         Δφ = πGM/(c²ℓ), ℓ = a(1−e²).  Coefficient π — IDENTICAL to the
+         source-free cap/Thomas coefficient of §2. (Same connection!)
+    (L2) Time-dilation metric only (a = 2, B = 1): expanding
+         (1−2ℳu)⁻¹ in the norm equation shifts the u² coefficient by
+         −4ℳ²c²/β² ⇒ k² = 1−4ℳ/ℓ ⇒ Δφ = 4πGM/(c²ℓ).  Coefficient 4π.
+    (L3) Full Osborne (8.30): linearize u″ + u = ℳc²/β² + 3ℳu² about
+         u₀ = 1/ℓ ⇒ k² = 1−6ℳu₀ ⇒ Δφ = 6πGM/(c²ℓ).  Coefficient 6π
+         = 4π (time part) + 2π (radial/space part) = 2 (a=2 doubling)
+         × 3 (d(u³)/du linearization of the dilation–circulation cross term).
+3.3 THE DATA CHECK (sovereign; Python, real parameters:
+    GM☉ = 1.32712440018e20, a = 5.790905e10 m, e = 0.205630, T = 87.9691 d,
+    415.203 orbits/century, GM/(c²ℓ) = 2.662483e−8):
+        L3 (6π): 5.018663e−7 rad/orbit = 0.1035″/orbit → 42.981″/century ✓
+                 (measured GR-residual 42.98±0.04; Osborne's own 43.03 ✓;
+                 his quoted observation 43.11±0.45 ✓)
+        L2 (4π): 28.654″/century  ✗ MISS (−33%)
+        L1 (π):   7.163″/century  ✗ MISS (factor 6)
+        Cross-check: Osborne's own form 3πℳ(u₁+u₂) = 42.981″/cy ✓ identical.
+    VERDICT (sourced leg): the 6π formula reproduces 43″/century EXACTLY as
+    required — but only the FULL Osborne connection does. The bare cone —
+    the connection that unifies with the α-cap in L1 — is excluded by the
+    data at a factor of 6. Data is sovereign: Mercury selects L3.
+3.4 [INTERNAL — flag for the html, not for Osborne] The paper's §3 presents
+    t_R = t/√(1−GM/c²r) as "the clock-rate law confirmed by GPS." Osborne
+    himself says (8.9) "does not take into account… natural circular orbits"
+    and corrects the orbiting clock to √(1−3GM/c²r) (8.22) and the held
+    (rest) clock to √(1−2GM/c²r) (8.23); GPS follows from 8.22+8.23. The
+    html's compressed formula, used alone, under-dilates the orbiting clock
+    by ×3 and gives a held clock no dilation at all. Presentational
+    compression with real quantitative exposure; fix by citing 8.22/8.23.
+
+--------------------------------------------------------------------------------
+4. ONE CONNECTION OR TWO? (the question the run exists to answer)
+--------------------------------------------------------------------------------
+4.1 What genuinely unifies [DERIVED]:
+    (a) TYPE: both legs are anholonomies H[loop] = ∫∫F — a closed loop on
+        the one substance's time-geometry that returns rotated by a deficit;
+        both are order (v/c)² per cycle; in both, the deficit is curvature ×
+        loop area. Real, but weak (R1).
+    (b) STRONGER — the velocity part is ONE connection: the bare-cone sourced
+        holonomy (L1: πGM/(c²ℓ) = π(v/c)² for the circular case) and the
+        source-free cap/Thomas holonomy (πα² = π(v/c)²) are the SAME
+        formula from the SAME kinematic connection (tilt-cap on the
+        orientation/velocity sphere). The Thomas bridge is CONFIRMED at
+        leading order — this is the honest positive unification of the run.
+4.2 What refuses to unify [DERIVED + DATA]:
+    The measured Mercury deficit is 6× the one-connection (velocity) value.
+    The extra 5π/6 of the sourced holonomy lives in the ℳ-sourced curvature
+    of Osborne's phenomenological metric — the a=2 doubling and the B(r)
+    radial dilation — structure the source-free loop does not possess and
+    the bare Pythagorean cone does not generate (Pythagoras ADDS orthogonal
+    time-legs in quadrature; the 6π lives in the PRODUCT (1−2ℳu)·u² of
+    dilation with circulation — the cone has no product term).
+4.3 The kill shot against "one formula at holonomy order" is MICRO data
+    [DERIVED, R4]: if the atom's internal circulation obeyed the sourced
+    connection (Schwarzschild-type with ℳ_eff u₀ = α², which is what
+    App.5's varying-G natural-orbit atom would suggest if Osborne's
+    construction were applied to it), its anholonomy would be 6πα² per
+    orbit. Observed fine structure is Sommerfeld/Dirac — the π-type
+    (k = √(1−Z²α²), precession 2π(1/√(1−α²)−1) ≈ πα²). Python: 6π-type
+    = 1.0038e−3 vs π-type 1.6729e−4 — a ×6 error the spectroscopy of the
+    last century excludes overwhelmingly. So the two levels are MEASURED to
+    carry different coefficients: micro π, macro 6π. "One formula, two
+    levels" holds at first order (the dilation factors of html §§3–4, both
+    correct) and BIFURCATES at holonomy (second) order. The html itself
+    silently respects this — §4 applies only the velocity factor to the
+    atom — but nothing in the present axioms DERIVES why the atom's loop is
+    velocity-only while the planet's loop carries the full sourced metric.
+    That unexplained selection is the honest obstruction. [INTERNAL — gap,
+    stated as derived nowhere; not an error, an open determination.]
+4.4 Historical footnote strengthening 4.1(b): Sommerfeld's fine structure IS
+    a perihelion precession — the electron orbit's apsidal anholonomy. The
+    two phenomena were already one type in 1916. What POAMS adds (correctly)
+    is the common time-reading; what it has not derived is the coefficient
+    split (π vs 6π) that data enforces between the levels.
+
+--------------------------------------------------------------------------------
+5. THE M→SELF LIMIT: does the sourced deficit become the contingent one?
+--------------------------------------------------------------------------------
+[DERIVED] In the sourced holonomy H = 6πℳ/ℓ the external mass does TWO jobs:
+ (i) it curves the connection (ℳ in the metric coefficients), and
+ (ii) it FIXES the loop's tilt: the orbit condition v² = GM/r (POAMS's own
+      L = mvr closure with a partner) pins (v/c)² = ℳ/r — the deficit is
+      computable because the loop has a partner to close against.
+Remove the source (M → self: the ground vortex loops against the totality,
+no second body, no outside):
+ (i) the ℳ-sourced curvature vanishes — the metric holonomy (the 4π+2π
+     part) → 0; the surviving anholonomy is exactly the kinematic cap of §2,
+     H_free = 2π(1−cosθ) ≈ π sin²θ;
+ (ii) the tilt-fixer dies: there is no r, no M, no orbit condition. The cone
+     is scale-invariant [ALPHA-CONE]; the only external referent is the
+     totality's resultant, which couples rank-one and leaves the branch
+     position a continuous free amplitude [TIMEKERNEL T2]; the loop that
+     could pin it is exactly flat, γ = 1 [BOOTSTRAP/CYCLIC].
+CONCLUSION: the M→self limit sends the computable deficit into the
+scale-invariant, magnitude-free one — the deficit TYPE survives, its
+DETERMINER (the partner mass) is what disappears. The sourced deficit is
+computable because the loop has a partner; the source-free deficit is
+contingent because its only partner is everything. This is precisely the
+proven contingent direction, recovered as a limit — CONFIRMED, and it is
+the cleanest statement yet of WHY α's magnitude is free while Mercury's is
+not. (Note this confirms the FOUNDATION's item 3 without needing the
+one-connection claim of item 1 — the limit statement is connection-honest.)
+
+--------------------------------------------------------------------------------
+6. THE COEFFICIENTS FROM GEOMETRY (no fudging; one correction to the brief)
+--------------------------------------------------------------------------------
+π  (source-free, and the velocity part of sourced): the area of a small
+   spherical cap of opening θ is πθ² — HALF the cylinder-naive 2πθ². That ½
+   is the Thomas/spin-orbit ½. DERIVED (cap geometry; equivalently 2π(γ−1)).
+6π (sourced, full): 6 = 2 × 3, both factors forced within Osborne's
+   construction: 2 from a = 2 (natural-orbit geodesy doubles the time-time
+   dilation — equivalently the rest-clock 2ℳ/r), 3 from d(u³)/du = 3u²
+   (linearization of the dilation–circulation cross term 2ℳu·u² supplied by
+   B(r)). Additively: 6π = 4π (time part) + 2π (radial part). DERIVED
+   (§3.2, Python-checked ladder).
+CORRECTION TO THE FOUNDATION's hunch: the brief suggested "6π ellipse vs π
+spin-½ cap." The ellipse contributes NO coefficient — eccentricity enters
+only through ℓ = a(1−e²); the 6π/π split is sourced-metric-curvature vs
+kinematic cap, not ellipse vs cap. Stated plainly so no future run
+rationalizes the 6 from orbit shape. REFUSED as an explanation.
+
+--------------------------------------------------------------------------------
+7. FISHING / OVER-UNIFICATION TEMPTATIONS RAISED AND REFUSED
+--------------------------------------------------------------------------------
+F1 OVER-UNIFICATION (the run's named trap): declaring UNIFIED because both
+   legs satisfy H = ∫∫F (Gauss–Bonnet). Every holonomy in mathematics does;
+   that is same-TYPE, content-poor, and the coefficient data (π vs 6π)
+   positively refutes one-connection. REFUSED.
+F2 α FROM THE PERIHELION: any route 43″ → α, or dressing the ladder numbers
+   (6, 4, 3, 2, 6π/π) toward 137/37,558. None computed, none attempted.
+   REFUSED (firewall).
+F3 THE ½ vs 3/2 OFFSETS: N−½ (spherical) vs N−3/2 (hyperbolic) recurrence
+   depths — a tempting "explanation" of the standing ½ by signature choice.
+   Algebraic identities of the two expansions; interpreting them would be
+   fishing the completion to fit an uninterpreted offset. REFUSED (R3).
+F4 THE GEODETIC MIDDLE RUNG: geodetic precession (3πℳ/r per orbit) sits at
+   3 = √(6·1.5)-ish numerological midpoint games between π and 6π; also
+   "perihelion = 2× geodetic = 6× Thomas" invites a fake multiplicative
+   'derivation' of 6. The honest content is only the ledger of §6. REFUSED.
+F5 CLAIMING THE MICRO/MACRO CONNECTION-SELECTION AS DERIVED: presenting
+   "atoms use the velocity connection, planets the sourced one" as a POAMS
+   theorem. It is an empirical selection the axioms do not yet make (§4.3).
+   Flagged as a gap, not dressed as a result. REFUSED.
+F6 EUCLIDEAN-CAP TRIUMPHALISM: asserting the O(α⁴) spherical-vs-hyperbolic
+   fork in POAMS's favor (or against) without disentangling QED corrections.
+   Flagged in-principle only (§2.2). REFUSED.
+
+--------------------------------------------------------------------------------
+8. VERDICT
+--------------------------------------------------------------------------------
+**SAME-TYPE-NOT-ONE-FORMULA — with one genuine leading-order unification and
+one genuine limit theorem.**
+
+Precisely:
+ 1. BRIDGE CONFIRMED (leading order): the source-free α anholonomy is
+    Thomas-type — cap 2π(1−cosθ), Thomas 2π(γ−1), and the bare-cone sourced
+    precession πGM/(c²ℓ) are ONE kinematic connection with ONE coefficient,
+    π(v/c)² per loop (the ½ = the Thomas ½). Verified: πα² = 1.6729e−4;
+    expansions split only at O(β⁴) (spherical vs hyperbolic completion —
+    flagged, not adjudicated).
+ 2. DATA ANCHOR HIT — by the full connection only: Δφ = 6πGM/(c²a(1−e²))
+    → 42.981″/century (Python, real parameters; measured 42.98±0.04). But
+    the 6π is Osborne's phenomenological Schwarzschild connection, built
+    from the cone PLUS two added postulates (a = 2 geodesy; B(r) from
+    Newtonian ellipse closure). The bare cone gives π → 7.163″/cy (×6 miss);
+    time-only gives 4π → 28.654″/cy (miss). Data selects the full sourced
+    connection at the macro level.
+ 3. AND selects the OTHER connection at the micro level: observed fine
+    structure is π-type (Sommerfeld/Dirac); a 6π-type atomic anholonomy
+    (1.0038e−3 rad/orbit) is excluded. The two levels are measured to carry
+    different holonomy coefficients; "one formula, two levels" is true at
+    first (dilation) order and empirically bifurcates at holonomy order.
+    Why each level takes the connection it does is an open determination of
+    the axioms, not a derived result. That is the obstruction, named.
+ 4. M→SELF LIMIT CONFIRMED: removing the source kills the ℳ-curvature
+    (metric holonomy → 0) and the tilt-fixing orbit condition, leaving the
+    kinematic cap with free magnitude — exactly the proven contingent
+    direction (γ = 1, rank-one amplitude, scale-invariant cone). Mercury's
+    deficit is computable because its loop has a partner; α's is contingent
+    because its only partner is the totality.
+ 5. COEFFICIENTS EXPLAINED, NOT FUDGED: π = small-cap ½·2πθ²; 6π = 2 (a=2)
+    × 3 (cross-term linearization) = 4π time + 2π space. The ellipse
+    contributes no coefficient (foundation's hunch corrected). α not
+    derived; no perihelion→α arithmetic performed; firewall held (§7).
+
+BRUTALLY HONEST SENTENCE: The unification survives exactly as far as the
+velocity cap and no farther — Mercury's 43″/century is real and reproduced
+(42.981″, Python) but it belongs to Osborne's two-postulate sourced metric,
+not to the bare cone that owns α's πα², and the fine-structure data itself
+forbids giving the atom the planet's connection, so the honest theorem is
+same-type, one kinematic sub-connection, two curvatures — and the M→self
+limit, which does hold, explains why one number is computable and the other
+is the free act.
+================================================================================
