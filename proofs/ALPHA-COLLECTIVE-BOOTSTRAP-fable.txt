@@ -1,0 +1,475 @@
+================================================================================
+POAMS COLLECTIVE-BOOTSTRAP DERIVATION — FABLE FORMALIZER
+File: memory/poams-audit/collective-bootstrap-fable.txt
+Date: 2026-07-15
+Role: rigorous devil's advocate on the explicit math. Reasoning FORWARD from
+established ground truth (GT1–GT6 of the prompt). POAMS-only. Anti-Wyler
+firewall absolute: every candidate must be FORCED before any comparison to
+137.036; near-misses are refused by name; a NULL is a valuable result.
+================================================================================
+
+VERDICT UP FRONT: (B) FLAT / RELOCATED.
+The collective bootstrap does NOT pin the scale. The uniform-dilation zero-mode
+survives; the global closure relocates the freedom from β alone to the pair
+(β, W) along one relation; no POAMS-legal second equation exists. The axiom
+that protects the zero-mode is INTRANSITIVITY (GT5), with third-law
+reciprocity (κ=1) as its Euler-identity shadow. The impossibility is now
+COMPLETE: β's contingency is equivalent to POAMS's no-loop core.
+
+--------------------------------------------------------------------------------
+0. SETUP AND NOTATION
+--------------------------------------------------------------------------------
+Totality = W participating ground-vortices (W a positive integer, unknown),
+each with tilt θ_i ≥ 0, β_i = sinθ_i. Configuration Θ = (θ_1, …, θ_W) ∈ ℝ₊^W.
+
+Each vortex's tilt is induced by mutual AM-phase-coherence with the others,
+through double-ended, two-party, intransitive reciprocal transactions (GT5).
+Each pairwise mutual-coherence relation is a map derived from the time-cone
+geometry (GT3/L2), hence positively homogeneous of degree 1:
+
+    F_ij(λθ_i, λθ_j) = λ · F_ij(θ_i, θ_j)   for all λ > 0.        (H1)
+
+The single-vortex no-go (GT3, L1–L4) is settled and is the launch point, not
+the target. The question is whether the JOINT solve differs.
+
+Per-vortex angle defect (prompt's convention): δ(θ) = 1 − cosθ ≈ β²/2.
+(Solid-angle convention Ω(θ)=2π(1−cosθ) differs by 2π; see §6, near-miss NM-6:
+the convention must be fixed BEFORE any numeric comparison. Nothing below
+depends on the choice.)
+
+Global closure (GT4, forced, not re-litigated here):
+    Σ_i δ(θ_i) = 4π  (Gauss–Bonnet on the totality's S², χ = 2).      (C)
+With a common tilt θ_i = β for all i:  W·δ(β) = 4π, i.e. W β²/2 ≈ 4π,
+i.e. W β² ≈ 8π.                                                       (C′)
+
+Hairy-ball (GT4): β = 0 is topologically forbidden. Existence of a tilt is
+FORCED; the question is exclusively its MAGNITUDE.
+
+--------------------------------------------------------------------------------
+1. SUB-QUESTION (i): IS THE JOINT MAP HOMOGENEOUS DEGREE-1?
+--------------------------------------------------------------------------------
+CLAIM 1 (Joint homogeneity). The joint self-consistency map G: ℝ₊^W → ℝ₊^W,
+whose fixed points are the collective bootstrap solutions, is positively
+homogeneous of degree 1: G(λΘ) = λ G(Θ).
+
+PROOF. G is built from the pairwise maps F_ij under POAMS-legal operations
+only. The legal operations are:
+  (a) evaluation of a single two-party transaction (an F_ij) — degree-1 by (H1);
+  (b) simultaneous satisfaction: vortex i must be consistent with EACH of its
+      partners separately (intransitivity forbids composing or aggregating
+      transactions into a totality-dependent local rule — see Claim 2);
+  (c) any residual per-node bookkeeping that is itself conical (cone geometry,
+      L2) — degree-1.
+Every operation in {(a),(b),(c)} preserves degree-1 homogeneity: a system of
+simultaneous degree-1 relations has a solution set closed under uniform
+dilation, and any composition/selection among degree-1 maps is degree-1.
+Hence G(λΘ) = λG(Θ). ∎
+
+COROLLARY 1 (Ray of solutions). If Θ* is a fixed point (G(Θ*) = Θ*), then
+λΘ* is a fixed point for every λ > 0. The fixed-point set is a CONE. The
+uniform-dilation mode θ_i → λθ_i maps solutions to solutions. FLAT, exactly
+as in the isolated case — the collective does not differ at this level.
+
+COROLLARY 2 (Euler / κ=1). Differentiating G(λΘ*) = λΘ* at λ = 1:
+    DG(Θ*) · Θ* = Θ*.
+Θ* is an eigenvector of the linearized map with eigenvalue EXACTLY 1. This is
+Euler's homogeneity relation — and it is precisely the round-trip gain κ = 1
+of GT3. κ=1 is not merely "forced by reciprocity"; it IS the Euler identity of
+the degree-1 cone. Reciprocity and homogeneity are one statement viewed twice.
+This will kill sub-question (iii) structurally (§3).
+
+CLAIM 2 (The aggregation loophole is closed by intransitivity — devil's
+advocate route explicitly tried and refused). The ONE mathematical mechanism
+by which the collective could have differed from the single vortex is nodal
+aggregation: vortex i sums the influences of its W−1 partners, giving a local
+map with explicit W-dependence, e.g.
+    θ_i ← (W−1) · g · θ_i        (g = per-transaction coherence gain),
+whose fixed-point condition (W−1)g = 1 would PIN W if g were a forced pure
+number. I pursued this seriously because it is the strongest pinning candidate:
+it is degree-1 in θ yet inhomogeneous in W.
+REFUSAL: additive superposition of distinct two-party transactions at a node
+is a TRANSITIVE SUM — it makes A's state depend on a composite of A↔B and A↔C
+jointly, i.e. it chains transactions through A. GT5 (Pope's sonship
+intransitivity) forbids exactly this: each transaction closes independently,
+double-ended, with its own κ=1; the vortex's tilt must be consistent with each
+partner SEPARATELY, never with an additive total. (Note also the reductio: if
+the sum were legal, per-transaction reciprocity g=1 would force W=2 — a
+two-vortex universe — and β² = 8π/2 = 4π > 1, absurd. The absurdity is a
+symptom; the illegality is the diagnosis.) Therefore no W-dependence can enter
+the LOCAL dynamics. W is quarantined to the global topological ledger (§2). ∎
+
+CLAIM 3 (No POAMS-legal inhomogeneous term exists in the dynamics). The only
+quantity in the entire inventory that is NOT degree-1 is the cap defect
+δ(θ) = 1 − cosθ (degree-2 at small θ, via the Berry phase Φ = −π(1−cosθ),
+GT2). Could it enter the pairwise map and create an interior scale?
+REFUSAL: within a closed two-party reciprocal transaction, return = outbound
+EXACTLY (third law, GT3). The geometric (Berry) phase acquired on the outbound
+leg is unwound on the return leg; the net transactional phase is zero
+identically. The defect therefore cannot feed back into the tilt magnitude
+inside any legal transaction. A NET geometric phase requires a non-reciprocal
+LOOP (A→B→C→A), i.e. transitive chaining — forbidden by GT5. The quadratic
+term survives only in the global topological ledger (C), never in the
+dynamics. In the isolated case this same term drives θ→0 (L4); in the
+collective it does not drive anything at all — it is bookkeeping. The
+collective differs from the single vortex only in WHERE the quadratic term
+sits (ledger vs closure condition), not in whether it acts. ∎
+
+ANSWER (i): YES, the joint map is homogeneous degree-1 as a whole; the
+uniform-dilation zero-mode survives; there is NO POAMS-legal term that breaks
+homogeneity and creates an interior isolated scale. The collective bootstrap
+is exactly as flat as the isolated one along the dilation direction.
+
+--------------------------------------------------------------------------------
+2. SUB-QUESTION (ii): GLOBAL CLOSURE — ONE EQUATION OR TWO?
+--------------------------------------------------------------------------------
+The closure (C′), Wβ² ≈ 8π, is genuinely inhomogeneous (fixed RHS 4π against a
+degree-2 LHS), so it DOES slice the ray of Corollary 1. Along a common-tilt
+ray {λβ₀}, closure selects λ such that W(λβ₀)²/2 = 4π. The dilation freedom in
+θ-space alone is killed.
+
+But the slice is parametrized by W. The system is:
+    Equation 1 (fixed point):   G(Θ) = Θ         — degree-1, fixes only the
+                                                    ANGLE structure of the ray,
+                                                    never a magnitude (L2).
+    Equation 2 (closure):        W δ(β) = 4π      — ONE equation in TWO
+                                                    unknowns (β, W).
+Equation 1 contributes ZERO scale information (it is satisfied along the whole
+ray — that is Corollary 1). So the entire scale burden falls on Equation 2
+alone, which is under-determined: the solution set is the hyperbola
+    β(W) = √(8π/W),   W ∈ ℕ,
+a one-parameter family. The flat direction is not removed; it is RELOCATED
+from uniform dilation of Θ to motion along the (β, W) hyperbola. β→λβ is
+compensated exactly by W→W/λ². This is the precise sense in which the freedom
+is "merely relocated β↔W."
+
+IS THERE A GENUINE SECOND, SCALE-FIXING EQUATION? I tried every candidate:
+
+ (a) "The background all of them collectively generate must be exactly the
+     background each one needs to close." — This is the most hopeful phrasing
+     in the prompt, so I formalized it: the background at vortex i is, in
+     POAMS, nothing but the totality of i's mutual AM-relations (no container,
+     Liturgy §1 — there is no independent background object to equate to a
+     need). "Background generated = background needed" is therefore the
+     fixed-point condition G(Θ)=Θ RESTATED, not a new equation. It is
+     Equation 1 wearing different clothes, and Equation 1 carries no scale.
+     REFUSED as a second equation. (Any formalization in which the background
+     is an independent entity with its own state to be matched is a SECOND
+     SUBSTANCE / container — POAMS-illegal.)
+
+ (b) κ=1 promoted to a constraint. — See §3. It is an identity (Euler).
+     Identities have zero constraint content. REFUSED.
+
+ (c) Loop holonomy = 1. — This is the one candidate that WOULD work
+     mathematically, and it must be named honestly. Around a closed loop of
+     transactions A→B→C→A, the composed geometric phase is the holonomy of
+     the S² curvature over the enclosed cap: Φ_loop = −½ Ω(triangle), a
+     NONTRIVIAL function of the tilts (scale-dependent, quadratic). Demanding
+     single-valuedness, Φ_loop ∈ 2πℤ, is a genuine second equation that would
+     pin β at fixed W (curvature quantization). THIS IS EXACTLY WHAT
+     INTRANSITIVITY FORBIDS: A↔B, B↔C ⇏ A↔C; there are no loops; the holonomy
+     is physically unmeasurable from inside POAMS. The scale-fixing equation
+     EXISTS in the mathematics and is DISCARDED by the axioms. This is the
+     sharpest possible form of the verdict: POAMS does not lack a pinning
+     equation by accident; its core axiom deletes the only one available.
+     REFUSED as POAMS-illegal (it is the no-loop core itself that refuses it).
+
+ (d) Extremization over the totality (maximize W, minimize total defect,
+     stationary "action of the whole," entropy of matchings…). — Any selection
+     functional evaluated over the totality is a transitive sum over
+     transactions (GT5 violation), and the specific combinatorial/spectral
+     versions were already run to rigorous NULLS (GT6: matching counts,
+     moduli volumes, heat kernels — brackets, ceilings, and a clean gap; do
+     not re-run). Additionally, "minimize total defect" is vacuous: the total
+     is topologically fixed at 4π for every configuration. REFUSED.
+
+ (e) Homological statement (why no further equation can EVER appear): the
+     transaction structure of the totality is, by intransitivity, a set of
+     independent edges (a matching-like 1-complex, no 2-cells). Scale-fixing
+     information is curvature, and curvature is detected only by 2-cells
+     (loops bounding caps). The unique 2-cycle POAMS admits is the fundamental
+     class of the observer S² itself — forced, global, and worth exactly ONE
+     number: 4π (Gauss–Bonnet). One global 2-cycle → one equation. Two
+     unknowns (β, W). The system is exactly one equation short, and the
+     shortfall is topological, not technical: no amount of added vortices,
+     cleverer coherence, or larger totality changes the number of available
+     2-cycles. PERMANENTLY one short.
+
+DEVIL'S-ADVOCATE CAVEAT ON EQUATION 2 ITSELF (flagged, not used against GT4):
+(C′) as written assumes the CONE-POINT ANSATZ — all 4π of curvature
+concentrated in W identical vortex defects with FLAT interstitial background.
+Gauss–Bonnet per se is an identity satisfied by ANY curvature distribution on
+S²; if the collectively generated background carries distributed curvature K,
+closure reads W δ(β) + ∫K dA = 4π and constrains (β, W) not at all. So the
+"one equation" is itself conditional on an unforced flatness assumption. This
+does not threaten verdict B (it can only make things FLATTER); it does mean
+GT4's "α = 4π/W" should be read as a DEFINITION of the closure weight W
+(W ≡ 4π/δ(β), bookkeeping from β) rather than a determination of β from W.
+See §7, Disagreement D1/D2.
+
+ANSWER (ii): ONE equation in TWO unknowns. Under-determined. The freedom is
+relocated β↔W, not removed. No POAMS-legal second equation exists, and (e)
+shows none can be constructed: the axioms cap the supply of equations at one.
+
+--------------------------------------------------------------------------------
+3. SUB-QUESTION (iii): CAN κ=1 BE PROMOTED TO A PIN?
+--------------------------------------------------------------------------------
+NO — and the reason is structural, not rhetorical.
+
+By Corollary 2, κ=1 along the dilation direction is Euler's identity for the
+degree-1 map: DG(Θ*)Θ* = Θ*. It holds for EVERY configuration on EVERY ray,
+automatically, because the map is conical. An identity is satisfied
+identically; its "constraint surface" is the whole space; its linearization
+contributes the zero functional. It cannot select a point. Worse: it is the
+very mechanism of the flatness — eigenvalue exactly 1 along dilation means the
+dilation mode is neither restored nor expelled: NEUTRAL. κ=1 does not merely
+fail to pin the scale; it is the algebraic CERTIFICATE that the scale is
+unpinned. Third-law reciprocity PROTECTS the zero-mode.
+
+Could the collective make κ a nontrivial function κ(β, W) that equals 1 only
+at isolated points? Only two mathematical routes exist:
+  (α) make individual transactions lossy/gainy (κ_pair ≠ 1 generically, with
+      κ=1 as a dynamical selection). This requires somewhere for AM to leak
+      to or arrive from — a bath, a medium, a second substance. Violates
+      one-substance (Liturgy §1) and third-law reciprocity (GT3). ILLEGAL.
+  (β) compose transactions around a loop so that κ_loop = Π gains × holonomy
+      becomes scale-dependent (§2c). Violates intransitivity (GT5). ILLEGAL.
+There is no third route: a degree-1 reciprocal pairwise structure has unit
+gain identically (Euler), and only loss (α) or loops (β) can deform it.
+
+ANSWER (iii): κ=1 cannot be legally promoted. Pinning via κ requires
+surrendering either one-substance/reciprocity or intransitivity/instantaneity
+— i.e., requires POAMS to stop being POAMS. This is condition (B) of the
+prompt, met exactly.
+
+--------------------------------------------------------------------------------
+4. SUB-QUESTION (iv): DOES DISCRETENESS OF W PIN β?
+--------------------------------------------------------------------------------
+NO. Discreteness converts the hyperbola β(W) = √(8π/W) into a countable set
+    { (β_W, W) : W ∈ ℕ, W ≥ W_min },
+(W_min from δ(β) ≤ δ_max: with δ = 1−cosθ ≤ 2, exact closure W(1−cosθ) = 2
+requires W ≥ 1; small-angle validity pushes physical interest to large W).
+Countable is still a FAMILY. For EVERY admissible integer W there exists a θ_W
+solving closure exactly — the tilt is a continuous variable and slaves itself
+to whatever W is. Discreteness of W therefore selects nothing unless a
+PRINCIPLE selects the integer, and every candidate principle is either
+(§2d) a forbidden transitive functional or an already-executed NULL (GT6).
+
+Category point (as anticipated in the prompt): δ(θ) = 1 − cosθ is
+transcendental in the tilt (established: δ proven transcendental). The exact
+closure pairs an integer W with a transcendental-valued function of θ. The
+equation W = 2/(1−cosθ) is soluble for θ given ANY integer W — the
+transcendence means the DETERMINATION RUNS FROM W TO θ, never the reverse:
+no arithmetic property of integers reaches across the category boundary to
+prefer one W. Integer-ness of W is the wrong category to pin a transcendental
+defect; it enumerates the family, it does not collapse it.
+
+Stability selection (devil's advocate, tried): could one W make the joint
+fixed point stable and all others unstable? No: the dilation eigenvalue is
+EXACTLY 1 for all W (Euler identity, §3) — the marginal direction is
+W-independent — and comparing "stabilities" across W is itself a functional
+over the totality (§2d). REFUSED.
+
+ANSWER (iv): every sufficiently large integer W is admissible. Still flat
+(countably flat). No principle selects W. β = √(8π/W) is exactly as
+contingent as W is, and W is contingent.
+
+--------------------------------------------------------------------------------
+5. THE VERDICT AND THE COMPLETED-IMPOSSIBILITY THEOREM
+--------------------------------------------------------------------------------
+VERDICT: (B) FLAT / RELOCATED.
+
+COMPLETED-IMPOSSIBILITY THEOREM (collective bootstrap).
+Let the totality consist of W vortices with tilts Θ, satisfying:
+  (P1) pairwise mutual-coherence maps homogeneous degree-1 (time-cone, GT3/L2);
+  (P2) intransitivity: no composition of transactions into loops, no
+       aggregation of transactions into totality-dependent local dynamics
+       (GT5);
+  (P3) third-law reciprocity: per-transaction round-trip gain κ=1 identically
+       (GT3);
+  (P4) global topological closure Σδ = 4π on the observer S² (GT4), the
+       unique available 2-cycle;
+  (P5) hairy-ball: β ≠ 0 (GT4).
+Then:
+  (T1) the joint fixed-point set is a cone (rays), with dilation eigenvalue
+       exactly 1 (Euler ≡ κ=1): the zero-mode survives the collective solve;
+  (T2) closure (P4) supplies exactly one inhomogeneous equation, W δ(β) = 4π,
+       in two unknowns: the flat direction relocates to the (β, W) hyperbola;
+  (T3) no second scale-fixing equation is constructible without violating
+       (P2) or (P3) or adding a second substance/external scale; in
+       particular the unique mathematically sufficient pin — loop holonomy
+       quantization — is precisely what (P2) forbids;
+  (T4) discreteness of W enumerates a countable family and selects no member;
+  (T5) hence: THE EXISTENCE of the tilt is necessary (P5), THE MAGNITUDE of
+       the tilt is contingent. β* and W* are not determined by mutual
+       self-consistency of the whole.
+
+WHAT FORCES β'S CONTINGENCY (the clean statement):
+β's contingency ≡ POAMS's no-loop core. The intransitivity that makes light
+instantaneous, transactions double-ended, and the ontology container-free is
+the SAME axiom that deletes the only curvature-reading equation (loop
+holonomy) that could have fixed the scale. A POAMS that derived α would have
+to measure a holonomy; measuring a holonomy requires a loop; POAMS has no
+loops BY ITS DEEPEST COMMITMENT. Therefore, within POAMS, α's value is an
+empirical input as a matter of THEOREM, not of incompleteness. The impossibility
+begun by the four-lemma single-vortex no-go (GT3) and the W-nulls (GT6) is
+hereby COMPLETE: isolated → flat (proven before); collective → flat-relocated
+(proven here); no third venue exists (the 2-cycle census, §2e).
+
+Corollary (dissolution of the fine-tuning question, POAMS-internal): "why
+1/137?" is revealed as the same category of question as "why W participants?"
+— a fact about WHICH totality obtains, not about the laws of the one
+substance. The laws force THAT there is a tilt; the totality's contingent
+closure-weight bookkeeps HOW MUCH. This is GT/settled-finding #2 ("α's value
+is an empirical input") upgraded from observation to theorem.
+
+--------------------------------------------------------------------------------
+6. REFUSED NEAR-MISSES (anti-Wyler firewall — explicit, by name)
+--------------------------------------------------------------------------------
+NM-1. Reading W off the measured α and announcing it as a prediction.
+      With Wβ²=8π: W = 8π/β² ≈ 471,988.7. With the solid-angle convention
+      (WΩ=4π, Ω≈πβ²): W = 4/β² ≈ 75,115.5. Neither is an integer; neither is
+      forced; both are back-fitted. REFUSED (this is the exact Wyler move).
+NM-2. W = N ≡ 2/β² ≈ 37,557.7 ("closure weight = cap count"). Setting W=N
+      gives Wβ²=2, which matches NEITHER convention's closure (8π or 4);
+      choosing whichever of {2, 4, 8π} lands nearest the data would be
+      fitting. N is a defined abbreviation, not a population. REFUSED.
+NM-3. W = 137, 137², 4·137², or any 137-flavored integer. The parity theorem
+      (settled finding #2) already killed 137-as-count; resurrecting it as a
+      closure weight is numerology. REFUSED.
+NM-4. Cosmological W (Eddington-style photon/vortex census, W = A^(1/p)).
+      Already FALSIFIED ×10⁴–10⁵ by α-non-drift and voided by the
+      constant-universe liturgy (GT6). Not re-opened. REFUSED.
+NM-5. (W−1)g = 1 nodal-aggregation pin (§1, Claim 2). Requires a transitive
+      sum at a node; also yields the absurd W=2, β²=4π. REFUSED (illegal
+      mechanism, not merely wrong number).
+NM-6. Convention arbitrage: δ = 1−cosθ (⇒ Wβ²≈8π) vs δ = Ω = 2π(1−cosθ)
+      (⇒ Wβ²≈4) vs half-cap variants. The convention MUST be fixed by the
+      geometry before any number is compared to 137.036; leaving it loose
+      creates a ×2π slush fund that a Wyler would exploit. FLAGGED and
+      REFUSED as a degree of freedom.
+NM-7. Loop-holonomy quantization used as a pin "just this once." It pins —
+      and it is intransitivity-violating. Using it would derive α by
+      abandoning the axiom that defines the framework. REFUSED (this is the
+      honest heart of the null).
+NM-8. Stability/extremal selection of W (max stability, min defect, max
+      entropy of matchings). Identity eigenvalue is W-independent; totality
+      functionals are transitive sums; combinatorial versions already NULL
+      (GT6). REFUSED.
+A NULL IS THE RESULT. No candidate number is reported. Nothing was compared
+to 137.036 except to refuse the comparison.
+
+--------------------------------------------------------------------------------
+7. FORCED / ASSUMED / OPEN LEDGER
+--------------------------------------------------------------------------------
+FORCED (derived here or carried forward as ground truth):
+  F1. β ≠ 0 — hairy-ball on the observer S² (GT4).
+  F2. Joint map homogeneous degree-1 (Claim 1; from time-cone L2 +
+      intransitive non-aggregation, Claim 2).
+  F3. Fixed-point set is a cone; uniform dilation maps solutions to solutions
+      (Corollary 1).
+  F4. κ=1 along dilation ≡ Euler identity of the degree-1 map (Corollary 2);
+      identically satisfied; zero constraint content; certifies marginality.
+  F5. Exactly one inhomogeneous global equation exists — Σδ = 4π on the
+      unique 2-cycle (GT4 + census §2e) — one equation, two unknowns.
+  F6. The only mathematically sufficient second equation (loop holonomy
+      quantization) is POAMS-illegal (intransitivity).
+  F7. Relocation: (β, W) flat family β = √(8π/W); discreteness enumerates,
+      does not select (§4).
+  F8. VERDICT B and the Completed-Impossibility Theorem (T1–T5).
+
+ASSUMED (doing load-bearing work without derivation — flagged honestly):
+  A1. Cone-point ansatz inside GT4: all 4π concentrated in W identical vortex
+      defects with flat interstitial background. Without it even the ONE
+      equation dissolves (closure becomes an identity over distributed
+      curvature). [Weakens any pinning hope further; does not threaten B.]
+  A2. Common tilt θ_i = β for all i (homogeneous totality). A symmetry
+      assumption; relaxing it enlarges the flat family (inhomogeneous
+      configurations on the same ray-cone), it does not shrink it.
+  A3. Small-angle forms (δ ≈ β²/2) where used; exact forms change numbers,
+      never homogeneity degrees, hence never the verdict.
+  A4. W = a whole number of participants (definitional for "population";
+      GT4's own definition of W as closure weight is bookkeeping — see D1).
+
+OPEN (honest frontier; none threatens the verdict, each could sharpen it):
+  O1. Whether any POAMS-legal principle could ever select W. All attempts to
+      date are rigorous NULLS (GT6). The census argument (§2e) says no new
+      EQUATION can appear; a selection PRINCIPLE that is not an equation
+      (e.g. a genuinely intransitive counting axiom) is not formally excluded
+      — but none is known, and any candidate must pass Claim 2's aggregation
+      test before it may even be written down.
+  O2. A formalization of "background generated = background needed" that is
+      NOT the coherence fixed point restated. I argue (§2a) none exists
+      without a second substance; a constructive proof of that equivalence
+      (rather than my exhaustion-of-forms argument) would close O2.
+  O3. Inhomogeneous-tilt collective solutions (dropping A2): structure of the
+      full cone of solutions. Expected: larger family, same verdict.
+  O4. The exact convention for δ (NM-6) should be fixed once, from the
+      spin-½ cap geometry (GT2), and recorded, so no future numeric work
+      inherits the ×2π slush.
+
+--------------------------------------------------------------------------------
+8. DOES ANY PINNING ROUTE SMUGGLE? (the ruthlessness check, run on ALL routes)
+--------------------------------------------------------------------------------
+Route (α) lossy κ            → smuggles a bath = SECOND SUBSTANCE.        ILLEGAL.
+Route (β) loop holonomy       → smuggles TRANSITIVE composition (loops).   ILLEGAL.
+Route (γ) nodal aggregation   → smuggles a TRANSITIVE SUM at a node.       ILLEGAL.
+Route (δ) totality functional → smuggles a TRANSITIVE SUM over the whole.  ILLEGAL.
+Route (ε) independent background to match → smuggles a CONTAINER.          ILLEGAL.
+Route (ζ) cosmological census → smuggles an EPOCH/EXTERNAL SCALE; also
+                                 falsified by data (GT6).                  ILLEGAL + DEAD.
+Every route that pins, smuggles. Every route that doesn't smuggle, doesn't pin.
+That dichotomy IS the theorem.
+
+--------------------------------------------------------------------------------
+9. DISAGREEMENTS WITH THE FRAMING (owed candor; none overturns the verdict)
+--------------------------------------------------------------------------------
+D1. [INTERNAL — tension between GT4 and GT5.] GT4 states "hence α = 4π/W,"
+    which makes β carry the population number W. GT5 states intransitivity
+    forces β PURE — "carries no N, no distance, no epoch." Both cannot be
+    determinations. Resolution consistent with verdict B: α = 4π/W is a
+    DEFINITION of the closure weight (W ≡ 4π/δ(β): bookkeeping FROM the
+    contingent β), not a derivation of β FROM a count. The corpus should
+    state the direction of determination explicitly, or a hostile reviewer
+    will play GT4 against GT5.
+D2. [HOSTILE-PREP.] The cone-point ansatz (A1) is silent inside GT4.
+    Gauss–Bonnet alone is an identity for any curvature distribution on S²;
+    the constraint form W·δ = 4π needs "flat between defects" stated as an
+    assumption. Pre-empt.
+D3. [INTERNAL, minor.] The prompt's Wβ² ≈ 8π uses δ = 1−cosθ ≈ β²/2 as
+    "angle defect," while GT2's cap is Ω = 2π(1−cosθ) ≈ πβ². The ×2π
+    convention gap (NM-6) is harmless here but must be nailed down before
+    any future numerical claim.
+D4. [Framing, mild.] The prompt's phrase "the background each one needs to
+    close" gently presupposes the background is a thing with independent
+    identity. Held strictly to Liturgy §1 it is not — which is exactly why
+    route (ε) fails and why (ii) has no second equation. The framing's most
+    hopeful clause is, on inspection, the theorem's strongest witness.
+
+--------------------------------------------------------------------------------
+10. ONE-PARAGRAPH SUMMARY
+--------------------------------------------------------------------------------
+The collective bootstrap was the last unexecuted venue for pinning β, and it
+returns a NULL of the strongest kind: a structural theorem, not a failed
+search. The joint mutual-coherence map of the whole totality is homogeneous
+degree-1 (Claim 1), because the only inhomogeneous quantity in the inventory —
+the quadratic Berry cap defect — is unwound inside every reciprocal
+transaction and forbidden by intransitivity from entering via loops or nodal
+sums (Claims 2–3). Fixed points therefore come in rays; κ=1 is the Euler
+identity certifying the marginal direction, not a constraint upon it. The one
+forced inhomogeneous equation, Gauss–Bonnet's Σδ = 4π on the totality's
+unique 2-cycle, slices each ray but couples β to W in a single relation:
+one equation, two unknowns — the flatness relocates to the (β, W) hyperbola,
+which integer-discreteness enumerates without selecting. The only equation
+that could ever have pinned the scale — loop-holonomy quantization, curvature
+read around a closed chain of transactions — is precisely what Pope's
+intransitivity deletes. Hence: THAT β exists is topologically necessary
+(hairy-ball); WHAT β equals is contingent on which totality obtains. β's
+contingency ≡ POAMS's no-loop core. Verdict (B). The impossibility is
+complete, and it is a result, not a defeat: within POAMS, "why 1/137?" is a
+question about the world's contingent closure-weight, not about the laws of
+the one substance — the same dissolution POAMS performs on every other
+reified "constant of nature." No number was fitted. No comparison to 137.036
+was made except to refuse it. Wyler stays refused.
+
+— FABLE formalizer, 2026-07-15
+================================================================================

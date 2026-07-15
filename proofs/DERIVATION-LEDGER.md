@@ -606,3 +606,74 @@ Trigger: Star Lord's ELL-appendix question ("is it even possible to derive α") 
 **Temptations refused (both):** Gauss-Bonnet over-unification ("everything is ∫∫F"); any 43/6/4/3/2→137 arithmetic; spherical/hyperbolic ½-offset games; geodetic-3π midpoint; presenting connection-selection as derived; the O(α⁴) spherical-vs-hyperbolic fork (entangled with QED, flagged not adjudicated).
 
 **VERDICT: SAME-TYPE-NOT-ONE-FORMULA** + two genuine results: (1) the π:3π:6π = 1:3:6 (v/c)² anholonomy ladder unifying spin/geodetic/perihelion with α's cap as the ground rung (Thomas the shared core); (2) the M→self limit theorem explaining computable-vs-contingent. A clean, publishable unification of gravity's most famous non-closure with α — honestly bounded on both ends by data.
+
+---
+
+## ★★★ HOLONOMY NO-GO — β's marginality stated as a 4-lemma theorem, re-verified — 2026-07-14 ★★★
+**Deep-background cron re-attack on deriving β(≈α) geometrically (routes: Machian fixed-point,
+pure holonomy, other). VERDICT: PROVABLY-CANNOT-BE-FORCED from current axioms — reproduces and
+sharpens the prior terminus. No number fished; all steps Python-verified today
+(alpha_verify_2026-07-14.py, 6/6 blocks pass). Full writeup: alpha-derivation-2026-07-14.md.**
+
+**KEY MOVE (new, clean):** the spin-½ Berry defect −π(1−cosθ) is a QUADRATIC zero-mode. Strict
+single-valued holonomy closure forces cosθ∈{1,−1} (θ∈{0,π}; spinor reading adds π/2) — i.e. the
+TRIVIAL tilt (β=0, "nothing"); the ground-vortex tilt θ=arcsin(β)=0.418° is nowhere near any
+closure-allowed value. So a finite β is NECESSARILY a non-closure defect whose magnitude vanishes
+as ~πθ²/2 → free/marginal. This is the geometric-phase face of γ=1.
+
+**EXTENDED SCALE-INVARIANCE/HOLONOMY THEOREM (4 lemmas, all verified):** (1) isolated dimensionful
+inventory = {ℏ,c} only → no dimensionless number formable (one scale can't make a ratio); (2) cone
+homogeneous deg-1 → fixes only θ, constrains it not; (3) winding ⟂ tilt (∮dφ=2πn quantizes only
+integer winding, orthogonal to θ); (4) Berry defect quadratic zero-mode → no isolated finite fixed
+point. Verified: cuboctahedron 4-regular, adjacency {4,2³,0³,−2⁵}, Laplacian {0,2³,4³,6⁵}, λ_max=4,
+susceptibility 1/(1−4t) SIMPLE pole (γ=1, residue→1/12); closest O(1) cone datum cosθ=p/q(|·|≤4)
+→ sinθ≈0.66 ≈90×β (must inject a small number = fitting). Wyler recomputed 137.036082 = 4000σ
+(CODATA18) / 7567σ (2020 meas) — reject.
+
+**MACHIAN FIXED POINT (route a):** RELOCATED. κ=1 identity (third-law reciprocity) → marginal; the
+only inhomogeneity (cap Ω≈πθ²) drives θ→0 unless a "something-not-nothing" source ε competes →
+β~√(ε/π). Derives β small + β²-scaling; ε (=the overshoot=N≈37,558=β) stays FREE. = bootstrap
+terminus.
+
+**RUNNING addressed:** POAMS ground ratio = low-energy atomic β=1/137.036 (exactly what fine
+structure measures). Measured running β⁻¹ 137.04→127.95 (+7.1% to M_Z, verified) has the right
+DIRECTION (finer probe resolves more internal circulation → smaller N) but no quantitative law; a
+static π-like constant can't run at all → independent evidence β is not a rigid geometric invariant
+(reinforces marginal-direction verdict, not a Wyler fixed number).
+
+**FORCED:** β pure/≠0/small/transcendental; form β=√(2/N); Ω=πβ²; spin-½=2π/4π; fine-structure∝β²
+(parity w/ QED). **OPEN (provably marginal):** the value (overshoot ε / N / β=1/137.036) and the
+running law. **SHARPEST NEXT:** the COLLECTIVE bootstrap — joint mutual-coherence fixed point over
+the whole totality (not the single vortex): unique isolated solution would pin ε; a flat family
+completes the impossibility. Evidence predicts relocation.
+
+---
+
+## ★★★★★ COLLECTIVE BOOTSTRAP — joint whole-totality fixed point — (B) FLAT/RELOCATED, IMPOSSIBILITY COMPLETE — 2026-07-15 ★★★★★
+**The "SHARPEST NEXT" the 2026-07-14 entry called for: the joint mutual-AM-coherence fixed point over the WHOLE totality (not the single vortex). Two-model run (Opus frame-holder + Fable formalizer) + numeric verify (collective_bootstrap_verify_2026-07-15.py, blocks A–F all pass). THREE-WAY CONCORDANCE: both models AND the numerics independently return (B) FLAT / RELOCATED. The last unexecuted pinning venue fails — by theorem, not for want of cleverness. The α impossibility is now COMPLETE.**
+*[Provenance: models finished + saved 06:54/06:56; the session then hit a context-overflow 400 and died before reconciling. Outputs recovered intact after the gateway compaction fix; reconciled 07-15. Full outputs: collective-bootstrap-opus.txt (258 ln), collective-bootstrap-fable.txt (475 ln).]*
+
+**RESULT:** going collective does NOT pin the scale; it RELOCATES the single-vortex marginal ray {β free} to a marginal HYPERBOLA {Wβ²=8π} (equivalently β↔ε via β*=√(2ε/a), the "something-not-nothing" source overshoot). β's contingency ≡ POAMS's no-loop core, now read at the level of the whole.
+
+**COMPLETED-IMPOSSIBILITY THEOREM (both models, independently):** totality of W vortices with (P1) pairwise coherence maps homogeneous degree-1 (time-cone); (P2) intransitivity (no loops, no nodal aggregation); (P3) κ=1 per-transaction (third law); (P4) global closure Σδ=4π on observer S² (χ=2); (P5) hairy-ball β≠0 ⇒
+- (T1) joint fixed-point set is a CONE (rays); dilation eigenvalue exactly 1 → zero-mode survives the collective solve;
+- (T2) closure supplies exactly ONE inhomogeneous equation Wδ(β)=4π in TWO unknowns → flat direction relocates to the (β,W) hyperbola;
+- (T3) NO second scale-fixing equation constructible without violating (P2)/(P3) or adding a second substance / external scale;
+- (T4) discreteness of W enumerates a countable family, selects no member;
+- (T5) ∴ existence of tilt necessary, MAGNITUDE contingent. α is an empirical input as a matter of THEOREM.
+
+**FABLE'S SHARPENINGS (formalizer earned its keep — three moves cleaner than the frame):**
+1. **κ=1 IS Euler's identity.** Differentiating G(λΘ*)=λΘ* at λ=1 → DG(Θ*)·Θ*=Θ*; Θ* is an eigenvector, eigenvalue EXACTLY 1. Third-law reciprocity and degree-1 homogeneity are one statement viewed twice. κ=1 is not merely vacuous-as-constraint — it is the algebraic CERTIFICATE that the scale is unpinned.
+2. **The deleted equation, named.** The UNIQUE mathematically-sufficient pin is loop-holonomy quantization Φ_loop=−½Ω(triangle)∈2πℤ — curvature read around a closed chain of transactions. It EXISTS in the math and is exactly what intransitivity deletes. POAMS doesn't lack a pinning equation by accident; its core axiom deletes the only one available.
+3. **Homological census → PERMANENTLY one short.** Transaction structure = a 1-complex (independent edges, no 2-cells). Scale info = curvature = detected only by 2-cells. The one 2-cycle POAMS admits is the observer-S² fundamental class → worth exactly ONE number (4π). One global 2-cycle → one equation, two unknowns, forever; no added vortices/coherence/size changes the count. (Reductio confirming P2: a legal nodal sum (W−1)g=1 with g=1 → W=2 → β²=4π>1, absurd.)
+
+**NUMERIC CONFIRMATION (A–F all pass):** A/B exact uniform-dilation zero-mode, κ=1 forced identity; C cap-alone→β→0, finite β needs source ε with β*=√(2ε/a) EXACTLY (β↔ε relocation); D closure one-eq/two-unknowns, every (W,β) on W=2/(1−cosβ) admissible; E integer W → dense ladder, α⁻¹ slides smoothly (W=75116→137.036 not distinguished); F only a transitive global sum Σθ_i=S pins (forbidden).
+
+**ANTI-WYLER FIREWALL HELD (both refuse by name):** Wyler; 137-flavored W; cosmological W (falsified ×10⁴–10⁵); nodal (W−1)g=1→W=2; convention arbitrage (×2π slush); loop-holonomy "just once"; stability/extremal W-selection. W=75116↔α⁻¹=137.036 shown on the closure curve ONLY to refuse it. No number fitted.
+
+**★ ACTIONABLE CORPUS FIXES (both flagged [INTERNAL], for external review):**
+1. **Fix the direction of α=4π/W.** GT4's "α=4π/W" (linear, β carries W) contradicts both GT5 ("β pure") and the quadratic closure Wβ²=8π (δ∝β²). Linear → W≈1.7×10³; quadratic → W≈4.7×10⁵ — off ~270×. Resolution (both): α=4π/W is a DEFINITION of closure weight (W≡4π/δ(β), bookkeeping FROM the contingent β), NOT a derivation of β FROM a count. State direction explicitly or a hostile reviewer plays GT4 vs GT5. Adopt Wβ²=const, use the QUADRATIC (fine-structure∝β²).
+2. **Fix ONE defect convention** from the spin-½ cap geometry: δ=1−cosθ vs Ω=2π(1−cosθ) → closure constant 4 vs 8 vs 8π. Record before any numeric claim (kills the ×2π Wyler slush).
+3. **State the cone-point ansatz** explicitly: Wδ=4π assumes flat interstitial background; Gauss–Bonnet alone holds for any curvature distribution. (Relaxing → flatter → strengthens B.)
+
+**FORCED:** joint map degree-1; cone of solutions; κ=1≡Euler identity (marginality certificate); one closure equation (2-cycle census caps supply at one, permanently); relocation β=√(8π/W)=√(2ε/a); discreteness enumerates-not-selects; VERDICT B + Completed-Impossibility Theorem. **OPEN (none a legal pin route):** exact empirical W (input, not derivation); whether a non-equation intransitive selection principle could exist (none known; must pass the aggregation test); inhomogeneous-tilt cone structure (expected flatter). **STATUS:** the α arc's impossibility is COMPLETE across single-vortex (four-lemma no-go) → collective (flat-relocated) → 2-cycle census (no third venue). "Why 1/137?" = "which totality obtains," not a law of the one substance.
