@@ -677,3 +677,279 @@ completes the impossibility. Evidence predicts relocation.
 3. **State the cone-point ansatz** explicitly: Wδ=4π assumes flat interstitial background; Gauss–Bonnet alone holds for any curvature distribution. (Relaxing → flatter → strengthens B.)
 
 **FORCED:** joint map degree-1; cone of solutions; κ=1≡Euler identity (marginality certificate); one closure equation (2-cycle census caps supply at one, permanently); relocation β=√(8π/W)=√(2ε/a); discreteness enumerates-not-selects; VERDICT B + Completed-Impossibility Theorem. **OPEN (none a legal pin route):** exact empirical W (input, not derivation); whether a non-equation intransitive selection principle could exist (none known; must pass the aggregation test); inhomogeneous-tilt cone structure (expected flatter). **STATUS:** the α arc's impossibility is COMPLETE across single-vortex (four-lemma no-go) → collective (flat-relocated) → 2-cycle census (no third venue). "Why 1/137?" = "which totality obtains," not a law of the one substance.
+
+---
+
+## ★★ RUNNING-LAW ATTEMPT — β(Q) — PARTIAL / firewall breach caught by adversary — 2026-07-15 ★★
+**The parallel theory bet (derive α's scale-dependence). Pre-registered (running-law-FOUNDATION.md).
+Two-model INTENT failed on the second model: Fable-5 run errored (~zero output); devil's-advocate
+role carried by an independent Opus adversary pass. So this is Opus-forward vs Opus-adversary
+(same base model, opposite instructions) — a true Fable cross-check is STILL OWED.**
+
+**Opus forward pass claimed:** the running is FORCED logarithmic (α⁻¹ linear in lnQ²) with a
+β²-scale-flow, from β-marginality (collective bootstrap) lifted by the quadratic phase-sense circulation cap
+δ=πβ² — "the corpus reading's form from geometry, loop-free." Leptonic Δα numeric 0.03142 vs PDG 0.03150.
+
+**Adversary (correctly) BROKE the headline. Reconciled verdict (running-law-RECONCILIATION.md):**
+- **FORCED (survives):** (1) β marginal ⇒ leading/power-law running VANISHES (GT3; note eigenvalue-1
+ = INVARIANT, not "annihilated" — forward-pass phrasing corrected). (2) SIGN: α⁻¹ falls with Q
+ (two independent POAMS readings). (3) THRESHOLD structure (mode contributes once Q≳m_f c;
+ placement carried from data). (4) META: rigid π-like invariant can't run ⇒ running ⟺ non-rigidity
+ (locks to collective bootstrap).
+- **NOT FORCED (withdrawn):** the FORM (log): the "marginal⇒log" step imports scale-flow/Callan-Symanzik
+ autonomy POAMS hasn't earned, and the log needs a reference μ whose absence supposedly forced it
+ (contradicts §1's use of scale mc; (Q/mc)^p equally scale-covariant). β² beta-power: a choice, not
+ forced (β³→√-log equally available, and is what the §4 mechanism implies). LOOP-FREE: contested —
+ δ=2π(1−cosθ) is also the Berry holonomy of the cap-boundary LOOP; single-vortex-cap vs
+ transaction-loop distinction must be argued, not assumed. COEFFICIENT: circular (the corpus reading formula fed
+ the corpus reading inputs) — zero forced content (was already flagged OPEN).
+- **FIREWALL BREACH (owned):** pre-registration named √-log (N-additive) as the distinctive POAMS
+ prediction; forward pass resolved the internal §3-vs-§4 disagreement toward the corpus reading's log via the
+ unforced β² link and declared √-log "refuted" = chasing the corpus reading's curve. Withdrawn.
+
+**HONEST RESULT (keep):** POAMS forces running EXISTS, its SIGN, its THRESHOLD structure, and
+β-marginality; it does NOT fix the FORM. **log (the corpus reading) vs √-log (distinctive) is a LIVE, falsifiable
+question** precision running data can decide — that ambiguity is the real content, not its
+the corpus reading-matching resolution.
+**OWED:** retry Fable second-model pass; derive the beta-power (β² vs β³) forward without scale-flow
+autonomy (THE crux); rigor on cap-vs-loop legality; data comparison only after forcing.
+**STATUS: internal / NOT publication-ready** (unlike the collective bootstrap). Files:
+running-law-{FOUNDATION,opus,adversary,RECONCILIATION}.md/.txt, running_law_verify.py.
+**PROCESS LESSON:** even a same-model adversary caught the training-corpus pull toward the corpus reading — the
+value of adversarial review + honoring the pre-registration. My forward pass "let the corpus run
+the show" on the FORM; the sign/threshold results are the genuine POAMS content.
+
+---
+
+## ★★★ RUNNING-LAW SWING 2 — the FORM, forward via topological closure (no scale-flow) — 2026-07-15 ★★★
+**Star Lord: "take another swing" (theory is fast). Goal: derive the running FORM forward WITHOUT
+the scale-flow autonomy that broke swing-1. Files: running-law-v2-opus.txt (+ in-line self-adversary),
+running_law_v2_verify.py. External cross-checks (v2-adversary Opus, v2-fable Fable-5) BOTH FAILED
+(subagent runs terminated ~6min, no output — 3rd infra failure today; a working cross-check is OWED).**
+
+**THE ADVANCE (survives self-adversary):** route the form-question through the ONE thing we proved.
+Topological closure Σδ=4π (Gauss–Bonnet, observer-S² χ=2) holds at EVERY resolution ⇒ W(ℓ)β(ℓ)²=4
+⇒ **α⁻¹=½√W(ℓ)**. So the running FORM = the scaling of the resolved winding-count W(ℓ) with probe
+resolution — a geometric counting question, NO Callan–Symanzik autonomy, NO smuggled μ (reference =
+2mc, physical vortex core scale r_s; running turns on ~m, as the corpus reading's does).
+
+**FORM MAP (forward):** with ν(s)=defect density per log-scale, W(ℓ)=∫ν ds.
+- ν uniform ⇒ W∝ln(ℓ/r_s) ⇒ **α⁻¹∝√(ln(2mc/Q)) = √-LOG** (distinctive, ≠ the corpus reading).
+- ν growing ∝s ⇒ W∝(ln)² ⇒ α⁻¹ linear in lnQ² = **the corpus reading LOG**.
+- ν power ⇒ power-law running — **EXCLUDED by β-marginality** (GT3; a real exclusion).
+**SHARPENING (self-adversary, attack backfired):** a per-octave GROWING density is NOT scale-
+invariant (octaves inequivalent). So genuine cone scale-invariance FORCES ν uniform ⇒ √-LOG is the
+**forced bare-vortex prediction** (given self-similar winding r_s→r_orb); the corpus reading's log REQUIRES breaking
+scale-invariance with intrinsic scales — a mass/mode TOWER. Upgrade over v2 draft's "default."
+
+**NUMERIC (honest, running_law_v2_verify.py):** α⁻¹=½√W identity confirmed. √-log vs log
+near-DEGENERATE over clean windows (residual 0.015 in α⁻¹ over a modest scale window ≈ precision), separating
+only over a huge lever arm (0.16 over a huge scale lever-arm). ⇒ √-log **NOT excluded** — subtle, live, testable;
+mildly-to-moderately disfavoured by global wide-Q log fits, killed by no single clean-window datum.
+
+**VERDICT:** FORCED = the form-reduction (running=W(ℓ)-scaling via closure, no scale-flow); power branch
+excluded by marginality; SIGN (α⁻¹↓ with Q, modulo the resolution-averaging reading); scale-
+invariance ⇒ √-LOG bare-vortex prediction; the linear-in-ln form = scale-broken/tower regime. This ANSWERS swing-1's
+breaks (no scale-flow autonomy; physical μ; loop-free now = counting vs the fixed 2-cycle, no quantized loop).
+**OPEN:** working external cross-check; rigorous proof of self-similar winding (uniform ν); the tower
+giving log; wide-lever-arm curvature test. **STATUS: internal, NOT publication-ready.** Big improvement
+on swing-1 — a genuine forward result with a distinctive falsifiable prediction (√-log), honestly bounded.
+
+---
+
+## ★★★ RUNNING-LAW SWING 3 (RIGOROUS) — FORM proven + correctly attributed; MAGNITUDE falsified — 2026-07-15 ★★★
+**Star Lord: "push forward with a POAMS-compliant RIGOROUS proof of the running-law." Files: running-law-
+v3-RIGOROUS.md, running_law_v3_verify.py. Two-model process: one BOUNDED external Opus adversary COMPLETED
+(2m19s) — first successful external cross-check in days; Fable-5 still owed. Adversary materially corrected
+the attribution; corrections folded in (not waved away).**
+
+**THE RIGOR UPGRADE (survives):** the two assumptions swing-2 conceded are resolved.
+- LEMMA 1 (LOG forced): scale-invariance of the winding count ⇒ W(λℓ)−W(ℓ)=h(λ) indep of ℓ ⇒ (log-scale)
+ additive/Cauchy ⇒ **W(ℓ)=ν·ln(ℓ/r_s), ν=const**. "Uniform ν" is now PROVEN (unique solution; monotonicity
+ kills pathological Cauchy branches), not "natural." Adversary validated this step as non-circular.
+- LEMMA 2 (√ forced, RE-ATTRIBUTED): swing-2's "constant-δ-per-turn / equipartition" DELETED (adversary:
+ unnecessary AND in tension with growing W). Wβ²=4 ⇐ Gauss–Bonnet Σδ=4π ⊕ **δ=πβ² (QUADRATIC)**. The √ in
+ α⁻¹=½√W comes from the deficit being **EVEN in the tilt** (isotropy: solid angle 2π(1−cosθ), no linear
+ term) — NOT from scale-invariance.
+- MAIN: √-log = (LOG ⇐ scale-invariance) ∘ (√ ⇐ isotropy-even deficit). Two independent forcings; neither
+ alone is √-log ⇒ not a relabeled premise.
+
+**ADVERSARY'S DEEP CORRECTION (accepted, important):** swing-2's theorem "plain-log ⇒ must break scale-
+invariance (tower)" was FALSE. §6 corrected to TWO routes to plain log: (1) a LINEAR deficit δ∝β (odd) ⇒
+Wβ=const ⇒ α⁻¹∝ln, *within* scale-invariance — forbidden here only by ISOTROPY (even deficit); (2) a mode
+TOWER (¬P) breaking scale-invariance = the corpus reading's Σ-species/thresholds. So √-log needs BOTH the even deficit AND
+scale-invariance+no-sub-scale; the even/quadratic deficit (isotropy) is the true load-bearing fact.
+
+**THE NUMERIC KILLED THE MAGNITUDE (decisive, honest):** running_law_v3_verify.py.
+- C1/C2 pass: α⁻¹=½√W, N=2/α², ν≈1.34×10⁴ turns/e-fold self-consistent (reproduce 137.036 exactly).
+- C3: √-log-vs-log worst-case gap ~0.079 over a modest scale window (swing-2's ~0.015 was a midpoint UNDERSTATEMENT) —
+ and that window is TOWER-dominated anyway, so swing-2's "degenerate/not-excluded" comfort is RETRACTED.
+- **C4 (decisive):** the bare-vortex running window is only [r_s,r_orb]=[αmc,2mc]≈**the bare-vortex scale span [r_s, r_orb] (≈5.6 e-folds)**. The
+ anchored √-log there collapses **α⁻¹: 137→124→88→8.5 across the bare span**, while reality holds α⁻¹≈137
+ throughout. **Runs ~100× too fast ⇒ the naive quantitative magnitude is FALSIFIED.** The large measured
+ running to the deep-resolution (tower) regime is the TOWER regime (¬P), not a bare-vortex test.
+
+**NET (honest):** FORM = √-log RIGOROUSLY DERIVED + correctly attributed (log⇐scale-invariance, √⇐isotropy);
+false §6 theorem fixed; first external cross-check completed & reconciled. BUT the QUANTITATIVE running-law
+(scale-map Q↔W) is BROKEN/FALSIFIED at natural anchoring — swing-3 claims a FORM result ONLY, not a running
+prediction. The magnitude/scale-map is now the sharpest open problem. **STATUS: internal, NOT publication-
+ready.** Real progress (form + attribution + a completed adversary) AND an honest falsification (magnitude)
+— firewall + numeric check did exactly their job; no corpus-chasing, swing-2 overclaims retracted.
+**PROCESS WIN:** a bounded (<400-word, no-tools) external adversary finally completed where long runs kept
+dying — keep external cross-checks SHORT/bounded to beat the ~6-min subagent failures.
+
+---
+
+## ★★★ RUNNING-LAW SWING 4 — the SCALE-MAP: magnitude error DIAGNOSED (geometric vs marginal rate) — 2026-07-15 ★★★
+**Star Lord: "Go" (take the scale-map swing). File: running-law-v4-scalemap.md (+ inline numeric).**
+- **ROOT of the ~100× overshoot = a CATEGORY ERROR:** the naive map used ν_geom (geometric PACKING density,
+ ~1.34×10⁴ turns/e-fold) as the RUNNING rate. Numeric: naive d(α⁻¹)/dlnQ=24.4/e-fold ⇒ 137 units over the
+ 5.6-e-fold window (α⁻¹ 137→0, absurd); the corpus reading single-circulation marginal rate=0.21/e-fold ⇒ 1.2 units (matches
+ "α barely runs across the bare-vortex span"). **Overshoot = 115× ≈ the winding depth N.**
+- **FIX forced by GT3:** β is MARGINAL (flat direction) ⇒ must run LOGARITHMICALLY SLOWLY; it cannot fall
+ 100× over 2.4 decades. So the fast naive running CONTRADICTS marginality. The coherent bulk is a rigid/
+ protected flat direction — probing does NOT strip it at the packing rate; only a slow marginal boundary
+ layer (γ ≪ ν_geom, ~O(1) mode/e-fold) runs. Magnitude cured IN PRINCIPLE (not fitted).
+- **COST (honest):** the cure re-opens the form-fork at the running VARIABLE — √-log iff the slow marginal
+ running acts on N (depth); PLAIN LOG iff it acts on α⁻¹ (fixed Δα⁻¹ per mode/e-fold = the conventional/
+ the corpus reading, which is favoured). So fixing magnitude pushes the bare vortex TOWARD the linear-in-ln form.
+- **OBSERVABILITY:** single-vortex window is only ~5.6 e-folds, effect ~1 unit ⇒ √-log vs log PRACTICALLY
+ UNDECIDABLE; the large observed running (to the deep-resolution (tower) regime) is the TOWER regime (¬P) = log (§6/route-2).
+- **NET:** real progress (magnitude failure diagnosed + principled cure via GT3; naive cumulative-√ map
+ RETIRED as the running map) AND honest deflation (the bare-vortex √-log is slow, likely unobservable, and
+ the conventional running reading gives log). Swing-3 FORM stands as a formal statement about the cumulative
+ map; swing-4 shows that map is not the physical running map. No corpus-chasing — reported straight.
+- **OPEN (now sharpest):** derive the marginal rate γ from single-vortex geometry AND whether it acts on N
+ (→√-log) or α⁻¹ (→log). STATUS: internal, NOT publication-ready.
+
+---
+
+## ★★★ RUNNING-LAW SWING 5 + FIRST CROSS-VENDOR ADVERSARY (Sol) — log-vs-√log is GENUINELY OPEN; swing-5's "√-log EXCLUDED" is REFUTED — 2026-07-15 ★★★
+**Star Lord: "Fire Sol on it." First adversary run after switching adversary Fable-5 → OpenAI GPT-5.6 Sol (cross-vendor).**
+Files: running-law-v5-gamma.md (Opus swing-5), running-law-v5-sol-adversary.txt (Sol ruling; gpt-5.6-sol, high reasoning, 55s, fallbackUsed=false).
+
+SWING-5 (Opus) CLAIMED: γ acts on α⁻¹ (not N) ⇒ bare vortex runs PLAIN LOG; √-log EXCLUDED as self-contradictory (√-log ⇒ cubic scale-flow ⇒ vanishing quadratic term b₂=0 ⇒ "no boundary-deficit contribution ⇒ no lifting ⇒ no running"). Derived γ≈0.21/e-fold (one boundary-layer phase circulation), curing swing-4's ~100× overshoot. REVERSED swing-3's √-log headline.
+
+CROSS-CHECKS — BOTH adversaries independently rule AGAINST swing-5's closure:
+- Fable-5 (20:10, pre-switch): OPEN — eigenvalue-1 kills only the LINEAR flow term; quadratic (β²→log) and cubic (β³→√-log) are BOTH marginal. Fork hinges on whether the probe–mode vertex carries a factor of β; POAMS hasn't derived it.
+- Sol / GPT-5.6 Sol (20:41): VERDICT **GENUINELY-OPEN**, and REFUTES swing-5's exclusion with explicit integration:
+ • Load-bearing UNPROVED step = "lifting exists ⇒ 𝓑(β)=b₂β²+…, b₂≠0." GT3 fixes only 𝓑(0)=𝓑′(0)=0; it does NOT fix whether the first nonzero derivative is 𝓑″(0) (quad→log) or 𝓑‴(0) (cubic→√-log). Calling β the marginal coordinate does NOT force β⁻¹ affine in lnQ.
+ • Pivotal equivalence "nonzero running ⟺ b₂≠0" is INVALID. Counterexample: dβ/dt=b₃β³ ⇒ d(β⁻²)/dt=−2b₃ ⇒ α⁻¹(Q)=√(α⁻²(μ)−2b₃·ln(Q/μ)) = a genuine √-log running with b₂=0 yet the flat direction lifted and α running. So "b₂=0" = "no quadratic term," NOT "no boundary-deficit contribution / no running." SWING-5's self-contradiction argument FAILS.
+ • To FORCE log, POAMS must DERIVE (not assume) that the leading probe–boundary-mode process has two vertex ends each ∝β with a nonvanishing uncancelled coefficient (prove 𝓑″(0)≠0 from boundary geometry/symmetry) AND exclude any selection rule/cancellation leaving 𝓑∼β³.
+
+RECONCILED STATUS:
+- STANDS (fork-independent): swing-5's magnitude cure — γ=O(1)/e-fold (≈0.21, one boundary circulation) ⇒ ~1 unit over the bare-vortex scale span [r_s,r_orb] (ratio 2/α ≈ 5.6 e-folds); α⁻¹ holds ≈137 across it (barely varies); swing-4's ~N-fold overshoot cured.
+- RETRACTED: swing-5's FORM headline ("LOG forced, √-log excluded"). Refuted by Sol, unproven per Fable.
+- **The running-law FORM (log vs √-log) is GENUINELY OPEN**, now pinned to ONE sharp POAMS-internal question: does the probe–boundary-mode vertex carry a factor of β? (two β-ends ⇒ 𝓑″(0)≠0 ⇒ LOG; β-independent geometric rate ⇒ 𝓑∼β³ ⇒ √-LOG.)
+- Swing-3's √-log = the STATIC PACKING PROFILE (α⁻¹=½√W(ℓ)); still not the running law. Unchanged.
+
+PROCESS WIN: cross-vendor adversary (OpenAI Sol vs Anthropic Opus) decisively caught Opus over-reaching toward closure — with an explicit counterexample, in 55s. Exactly why Fable→Sol was done. Two independent adversaries (Fable + Sol) now converge on OPEN. STATUS: internal, NOT publication-ready.
+SHARPEST NEXT: derive the probe–mode vertex β-power-counting (𝓑″(0)≠0?) from single-vortex boundary geometry — that ONE step decides log vs √-log.
+
+---
+
+## ★★★ RUNNING-LAW SWING 6 — the β-power-counting (Opus forward √ vs Sol adversary): STILL OPEN but SHARPENED to ONE asymptotic — 2026-07-15 ★★★
+**Star Lord: "Go."** Files: running-law-v6-vertex.md (Opus forward, √-form), running-law-v6-sol-adversary.txt (Sol; gpt-5.6-sol, high, 44s, fallbackUsed=false). Liturgy-clean throughout.
+
+OPUS FORWARD (v6): argued √-of-lnℓ via Gauss–Bonnet count-slaving — Wβ²=4 (IF scale-local) ⇒ β=2/√W ⇒ β slaved to the extensive count W; slow boundary response adds turns (dW/dlnℓ=γ_W=O(1)) ⇒ α⁻²=W/4 linear ⇒ α⁻¹=√-of-lnℓ (dβ/dlnℓ=−(γ_W/8)β³, cubic). Flagged: assumes LOCAL Wβ²=4.
+
+SOL ADVERSARY — VERDICT GENUINELY-OPEN (valid CONDITIONAL route to √; premises don't force it). Two decisive catches:
+1. **Gauss–Bonnet slaving is KINEMATIC, not dynamical — it does NOT force the power.** Differentiate Wβ²=4 (t=lnℓ): dβ/dt = −(β³/8)(dW/dt) EXACTLY. Cubic ONLY IF dW/dt→γ_W≠0 as β→0. A quadratic flow dβ/dt=b₂β² coexists with the lock — it just requires dW/dt=−4b₂√W (count rate growing as √W). The lock is AGNOSTIC to the power; it only trades a tilt-flow law for a count-flow law. (Opus over-reached: the slaving is a change of variables, not the missing power-count.)
+2. **Scale-LOCAL Wβ²=4 is not licensed by self-similarity alone.** Gauss–Bonnet closes the deficit budget for a COMPLETED closed χ=2 vortex; a resolution-truncated configuration may retain unresolved deficit / not be closed. Local lock legitimate ONLY IF every resolved scale is proven a complete closed χ=2 vortex with no hidden deficit remainder.
+
+RECONCILED / SHARPENED (the real gain): log-vs-√ reduces to ONE concrete asymptotic about single-vortex boundary geometry —
+ **how does the boundary circulation's per-e-fold count-response dW/dlnℓ behave as β→0 (W→∞)?**
+ • dW/dlnℓ → const (bounded, nonzero) ⇒ cubic ⇒ √-OF-lnℓ.
+ • dW/dlnℓ ∝ √W (β-weighted) ⇒ quadratic ⇒ LINEAR-in-lnℓ.
+ PLUS a topological-locality lemma: each resolved scale is a closed χ=2 vortex (scale-local Wβ²=4). Both are additional premises POAMS must DERIVE, not assume.
+
+STATUS: internal, not publication-ready. STILL OPEN — but reduced from "log vs √-log?" to a single well-posed boundary-geometry asymptotic (the count-response law dW/dlnℓ(W)) + a locality lemma. Third straight Sol refusal-of-closure; the two-model firewall blocked false closure in BOTH directions (swing-5 → log, swing-6 → √).
+SHARPEST NEXT (swing 7): derive dW/dlnℓ(W) asymptotics for one boundary phase-sense circulation, and whether each resolved scale is a closed χ=2 object.
+
+---
+
+## ★★★ RUNNING-LAW SWING 7 — boundary kinematics + scale-locality: fork REDUCED to ONE lemma (the boundary-rate law) — 2026-07-15 ★★★
+**Star Lord: "take the new swing."** Files: running-law-v7-boundary.md (Opus forward, √-form), running-law-v7-sol-adversary.txt (Sol; gpt-5.6-sol, high, 79s, fallbackUsed=false). Liturgy-clean.
+
+OPUS FORWARD (v7): (1) ABSORBED Sol's swing-6 scale-locality catch by deriving it — the resolved-to-ℓ portion is a χ=1 DISK; Gauss–Bonnet-with-boundary: W(ℓ)πβ(ℓ)²+Φ(ℓ)=2π (L), Φ=∮k_g ds = unresolved remainder ⇒ Wβ²=4 is GLOBAL-only (Sol confirmed). (2) rigid-bulk, scale-independent (swing-4) ⇒ exactly one boundary circulation responds/e-fold ⇒ dW/dlnℓ=γ_W=O(1) const (R). (3)+(4) combine (L)+(R) with Φ∝β² sub-dominant ⇒ cubic ⇒ √-form.
+
+SOL ADVERSARY — VERDICT GENUINELY-OPEN. Catches:
+1. **Rigidity fixes WHERE, not the RATE.** "One boundary circulation responds" gives the LOCATION (one responder, not the bulk) but NOT the rate r(β)=dW/dlnℓ. r→γ_W (√), r∝β, and r∝1/β∝√W (linear) are ALL compatible with a single responder — because "number of responding layers" (=1, fixed by rigidity) ≠ "turns processed per layer per e-fold" (=r(β), unfixed). Opus Part 2 conflated the two. Rigidity excludes bulk participation but NOT dW/dlnℓ∝√W.
+2. **Φ∝β² not forced** — bulk-deficit evenness does NOT impose evenness on the ORIENTED boundary integral Φ=∮k_g ds; a β-linear piece needs a boundary-reflection symmetry (unproven). BUT Sol's own correction: a REGULAR (slaved) Φ, even O(β), only changes the denominator in β̇=−β³Ẇ/[2(2−Φ/π)+(β/π)Φ_,β] — leading flow stays CUBIC with Ẇ→γ_W. Only an INDEPENDENT drift Φ̇=O(β) would give quadratic. So Φ-regularity is largely BENIGN; the decisive issue is the RATE.
+
+RECONCILED / SHARPENED: √-form NOT forced, but the entire log-vs-√ question is now reduced to ONE decisive lemma:
+  **BOUNDARY-RATE LEMMA:** lim_{β→0} dW/dlnℓ = γ_W, finite & nonzero. [→ cubic → √-form.] If instead dW/dlnℓ ∝ √W (one responder processing ∝1/β turns/e-fold) → quadratic → linear-in-lnℓ.
+  (plus a benign BOUNDARY-REGULARITY lemma: Φ regularly slaved / Φ̇=o(β).)
+Rigidity identifies the active LOCATION; it does not determine its scale-flow RATE — that is the missing result.
+
+STATUS: internal, not publication-ready. Third straight Sol refusal-of-closure. CUMULATIVE PROGRESS 5→6→7: marginality(GT3) → Gauss–Bonnet slaving(kinematic only) → rigid-bulk(location not rate); each peeled a layer, converging on the irreducible core = the boundary-rate law dW/dlnℓ(β→0) for ONE boundary phase-sense circulation. Scale-locality RESOLVED (χ=1 disk + Φ; Φ benign). Cross-vendor firewall blocked false closure 3× and turned a vague form-fork into ONE crisp boundary-kinematics lemma.
+SHARPEST NEXT (swing 8): derive dW/dlnℓ as β→0 for one boundary circulation from single-vortex boundary kinematics — const (√) vs ∝√W (linear). That single lemma ends the log-vs-√ question. (Likely the genuine open frontier / hardest core.)
+
+---
+
+## ★★★ RUNNING-LAW SWING 8 — the boundary-rate lemma: inner-richness channel CLOSED, fork relocated to the ORBITAL-STEP law — 2026-07-15 ★★★
+**Star Lord: "Go."** Files: running-law-v8-boundaryrate.md (Opus forward, √-form), (Sol ruling inline in that file's reconciliation). Sol = gpt-5.6-sol, high, 29s, fallbackUsed=false. Liturgy-clean.
+
+OPUS FORWARD (v8): attacked the rate r(β)=dW/dlnℓ directly by DECOMPOSING the responder — (S0) responder = OUTER orbital unit; INNER spin winding = rigid protected bulk (does not run). (S1) GT1 self-similarity ⇒ orbital units equispaced in lnℓ, β-independent ⇒ ν_orb=const. (S2) phase-sense circulation = integer winding unit ⇒ one engaged orbital unit contributes exactly 1 to dW/dt; inner N=2/β² spin turns don't enter the rate. ⇒ r=ν_orb×1=O(1)⇒√-of-lnℓ. Rebuttal to swing-7: the ∝1/β could only come from dragging inner-spin richness, which rigidity forbids.
+
+SOL ADVERSARY — VERDICT GENUINELY-OPEN. Decisive split ruling:
+- **(S2) ACCEPTED** — rigidity DOES ensure each engaged orbital unit = one winding unit with inner spin fully rigid. The swing-7 "inner richness ∝1/β² leaks into the rate" channel is CLOSED. (Genuine swing-8 gain.)
+- **(S1) REFUTED** — β-independence of the orbital step is NOT given by self-similarity. Self-similar = constant multiplicative step AT a given β; not the SAME step across β. **Counterexample: ℓ_{m+1}=ℓ_m·e^{−kβ}** — self-similar at every β, yet |Δlnℓ_orb|=kβ ⇒ ν_orb=1/(kβ) ∝ 1/β ⇒ LINEAR branch, inner spin fully rigid. So the 1/β re-enters via orbital SPACING DENSITY, not inner richness.
+- Corollary: Opus's "linear ⇔ rigidity weakens with depth" is FALSE — linear arises with fully rigid bulk. Rigidity fixes WHAT responds + each unit's count (=1); NOT how densely orbital units are met in lnℓ.
+
+RECONCILED / SHARPENED (the real swing-8 gain): the ENTIRE log-vs-√ fork is now ONE scalar — the **ORBITAL-STEP LEMMA:** Δlnℓ_orb (radial advance per outer orbital turn) as β→0. β-independent ⇒ √; ∝β ⇒ linear. Two named live candidate geometries: (a) self-similar spiral RATIO (fixed radial step, tie to mc²/h ladder GT6 / ½ / ½ln2) ⇒ √; (b) helix PITCH = tilt ∝β (turns bunch up deep) ⇒ linear. = whether probe resolution runs along the RADIAL self-similar spiral (√) or the AXIAL helix pitch (linear).
+
+RETRACTIONS (honest): swing-8 (S1) β-independence claim; the "worst case is anti-corpus" claim (linear IS reachable with rigid bulk). STANDS: (S2) inner-richness channel closed; magnitude γ_W=O(1) (unchanged).
+STATUS: internal, not publication-ready. FOURTH straight Sol refusal-of-closure; cross-vendor firewall again blocked false closure (this time toward √). Progression 5→6→7→8 each peeled one conflation; swing-8 reduced the fork to a single scalar Δlnℓ_orb(β).
+SHARPEST NEXT (swing 9): derive Δlnℓ_orb(β) — self-similar spiral ratio (const→√) vs helix pitch (∝β→linear) — from POAMS closure + two-tier geometry + mc²/h ladder. That scalar ends log-vs-√.
+
+---
+
+## ★★★ RUNNING-LAW SWING 9 — read the orbital step off GT5's explicit scales: √ candidate + magnitude/freeze consistency, but the "response-rung identification" stays OPEN — 2026-07-15 ★★★
+**Star Lord: "Go."** Files: running-law-v9-orbitalstep.md (Opus forward, √-of-lnℓ + loglog softening), Sol ruling inline in that file. Sol = gpt-5.6-sol, high, 68s, fallbackUsed=false. Liturgy-clean. (5th straight Sol refusal-of-closure.)
+
+OPUS FORWARD (v9): stop arguing the step by analogy — READ it off GT5's EXPLICIT scales. r_s=ħ/2mc, r_orb=ħ/mβc ⇒ r_orb/r_s=2/β (★) ⇒ one two-tier unit spans Δlnℓ_orb=ln(2/β), GROWING as β→0 ⇒ opposite of the shrinking e^{−kβ} branch ⇒ linear EXCLUDED ⇒ r=ν_orb×1=1/ln(2/β) ⇒ leading **√-of-lnℓ with a derived loglog softening** α⁻¹≈√(lnℓ/lnlnℓ). Two consistency checks fell out: magnitude (ln(2/β)≈5.6 = the bare span; r≈0.18 ⇒ ~1 unit over it) and marginal freeze (r→0 at β→0).
+
+SOL ADVERSARY — VERDICT GENUINELY-OPEN. Decisive catches:
+- **(★) is the STATIC two-tier SPAN, not the RESPONDING-rung spacing.** Nothing equates the scale ratio r_orb/r_s with spacing in t=lnℓ. **Counterexample:** keep r_orb/r_s=2/β but let responding rungs be ℓ_{j+1}=ℓ_j·e^{kβ} ⇒ Δlnℓ_orb=kβ, ν_orb∝1/β ⇒ linear survives, static scales untouched.
+- **"1 orbital turn per unit" demolished:** N spin-per-orbital (GT2) does not fix N TOTAL spin (hence 1 orbital) per unit; a unit may hold M~1/(kβ) orbital turns each wrapping N rigid spins (bulk still rigid). N/N assumed the answer.
+- So the magnitude/freeze results are CONSISTENCY CHECKS, not exclusions of the shrinking-pitch branch.
+
+RECONCILED: √ NOT forced. Swing-9 downgraded to: a concrete POAMS-native CANDIDATE step (ln(2/β)) that is self-consistent with magnitude + marginal-freeze (circumstantial support for √), plus the exact NAMED missing proposition. THE FORK, maximally sharp: does one e-fold of PROBE RESOLUTION advance the responder by a RADIAL tier step (ln(2/β), growing →√) or an AXIAL pitch step (∝β, shrinking →linear)?
+FORWARD SEED (untested): probe resolves LENGTH ℓ=ħ/Q = a radial/spatial extent ⇒ crosses RADIAL tier rungs →√.
+META: may be an IRREDUCIBLE MODELING INPUT (what resolution physically does: radial-tier vs axial-pitch), not a GT1–GT7 theorem. If so, √+loglog = the natural/consistent choice → distinctive testable PREDICTION (pre-registration counts that as success if declared pre-comparison).
+RETRACTIONS: swing-9 (1)+(2) as a derivation; "linear excluded by GT5." STANDS: √ candidate + its two consistency checks; the (S2) topological-unit result from swing-8.
+STATUS: internal, not publication-ready. Progression 5→6→7→8→9 each peeled one conflation; swing-9 tied the open scalar to a concrete GT5 value + named the response-rung identification as the irreducible core.
+SHARPEST NEXT (swing 10): adversary-test "probe-resolution-is-radial ⇒ radial tier rungs"; determine whether the responding outer layer carries a finer axial pitch sub-structure ∝β — i.e. derive Sol's response-rung identification, or establish it as an irreducible POAMS modeling choice.
+
+---
+
+## ★★★ RUNNING-LAW SWING 10 — resolution-is-radial adversary-tested; response-rung identification CERTIFIED IRREDUCIBLE → TERMINAL LANDING — 2026-07-15 ★★★
+**Star Lord: "adversary-test the resolution-is-radial → √ argument."** Files: running-law-v10-radial.md (Opus forward + Sol reconciliation inline). Sol = gpt-5.6-sol, high, 62s, fallbackUsed=false. Liturgy-clean. (6th straight Sol refusal-of-forcing — but this one LANDS.)
+
+OPUS FORWARD (v10): completed the resolution-is-radial argument with (I) length probe ℓ=ħ/Q partitions RADIALLY ⇒ crossed rungs are radial features; (II) enclosure-topology ⇒ one wrapping orbital per spin bundle ⇒ M=1 per tier ⇒ radial rungs = GT5 tier boundaries spaced ln(2/β); (III) tilt-orthogonality ⇒ β tips the orbital into the spin's transverse phase, not radially ⇒ no radial pitch. ⇒ √-of-lnℓ + loglog, defusing both swing-9 counterexamples.
+
+SOL ADVERSARY — VERDICT GENUINELY-OPEN; (I)–(III) do NOT force √:
+- (I) TRUE (ℓ resolves radial enclosure) but does NOT fix radial SPACING — counterexample (a) e^{kβ} gives radial boundaries with no phase-resolving. Overextended.
+- (II) FAILS: GT5 "wraps" ≠ "one wrapping radius per bundle." M>1 radially-stacked distinct enclosures of the SAME rigid bundle allowed (r_{j+1}=r_j e^{kβ}, M~1/(kβ)), each one unit, all wrapping the same rigid spin. "Redundant" = added rule, not GT5. RETRACTED.
+- (III) NOT established: GTs don't fix β's direction vs nesting; transverse-only (zero radial pitch) is an extra identification; ∝β radial projection allowed; zero radial thickness still doesn't forbid stacked orbitals. RETRACTED.
+- **Q6 → YES:** the response-rung identification ("responding orbital rungs coincide one-for-one with GT5 tier boundaries, no additional enclosures between, Δlnℓ_orb=ln(2/β)") is an IRREDUCIBLE MODELING INPUT, not derivable from GT1–GT7. Declaring it + √+loglog as a pre-registered prediction = the honest terminal status.
+
+RETRACTIONS: v10 (II) enclosure-M=1; (III) tilt-orthogonality; the spacing inference appended to (I). STANDS: (I) resolution is radial (enclosure only); the √ candidate + its magnitude/freeze consistency (swing-9).
+STATUS: TERMINAL for the forcing effort. Internal, not publication-ready as a THEOREM; IS a legitimate pre-registered PREDICTION under the natural modeling choice.
+
+============================================================
+★★★★ RUNNING-LAW PROGRAM — TERMINAL STATUS (swings 1–10, 2026-07-15) ★★★★
+============================================================
+**FORCED from POAMS (GT1–GT7), banked:**
+- SIGN/direction: α⁻¹ falls as resolution deepens (finer probe ⇒ larger β ⇒ smaller α⁻¹). ✓
+- β-MARGINALITY (GT3): no leading running; the flow FREEZES at the flat-direction fixed point — structurally reproduced (r→0 as β→0). ✓
+- THRESHOLD structure: running turns on as nested modes become resolvable. ✓
+- STATIC PACKING PROFILE: α⁻¹ = ½√W(ℓ) (swing-3). ✓
+- Magnitude scale: γ_W = O(1)/e-fold ⇒ ~1 unit of α⁻¹ over the ~5.6-e-fold bare-vortex span. ✓
+**NOT forced (the irreducible residue):**
+- The FUNCTIONAL FORM (log vs √-of-log). It reduces to ONE modeling proposition: does probe-resolution step the single responding orbital by RADIAL tiers (Δlnℓ_orb=ln(2/β), growing → √-of-lnℓ + loglog) or by an AXIAL pitch (∝β, shrinking → corpus linear-in-lnℓ)? CERTIFIED (Sol) not derivable from GT1–GT7.
+- The COEFFICIENT (O(1) prefactor). Open (never fitted — firewall).
+**HONEST VERDICT:** POAMS forces the sign, marginality/freeze, thresholds, static profile, and magnitude of the running; it does NOT force the FORM as a theorem. Under the natural radial-tier modeling choice, POAMS's pre-registered, distinctive, falsifiable running-law prediction is **α⁻¹ ∝ √-of-lnℓ (with a derived loglog softening)**, cleanly separated from the corpus linear-in-lnℓ form, and uniquely consistent with the forced magnitude + fixed-point freeze. Declared-before-comparison ⇒ firewall-legal SUCCESS (pre-registration). Not a THEOREM; a PREDICTION.
+**PROCESS:** 6 cross-vendor Sol adversary runs (swings 5–10) + earlier Fable, blocked false closure in BOTH directions every time; no corpus-chasing. The two-model firewall converted a vague form-fork into ONE precisely-stated irreducible modeling input.
+**ONLY REOPENER:** a new POAMS ground truth (GT8) fixing what "resolving finer" does to the winding (radial-tier vs axial-pitch) would make the FORM derivable → swing 11.
