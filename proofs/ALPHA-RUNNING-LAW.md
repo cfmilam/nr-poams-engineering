@@ -1,4 +1,4 @@
-# The Running of α — a Pre-Registered POAMS Prediction (2026)
+# The Running of α — a Pre-Registered Conditional Theorem in Normal Realism (2026)
 
 Companion record to *Spectra, Gravitation, and Fine Structure in Normal Realism*, Part II, §15.
 Full night-by-night derivation: `DERIVATION-LEDGER.md` (running-law region, swings 1–10).
@@ -30,34 +30,54 @@ as α⁻¹ **linear in** ln(energy). Pre-register the POAMS form before touching
 4. **Static packing profile** — α⁻¹ = ½√W.
 5. **Magnitude** — one boundary circulation responds per e-fold ⇒ α⁻¹ shifts ~1 unit over the
    bare vortex's ≈5.6-e-fold span [r_s, r_orb].
+6. **Functional class — multiplicative, not log (given two POAMS pillars).** On the framework's
+   non-negotiable ontological axioms — **continuity** (*one substance*: the inner winding is the
+   same strand still coiling, not a separately-closed core) and **accumulation** (*everything is
+   time*: holonomy accrues per traversal, L = dS/dθ) — the winding weight accumulates **linearly in
+   traversal count** (multiplicative). Any additive / "inner-content-counted-once" accounting — the
+   shape of a conventional α⁻¹-linear-in-ln law — requires either a persistent self-closing core
+   (denies continuity) or a non-accumulating, time-erased holonomy (denies accumulation). Certified
+   by three independent formalizing passes across two vendors — OpenAI Sol, an independent Opus, and
+   Fable (which steelmanned six non-multiplicative countermodels; all die on one pillar or the
+   other). **This excludes the log form as a matter of ontology, not of fit.**
 
-## What is NOT forced — the irreducible residue
-The functional **form** (log vs √-of-log). Ten pre-registered forward/adversary passes reduced the
-whole question to a single proposition — the **response-rung identification**: what does one e-fold
-of resolution do to the winding?
+## What is NOT forced — the narrowed residue
+The pillars force the accumulation **class** (multiplicative), not the exact exponent or its
+coefficient. Three identifications remain **natural but unforced by the premises**:
 
-- Step the one responding orbital by **radial tiers** (spacing Δlnℓ = ln(2/β), which *grows* as the
-  winding deepens) ⇒ **α⁻¹ ∝ √(ln ℓ)** with a derived log-of-log softening; or
-- step it by an **axial pitch** (spacing ∝ β, which shrinks) ⇒ the conventional **α⁻¹ linear in ln ℓ**.
+- identifying the accumulated weight with the closed-vortex closure value 2N — the step that alone
+  fixes the tidy responder count M → 2;
+- the map from traversal count M to resolved scale ℓ that turns the multiplicative law into a
+  **√(ln ℓ)** exponent;
+- the O(1) coefficient (never fitted — firewall).
 
-The cross-vendor adversary certified this choice is **not derivable from the present axioms** — the
-same no-loop signature that leaves the value free, one level up. (The adversary dismantled each
-attempted closure: self-similarity does not fix the step across β; "one enclosure per bundle" is an
-added rule, not forced by nesting; and the axioms do not fix the tilt's direction relative to the
-nesting, so a radial pitch ∝ β is not excluded.)
+So the residue has moved up one level. The old fork — **log vs √-of-log** — is now closed in favour
+of the multiplicative (√-)class; what stays open is the precise realization *within* that class.
 
-## The prediction (declared before comparison)
-Under the natural **radial-tier** reading — the *only* choice that also reproduces the forced
-magnitude and the fixed-point freeze —
+## The conditional theorem (declared before comparison)
+Given the pillars, the running is multiplicative and the log form is excluded. The natural
+**radial-tier** realization — the only one that also reproduces the forced magnitude and the
+fixed-point freeze — is
 
     α⁻¹(ℓ)  ∝  √( ln(ℓ_ref / ℓ) ),   with a derived log-of-log softening,
 
-a distinctive, falsifiable departure from the quantum-electrodynamic α⁻¹ ~ ln form. The O(1)
-coefficient is left open; no slope is fitted to the running data.
+a distinctive departure from the quantum-electrodynamic α⁻¹ ~ ln form. The multiplicative class is a
+**theorem given the pillars**; the exact √-of-log exponent is its natural realization under the two
+identifications above; the coefficient is open, and no slope is fitted to the running data.
 
 ## Status
-Internal derivation complete. This is a **prediction** (contingent on one openly-declared modeling
-choice), **not a theorem**. What the geometry forces — sign, marginal freeze, thresholds, static
-profile, magnitude — is banked as theorem; the form is the program's one distinctive, testable wager
-on the running. A future ground-truth principle fixing what "resolving finer" does to the winding
-would turn the wager back into a computation.
+**Conditional theorem** (upgraded from *prediction*, 2026-07-16). Given POAMS's process ontology —
+*one substance* (continuity) and *everything is time* (per-traversal accumulation, L = dS/dθ), both
+non-negotiable framework axioms ratified by the authors — the running law is **multiplicative** and
+the conventional additive/log form is **excluded**. That exclusion is a theorem relative to those
+axioms, certified by three independent cross-vendor adversarial passes. What the pillars do *not*
+fix — the exact exponent (the M↔ℓ bridge), the closure identification (M → 2), and the coefficient —
+remains an openly-declared modeling residue; the √-of-log is their natural realization.
+
+**Observability (pre-registered).** The distinctive √-of-log lives only inside a single bare
+vortex's ≈5.6-e-fold window, where it shifts α⁻¹ by ~1 unit and **cannot be isolated** from the
+superposed species tower. The measured 137→128 running from atomic to Z scales is that
+multi-species tower regime (log-like, ~8 units over ~12 e-folds); testing √-of-log against *that*
+curve tests the wrong regime — a miss would not falsify it, and a fit would be curve-fitting. The
+claim is therefore **distinct from log in principle, not yet isolable in data**. The decisive open
+test is to find any regime or observable in which the bare-vortex √-of-log separates from log.

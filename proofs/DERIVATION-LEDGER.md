@@ -950,6 +950,30 @@ STATUS: TERMINAL for the forcing effort. Internal, not publication-ready as a TH
 **NOT forced (the irreducible residue):**
 - The FUNCTIONAL FORM (log vs √-of-log). It reduces to ONE modeling proposition: does probe-resolution step the single responding orbital by RADIAL tiers (Δlnℓ_orb=ln(2/β), growing → √-of-lnℓ + loglog) or by an AXIAL pitch (∝β, shrinking → corpus linear-in-lnℓ)? CERTIFIED (Sol) not derivable from GT1–GT7.
 - The COEFFICIENT (O(1) prefactor). Open (never fitted — firewall).
-**HONEST VERDICT:** POAMS forces the sign, marginality/freeze, thresholds, static profile, and magnitude of the running; it does NOT force the FORM as a theorem. Under the natural radial-tier modeling choice, POAMS's pre-registered, distinctive, falsifiable running-law prediction is **α⁻¹ ∝ √-of-lnℓ (with a derived loglog softening)**, cleanly separated from the corpus linear-in-lnℓ form, and uniquely consistent with the forced magnitude + fixed-point freeze. Declared-before-comparison ⇒ firewall-legal SUCCESS (pre-registration). Not a THEOREM; a PREDICTION.
+**HONEST VERDICT:** POAMS forces the sign, marginality/freeze, thresholds, static profile, and magnitude of the running; it does NOT force the FORM as a theorem. Under the natural radial-tier modeling choice, POAMS's pre-registered, distinctive, falsifiable running-law prediction is **α⁻¹ ∝ √-of-lnℓ (with a derived loglog softening)**, cleanly separated from the corpus linear-in-lnℓ form, and uniquely consistent with the forced magnitude + fixed-point freeze. Declared-before-comparison ⇒ firewall-legal SUCCESS (pre-registration). Not a THEOREM; a PREDICTION. **[SUPERSEDED 2026-07-16 by swings 11–13 below — the "only reopener" fired: the two ontological pillars (continuity + accumulation) force the multiplicative CLASS and exclude log ⇒ conditional theorem.]**
 **PROCESS:** 6 cross-vendor Sol adversary runs (swings 5–10) + earlier Fable, blocked false closure in BOTH directions every time; no corpus-chasing. The two-model firewall converted a vague form-fork into ONE precisely-stated irreducible modeling input.
 **ONLY REOPENER:** a new POAMS ground truth (GT8) fixing what "resolving finer" does to the winding (radial-tier vs axial-pitch) would make the FORM derivable → swing 11.
+
+============================================================
+★★★★ RUNNING-LAW PROGRAM — REOPENED & CLOSED (swings 11–13, 2026-07-16) ★★★★
+============================================================
+**The swing-10 "ONLY REOPENER" fired.** The sole named path to a theorem was a new POAMS ground truth fixing what "resolving finer" does to the winding. That GT8 is not a new geometric fact — it is two ONTOLOGICAL axioms the rest of Normal Realism already runs on, now applied to the accounting fork:
+- **P1 CONTINUITY** — one substance; the inner winding is the same strand still coiling, not a separately-closed core.
+- **P2 ACCUMULATION** — everything is time; holonomy accrues per traversal, L=dS/dθ.
+
+**SWING 11–12 — the accounting fork (multiplicative vs additive), cross-vendor:**
+Reframed the log-vs-√ fork as an ACCOUNTING question — over M outer traversals does the winding weight accumulate MULTIPLICATIVELY W(M)=M(N+1) (every re-executed inner turn accrues) or ADDITIVELY W=N+M (inner content counted once)? The corpus linear-in-lnℓ (log) form IS the additive branch; √-of-lnℓ is the multiplicative branch.
+- **Sol (OpenAI, cross-vendor) + an independent Opus** BOTH closed FORCED-MULTIPLICATIVE on P1+P2 — the first firewall CLOSURE after 7 straight Sol refusals (swings 5–11). Additive/once-counted requires a self-closing core (denies P1) or a time-erased holonomy (denies P2).
+- **Fable (independent, no prior verdicts seen)** steelmanned SIX non-multiplicative countermodels (protected-core, coil-once, image-functional, modular-phase, diminishing-weights, cancellation); the case split is exhaustive and every one dies on P1, P2, or the fixed-rate definition of the vortex. VERDICT: **FORCED-MULTIPLICATIVE.** Riders (no mercy, on Reading A's side): exact √(lnℓ) exponent needs an unstated M↔ℓ bridge (A3); tidy M→2 rests on identifying accumulated-W with closure value 2N (A2); coefficient open (A1). So the CLASS is forced; the exact exponent + coefficient are not.
+
+**SWING 13 — numeric first-pass reconciliation (firewall intact, nothing fitted):**
+Static forced relations internally exact (β=α, W=2N=75,115, α⁻¹=½√W=137.036). Magnitude cure confirmed (marginality ⇒ ~1 unit over 5.6 e-folds; naive geometric map overshoots by ~ν_geom≈1.3e4×). CRUX: the distinctive √-of-log lives ONLY in the single bare-vortex ≈5.6-e-fold window (~1 unit) and CANNOT be isolated from the superposed species tower. The measured 137→128 running (~8 units over ~12 e-folds) is the TOWER/multi-species (log-like) regime — testing √-of-log there tests the WRONG regime (miss≠falsify; fit=curve-fitting). Distinct from log in principle, NOT yet isolable in data.
+
+============================================================
+★★★★ RUNNING-LAW — CLOSED STATUS (swings 1–13, 2026-07-16) ★★★★
+============================================================
+**CONDITIONAL THEOREM (ratified by Star Lord/Viv, 2026-07-16 — the two pillars are non-negotiable POAMS axioms).**
+- FORCED (given P1 continuity + P2 accumulation; survived Sol + independent Opus + Fable's six steelmanned countermodels): the running law is MULTIPLICATIVE; the conventional additive/log form is EXCLUDED as a matter of ontology, not fit.
+- NOT forced by the pillars: the exact √(lnℓ) exponent (M↔ℓ bridge, A3), the closure identification giving M→2 (A2), the O(1) coefficient (A1, never fitted). √-of-log is the natural realization of the forced class.
+- OBSERVABILITY: distinct from log in principle, not yet isolable in data; decisive open test = find any regime/observable where the bare-vortex √-of-log separates from log.
+- PUBLISHED: ALPHA-RUNNING-LAW.md + alpha-fine-structure-derivation.html §15 + periodic-table §15 cross-ref upgraded prediction → conditional theorem. Firewall intact throughout; no α/137/measured value ever inserted.
