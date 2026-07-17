@@ -93,7 +93,7 @@ The hurricane analogy is exact, not metaphorical. A hurricane has an empty eye, 
 Under POAMS, there are no particles. An atom is a quantized vortex structure of angular momentum.
 
 **Structure:**
-- The **barycenter** is empty — the eye of the vortex. There is no "nucleus" as a solid object. The quantum accumulator (conventional: nucleus) is the eyewall region where angular momentum density is highest.
+- The **barycenter** is empty — the eye of the vortex. There is no "nucleus" as a solid object. The vortex core (conventional: nucleus) is the eyewall region where angular momentum density is highest.
 - The **eyewall** is the zone of maximum circulation. This is where the "strong force" operates — it is simply the binding energy of the vortex core, not a separate force. The conventional "nuclear radius" is the eyewall radius.
 - The **outer circulation** extends from the eyewall outward, organized in harmonic sub-modes. These are what conventional physics calls "electron orbitals." They are not particles orbiting a center; they are standing wave patterns in the vortex circulation.
 
@@ -109,7 +109,7 @@ Under POAMS, there are no particles. An atom is a quantized vortex structure of 
 
 This section contains the key prediction that the experiment tests.
 
-**Weight defined.** Weight is the constraint force that prevents an object from occupying its natural force-free orbital radius around Earth's quantum accumulator. An object sitting on a table is being prevented from falling to its equilibrium orbital radius by the normal force of the table. Remove the table, and the object moves toward that radius — what we call "falling."
+**Weight defined.** Weight is the constraint force that prevents an object from occupying its natural force-free orbital radius around Earth's center of mass. An object sitting on a table is being prevented from falling to its equilibrium orbital radius by the normal force of the table. Remove the table, and the object moves toward that radius — what we call "falling."
 
 **The angular momentum relationship.** For any orbiting body:
 
@@ -309,7 +309,7 @@ Frederick Alzofon, a physicist at Boeing Aerospace, published AIAA-81-1608 descr
 - Aluminum-27 powder with embedded iron inclusions
 - DC alignment field: 660 Oe (from iron inclusions, providing local fields)
 - Pulsed microwave drive: 3000 MHz, 2 μs on / 2–6 ms off
-- Target: Dynamic Nuclear Orientation of Al²⁷ quantum accumulators
+- Target: Dynamic Nuclear Orientation of Al²⁷ vortex cores
 
 **Key parameters:**
 - Operating frequency: 3 GHz (S-band, standard radar)
@@ -1321,8 +1321,9 @@ For clarity, the following table maps conventional physics terminology to POAMS 
 
 | Conventional Term | POAMS Term | Notes |
 |---|---|---|
-| Nucleus | Quantum accumulator / vortex core | The eyewall region of the atomic vortex |
-| Electron | Outer circulation / structure quantum | Standing wave pattern in vortex circulation |
+| Atom | Quantum accumulator / vortex | The whole circulating vortex — the accumulator of angular momentum (Pope's original usage) |
+| Nucleus | Vortex core (2D disk quanta) | The eyewall region — the inner planar accumulation disk |
+| Electron | Shell quanta (3D) / outer circulation | Standing-wave pattern in the outer harmonic shells |
 | Magnetic field | Alignment field | Macro-scale manifestation of spin correlation |
 | Magnetic moment | Net vortex circulation | Arises from incomplete harmonic filling |
 | Electromagnetic field | Angular momentum field | All fields are angular momentum |
