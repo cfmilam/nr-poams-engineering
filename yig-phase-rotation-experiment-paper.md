@@ -1322,8 +1322,8 @@ For clarity, the following table maps conventional physics terminology to POAMS 
 | Conventional Term | POAMS Term | Notes |
 |---|---|---|
 | Atom | Quantum accumulator / vortex | The whole circulating vortex — the accumulator of angular momentum (Pope's original usage) |
-| Nucleus | Vortex core (2D disk quanta) | The eyewall region — the inner planar accumulation disk |
-| Electron | Shell quanta (3D) / outer circulation | Standing-wave pattern in the outer harmonic shells |
+| Nucleus | Vortex core (2D planar quanta) | The eyewall region — the inner planar accumulation disk |
+| Electron | Spherical quanta (3D) / outer circulation | Standing-wave pattern in the outer harmonic modes |
 | Magnetic field | Alignment field | Macro-scale manifestation of spin correlation |
 | Magnetic moment | Net vortex circulation | Arises from incomplete harmonic filling |
 | Electromagnetic field | Angular momentum field | All fields are angular momentum |

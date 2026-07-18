@@ -16,12 +16,12 @@ Bismuth-209 represents the optimal naturally occurring material for spin correla
 
 **Vortex Core Spin Properties:**
 - **I = 9/2**: Bismuth-209 possesses an exceptionally high vortex core spin quantum number (9/2), allowing it to store substantial spin angular momentum per atom
-- **Large hyperfine coupling**: Shell-quantum–vortex-core hyperfine interactions in bismuth are among the strongest known, facilitating efficient polarization transfer
+- **Large hyperfine coupling**: Spherical-quantum–vortex-core hyperfine interactions in bismuth are among the strongest known, facilitating efficient polarization transfer
 - **Stable isotope**: 209Bi comprises nearly 100% of natural bismuth, eliminating isotopic complications that reduce polarization efficiency
 - **Long coherence times**: Research in silicon-doped bismuth shows coherence times suitable for sustained polarization states
 
 **Electronic Structure Advantages:**
-- **Unpaired shell quanta**: Bismuth compounds readily form paramagnetic centers essential for dynamic spin correlation polarization
+- **Unpaired spherical quanta**: Bismuth compounds readily form paramagnetic centers essential for dynamic spin correlation polarization
 - **Heavy atom effects**: The high atomic number enhances spin-orbit coupling, increasing the effectiveness of spin correlation mechanisms
 - **Crystal structure compatibility**: Bismuth forms crystal structures that facilitate bulk spin alignment
 
@@ -89,13 +89,13 @@ Bismuth-209 represents the optimal naturally occurring material for spin correla
 *Research shows remarkable achievements in bulk spin alignment:*
 - **34% spin polarization** achieved in bulk samples containing >10^19 spins at room temperature
 - **250,000x enhancement** over thermal equilibrium polarization at 0.4T
-- **Photo-excited triplet state polarization**: Using optical excitation to create highly polarized shell-quantum spins
+- **Photo-excited triplet state polarization**: Using optical excitation to create highly polarized spherical-quantum spins
 
 **Mechanisms for Bismuth Application:**
-1. **Overhauser Effect**: Direct polarization transfer from shell-quantum to vortex-core spins via hyperfine coupling
-2. **Solid Effect**: Microwave-driven polarization transfer at frequencies matching shell-quantum resonance conditions  
-3. **Cross Effect**: Multi-shell-quantum mechanisms for enhanced polarization efficiency
-4. **Thermal Mixing**: Exploiting shell-quantum spin-spin interactions for bulk polarization
+1. **Overhauser Effect**: Direct polarization transfer from spherical-quantum to vortex-core spins via hyperfine coupling
+2. **Solid Effect**: Microwave-driven polarization transfer at frequencies matching spherical-quantum resonance conditions  
+3. **Cross Effect**: Multi-spherical-quantum mechanisms for enhanced polarization efficiency
+4. **Thermal Mixing**: Exploiting spherical-quantum spin-spin interactions for bulk polarization
 
 ### 2.2 Microwave-Driven Spin Alignment
 
@@ -132,7 +132,7 @@ Bismuth-209 represents the optimal naturally occurring material for spin correla
 - **Dynamic decoupling**: Pulse sequences to maintain coherence during polarization buildup
 
 **Novel Mechanisms:**
-- **Spin injection**: Direct injection of polarized shell quanta from external sources
+- **Spin injection**: Direct injection of polarized spherical quanta from external sources
 - **Chemical-induced polarization**: Photochemical reactions that generate spin-correlated radical pairs
 - **Mechanical-spin coupling**: Using sample rotation (Barnett effect in POAMS terms) to enhance polarization
 
