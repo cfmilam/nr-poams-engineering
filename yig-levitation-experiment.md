@@ -361,6 +361,10 @@ The drive accumulates phase continuously. Not limited by atomic quantum numbers.
 
 **Steady-state angular momentum = drive rate / dissipation rate**
 
+### The Laithwaite Precedent (1974)
+
+Eric Laithwaite (Imperial College; father of maglev, inventor of the linear induction motor) demonstrated gyroscopic anomalies at his 1974 Royal Institution discourse and said aloud that Newton's foundation couldn't carry them. Cost: discourse text refused publication, Royal Society fellowship nomination cancelled, professorship gone, career exile — then a NASA electromagnetic launch-assist contract awarded weeks before his death (1997), the lineage that became Marshall's Magnetic Launch Assist. His instinct (spin is a first-class dynamical entry; rectilinear inertia is the wrong default) was POAMS-correct. His lever was the weakest available — bulk mechanical rotation, Barnett alignment ~10⁻¹⁰ — and the static weight-loss claim did not survive careful weighing. This experiment is the lever he didn't have: align spins magnetically (order-unity polarization instead of 10⁻¹⁰), then advance collective phase electromagnetically at GHz — his own linear-motor principle turned inward. His punishment is also why the FMR and anomaly communities never met: after 1974, touching spin-weight was career death.
+
 ### Connection to Alzofon AGNUE Program
 
 Frederick Alzofon (Boeing Aerospace) published the same core mechanism in 1981 (AIAA-81-1608): Dynamic Nuclear Orientation (DNO) of paramagnetic nuclei to modify gravitational interaction. Key parameters from his paper:
