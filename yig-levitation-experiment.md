@@ -1098,3 +1098,43 @@ The convergence of four independent programs on "organized angular momentum + en
 *Date: 2026-03-27*
 *Framework: Normal Realism / POAMS (Vortex Model)*
 *Authors: Star Lord, Parzival*
+
+---
+
+## Revision 7: Reading Guard — Telling the Real Effect from Look-Alikes (POAMS terms)
+
+*Date: 2026-07-30*
+
+### Why this section exists
+
+Rotating-body "anomaly" reports are easy to misread, because the conventional literature describes them in field / optomechanics language that has no POAMS referent. A result can look like corroboration and be an unrelated piece of bookkeeping. This guard states, in POAMS terms, the look-alikes this experiment must rule out — and the tells that separate them from the real effect. It was prompted by a corroboration-check of the St Andrews levitated microgyroscope (Arita, Mazilu & Dholakia, *Nature Communications* 4:2374, 2013), which on inspection is a decoy, not evidence.
+
+### The worked decoy: the St Andrews microgyroscope
+
+A 4 µm birefringent sphere, spun by transfer of photon spin angular momentum to ~600 million RPM in vacuum, was reported to "cool to 40 K." In POAMS terms the sphere shed no churn. Its **bulk writhe** (the fast rotation) stiffened against reorientation like a top, narrowing the body's *wandering about its trapped orbit*. The conventional account reads that reduced centre-of-mass excursion as an "effective temperature" and reports it falling — but the internal **twist-coherence was never touched**, and the "cooling" was only a redistribution (two axes calmed *at the expense of the third*). The material was calcium carbonate — **diamagnetic, no net twist to align** — so the one channel POAMS cares about was absent by construction. It is a very small, very fast gyroscope, nothing more.
+
+### Three channels a rotating body can present — only one is ours
+
+**Channel 1 — Writhe gyroscopics (orbit-scale). The decoy.** Bulk rotation stiffens the body's writhe so it resists reorientation and sits stiller in whatever constrains it. Reads conventionally as "stabilization" or "motional cooling." Internal twist untouched; a conserved redistribution, nothing removed. *For us:* a rapidly precessing or rotating YIG sphere could gyroscopically resist the balance's motion or damp vibration — a mechanical artifact on the scale, not a weight change.
+
+**Channel 2 — Absorption churn (real heat, wrong sign).** Drive energy absorbed and thermalized rather than cleanly handed on adds incoherent angular momentum: internal churn up, temperature up, and on a balance, convection and thermal drift. *For us:* microwave heating of sphere and cavity is a first-order confound (already listed under Expected Challenges — thermal drift, magnetostriction) and drives buoyancy/thermal signals that can mimic or mask a lift.
+
+**Channel 3 — Twist-alignment (the real effect).** Order the accumulators' twist toward a common sense and the **crossed** component of the internal angular momentum falls. That crossed-AM change is what shifts the natural orbital radius — the weight change this experiment targets — and, read as heat, would be a genuine drop in internal churn. This is the only channel that is POAMS content.
+
+### The tells — what the readout must isolate
+
+- **Use a body that HAS twist to align.** YIG qualifies (uncompensated d-harmonic circulation = real net twist); a diamagnet does not. This is precisely why the St Andrews result cannot be ours, and why YIG is the correct substrate.
+- **Read the substance, not its orbit.** Measure the constraint force (weight) of the bulk — the angular-momentum / orbital-radius relation — not a centre-of-mass motional statistic. A "stabilization" that shows up only in how the body wanders in its trap is Channel 1.
+- **Separate twist from writhe and from churn.** The primary go/no-go already does this: **sign reversal with alignment** is a Channel-3 signature no gyroscopic (Channel 1) or thermal (Channel 2) look-alike can fake — reversing the alignment does not reverse a gyroscopic stiffening or a heating drift. And keep the **toggle-at-fixed-alignment** readout (the λ-partition test): it isolates the drive/twist deposit from the bulk-rotation writhe.
+- **Ask twist, not orbit; rate, not speed.** The question is whether the internal phase-incoherence / crossed-AM changed — not whether the body sat stiller or spun faster.
+
+### Bottom line
+
+A rotating YIG sphere doing something is corroboration only if the effect is a change in **internal twist state** (crossed-AM), demonstrated in a body that has twist to align, read **as bulk constraint force**, and shown to **reverse sign with alignment** — cleanly separated from the writhe stiffening its orbit and the drive heating its churn. Anything that survives those cuts is real. Anything that doesn't is a gyroscope, a heater, or a magnet.
+
+---
+
+*Document version: 7.0*
+*Date: 2026-07-30*
+*Framework: Normal Realism / POAMS (Vortex Model)*
+*Authors: Star Lord, Parzival*
