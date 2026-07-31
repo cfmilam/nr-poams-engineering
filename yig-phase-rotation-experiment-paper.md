@@ -1140,6 +1140,20 @@ Every Phase 5 run will be recorded on video from multiple angles, with all instr
 - The magnetostrictive strain in YIG is < 10⁻⁶ — negligible effect on buoyancy.
 - The direction reversal protocol: magnetostriction magnitude is the same for both polarities (it depends on |B|², not sign of B).
 
+### 8.6 Look-Alike Effects: Twist-Alignment vs Gyroscopic and Thermal Artifacts
+
+**Challenge:** A rotating or precessing body can present three physically distinct effects that conventional (field-language) reports blur into one, only the last of which is the POAMS weight effect.
+1. *Writhe gyroscopics.* Fast bulk rotation stiffens the body against reorientation (spinning-top inertial stiffness), which can mechanically resist or damp the balance and masquerade as a stabilization or reading shift — with the internal twist state untouched. This is the mechanism behind the often-cited St Andrews levitated-microgyroscope "cooling to 40 K" (Arita, Mazilu & Dholakia, *Nat. Commun.* 4:2374, 2013): a narrowing of centre-of-mass excursion, not a change of internal state. The material there (calcium carbonate) is diamagnetic and has no net twist to align, so it cannot exhibit the POAMS effect at all.
+2. *Absorption churn.* Drive energy thermalized in sphere and cavity adds incoherent angular momentum — heat, convection, drift (overlaps §8.1).
+3. *Twist-alignment.* The ordering of the accumulators' intrinsic twist that shifts the natural orbital radius — the real effect.
+
+**Mitigation:**
+- **Substrate with twist to align:** YIG's uncompensated d-harmonic circulation qualifies; a diamagnet does not. A null in a diamagnetic control sphere under identical drive isolates the twist channel by construction.
+- **Read the bulk constraint force (weight), not a centre-of-mass motional statistic.** Writhe-gyroscopic stabilization lives entirely in the latter; the POAMS effect lives in the former.
+- **Direction reversal (Phase 4) is the decisive cut:** twist-alignment reverses sign with alignment polarity; gyroscopic stiffening and thermal drift do not.
+- **Drive-toggle at fixed alignment** isolates the microwave/writhe deposit from the DC-alignment/twist deposit (the λ-partition readout).
+- Frame every result as **twist vs orbit, rate vs speed**: the claim is a change in internal crossed-AM, not that the body sat stiller or spun faster.
+
 ---
 
 ## 9. Safety Considerations
