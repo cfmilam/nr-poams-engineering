@@ -978,3 +978,49 @@ Static forced relations internally exact (β=α, W=2N=75,115, α⁻¹=½√W=137
 - NOT forced by the pillars: the exact √(lnℓ) exponent (M↔ℓ bridge, A3), the closure identification giving M→2 (A2), the O(1) coefficient (A1, never fitted). √-of-log is the natural realization of the forced class.
 - OBSERVABILITY: distinct from log in principle, not yet isolable in data; decisive open test = find any regime/observable where the bare-vortex √-of-log separates from log.
 - PUBLISHED: ALPHA-RUNNING-LAW.md + alpha-fine-structure-derivation.html §15 + periodic-table §15 cross-ref upgraded prediction → conditional theorem. Firewall intact throughout; no α/137/measured value ever inserted.
+
+============================================================
+## 2026-08-09 — MADELUNG FRONT: (n+l) ORDERING UPGRADED FROM "ASSERTED" TO "COMPUTED AS CLOSURE GEOMETRY"
+
+Supersedes the status of every "DOUBLING / (n+l) ordering ASSERTED" entry above (the
+assertions stand as the historical record; the ordering now has a computed source).
+
+- RAZOR (scan-verified): full Madelung rule (both clauses) ⟺ frontier cost slope
+  k = ω_ang/ω_rad ∈ (5/3, 2); tie-break "lower n first" = k < 2 STRICT. k=2 = 720°
+  double-turn zero-energy closure = exact (n+l) families (Demkov–Ostrovsky 1972 — cited,
+  their theorem; prior-art firewall caught this before we claimed it).
+- COMPUTED (zero adjustable parameters): the zero-energy apsidal slope k(Z,l) of the real
+  Thomas–Fermi ledger = 1.60–1.94 across the whole table, strictly under 2. Emergent
+  aufbau: 15/19 exact opening-Z; three declared near-ties at the real anomaly boundaries;
+  (5d,4f)@57 and (6d,5f)@89 resolve the way NIST reality does (La 5d¹, Ac/Th 6d) — better
+  than the textbook rule. Binding thresholds Z_c(l) = 4.2/19.6/53.7/114 (Fermi 1928 /
+  Jensen–Luttinger 1952 / Oliphant 1956 lineage — cited) vs onsets 5/21/57/—.
+- THEOREM SKELETON (memory/poams-audit/MADELUNG-THEOREM-SKETCH.md): closure (all bound
+  E=0 orbits same apsidal angle) + inversion self-duality (two faces of one ledger) +
+  Coulomb eye ⟹ V = U_½ uniquely, Φ = 2π (720° FORCED by the eye), hence n+l families.
+  Proof route: cylinder-conformal reduction (self-dual ⟹ even f(θ)); Δφ = π/μ analytic
+  for U_μ; bound-side Abel inversion computed end-to-end (unique even solution =
+  f₀sech²(πθ/Φ)). Attribution resolved from primaries: the shear/non-uniqueness freedom
+  is Demkov–Ostrovskii–Berezina's own (JETP 33:867, 1971); the self-duality selection
+  principle appears nowhere in their corpus — the gap is documented open by the masters.
+  Rigor items open: Abel injectivity hypotheses (single-peaked f — and its FAILURE mode
+  is exactly the d-collapse double well: theorem hypothesis boundary = anomaly layer
+  boundary, clean partition); external recon pending (Besse/Zoll, Lemma-2 prior art).
+- LEMMA 2 (proved, elementary): on every bounded E=0 orbit in any central ledger,
+  ⟨−dlnχ/dlnr⟩_∠ ≡ 1 exactly (zero-energy criticality). k is a functional of the
+  t-FLUCTUATION about 1, not the mean.
+- LOCALIZATION (three instrument fidelities, registered prediction failed honestly at
+  each): the d-collapse (the one true miss, (4p,3d)@Sc) is NOT frontier geometry, NOT
+  point-shell discreteness, NOT Hartree-level mode resolution — it lives in the
+  exchange/sense-pairing ledger. TFD-exchange instrument (v4) running.
+- PUBLISHED: aufbau-as-closure.html (exhibit commit e237649; three-tier scope box:
+  cited / computed-here / open). Back-propagated 2026-08-09 evening: periodic-table
+  honest-boundary + filling-order-motivation + One-Ladder bridge paragraphs and
+  atom-as-phase guide now carry dated status-update cross-refs (additive; original
+  admissions retained as historical record).
+- FIREWALL: no Madelung input anywhere in the computation; window derived from the
+  empirical sequence BEFORE the TF evaluation; imports named (TF census stand-in,
+  Langer l+½, cost-label locality, greedy growth abstraction). M2 (720°-spin double
+  cover resonance) remains QUARANTINED as numerology — noting honestly that the
+  collapse localizing to sense-pairing is the first mechanism-shaped hint in its
+  direction; it earns nothing until it computes.
