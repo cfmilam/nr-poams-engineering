@@ -1150,3 +1150,14 @@ assertions stand as the historical record; the ordering now has a computed sourc
   profiles are the family's unsaturated linear core — saturation deficit, not wing
   excess; s-orbits widest/least-saturated/lowest-k. F3′ (saturation test) queued for
   registration.
+- MADELUNG tier3j REGISTRATION (2026-08-10 ~09:50, PRE-run; full text in working file
+  MADELUNG-FORWARD): F3′ saturation test, successor to void F3 — run1's discovered
+  signature becomes the registered object. Statistic S = angle-weighted mean of (t−1)
+  over outermost 5% of the θ-window (single named convention). Registered: F3′0
+  self-check (S_DO row-consistent < 10% spread; matched-anchor normalization = declared
+  fallback); F3′a deficit direction (EVERY TF row under-saturated, S_TF < S_DO, one
+  counter-row kills the reading); F3′b hierarchy (ρ(S,k) > 0, s least saturated);
+  F3′c quantified law-candidate: deficit D = 1 − S/S_DO; three pre-declared branches on
+  CV[(2−k)/D] vs CV[(2−k)/δ] (< 0.15 books k = 2 − c·D as standing candidate; improved
+  but > 0.15 books D as co-candidate; worse = informative fail, δ stands alone). No
+  external empirical numbers at any step. Committed BEFORE instrument build/run.
