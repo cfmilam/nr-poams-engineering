@@ -1324,3 +1324,15 @@ assertions stand as the historical record; the ordering now has a computed sourc
   (residuals order as Ganymede > Callisto > Io > Europa; chance 1/24), N2c Laplace
   combination |n₁−3n₂+2n₃|/n₁ < 1e-5 from fetched periods = the open inter-resonance
   channel sized before T3 exists (Callisto control).
+- N-BODY N2 RESULTS (2026-08-10 ~14:35; registration 3042d63 pre-data; nbody-n2.py +
+  run1 + hygiene branch): **four independent no-G no-mass pair invariants at Jupiter
+  agree with GM_J to 0.004% (mean), pairwise spread at the 3e-4 grade the public
+  elements permit.** N2a hygiene branch fired as pre-named and RESOLVED (Europa's a
+  is source-internally split 670,900 vs 671,100 — second published-data inconsistency
+  caught today). N2b data-precision-limited as pre-named (noise 4.4e-4 vs partition
+  signal 5.3e-5; JPL-grade elements named as the upgrade path; not scored). **N2c
+  PASS 589× deeper than registered: |n_Io − 3n_Eur + 2n_Gan|/n_Io = 1.70e-8 while the
+  pairwise ratios are non-integer (2.007, 2.015) — the Laplace lock is a three-body
+  phase closure invisible to pairwise bookkeeping: the open inter-resonance channel,
+  empirically sized. T3's object is now measured.** Front state: T1 stands (Pluto–
+  Charon + Earth–Moon), T2 target sized (1.18%), T3 target sized (1.7e-8).
