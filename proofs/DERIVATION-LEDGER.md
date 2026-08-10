@@ -1336,3 +1336,16 @@ assertions stand as the historical record; the ordering now has a computed sourc
   phase closure invisible to pairwise bookkeeping: the open inter-resonance channel,
   empirically sized. T3's object is now measured.** Front state: T1 stands (Pluto–
   Charon + Earth–Moon), T2 target sized (1.18%), T3 target sized (1.7e-8).
+- N-BODY T3 DERIVATION + N3 REGISTRATION (2026-08-10 ~14:55, pre-instrument): channel
+  criterion derived in ledger variables — pendulum reduction of the first-order
+  coupling gives HALF-WIDTH W = 2(j−1)n√(3αf′|f_d|e) (no fits: rates, geometry,
+  partition fraction, eccentricity, computed Laplace coefficient; d'Alembert order-
+  scaling defeats the density of the rationals; Wyler gate: every integer buys its
+  place through W). Criterion: open iff |pn′−qn| < W. Three-body reading stated
+  pre-scoring: raw Galilean pairwise beats sit OUTSIDE their own widths (dressed by
+  forced precession) while the Laplace combination sits DEEP inside any plausible
+  three-body width — the lock is irreducibly three-body in channel accounting; exact
+  Laplace-argument Hamiltonian = named open work (Sinclair/Yoder/Henrard cited).
+  N3a–f registered with margin classes (equality check, pairwise-raw closed,
+  three-body open ≥100×, 7:3 closed a fortiori, golden-body control closed, f_d
+  benchmark vs tabulated −1.19). Committed before the instrument runs.
