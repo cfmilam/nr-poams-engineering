@@ -1046,3 +1046,23 @@ assertions stand as the historical record; the ordering now has a computed sourc
   run); pair-count ledger for Cr/Cu/Pd + IE staircase anomalies; half-filled-symmetry ⟺
   pairing-count equivalence lemma. Charter: memory/poams-audit/PAIRING-CHARTER.md.
   Recon dispatched (extant steelman + rigor items). M2 remains QUARANTINED.
+- PAIRING SWINGS 1-2 (2026-08-09 night, PAIRING-FORWARD.md): P-I1 native derivation —
+  exclusion from slot closure (doubled winding cannot close); BOTH exact hole constraints
+  native (on-top −n; sum rule −1 from slot conservation); ρ^{1/3} scaling FORCED; the Xα
+  bracket [2/3,1] DERIVED as [variational, felt] booking pair with felt/variational = 3/2
+  generic to the (1/r, n^{1/3}) kernel; frontier scoring ⇒ FELT booking (α=1, Slater)
+  forced by the instrument's question — v4's "Slater better" retrodicted as mechanism;
+  sharp-hole ceiling −2.4180 n^{1/3}, ceiling/Slater = (2π²/9)^{1/3} exact. Import named:
+  local-census (free-mode) profile at the floor edge. P-I3a bracket sweep (tier3g, runs
+  1-2): registered P1 PASS (flip never later than Z=21 across entire bracket), P3 PASS,
+  P2 pass-after-diagnostic, P4 FIRED — ceiling over-compact, drags collapse into Ca.
+  HEADLINE: the empirical Ca/Sc boundary MEASURES the coefficient to m* ∈ (1.50,1.55) —
+  within ~3% of the derived felt×local-census floor; "α-tuning" steelman inverted (the
+  boundary rejects every profile except the derived floor). Native profile derivation =
+  the remaining open, target now sharp (m → 1.50⁺). Recon dossiers on file:
+  PAIRING-EXTANT-RECON.md (ownership: tier3d framing NOVEL — GAC-1969 closest, centrifugal
+  framing, Schwarz-2010 tension named; crown jewel: no phase-sense derivation of the
+  exchange ENERGY functional exists in the searched record; benchmarks banked) and
+  MADELUNG-RIGOR-RECON2.md (Besse Thm 4.70/Cor 4.16/4.77 pinned to text; Lemma-2 second
+  documented negative — original; LL §12 + Saa–Venegeroles verbatim; Perlick partial,
+  sech² presentation is Ballesteros's — flag retained). Theorem doc updated in place.

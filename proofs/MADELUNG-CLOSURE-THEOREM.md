@@ -90,12 +90,21 @@ $k = 2$ across a wide fluctuation range while the TF family orders monotonically
   the closed orbits: Makowski, *PRA* 86:042117 (2012).
 - The differential-geometric mirror — rotationally symmetric metrics with all geodesics
   closed are parameterized by an **odd** deformation function, the round metric at
-  $h \equiv 0$ (Zoll 1903; Besse, *Manifolds all of whose Geodesics are Closed*, ch. 4
-  §4.B; Guillemin 1976). Evenness kills the deformation: our Step 2+4 is the mechanical
-  shadow of that statement. Constant apsidal angle ⇔ closure families in the relativistic
-  setting: Perlick, *Class. Quantum Grav.* 9:1009 (1992) — whose Type-I conformal factor
-  in the log coordinate is literally a sech² profile (via Ballesteros et al.,
-  arXiv:0803.3430; Perlick read via secondary sources — flagged).
+  $h \equiv 0$ (Zoll 1903; Besse, *Manifolds all of whose Geodesics are Closed*, Ergeb.
+  Math. 93, Springer 1978: revolution normal form $g=[1+h(\cos r)]^2dr^2+\sin^2 r\,
+  d\theta^2$ with $h$ odd = **Cor. 4.16**, §4.B, with Besse's own step "h is odd ⇔ its
+  even part vanishes"; the Guillemin theorem that odd functions parametrize infinitesimal
+  Zoll deformations of the round $S^2$ = **Thm 4.70**, §4.H, from Guillemin, *Adv. Math.*
+  22 (1976); the linearized Zoll operator annihilating the even part = the kernel step at
+  **4.77**; genericity **Cor. 4.71**; citation numbers verified against the text
+  2026-08-09, recon-2 dossier). Evenness kills the deformation: our Step 2+4 is the
+  mechanical shadow of that statement. Constant apsidal angle ⇔ closure families in the
+  relativistic setting: Perlick, *Class. Quantum Grav.* 9:1009 (1992) — whose Type-I
+  metric (his eq. 1.3; abstract, primary: $\beta$ rational = apsidal angle/$\pi$,
+  $\beta=1$ Kepler, $\beta=2$ oscillator) has conformal factor exactly of sech² form in
+  the log radial coordinate in the rewrite of Ballesteros et al., arXiv:0803.3430 eq.
+  (2.10) — the sech² *presentation* is Ballesteros's; Perlick's full text remains
+  paywalled (flag retained).
 
 **New here (as far as the searchable record shows; recon dossiers on file):**
 1. **The selection principle.** Closure alone leaves the shear freedom (documented by
@@ -107,7 +116,10 @@ $k = 2$ across a wide fluctuation range while the TF family orders monotonically
 2. **The eye forcing the count.** $\Phi = 2\pi$ — the 720° — derived by exponent-matching
    the Coulomb eye against the self-dual profile, rather than assumed or fitted.
 3. **The criticality lemma** ($\langle t\rangle_\angle \equiv 1$ at $E=0$) — not located in
-   the literature; distinct from the (time-averaged, homogeneity-based) virial theorem.
+   the literature after two documented search passes (recon-2, 2026-08-09: eleven
+   independent searches across zero-energy virial theorems, apsidal identities, Whittaker,
+   and homogeneous-average literature, all negative); distinct from the (time-averaged,
+   homogeneity-based) virial theorem. Stated and proved here as original.
 4. **The empirical leg** (companion exhibit): the zero-energy apsidal slope $k(Z,l)$ of
    the actual Thomas–Fermi ledger computed with zero adjustable parameters — $k \in
    (1.60, 1.94)$, strictly under 2, inside the razor window $(5/3, 2)$ that is *equivalent*
@@ -150,9 +162,15 @@ $k = 2$ across a wide fluctuation range while the TF family orders monotonically
    census's net ledger; deriving the screening shape from closure stacking directly
    remains open.
 4. **Rigor residue.** Abel injectivity hypotheses stated as (H1–H2) (endpoint behavior,
-   single-valued width); Besse ch. 4 exact theorem numbering verified only to section
-   level; Perlick via secondary sources; pre-1990 Russian-language literature not
-   exhaustively searched.
+   single-valued width); pre-1990 Russian-language literature not exhaustively searched.
+   *Resolved 2026-08-09 (recon-2):* Besse ch. 4 numbering pinned to the text (Thm 4.70,
+   Cor. 4.16, Cor. 4.71, kernel step 4.77); Lemma-2 prior-art second pass documented
+   negative; inverse-problem anchors verified verbatim at the primary level — Landau &
+   Lifshitz, *Mechanics* §12 (symmetric well unique from $T(E)$; general well an
+   "infinity of curves") and Saa & Venegeroles, arXiv:2110.01953 eqs. (15)–(16) (Abel
+   width-equation generalization, Bôcher-class uniqueness), which independently attributes
+   its width equation to LL §12. Perlick partially pinned (abstract primary; sech² form is
+   Ballesteros's rewrite — flag retained).
 
 ## 6 · Firewall record
 
