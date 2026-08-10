@@ -1,0 +1,7 @@
+nbody-n4 extractor — benchmark gates first
+  2:1 direct @ alpha=0.6286: C = -1.1839 (N3-verified -1.1832; tabulated -1.19)  exponent = 1.002 (want 1)
+  GATE (i): PASS
+  3:1 @ alpha=0.4807: C = +0.5983   e-exponent = 1.996 (d'Alembert 2)
+  5:2 @ alpha=0.5429: C = -1.1297   e-exponent = 2.988 (d'Alembert 3)
+  7:3 @ alpha=0.5684: C = +2.2323   e-exponent = 3.977 (d'Alembert 4)
+  2:1 @ alpha=0.6300: C = -1.1910   e-exponent = 1.002 (d'Alembert 1)
