@@ -1066,3 +1066,17 @@ assertions stand as the historical record; the ordering now has a computed sourc
   MADELUNG-RIGOR-RECON2.md (Besse Thm 4.70/Cor 4.16/4.77 pinned to text; Lemma-2 second
   documented negative — original; LL §12 + Saa–Venegeroles verbatim; Perlick partial,
   sech² presentation is Ballesteros's — flag retained). Theorem doc updated in place.
+- PAIRING SWING 3 (2026-08-10 ~00:40, PAIRING-FORWARD.md §3): P-I2 pair-count ledger,
+  predictions P5–P9 registered before data/run. P5 exact PASS (ΔC: Cr=Cu=4, Pd-double=8).
+  P7 marginal PASS (chassis ⟨r⟩_3d Cr/Cu = 1.214, window [1.2,1.7], central 1.445 =
+  banked anomaly ratio; Z=29 convergence flag). P8 PASS both columns (⟨r⟩_2p C/O = 1.330
+  exchange / 1.707 Hartree-only, bracketing the Hund-gap ratio 1.556 — the gap ratio IS
+  a shell-radius ratio at instrument accuracy). P6 FAIL informative (Pd E₂/E₁ = 3.824
+  [NIST ELLW98: 6564.148 / 25101.235 cm⁻¹] vs registered ≤2; registration itself dropped
+  the ledger's own U term — kept on record; post-hoc U_5s ≈ 1.5 eV + self-consistent
+  Δε convexity named, miss stands). P-I4 PROVED: Hund-1 = Schur-convexity of the pair
+  count; single-sense isotropy ⇔ empty or exactly-half (Unsöld + m↔−m pairing); the
+  Elements' angular-symmetry minima ≡ pairing-count maxima at half/full filling —
+  M-P2 discharged as boundary theorem, one ledger two faces. Native-profile derivation
+  pair dispatched (independent opus + fable swings, α-audit pattern) — the coefficient
+  (m → 1.50⁺ target) is the open crown.
