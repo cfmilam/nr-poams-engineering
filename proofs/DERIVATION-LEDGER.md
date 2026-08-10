@@ -1161,3 +1161,17 @@ assertions stand as the historical record; the ordering now has a computed sourc
   CV[(2−k)/D] vs CV[(2−k)/δ] (< 0.15 books k = 2 − c·D as standing candidate; improved
   but > 0.15 books D as co-candidate; worse = informative fail, δ stands alone). No
   external empirical numbers at any step. Committed BEFORE instrument build/run.
+- MADELUNG tier3j RESULTS (2026-08-10 ~09:54, run1; registration committed pre-run at
+  c1044bc): F3′ FAILS as registered on all four branches — the saturation reading is
+  WITHDRAWN as an artifact. F3′0 FAIL (S_DO spread 5× across anchors; declared fallback
+  fired, said so in-run; cause: S confounded by apocenter reach + tail exponent — D–O
+  χ~x⁻² ⇒ t−1→1 vs TF χ~x⁻³ ⇒ t−1→2, no common plateau); F3′a FAIL INVERTED (TF
+  OVER-saturated: 19/20 matched-anchor rows above — run1's "unsaturated linear core"
+  was the degenerate A/w fit talking, the registered meaning of this failure); F3′b
+  FAIL by sign (ρ(S,k) = −1.0000 exactly — s-orbits most saturated at lowest k,
+  hypothesis backwards); F3′c branch 3 (deficit D mixed-sign in 17/20 → ratio CV
+  ill-posed; CV[(2−k)/δ] = 0.231 unchanged). Net: saturation MAGNITUDE is not the
+  fixed-point pricing variable; profile distance δ (SHAPE) remains the sole standing
+  candidate, no law claimed. Public correction shipped same morning to Aufbau §8
+  Open(i) (additive, original retained). Clean registered negative — a dead branch
+  named; instrument tier3j.py + tier3j-run1.txt in the audit workspace.
