@@ -1291,3 +1291,14 @@ assertions stand as the historical record; the ordering now has a computed sourc
   verification record, attributions, 3 open items, instrument index). Public exhibit
   THE CENSUS FLOW (census-flow.html) live: interactive phase plane, valve slider,
   the dip magnified; index + Aufbau cross-links (exhibits 8a48341).
+- N-BODY FRONT OPENED (2026-08-10 ~14:10; charter NBODY-CHARTER.md; working file
+  NBODY-FORWARD.md): the Madelung queue closed clean (exhibit + tier3m/n + consolidated
+  record), so per Star Lord's conditional the momentum-ledger front opens. T1 target
+  stated (two-centre restatement: pair invariant μ_rel from separation observables,
+  period + barycentric partition + speed amplitudes with NO G and NO masses; 1/r² step
+  shape = named import). **N1 REGISTERED PRE-DATA:** N1a Pluto–Charon (near-circular;
+  predict period, a₂, both speed amplitudes from {r_a, r_p, v_a, a₁}; 1% pass) and
+  N1b Earth–Moon (eccentric; predict period at 1.5% — the solar-perturbation residual
+  is the registered HANDOFF to T2, not a failure; Moon's barycentric apsidal radii;
+  perigee/apogee speed ratio at <0.1% pure-AM check). Pre-named failure meanings
+  booked. No ephemeris touched before this commit.
