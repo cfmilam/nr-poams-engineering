@@ -1103,3 +1103,20 @@ assertions stand as the historical record; the ordering now has a computed sourc
   derive maximal coherence from winding bookkeeping, or establish it as irreducible
   input (pairing analogue of the TF stand-in). Files: PAIRING-NATIVE-opus.txt (374 ln),
   PAIRING-NATIVE-audit.txt (361 ln), parent verification log in daily note.
+- PAIRING SWING 6 (2026-08-10 ~01:20, PAIRING-FORWARD §6): P-I5 total-energy audit of
+  the felt booking (tier3i, registered P10–P13 pre-run). P10 CLEAN PASS: the Z=21
+  collapse stands in booking-consistent TOTAL energy (E[Ar4s²3d¹] − E[Ar4s²4p¹] =
+  −0.55 Ha, felt loop, all modes bound). P11: exchange double-count term = 27 Ha vs
+  0.55 margin — naive Σε INVERTS the ordering; the adversarial audit's concern was
+  material and is now handled explicitly (E_tot = Σε − ½∫V_Hρ − [∫v_xρ − E_x]).
+  P12: totals nearly booking-blind (0.037 Ha spread, no sign flip, vs sign-flipping
+  orbital-score spread) — indicative. P13 pass-by-realizability: diagnostic shows the
+  unbound mode in every flagged config is the OCCUPIED 3d; [Ar]4s¹3d¹ at Q=20 is not
+  a self-consistently bound census in either booking → Ca stays 4s² by realizability.
+  BONUS (flagged unregistered): the felt loop realizes the d-collapse as a
+  REALIZABILITY TRANSITION at exactly Z=21 (occupied 3d: unbound at 20, binds at 21,
+  wins totals; 4s¹3d² inadmissible → chassis sides with real Sc 4s²3d¹); the
+  variational loop cannot realize Sc's own configuration. Felt booking: doubly
+  retrodicted + totals-audited. tier3f (fluctuation-profile distance, F1–F3)
+  registered on the Madelung front. Coherence reduction (IMPORT-X → native?) in
+  progress, sub-agent out.
