@@ -1211,3 +1211,13 @@ assertions stand as the historical record; the ordering now has a computed sourc
   kernel-reach hierarchy, K4 edge identity ±1%, K5 fixed-point scalar trend. Prior-art
   recon dispatched in parallel (apsidal width-linearity, zero-energy virial, Abel rigor,
   TF peak identity).
+- MADELUNG recon #3 (2026-08-10 ~11:10, MADELUNG-RIGOR-RECON3.md): prior-art + rigor
+  for the §C2 pieces. No scoop found. Lemma 3 ABSENT-as-searched (parent machinery =
+  L–L §12 period inverse problem, cite; closest competitors Castelli JMAA 2015 + Rojas
+  2017 — apsidal integral + ℓ-monotonicity, no width linearity/shear-blindness/E=0;
+  Simon-Petit–Perez 2018 = radial-isochrony, orthogonal). Lemma 2 absent-but-elementary
+  (folklore flag: "we note" phrasing). TF peak POINT = Fermi 1928/Oliphant 1956 (cite);
+  curvature identity + k_edge ABSENT. Abel rigor CLOSED by citation: Gorenflo–Vessella
+  LNM 1461 (injectivity, W∈L¹ + H2 + f→0), Borg 1946 (even-member uniqueness) — C1
+  upgrades to theorem-modulo-H2-with-citations. Firewall held (no literature numbers
+  into derivations; empty queries logged).
