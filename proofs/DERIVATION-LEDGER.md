@@ -1268,3 +1268,10 @@ assertions stand as the historical record; the ordering now has a computed sourc
   structure verified; edge identity verified; the one number's structural why PROVED
   (valve/tangency, exact algebra). Open, named: unconditional dip enclosure; S has
   no claimed closed form (transcendental-grade, computable to arbitrary digits).
+- MADELUNG tier3m REGISTRATION (2026-08-10 ~13:15, PRE-run): master-inequality
+  candidate E ≡ (1−t)² + f/f₀ (≡ 1 exactly on the closure member — the sech² energy
+  identity, so E−1 = pointwise closure-deviation field). E ≥ 1 on both branches ⇒
+  |slope| ≥ closure slope at every level ⇒ width-density inequality ⇒ D′ ≤ 0 ⇒
+  full interior k < 2 theorem with S ≤ 3/2 corollary. M1 E≥1 (pass ⇒ sufficiency
+  theorem books; fail ⇒ named negative w/ region), M2 chassis-independent recheck of
+  K2, M3 equality-structure rates. Registered before run.
