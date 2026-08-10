@@ -1377,3 +1377,12 @@ assertions stand as the historical record; the ordering now has a computed sourc
   registered: 2:1 half-width within 2× (sharp anchor), 3:1 within 3× (zone-vs-emptying
   split named, Wisdom cited), order scaling 2:1>3:1>5:2>7:3, incommensurate controls
   closed ≥5×. Committed before any gap-boundary data pull.
+- N-BODY N4 run1 (2026-08-10 ~16:30; reg f7780dd pre-data): extractor gates BOTH PASS
+  (f_d(2:1) to 0.06%; d'Alembert exponents 1.002/1.996/2.988/3.977) — general-order
+  resonant coefficients now computed, no tables. Kirkwood width predictions ON RECORD
+  (2:1 ≈ 0.064–0.091 AU at e=0.1–0.2; 3:1/5:2/7:3 0.007–0.029). N4c informative fail:
+  computed width ordering ≠ observed prominence ordering — the 3:1's fame is Wisdom
+  e-pumping (zone-vs-emptying split), registered conflation named. N4d 1/2 strict
+  (7.2× pass; 4.9× vs ≥5 booked as miss; 2:1 skirt driver; run-1 ad-hoc points =
+  named slip). N4a/b absolute edge confrontation PENDING quantitative boundary data —
+  named handoff. Instruments nbody-n4-extract.py + runs in audit workspace.
