@@ -1120,3 +1120,21 @@ assertions stand as the historical record; the ordering now has a computed sourc
   retrodicted + totals-audited. tier3f (fluctuation-profile distance, F1–F3)
   registered on the Madelung front. Coherence reduction (IMPORT-X → native?) in
   progress, sub-agent out.
+- PAIRING SWING 7 (2026-08-10 ~01:15, PAIRING-FORWARD §7): coherence reduction — verdict
+  (β). IMPORT-X reduces to native closure axioms EXCEPT one, now named exactly: AXIOM-C
+  (Closure-Coherence / Phase-Basis) — the same-sense census of a homogeneous patch is ONE
+  maximally phase-coherent closure-mode amplitude (occupied closures interfere; densities
+  do not add). Earned natively (computed): definiteness kills the audit's mixture
+  counterexample (the correlated-single-census escape fails — required occupation runs
+  to 32.8 with 23% outside {0,1}); every definite mode filling is determinantal and the
+  compact-core Family B is UNREALIZABLE as any mode filling (Paley–Wiener) → family
+  natively (0, 3/2], ball = strict max; the two-quantum determinant (1 − cos q·s) is a
+  native theorem (residual 9e-16) — antisymmetry not imported at pair level. REFRAMING:
+  the whole 1.5-vs-1.949 freedom = WHICH BASIS the census is definite in (mode ⇒ 3/2 cap;
+  position ⇒ 1.949) — so the Ca/Sc pincer empirically selects the PHASE basis, the one
+  POAMS ontology (substance = rotational phase) would predict; counter-tension with
+  anti-continuism kept on record. m = 3/2 tier stays (ii) with the import SHRUNK to
+  AXIOM-C alone; named residue: whether pair-level mode-content is itself a local shard
+  of AXIOM-C. The pairing ledger now rests on one named axiom, empirically selected,
+  same epistemic class as the TF census stand-in. Public exhibit wording: deferred to
+  daylight decision.
