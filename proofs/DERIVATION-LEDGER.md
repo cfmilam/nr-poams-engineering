@@ -1239,3 +1239,19 @@ assertions stand as the historical record; the ordering now has a computed sourc
   δ post-mortem complete); the fixed-point QUESTION contracts to one number — why the
   census holds √(x³χ) just under 3/2 at its own criticality point. Instrument run
   in-session after sub-agent infra failures; tier3k.py + both runs in audit workspace.
+- MADELUNG THEOREM §C3 + tier3l REGISTRATION (2026-08-10 ~12:05, booked+registered
+  PRE-run): the one-number question TRANSFORMED. Exact autonomous reduction of the TF
+  census (t = −dlnχ/dlnx, q = x³χ): dt/ds = t+t²−√q, dq/ds = q(3−t); neutral census =
+  the heteroclinic orbit (0,0) → (3,144) (Sommerfeld far field = the system's fixed
+  point); the criticality line t=1 crossed once, S² = q(1). VALVE/TANGENCY THEOREM
+  (PROVED, exact algebra): on the closure-rate curve B_{1/2} (√q = t+t²−½, the locus
+  dt/ds = ½ = the closure member's peak curvature rate), the crossing condition
+  reduces to 5−3t−4t²+2t³ = (t−1)(2t²−2t−5): downward-only valve STRICT for all
+  t ∈ (0,1); EXACT TANGENCY at t=1 where B_{1/2} passes through the closure point
+  (1, 9/4) i.e. √q = 3/2; valve flips upward-crossable on (1, 2.158). The number 3/2
+  is where (t−1) divides the census field's crossing polynomial — not imported.
+  Honesty split: proved (reduction, valve, tangency) / numerical-registered (the dip:
+  orbit ducks under just before t=1, S = 1.465 < 3/2 strict) / OPEN named rigor item
+  (unconditional dip proof needs a quantitative launch enclosure; soft estimates
+  cannot see the 0.035 margin). tier3l registered L1–L4 (dip, flip, chassis-independent
+  shooting integrator w/ Baker constant, tangency algebra + crossing-rate identity).
