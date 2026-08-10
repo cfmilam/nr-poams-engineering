@@ -1275,3 +1275,19 @@ assertions stand as the historical record; the ordering now has a computed sourc
   full interior k < 2 theorem with S ≤ 3/2 corollary. M1 E≥1 (pass ⇒ sufficiency
   theorem books; fail ⇒ named negative w/ region), M2 chassis-independent recheck of
   K2, M3 equality-structure rates. Registered before run.
+- MADELUNG tier3m+tier3n RESULTS + CONSOLIDATION (2026-08-10 ~13:50): **tier3m M1
+  FAIL as registered — named negative:** pointwise master inequality E = (1−t)² +
+  f/f₀ ≥ 1 is FALSE on the eye face (t ∈ (0.02,0.76), min 0.9654 at t=0.178; exact
+  asymptote E−1 ~ (1/m₀ − 2B₁)x = −1.1200x) — census eye face genuinely shallower
+  than closure, outer face overcompensates; interior inequality irreducibly TWO-POINT.
+  **M2 PASS chassis-independent** (shooting ledger + analytic far wing): worst
+  LHS/RHS = 0.9687 AT THE PEAK = exactly the tangency excess — the valve theorem and
+  the interior inequality share one margin. Exact reformulation booked: harmonic mean
+  of branch slopes = even-rearrangement slope ⇒ interior theorem ⟺ σ̂ ≥ σ* (rearranged
+  census steeper than closure). **tier3n:** S = 1.467319754 (±1e-8 explicit budget,
+  mpmath dps=40; parent corrected own budget overstatement in run file), dip =
+  0.032680246, k_edge = 1.937678418. **Consolidated theorem record shipped:**
+  proofs/MADELUNG-FIXEDPOINT-THEOREM.md (claim map w/ tiers, C1–C3 chain, proofs,
+  verification record, attributions, 3 open items, instrument index). Public exhibit
+  THE CENSUS FLOW (census-flow.html) live: interactive phase plane, valve slider,
+  the dip magnified; index + Aufbau cross-links (exhibits 8a48341).
