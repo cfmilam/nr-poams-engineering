@@ -1175,3 +1175,20 @@ assertions stand as the historical record; the ordering now has a computed sourc
   candidate, no law claimed. Public correction shipped same morning to Aufbau §8
   Open(i) (additive, original retained). Clean registered negative — a dead branch
   named; instrument tier3j.py + tier3j-run1.txt in the audit workspace.
+- PAIRING SWING 8 (2026-08-10 ~10:12, PAIRING-FORWARD §8; PAIRING-MODECONTENT-opus.txt):
+  mode-content seam attacked — verdict (S), SHARD CONFIRMED, and sharper than swing 7
+  feared. Decisive construction: the compact-core/packing census satisfies the ENTIRE
+  minimal native kit (winding, sense, one-per-slot, discreteum) + I1–I3 with NO shared
+  amplitude yet carries off-beat Fourier content; the general kit census is extremized
+  by that core (LP m = 1.94889 at edge r_h — parent-verified independently: numpy
+  I_core/I_ball = 1.29926 ⇒ m_core = 1.9489, three routes to one number). So D3's
+  pairwise determinant is a theorem GIVEN closure-mode ontology (demotion annotated,
+  original retained) — the import enters already at TWO quanta. LOCAL-C weakening
+  FAILS: sum rule forces ξ ≥ r_h = 0.620 n^{-1/3}; at ξ = r_h the census is FORCED to
+  the core; m_max(ξ) = 1.949 flat — no interpolation toward 3/2; Paley–Wiener dies
+  with the bandlimit; 3/2 requires ξ = ∞. AXIOM-C's final shape: an irreducibly GLOBAL
+  ontology fork (closure-mode vs packing-core), NOT derivable from the minimal kit
+  (negation realized), and the measured Ca/Sc window rejects the core's 1.949 —
+  the atom decides the fork for modes. m = 3/2 tier stays (ii); the derive-vs-
+  irreducible fork RESOLVED (irreducible relative to the named kit; richer-kit caveat
+  on record). Public: aufbau §8 refinement shipped same morning (additive, dated).
