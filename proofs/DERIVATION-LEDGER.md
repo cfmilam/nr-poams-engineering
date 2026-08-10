@@ -1138,3 +1138,15 @@ assertions stand as the historical record; the ordering now has a computed sourc
   of AXIOM-C. The pairing ledger now rests on one named axiom, empirically selected,
   same epistemic class as the TF census stand-in. Public exhibit wording: deferred to
   daylight decision.
+- MADELUNG tier3f (2026-08-10 ~01:30, registered F1–F3 pre-run + pre-run spec
+  clarification): profile-distance probe. F1 PASS — D–O anchor recovered as the exact
+  family member (t−1 = tanh((θ−θ₀)/2); fitted w ≈ 2, A ≈ 1; δ at noise floor). F2 FAIL
+  as registered but informative: δ and σ rank-TIED (+1.0000 both) within TF — yet δ
+  separates the D–O anchor (δ ≈ 0) from all TF rows (δ = 0.02–0.21), the test that
+  killed σ in tier3e → δ = the only standing candidate ordering functional for the
+  fixed point; no law claimed. F3 VOID (named instrument limit + vacuous-logic bug in
+  the run printout): low-l fits degenerate to the family's linear limit (w ≫ orbit
+  window) — wing unprobeable at E=0. Discovered signature (flagged, unregistered): TF
+  profiles are the family's unsaturated linear core — saturation deficit, not wing
+  excess; s-orbits widest/least-saturated/lowest-k. F3′ (saturation test) queued for
+  registration.
