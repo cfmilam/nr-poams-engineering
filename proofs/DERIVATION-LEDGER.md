@@ -1024,3 +1024,25 @@ assertions stand as the historical record; the ordering now has a computed sourc
   cover resonance) remains QUARANTINED as numerology — noting honestly that the
   collapse localizing to sense-pairing is the first mechanism-shaped hint in its
   direction; it earns nothing until it computes.
+- V4 LANDED + CLAIM RATIFIED (2026-08-09 evening): TFD instrument (tier3d.py — semiclassical
+  Hartree + Dirac 1930 statistical exchange, both classic Xα coefficients, zero fitted
+  parameters): 3d radius-collapse (unbound → ⟨r⟩≈1.0 a.u.) at Q=20–21 in BOTH conventions;
+  energy flip at EXACTLY Q=21 in the Slater column (4s −0.357 vs 3d −0.306 at Q=20 →
+  3d −0.562 vs 4s −0.475 at Q=21, 3d ahead through 27). Registered prediction ("4s at
+  19–20, 3d from ≈21") landed verbatim. Q=30 late-block artifact named (d-candidate scored
+  against full 3d¹⁰ core; outside scope). Dirac-2/3 column: radius collapse present, energy
+  flip not reached — convention sensitivity declared (Slater α=1 the known better atomic
+  convention). STATUS UPGRADE ratified by C.M. 2026-08-09 ~21:30 ("We can make the claim"):
+  d-collapse ASSERTED→COMPUTED at TFD fidelity. Public surfaces updated same night:
+  aufbau-as-closure.html §8 dated status-upgrade paragraph + §6 miss-row update + Open(ii)
+  rewritten to the pairing layer; poams-periodic-table.html anomaly section reconciliation
+  paragraph (exchange = computable face of the angular-symmetry principle; ρ^{1/3} as
+  avoidance-zone dimensional reading, flagged hypothesis-grade) + §16 closure bullet update
+  ((n+l) open→computed; α the one declared contingent input). The anomaly layer IS the
+  same-sense pairing (exchange) hole — computed with an IMPORTED functional.
+- NEW FRONT OPENED (2026-08-09 night): NATIVE PAIRING LEDGER — derive the same-sense
+  discount (scaling AND coefficient) from ± phase-sense closure bookkeeping, replacing the
+  Xα import; re-land Z=21 with the derived coefficient (registered prediction due before
+  run); pair-count ledger for Cr/Cu/Pd + IE staircase anomalies; half-filled-symmetry ⟺
+  pairing-count equivalence lemma. Charter: memory/poams-audit/PAIRING-CHARTER.md.
+  Recon dispatched (extant steelman + rigor items). M2 remains QUARANTINED.
