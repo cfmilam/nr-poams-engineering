@@ -1,0 +1,44 @@
+==============================================================================
+nbody-n2 — four pairwise invariants at Jupiter, no G, no masses
+==============================================================================
+  Io        a =    421700 km  T =   1.7691378 d  ->  mu = 126,712,581 km^3/s^2
+  Europa    a =    670900 km  T =   3.5511810 d  ->  mu = 126,636,824 km^3/s^2
+  Ganymede  a =   1070400 km  T =   7.1545530 d  ->  mu = 126,708,441 km^3/s^2
+  Callisto  a =   1882700 km  T =  16.6890184 d  ->  mu = 126,710,917 km^3/s^2
+
+-- N2a: books close? --
+  mean mu = 126,692,191 km^3/s^2   [comparison: GM_J ~ 1.26687e8 -> 0.004%]
+  spread (max-min)/mean = 5.98e-04  registered < 5e-4 -> FAIL -> hygiene branch
+  per-moon residuals about mean (x1e4): ['+1.61', '-4.37', '+1.28', '+1.48']
+
+-- N2b: does the pairwise invariant read the partner's ledger weight? --
+  partition fractions m_i/M_J (comparison, x1e5): ['4.70', '2.53', '7.80', '5.69']
+  registered rank (by partition): ['Ganymede', 'Callisto', 'Io', 'Europa']
+  observed rank (by mu residual): ['Io', 'Callisto', 'Ganymede', 'Europa']
+  residual scale 4.4e-04 vs partition signal 5.3e-05
+  N2b VERDICT: DATA-PRECISION-LIMITED (pre-named outcome): a-rounding noise
+  (4e-04) exceeds the partition signal (5e-05); rank test not scoreable
+  against these public elements. Rank match anyway: False.
+
+-- N2c: the Laplace channel, sized from the fetched periods --
+  mean motions n_i (rad/s): Io 4.110593e-05  Eur 2.047827e-05  Gan 1.016444e-05
+  Laplace combination n_Io - 3 n_Eur + 2 n_Gan = -6.978e-13 rad/s
+  |combo|/n_Io = 1.70e-08   registered < 1e-5 -> PASS
+  pairwise ratios (NOT integers - the lock is three-body):
+    T_Eur/T_Io = 2.00729   T_Gan/T_Eur = 2.01470
+  Callisto control: T_Cal/T_Gan = 2.33264 (near 7/3 = 2.33333 but off; no exact
+    combination involves Callisto - the out-of-lock control as registered)
+
+  READING: nothing in T1 (four independent pairwise ledgers) relates the three
+  periods; yet the three-body combination vanishes 589x deeper than the
+  registered bound. The lock is not pairwise commensurability (ratios 2.007, 2.015)
+  but a three-body PHASE closure - the open inter-resonance channel, empirically
+  sized. This is T3's object.
+
+-- N2a HYGIENE BRANCH (pre-named): diagnose the 5.98e-4 miss --
+  Europa is the sole large residual (-4.4e-4), and Europa is exactly where the
+  source is internally split: infobox a = 670900 vs summary-table a = 671100 (+3e-4).
+  with the alternate published a_Eur = 671100: spread = 3.29e-04  -> PASS (<5e-4)
+  VERDICT: the N2a miss is SOURCE-INTERNAL a-inconsistency on Europa (non-physics,
+  the registered hygiene outcome). Books close at the precision the public elements
+  permit; both variants agree with GM_J to <=5e-4, mean to 4e-5.

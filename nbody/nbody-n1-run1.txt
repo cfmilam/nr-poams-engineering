@@ -1,0 +1,29 @@
+==============================================================================
+nbody-n1 — the two-centre momentum-ledger engine, no G, no masses
+==============================================================================
+
+-- N1a: Pluto-Charon --
+  geometry from (r_p, r_a): a_sep = 19595.765 km  e = 0.000161  [pub: 19595.764, 0.000161]
+  pair invariant mu_rel = 4pi^2 a^3/T^2 = 975.4 km^3/s^2  (no G, no masses)
+  [comparison only, NOT engine input: GM_P+GM_C (Brozovic 2024) ~ 975.5 -> 0.01% agreement]
+  v_rel (mean) = 223.11 m/s
+  PARTITION using published a2 = 17181.0 km:
+    predict a1(Pluto) = 2414.8 km ; v2(Charon) = 195.6 m/s ; v1(Pluto) = 27.5 m/s
+  ADJUDICATION (comparison data, same source's mass ratio q = 0.12205):
+    a1 = 2131.5 km, a2 = 17464.3 km  ->  published a2 = 17181.0 is 1.62% LOW
+    verdict: the two data in ONE infobox are mutually inconsistent; the engine's
+    partition arithmetic exposes it. Independent GMs side AGAINST 17181.0.
+    (infobox '0.21 km/s' matches neither partition: 196 or 199 m/s — 2 s.f. note, too coarse.)
+
+-- N1b: Earth-Moon --
+  geometry: a_sep = 384403.5 km  e = 0.05490  [pub mean e: 0.0549]
+  partition from a1 = 4670.0 km: f2 = 0.98785, a2(Moon) = 379734 km
+  mu_rel from mean-speed relation = 412061 km^3/s^2  (no G, no T input)
+  [comparison only: GM_E+GM_M ~ 403503]
+  (i) PREDICT period T = 27.000 d  vs sidereal 27.322 d  -> 1.18%  PASS (<=1.5%)
+  (ii) PREDICT Moon barycentric apsides: 358886 / 400581 km (perigee/apogee about barycentre)
+       Earth speed amplitude v1 = 12.6 m/s (the Earth's monthly wobble)
+  (iii) apsidal speed ratio v_p/v_a = r_a/r_p = 1.11618 — pure AM conservation (engine identity;
+        no independent published apsidal-speed pair in the consulted source — noted, not scored)
+  residual reading: the 1.18% period miss direction and size are the
+  registered THREE-BODY HANDOFF (solar perturbation) if >~0.5%; below that, data-grade agreement.

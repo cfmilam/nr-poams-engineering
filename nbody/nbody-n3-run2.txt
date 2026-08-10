@@ -1,0 +1,22 @@
+-- N3f benchmark (run2): f_d(2:1, alpha=0.6286) = -1.1832 vs tabulated -1.19 -> PASS (0.6%)
+
+-- N3a: beats -0.73950 / -0.73951 deg/d; diff/n1 = 1.70e-08 PASS
+
+-- N3b (run2): raw pairwise beats vs corrected widths --
+   Io-Europa 2:1: beat/W = 3.78 -> OUTSIDE (closed raw) PASS
+   Europa-Ganymede 2:1: beat/W = 2.87 -> OUTSIDE (closed raw) PASS
+
+-- N3c (run2): combo/n1 = 1.70e-08
+   strict f'^2 floor: combo/W3 = 4.63e-03 (margin 216x) OPEN
+   first-order ceiling: combo/W3 = 1.34e-05 OPEN
+   N3c: PASS (>=100x at conservative end)
+
+-- N3d (run2): Gan-Cal 7:3: beat/W_generous = 1.31 -> CLOSED even at generous first-order bound; true order-4 ~e^3 smaller: PASS
+
+-- N3e (run2): golden body --
+   3:2: beat/W = 117.8
+   5:3: beat/W = 72.8
+   8:5: beat/W = 45.0
+   13:8: beat/W = 27.8
+   2:1: beat/W = 190.6
+   N3e: PASS (all >= 3x)

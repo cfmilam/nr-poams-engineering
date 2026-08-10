@@ -1,0 +1,34 @@
+==============================================================================
+nbody-n3 — channel criterion vs the Galilean system (registered N3a-f)
+==============================================================================
+
+-- N3f benchmark: f_d(2:1) at alpha = 0.6286 = -2.4403  (tabulated ~ -1.19)
+   FAIL (105.1% from tabulated)
+
+-- N3a: raw pairwise beats (the common conjunction drift) --
+   2n_Eur - n_Io  = -1.493840e-07 rad/s = -0.73950 deg/d
+   2n_Gan - n_Eur = -1.493847e-07 rad/s = -0.73951 deg/d
+   difference/n_Io = 1.70e-08  (= the N2c Laplace combo)  PASS equal-to-1e-8 class
+
+-- N3b: pairwise channels, RAW beats vs widths --
+   Io-Europa 2:1: |beat|/n = 3.634e-03, W/n = 1.382e-03, beat/W = 2.63 -> OUTSIDE (closed raw)
+   Europa-Ganymede 2:1: |beat|/n = 7.295e-03, W/n = 3.659e-03, beat/W = 1.99 -> OUTSIDE (closed raw)
+
+-- N3c: three-body channel --
+   |n1 - 3n2 + 2n3|/n1 = 1.70e-08
+   W3 [strict f'^2 floor] /n2 = 7.36e-06  -> combo/W3 = 4.63e-03  OPEN (deep)
+   W3 [geometric-mean class] /n2 = 2.57e-03  -> combo/W3 = 1.33e-05  OPEN (deep)
+   W3 [first-order ceiling] /n2 = 3.66e-03  -> combo/W3 = 9.31e-06  OPEN (deep)
+   N3c registered: open with >=100x margin at the conservative end -> PASS
+
+-- N3d: Ganymede-Callisto 7:3 control --
+   |7n_Cal - 3n_Gan|/n_Gan = 8.877e-04; GENEROUS first-order-scale W/n = 1.016e-03
+   beat/W_generous = 0.87; true order-4 width ~ e^3 smaller -> inside generous bound - check order-4
+
+-- N3e: golden-ratio control (hypothetical body, T = phi * T_Europa) --
+   3:2 (order 1): beat/W_generous =     87.9 -> closed
+   5:3 (order 2): beat/W_generous =     54.3 -> closed
+   8:5 (order 3): beat/W_generous =     33.6 -> closed
+   13:8 (order 5): beat/W_generous =     20.8 -> closed
+   2:1 (order 1): beat/W_generous =    142.2 -> closed
+   N3e registered: all order<=5 closed by >=3x -> PASS
