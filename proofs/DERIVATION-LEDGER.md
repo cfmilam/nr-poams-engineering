@@ -1371,3 +1371,9 @@ assertions stand as the historical record; the ordering now has a computed sourc
   Wyler gate, the Galilean verdict as interactives (pinned Laplace dial; channel
   board — pairwise closed, three-body open 216×, controls closed), tier cards
   (derived/cited/open), full sources. Index + Navigation Engine §D cross-linked.
+- N-BODY N4 REGISTRATION (2026-08-10 ~16:20, pre-data): Kirkwood confrontation.
+  Numerical coefficient extractor (double-Fourier of exact 1/Δ; d'Alembert-scaling +
+  f_d(2:1) benchmark gates pre-named); general-order width W_pq = 2qn√(3αf′|C_pq|e^{p−q});
+  registered: 2:1 half-width within 2× (sharp anchor), 3:1 within 3× (zone-vs-emptying
+  split named, Wisdom cited), order scaling 2:1>3:1>5:2>7:3, incommensurate controls
+  closed ≥5×. Committed before any gap-boundary data pull.
