@@ -1255,3 +1255,16 @@ assertions stand as the historical record; the ordering now has a computed sourc
   (unconditional dip proof needs a quantitative launch enclosure; soft estimates
   cannot see the 0.035 margin). tier3l registered L1–L4 (dip, flip, chassis-independent
   shooting integrator w/ Baker constant, tangency algebra + crossing-rate identity).
+- MADELUNG tier3l RESULTS (2026-08-10 ~12:15; registration 23cc2e2 pre-run; runs 1+2,
+  run2 = checker sign-typo fix only): **L1 PASS — the dip is real:** independent
+  shooting integrator (RK4, launch series, Baker B₁) crosses the closure valve
+  downward at t* = 0.8818 and reads S = √q(1) = 1.4673200 < 3/2 (dip 0.03268).
+  **L2 PASS — the flip is real:** upward re-cross at t_up = 2.0628, inside (1, 2.158)
+  = before the crossing polynomial's positive root (1+√11)/2. **L4 PASS (1.4e-16):**
+  tangency algebra exact. **L3 informative fail, cause named:** BVP chassis value
+  1.46504 carried its 3.35e-3 Newton residual; shooting value supersedes —
+  S = 1.4673200 (step-independent 1.7e-10, B₁-stable), k_edge = 1.937679, crossing
+  rate = ½ + 0.032680. Fixed-point front state: functional found+verified; sign
+  structure verified; edge identity verified; the one number's structural why PROVED
+  (valve/tangency, exact algebra). Open, named: unconditional dip enclosure; S has
+  no claimed closed form (transcendental-grade, computable to arbitrary digits).
