@@ -1192,3 +1192,22 @@ assertions stand as the historical record; the ordering now has a computed sourc
   the atom decides the fork for modes. m = 3/2 tier stays (ii); the derive-vs-
   irreducible fork RESOLVED (irreducible relative to the named kit; richer-kit caveat
   on record). Public: aufbau §8 refinement shipped same morning (additive, dated).
+- MADELUNG THEOREM §C2 + tier3k REGISTRATION (2026-08-10 ~11:00, derivation booked and
+  confrontation registered BEFORE instrument build/run): Lemma 3 PROVED (in-session) —
+  the E=0 apsidal slope is an EXACT LINEAR functional of the ledger's width function:
+  A(J) = J∫(−T′)du/√(u−J²), k = A/π (layer-cake on the log-radial level sets; shears
+  drop out in one line = Firsov/Berezina non-uniqueness; Lemma 2's ⟨t⟩≡1 is its mean
+  statement). DEFICIT IDENTITY: 2−k(J) = (J/π)∫(−D′)du/√(u−J²), D = T*−T vs the
+  peak-matched closure member T* = 4arccosh√(f₀/u) (analytic anchor: A* ≡ 2π ∀J,
+  computed exactly). SIGN THEOREM: D nonincreasing ⇒ k < 2 strict — the tie-break
+  direction as kernel geometry; k(l) hierarchy = kernel reach into the over-screened
+  wing (rate-2 vs rate-1 far field). δ post-mortem: right variable class, wrong norm.
+  EDGE IDENTITY (one line from the TF ODE): x t′|_{t=1} = 2 − √(x³χ) ⇒ k_edge =
+  √(2/(2−√(x³χ))) ≈ 1.94 at √(x³χ) ≈ 1.47 — matches measured edge values with no orbit
+  integration; closure value ½ ⟺ x³χ = 9/4 ⇒ the fixed-point question sharpens to ONE
+  NUMBER: why the self-consistent census holds √(x³χ) just under 3/2 at its own t=1
+  criticality point. tier3k registered: K0 anchors, K1 identity (implementation-only),
+  K2 sign structure (pre-named failure meanings, outer-face failure = falsified), K3
+  kernel-reach hierarchy, K4 edge identity ±1%, K5 fixed-point scalar trend. Prior-art
+  recon dispatched in parallel (apsidal width-linearity, zero-energy virial, Abel rigor,
+  TF peak identity).
