@@ -1221,3 +1221,21 @@ assertions stand as the historical record; the ordering now has a computed sourc
   LNM 1461 (injectivity, W∈L¹ + H2 + f→0), Borg 1946 (even-member uniqueness) — C1
   upgrades to theorem-modulo-H2-with-citations. Firewall held (no literature numbers
   into derivations; empty queries logged).
+- MADELUNG tier3k RESULTS (2026-08-10 ~11:20; registration 3d22934 committed pre-run;
+  runs 1+2 on file, run-2 fixes = named implementation artifacts only, definitions
+  frozen): **ALL SIX REGISTERED PREDICTIONS PASS.** K0a ψ-scheme exact (A* = 2π to
+  1.2e-11); K0b D–O ledger IS the sech² member (width match 1.3e-6, k = 2); K1 Lemma-3
+  width formula matches the direct orbit integral (max 4.8e-3 at the one near-edge row
+  where both quadratures hit grid floors; interior ≤ 1.3e-3; deficit reconstruction
+  9e-12); **K2 both clauses, all 20 rows: D ≥ 0 AND D′ ≤ 0 on every occupied range —
+  the sign theorem's hypothesis VERIFIED table-wide, k < 2 strict now a theorem riding
+  a verified monotone width-deficit**; K3 the k(l) hierarchy = kernel reach (s-rows
+  collect 94–98% of deficit below midpoint level, d/f 50–71%); K4 edge identity
+  k_edge = √(2/(2−√(x³χ))) = 1.93355 vs measured 1.93501/1.94148 (0.1%/0.4%); K5 the
+  fixed-point scalar √(x³χ)|_{t=1} = 1.46504, Z-independent, +0.035 below the closure
+  value 3/2. Noted corollary (derived): the whole TF k-table is ONE universal curve
+  k(J/√f₀). Front state: the fixed-point FUNCTIONAL is found and verified (width
+  deficit under the Abel kernel — exact linear functional, never a scalar; tier3f's
+  δ post-mortem complete); the fixed-point QUESTION contracts to one number — why the
+  census holds √(x³χ) just under 3/2 at its own criticality point. Instrument run
+  in-session after sub-agent infra failures; tier3k.py + both runs in audit workspace.
