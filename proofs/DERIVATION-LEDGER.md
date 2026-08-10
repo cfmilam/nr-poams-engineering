@@ -1349,3 +1349,17 @@ assertions stand as the historical record; the ordering now has a computed sourc
   N3a–f registered with margin classes (equality check, pairwise-raw closed,
   three-body open ≥100×, 7:3 closed a fortiori, golden-body control closed, f_d
   benchmark vs tabulated −1.19). Committed before the instrument runs.
+- N-BODY N3 RESULTS (2026-08-10 ~15:05; reg 34a9473 pre-run; runs 1+2, fix driven by
+  the registered benchmark N3f exactly as pre-named — coefficient chain verified at
+  0.6% vs tabulated): **ALL SIX REGISTERED ITEMS PASS.** The Galilean system scored
+  by the derived no-fit channel criterion: raw pairwise beats EQUAL (−0.7395°/d both;
+  diff = the 1.7e-8 combo) and OUTSIDE their own first-order widths (3.78×/2.87× —
+  pairwise books cannot hold the raw offsets); the three-body combination INSIDE
+  every plausible W₃ (216× margin at the strictest floor) — **the Laplace lock is
+  irreducibly three-body in channel accounting, exactly as registered before
+  scoring.** Controls: Gan–Cal 7:3 closed even at the generous bound (order-4 a
+  fortiori); golden-ratio body closed 28–191× at all orders ≤5. The Wyler gate held
+  throughout — every integer bought its place through W = 2(j−1)n√(3αf′|f_d|e).
+  T3 run 1 complete: the resonance map re-derived from rates, geometry, partition
+  fractions, eccentricities, and computed coefficients. Named open: exact three-body
+  Hamiltonian (bracketed); N4 Kirkwood w/ gap-width data; N2b JPL upgrade.
