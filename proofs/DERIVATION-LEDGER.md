@@ -1302,3 +1302,16 @@ assertions stand as the historical record; the ordering now has a computed sourc
   is the registered HANDOFF to T2, not a failure; Moon's barycentric apsidal radii;
   perigee/apogee speed ratio at <0.1% pure-AM check). Pre-named failure meanings
   booked. No ephemeris touched before this commit.
+- N-BODY N1 RESULTS (2026-08-10 ~13:40; registration 88acc0a pre-data; instrument
+  nbody-n1.py + run1 in audit workspace; input deviations declared in-file):
+  **μ_rel measured with no G and no masses agrees with GM_P+GM_C to 0.01%**
+  (Pluto–Charon, 975.4 vs 975.5 km³/s²). **The partition arithmetic exposed a real
+  inconsistency in the published source** (Charon barycentric a₂ = 17,181 km is 1.62%
+  low vs the same source's own mass ratio; independent GMs adjudicate against it) —
+  N1a's 1% scoring void against self-inconsistent reference data (pre-named bound),
+  booked as data-adjudication. **N1b period PASS:** predicted 27.000 d (no T, no G
+  inputs) vs sidereal 27.322 d = 1.18% < 1.5% registered — and the residual's size
+  and direction are the registered three-body handoff (solar perturbation), now
+  empirically sized as T2's first target. Earth's monthly wobble amplitude predicted
+  12.6 m/s. T1 STANDS; queue: T1 Lagrangian writeup, N2 registration (Galilean
+  pair-invariant consistency).
