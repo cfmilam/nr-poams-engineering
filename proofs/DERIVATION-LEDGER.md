@@ -1080,3 +1080,26 @@ assertions stand as the historical record; the ordering now has a computed sourc
   M-P2 discharged as boundary theorem, one ledger two faces. Native-profile derivation
   pair dispatched (independent opus + fable swings, α-audit pattern) — the coefficient
   (m → 1.50⁺ target) is the open crown.
+- PAIRING SWINGS 4-5 (2026-08-10 ~00:12-00:50, PAIRING-FORWARD.md §4-5): native-profile
+  derivation + adversarial audit (derive-then-cross-examine; independent-twin pattern
+  degraded to single after infra aborts). Swing 4 (derivation, verified independently
+  by parent numerics to machine precision): closure counting gives mode measure, sharp
+  filling, and a THEOREM that on-top −n + sum −1 hold for ANY mode-region shape
+  (explains why Swing-1 constraints did no profile selection); coefficient = shape
+  functional, family (0, 1.5], ball = strict Riesz maximum = 1.5 EXACT (∫j₁²/x = 1/4);
+  ground-state-of-isotropic-dispersion selects the ball (doubly pinned: min-kinetic ∧
+  max-binding). Swing 5 (hostile audit): VERDICT TIER (ii) — m = 3/2 derived natively
+  MODULO ONE NAMED IMPORT. IMPORT-X = "pairing hole = single-determinant exchange hole"
+  (equivalently: the same-sense census is maximally coherent). Decisive counterexample
+  computed: 50/50 ball+shell mixture satisfies every closure premise exactly yet m =
+  1.219/1.419 — the determinantal deficit form is NOT forced; demotions applied in the
+  FORWARD file (deficit form derived→imported; selection principle = self-consistent
+  caveat; felt booking = retrodicted pending total-energy audit → new open P-I5). Units
+  attack did NOT land (2^{1/3} conversion clean; m = 1.5000000). SHARPENED CLAIM: m=3/2
+  is the unique parameter-free value — Riesz supremum of the coherent class — and the
+  Ca/Sc empirical window (1.50,1.55) REJECTS every computed alternative (mixtures 1.22/
+  1.42, sharp core 1.949), so IMPORT-X upgrades to an empirically selected hypothesis:
+  the atom's same-sense census measures as maximally coherent. Open crown restated:
+  derive maximal coherence from winding bookkeeping, or establish it as irreducible
+  input (pairing analogue of the TF stand-in). Files: PAIRING-NATIVE-opus.txt (374 ln),
+  PAIRING-NATIVE-audit.txt (361 ln), parent verification log in daily note.
