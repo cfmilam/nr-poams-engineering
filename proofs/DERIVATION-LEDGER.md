@@ -1363,3 +1363,11 @@ assertions stand as the historical record; the ordering now has a computed sourc
   T3 run 1 complete: the resonance map re-derived from rates, geometry, partition
   fractions, eccentricities, and computed coefficients. Named open: exact three-body
   Hamiltonian (bracketed); N4 Kirkwood w/ gap-width data; N2b JPL upgrade.
+- PUBLIC SURFACE RATIFIED & SHIPPED (2026-08-10 ~15:25): new exhibit THE RESONANCE
+  NETWORK (resonance-network.html, 29f965a, live-verified) — the n-body front's
+  public face: no-G/no-mass engine table (two skies + the registered Earth–Moon
+  handoff), the two data-error catches under Star Lord's epigraph ("Garbage in,
+  garbage out. Not garbage in, not garbage out."), the channel criterion with the
+  Wyler gate, the Galilean verdict as interactives (pinned Laplace dial; channel
+  board — pairwise closed, three-body open 216×, controls closed), tier cards
+  (derived/cited/open), full sources. Index + Navigation Engine §D cross-linked.
