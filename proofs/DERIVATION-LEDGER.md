@@ -1315,3 +1315,12 @@ assertions stand as the historical record; the ordering now has a computed sourc
   empirically sized as T2's first target. Earth's monthly wobble amplitude predicted
   12.6 m/s. T1 STANDS; queue: T1 Lagrangian writeup, N2 registration (Galilean
   pair-invariant consistency).
+- N-BODY T1 WRITEUP + N2 REGISTRATION (2026-08-10 ~14:25, pre-data): T1 booked
+  explicit — exactness theorem (μ = h·v₀ = 4π²a³/T² identically on any ellipse, two
+  lines), mass-free Lagrangian ℒ = ½|Ṙ|² + μ/|R| + kinematic partition map (f = the
+  pair's momentum-ledger split, measured dimensionless; masses appear nowhere; 1/R
+  import named). N2 REGISTERED before any Galilean data pull: N2a books-close
+  (spread(μ_i) < 5e-4, data-hygiene branch pre-named), N2b ledger-weight rank test
+  (residuals order as Ganymede > Callisto > Io > Europa; chance 1/24), N2c Laplace
+  combination |n₁−3n₂+2n₃|/n₁ < 1e-5 from fetched periods = the open inter-resonance
+  channel sized before T3 exists (Callisto control).
