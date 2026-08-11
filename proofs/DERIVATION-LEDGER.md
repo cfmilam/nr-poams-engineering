@@ -1743,3 +1743,30 @@ REGISTERED:
 - S12d (mirror sanity): the same rule applied to the alpha (P₂ = 2, P₃ = 0 in
   K4) must stay inside [16.6, 18.4]: 14.02 + 0.84 + 2.34 = 17.20 ✓ arithmetic
   (restated, not new).
+
+## 2026-08-11 — SWING 12 SCORED (VOID + FAIL-low) · SWING 13 REGISTERED (pre-run)
+SWING 12: S12a VOID as registered — equilibrium hard-sphere liquid gives
+z̄ = 5.47 ∉ [4.3, 5.3]; census P₂ = 1.10, P₃ = 2.25; composed ledger 17.1 =
+FAIL low regardless (robust: P₃ counted WITH chords = overcount, still low).
+Instrument note: snapshot print line mislabels columns (cosmetic; MEANS and
+scoring verified by hand: 14.02+0.84+2.336·0.102+0.876·2.246 = 17.07 ✓).
+POST-MORTEM (named, no rescue): the declared census model omitted the lock
+physics itself — (i) locks are ADHESIVE: the T = 0 packing maximizes bond/loop
+credits (polytetrahedral local order), not liquid disorder; (ii) CAPACITY caps
+the lock graph at z_c — the distance graph overcounts coordination and starves
+triangles. Both corrections are the ledger's own established physics (swing 3
+capacity; swing 4 kink), not new dials.
+SWING 13 REGISTERED (the corrected census, pre-run; SAME composed formula and
+credits as swing 12 — nothing re-tuned):
+Instrument declared: N = 512 at ρ₀ (density is an import), hard core 1.72,
+reach 2.14; STICKY anneal — Metropolis on E = −(bond count), T: 1.0 → 0.05,
+3000 sweeps; LOCK GRAPH = mutual 5-nearest-in-reach (capacity cap, ⌈z_c⌉ = 5,
+mutuality enforced); census P₂, P₃ (same definitions, chord caveat carried).
+- S13a gate: lock-graph z̄ ∈ [4.3, 5.0].
+- S13b census reported unconstrained.
+- S13c THE LANDING (same window): composed δ_bulk ∈ [20.0, 24.9].
+- DECISION RULE (registered): PASS ⇒ crown at tier (ii) (one named import h,
+  declared idealizations). FAIL low AGAIN ⇒ the shared-turn loop ledger cannot
+  close the bulk books under either census — bulk-sector claim REJECTED for the
+  model; its cluster-sector identifications (pair 2%, trinucleon, alpha) retain
+  their scored status; crown attempt closed for the day, no third census.
