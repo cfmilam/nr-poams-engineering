@@ -1,0 +1,19 @@
+B (MeV): d 2.2246  t 8.4818  h 7.7180  alpha 28.2957
+
+cluster  delta0 central [band]      rho central [band]   (tax/q central)
+d         14.31  [14.12, 14.49]    0.0292 [0.0286, 0.0299]   ( 6.04)
+h         14.07  [13.17, 15.07]    0.0585 [0.0552, 0.0621]   ( 9.76)
+t         16.81  [14.84, 18.39]    0.0828 [0.0702, 0.0911]   (12.30)
+alpha     17.70  [16.63, 18.42]    0.1450 [0.1369, 0.1456]   (16.60)
+
+T-C6a (all central delta0 in [13,19]): PASS  | full bands inside [12,20]: True
+T-C6b: alpha-d gap = 3.39 MeV (>=1.5: PASS) | mirror t>h: PASS (t 16.81 vs h 14.07)
+       density order: ['d', 'h', 't', 'alpha']  delta0: ['14.31', '14.07', '16.81', '17.70']  spearman = 0.800 (>0: PASS)
+T-C6c: delta0(alpha) = 17.70  in [16,20]: PASS   (bulk-required 22.3; residual x1.26)
+
+B/A envelope A=2..8 (keV): {2: 1112.3, 3: 2827.3, 4: 7073.9, 5: 5512.1, 6: 5332.3, 7: 5606.4, 8: 7062.4}
+T-C6d (strict local max at A=4): PASS
+
+readings: A=5 max B/A 5.512 < alpha 7.074 (unbound vs alpha+n by 0.73 MeV)
+Li-6 - (alpha+d) = 1.474 MeV (weak inter-cell net, positive small)
+Be-8 - 2*alpha  = -0.092 MeV (two-cell problem, named open)

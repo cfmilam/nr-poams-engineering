@@ -1525,3 +1525,16 @@ below bulk-required 22.3; ≥21 = frozen immediate; ≤15 = no enhancement, ×1.
 becomes pure import); T-C6d B/A strict local max at A=4 over A∈[2,8] (credit-free
 cell-closure direction). Readings not scored: A=5 unbound, Li-6 halo net, Be-8≈2α
 (two-cell problem named open). Full text: MASS-FORWARD.md T-C6.
+
+## 2026-08-11 — SWING 6 SCORED: cluster ladder ALL SIX PASS; ×1.55 decomposed; tension named
+T-C6a 4/4 in [13,19] · T-C6b enhancement sign ×3 (α−d +3.39; mirror control
+t>h 16.81/14.07; rank +0.80) · T-C6c δ₀(α)=17.70 ∈ [16,20] — partial, residual
+×1.26 · T-C6d strict B/A max at A=4 over [2,8]. Readings: A=5 unbound 0.73;
+Li-6−(α+d)=+1.474; Be-8−2α=−0.092 (two-cell open). ×1.55 = ×1.24 measured
+(saturates by α, which sits AT ρ₀ — density exhausted) × ~1.26 residual
+(coordination z 3→4.78 / arrangement freeze). NAMED TENSION: frozen-random
+mixing 0.675 (swing-5 a_sym) vs 0.849 implied by bulk books ÷ ladder δ₀ —
+one coherence statement must close both (swing-7 #1). Post-hoc FLAGGED
+unregistered: δ₀(z) near-linear, extrapolates 22.2 at z_c vs 22.3 required —
+Wyler-shaped, NOT claimed, derivation target. Doc MASS-LEDGER-SWING6.md;
+instrument mass/mass-swing6{.py,-run.txt}.
