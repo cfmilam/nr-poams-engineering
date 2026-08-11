@@ -1419,3 +1419,17 @@ assertions stand as the historical record; the ordering now has a computed sourc
   — no G, no masses anywhere in the arithmetic. N4 front CLOSED (a PASS, b PASS,
   c informative fail booked, d 1/2 booked). Instrument nbody-n4-edges.py + run2 in
   nbody/.
+- MASS SWING 1 (2026-08-11 02:05; reg M-C1 89d309e pre-derivation): five ledger
+  entries derived as bookkeeping — P1 extensivity theorem (finite-range ⇒ ∝A);
+  P2 sharp-contact ratio a_s/a_v = 3/2 FORCED (cap integral; diffuseness residual
+  named); P3 (N−Z)²/A forced twice (Schur ladder + gear-mesh δ_ul > δ_ll with
+  sense-relabel symmetry ⇒ even powers); P4 ee<eo<oo ladder forced (A^{-1/2} =
+  empirical class, no credit); P5 forced shape, geometric 3/5, Z(Z−1), a_c = 0.72
+  from curve-free imports (1/r = named import). FORCED-PEAK THEOREM proved:
+  unique interior max of b(A), A* = 3a_v/a_c, signs forced ⇒ existence is theorem;
+  free-pair scale ⇒ A* ∈ [37,56] (class [40,80] hit, γ ≳ 0.16; a_s/a_c bracket
+  [18.5,27.8] ∋ shadow 25); packed alpha scale ⇒ 2.5× tension, A* ≈ 118 —
+  **scale finding: per-contact discount is not a free-pair observable; confined
+  scale = swing-2 target.** No dial touched A = 56 (Wyler gate). AME tolerances
+  registered pre-pull (T-P4 staggering ≥90%; T-P3 evenness <10% cubic/quadratic;
+  T-PEAK deferred until scale derived). Full text: proofs/MASS-LEDGER-DERIVATION.md.
