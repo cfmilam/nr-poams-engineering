@@ -1457,3 +1457,15 @@ assertions stand as the historical record; the ordering now has a computed sourc
   two-column theorem; saturation 2.4× → capacity law = swing-3 flagship and the
   T-PEAK gate. Instruments in mass/ (AME2020 from IAEA AMDC, experimental entries
   only).
+- MASS SWING 3 — CAPACITY LAW + T-PEAK PASS (2026-08-11 02:45; doc 5be7b5e
+  pre-scoring): three-point per-bond GROSS flatness δ₀ = 15.0 ± 1.0 MeV (z = 1,2,3;
+  nets spread 2.1×) — tax column verified thrice. Patch-saturation capacity law
+  δ_eff = δ₀ min(1, z_c/z); z_c = 4.78 ± 0.35 extracted from ledger (Ω_w 2.63 sr,
+  θ_w 54.5°, cap 35.9 MeV/quantum); data force saturation at 4.5×. Surface
+  reattribution THEOREM: with z_c below surface coordination, missing-bond surface
+  cost collapses to A^{1/3} class ⇒ the A^{2/3} entry migrates to the tax column
+  (gradient skin — the shadow's own "Weizsäcker term" closing the loop); 3/2→1.13
+  softening DIRECTION derived, coefficient = swing-4 E-L. **T-PEAK: registered
+  bracket A* ∈ [49, 66] (both edges forced; a_c curve-free; famous-number honesty
+  held) — AME2020 experimental max at A = 62 (Ni-62), top-10 plateau [52, 64]
+  entirely inside. PASS.** Run mass/mass-tpeak-run.txt.
