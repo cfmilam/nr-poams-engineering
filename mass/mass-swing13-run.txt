@@ -1,0 +1,22 @@
+  sweep 0 T=1.000 z_dist=5.85 (0s)
+  sweep 500 T=0.607 z_dist=7.40 (6s)
+  sweep 1000 T=0.368 z_dist=8.28 (11s)
+  sweep 1500 T=0.223 z_dist=9.05 (17s)
+  sweep 2000 T=0.136 z_dist=9.35 (23s)
+  sweep 2500 T=0.082 z_dist=9.48 (28s)
+  sweep 0 T=0.050 z_dist=9.55 (0s)
+snap 0: z_lock=3.945  P2=0.434  P3=0.776  bonds=1010
+  sweep 0 T=0.050 z_dist=9.55 (0s)
+snap 1: z_lock=3.945  P2=0.428  P3=0.792  bonds=1010
+  sweep 0 T=0.050 z_dist=9.57 (0s)
+snap 2: z_lock=3.992  P2=0.402  P3=0.822  bonds=1022
+  sweep 0 T=0.050 z_dist=9.59 (0s)
+snap 3: z_lock=4.000  P2=0.437  P3=0.770  bonds=1024
+
+MEANS: z_lock=3.971  P2=0.425  P3=0.790
+S13a gate z in [4.3,5.0]: VOID
+r_q=0.84: composed delta_bulk (Rule A) = 16.26
+r_q=0.86: composed delta_bulk (Rule A) = 15.55
+r_q=0.88: composed delta_bulk (Rule A) = 14.89
+
+S13c THE LANDING: composed = 15.55 in [20.0, 24.9]: FAIL low — bulk sector rejected

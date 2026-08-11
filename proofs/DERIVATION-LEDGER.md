@@ -1770,3 +1770,18 @@ mutuality enforced); census P₂, P₃ (same definitions, chord caveat carried).
   close the bulk books under either census — bulk-sector claim REJECTED for the
   model; its cluster-sector identifications (pair 2%, trinucleon, alpha) retain
   their scored status; crown attempt closed for the day, no third census.
+
+## 2026-08-11 — SWING 13 SCORED: bulk sector closed for the day (rule honored)
+Sticky anneal + capacity-capped mutual lock graph: z_lock = 3.97 VOID; P₂ = 0.43,
+P₃ = 0.79; composed = 15.6 FAIL low. Per the pre-registered decision rule: the
+shared-turn loop ledger's BULK closure is rejected under both declared censuses;
+no third census today. Post-mortem named: fixed-density sticky toy phase-
+separates (no tax pressure ⇒ clumps + voids); the two censuses missed the
+capacity graph in opposite directions (5.47 / 3.97 vs 4.78). STANDS: cluster
+sector (pair anchor 2%, c₃ ≈ measured marginal, composition structure).
+CONTRACTED FINAL FORM OF THE CROWN: the capacity-packing structure problem —
+the T = 0 arrangement of circulations under core + lock reach + patch capacity
+at ρ₀. Same object as the swing-4 kink-profile prediction and swing-5 frozen
+mixing: polytetrahedral (P₂ 2.5–3.5) ⇒ loop ledger closes; liquid-like ⇒ bulk
+deepening is not loop turns. Doc MASS-LEDGER-SWING12-13.md; instruments
+mass/mass-swing{12,13}{.py,-run.txt}.

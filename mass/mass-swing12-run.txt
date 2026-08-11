@@ -1,0 +1,21 @@
+box L = 15.481 fm  phi(hard) = 0.368
+  sweep 0 acc 0.61  (0s)
+  sweep 300 acc 0.43  (2s)
+  sweep 600 acc 0.43  (3s)
+  sweep 900 acc 0.41  (5s)
+  sweep 1200 acc 0.41  (7s)
+snap 0: z=5.488  P2=1.166(2.28)  P3=0.869(1.86)  bonds=1405  (9s)
+snap 1: z=5.473  P2=1.081(2.15)  P3=0.845(1.72)  bonds=1401  (9s)
+snap 2: z=5.410  P2=1.055(2.14)  P3=0.846(1.71)  bonds=1385  (9s)
+snap 3: z=5.520  P2=1.110(2.29)  P3=0.881(1.87)  bonds=1413  (10s)
+snap 4: z=5.473  P2=1.096(2.38)  P3=0.871(1.77)  bonds=1401  (10s)
+
+MEANS: z = 5.473   P2 = 1.102   P3 = 2.246
+
+S12a void gate: z in [4.3, 5.3]: VOID
+r_q=0.84: dp=14.69 c3=2.449 c4=0.918 | RuleA delta_bulk=17.84 | RuleB=16.93
+r_q=0.86: dp=14.02 c3=2.336 c4=0.876 | RuleA delta_bulk=17.06 | RuleB=16.19
+r_q=0.88: dp=13.39 c3=2.231 c4=0.837 | RuleA delta_bulk=16.33 | RuleB=15.50
+
+S12c THE LANDING (central): composed delta_bulk = 17.06  in [20.0, 24.9]: FAIL low
+S12d alpha restatement: 17.19 in [16.6,18.4]: True
