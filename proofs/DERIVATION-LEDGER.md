@@ -1785,3 +1785,34 @@ at ρ₀. Same object as the swing-4 kink-profile prediction and swing-5 frozen
 mixing: polytetrahedral (P₂ 2.5–3.5) ⇒ loop ledger closes; liquid-like ⇒ bulk
 deepening is not loop turns. Doc MASS-LEDGER-SWING12-13.md; instruments
 mass/mass-swing{12,13}{.py,-run.txt}.
+
+## 2026-08-11 — SWING 14 REGISTERED (pre-run): the capacity-packing enumeration
+QUESTION (from the swing-13 close): what census does the T = 0 capacity packing
+carry — polytetrahedral (P₂ ≥ 2, loop ledger can close) or sparse (P₂ ≲ 1, bulk
+deepening is not loop turns)? Enumeration over declared candidates, no dynamics.
+CANDIDATES (periodic, at fixed ρ₀ = 0.138 fm⁻³; core 1.72; reach band
+2.06/2.14/2.22): sc, bcc, fcc, hcp, A15 (Frank–Kasper representative), diamond
+(expected core-infeasible — reported), plus finite contact-order references
+(tetrahelix chain, icosahedral-13 cluster — LOCAL census, homogeneity caveat
+declared) and the measured disordered poles (swing-12 liquid, swing-13 sticky).
+CENSUS: same definitions as swings 12–13 (P₂ common neighbors; P₃ simple
+3-paths, chords included — overcount direction known and carried).
+COMPOSED BOOKS (per-quantum, removes the z ambiguity): G = (z/2)·min(1, z_c/z)·
+[δ_pair + h + c₃·max(0,P₂−1) + c₄·P₃] with the swing-11/12 constants; books
+target C = a_v + τ_b = 35.85 MeV per quantum; window [32, 40] (±10%).
+REGISTERED:
+- S14a feasibility map reported (which candidates bond at all at ρ₀ — note:
+  fcc/hcp nearest neighbors sit at 2.172 fm, OUTSIDE central reach 2.14: the
+  close-packed lattices may not even bond at saturation density; reported).
+- S14b THE DISCRIMINATOR: does ANY feasible homogeneous candidate at central
+  reach achieve P₂ ≥ 2? NO ⇒ the polytetrahedral route is closed at ρ₀ and the
+  loop ledger's bulk sector is structurally dead (the wrap's own discriminator,
+  answered). YES ⇒ that candidate's G is the landing shot.
+- S14c landing window: G(best feasible candidate) ∈ [32, 40].
+- S14d guard (formula-extension rejection): if dense feasible candidates
+  OVERSHOOT via P₃ explosion while P₂-rich ones are infeasible, the composed
+  formula's linear extension to dense graphs is REJECTED (collective-mode
+  overcounting named) — a decisive negative: the cluster-sector formula does
+  not extend to bulk by naive loop addition.
+No parameter adjustments after counting. This swing ANSWERS the census question
+one way or the other; either verdict is booked as the day's result.
