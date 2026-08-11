@@ -1433,3 +1433,15 @@ assertions stand as the historical record; the ordering now has a computed sourc
   scale = swing-2 target.** No dial touched A = 56 (Wyler gate). AME tolerances
   registered pre-pull (T-P4 staggering ≥90%; T-P3 evenness <10% cubic/quadratic;
   T-PEAK deferred until scale derived). Full text: proofs/MASS-LEDGER-DERIVATION.md.
+- MASS SWING 2 AME CONFRONTATION (2026-08-11 02:30; swing-2 doc 43fb9a7 pre-pull;
+  AME2020, 2550 experimental nuclides): **T-P4 PASS decisively** — pairing-ladder
+  staggering even-Z 100.00% (574/574), odd-Z 99.09% (547/552) vs registered ≥90%.
+  T-P3 run 1 voided (sign bug; N3f instrument-fix precedent). **T-P3 run 2 FAIL as
+  registered** (median 4|c3/c2| = 0.247 vs < 0.10; 13 chains, c2 > 0 in all 13 —
+  census curvature sign universal). Model-free diagnostic: mirror-odd content is
+  LINEAR, 0.46 MeV/step — the bare Z(Z−1)/A^{1/3} entry misses its own
+  double-filing (exchange) correction; predicted class ≈ 0.5 MeV/step from the
+  same imports. Registered negative, missing piece named. **T-P3′ registered
+  pre-run:** strain′ = [0.72·Z(Z−1) − 0.53·Z^{4/3}]/A^{1/3} (exchange coefficient
+  derived from r₀, e² — not tuned); tolerances: median |odd(1.5)| < 0.40 MeV AND
+  median 4|c3/c2| < 0.10.
