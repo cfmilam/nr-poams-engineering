@@ -1497,3 +1497,18 @@ assertions stand as the historical record; the ordering now has a computed sourc
   ×1.55 cluster value (in-medium confinement; swing-6 test A=2–6). Pairing:
   geometric-mean dimensional note only (18.3/√A, ×1.5 high, no credit).
   Instrument mass/mass-swing5-run.txt.
+
+## 2026-08-11 — EXHIBIT SHIPPED: The Mass Ledger (ratified, live)
+Star Lord ratified the swing-1–5 record for public exhibition ("Commit and push...
+tie it back to the Mass exhibit — it's a continuation of that work"). Published
+mass-ledger.html (exhibits repo 97b34bf, live-verified ×3): continuation of Mass
+as Trapped Rate, cross-linked both directions + index step-link. Carries: five
+entries w/ forced-vs-import split; two-column ledger; capacity law + saturation-
+at-capacity theorem; four channels w/ the gear retirement as an on-page correction
+card; a_sym assembly; forced-peak theorem + interactive (AME2020 experimental
+envelope, 266 points, embedded from mass.mas20.txt; valley-ledger curve drawn from
+a_v import + curve-free a_c + DERIVED a_sym = 24.5 — rides the envelope, peak A=60
+vs measured 62); full registered PASS/FAIL record incl. the T-P3→T-P3′ miss arc.
+Display-fact checks parent-verified pre-embed (valley Z*(200) = 79.9 vs Hg 80;
+b(62) = 8.81 vs 8.795). Open queue unchanged: swing-6 cluster ladder (×1.55),
+λ skin coefficient, strong-channel sign root, A^{-1/2} mechanism.
