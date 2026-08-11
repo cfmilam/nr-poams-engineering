@@ -1580,3 +1580,25 @@ the famous endpoint; caught by the registered instrument; additive correction in
 SWING6 doc). L5 η=½ leakage law REJECTED as registered (fails d,h). Standing: no
 tension between swings 5/6; open crown = native δ₀(z) law (linear passes bands,
 underived, not claimed). Docs MASS-LEDGER-SWING7.md; mass/mass-swing7{.py,-run.txt}.
+
+## 2026-08-11 — SWING 8 REGISTERED (pre-run): crown attempt + radius-import audit
+Motivating suspicion (disclosed): swing-6's mirror split δ₀(t)=16.81 vs δ₀(h)=14.07
+may be an IMPORT ARTIFACT — the h band (1.75–1.82) came from naive charge-radius
+subtraction while the t band (1.54–1.68) is point-proton-convention; mirror symmetry
+(matter operator isospin-even; Coulomb swelling %-level) demands near-equal MATTER
+radii. Declared unfolding: r_pp² = r_c² − r_p² − (N/Z)r_n²; imports r_p = 0.8409 fm,
+r_n² = −0.1155 fm², r_c(³He) = 1.9506 (muonic; 1.973 e-scatt noted), r_c(³H) = 1.755;
+common matter band 1.65–1.75 fm both trinucleons.
+REGISTERED: R8a mirror UNIFICATION |δ₀(t)−δ₀(h)| < 0.5 MeV central on common
+radii (vs 2.74 split). R8b consequence: swing-6 T-C6b(ii) mirror-control pass is
+DEMOTED to import artifact (rank/gap tests unaffected; recompute). R8c corrected
+ladder convex: step(1→2) < step(2→3). R8d pure-quadratic form δ = δ(1)+b(z−1)²
+(zero linear term, if the steps land that way) predicted to FAIL the frozen
+endpoint [20.0, 24.9] — register the rejection. R8e dwell/universal-contact class:
+with honest tail normalization (A_S = 0.8846 fm^{-1/2} import), deuteron interior
+fraction ⇒ implied contact constant ≈ 39 MeV ∉ band AND non-universal ⇒ class
+EXCLUDED (and book the parent's normalization self-catch: a pure-tail formula
+first gave a spurious dead-on hit by inversion — caught before booking).
+Crown verdict expected honest: named open; loop-closure coherence (first partner
+closes no loop through the bond, later ones do) = sole surviving qualitative
+candidate if the cheap-first-step signature confirms.
