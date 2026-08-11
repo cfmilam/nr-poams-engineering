@@ -1,0 +1,20 @@
+pulled rows (H<=15, 2.30-3.50): 59448   [count field: 59448]
+H cut used (ladder): H<=15.0   primary sample (e in [0.10,0.20]): 29084
+
+-- PRIMARY (e in [0.10,0.20], H<=15) --
+  P 3:1: N_bg=150 thr=74.8 center@2.502 run [2.465,2.520]  half-width = 0.0275 AU
+  P 5:2: N_bg=131 thr=65.5 center@2.827 run [2.815,2.845]  half-width = 0.0150 AU
+  P 7:3: N_bg=38 thr=19.2 center@2.957 run [2.955,2.960]  half-width = 0.0025 AU
+  P 2:1: N_bg=331 thr=165.5 center@3.282 run [3.220,3.500] ONE-SIDED  half-width = 0.0625 AU
+
+-- SECONDARY all-e (report-only) --
+  S 3:1: N_bg=272 thr=135.8 center@2.502 run [2.460,2.520]  half-width = 0.0300 AU
+  S 5:2: N_bg=280 thr=139.8 center@2.822 run [2.810,2.845]  half-width = 0.0175 AU
+  S 7:3: N_bg=152 thr=76.0 center@2.957 run [2.955,2.960]  half-width = 0.0025 AU
+  S 2:1: N_bg=632 thr=315.8 center@3.287 run [3.220,3.500] ONE-SIDED  half-width = 0.0675 AU
+
+-- VERDICTS (registered criteria) --
+  3:1: computed 0.0144 vs measured 0.0275 AU -> factor 1.91  [PASS vs registered factor 3]
+  5:2: computed 0.0183 vs measured 0.0150 AU -> factor 1.22  [report-only]
+  7:3: computed 0.0160 vs measured 0.0025 AU -> factor 6.40  [report-only]
+  2:1: computed 0.0785 vs measured 0.0625 AU -> factor 1.26  [PASS vs registered factor 2]

@@ -1405,3 +1405,17 @@ assertions stand as the historical record; the ordering now has a computed sourc
   factor-2 on 0.0785 AU (2:1), N4b factor-3 on 0.0144 AU (3:1); 5:2/7:3 report-only.
   Named null: no sub-threshold run ⇒ "osculating smear exceeds depth" handoff to
   proper elements, NOT a formula falsification.
+- N-BODY N4a/b SCORED — BOTH PASS (2026-08-11 01:45; procedure 42e5511 pre-data):
+  JPL SBDB numbered asteroids (59,448 rows; registered ladder → H≤15, 7:3 flank
+  floor binds), primary e ∈ [0.10,0.20] n=29,084, 0.005 AU bins. **N4a: 2:1
+  one-sided measured half-width 0.0625 AU (run [3.220→belt edge]; outer degeneracy
+  exactly as registered) vs computed 0.0785 → factor 1.26 (≤2 registered). N4b: 3:1
+  measured 0.0275 AU (run [2.465,2.520]) vs computed 0.0144 → factor 1.91 (≤3
+  registered; inside 2).** Report-only: 5:2 factor 1.22; 7:3 single-bin run =
+  resolution floor (0.0025 AU), factor 6.4 against a floor — not scoreable, reading
+  consistent with the zone-vs-emptying split. All-e secondary agrees (0.0300/0.0675).
+  First ABSOLUTE-width test of W = 2qn√(3αf′|C_pq|e^{p−q}) at planetary f′: the
+  ledger's channel widths reproduce the two registered Kirkwood gaps inside factor 2
+  — no G, no masses anywhere in the arithmetic. N4 front CLOSED (a PASS, b PASS,
+  c informative fail booked, d 1/2 booked). Instrument nbody-n4-edges.py + run2 in
+  nbody/.
