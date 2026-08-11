@@ -1482,3 +1482,18 @@ assertions stand as the historical record; the ordering now has a computed sourc
   coefficient of a two-regime skin (named, swing 5). a_sym kinetic floor E_F/3 =
   11.1 MeV forced; contact-orientation remainder structure named. Instrument
   mass/mass-swing4-run.txt.
+- MASS SWING 5 (2026-08-11 07:30; doc a45936f): **four-channel contact ledger**
+  forced (filing ban + two orientations): strong = unlike-parallel; two equal weak
+  antiparallel channels (charge independence = sense-blind contact, sharpened);
+  like-parallel barred. Dimer quartet read directly. **Gear metaphor retired**
+  (additive sign correction; census scaling stands on the Schur root). Channel
+  asymmetry: γ_gross = 0.85(5) — "spin dependence" (label) is a 15% gross effect,
+  tax-amplified. Alpha = one filled rate cell (A=4 magic = cell closure;
+  arrangement-free, 2S+4W, zero barred). **a_sym = E_F/3 + C/(1+2γ) = 24.0–24.9
+  MeV** (frozen-capacity contact term — forced reading at z = z_c where no
+  arrangement freedom remains) vs fitted shadow 23.2–23.7: +3%, no dial (γ from
+  free scattering; C, z_c from swings 3–4). Free-arrangement limit 12.7 = cluster
+  regime (alpha realizes it). Named recalibration: bulk strong channel 22.3 MeV =
+  ×1.55 cluster value (in-medium confinement; swing-6 test A=2–6). Pairing:
+  geometric-mean dimensional note only (18.3/√A, ×1.5 high, no credit).
+  Instrument mass/mass-swing5-run.txt.

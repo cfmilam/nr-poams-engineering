@@ -1,0 +1,9 @@
+gamma_gross = 0.847  (bracket 0.8-0.9)
+  g=0.800: contact frozen=13.81 free=2.11 | a_sym total: frozen 24.94, free 13.25
+  g=0.847: contact frozen=13.32 free=1.55 | a_sym total: frozen 24.46, free 12.68
+  g=0.900: contact frozen=12.82 free=0.97 | a_sym total: frozen 23.95, free 12.10
+kinetic floor = 11.13;  shadow a_A ~ 23.2-23.7 MeV
+delta0_bulk = 22.3 vs cluster 14.4 -> in-medium enhancement x1.55
+mean bond frozen u=0: 15.02 = 2C/zc = 15.02 ✓
+alpha bonds 2S+4W: mean = 0.898 d0; dimer=1.0 d0  (cluster regime, arrangement-free)
+pairing note: sqrt(15*2*EF/3 /A) = 18.3/sqrt(A)  vs empirical ~12/sqrt(A)  (x1.52)
