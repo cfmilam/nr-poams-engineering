@@ -1386,3 +1386,12 @@ assertions stand as the historical record; the ordering now has a computed sourc
   (7.2× pass; 4.9× vs ≥5 booked as miss; 2:1 skirt driver; run-1 ad-hoc points =
   named slip). N4a/b absolute edge confrontation PENDING quantitative boundary data —
   named handoff. Instruments nbody-n4-extract.py + runs in audit workspace.
+- MASS FRONT OPENED + M-C1 REGISTERED (2026-08-11 01:25, pre-derivation, pre-AME;
+  MASS-FORWARD.md): a priori base rate (per-quantum trapped rate) + discount curve
+  (binding as packing discount). Five ledger entries registered as DERIVATIONAL
+  targets (bulk = finite-range coherence; boundary ∝ A^{2/3} ratio-tied; census
+  imbalance (N−Z)²/A via the P-I4 Schur ledger; pairing A^{-1/2}; phase-sense
+  Z²/A^{1/3}) + the forced-peak theorem (class A ∈ [40,80] registered blind).
+  Weizsäcker 1935 cited as the extant shadow; claim = bookkeeping derivation, not
+  form novelty. Honesty preamble: famous curve ⇒ only derivational predictions
+  count; fitting is the only sin. Swings begin next session.
