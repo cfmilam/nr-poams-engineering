@@ -1445,3 +1445,15 @@ assertions stand as the historical record; the ordering now has a computed sourc
   pre-run:** strain′ = [0.72·Z(Z−1) − 0.53·Z^{4/3}]/A^{1/3} (exchange coefficient
   derived from r₀, e² — not tuned); tolerances: median |odd(1.5)| < 0.40 MeV AND
   median 4|c3/c2| < 0.10.
+- MASS T-P3′ SCORED — FAIL both, arc booked (2026-08-11 02:40; reg 71d6382 pre-run):
+  |odd(1.5)| median 0.492 vs <0.40; cubic 0.2465 vs <0.10. Signed 13/13: bare −1.334
+  → exchange-corrected −0.492 — the DERIVED untuned 0.53·Z^{4/3} layer removed 63%
+  in the right direction; residual −0.33 MeV/step = 4.0% of the bare step, uniform,
+  smooth — the mirror displacement-energy anomaly class: the evenness audit walked
+  blind into an extant OPEN problem; peel stops, named. Instrument lesson: strain
+  fine structure = mirror-odd channel (smooth); shell structure = even-curvature
+  channel (cubic unchanged → mis-aimed for strain, booked). Census curvature
+  c2 > 0 universal (13/13 every run). Swing-2 close: T-P4 PASS decisively;
+  two-column theorem; saturation 2.4× → capacity law = swing-3 flagship and the
+  T-PEAK gate. Instruments in mass/ (AME2020 from IAEA AMDC, experimental entries
+  only).
