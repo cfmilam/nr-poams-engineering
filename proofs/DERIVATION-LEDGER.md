@@ -1565,3 +1565,18 @@ Claims to check by enumeration/arithmetic (registered BEFORE the instrument):
 Falsifiers: K4 enumeration finding μ > 0.90 kills L1; ladder extrapolation
 outside [20.0,24.9] kills L4; η=1/2 passing all four bands would UNSEAT the
 rejection and promote the leakage law instead.
+
+## 2026-08-11 — SWING 7 SCORED: the two books close on one curve
+L1 K4 enumeration CONFIRMS μ_max = (2+4γ)/6 = 0.90 at the alpha's own labeling
+(2S,4W,0B) — the alpha is the K4 optimum. Registration slip NAMED: triangle bound
+is (1+2γ)/3 (enumeration), not the registered (2+γ)/3 — corrected bound tighter,
+sharp (fcc 4-sublattice achieves it). L2 unconditional floor REVISED 14.97 (the
+registered 15.8 rode the slip): still > entire pair band [14.12,14.49] ⇒
+enhancement continuation forced by books + combinatorics regardless of mixing.
+L3 freeze selected (annealed a_sym −46% excluded) ⇒ δ₀(z_c) = 22.22 [19.97,24.90].
+L4 loop closure PASS: ladder LSQ extrapolation 20.53 inside band (low edge) — AND
+swing-6's post-hoc slope 2.1 WITHDRAWN (true 1.69; the line had been bent toward
+the famous endpoint; caught by the registered instrument; additive correction in
+SWING6 doc). L5 η=½ leakage law REJECTED as registered (fails d,h). Standing: no
+tension between swings 5/6; open crown = native δ₀(z) law (linear passes bands,
+underived, not claimed). Docs MASS-LEDGER-SWING7.md; mass/mass-swing7{.py,-run.txt}.

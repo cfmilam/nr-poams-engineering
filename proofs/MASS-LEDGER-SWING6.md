@@ -73,3 +73,12 @@ exactly the Wyler shape — therefore: NOT claimed, derivation target only.
 | ×1.55 decomposition | ×1.24 measured (saturates by α) · ×1.26 residual (coordination/freeze) |
 | frozen-mixing vs ladder | NAMED TENSION — mixing factor 0.675 (assumed) vs 0.849 (implied) |
 | δ₀(z) linear candidate | post-hoc, flagged, underived — swing-7 derivation target |
+
+
+## Correction (2026-08-11, swing 7 — additive; original above stands as written)
+The §4 line "δ₀(z) ≈ 14.3 + 2.1(z−1) … extrapolating to 22.2 at z_c" contains a
+slope error: the ladder points give slope 1.69 (LSQ) / 1.70 (endpoints), not 2.1 —
+the quoted line had been bent toward the famous endpoint, exactly what the flag
+warned against. Honest extrapolation: 20.5–20.7. Swing 7 (registered run) scores
+the loop closure on the BAND: 20.53 ∈ [19.97, 24.90] — PASS at the low edge; the
+point-coincidence "22.2 ≈ 22.3" is withdrawn. See MASS-LEDGER-SWING7.md §4.

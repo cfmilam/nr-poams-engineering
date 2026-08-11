@@ -1,0 +1,20 @@
+L1 K4: gamma=0.80  mu_max=0.8667  labeling=(0, 1, 2, 3)  (S,W,B)=(2, 4, 0)
+L1 K4: gamma=0.85  mu_max=0.9000  labeling=(0, 1, 2, 3)  (S,W,B)=(2, 4, 0)
+L1 K4: gamma=0.90  mu_max=0.9333  labeling=(0, 1, 2, 3)  (S,W,B)=(2, 4, 0)
+L1 registered claim mu_max = (2+4g)/6 = 0.9 -> ENUM CONFIRMS
+L1 triangle bound: {0.8: 0.8667, 0.85: 0.9, 0.9: 0.9333}  (registered (2+g)/3 = 0.95 )
+
+L2/L3: dbar = 2(a_v+tau_b)/z_c
+dbar central 15.00  band [13.98, 16.19]
+L2 unconditional floor: delta0(z_c) >= 14.97 (triangle) / 15.53 (tetrahedral)  vs free-pair 14.31
+L3 frozen value: delta0(z_c) = 22.22  band [19.97, 24.90]
+
+L4: ladder linear fit delta0(z) = 14.12 + 1.69 (z-1); extrapolation at z_c=4.78: 20.53
+L4 loop closure: 20.53 in [19.97, 24.90]? PASS
+
+L5: delta(z) = delta0(zc)*(1 - f/2), f = 1 - z/z_c   [delta0(zc)=22.22 central]
+  d      z=1  pred 13.44  band [14.12, 14.49]  OUTSIDE
+  h      z=2  pred 15.76  band [13.17, 15.07]  OUTSIDE
+  t      z=2  pred 15.76  band [14.84, 18.39]  inside
+  alpha  z=3  pred 18.08  band [16.63, 18.42]  inside
+L5 registered: form predicted to FAIL at d (and h). Failures: ['d', 'h'] -> REJECTED as registered
