@@ -1713,3 +1713,33 @@ Crown remains open in exact form: (1) anholonomy credit (~0.84) derivation;
 (2) loop census of the capacity packing (combinatorial instrument, registerable);
 (3) composed ledger → 22.2 with no freedom. Doc MASS-LEDGER-SWING9-11.md;
 instruments mass/mass-swing{9,10,11}{.py,-run.txt}.
+
+## 2026-08-11 — SWING 12 REGISTERED (pre-run): the landing — loop census + composed ledger
+MODEL FIXED BEFORE COUNTING (shared-turn ledger, swing 11 + composition):
+per bond, δ = δ_pair + h + c₃·max(0, P₂−1) + c₄·P₃, where
+δ_pair = (ħ²/m)/(4r_q²) = 14.02 [13.39–14.69]; contact n-loop credit
+c_n = (ħ²/m)·sin²(π/n)/(2n²r_q²): c₃ = 2.34 [2.23–2.45], c₄ = 0.876 [0.84–0.92];
+h = 0.84 = first-loop anholonomy, ONE named import DEFINED at the trinucleon
+(its lone triangle: measured 15.14 − 14.02 − c₃·0 ... = the first-path credit);
+P₂ = common neighbors per bond (2-paths), P₃ = simple 3-paths closing 4-cycles
+through the bond. DEPENDENCY RULE FIXED: Rule A (primary) — ONE composition
+constraint per bond total, charged against the largest-credit loop order
+(hence max(0, P₂−1) and P₃ uncapped); Rule B (sensitivity only, reported not
+scored): one constraint per loop order (P₂−1 and P₃−1).
+CENSUS INSTRUMENT DECLARED: equilibrium hard-sphere liquid, N = 512, periodic,
+ρ = ρ₀ = 0.138 fm⁻³, hard core 2r_q = 1.72 fm, Metropolis MC from perturbed sc
+lattice, ≥1200 sweeps equilibration, 5 snapshots; contact graph = pairs within
+lock reach R_c = 2r_q + ξ = 2.14 fm [2.06–2.22 sensitivity]; per-bond P₂, P₃
+averaged. NO parameter may be adjusted after counting.
+REGISTERED:
+- S12a (void gate): mean coordination z̄ ∈ [4.3, 5.3] — the generated graph must
+  BE the capacity graph (z_c = 4.78 ± 0.35) or the run is VOID (named, no fix).
+- S12b (census report): P₂, P₃ with spreads — reported, unconstrained.
+- S12c (THE LANDING): composed δ_bulk(P₂, P₃; central constants) ∈ [20.0, 24.9]
+  (the frozen-books band). PASS ⇒ crown taken at tier (ii): one named import
+  (h), declared idealizations (regular contact n-gons; Rule A; census model).
+  FAIL high ⇒ dependency/credit structure wrong (booked); FAIL low ⇒ census
+  insufficient (booked). Either failure leaves the crown open — no rescue edits.
+- S12d (mirror sanity): the same rule applied to the alpha (P₂ = 2, P₃ = 0 in
+  K4) must stay inside [16.6, 18.4]: 14.02 + 0.84 + 2.34 = 17.20 ✓ arithmetic
+  (restated, not new).
