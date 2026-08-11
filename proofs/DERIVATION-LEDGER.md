@@ -1512,3 +1512,16 @@ vs measured 62); full registered PASS/FAIL record incl. the T-P3→T-P3′ miss 
 Display-fact checks parent-verified pre-embed (valley Z*(200) = 79.9 vs Hg 80;
 b(62) = 8.81 vs 8.795). Open queue unchanged: swing-6 cluster ladder (×1.55),
 λ skin coefficient, strong-channel sign root, A^{-1/2} mechanism.
+
+## 2026-08-11 — T-C6 REGISTERED (pre-run): swing 6, cluster ladder A=2–6
+Famous-number honesty: light-cluster B and radii are textbook; claims derivational.
+Channel-weighted strong-bond extraction δ₀ = (B + Στ + E_strain)/W with W from the
+four-channel ledger (d 1; t,h 1+2γ; α 2+4γ), τ = (9/8)(ħ²/m)(1−1/n)/⟨r²⟩, γ=0.85(5),
+declared radius bands (d 1.95–1.98, t 1.54–1.68, h 1.75–1.82, α 1.45–1.48 fm),
+ρ = uniform-equivalent density. REGISTERED: T-C6a all four δ₀ ∈ [13,19];
+T-C6b enhancement sign — δ₀(α)−δ₀(d) ≥ +1.5, mirror split δ₀(t) > δ₀(h),
+rank(δ₀,ρ) > 0; T-C6c δ₀(α) ∈ [16,20] (partial enhancement: above free-pair,
+below bulk-required 22.3; ≥21 = frozen immediate; ≤15 = no enhancement, ×1.55
+becomes pure import); T-C6d B/A strict local max at A=4 over A∈[2,8] (credit-free
+cell-closure direction). Readings not scored: A=5 unbound, Li-6 halo net, Be-8≈2α
+(two-cell problem named open). Full text: MASS-FORWARD.md T-C6.
