@@ -1671,3 +1671,30 @@ S10d shape — increments d23 and d35/step within a factor 2 of each other
 refinement rejected too (booked; crown stays open). Tier if all pass: crown
 taken modulo declared prescription (Galerkin, union caps, M, ε-unit) — every
 remaining number then traces to imports already in the ledger.
+
+## 2026-08-11 — SWING 10 SCORED + SWING 11 REGISTERED (pre-run)
+SWING 10 verdict: REJECTED at all six declared variants (M × ε band). Pair
+calibration puts k ≈ 0.5–0.8 (soft regime) where every added cap lifts the soft
+sector nearly independently: δ(2) = 23.3–24.1 vs [13.9,16.5]; δ(3) ≈ 31 vs
+[16.6,18.4]; δ(5) ≈ 41 vs [20.0,24.9]. Only the loose shape gate passed (0.64).
+Diagnosis booked: the data's small early steps on a large pair base exclude any
+model in which the pair discount itself is surface-soft-mode zero-point. The
+surface-phase-spectrum FAMILY (rigid swing 9 + finite swing 10) is EXCLUDED.
+Instruments mass-swing10{.py,-run.txt}.
+SWING 11 REGISTERED (the shared-turn ledger — discreteum route, pre-run):
+IDENTIFICATION CLAIM: the mesh is one SHARED TURN of the pair's mutual orbit
+about the contact (writhe channel, L = ħ, discreteum): δ_pair = ħ²/2I_pair,
+I_pair = 2 m r_q² ⇒ δ_pair = (ħ²/m)/(4 r_q²) = 14.02 MeV central, band
+[13.39, 14.69] over r_q = 0.84–0.88 (imports already standing; NO calibration).
+LOOP CREDIT: each closed 3-loop through a bond adds one collective turn about
+the loop centre, credit per bond = ħ²/(2·3mR²)/3 with R = 2r_q/√3 (equilateral
+at contact) = (ħ²/m)/(8 r_q²)·(1/2)... computed exactly in-instrument; central
+≈ 2.34 MeV per triangle-through-bond. Cluster counts exact: T = 0, 1, 2 for
+pair, trinucleon, alpha. Bulk T at z_c UNDERIVED (fcc = 4; dense-random 2–4) —
+bulk scored as an IMPLIED-T consistency read, not a window.
+REGISTERED WINDOWS (corrected-ladder bands): S11a δ_pair prediction inside
+[14.12, 14.49] measured band ∩ import band (pass = overlap non-empty AND
+central within 3%); S11b trinucleon δ(T=1) ∈ [13.9, 16.5]; S11c alpha δ(T=2)
+∈ [16.6, 18.4]; S11d implied bulk T = (22.2 − δ_pair)/credit ∈ [2, 4.8]
+(geometrically realizable at capacity). Tier: 4/4 ⇒ crown candidate at
+identification grade (loop attribution = named seam); any FAIL booked.
