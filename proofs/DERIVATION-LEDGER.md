@@ -1538,3 +1538,30 @@ one coherence statement must close both (swing-7 #1). Post-hoc FLAGGED
 unregistered: δ₀(z) near-linear, extrapolates 22.2 at z_c vs 22.3 required —
 Wyler-shaped, NOT claimed, derivation target. Doc MASS-LEDGER-SWING6.md;
 instrument mass/mass-swing6{.py,-run.txt}.
+
+## 2026-08-11 — SWING 7 REGISTERED (pre-run): the two books, one statement
+Target: reconcile frozen-mixing (swing-5 a_sym) with the ladder δ₀(z) (swing 6).
+Claims to check by enumeration/arithmetic (registered BEFORE the instrument):
+- L1 (arrangement bound): under the four-channel table with equal 4-type census,
+  the K4 cell's maximum mixing factor is (2+4γ)/6 = 0.90(2) — the alpha's own
+  arrangement is the K4 optimum (enumeration over all 4^4 labelings); triangle
+  bound (2+γ)/3 = 0.95; fcc 4-sublattice coloring ACHIEVES 0.90 at z=12 (zero
+  barred). Hence μ_max ∈ [0.90, 0.95] for triangle-dense contact graphs.
+- L2 (unconditional floor): bulk books δ̄ = 2(a_v+τ_b)/z_c = 15.02 [13.98–16.19
+  over z_c 4.43–5.13] ⇒ δ₀(z_c) ≥ δ̄/μ_max ≥ 15.8 — the strong-channel lock at
+  capacity EXCEEDS the free-pair value regardless of mixing: continuation of the
+  enhancement is forced by books + combinatorics alone.
+- L3 (freeze selection): annealed mixing ⇒ a_sym contact term collapses to the
+  free limit (swing-5: total ≈ 12.7 vs shadow 23.2–23.7, −46%) ⇒ within this
+  ledger the annealed world is excluded by a_sym; frozen-random μ = (1+2γ)/4 =
+  0.675 ⇒ δ₀(z_c) = 22.25, band [20.0, 24.9] (γ and z_c bands).
+- L4 (loop closure): the interval δ₀(z_c) [20.0,24.9] must contain the swing-6
+  ladder's linear-in-z extrapolation 22.2 — scored as consistency, upgrading the
+  post-hoc flag from Wyler-shape to two-forced-endpoints + measured middle.
+- L5 (candidate mechanism DISCRIMINATION, registered prediction of failure):
+  the free-arc leakage law δ(z) = δ₀(z_c)·(1 − f/2), f = 1 − z̄/z_c (η = 1/2
+  exactly), is predicted to FAIL the swing-6 bands at d (and h): registered —
+  reject the parameter-free η=1/2 form; the native mechanism remains OPEN if so.
+Falsifiers: K4 enumeration finding μ > 0.90 kills L1; ladder extrapolation
+outside [20.0,24.9] kills L4; η=1/2 passing all four bands would UNSEAT the
+rejection and promote the leakage law instead.
