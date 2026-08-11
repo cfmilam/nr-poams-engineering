@@ -1395,3 +1395,13 @@ assertions stand as the historical record; the ordering now has a computed sourc
   Weizsäcker 1935 cited as the extant shadow; claim = bookkeeping derivation, not
   form novelty. Honesty preamble: famous curve ⇒ only derivational predictions
   count; fitting is the only sin. Swings begin next session.
+- N-BODY N4a/b EDGE PROCEDURE REGISTERED (2026-08-11 01:40, pre-data): gap-boundary
+  extraction frozen before any histogram pull. Source JPL SBDB (numbered, osculating
+  a,e; 2.30–3.50 AU; H ≤ 13 with named fallback ladder to 14/15 on flank-count
+  floor 20/bin). Primary sample e ∈ [0.10,0.20]; 0.005 AU bins; frozen flank windows;
+  N_bg = median flank; gap = contiguous bins < 0.5·N_bg containing center (recenter
+  ≤ ±0.02 AU mechanical); half-width = (a_R−a_L)/2 with 2:1 ONE-SIDED (center − left
+  edge; outer side = belt boundary, named degenerate). Scoring unchanged: N4a
+  factor-2 on 0.0785 AU (2:1), N4b factor-3 on 0.0144 AU (3:1); 5:2/7:3 report-only.
+  Named null: no sub-threshold run ⇒ "osculating smear exceeds depth" handoff to
+  proper elements, NOT a formula falsification.
