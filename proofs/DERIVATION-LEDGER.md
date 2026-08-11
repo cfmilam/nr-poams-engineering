@@ -1647,3 +1647,27 @@ Falsifiers: S9a inverted kills the geometric mechanism outright; S9b/S9c outside
 windows = mechanism rejected at this prescription (rejection booked, crown
 stands open). Verdict tiers: (i) all pass ⇒ crown taken modulo declared
 prescription + one scale; (ii) partial ⇒ named seam; (iii) S9a fails ⇒ dead.
+
+## 2026-08-11 — SWING 9 SCORED + SWING 10 REGISTERED (pre-run)
+SWING 9 verdict: S9a PASS 4/4 prescriptions (d12 < d23 — the antipodal cheap
+second pin is geometric; survives). S9b FAIL 3/4 (r1 0.49–0.71 vs [0.15,0.55]).
+S9c FAIL decisively (r2 = 8–26 vs [0.7,1.3]): rigid Dirichlet pins blow up the
+complement spectrum as caps tile (λ₁: 12 → 91 → 1100 at z=3,4,5) — runaway
+deepening, not the measured constant marginal. MECHANISM REJECTED AT THE RIGID
+PRESCRIPTION, as the registration's falsifier language provided. Instrument
+mass-swing9{.py,-run.txt}; unit-scale tell: implied ε = 0.41 MeV vs surface
+rotational 56 MeV.
+SWING 10 REGISTERED (finite-stiffness refinement, pre-run): same Galerkin
+operator, penalty replaced by the PHYSICAL contact stiffness k (union indicator,
+no double-count in overlaps): H(z,k) = L + k·G_z. Energy unit DECLARED (not
+fitted): ε = ħ²/(m r_q²) = 56.1 MeV (r_q 0.84–0.88 band ⇒ 53.6–58.8).
+Credit δ(z) = (ε/2)·Σ_{i≤M}[√λ_i(z,k) − √λ_i(free)], M = 4 primary (M = 9
+sensitivity). CALIBRATION: k fixed by the pair alone — δ(1) = 14.31 solves k;
+z ≥ 2 then carries ZERO remaining freedom.
+REGISTERED WINDOWS (corrected-ladder bands): S10a δ(2) ∈ [13.9, 16.5];
+S10b δ(3) ∈ [16.6, 18.4]; S10c δ(5) ∈ [20.0, 24.9] (frozen-books band);
+S10d shape — increments d23 and d35/step within a factor 2 of each other
+(constant-marginal signature, loose gate). Falsifiers: any window missed ⇒
+refinement rejected too (booked; crown stays open). Tier if all pass: crown
+taken modulo declared prescription (Galerkin, union caps, M, ε-unit) — every
+remaining number then traces to imports already in the ledger.
