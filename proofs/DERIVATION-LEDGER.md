@@ -1816,3 +1816,31 @@ REGISTERED:
   not extend to bulk by naive loop addition.
 No parameter adjustments after counting. This swing ANSWERS the census question
 one way or the other; either verdict is booked as the day's result.
+
+## 2026-08-11 — SWING 14 SCORED: the census question ANSWERED (structural negative + geometry discovery)
+S14a feasibility map: diamond CORE-VIOLATION; fcc/hcp DO NOT BOND at ρ₀ within
+central reach (NN 2.172 vs 2.14 — saturation density sits 1.5% outside
+close-packing's lock reach; flagged as a suspicious near-coincidence, unclaimed);
+bcc bonds only at reach ≥ 2.14 (z=8); sc z=6; A15 z=1.5 at central reach.
+S14b DISCRIMINATOR ANSWERED: **NO feasible homogeneous candidate at ρ₀ reaches
+P₂ ≥ 2 — every crystal at central reach has P₂ = 0.** Contact triangles exist
+only in contact-scale local order (tetrahelix P₂=3, icos13 P₂=3.6), which
+cannot fill space at ρ₀ (homogeneity/kink import). THE CAPACITY PACKING IS
+GEOMETRICALLY TRIANGLE-FREE: mean spacing 1.94–2.14 at ρ₀ forbids mutual-contact
+triples. The polytetrahedral route is CLOSED; bulk deepening is NOT 3-loop turns.
+S14c FAIL: no candidate lands in [32,40] (sc 43.9, bcc 60.6, fcc/hcp@2.22 ~98).
+S14d TRIGGERED as registered: dense candidates overshoot via chord-inflated P₃
+(bcc P₃=12, fcc P₃=22) — the composed formula's LINEAR extension to dense
+graphs is REJECTED (collective-mode overcounting named).
+POST-HOC LEAD, FLAGGED UNCLAIMED (three layers post-hoc — Wyler gate holds):
+(i) raw per-bond gross is near-flat across the whole ladder (d 14.31 / t,h ~13.6
+/ α 15.93 / bulk 15.02 ≈ bare shared turn 14.02 + spread) — the dramatic
+"22.3" lives in the frozen-mixing strong-channel decomposition; (ii) at ρ₀ the
+geometry that kills triangles LEAVES 4-CYCLES ABUNDANT (bcc P₃=12 at P₂=0):
+a square-only bulk closure δ_pair + h + c₄·P₃_indep ≈ 22.3 needs P₃_indep ≈ 8.5
+— plausible IF counted with a proper independence rule (chordless, cycle-space
+pruned). Cluster sector ran on triangles, bulk would run on squares, crossover
+FORCED by this swing's geometry. NEXT REGISTRATION (swing 15, fresh session):
+fix the independent-cycle counting rule BEFORE counting any lattice; score bcc/
+sc/disordered-at-ρ₀; window unchanged. Nothing claimed tonight.
+Instruments mass/mass-swing14{.py,-run.txt}.
