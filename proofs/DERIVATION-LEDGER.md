@@ -1698,3 +1698,18 @@ central within 3%); S11b trinucleon δ(T=1) ∈ [13.9, 16.5]; S11c alpha δ(T=2)
 ∈ [16.6, 18.4]; S11d implied bulk T = (22.2 − δ_pair)/credit ∈ [2, 4.8]
 (geometrically realizable at capacity). Tier: 4/4 ⇒ crown candidate at
 identification grade (loop attribution = named seam); any FAIL booked.
+
+## 2026-08-11 — SWING 11 SCORED; crown assault closed at identification grade
+S11a PASS: δ_pair = ħ²/4mr_q² = 14.02 [13.39–14.69] vs measured 14.31 — 2%
+parameter-free anchor (shared turn, writhe channel, L = ħ). S11b PASS (16.35).
+S11d PASS (implied T = 3.5). S11c FAIL as registered (alpha 18.69 vs 18.4 top).
+Post-hoc structure NAMED not scored: winding composition ⇒ first loop through a
+bond is dependent (composition of pair turns; only anholonomy credits), later
+loops independent ⇒ pair/tri/alpha/bulk(T=4) = 14.02/14.86/17.20/21.88 —
+uniform −2%, absorbed by r_q = 0.851 in-band. BLOCKING TENSION: T ≈ 4 wanted vs
+T ≈ 2–2.8 plausible at z_c = 4.78 (higher-loop census underived; stacking
+refused). Day's exclusion map: eight candidate classes closed with instruments.
+Crown remains open in exact form: (1) anholonomy credit (~0.84) derivation;
+(2) loop census of the capacity packing (combinatorial instrument, registerable);
+(3) composed ledger → 22.2 with no freedom. Doc MASS-LEDGER-SWING9-11.md;
+instruments mass/mass-swing{9,10,11}{.py,-run.txt}.

@@ -1,0 +1,8 @@
+r_q=0.84  delta_pair=14.69  credit/loop=2.449  tri=17.14  alpha=19.59  implied bulk T=3.07
+r_q=0.86  delta_pair=14.02  credit/loop=2.336  tri=16.35  alpha=18.69  implied bulk T=3.50
+r_q=0.88  delta_pair=13.39  credit/loop=2.231  tri=15.62  alpha=17.85  implied bulk T=3.95
+
+S11a pair: pred 14.02 vs measured band [14.12,14.49]: PASS (central offset 2.0%)
+S11b tri: pred 16.35 in [13.9,16.5]: PASS
+S11c alpha: pred 18.69 in [16.6,18.4]: FAIL
+S11d implied bulk T = 3.50 in [2,4.8]: PASS (fcc=4; dense-random 2-4)
