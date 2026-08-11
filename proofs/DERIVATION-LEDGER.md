@@ -1620,3 +1620,30 @@ candidate: loop-closure/patch-rigidity (triangles/bond = z−2 in the clusters =
 cheap-first-step in the right place). CROWN NOW ONE NUMBER: derive w = 2.55(20)
 MeV/partner. Docs MASS-LEDGER-SWING8.md (+ SWING6 correction 2); instruments
 mass/mass-swing8{.py,-run.txt}.
+
+## 2026-08-11 — SWING 9 REGISTERED (pre-run): the crown mechanism, confronted
+MECHANISM (stated before computing): a mesh removes the pair's relative-phase
+mode over the patch; its zero-point rate is the discount. Pinning caps stiffens
+the quantum's SURFACE phase field: each pinned cap constrains the soft sector
+(gauge + three dipole harmonics ≈ 4 modes ≈ z_c — capacity as soft-mode
+exhaustion). Geometry predicts the cheap first step: the z=2 optimal code is
+ANTIPODAL, and transverse dipoles vanish at polar caps — the second pin adds
+little new constraint; 3rd/4th partners sit where dipoles are maximal and bite.
+INSTRUMENT (prescription declared): spherical-harmonic Galerkin (l ≤ 15, penalty
+Dirichlet) for caps of solid angle 4π/z_c at spherical-code positions z = 1, 2
+(antipodal), 3 (equilateral), 4 (tetrahedral), 5 (bipyramid/code); credit
+S(z) = Σ over the M = 4 softest free modes of [√λ_i(z) − √λ_i(free)];
+sensitivity M = 9 registered alongside. NO fitted geometry; one overall energy
+scale ε remains (checked against the surface rotational class ħ²/(m r_q²) for
+plausibility, not fitted to the ladder).
+REGISTERED CONFRONTATIONS (corrected-ladder increment ratios 0.84 : 2.56 :
+2.54/partner ⇒ normalized 0.33 : 1.00 : 0.99):
+- S9a (sign/order): S(2)−S(1) < S(3)−S(2) — the antipodal cheap step.
+- S9b (ratio window): [S(2)−S(1)]/[S(3)−S(2)] ∈ [0.15, 0.55] (measured 0.33 ± band).
+- S9c (constant marginal): {[S(5)−S(3)]/2} / [S(3)−S(2)] ∈ [0.7, 1.3] (measured ≈ 1.0).
+- S9d (capacity signature): the constrained gap λ₁ rises steeply toward z = 5
+  (soft sector exhausted at tiling) — reported, direction only.
+Falsifiers: S9a inverted kills the geometric mechanism outright; S9b/S9c outside
+windows = mechanism rejected at this prescription (rejection booked, crown
+stands open). Verdict tiers: (i) all pass ⇒ crown taken modulo declared
+prescription + one scale; (ii) partial ⇒ named seam; (iii) S9a fails ⇒ dead.
