@@ -82,3 +82,14 @@ the quoted line had been bent toward the famous endpoint, exactly what the flag
 warned against. Honest extrapolation: 20.5–20.7. Swing 7 (registered run) scores
 the loop closure on the BAND: 20.53 ∈ [19.97, 24.90] — PASS at the low edge; the
 point-coincidence "22.2 ≈ 22.3" is withdrawn. See MASS-LEDGER-SWING7.md §4.
+
+
+## Correction 2 (2026-08-11, swing 8 — additive; original stands)
+The §2 mirror-control pass T-C6b(ii), δ₀(t) > δ₀(h), is DEMOTED to an import
+artifact: the swing-6 radius bands compared two conventions (h from naive
+charge-subtraction 1.75–1.82 vs t point-proton-flavored 1.54–1.68). On the
+common matter band forced by the isospin-even matter operator (1.724 fm both,
+unfolding declared in swing 8), the mirror pair UNIFIES: δ₀(h) = 15.19,
+δ₀(t) = 15.10 — split 0.09 MeV, and the mirror binding difference is carried by
+the strain entry (1.00 MeV) to 0.09 MeV residual. T-C6b(i)/(iii) re-verified on
+the corrected ladder. See MASS-LEDGER-SWING8.md §1–3.

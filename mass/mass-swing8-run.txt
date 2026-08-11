@@ -1,0 +1,20 @@
+point-proton radii: h 1.776 (muonic; 1.801 e-scatt)  t 1.614 fm
+mirror-combined matter radii: h 1.724  t 1.724 fm (equal by isospin-even operator; Coulomb split ~1-2%)
+
+corrected extractions (gamma central 0.85):
+  d       14.31  [14.12, 14.49]
+  h       15.19  [13.99, 16.53]
+  t       15.10  [13.91, 16.44]
+  alpha   17.70  [16.63, 18.42]
+R8a mirror split |t-h| = 0.09 MeV (< 0.5 registered): PASS  (swing-6 split was 2.74)
+R8b: alpha-d gap 3.39 (T-C6b(i) >=1.5 still PASS: True); d <= z2mean <= alpha: True | T-C6b(ii) mirror pass DEMOTED (import artifact)
+R8c steps: (1->2) 0.84  (2->3) 2.56  convex (s12<s23): PASS
+R8d quadratic fit: a=-0.026 b=0.862 -> delta(z_c)=26.5 vs frozen band [19.97,24.90]: FAILS endpoint as registered
+R8e dwell: c=1.90  P_in=0.299  implied contact const = 47.8 MeV
+R8e dwell: c=2.14  P_in=0.373  implied contact const = 38.3 MeV
+R8e dwell: c=2.40  P_in=0.444  implied contact const = 32.2 MeV
+R8e: implied constants vs frozen band [20,24.9] -> EXCLUDED (and non-universal); pure-tail formula
+     P_in = 1-exp(-2*kc) = 0.629 was the parent's earlier inversion slip (self-catch, on record)
+
+CORRECTED LADDER: d 14.31 | z=2 15.14 (h 15.19 / t 15.10) | alpha 17.70 | frozen endpoint 22.2 [20.0,24.9]
+steps per added partner: +0.84 then +2.56 then +2.54/unit to z_c

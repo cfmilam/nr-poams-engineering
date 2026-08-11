@@ -1602,3 +1602,21 @@ first gave a spurious dead-on hit by inversion — caught before booking).
 Crown verdict expected honest: named open; loop-closure coherence (first partner
 closes no loop through the bond, later ones do) = sole surviving qualitative
 candidate if the cheap-first-step signature confirms.
+
+## 2026-08-11 — SWING 8 SCORED: mirror unification; crown contracted to one number
+R8a PASS: on common matter radii (1.724 both, isospin-even operator; unfolding
+declared) the trinucleon mirror pair UNIFIES — δ₀(h) 15.19 / δ₀(t) 15.10, split
+0.09 MeV (was 2.74); strain entry verified at A=3 (mirror ΔB 0.764 vs strain
+1.00, residual 0.09). R8b: T-C6b(ii) mirror pass DEMOTED (import artifact —
+two radius conventions compared); gap/monotone re-verified. R8c convexity PASS.
+R8d pure quadratic REJECTED at frozen endpoint (26.5) as registered. R8e dwell/
+universal-contact class EXCLUDED with honest A_S normalization (implied constant
+32–48, non-universal); parent's pure-tail inversion (spurious 22.8 "hit") caught
+pre-booking — second Wyler self-catch today. CORRECTED LADDER: 14.31 | 15.14 |
+17.70 | 22.2[20.0,24.9]; steps +0.84, +2.56, +2.54/partner — measured step 2→3
+EQUALS the required slope to the frozen endpoint at 1%: constant marginal
+lock-deepening w ≈ 2.55 MeV/partner (z ≥ 2), lone pair +1.7 off-law. Surviving
+candidate: loop-closure/patch-rigidity (triangles/bond = z−2 in the clusters =
+cheap-first-step in the right place). CROWN NOW ONE NUMBER: derive w = 2.55(20)
+MeV/partner. Docs MASS-LEDGER-SWING8.md (+ SWING6 correction 2); instruments
+mass/mass-swing8{.py,-run.txt}.
