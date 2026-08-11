@@ -1469,3 +1469,16 @@ assertions stand as the historical record; the ordering now has a computed sourc
   bracket A* ∈ [49, 66] (both edges forced; a_c curve-free; famous-number honesty
   held) — AME2020 experimental max at A = 62 (Ni-62), top-10 plateau [52, 64]
   entirely inside. PASS.** Run mass/mass-tpeak-run.txt.
+- MASS SWING 4 (2026-08-11 03:35; doc 883574c): **saturation-at-capacity theorem** —
+  equilibrium density is the capacity point z(ρ₀) = z_c, a kink minimum robust for
+  any contact exponent ν > 0.373 and any clash cost ≥ 0 (hard core optional;
+  "nuclear saturation" = solid-angle bookkeeping). Two-route check, no dial:
+  z(geometry: measured ρ₀, r_q = 0.86, ξ = 0.40–0.50) = 4.5–5.3 vs z_c(energy
+  ledger) = 4.78 ± 0.35. Kink signature prediction: no exponential approach to ρ₀
+  from inside. **Skin integral:** E-L equipartition (theorem) on derived
+  Δ(u) = τ_b u^{2/3} − Cu + a_v ⇒ a_s = (3/r₀)√(λħ²/2m)·J, J = 2.992; λ limits
+  derived (filled-ladder 1/9, lone-amplitude 1) ⇒ a_s ∈ [11.4, 34.1] ∋ shadow 17.8
+  at interior λ_eff = 0.273 — geometry closed, unknown relocated to the gradient-tax
+  coefficient of a two-regime skin (named, swing 5). a_sym kinetic floor E_F/3 =
+  11.1 MeV forced; contact-orientation remainder structure named. Instrument
+  mass/mass-swing4-run.txt.
