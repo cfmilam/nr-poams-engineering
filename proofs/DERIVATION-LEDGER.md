@@ -4332,3 +4332,39 @@ sensitivity theorem — the ledger cannot discriminate 5/6 from 0.8314
 internally, so any internal derivation lands premise-conditional at
 best until the radius seam resolves externally. Same blocker as #2,
 one seam.
+
+## 2026-08-12 — POOL STAGE P-2 REGISTERED (pre-run): the diffuse-skin test — the ledger's own surface profile, with the seat-unit kill LIVE in both directions
+DESIGN (frozen):
+- PROFILE: ρ(r) = ρ₀/(1 + e^{(r−R_h)/a}) with a = 0.574 fm — THE
+  LEDGER'S OWN DERIVED TAIL LENGTH (swing 22, parameter-free skin
+  E-L), not the measured 2pF import; R_h fixed per A by ∫ρ = A.
+- STRUCTURE: positions sampled from the profile (hard-core rejection);
+  TANGENTIAL-ONLY anneal under the standard ledger functional (moves
+  rotate cells at fixed radius) — the radial profile is exactly
+  preserved by construction: the profile is the ledger's, the local
+  structure is the functional's. Radial sampling noise persists,
+  declared.
+- SOLVER: P-1's exact instrument mandatory (flow UB + augmentation);
+  gap ≤ 1 edge per droplet or reported.
+- CENSUS RULES (forked NOW): R-A (PRIMARY, GATED) = the sworn swing-46
+  rule unchanged, seats = Σ(5 − deg). R-B (REPORTED, unclaimed) =
+  seats over deg ≥ 1 cells only — the host-adjacency reading (a
+  borrow needs a pair to re-pair through; a fully unlocked skin cell
+  hosts nothing). R-B may be gated only by fresh registration.
+- ENSEMBLE: A ∈ {60, 130, 220} × 3 families + A = 350 single (report).
+GATES:
+- P-2a (THE TEST): R-A heavy mean (A ∈ {130, 220}, 3 families) within
+  [0.25, 0.41] (measured φ = 0.331 ± 25%).
+  FAIL LOW ⇒ THE SEAT UNIT DIES (kill executed — the pool is not
+  open-patch counting even with the physical surface).
+  FAIL HIGH ⇒ the RAW rule dies by overshoot; the host-adjacency fork
+  R-B becomes the candidate (its number already on tonight's record).
+- P-2b shape: φ(60) > φ(220) on family means (the T1 participation
+  direction).
+- P-2c: solver exactness (all gaps ≤ 1).
+HAND EXPECTATION, HONESTLY WIDE: R-A ∈ [0.30, 0.90] — the skin's
+tangential clustering is genuinely unknown; half the mass of an
+A = 200 droplet lives in the |r−R| < 2a shell, and dilute cells carry
+up to 5 open patches each, so overshoot is the live risk; R-B runs
+lower by the deg-0 exclusion. The instrument decides; no rescue in
+either direction.
