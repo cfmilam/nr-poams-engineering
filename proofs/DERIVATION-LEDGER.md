@@ -3416,3 +3416,35 @@ STATE: the m = 9 endpoint moves from TAGGED IMPORT to DERIVED COUNT
 now carry no extant-tagged number: the skin coefficient chain is
 ledger-native end to end. Residue REPLACED by the sharper one:
 which counting (capacity vs cell) — future skin data decides.
+
+## 2026-08-12 — SWING 39 REGISTERED (pre-run): the γ coefficient — a candidate FILED under the inoculation discipline, not a closure
+HISTORY HONORED: swing 28 refused to swing 0.80-adjacent candidates
+against the free band 0.85(5) — "Wyler alarm against a [0.80, 0.90]
+band." What changed: the target is now the ledger's own conditional
+pin γ*″ = 0.8314 with spread 0.0007 (swing 36) — the coincidence
+space is ~40× smaller. A candidate must be MECHANISM-FIRST and passes
+only through a ±0.004 window.
+THE CANDIDATE (mechanism declared before comparison): γ = 5/6.
+Sketch: the strong channel (unlike-parallel) meshes sense-coherently —
+the shared turn's reference circulation is co-present, and the full
+gross banks. The weak channels (antiparallel) mesh against a
+COUNTER-reference: the closing contact's claim share — the same
+1/6 = (per-vertex ⅓) × (two-claimant ½) object that swings 32/36
+established as the latent fraction of a closure — cannot cash against
+a counter-turning reference and parks. γ = 1 − 1/6 = 0.8333.
+JOINTS (named, and they are real): J1 — the ⅓ per-vertex share is a
+3-composition (loop) object; its transfer to the 2-mesh needs the
+mesh's own composition structure and is NOT derived here. J2 — sense-
+latency (parking against a counter-reference) is an extension of
+closure-latency (parking against an absent reference). GRADE CAP
+DECLARED: coincidence-class CANDIDATE — this registration's purpose
+is the inoculation clause: 5/6 is FILED BEFORE any further look, so a
+future forcing derivation may claim it; without one it is never a
+result. (The same move as the γ² filing in swing 33.)
+FROZEN REJECTED MENU (hand values vs 0.8314 ± 0.004): cos²(θ_w/2) =
+1 − 1/z_c = 0.7976 (out −4.1%); √(2/3) = 0.8165 (out −1.8%);
+(2 + cosθ_w)/3 = 0.8650 (out +4.0%); 1 − 1/(2z_c) = 0.8988 (out);
+μ-class 0.675 (out). None survive the window; documented.
+GATES: S39a — |5/6 − γ*″| < 0.004 (hand: 0.8333 − 0.8314 = +0.0019,
++0.23%, expected PASS). S39b — the filing is complete: mechanism
+sketch + joints + menu on the record. NO closure claim either way.
