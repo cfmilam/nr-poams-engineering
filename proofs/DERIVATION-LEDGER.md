@@ -3109,3 +3109,38 @@ n_f/A: 0.65 → φ = 0.331 (measured saturation share). Sharpened
 residues: derive δ_cell (duty-cycle ½ runs hot) and φ (patch share
 2/z_c runs high; 1/3 inoculated) natively — the pool census is now
 TWO numbers with candidate mechanisms, not a form mystery.
+
+## 2026-08-12 — SWING 35 REGISTERED (pre-run): the self-consistent transfer fraction — lane audit; does self-consistency discriminate F6/F8 or is the fraction strain-limited?
+PREMISE: swing 32 scored at frozen γ*; its diagnostic showed the
+extraction CHASES the transfer (γ*(f) rises, steps fall). Swing 32's
+step1 also POOLED t and h, inheriting the mirror gap (γ_h − γ_t =
+0.0079, ≈ 0.09 MeV on the step — the strain-side residue T-P3′ owns).
+This swing solves the SELF-CONSISTENT fraction per lane and per
+equation and asks one question: do the solutions cluster on one fork
+row (upgrade) or scatter beyond row spacing (the fraction is
+strain-limited and item 3 — the displacement layer — formally GATES
+item 2).
+OPS DECLARED: γ*(f) = mean of the three cluster γ-equations at
+transferred targets (t_tri′ = dp + h(1−f), alpha invariant — identical
+machinery to swings 30/32 diagnostics). Solve by bisection on
+f ∈ [0, 0.35]:
+  E1-pooled: h(1−f) = s1_pooled(γ*(f))     E1-t: h(1−f) = s1_t(γ*(f))
+  E1-h:      h(1−f) = s1_h(γ*(f))          E2:   c₃ + f·h = s2(γ*(f))
+HAND-DECLARED EXPECTATIONS (slope arithmetic, pre-instrument):
+prediction slope −h = −0.946/unit vs extraction chase ≈ −0.63/unit
+(step1) ⇒ crossings: E1-pooled f* ≈ 0.30; E1-h f* ≈ 0.165 (F6-class);
+E1-t f* ≈ 0.44 — ESCAPES the window (the strain gap pushes the
+strain-free lane out: expected, booked as the strain-limit signature);
+E2 f* ≈ 0.124 (between F8 and F6). Span of in-range solutions ≈ 0.18.
+GATES:
+- S35a: E1-pooled and E2 each admit a unique solution in [0, 0.35].
+- S35b THE DISCRIMINATION TEST: span of all in-range solutions
+  < 0.05 (the F8→F6 row spacing) ⇒ the indicated row is UPGRADED;
+  span ≥ 0.05 ⇒ VERDICT = STRAIN-LIMITED: the cluster ladder cannot
+  force the fraction while the mirror residue stands; the queue
+  REORDERS — the displacement-layer attack gates the transfer
+  fraction. Expected: strain-limited.
+- S35c (report, signed): lane bias (s1_h − s1_t)/2 at γ*(0) vs the
+  T-P3′ residual class; escape behavior of E1-t.
+GRADE: audit/report. No fraction claim either way tonight; the swing's
+product is the QUEUE ORDER and the named contamination channel.
