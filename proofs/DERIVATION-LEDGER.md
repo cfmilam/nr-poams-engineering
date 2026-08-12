@@ -2203,3 +2203,33 @@ GATES:
   h uses the capacity identity Ω_w = 4π/z_c.
 Estimates declared pre-run: R1 functional G ≈ 35.5–36.5; R2 34.58 (seen).
 No post-count adjustments.
+
+## 2026-08-11 — SWING 19 SCORED: THE CROWN BOOKS ARE TAKEN (rule-robust grade)
+S19a AS REGISTERED: R3 (χ²=67), R4 (χ²=222), R5 (χ²=141) dead on cluster
+data; R1 (χ²=0.99), R2 (χ²=0.49) survive. Scale-uniformity did the killing:
+the blanket-h bulk variant (R3) that the h₀/h₁ bracket carried is DEAD on
+the trinucleon (+6.1×) — the seam narrowed by data, not preference.
+S19d R1 CLEAN: raw-vs-rank inflation 1.00 (tri) / 1.09 (quad) on the
+functional lock graph — at capacity coordination the lock graph is sparse
+enough that raw ≈ independent; the S14d taint does not apply.
+S19b THE FENCE — PASS: functional ensemble, central imports:
+R1 G = 36.22 (+1.0% vs C = 35.85) — BLIND (registered estimate 35.5–36.5 HIT);
+R2 G = 34.64 (−3.4%) — restated as declared. BOTH in [32, 40].
+==> C = a_v + τ_b is reproduced from derived quantities only — δ_pair =
+ħ²/4mr_q², c₃, c₄ (loop moments), h = 2c₃/z_c (patch-cone anholonomy),
+the derived capacity transcription, and the realized coordination — under
+EVERY closure-credit bookkeeping admissible against the cluster ladder.
+The bulk books of the mass ledger CLOSE. Crown tier: books level,
+rule-robust grade, zero fitted numbers end to end.
+S19c robustness (all reported): seam width R1−R2 = 1.58 MeV = 4.4% of C,
+and C sits INSIDE the seam; liquid ensemble R1 35.13 / R2 33.52 (both in);
+r_q band functional: 34.59–37.97 (R1), 33.09–36.31 (R2) — every value in
+window. The swing-17 single-corner FAIL is superseded in scope (that gate
+tested the h₀/h₁ BRACKETS band-wide; the brackets are retired — R3 dead,
+R1/R2 are the rules) but stands as booked history.
+WHAT REMAINS OPEN (named, inside the closed books): the suppression-factor
+seam — measured 0.360 ± 0.064 contains both 1/3 (mode share, R2) and
+2/z_c = 0.418 (anholonomy, R1); undecided at current precision; NO mixture
+fitted. Sharper trinucleon/alpha extraction or an independent observable
+would split them. Also standing: λ skin, sign root, A^{-1/2}, T-P3′.
+Instruments mass/mass-swing19{.py,-run.txt}. Doc MASS-LEDGER-SWING19.md.
