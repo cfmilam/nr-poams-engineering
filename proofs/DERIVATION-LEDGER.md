@@ -3369,3 +3369,35 @@ geometry: every coefficient from standing imports {k, r₀, r_p,
 muonic radii}. Zero dials in the entire column.
 EXHIBIT: §9 item (2) update PROPOSED (ratification): boundary
 half-paid → 91.5% derived, remainder 0.076 with named owners.
+
+## 2026-08-12 — SWING 38 REGISTERED (pre-run, derivation swing — no data): the native 9 — the filled-ladder endpoint of the skin's amplitude count
+TARGET: m(u) = 1 + 8u (λ = 1/m; swings 21/22/26) has a forced floor
+m = 1 and a TAGGED IMPORT at the filled endpoint m = 9 ("extant
+gradient bookkeeping"). Derive the 9 from ledger primitives.
+DERIVATION (capacity counting, declared): a surface quantum's gradient
+tax is shared among the independent amplitudes standing in the falling
+direction. The lock ceiling is the derived INTEGER z⌈⌉ = 5 (swing-17
+D2: the only integer inside both capacity bands). At a boundary the
+gradient direction IS the lost-lock direction — one channel of the
+five is the fall itself. Each of the remaining z⌈⌉ − 1 = 4 locks is a
+shared turn carrying TWO independent half-amplitude holders (the
+two-claimant ½ — the same booking that puts the 4 in δ_pair =
+(ħ/2)²·4/4mr_q²·…), plus the quantum's own core amplitude:
+    m_filled = 1 + 2(z⌈⌉ − 1) = 9,   m(u) = 1 + 8u
+— the linear interior (forced by swing 26 given endpoints) now has a
+counting mechanism: locks fill in proportion to occupancy, each
+bringing its two claimants.
+DEGENERACY (named honestly): the cell counting — a filled rate cell =
+4 quanta (2 sense × 2 orientation); 4 × 2 claimants + core = 9 — gives
+the SAME endpoint. No unique-forcing claim tonight: two readings,
+degenerate at {z⌈⌉ = 5, cell = 4}.
+DISCRIMINATOR (declared, falsifiable, future data): a pure-species
+skin (the neutron skin of a heavy census) splits them — the cell
+reading loses the unlike-species slots (shoulder count 1+2·2 = 5),
+the capacity reading keeps the geometric locks. The skin-skew
+shoulder scales √(1/m): √(1/5) vs √(1/9) — a model-independent
+neutron-skin profile (PREX-class) discriminates. Named, unscored.
+GATES: S38a coherence — the counting uses ONLY standing derived
+objects (z⌈⌉, the ½ rule, the m = 1 floor) and reproduces both
+endpoints and the linear interior. S38b — degeneracy stated, no
+unique claim. S38c — discriminator on the record.
