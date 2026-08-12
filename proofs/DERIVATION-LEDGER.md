@@ -3646,3 +3646,33 @@ STATE: c_x = CLASS-IDENTIFIED (composite shared turn at surface
 stand-off, R = r_cell + r_q); residues J1 (derive the stand-off line)
 and J2 (composite claimant booking). The 0.3% cross-identity survives
 untouched and gains a consistency note.
+
+## 2026-08-12 — SWING 44 SPEC REGISTERED (instrument required; the last derivable-now item): the frontier census — deriving (δ_cell, φ) natively
+TARGET: the pairing pool pair — δ_cell = 6.06 (light edge), φ = 0.331
+(saturation share), both currently MEASURED extractions (swing 34);
+1/3 INOCULATED; δ_pair/2 duty-cycle candidate +14% hot.
+THE INSTRUMENT (spec frozen; build = next session step): finite
+DROPLETS under the ledger's own functional (swing-16/17 machinery:
+−(δ_pair/2)L_i + τ_b(d₀/d̄_i)², max-cardinality deg≤5 lock graph, at
+ρ₀) at sizes A ∈ {20, 30, 40, 60, 90, 130, 180, 220}; census per
+droplet: n_f = |{i : deg_i < 5 OR odd-orientation slot open}| — the
+borrow-hosting count. Extract: φ_geom = n_f/A at the heavy plateau;
+edge behavior n_f/A → 1 at small A; the crossover shape vs the
+measured T1 participation curve {0.65, 0.36, 0.34, 0.33}.
+HAND MARKERS (named, unclaimed): bulk interior spare-capacity
+fraction from the swing-17 ensemble: z̄ = 4.846 under cap 5 ⇒ deg-4
+fraction ≈ 0.154 (if only degs 4/5 populated); its two-claimant
+double 0.308 sits near φ = 0.331 — FLAGGED as marker, refused as
+result (the droplet census, not arithmetic on markers, decides).
+GATES (set now, scored when the instrument runs): S44a φ_geom ∈
+[0.28, 0.38] AND matches measured 0.331 within ±15%; S44b the
+crossover tracks T1's quartile shape (sign + monotonicity);
+S44c δ_cell from the same droplets' edge cells ∈ [5.3, 6.8]
+(measured 6.06 ± the extraction's own band); S44d the 1/3
+question: if φ_geom lands within 3% of 1/3 WITH a counting reason
+(e.g., exactly one spare slot per three surface cells), the
+inoculation converts to a derivation; numerical adjacency without
+the counting reason stays refused.
+STATUS: registered as the boundary of "derivable now" — the droplet
+build is the one remaining step; everything else on the Mass front's
+derivable list is now flown.
