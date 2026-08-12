@@ -2085,3 +2085,38 @@ close within ±3.5% central under the h-bracket; the strict all-corners gate
 records FAIL via one 0.2% corner. The crown claim remains UNTAKEN pending the
 h resolution — no rounding up.
 Instruments mass/mass-swing17{.py,-run.txt}.
+
+## 2026-08-11 — SWING 18 REGISTERED (pre-run): the first-loop anholonomy credit h, derived
+CLAIM CLASS (declared in the queue before tonight): swept-solid-angle /
+geometric-phase of the contact 3-cycle. Target window REGISTERED BEFORE
+derivation: h_derived ∈ [0.6, 1.1] scores as identification; outside = miss.
+GEOMETRY (forced, uniqueness argument): planar-triangle axis compositions are
+degenerate — pair-orbit axes ⊥ loop plane are parallel (Ω = 0, no anholonomy);
+bond-direction sweeps lie in-plane (great circle, Ω = 2π, full credit). The
+ONLY non-degenerate angle standing in the books is the lock-patch half-angle
+θ_w (Ω_w = 2π(1 − cos θ_w) = 4π/z_c — the capacity identity, swing 3). The
+first loop's turn is transported around the patch cone: anholonomy per
+circuit = Ω_w exactly.
+CONVERSION FORK TABLE (enumerated and frozen pre-computation; one selection
+reason, mechanical): the shared turn carries L = ħ ⇒ J = 1 ⇒ geometric phase
+per circuit = J·Ω = Ω_w (Berry, exact for cones); energy fraction of the full
+loop credit = Ω_w/2π = 2/z_c. Named-rejected variants: Ω_w/4π (spin-½ Thomas
+factor — wrong object: the ½ belongs to boost composition, the α front's
+rung, not an L = ħ turn); sin²θ_w (projector, not a phase).
+THE DERIVED CREDIT (zero new constants):
+h = c₃ · (2/z_c) = 2c₃/z_c — the trinucleon step is TIED to the capacity
+constant. Central: 2·2.336/4.78 = 0.977 MeV; band [0.87, 1.11] (c₃ over r_q
+band × z_c 4.43–5.13).
+GATES:
+- S18a fork table frozen above; no post-hoc factor selection.
+- S18b identification window: h_central ∈ [0.6, 1.1].
+- S18c confrontation vs measured 0.84(15) (trinucleon step, swing-8 common
+  radii): band overlap reported; central tension reported SIGNED (no absorb;
+  note pre-declared: c₃ runs −9% cold vs measured marginal 2.56 while h would
+  run +16% hot — OPPOSITE signs ⇒ no common r_q slide can fix both; if that
+  pattern appears it is booked as a real split-structure residual).
+- S18d sum check (report): h + c₃ = 3.31 [3.10, 3.56] vs measured α − pair
+  total step 3.39(20).
+- S18e bulk restatement (report only, no gate): swing-17 books recomputed
+  with h_derived in the h₁ variant.
+Instrument: mass-swing18.py (arithmetic + bands + confrontations only).
