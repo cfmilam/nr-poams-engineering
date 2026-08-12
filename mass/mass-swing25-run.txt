@@ -1,0 +1,16 @@
+z_c(chain) = 4.9401   xi = 0.4203
+ladder: d 14.075 | z2 14.640 (h 14.683 / t 14.596, split 0.087) | alpha 17.057
+steps: +0.56, +2.42 | alpha-total +2.98
+
+CONFRONTATIONS (signed):
+  pair anchor: 14.018 derived vs 14.075 -> -0.41%
+  c3 marginal: 2.336 vs 2.42 -> -3.4%
+  h = 0.946  s = 0.4049 (gamma-limited vs step1 0.56)
+  two-loop sum: 3.282 vs 2.98 -> +10.1% (gamma band on step [2.35,3.61]: True)
+  deltabar = 14.514 in Rule-C bracket [14.02, 15.74]: True ; functional gross 14.47/15.31 straddles: True
+  level identity: delta0(z_c) = 21.50  (band ~[20.5, 22.6])
+  books functional: gross 15.13 -> G = 37.01 (+3.2% vs C = 35.85) in [32,40]: True
+  books liquid: gross 15.26 -> G = 35.06 (-2.2% vs C = 35.85) in [32,40]: True
+  T-PEAK: A* = 51.1 in registered [49, 66] (measured 62): True
+
+S25 gates: compare against registered hand values; shifts booked signed in ledger.

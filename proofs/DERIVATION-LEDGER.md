@@ -2693,3 +2693,42 @@ T-P3′ (open item 5): REMAINS OPEN — the displacement-anomaly boundary
 (odd-median 0.49 vs 0.40 tolerance after the derived exchange layer
 removed 63% of the bare signal); shared with the extant literature; no
 closure claimed tonight.
+
+## 2026-08-11 — SWINGS 26–29 SCORED: two closures, one direction closure, one honest FAIL
+SWING 26 SCORED — S26a PASS (derivation): given the endpoints (m = 1 lone
+floor — forced; m = 9 filled — named import), independent-class
+participation linear in occupancy forces m(u) = 1 + 8u exactly; the form
+was already measured-selected twice (swing 22). OPEN ITEM (1) CLOSES.
+Residue named and kept on the list: derive the 9 natively (extant
+gradient bookkeeping, tagged import until then).
+SWING 27 SCORED — S27a FAIL, BOOKED (no rescue): predicted Δ = γδ_pair/√A
+= 11.92 [10.7, 13.2]; measured median Δ·√A = 9.65 MeV over 1973 AME2020
+experimental 3-point odd-even gaps (A ∈ [20, 220]) — prediction +23.5%
+HIGH. S27b: the shape is not A^{-1/2}-flat (median Δ√A drifts 6.9 → 10.6
+across A-bands — Δ falls faster than A^{-1/2} at low A). S27c: the old
+dimensional route (×1.5 high) retired; the channel-weighted route
+(×1.24 high) becomes the named candidate, NOT identified. OPEN ITEM (3)
+STAYS OPEN — sharpened by the miss: the measured median and A-drift are
+now on the record; the coherent-dilution joint (or the 3-point estimator's
+mean-field contamination, declared in-registration) carries the 24%.
+SWING 28 SCORED — S28a PASS (direction grade): sense-coherent writhe
+composition ⇒ deepest channel = unlike-parallel; consistent with (i) the
+deuteron binding spin-1 not spin-0, (ii) the filing ban barring
+like-parallel, (iii) γ < 1 measured. OPEN ITEM (4) CLOSES AT DIRECTION
+GRADE; the γ coefficient stays a measured import (residue named; the
+0.80-adjacent candidate class NOT swung — Wyler alarm against a
+[0.80, 0.90] band).
+SWING 29 SCORED — S29a PASS 3/3 (sign grade, zero dials): cell-closure
+bar predicts Be-8 − 2α ≈ 0⁻ (measured −0.092), Li-6 − α − d > 0 (+1.474),
+A=5 unbound (−0.735). OPEN ITEM (7) CLOSES AT SIGN GRADE; magnitudes
+(rung-tax coefficient) stay open, named. Instruments
+mass/mass-swing27{.py,-run.txt} (swings 27+29; 26/28 are derivations).
+STATE OF THE OPEN LIST AFTER THE SWEEP:
+CLOSED tonight: capacity realization + bulk books (crown, unique rule);
+λ/a_s; θ_w/ξ/z_c chain; split residual (demoted γ-limited); 1/m interior;
+sign root (direction); two-cell signs; reconciliation adopted.
+STILL OPEN (exactly): (3) pairing magnitude (FAIL booked, candidate
+named); (5) T-P3′ (shared with extant literature); residues: native 9,
+γ coefficient, rung-tax coefficient, γ precision (gates the cluster
+sector), the +3.3% energy-vs-chain capacity seam, the skew confrontation
+program.

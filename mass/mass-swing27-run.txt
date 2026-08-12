@@ -1,0 +1,17 @@
+SWING 27 — pairing magnitude vs AME odd-even gaps
+  gaps used: 1973 | median Delta*sqrt(A) = 9.65 MeV
+  S27a: predicted 11.92 [10.7, 13.2] — median in band: FAIL
+  central offset: +23.5%
+  S27b A-shape (median Delta*sqrt(A) per A-band; flat = A^-1/2 holds):
+    A in [20,70): 6.86  (n=369)
+    A in [70,120): 9.48  (n=515)
+    A in [120,170): 10.51  (n=587)
+    A in [170,220): 10.55  (n=494)
+  S27c: dimensional route sqrt(delta0*d) (x1.5 high) RETIRED.
+
+SWING 29 — two-cell sign gates (AME reads)
+  Be-8 - 2a       = -0.092 MeV  (predicted ~0-): SIGN OK
+  Li-6 - a - d    = +1.474 MeV  (predicted > 0): SIGN OK
+  He-5 - a (n)    = -0.735 MeV  (predicted < 0): SIGN OK
+  S29a: three signs as predicted by the cell-closure bar: PASS
+  S29b magnitudes reported, not scored: -0.092 / 1.474 / -0.735 (rung-tax coefficient stays open)
