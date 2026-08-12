@@ -4071,3 +4071,56 @@ extended below t = 1 + pairing brackets (margins 5–23%), (iii) eye
 tail bound at rate 0.772. Then σ̂ ≥ σ* is a theorem end to end and
 the Madelung front's mathematical tier is CLOSED (remaining open =
 the POAMS-native census, physics tier).
+
+## 2026-08-12 — MADELUNG SWING M-C REGISTERED (pre-run): the interior inequality END TO END — exact certificate over the full level range; the math tier's last open
+GOAL: σ̂ ≥ σ* (⟺ Ψ(t) ≤ 0 on (0,1), M-A's exact restatement; ⟹ D′ ≤ 0
+⟹ k(J) < 2 strict on every row) as a THEOREM with exact certificate,
+modulo the same two classical imports as M-B. Closes consolidated-
+record open item 1; with M-B, the Madelung mathematical tier is
+CLOSED (remaining open = the POAMS-native census, physics tier).
+ARCHITECTURE (four pieces, all exact-rational):
+1. CHAIN EXTENSION: M-B barrier machinery extended from t = 1 down to
+  t₀ = 1/10 (180 segments, h = 1/200, δ = 0.001; anchor at t = 1 from
+  M-B's verified [L(1), U(1)]; same per-segment checks; guide =
+  backward graph-ODE continuation, leftward-contracting).
+2. PAIRING WITHOUT EXP: work in log-level D(t) = p(1) − p(t) ≥ 0.
+  Per-breakpoint brackets [D_lo, D_hi] by exact summation of
+  per-segment bounds ∫(1−t′)/m dt′ with m = N − φ ∈ [N−U, N−L]
+  (exact quadratic ranges; 3–5 sub-segments each for tightness;
+  directed rational rounding, denominators capped, lo-down/hi-up —
+  rigor preserved). Outer face D_out(τ) likewise from t = 1 rightward.
+  τ lower bound at level: τ_min(t) = largest breakpoint τ′ with
+  D_out_hi(τ′) ≤ D_lo(t) (D_out increasing — rational comparisons
+  only; NO transcendental evaluation anywhere).
+3. CLOSURE TERM WITHOUT EXP: 1 − v = 1 − e^{−D} ≥ (D + D²/2)/(1 + D +
+  D²/2) (from e^D ≥ 1 + D + D²/2, valid all D ≥ 0; Padé-grade: 98.9%
+  tight at mid-levels). MIDDLE CHECK per t-interval [t_a, t_b] (all
+  bounds uniform via right endpoint — 1/(1−t) increasing, τ
+  decreasing, D decreasing in t):
+     [1/(1−t_b) + 1/(τ_min(t_b) − 1)]² · (1 + D_lo + D_lo²/2)
+        ≤ 4 · (D_lo + D_lo²/2)   — EXACT.
+  Intervals partition [t₀, t₁]; coverage complete, not grid-sampled.
+4. ENDPOINT PIECES:
+  - EYE (0, t₀]: monotonicity (A1 ⇒ p increasing ⇒ v(t) ≤ v(t₀),
+    τ(t) ≥ τ(t₀)) reduces the whole tail to ONE exact check:
+    1/(1−t₀) + 1/(τ_min(t₀) − 1) ≤ 2 (since 2/√(1−v) ≥ 2 always).
+    Hand expectation: 10/9 + 1/1.3 ≈ 1.88 ≤ 2, margin ≈ 6%.
+  - PEAK [t₁, 1): rigorous m/M extrema from the chain (m over the eye
+    window, M over the outer window [1, 1+Δ], Δ self-consistently
+    checked): τ−1 ≥ (1−t)√(M_min/m_max); D ≤ (1−t)²/(2m_min) ⇒
+    2/√(1−v) ≥ 2√(2m_min)/(1−t) (via 1−e^{−D} ≤ D); with
+    √r ≤ (1+r)/2, SUFFICIENT EXACT CHECK: (3 + m_max/M_min)² ≤
+    32·m_min. Hand: t₁ = 0.9: (3 + 1.0075)² = 16.06 ≤ 32·0.508 =
+    16.26 ✓ margin ~1.2% (t₁ tunable; middle grid must reach t₁).
+HAND-DECLARED MARGINS: eye ~6%; middle worst ~4–5% near t₁ (D-bracket
+width target < 2%); peak 1–3%. FAILURE CONTINGENCY (declared):
+sub-segment refinement / δ tightening / t₀,t₁ retuning are mechanical
+construction moves pre-verification; gates score the final certificate
+only; if any piece cannot close, the gap is booked with its exact
+location and the theorem is NOT claimed.
+GATES: G-C1 extension chain verified (all segment checks). G-C2 the
+four-piece certificate covers (0,1) with zero failed checks ⇒ THE
+INTERIOR INEQUALITY IS A THEOREM (modulo the two named imports).
+G-C3 consistency: brackets contain the M-A numeric Ψ profile (spot
+rows). G-C4 report: worst margins per piece; claim-map rows 5 and 1
+status updates drafted for the consolidated record.
