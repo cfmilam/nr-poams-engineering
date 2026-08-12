@@ -2343,3 +2343,30 @@ GATES:
 - S21d report: implied a_s per survivor; direction vs the capacity-
   softened a_s/a_v story (no gate).
 No post-computation adjustments; misses booked.
+
+## 2026-08-11 — SWING 21 SCORED: λ identified (amplitude-count class), two survivors, grade capped as registered
+S21a PASS (a_s(1) = 34.06, a_s(1/9) = 11.35 — booked values reproduced).
+S21b: brackets and kills confirmed (Λ1 11.35 / Λ2 34.06 / Λ5 22.71 /
+Λ6 15.23 all OUT). TWO SURVIVORS in λ ∈ [0.243, 0.304]:
+- Λ3 two-channel equal split: λ = 1/4, a_s = 17.03 (−4.3% vs shadow 17.8);
+- Λ4 profile amplitude count 1/(1+8u) under the E-L weight: λ_eff = 0.2641,
+  a_s = 17.50 (−1.7%). (Uniform-measure aside ln9/8 = 0.2747 — the E-L
+  √g weight pulls it down 4%, as the registration's low-u note anticipated;
+  the declared estimate band [0.26, 0.32] contained it.)
+S21c GRADE HELD: IDENTIFICATION — the mechanism class (gradient tax divides
+among the m independent amplitude families carrying the fall; the booked
+limits ARE m = 1 and m = 9) now produces the interior value from the
+ledger's own skin profile with one named joint per candidate (Λ3:
+equal-stiffness symmetry; Λ4: m linear in filling). λ is NOT closed; the
+9× open range [1/9, 1] narrows to a discrete structural choice spanning
+0.250–0.264 (a_s 17.0–17.5). No selection between survivors tonight —
+both carried, spread 3%.
+S21d: shadow λ_eff = 0.2725 sits BETWEEN the two survivors (Λ3 −8% /
+Λ4 −3% on λ; −4.3%/−1.7% on a_s).
+DISCRIMINATOR QUEUED (swing 22 candidate, not registered yet): the two
+survivors predict different SKIN PROFILES — constant λ vs λ(u) rising
+toward the surface changes the local E-L width ∝ √λ(u) (outer skin
+thicker, inner sharper) ⇒ confrontable against measured surface
+diffuseness (2pF a ≈ 0.55 fm) and the swing-4 kink signature; also the
+joint-forcing route (derive m(ν) or the channel stiffnesses).
+Instruments mass/mass-swing21{.py,-run.txt}.

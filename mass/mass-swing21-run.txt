@@ -1,0 +1,18 @@
+SWING 21 — lambda skin fork. g-integral I0 = 0.304762
+S21a CALIBRATION: a_s(1) = 34.06 (booked 34.1) | a_s(1/9) = 11.35 (booked 11.4): PASS
+window: lambda_eff in [0.243, 0.304]  (a_s = 17.8±1.0)
+
+FORK:
+  L1 filled-only 1/9       lambda=0.1111  a_s=11.35  out
+  L2 lone-only 1           lambda=1.0000  a_s=34.06  out
+  L3 two-channel 1/4       lambda=0.2500  a_s=17.03  IN WINDOW
+  L4 profile 1/(1+8u)      lambda=0.2641  a_s=17.50  IN WINDOW
+  L5 sqrt-interp 4/9       lambda=0.4444  a_s=22.71  out
+  L6 harmonic-nu-bar 1/5   lambda=0.2000  a_s=15.23  out
+
+S21b survivors: L3 two-channel 1/4, L4 profile 1/(1+8u)
+  L4 detail: uniform-measure mean ln9/8 = 0.2747; E-L-weighted = 0.2641; implied a_s = 17.50
+  L3 vs L4 spread: 0.2500 vs 0.2641 (a_s 17.03 vs 17.50)
+
+S21c GRADE CAP: any survivor = IDENTIFICATION grade (joints named: L3 equal-stiffness; L4 m-linearity).
+S21d shadow lambda_eff = 0.2725 (a_s = 17.8); capacity-softened ratio direction: report only.
