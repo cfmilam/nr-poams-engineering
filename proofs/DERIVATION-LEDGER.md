@@ -4498,3 +4498,43 @@ reproduces interior-only (report).
 HAND EXPECTATION (honest): [0.25, 0.55] — interior seats of the
 diffuse builds (z̄ ~ 4.2) plus in-window skin seats could still
 overshoot; the instrument decides; no rescue.
+
+## 2026-08-12 — CENSUS SWING N-4 REGISTERED (derivation, pre-execution): the native ½ — a quarter turn per libration fold, and the fold count forced by whole-turn conservation
+TARGET (N-3's residue): the ½ offsets — radial (n_r + ½) and angular
+(l + ½), the Langer form our own k(Z,l) instruments import as
+"standard semiclassical convention."
+THE DERIVATION (registered structure):
+- D1 (whole-turn conservation): the eye tower's total count n is a
+  WHOLE number of turns (the standing POAMS result — the exhibits'
+  own Balmer–Rydberg derivation). Decomposing one closure into
+  sub-ledgers (radial, polar, azimuthal windings) cannot create or
+  destroy turns: the sub-counts' offsets must SUM to a whole number.
+  Exact Coulomb bookkeeping: ∮p_r dr = 2πħ(n − l − ½) when L =
+  ħ(l + ½) ⇒ (n_r + ½) + (l + ½) + m-part = n with n_r, l integers:
+  THE TOTAL OFFSET IS EXACTLY 1 — forced.
+- D2 (the distribution rule): ¼ turn per libration FOLD. The radial
+  winding LIBRATES (two folds: peri/apo); the polar winding LIBRATES
+  (two folds: the cone edges); the azimuthal winding CIRCULATES (no
+  folds). Offsets: radial ½, polar ½, azimuthal 0 — total 1 ✓.
+- D3 (the selection gate): the (¼ per fold) rule is the UNIQUE
+  distribution reproducing BOTH members of the pair {(n_r + ½),
+  (l + ½)²} simultaneously — the alternatives (1,0) and (0,1) each
+  fail one member (the (1,0) split cannot produce the Langer (l+½)²
+  that the TF/k(Z,l) machinery measurably needs; (0,1) cannot
+  produce the radial ½ the eye tower needs). The azimuthal count m
+  stays EXACT (no folds) — consistent with the exhibits' exact
+  2l + 1 mode counting.
+- NATIVE READING of the ¼: a libration is one whole circulation of
+  the sub-ledger's phase loop traversed as fold-to-fold halves; the
+  winding integer counts interior nodes only; each fold holds a
+  quarter of the loop's turn in escrow (extant shadow: the Airy
+  connection/Maslov index — cited; the escrow language is the
+  discreteum's).
+GATES: N-4a the exact eye-tower identity (algebra, zero dials);
+N-4b the selection table (three candidate splits × two required
+forms — unique survivor); N-4c consequence chain: the Aufbau front's
+L = l + ½ import UPGRADES to derived-offset; N-3's Scott-term ½
+gains its native root (the radial fold pair at the eye); N-4d scope:
+the fold-escrow mechanism's own deeper derivation (why exactly ¼ —
+the Airy asymptotics made native) NAMED as residue; Maslov/Langer
+rigor cited, not re-proved.
