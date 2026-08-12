@@ -2887,3 +2887,44 @@ WYLER GUARD: measured steps were on the books before this registration
 pre-set improvement margin, the named joints, and the cap to
 identification grade when the selection is not forced. No new constants;
 every f is a ratio already living in the ledger.
+
+## 2026-08-12 — SWING 32 SCORED: transfer mechanism lands (gates); fraction IDENTIFIED not forced — 3 survivors, derived central f = 1/6
+Instrument mass/mass-swing32{.py,-run.txt}; scored at frozen γ* = 0.8242
+(measured step1 0.8498, step2 2.4647, sum 3.3145 — recomputed identically
+to swing 30). EVERY ROW SCORED AS HAND-DECLARED IN THE REGISTRATION:
+- DEAD: F1 1/3 (h′ 0.631), F2 1/2 (0.473), F3 2/z_c (0.563), F4 cos²θ_w
+  (0.611) — all G32a; F5 1/z_c (h′ 0.754, in-band) dies G32d exactly as
+  pre-set (11.26% vs 10.17% threshold — the mirror-image row, killed by
+  margin not rounding).
+- SURVIVE ALL FOUR GATES: F6 f = 1/6 → h′ 0.7882 (−7.3%), c₃′ 2.4939
+  (+1.2%); F7 (2/z_c)² → 0.7908/2.4913 (−6.9%/+1.1%); F8 1/(2z_c) →
+  0.8501/2.4320 (+0.04%/−1.3%).
+VERDICT (as registered, joints not upgraded in-flight): the MECHANISM —
+sum-preserving latent-anholonomy transfer through the shared bond,
+cashing at the next closure — is ESTABLISHED at gate grade: it is the
+only move that reduces both split residuals at fixed sum (−0.98%, all
+rows), and the entire ≥1/5-fraction class is excluded. The FRACTION is
+IDENTIFICATION GRADE: F6 = 1/6 is the derived central (per-vertex
+spherical excess Ω_w/3 × the ledger's two-claimant ½ — the δ_pair
+booking rule at the closing vertex); its joints J2 (closing-vertex
+uniqueness vs T=0 mutuality — the R1 tension) and J3 (½ extended from
+turns to vertex excesses) remain precedent-shaped, so the grade caps as
+registered. F7 is numerically degenerate with F6 (z_c ≈ 2√6 coincidence
+flagged, no meaning claimed). F8 = 1/(2z_c) is the data-centered
+unforced alternative (sign pattern of its residuals OPPOSITE F6's on
+step2: +/− vs −/+ — a future discriminator lever, named).
+DIAGNOSTICS (unclaimed, signed): re-triangulation at every survivor
+γ_t/γ_h rise toward γ_α; spread 0.0142 → 0.0079 — THE TRANSFER EXPLAINS
+HALF THE TRIANGULATION SPREAD; the residual 0.0079 is the t–h gap,
+transfer-invariant, strain-side — same mirror/displacement family as
+T-P3′ (named, open there). Fixed-point iteration note: re-extraction at
+γ*′ chases the transfer (steps drop as γ rises; F6 residuals move
++5.8%/+1.9%); the extraction and the credits are not yet a
+self-consistent pair — frozen-γ* scoring stands, convergence question
+booked open.
+INVARIANCES CONFIRMED: deuteron, alpha target 17.2998, cluster sum,
+bulk books/crown (sum-preserving per-bond), two-cell sign gates. Skin
+latent rider stays named-unclaimed.
+STATE: the split residual moves from "named shape target" to
+"mechanism established, fraction identified [1/6 | (2/z_c)² | 1/(2z_c)],
+next discriminator = step2 residual sign or an independent γ sharpening."
