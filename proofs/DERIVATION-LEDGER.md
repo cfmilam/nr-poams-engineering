@@ -2816,3 +2816,74 @@ THE AMBUSH IS SET: four independent measured targets + the inoculation
 list. The pairing item remains OPEN as registered — its target
 definition is now complete; any candidate must walk through all four.
 Instruments mass/mass-swing{30,31}{.py,-run.txt}.
+
+## 2026-08-12 — SWING 32 REGISTERED (pre-run): credit transfer through the shared bond — mechanism argued forced, fraction fork FROZEN
+THE TARGET (named by swing 30, unscored there): the split residual at
+γ* = 0.8242 — step1 0.850 vs h = 0.9458 (+11.3% hot), step2 2.465 vs
+c₃ = 2.3363 (−5.2% cold), sum −1.0%. Shape candidate: credit transfer
+between consecutive closures through the shared bond.
+MECHANISM (Part A, derivation-first): a swept geometric phase banked on
+a shared turn counts only against a counter-circulation (the relational
+cash rule — a turn needs a reference turn; GROUNDING §1/§3). The closing
+bond's swept cone at the first closure (z = 2, trinucleon) contains a
+component whose reference is the NOT-YET-EXISTING second closure through
+that same bond; that component is LATENT at z = 2 — bond-banked,
+uncashable — and cashes when the second closure locks (z = 3, alpha),
+landing in the SECOND closure's step. Booked structure: step1 = h(1−f),
+step2 = c₃ + f·h — SUM-PRESERVING by construction (matches the measured
+−1.0% sum residual class). Deuteron invariant; alpha TOTAL invariant
+(pure re-split); bulk books invariant (every interior bond's latent
+cashes at its later closures — the crown does not move); Li-6/Be-8/A=5
+sign gates invariant (no new triangles cross the cell bar). Skin rider
+named UNCLAIMED: surface bonds hold uncashed latents (possible a_s
+ripple; not opened tonight).
+FRACTION (the fork, FROZEN with hand arithmetic; h = 0.9458, all Δ = f·h;
+h′ = h − Δ, c₃′ = c₃ + Δ; sum row-invariant 3.2821 = −0.99% vs 3.315):
+  F1 f = 1/3      (full closing-vertex excess)        Δ 0.3153  h′ 0.631  c₃′ 2.652
+  F2 f = 1/2      (even per-bond split of whole h)    Δ 0.4729  h′ 0.473  c₃′ 2.809
+  F3 f = 2/z_c    (re-suppression at Berry fraction)  Δ 0.3829  h′ 0.563  c₃′ 2.719
+  F4 f = cos²θ_w  (axis projector — swing-18 class    Δ 0.3350  h′ 0.611  c₃′ 2.671
+                   named-rejected: projector ≠ phase)
+  F5 f = 1/z_c    (patch budget, per end)             Δ 0.1915  h′ 0.754  c₃′ 2.528
+  F6 f = 1/6      (HALF the closing-vertex excess:    Δ 0.1576  h′ 0.788  c₃′ 2.494
+                   per-vertex Ω_w/3 by spherical-excess symmetry × the
+                   ledger's two-claimant ½ — the δ_pair = (ħ/2)²·(1/m r_q²)
+                   booking rule applied to the closing vertex, whose second
+                   claimant is the loop-in-waiting)
+  F7 f = (2/z_c)² (second-order sweep)                Δ 0.1550  h′ 0.791  c₃′ 2.491
+  F8 f = 1/(2z_c) (patch budget per shared turn)      Δ 0.0957  h′ 0.850  c₃′ 2.432
+DERIVED CENTRAL DECLARED: F6, f = 1/6 — the only row whose factors are
+both ledger precedents (exact per-vertex excess split; two-claimant ½).
+Joints NAMED honestly: (J1) equilateral per-vertex attribution (solid);
+(J2) reservation at the CLOSING vertex only — closure narrative supplies
+an order that T=0 mutuality lacks (same tension as rule R1, named);
+(J3) extending the two-claimant ½ from turns to vertex excesses
+(precedent-shaped, not theorem). If J2/J3 cannot be upgraded in-swing,
+grade caps at IDENTIFICATION.
+GATES (scored at FROZEN γ* = 0.8242; swing-30 extraction untouched):
+- G32a step1 band: h′ ∈ [0.75, 0.95]  (γ*-pinned measured band)
+- G32b step2 band: c₃′ ∈ [2.35, 2.58]
+- G32c sum within 3% of measured 3.315
+- G32d STRICT IMPROVEMENT, both steps, ≥10% relative: |h′−0.850|/0.850
+  < 0.9×11.27% = 10.14% AND |c₃′−2.465|/2.465 < 0.9×5.19% = 4.67%
+  (margin pre-set so the F5 mirror-image row — 11.26%, a 0.01%-level
+  coin flip against baseline — dies cleanly rather than by rounding).
+HAND-DECLARED EXPECTATION: F1–F4 dead on G32a; F5 dead on G32d; F6, F7,
+F8 pass all four ⇒ VERDICT CLASS = identification grade (survivors
+listed, F6 the derived central, F7 numerically degenerate with F6 at
+this z_c — coincidence z_c ≈ 2√6 flagged, no meaning claimed, F8 the
+data-centered unforced alternative) UNLESS Part A upgrades J2/J3 to
+forced, in which case F6 alone carries and the grade is derivation.
+Honest null honored if all rows fail.
+DIAGNOSTICS DECLARED (reported signed, unclaimed): re-triangulation at
+surviving rows — expectation γ_t/γ_h rise toward γ_α (t_tri′ = 14.9636−Δ,
+alpha target invariant), spread 0.0142 → ≈ 0.008 for ANY surviving row;
+the residual ≈ 0.008 t–h gap is transfer-INVARIANT (strain-side, mirror
+class, named — the transfer cannot and does not explain it). One
+fixed-point iteration (steps re-extracted at γ*′, transfer re-applied)
+reported as convergence note only; scoring stays at frozen γ*.
+WYLER GUARD: measured steps were on the books before this registration
+(swing 30) — the defense is the frozen fork with hand values, the
+pre-set improvement margin, the named joints, and the cap to
+identification grade when the selection is not forced. No new constants;
+every f is a ratio already living in the ledger.
