@@ -2511,3 +2511,46 @@ Open item (2) CLOSES: the patch-angle coefficient is the tangent-cone
 sine with the two-Compton lock range. Grade: derived-identification (two
 named geometric lines; both confrontations inside booked bands).
 Instruments mass/mass-swing23{.py,-run.txt}.
+
+## 2026-08-11 — SWING 24 REGISTERED (pre-run): the split-residual audit — radius chains and honest γ propagation
+TARGET: open item (6). The booked s = 0.360 ± 0.064 (first-closure
+suppression, measured) carries a band inherited from swing-8's step
+0.84(15). AUDIT QUESTIONS (hand arithmetic at registration, declared):
+(Q1) swing-8's declared matter-radius bands predate the muonic-atom radii;
+the charge-unfolded chain gives d 1.984 (vs band top 1.98), trinucleon
+matter 1.737 (inside 1.65–1.75), α 1.492 (OUTSIDE band top 1.48) —
+expected: the α band is stale.
+(Q2) the γ import (0.85 ± 0.05, free scattering) enters the trinucleon
+extraction through W = 1+2γ (±0.54 MeV on δ₀) but NOT the deuteron (W=1)
+⇒ the FIRST STEP carries ±0.54 from γ alone — the booked ±0.15 was
+γ-central. The SECOND step is γ-robust (∂/∂γ ≈ −0.09/0.05-band; the α's
+4γ and trinucleon's 2γ nearly cancel in the difference).
+CONSEQUENCE TO TEST: the swing-18/19/20 "split residual" (+16% h hot,
+−8% c₃ cold, "no common import slide absorbs both") is WRONG in its
+γ clause — a γ slide absorbs the h side while leaving c₃ nearly fixed;
+the r_q-slide clause stands (derived h, c₃ co-move). If confirmed: the
+h tension is DEMOTED to γ-limited (untestable at current γ precision),
+the c₃ comparison SURVIVES as the sharp one, and the exhibit's residual
+sentence must be corrected (replace-outright, imposed per tonight's
+ratification).
+INSTRUMENT: rebuild the swing-8 extraction under TWO radius chains:
+- Chain C (booked): swing-8 bands as committed (operational basis).
+- Chain A (charge-unfolded, muonic era): r_ch(d) = 2.12799(74),
+  r_ch(h) = 1.9661(30), r_ch(t) = 1.7591(363), r_ch(α) = 1.67824(83);
+  operator: booked r_pp² = r_ch² − R_p² − (N/Z)R_n² (DF/SO terms named
+  omitted, per the booked operator); mirror-matter (2h_pp² + t_pp²)/3;
+  d and α matter = point-proton.
+Full propagation: experimental radius errors + γ ∈ [0.80, 0.90] on every
+extraction; steps and s with honest joint bands.
+GATES:
+- S24a chain-A radii vs swing-8 bands: in/out per cluster (expected:
+  α OUT high, d edge, trinucleon in).
+- S24b honest s bands both chains: EXPECTED s(C) ≈ 0.36 ± ~0.25,
+  s(A) ≈ 0.24 ± ~0.25 (γ-dominated); derived h/c₃ = 0.405 (chain z_c) /
+  0.418 (energy z_c) inside BOTH ⇒ the h tension DEMOTES to γ-limited.
+- S24c pair anchor, chain A: δ₀(d) = 14.08 ± exp (tight) vs derived
+  δ_pair = 14.02 (−0.4%) — FLAGGED UNCLAIMED (re-anchoring the ladder
+  = separate ratified swing; touches everything downstream).
+- S24d the γ-robust second step: c₃ = 2.336 vs chain A / C values —
+  reported signed; expected −3.5% / −8%.
+NO re-anchoring tonight. Misses and demotions booked as found.
