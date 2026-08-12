@@ -4296,3 +4296,39 @@ GATES:
 - P-1c: solver validation — on 10 random small graphs (A ≤ 14),
   brute-force enumeration matches the flow bound sandwich (exactness
   check of the instrument itself).
+
+## 2026-08-12 — POOL STAGE P-1 SCORED: the bracket is DEAD (23/24 proven-optimal graphs); the sharp-wall undershoot is now RIGOROUS at −36.5% — and my declared band missed it low, booked
+Instrument mass/mass-poolP1{.py,-run.txt,-run2.txt}.
+- P-1c PASS: solver validated — 10/10 brute-force matches on random
+  small graphs (flow bound TIGHT on every trial).
+- P-1a PASS: with the registered alternating-path augmentation
+  completed (run 1 had it stubbed — construction iteration booked),
+  the lower bound reached the double-cover flow bound on 23/24
+  droplets: PROVEN-OPTIMAL lock graphs; the one residual gap = 1 edge
+  (seed1 A=180, width 0.011 ≤ 0.02). The swing-46 bracket instrument
+  (width 0.15-class) is retired: seat counts are now EXACT.
+- P-1b FAIL AS GATED, verdict clause HOLDS: heavy 3-family center =
+  0.210 vs my declared [0.22, 0.30] — the exact optimum carries more
+  edges than the greedy graphs, so the seat count dropped BELOW my
+  hand expectation. The band missed; the physics verdict is
+  strengthened: sharp-wall seat census vs measured φ = 0.331 is
+  −36.5%, now with NO solver slack to hide in. THE UNDERSHOOT IS
+  PHYSICS. Booked: family scatter of exact values remains large
+  (heavy exact seats/A range 0.118–0.311 across 9 droplets — surface
+  structure noise at these sizes).
+- HONEST PRESSURE NOTE (named): the gap to bridge is now +57%
+  (0.210 → 0.331). The P-2 diffuse skin must supply it — and if it
+  cannot, the SEAT UNIT itself (not just the wall) is wrong for the
+  pool. P-2 is a genuine test with a live kill, not a formality.
+P-2 SPEC (inherits + sharpens): diffuse-wall droplets — confinement
+softened per the ledger's own λ(u) skin profile (width 0.574 fm
+class, swing 22) instead of the hard R+0.3 wall; sizes to A ≈ 400;
+≥ 6 families; EXACT solver (this stage's instrument) mandatory;
+gates to be registered at build time with the seat-census kill
+condition explicit.
+ORDER-OF-BATTLE NOTE (from booked swing 42, no new work): item #4
+(the 2-mesh share behind γ = 5/6) is EVIDENCE-CAPPED by the
+sensitivity theorem — the ledger cannot discriminate 5/6 from 0.8314
+internally, so any internal derivation lands premise-conditional at
+best until the radius seam resolves externally. Same blocker as #2,
+one seam.

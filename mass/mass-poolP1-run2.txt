@@ -1,0 +1,43 @@
+P-1c solver validation (brute force vs flow sandwich, b=2 for tractability):
+  trial 0: n=8 E=13 brute=8 flow-UB=8 ok
+  trial 1: n=6 E=7 brute=5 flow-UB=5 ok
+  trial 2: n=7 E=11 brute=6 flow-UB=6 ok
+  trial 3: n=6 E=5 brute=4 flow-UB=4 ok
+  trial 4: n=6 E=8 brute=6 flow-UB=6 ok
+  trial 5: n=9 E=22 brute=9 flow-UB=9 ok
+  trial 6: n=6 E=6 brute=5 flow-UB=5 ok
+  trial 7: n=9 E=16 brute=8 flow-UB=8 ok
+  trial 8: n=8 E=11 brute=6 flow-UB=6 ok
+  trial 9: n=7 E=8 brute=6 flow-UB=6 ok
+P-1c: PASS
+
+families (deterministic rebuild):
+seed 160812 A= 20: E in [42, 42] (gap 0) -> seats/A in [0.800, 0.800] width 0.000 [5s]
+seed 160812 A= 30: E in [69, 69] (gap 0) -> seats/A in [0.400, 0.400] width 0.000 [9s]
+seed 160812 A= 40: E in [94, 94] (gap 0) -> seats/A in [0.300, 0.300] width 0.000 [14s]
+seed 160812 A= 60: E in [134, 134] (gap 0) -> seats/A in [0.533, 0.533] width 0.000 [22s]
+seed 160812 A= 90: E in [213, 213] (gap 0) -> seats/A in [0.267, 0.267] width 0.000 [36s]
+seed 160812 A=130: E in [310, 310] (gap 0) -> seats/A in [0.231, 0.231] width 0.000 [60s]
+seed 160812 A=180: E in [431, 432] (gap 1) -> seats/A in [0.200, 0.211] width 0.011 [96s]
+seed 160812 A=220: E in [537, 537] (gap 0) -> seats/A in [0.118, 0.118] width 0.000 [145s]
+seed 260812 A= 20: E in [40, 40] (gap 0) -> seats/A in [1.000, 1.000] width 0.000 [147s]
+seed 260812 A= 30: E in [63, 63] (gap 0) -> seats/A in [0.800, 0.800] width 0.000 [151s]
+seed 260812 A= 40: E in [92, 92] (gap 0) -> seats/A in [0.400, 0.400] width 0.000 [156s]
+seed 260812 A= 60: E in [142, 142] (gap 0) -> seats/A in [0.267, 0.267] width 0.000 [165s]
+seed 260812 A= 90: E in [215, 215] (gap 0) -> seats/A in [0.222, 0.222] width 0.000 [180s]
+seed 260812 A=130: E in [313, 313] (gap 0) -> seats/A in [0.185, 0.185] width 0.000 [204s]
+seed 260812 A=180: E in [422, 422] (gap 0) -> seats/A in [0.311, 0.311] width 0.000 [239s]
+seed 260812 A=220: E in [524, 524] (gap 0) -> seats/A in [0.236, 0.236] width 0.000 [288s]
+seed 360812 A= 20: E in [44, 44] (gap 0) -> seats/A in [0.600, 0.600] width 0.000 [290s]
+seed 360812 A= 30: E in [67, 67] (gap 0) -> seats/A in [0.533, 0.533] width 0.000 [294s]
+seed 360812 A= 40: E in [90, 90] (gap 0) -> seats/A in [0.500, 0.500] width 0.000 [299s]
+seed 360812 A= 60: E in [141, 141] (gap 0) -> seats/A in [0.300, 0.300] width 0.000 [308s]
+seed 360812 A= 90: E in [215, 215] (gap 0) -> seats/A in [0.222, 0.222] width 0.000 [321s]
+seed 360812 A=130: E in [309, 309] (gap 0) -> seats/A in [0.246, 0.246] width 0.000 [345s]
+seed 360812 A=180: E in [434, 434] (gap 0) -> seats/A in [0.178, 0.178] width 0.000 [384s]
+seed 360812 A=220: E in [530, 530] (gap 0) -> seats/A in [0.182, 0.182] width 0.000 [433s]
+
+P-1a max heavy bracket width: 0.011 (gate <= 0.02): PASS
+   proven-optimal graphs (gap 0): 23 / 24
+P-1b heavy 3-family center: 0.210 | declared [0.22, 0.30]: FAIL
+   VERDICT: sharp-wall seat census vs measured 0.331: -36.5% -> undershoot CONFIRMED AND PINNED (physics fix = P-2 diffuse skin)
