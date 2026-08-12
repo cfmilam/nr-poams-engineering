@@ -4220,3 +4220,43 @@ class; sense pairing = the AXIOM-C/pairing front; both future).
 GRADE CAP: bookkeeping-derivation (the Mass-ledger class); the
 independence/isotropy of the three windings and the continuum
 smoothing are named imports with rigorous extant anchors (Lieb–Simon).
+
+## 2026-08-12 — SWINGS N-1/N-2 SCORED: ★★ THE CENSUS IS BOOKKEEPING — the TF stand-in derived from closure stacking, zero dials; every Madelung theorem inherits the native chain
+Doc proofs/MADELUNG-NATIVE-CENSUS.md; verification garnish
+madelung/madelung-swingN-run.txt.
+- N-1a PASS: cell theorem — n = (2m(−V))^{3/2}/(3π²ħ³): the 3/2 is
+  the three whole-turn winding counts (n_r, l, m); the coefficient is
+  the forced (2πħ)³ cell (a fractional turn is no thing) × the
+  DERIVED ± sense doubling (The Elements). Zero freedom.
+- N-1b PASS: winding basis + independence import named (Weyl-count
+  class); extant shadows cited (Bohr–Sommerfeld, Fermi 1928).
+- N-2a PASS: self-consistency under the ONE range-law import ⇒
+  χ″ = χ^{3/2}/√x with b = (3π/4)^{2/3}a₀/(2Z^{1/3}) — verified an
+  ALGEBRAIC IDENTITY with the classical (1/4)(9π²/2Z)^{1/3}a₀
+  ((3π/4)²/8 = 9π²/128 exactly). The hand-declared falsifier was
+  risked and the coefficient landed identically.
+- N-2b PASS: neutrality N = Z ⟺ [xχ′ − χ]₀^∞ = 1 ⟺ χ(0) = 1 + the
+  Sommerfeld branch — the M-A/B/C heteroclinic SELECTED BY WHOLE-
+  COUNT BOOKKEEPING (numeric consistency 0.967 + tail ≈ 1; guard at
+  float-B₁ drift booked; stiff-origin instrument slip caught and
+  fixed pre-scoring, construction class).
+- N-2c PASS: import audit on the record — derived: equation, 3/2
+  power, coefficient, scale, branch selection; imports remaining:
+  the 1/r range law (ONE import now carrying TWO fronts — Mass
+  strain + atomic census), three-winding independence, the
+  correspondence step (GROUNDING §1; rigorous anchor Lieb–Simon).
+- N-2d PASS: correction tower named-not-claimed — eye-adjacent
+  discreteness (extant Scott class) and same-sense pairing (the
+  AXIOM-C/d-collapse tier, already open).
+STATE: consolidated-record item 3 moves OPEN → BOOKKEEPING-DERIVED
+with named residues. The Madelung front now reads end to end:
+discreteum cell + sense doubling + E=0 license + one range law ⇒ the
+census equation ⇒ (this week's certificates) the dip, k < 2 strict,
+and the n+l families with their tie-break. The deep-foundations
+residue — deriving the 1/r range law itself from winding bookkeeping
+— is the α/cone front's territory, named, not this campaign's.
+EXHIBIT PROPOSAL (ratification): Aufbau "Imports, named" first clause
+currently reads "Thomas–Fermi stands in for the census's net ledger
+(a POAMS-native derivation ... is open work)" — now stale; propose
+replacement per policy: derived-from-closure-stacking with the one
+range-law import + pointer to MADELUNG-NATIVE-CENSUS.

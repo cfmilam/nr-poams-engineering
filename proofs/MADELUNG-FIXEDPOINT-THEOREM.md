@@ -178,3 +178,15 @@ MADELUNG-DIP-ENCLOSURE.md; instruments `madelung/`; registrations pre-run throug
 - **Open item 3 (POAMS-native census) is the front's only remaining open** — the physics
   tier. Imports carried by the theorems: TF census stand-in; Sommerfeld/Hille heteroclinic;
   stable-manifold tangency (Perko/Hartman class).
+
+## 13 · Addendum 2026-08-12 (evening) — open item 3 pays: the census is bookkeeping
+
+Swings N-1/N-2 (`MADELUNG-NATIVE-CENSUS.md`): the TF stand-in is **derived** — whole-turn
+cell (2πħ)³ (forced by the discreteum) × the derived ± sense doubling × the E=0 admission
+license gives n = (2m(−V))^{3/2}/(3π²ħ³); budget bookkeeping under the one 1/r range-law
+import gives χ″ = χ^{3/2}/√x with b = 0.88534 a₀Z^{−1/3} exactly (zero dials, algebraic
+identity with the classical scale); neutrality selects the Sommerfeld heteroclinic. Item 3:
+OPEN → bookkeeping-derived; residues named (range law — shared with the Mass strain column;
+winding independence; the correspondence step, Lieb–Simon anchor). The front's remaining
+opens are the correction tower (Scott-class discreteness; AXIOM-C pairing) and the
+foundations-tier range law.

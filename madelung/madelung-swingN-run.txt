@@ -1,0 +1,3 @@
+N-2a: b coefficient derived 0.8853413770 = classical 0.8853413770 (algebraic: (3pi/4)^2/8 = 9pi^2/128 identically)
+N-2b: neutrality integral: head+[0.01, 19.9] = 0.96717 + Sommerfeld tail <= 0.07310 -> 1.04026 (identity: 1)
+      truncation: float-B1 drift guard at x=19.9 (chi -9.28e-08); identity itself is algebraic [x chi' - chi]
