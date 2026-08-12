@@ -2294,3 +2294,52 @@ quantities under the UNIQUE closure-credit bookkeeping admissible against
 cluster data, at +1.0% central. Zero fitted numbers. The audit trail —
 including tonight's own caught error — is the argument.
 Instruments mass/mass-swing20{.py,-run.txt}.
+
+## 2026-08-11 — SWING 21 REGISTERED (pre-run): the skin coefficient λ — amplitude-count fork
+TARGET: open item (1) — λ, the gradient-tax coefficient of the swing-4 skin
+integral a_s = (3/r₀)√(λħ²/2m)·J. Booked limits λ = 1 (lone amplitude) and
+λ = 1/9 (filled ladder); shadow a_s = 17.8 sits at interior λ_eff = 0.273.
+PHYSICAL QUESTION: what fraction of the full localization tax does the
+skin's falling amplitude actually pay?
+MECHANISM CLASS (declared): amplitude-count sharing — the gradient cost of
+a density fall divides among the m independent amplitude families carrying
+it; cost per unit total fall = 1/m of the lone rate (this is exactly what
+the booked limits already say: m = 1 lone, m = 9 filled).
+FORK TABLE (frozen; joints NAMED; hand-arithmetic at registration declared
+where done):
+- Λ1 filled-only: λ = 1/9 ⇒ a_s = 11.4 (bracket, expected OUT).
+- Λ2 lone-only: λ = 1 ⇒ 34.1 (bracket, expected OUT).
+- Λ3 two-channel equal split: the skin's fall divides between rung
+  termination (census channel) and amplitude bending (taxed channel);
+  IF the two channels carry equal quadratic marginal costs, the split is
+  half-half ⇒ λ = (1/2)² = 1/4 ⇒ a_s = 17.05. JOINT NAMED: the equal-
+  stiffness symmetry is asserted, not yet forced — instrument checks
+  whether the E-L structure supports it.
+- Λ4 profile amplitude count: λ(u) = 1/m(u), m(u) = 1 + 8u (linear rung
+  participation between the two booked limits; JOINT NAMED: linearity of
+  m in filling; m→1 as u→0 forced — at least one amplitude carries any
+  fall). Effective λ under the swing-4 E-L weight:
+  λ_eff = [∫₀¹√(λ(u)g(u))du / ∫₀¹√(g(u))du]², g(u) = u^{2/3} − u (the
+  double-tangent excess of the booked Δ(u); τ_b cancels in the ratio).
+  Hand-estimates declared: uniform-measure mean would give ln(9)/8 =
+  0.2747; the √g weight sits at low u (peak u = 0.296) ⇒ expected
+  λ_eff ≈ 0.26–0.32 (could exceed the window top — declared, not tuned).
+- Λ5 √-interpolation at mean filling: √λ = (1+... ) ⇒ λ = 4/9 = 0.444 ⇒
+  22.7 (expected OUT).
+- Λ6 harmonic count at mean filling ν̄ = 1/2: λ = 1/5 = 0.2 ⇒ 15.2
+  (expected OUT low).
+CONFRONTATION WINDOW (comparative shadow, import named): a_s = 17.8 ± 1.0
+(SEMF fitted range) ⇒ λ_eff ∈ [0.243, 0.304].
+GATES:
+- S21a calibration: instrument must reproduce booked a_s(1) = 34.1,
+  a_s(1/9) = 11.4, J = 2.992 convention (sanity, hard gate).
+- S21b fork confrontation: candidates scored against [0.243, 0.304];
+  survivors and kills booked. Λ3 expected IN by hand (0.25); Λ4 = the
+  computed number (estimate straddles the top edge — honest jeopardy).
+- S21c GRADE CAP (declared): any survivor is IDENTIFICATION grade —
+  the joints (equal-stiffness symmetry for Λ3; m-linearity for Λ4) are
+  named, not forced. λ is NOT claimed closed tonight regardless of
+  outcome; closure = forcing a joint (queued).
+- S21d report: implied a_s per survivor; direction vs the capacity-
+  softened a_s/a_v story (no gate).
+No post-computation adjustments; misses booked.
