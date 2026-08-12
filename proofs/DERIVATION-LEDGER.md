@@ -2584,3 +2584,37 @@ Open item (6) REFRAMES: not a residual tension but a γ-precision limit +
 a pending radius re-anchor. Exhibit sentence corrected per policy
 (replace-outright; correction, not claim upgrade).
 Instruments mass/mass-swing24{.py,-run.txt}.
+
+## 2026-08-11 — SWING 25 REGISTERED (pre-run): THE RECONCILIATION — chain z_c + muonic radii adopted as operational centrals
+RATIFIED BY DIRECTIVE (Star Lord 22:17: "close all open items"): the two
+pending re-anchors execute as ONE registered recompute. New operational
+centrals: z_c = 4.940 [4.881, 5.002] (the swing-23 chain — DERIVED, from
+r_q and m_N alone; the energy route 4.78 ± 0.35 remains as confrontation,
++3.3% and inside); radii = the muonic-era charge-unfolded chain (swing 24:
+d 1.9841(4), trinucleon matter 1.7369, α 1.4916). All downstream numbers
+recomputed; every shift booked SIGNED, improvements and regressions alike.
+DECLARED RECOMPUTES (hand values, exact, pre-script):
+- Ladder: d 14.075(10) | z2 14.641 (h 14.685 / t 14.597, split 0.088) |
+  α 17.058. Steps: +0.57, +2.42 (γ-central); α-total step 2.98.
+- Pair anchor: δ_pair = ħ²/4mr_q² = 14.018 vs 14.075 ⇒ −0.41% (was −2%).
+- Loop credit: c₃ = 2.336 vs marginal 2.42 ⇒ −3.4% (was −8.7%).
+- Anholonomy: h = 2c₃/z_c = 0.946; suppression s = 2/z_c = 0.4049 —
+  γ-limited vs step1 (swing 24), consistent inside honest band.
+- Two-loop sum: h + c₃ = 3.28 vs α-total step 2.98 (γ-central) ⇒ +10%
+  (was −2.2%) — REGRESSION booked signed; γ-band on the step [2.35, 3.61]
+  contains it. NAMED: the three cluster confrontations (anchor, marginal,
+  sum) are γ-ENTANGLED and no single γ in [0.80, 0.90] aligns all three
+  centrals simultaneously — γ precision is THE cluster-sector frontier.
+- Books gross: δ̄ = 2C/z_c = 14.51 [14.33, 14.69] — inside Rule C's forced
+  bracket [14.02, 15.74]; the six measured emergent grosses (14.3–15.6)
+  bracket it; functional h₀/h₁ gross 14.47/15.31 straddles it.
+- Level identity: δ₀(z_c) = δ̄/μ = 14.51/0.675 = 21.50 [20.5, 22.6 over
+  bands] (replaces 22.2 as the frozen strong-channel value).
+- Crown books: functional G_R1 = (4.891/2)·gross(h = 0.946) ≈ 37.0
+  (+3.2%, was +1.0% — min(z̄, z_c) now binds at realized z̄); liquid
+  ≈ 35.1 (−2.1%). Both in [32, 40]: THE CROWN VERDICT IS UNCHANGED.
+- T-PEAK restatement with derived a_s = 18.39: A* = 2(a_s/a_v)(a_v/a_c) =
+  51.1 — inside the registered [49, 66] (measured 62; report).
+GATES: S25a script reproduces every hand value above (±0.02); S25b all
+confrontations inside declared bands (anchor, marginal, s, sum-in-γ-band,
+δ̄-bracket, books window, T-PEAK bracket); S25c every shift booked signed.
