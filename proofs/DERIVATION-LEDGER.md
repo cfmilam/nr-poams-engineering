@@ -1844,3 +1844,53 @@ FORCED by this swing's geometry. NEXT REGISTRATION (swing 15, fresh session):
 fix the independent-cycle counting rule BEFORE counting any lattice; score bcc/
 sc/disordered-at-ρ₀; window unchanged. Nothing claimed tonight.
 Instruments mass/mass-swing14{.py,-run.txt}.
+
+## 2026-08-11 — SWING 15 REGISTERED (pre-run): the independence rule and the books-level landing
+PART A — RULE C (the independent-closure rule), fixed before any count:
+Loop credits charge INDEPENDENT closures only = elements of the lock graph's
+cycle space, dim β₁ = E − V + n_comp. Basis shortest-first (minimum cycle
+basis): triangle rank T = rank_GF2(triangles); quad rank Q = rank_GF2(triangles
+∪ chordless quads) − T; residue R = β₁ − T − Q charged 0 primary / c₄ upper
+bracket. Per-bond mean credit = (c₃T + c₄Q)/E. Anholonomy variants declared:
+h₀ PRIMARY (no h in bulk — no resolved per-bond first-triangle); h₁ bracket
+(+h × non-bridge edge fraction f). Toroidal homology on periodic lattices
+reported inside R (≤3 per lattice).
+THEOREM (holds for ANY graph): connected ⇒ β₁/E < 1 ⇒ per-bond credit < c₄ =
+0.876 ⇒ per-bond depth ≤ δ_pair + h + c₄ = 15.74 MeV < 20.0. CONSEQUENCE
+REGISTERED: the swing-14 square-route lead (needs P₃_indep ≈ 8.5/bond) is
+IMPOSSIBLE under independence — retired. With S14d (dependent counting rejected
+as overcounting), the per-bond deep-mesh reading of δ₀(z_c) = 22.2 is dead BOTH
+ways: 22.2 is a decomposition-level quantity (frozen-mixing strong channel),
+NOT per-bond mesh depth. Bulk closure, if any, is BOOKS-LEVEL:
+G = min(z̄,z_c)/2 · gross_bond with gross_bond FORCED into [δ_pair, 15.74] =
+[14.02, 15.74]; required gross at capacity = C/(z_c/2) = 35.85/2.39 = 15.00 —
+inside the forced bracket. Zero freedom beyond named bands.
+PART B — instrument: candidates (i) references sc, bcc periodic at ρ₀, central
+reach 2.14 (feasibility per swing 14); (ii) PHYSICAL: capacity-capped
+equilibrium liquid = swing-12 equilibrium hard-sphere construction (ρ₀, core
+1.72, reach 2.14, seed class 20260811) + swing-13 mutual CAP=5 lock rule — both
+constructions already registered; the combination is declared HERE, pre-run,
+as the third and FINAL hard-sphere census (no fourth toy census after this).
+Census per graph: z̄, E, n_comp, bridge fraction f, T, Q, R. Constants
+(unchanged, named): δ_pair = 14.02 [13.39,14.69] over r_q = 0.86 [0.84,0.88];
+c₃ = 2.336, c₄ = 0.876 (1/r_q² band); h = 0.84; z_c = 4.78 ± 0.35; books
+C = a_v + τ_b = 35.85, window [32,40] UNCHANGED (S14).
+HAND-ESTIMATES DECLARED at registration (honesty clause — the window is wide
+relative to the forced bracket; the sharp content is the Part-A theorem, the
+measured census composition, and central precision, not the window verdict):
+bcc β₁/E = 3/4 ⇒ G ≈ 35.1 (h₀) / 37.1 (h₁); sc β₁/E = 2/3 ⇒ 34.9 / 36.9;
+capped liquid ≈ 33–36 IF z̄ gates. Floor: z̄ = 4.3 with zero credits gives
+30.1 < 32 — the landing gate CAN fail; misses booked.
+GATES:
+- S15a rule freeze: Rule C + variants fixed here; no post-count changes.
+- S15b candidate gate (physical): capped equilibrium liquid z̄ ∈ [4.3, 5.3];
+  VOID booked if missed (swings 12/13 missed at 5.47/3.97; if this misses too,
+  the capacity window is not realized by hard-sphere toys — verdict then rests
+  on references + theorem, booked as such).
+- S15c THE LANDING (books): G(physical) ∈ [32,40] under BOTH h variants and
+  across the r_q band ⇒ crown books close (tier ii, books level). Central
+  precision vs C = 35.85 reported, no gate.
+- S15d references: bcc, sc G reported both variants (no gate).
+- S15e γ-channel reconciliation (frozen-random 9.5 vs required 15.0): REPORT
+  ONLY — swing-16 material, not scored here.
+No parameter adjustments after counting.
