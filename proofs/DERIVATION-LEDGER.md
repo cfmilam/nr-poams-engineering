@@ -2420,3 +2420,32 @@ GATES:
   profile-shape-sensitive data (model-independent charge analyses);
   2pF cannot see skew (symmetric by construction), so not gated.
 No post-computation adjustments; misses booked.
+
+## 2026-08-11 — SWING 22 SCORED: λ CLOSED (measured-selection grade) — a_s is now a derived number
+S22a PASS: J = 2.9883 (booked 2.992), a_s(1) = 34.02, a_s(1/9) = 11.34.
+S22b THE TAIL KILL, as hand-declared: constant-λ (Λ3, the swing-21
+two-channel 1/4) is DEAD — absolute tail 0.287 fm vs measured 0.55 ± 0.06
+(>4× band low). Both λ(u)-profile forms survive (tail 0.574 fm, +4.3% of
+central — an absolute parameter-free prediction, PASSED).
+S22c THE m-FORM KILL, as hand-declared: threshold m = max(1, 9u) DEAD on
+the a_s window (20.82 vs [16.8, 18.8]); linear m = 1+8u survives (18.39).
+S22d CLOSURE — UNIQUE JOINT SURVIVOR:
+    λ(u) = 1/m(u), m(u) = 1 + 8u;  λ_eff(Δ-weighted) = 0.2923;
+    a_s = (3/r₀)√(λ_eff ħ²/2m)·J = 18.39 MeV  (+3.3% vs fitted shadow 17.8).
+The m-linearity joint is now DATA-SELECTED TWICE (tail kill + window kill),
+not assumed. Open item (1) closes: a_s is a derived number — the skin pays
+the gradient tax at the amplitude-count rate, m rising linearly from the
+lone tail (m = 1, the last fall carried by one amplitude — its 0.574 fm
+decay length confirmed by the measured diffuseness) to the filled ladder
+(m = 9) at saturation. Remaining softness NAMED: the 1/m sharing rule
+itself (the booked limits ARE its endpoints; its interior form is now
+measured-selected, underived).
+CORRECTION BOOKED (from the registration): swing-21's Λ4 value 0.2641 was
+computed under the √g weight, inconsistent with the booked swing-4
+functional (√Δ); corrected value 0.2923. Swing-21's constant-λ entries
+unaffected; its survivor set unchanged; third self-catch of the day.
+S22e signature on the record (falsifiable, not gated): the skin is
+fat-tailed/sharp-shouldered — outer decay 0.574 fm (lone rate), inner
+shoulder width ∝ √(1/9) — 2pF is blind to this skew; model-independent
+charge analyses are not.
+Instruments mass/mass-swing22{.py,-run.txt}.

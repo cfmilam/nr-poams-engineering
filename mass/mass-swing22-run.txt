@@ -1,0 +1,28 @@
+SWING 22 — lambda closure under the booked functional
+S22a CALIBRATION: J = 2.9883 (booked 2.992) | a_s(1) = 34.02 | a_s(1/9) = 11.34: PASS
+exact lone tail length = 0.5737 fm (0.574 hand)
+
+CANDIDATES:
+  L3 constant 1/4            lam_eff=0.2500  a_s=17.01 (IN)  tail=0.287 fm (OUT)
+  L4 linear m=1+8u           lam_eff=0.2923  a_s=18.39 (IN)  tail=0.574 fm (IN)
+  L4t threshold m=max(1,9u)  lam_eff=0.3745  a_s=20.82 (OUT)  tail=0.574 fm (IN)
+
+S22b TAIL KILL (window 0.49-0.61 fm):
+  L3 constant 1/4            tail 0.287 -> DEAD
+  L4 linear m=1+8u           tail 0.574 -> SURVIVES
+  L4t threshold m=max(1,9u)  tail 0.574 -> SURVIVES
+S22c m-FORM KILL (a_s window 16.8-18.8):
+  L3 constant 1/4            a_s 17.01 -> SURVIVES
+  L4 linear m=1+8u           a_s 18.39 -> SURVIVES
+  L4t threshold m=max(1,9u)  a_s 20.82 -> DEAD
+
+S22d CLOSURE: joint survivors: L4 linear m=1+8u
+  ==> LAMBDA CLOSED (measured-selection grade): L4 linear m=1+8u
+      lambda(u) = 1/(1+8u); lambda_eff = 0.2923; a_s = 18.39 MeV (+3.3% vs shadow 17.8)
+      tail prediction 0.574 fm vs measured 0.55±0.06 (+4.3% of central)
+
+RECORD:
+  swing-21 Lambda4 rescore under booked sqrt-Delta weight: 0.2923 (was 0.2641 under sqrt-g — corrected)
+  uniform-measure aside ln9/8 = 0.2747 (not the E-L value)
+  10-90 core width (u=0.9 to 0.1, absolute): L4 0.78 fm | L3 0.75 fm  (tail adds ~2.3*ell)
+  skewness signature (report): inner shoulder width prop sqrt(1/9), outer tail 0.574 — fat-tail/sharp-shoulder profile named
