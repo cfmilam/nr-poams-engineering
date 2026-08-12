@@ -3269,3 +3269,24 @@ bulk evaluation = swing 37); F6-vs-F7 discrimination (z_c-variation
 question, named); CSB separation; the pool-census residues (δ_cell,
 φ); item-4 residues (native 9, γ coefficient, rung tax, capacity
 seam, skew program).
+
+## 2026-08-12 — RE-ANCHOR BOOKED (ratified by directive, swing-25 precedent): strain′ + f = 1/6 are the operational centrals
+Adopted: cluster strain = pair-geometry evaluation (st_h′ 0.7847,
+st_a′ 0.9434, st_d 0); transfer f = 1/6 in the cluster targets
+(t_tri = δ_pair + (5/6)h; alpha total invariant). Downstream, declared
+and signed:
+- γ*″ = 0.8314, conditional band ~0.0007 (machinery recomputes it
+  automatically); free-scattering IMPORT γ = 0.85(5) UNCHANGED as
+  import.
+- Steps at γ*″ (anchor units): 0.7296 / 2.4985 vs predicted
+  0.7309 / 2.4939 (±0.2%).
+- a_sym ripple: contact term 36.045/(1+2γ*″) ⇒ a_sym 24.45 → 24.64
+  (+5.1% vs shadow central; band-compatible; signed).
+- Banned-form note (inoculation UNCHANGED): the conditional
+  γ*″²·δ_pair moves 9.52 → 9.69 vs the seen overall median 9.65
+  (−0.4%). Signed and REFUSED as ever: the form enters only when the
+  pool census (δ_cell, φ) is derived; the coincidence is now sharp
+  enough to be worth refusing loudly.
+- Crown books γ-free — untouched. T-PEAK bracket untouched. The two
+  swing-33 identities (k/2r_q; δV_pn census) γ-independent at gate
+  level — untouched.
