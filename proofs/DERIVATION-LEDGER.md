@@ -3676,3 +3676,39 @@ the counting reason stays refused.
 STATUS: registered as the boundary of "derivable now" — the droplet
 build is the one remaining step; everything else on the Mass front's
 derivable list is now flown.
+
+## 2026-08-12 — SWING 44 ADDENDUM (pre-run, before any droplet is built): extraction rules declared + honest hand expectations incl. the overshoot risk
+EXTRACTION RULES (frozen now):
+- Lock graph: max-cardinality deg≤5 subgraph of the availability graph
+  (pairs in [core 1.72, reach 2.14]) — greedy shortest-first + swap
+  augmentation; upper-bound gap REPORTED (swing-17 convention).
+- n_f = |{i : deg_lock(i) < 5}| — patch-capacity census (a surface
+  cell locked 3-of-3-available still holds open patch: cap is 5).
+  The registration's orientation clause is INACTIVE in a geometric
+  instrument — named here.
+- φ_geom = mean n_f/A over A ∈ {130, 180, 220}; light-edge check =
+  n_f/A over {20, 30, 40}.
+- δ_cell^geom = γ*²·(ħ²/m)·⟨1/d²⟩ over lock edges of the LIGHT
+  droplets (γ* = 0.8314; borrow event = full re-pairing through a
+  host pair at its actual separation — two channel vertices, γ²,
+  swing-33 forcing). The ½ borrowed-half variant REPORTED not gated
+  (expected dead-low ~3.2; A=5's half was parasitic credit, a gap is
+  a full re-pairing event — declared distinction).
+HAND EXPECTATIONS (honest, before build):
+- δ_cell: light-droplet locks sit between d₀ = 1.936 and reach 2.14
+  ⇒ δ_cell^geom ∈ [6.2, 7.6] — the gate window [5.3, 6.8] BITES from
+  above; d̄ near reach ⇒ ~6.3 PASS; d̄ near d₀ ⇒ ~7.6 FAIL high.
+  Genuinely undecided by hand.
+- φ: geometric shell arithmetic (interior = depth > one spacing)
+  gives frontier shares ~0.8 (A 52) / ~0.6 (A 195) — OVERSHOOT RISK
+  FLAGGED: bare geometric frontier may run ×1.5–2 ABOVE the measured
+  0.331 at heavy A. If S44a FAILS on overshoot, the verdict is
+  informative and pre-named: the borrow pool is a SUB-CENSUS of the
+  geometric frontier — candidates named NOW: (a) outermost-shell-only
+  (depth < ½ spacing); (b) lock edges with spare capacity on BOTH
+  ends; (c) the odd quantum's seat restricted to least-bound cells
+  (energy frontier ≠ geometry frontier). No post-hoc census swap: a
+  failed S44a books FAIL tonight; any sub-census flies as swing 45
+  with fresh registration.
+- S44b: n_f/A decreasing + saturating expected robustly (sign gate
+  should PASS even under overshoot).
