@@ -3290,3 +3290,44 @@ and signed:
 - Crown books γ-free — untouched. T-PEAK bracket untouched. The two
   swing-33 identities (k/2r_q; δV_pn census) γ-independent at gate
   level — untouched.
+
+## 2026-08-12 — SWING 37 REGISTERED (pre-run): the bulk displacement layer — the charge quantum's own size, applied to the strain law's point-charge idealization
+TARGET: the T-P3′ boundary — residual mirror-odd −0.33 MeV/step,
+uniform across chains, smooth in A (booked swing 2; open in extant
+literature as the displacement-anomaly class).
+THE LAYER (L4, exact, zero dials): the strain law k/r is evaluated
+between POINT charges, but the charge quantum has rms radius
+r_p = 0.8409 fm — THE SAME standing import the radius unfolding
+already uses. Two Gaussian-distributed charges interact as
+v(d) = (k/d)·erf(d/a), a = 2r_p/√3 = 0.9709 fm. Over the uniform-
+sphere pair distribution P(d) = (3d²/R³)(1 − 3d/4R + d³/16R³),
+R = 1.2A^{1/3}, the direct term reduces by
+δ_fs(A) = ⟨(1−erf(d/a))/d⟩/⟨1/d⟩ — leading form (5/8)(a/R)², exact
+integral in-instrument. strain″ = [0.72Z(Z−1)(1−δ_fs) − 0.53Z^{4/3}]
+/A^{1/3}.
+HAND-DECLARED: δ_fs = 4.1% / 3.0% / 2.3% at A = 31/50/75; the odd-
+channel step effect ≈ −0.26 ± 0.02 MeV/step, NEAR-CONSTANT across the
+window and smooth in A — precisely the booked residual's fingerprint
+(uniform, smooth). Predicted post-L4 slope ≈ −0.07 before the exchange-
+smearing opposition (L4b, named: smearing the exchange term's short-
+range weight opposes, bounded |≤ 0.08|/step, crude-model REPORT grade).
+Net expectation: residual slope −0.05 to −0.15.
+L1 (skin response of the proton radius to the census) NAMED, not
+derived tonight — the residue if a boundary survives. CSB named.
+INSTRUMENT-FIDELITY CLAUSE: the rebuilt chain machinery must FIRST
+reproduce the booked T-P3′ baseline (median |odd(1.5)| ≈ 0.492, slope
+≈ −0.33/step, ~13 chains, A ∈ [31,75], center u = 0, y = −B − strain′)
+within 5% BEFORE any scoring; mismatch ⇒ STOP and reconcile, no score.
+GATES:
+- S37a: L4 parameter-free; window step effect ∈ [−0.31, −0.21],
+  chain-to-chain band < 0.15 (uniformity).
+- S37b: post-L4(+L4b-report) |median slope| < 0.18 MeV/step AND
+  reduction ≥ 40% from 0.33.
+- S37c: median |odd(1.5)|″ < 0.30 (from 0.492).
+- S37d (reports): linearity preserved; per-chain band; boundary
+  statement — dissolved (< 0.05) / reduced with named remainder
+  (0.05–0.18) / FAIL booked (> 0.18).
+WYLER GUARD: r_p is a standing import used daily in the unfolding; a
+and δ_fs contain no freedom; the target residual was booked yesterday
+with its fingerprint; the prediction −0.26 was hand-declared above
+before the instrument ran.
