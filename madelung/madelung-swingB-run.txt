@@ -1,0 +1,14 @@
+backward guide: phi(2.95) = 11.614528 (series start), S_backward = 1.467319743
+  two-route check: eye-side booked S = 1.467319749 -> agreement 6.24e-09
+
+EXACT CERTIFICATE: 1564 checks, 0 failures
+G-B1 PASS: all segment + saddle checks verified in exact rational arithmetic
+
+S ENCLOSURE:  1465319/1000000 <= S <= 36733/25000
+   floats: [1.465319, 1.469320], width 0.004001
+G-B2: PASS — U(1) = 36733/25000 < 3/2 EXACTLY (margin 767/25000 = 0.030680)
+G-B3 consistency: numeric S = 1.467319743 in enclosure: PASS
+G-B4 report: k_edge in [1.934050, 1.941327]; 2 - k_edge >= 0.058673 rigorously
+
+THEOREM (modulo named classical imports): S < 3/2; the dip is real;
+k_edge < 2; via the merge theorem the interior inequality holds in a peak neighborhood.

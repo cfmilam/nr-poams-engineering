@@ -4038,3 +4038,36 @@ GATES:
 GRADE: theorem-with-certificate (exact rational); the merge theorem
 then gives the interior inequality in a peak neighborhood
 (quantification of the neighborhood = M-C, not tonight).
+
+## 2026-08-12 — MADELUNG SWING M-B SCORED: ★★★ THE DIP IS A THEOREM — S ∈ [1.465319, 1.469320] BY EXACT RATIONAL CERTIFICATE, 1564/1564 CHECKS
+Doc proofs/MADELUNG-DIP-ENCLOSURE.md; instrument madelung/madelung-
+swingB{.py,-run.txt}.
+- G-B1 PASS: 1564 exact checks, 0 failures (4 saddle + 390 segments ×
+  2 barriers × 2 checks; fractions.Fraction throughout; zero floats
+  in the verification layer).
+- G-B2 PASS: U(1) = 36733/25000 = 1.46932 < 3/2 EXACTLY — margin
+  767/25000 = 0.030680. **S < 3/2 is now a theorem** modulo two named
+  classical imports (Sommerfeld/Hille heteroclinic; stable-manifold
+  tangency). Enclosure width 0.004.
+- G-B3 PASS: numeric S = 1.467319743 inside; ★ two-route consistency
+  6.2e-9 (backward manifold-series guide vs eye-side M-A chassis —
+  independent routes).
+- G-B4: k_edge ∈ [1.93405, 1.94133]; 2 − k_edge ≥ 0.0587 RIGOROUS.
+- CONSTRUCTION STORY BOOKED: run-1 guide (eye-side tail) was float-
+  contaminated near the saddle — the exact certificate CAUGHT it (61
+  clustered failures; guide read 10.85 vs manifold 11.6145 at t=2.95).
+  Rebuilt backward from the second-order manifold expansion (c₂ =
+  3λ/(6λ−28) = 1.2514); δ-ramp smoothed (2 failures at the grading
+  step). Mechanical retuning pre-verification, as registered; gates
+  scored on the final verified object only.
+CONSEQUENCES: consolidated-record open item 2 CLOSED (validated
+enclosure, stronger than requested — exact certificate, not interval
+floats). Via M-A's merge theorem the interior inequality holds
+strictly in a peak neighborhood. Claim rows 5/10 status updated in
+the enclosure doc §4. REMAINING for the interior inequality =
+SWING M-C: (i) quantify the peak neighborhood (explicit o(1) control
+in Theorem A3), (ii) compact middle with the same barrier machinery
+extended below t = 1 + pairing brackets (margins 5–23%), (iii) eye
+tail bound at rate 0.772. Then σ̂ ≥ σ* is a theorem end to end and
+the Madelung front's mathematical tier is CLOSED (remaining open =
+the POAMS-native census, physics tier).
