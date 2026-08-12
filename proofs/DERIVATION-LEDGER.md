@@ -4260,3 +4260,39 @@ currently reads "Thomas–Fermi stands in for the census's net ledger
 (a POAMS-native derivation ... is open work)" — now stale; propose
 replacement per policy: derived-from-closure-stacking with the one
 range-law import + pointer to MADELUNG-NATIVE-CENSUS.
+
+## 2026-08-12 — POOL-COUNT INSTRUMENT CAMPAIGN OPENED + STAGE P-1 REGISTERED (pre-run): collapse the matching bracket with exact bounds
+CAMPAIGN (from the swing-46 booking): settle the pairing pool count
+φ. Stage P-1 (tonight): the INSTRUMENT gap — replace the useless
+degree-bound bracket with exact combinatorial bounds on the same
+three deterministic droplet families (seeds 160812/260812/360812,
+sizes 20–220, builds bit-identical). Stage P-2 (specced, next): the
+PHYSICS gap — diffuse-wall droplets (the ledger's own λ(u) skin) +
+size scan toward A ~ 400 + ≥6 families; φ confrontation re-gated
+there, not tonight.
+P-1 METHOD (declared):
+- UPPER bound on lock edges E*: fractional b-matching via the
+  bipartite double cover — source→v_L (cap 5), u_L→v_R per edge
+  (cap 1), v_R→sink (cap 5); integer max-flow F (Dinic, exact
+  arithmetic); E* ≤ ⌊F/2⌋ (half-integrality of fractional
+  b-matching; standard, cited).
+- LOWER bound: greedy shortest-first + shuffled restarts +
+  alternating-path augmentation (paths only, blossoms not
+  implemented — any found augmentation is valid; optimality NOT
+  claimed from the heuristic side).
+- Seat census brackets: seats/A ∈ [5 − 2⌊F/2⌋/A, 5 − 2E_ach/A].
+GATES:
+- P-1a: per-droplet bracket width ≤ 0.02 on the heavy trio (was
+  0.15-class); report where gap = 0 (proven-optimal graphs).
+- P-1b: the sharp-wall seat census RE-SCORED on collapsed brackets:
+  HAND EXPECTATION DECLARED HONESTLY — the optimum has MORE edges
+  than greedy ⇒ FEWER seats ⇒ the heavy-trio center moves DOWN from
+  the achieved 0.292 toward ~0.24–0.28: the sharp-wall UNDERSHOOT of
+  measured φ = 0.331 should be CONFIRMED AND PINNED, not cured —
+  establishing rigorously that the missing share is physics (the
+  diffuse skin, stage P-2), not solver slack. Gate: bracket centers
+  land inside the declared [0.22, 0.30] with the undershoot verdict
+  booked either way.
+- P-1c: solver validation — on 10 random small graphs (A ≤ 14),
+  brute-force enumeration matches the flow bound sandwich (exactness
+  check of the instrument itself).
