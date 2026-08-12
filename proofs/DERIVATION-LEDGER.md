@@ -4560,3 +4560,52 @@ Instrument madelung/madelung-swingN4-run.txt.
   made native) — named; Maslov/Langer rigor cited throughout.
 GRADE: derivation (offset sum forced; distribution selected by the
 pair + fold counting); the fold-escrow root stays a named residue.
+
+## 2026-08-12 — AXIOM-C SWING X-1 REGISTERED (derivation, pre-execution): the demotion attempt — phase-basis definiteness as a COROLLARY of the discreteum, with the scope boundary drawn
+AXIOM-C (the Aufbau front's last named import): "phase-basis
+definiteness of the same-sense census" — the axiom that lets the
+same-sense filing ban (no double-filing) be well-posed. Standing
+order: derive it from winding bookkeeping or establish it as
+irreducible.
+THE DERIVATION CHAIN (registered):
+- D1 (discreteum — GROUNDING §1, standing axiom): a closure is an
+  INTEGER winding tuple; a fractional or blended turn is not a
+  smaller thing but NO thing. There are no non-integer interpolants
+  between census entries.
+- D2 (census-as-count — definitional, the front's own object): the
+  census is a COUNT of persistent closures; entries are winding
+  tuples (n_r, l, m; sense).
+- D3 (arithmetic of counts): a count counts DISTINCT entries once.
+  Two same-sense quanta with identical winding tuples are not two
+  entries — complete indistinguishability at the ledger grain IS
+  identity of the entry. Double-filing is not forbidden by a force;
+  it is UNCOUNTABLE.
+- COROLLARY 1 (basis definiteness): a "basis ambiguity" at the filing
+  grain would require blended cells — non-integer interpolants —
+  which D1 bars verbatim. The cell basis is not chosen; it is the
+  discreteum. AXIOM-C ⇒ demoted from independent axiom to COROLLARY
+  of D1 + D2 + D3.
+- COROLLARY 2 (capacity 2): the sense bit is the one binary label
+  orthogonal to the orbital tuple (the ± circulation sense, derived,
+  The Elements) ⇒ exactly two entries per orbital cell.
+- SCOPE BOUNDARY (drawn to prevent philosophy-Wyler): the demotion
+  operates at the FILING grain (occupation bookkeeping). Extant
+  "superposition" phenomena (interference) live at the PHASE level
+  WITHIN a closure's books — phase bookkeeping of one entry, not
+  count bookkeeping across entries. The corollary says nothing about
+  phase-level structure and claims nothing about it.
+GATES: X-1a the chain D1–D3 with each premise's standing source
+(no new axiom consumed). X-1b consequences re-derived from the
+corollary alone: the filing ban, 2-per-cell, the aufbau growth rule's
+capacity structure — consistency with the exhibit's already-derived
+pair-level exclusion (which was a theorem GIVEN closure-mode
+ontology; the corollary supplies the ontology's filing grain).
+X-1c what remains genuinely open, named: the ENERGETIC layer — the
+same-sense hole's shape and coefficient (the ρ^{1/3}-class discount
+the d-collapse instrument imports) is NOT delivered by counting; it
+needs the contact bookkeeping of same-sense circulations (the Mass
+front's γ-channel machinery is the obvious native donor — cross-front
+candidate named, not flown).
+STATUS RULE: axiom-status changes are Star Lord's call (two-pillar
+precedent) ⇒ scored tonight as PROPOSED DEMOTION, ratification
+required before any exhibit surface changes.
