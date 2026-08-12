@@ -3948,3 +3948,41 @@ saddle cone + interval Taylor backward integration ⇒ unconditional
 S < 3/2 closes the peak; M-C: same enclosure walks the compact middle
 where the relative margin is fat ~20%). Specs to be registered
 separately. No unconditional claim tonight.
+
+## 2026-08-12 — MADELUNG SWING M-A SCORED: reduction proved, MERGE THEOREM lands (peak case ⟺ dip), eye gate FAIL booked; both M2 chassis numbers recovered cross-formulation
+Doc proofs/MADELUNG-INTERIOR-REDUCTION.md; instrument madelung-swingA
+{.py,-run2.txt} (guard enforced in-run: divergence truncation at t<3;
+data region s ≤ 5.3; instrument correction mechanical, N3f precedent).
+- G-A1 PASS: t-monotonicity PROVED (nullcline forward-invariance +
+  saddle eigenslope 7.772 > 7 puts the tail below; eye launch below;
+  crossing parity forbids return). t is a global coordinate on Γ.
+- G-A2 PASS: exact restatement Ψ(t) ≤ 0; grid max Ψ = −0.230.
+  ★ BOTH booked M2 numbers recovered from the reduction: worst ratio
+  0.9687 (= 1/√(2(2−S)) = 0.9688) AND min margin 0.230 at v = 0.74
+  (|Ψ| minimum — the M2 margin metric IDENTIFIED as the width-density
+  gap). Cross-chassis, cross-formulation.
+- G-A3 PASS ×2: S reproduced to 5.2e-9; peak-ratio extrapolation
+  0.9690 vs 0.9687. ★★ MERGE THEOREM PROVED: Ψ ~ [2/(1−t)](1 −
+  √(2(2−S))) ⇒ the interior inequality's peak case ⟺ S < 3/2. Open
+  items (1) and (2) of the consolidated record ARE ONE OBJECT at the
+  frontier. Identity chain closed: peak ratio = k_edge/2 (0.9688 =
+  1.9377/2) — the level-resolved tie-break collapses to the edge
+  identity at its own frontier.
+- G-A4 FAIL AS SCORED (booked, limit stands): eye gate Ψ(0.02) =
+  −0.418 vs declared −0.5 ± 0.03 — the hand convergence estimate
+  ignored the slow tail; rate identified: O(x^{−0.772}), the
+  Sommerfeld saddle eigenvalue (√73−7)/2 controls the eye margin.
+  Diagnostics −0.440/−0.459 (t = 0.01/0.005) confirm trend + rate.
+  The −1/2 limit itself is algebra (proved).
+- G-A5 report: relative margin decreases MONOTONICALLY eye → peak
+  (0.229 → 0.0312): the global pinch of the interior inequality IS
+  the dip margin. Strategy fixed: M-B validated enclosure of the
+  polynomial heteroclinic (saddle cone + backward interval Taylor —
+  transverse contraction makes backward benign) closes item 2 AND
+  the tight end of item 1 in one instrument; M-C walks the fat
+  middle (5–23% margins, coarse bounds suffice); eye end = algebra
+  + explicit 0.772-tail bound.
+STATE: interior inequality = REDUCED + endpoints settled (one proved,
+one proved-with-booked-gate-miss) + merged with the dip at its pinch.
+Remaining: the validated instrument. No unconditional claim tonight,
+as capped.
