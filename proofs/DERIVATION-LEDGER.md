@@ -3485,3 +3485,17 @@ GRADE CAP: characterization + one cross-identity; the residue then
 sharpens to deriving c_x from the mode ladder (named). NOTED AND
 REFUSED (inoculation): the numerical adjacency of c_d, R, and
 st_cross (~1.5–1.7) is suggestive of one scale and is NOT claimed.
+
+## 2026-08-12 — SWING 40 SCORED: the cross-identity lands at 0.3%; the two-cell ledger has one scale and one named derivation target
+S40a PASS: −(Li-6 net)/2 = −0.737 vs measured A=5 net −0.735 → +0.27%,
+zero dials — the lone half-turn banks half the pair's credit and pays
+the pair's parking. Two systems, one ½ rule, cross-predicted.
+S40b PASS (report grade): crude cancellation lands Be-8 in [−0.5,
++0.2] (central estimate −0.23 vs measured −0.092) — consistent, not
+claimed. S40c: the one-scale coherence booked ({1.474, 1.472, 1.7(3)})
+— refused as a result, filed as the target.
+STATE: the rung-tax residue is CHARACTERIZED — the two-cell sector
+now carries one measured scale c_x ≈ 1.47 and one cross-identity at
+0.3%; the derivation target is c_x from the mode ladder (the
+angular-harmonic step at cluster radius). Magnitudes remain honest
+reads, not derivations — as capped.
