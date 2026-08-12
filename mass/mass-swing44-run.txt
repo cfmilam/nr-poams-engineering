@@ -1,0 +1,15 @@
+A= 20: z_lock=4.200  n_f=  9  phi=0.450  <1/d^2>=0.2238  dcell=6.414  (edges 42 / ub 43)  [2s]
+A= 30: z_lock=4.267  n_f= 14  phi=0.467  <1/d^2>=0.2275  dcell=6.521  (edges 64 / ub 67)  [5s]
+A= 40: z_lock=4.400  n_f= 15  phi=0.375  <1/d^2>=0.2297  dcell=6.583  (edges 88 / ub 95)  [11s]
+A= 60: z_lock=4.667  n_f= 17  phi=0.283  <1/d^2>=0.2271  dcell=6.510  (edges 140 / ub 147)  [20s]
+A= 90: z_lock=4.622  n_f= 26  phi=0.289  <1/d^2>=0.2283  dcell=6.544  (edges 208 / ub 225)  [34s]
+A=130: z_lock=4.631  n_f= 38  phi=0.292  <1/d^2>=0.2300  dcell=6.592  (edges 301 / ub 325)  [56s]
+A=180: z_lock=4.711  n_f= 45  phi=0.250  <1/d^2>=0.2297  dcell=6.585  (edges 424 / ub 450)  [94s]
+A=220: z_lock=4.618  n_f= 62  phi=0.282  <1/d^2>=0.2302  dcell=6.598  (edges 508 / ub 547)  [139s]
+
+S44a phi_geom (heavy trio) = 0.275 | gate [0.28, 0.38] & within 15% of 0.331: FAIL
+S44b crossover: phis [0.45  0.467 0.375 0.283 0.289 0.292 0.25  0.282] | decreasing False saturating True -> FAIL
+S44c delta_cell (light trio) = 6.506 | gate [5.3, 6.8]: PASS | half-variant report: 3.253
+S44d the 1/3 clause: phi_geom NOT within 3%% of 1/3 (0.275 vs 0.3333) - clause dormant
+
+light-edge check: phi(20,30,40) = [0.45  0.467 0.375] (measured share 0.65 at Q1)

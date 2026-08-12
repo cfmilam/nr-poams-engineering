@@ -3712,3 +3712,37 @@ HAND EXPECTATIONS (honest, before build):
   with fresh registration.
 - S44b: n_f/A decreasing + saturating expected robustly (sign gate
   should PASS even under overshoot).
+
+## 2026-08-12 — SWING 44 SCORED: δ_cell DERIVED (+7.4%); the pool's SIZE is NOT the bare geometric frontier — undershoot booked, opposite the flagged risk
+Instrument mass/mass-swing44{.py,-run.txt} (free droplets A ∈ [20,220]
+under the ledger functional; greedy+augment lock graph; matching gap
+5–7% — WORSE than swing-17's 2.3%, quality caveat booked; single seed).
+- **S44c PASS — THE MATERIAL ONE: δ_cell = γ*²(ħ²/m)⟨1/d²⟩ = 6.506
+  over the light droplets' own lock edges vs measured 6.06 → +7.4%,
+  inside [5.3, 6.8].** The borrow-exchange event (two vertices, γ² —
+  the swing-33 forcing) evaluated at the lock graph's own separations
+  DERIVES the light-edge intercept. The duty-cycle ½ variant reports
+  3.25 — dead low, as pre-declared (a gap is a full re-pairing event,
+  not a parasitic half-credit).
+- S44a FAIL as gated: φ_geom = 0.275 vs [0.28, 0.38] — and the MISS
+  DIRECTION IS THE FINDING: the flagged risk was ×1.5–2 OVERSHOOT;
+  the bare patch census UNDERSHOOTS the measured 0.331 by 17%
+  (robust: the 5–7% matching gap inflates n_f, so a perfect graph
+  undershoots further). The borrow pool is BIGGER than the geometric
+  open-patch set. The registration's own census rule named the
+  second disjunct — "OR odd-orientation slot open" — declared
+  inactive in a geometric instrument: the orientation sub-census is
+  the pre-named owner of the missing ~0.06 share. Light edge
+  consistent (0.45–0.47 vs measured 0.65 — same direction).
+- S44b FAIL as gated (strict monotone violated by the A 180→220 rise
+  0.250→0.282, single-seed scatter class; broad shape decreasing +
+  saturating). No rescue.
+- S44d dormant (0.275 not near 1/3) — and the undershoot retires the
+  1/3-adjacency temptation for the GEOMETRIC census; the inoculation
+  stays live for the full pool.
+STATE: the pairing pool splits cleanly — DEPTH derived (δ_cell from
+γ² at lock separations, +7.4%); SIZE two-component: geometric open
+patches (derived, 0.275) + orientation-open slots (the pre-named
+residual, ~0.06 share, needs the 2-sense × 2-orientation cell census
+= a genuinely new instrument, registerable as swing 45). The A^{-1/2}
+mechanism is now: theorem (form) + derived depth + 83%-derived count.
