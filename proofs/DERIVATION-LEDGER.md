@@ -2732,3 +2732,53 @@ named); (5) T-P3′ (shared with extant literature); residues: native 9,
 γ coefficient, rung-tax coefficient, γ precision (gates the cluster
 sector), the +3.3% energy-vs-chain capacity seam, the skew confrontation
 program.
+
+## 2026-08-11 — SWINGS 30–31 REGISTERED (pre-run, block): the γ triangulation and the pairing ambush
+SWING 30 — γ TRIANGULATION (the precision frontier attacked with data in
+hand). PREMISE: the derived credit structure (δ_pair = ħ²/4mr_q², h =
+2c₃/z_c, c₃; chain z_c; muonic radii) makes each cluster extraction an
+EQUATION IN γ ALONE: trinucleon target δ = δ_pair + h; alpha target δ =
+δ_pair + h + c₃; W(γ) = 1+2γ (t, h) and 2+4γ (α). The ledger therefore
+OVERDETERMINES γ: three equations, one parameter. HAND VALUES DECLARED
+(pre-script, exact): γ_t = 0.817, γ_h = 0.825, γ_α = 0.831 — spread
+0.014, joint γ* ≈ 0.824. GRADE DECLARED: CONDITIONAL (theory-conditioned
+extraction; assumes the derived credits exact). The free-scattering
+import γ = 0.85(5) REMAINS the operational import — γ* is the ledger's
+internal joint solution, not a new measurement. NO re-anchor tonight
+(µ_frozen, a_sym, level identity untouched; the crown books are γ-free).
+GATES:
+- S30a COHERENCE: max pairwise spread of the three extractions < 0.05
+  (the import's own band width). Expected 0.014 — a 7× conditional
+  sharpening if it holds.
+- S30b CONSISTENCY: γ* ∈ [0.80, 0.90] (free-scattering band). Expected
+  0.824 (−3% from import central) — PASS expected.
+- S30c residual structure at γ*: recomputed steps vs derived credits,
+  signed. Expected: step1 0.85 vs h 0.946 (h runs ≈ +11% hot), step2
+  2.46 vs c₃ 2.336 (≈ −5% cold), sum −1%. If so: the split residual
+  RESURFACES as real ~10%-level structure (no longer γ-absorbable) —
+  the honest new frontier, booked.
+- S30d a_sym ripple signed (contact term ×(2.70/2.648) ≈ +2%): expected
+  small regression vs shadow, booked signed.
+SWING 31 — THE PAIRING AMBUSH (characterization, explicitly UNSCORED;
+no formula is proposed tonight). The swing-27 miss left a seen median
+(9.65) — the post-hoc environment is now poisoned for formula-making.
+INOCULATION (named, seen-adjacent, ALL REFUSED as post-hoc: the Wyler
+alarm is this list's existence): (2/3)δ̄ = 9.68 (+0.3%!), γ²δ_pair =
+10.13, 4c₃ = 9.35, μδ̄ = 9.79 — none may be "discovered" later without
+an independent forcing derivation registered BEFORE any further look at
+pairing data.
+THE REGISTERED TARGET SET (any future candidate must be derived with
+ZERO pairing-data inputs, then confront ALL FOUR blind):
+(T1) the A-drift: Δ√A medians 6.86 / 9.48 / 10.51 / 10.55 across the
+     four A-quartiles (already on record from swing 27);
+(T2) the n/p split: median Δ_n√A vs Δ_p√A — computed TONIGHT (blind
+     until run; expectation from extant systematics: near-equal, tagged);
+(T3) census-frontier suppression: Δ√A binned by distance to the extant
+     shell closures {2,8,20,28,50,82,126} (comparative label, tagged) —
+     expectation: suppression at distance 0–1;
+(T4) the np-pair indicator δV_pn (standard quarter double-difference,
+     extant label tagged): median over even-even, A ∈ [20, 220] —
+     expectation ~0.3 MeV scale.
+GATES: S31a-d = the four numbers land on the record with bands; NO
+scoring, NO candidate. The item stays OPEN by construction tonight; what
+closes is its TARGET DEFINITION.
