@@ -3461,3 +3461,27 @@ ledger becomes fully derived. Note on the record: under γ = 5/6
 exactly, W₂ = 1 + 2γ = 8/3 and W₄ = 2 + 4γ = 16/3 — the channel
 weights become the ledger's own small fractions; no use is made of
 this tonight.
+
+## 2026-08-12 — SWING 40 REGISTERED (pre-run): the rung tax — the two-cell ledger characterized by one cross-identity
+BOOKED DATA (swing 29, signs already scored 3/3): A=5 net −0.735;
+Li-6 − (α+d) = +1.474; Be-8 − 2α = −0.092 (AME2020).
+STRUCTURE DECLARED: (i) the halo pair (d on α) sits OUTSIDE the closed
+cell and banks the inter-cell credit c_d — a DIRECT READ from Li-6:
+c_d = 1.474. (ii) The lone n arrives as an unpaired half-turn: by the
+two-claimant ½ rule its bankable credit is c_d/2, while it must hold a
+full shared-turn slot open — its parking cost is the pair-equivalent
+c_d. NET PREDICTION, zero dials:
+    net(A=5) = c_d/2 − c_d = −c_d/2 = −0.737.
+(iii) Be-8: two closed cells — no halo pair, no lone half; net =
+cross-cell weak credits minus cross-cell strain, both ~1.5–1.8 MeV
+class (crude smeared-contact estimate st_cross ≈ 1.7(3)); near-
+cancellation expected, wide window declared.
+GATES: S40a THE CROSS-IDENTITY: A=5 net = −(Li-6 net)/2 within ±10%
+(hand: −0.737 vs −0.735 → +0.27%). S40b Be-8 window [−0.5, +0.2]
+(report grade — the crude cross-strain is not a derivation).
+S40c coherence report: one inter-cell contact scale c_x ≈ 1.5:
+{c_d 1.474, lone-n parking 1.472 extracted, st_cross 1.7(3) crude}.
+GRADE CAP: characterization + one cross-identity; the residue then
+sharpens to deriving c_x from the mode ladder (named). NOTED AND
+REFUSED (inoculation): the numerical adjacency of c_d, R, and
+st_cross (~1.5–1.7) is suggestive of one scale and is NOT claimed.
