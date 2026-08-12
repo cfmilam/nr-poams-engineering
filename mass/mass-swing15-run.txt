@@ -1,0 +1,31 @@
+SWING 15 — Rule C census. Theorem check: per-bond depth ceiling = 15.73 MeV
+
+== sc (reference): z=6.000 E=648 comp=1 beta1=433 (b1/E=0.668) T=0 Q=430 R=3 f=1.000 (raw tri=0 quad=648)
+  r_q=0.84: cred0=0.609 credU=0.614 | G_h0=36.57  G_h1=38.58  (upper 38.59)
+  r_q=0.86: cred0=0.581 credU=0.585 | G_h0=34.89  G_h1=36.90  (upper 36.91)
+  r_q=0.88: cred0=0.555 credU=0.559 | G_h0=33.32  G_h1=35.33  (upper 35.34)
+
+== bcc (reference): z=8.000 E=1000 comp=1 beta1=751 (b1/E=0.751) T=0 Q=748 R=3 f=1.000 (raw tri=0 quad=3000)
+  r_q=0.84: cred0=0.687 credU=0.690 | G_h0=36.76  G_h1=38.77  (upper 38.77)
+  r_q=0.86: cred0=0.655 credU=0.658 | G_h0=35.07  G_h1=37.08  (upper 37.08)
+  r_q=0.88: cred0=0.626 credU=0.628 | G_h0=33.49  G_h1=35.50  (upper 35.51)
+  eq sweep 0 (0s)
+  eq sweep 500 (3s)
+  eq sweep 1000 (6s)
+snap 0: z_raw(in-reach)=5.49  z_capped=4.195  (9s)
+snap 1: z_raw(in-reach)=5.47  z_capped=4.234  (9s)
+snap 2: z_raw(in-reach)=5.41  z_capped=4.234  (9s)
+
+== CAPPED EQUILIBRIUM LIQUID (physical): z=4.221 E=1080 comp=1 beta1=569 (b1/E=0.527) T=193 Q=108 R=269 f=0.994 (raw tri=193 quad=117)
+  r_q=0.84: cred0=0.529 credU=0.758 | G_h0=32.13  G_h1=33.89  (upper 34.38)
+  r_q=0.86: cred0=0.505 credU=0.723 | G_h0=30.65  G_h1=32.42  (upper 32.88)
+  r_q=0.88: cred0=0.482 credU=0.691 | G_h0=29.28  G_h1=31.04  (upper 31.48)
+  z_c=4.43: G_h0=30.65 G_h1=32.42
+  z_c=4.78: G_h0=30.65 G_h1=32.42
+  z_c=5.13: G_h0=30.65 G_h1=32.42
+
+S15b candidate gate: z_capped = 4.221 in [4.3, 5.3]: VOID
+S15c THE LANDING (books): G in [32,40] for BOTH h-variants x r_q band: FAIL
+  central: G_h0 = 30.65 (-14.5% vs C=35.85)   G_h1 = 32.42 (-9.6%)
+S15d references reported above (no gate).
+S15e gamma-channel reconciliation: deferred to swing 16 (report only).
