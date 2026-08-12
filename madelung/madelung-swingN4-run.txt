@@ -1,0 +1,15 @@
+N-4a: exact eye algebra (hbar = 1):
+  radial action = n_r + 1/2 for all (n, l), n<=5: PASS
+  total offset: (n_r + 1/2) + (l + 1/2) = n exactly -> offset sum = 1, forced by whole n
+
+N-4b selection table (required: radial ledger n_r+1/2 AND angular form (l+1/2)^2):
+  (1/4 per fold): rad 1/2, ang 1/2     tower exact: True   reproduces BOTH required forms: YES — unique
+  (1,0): rad 1, ang 0                  tower exact: True   reproduces BOTH required forms: no
+  (0,1): rad 0, ang 1                  tower exact: True   reproduces BOTH required forms: no
+  note: total-offset-1 splits all reproduce the tower SUM (degenerate there);
+  the PAIR {radial 1/2, Langer (l+1/2)^2} is reproduced by the fold rule alone —
+  (1,0) puts the offset where no angular fold exists and leaves the polar folds
+  uncounted; (0,1) the reverse. Fold counting: radial 2 folds, polar 2, azimuth 0.
+
+N-4c: Aufbau L = l+1/2 import -> derived-offset (polar fold pair);
+      N-3 Scott 1/2 -> native root = the radial fold pair at the eye staircase edge.

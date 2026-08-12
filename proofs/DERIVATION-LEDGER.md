@@ -4538,3 +4538,25 @@ gains its native root (the radial fold pair at the eye); N-4d scope:
 the fold-escrow mechanism's own deeper derivation (why exactly ¼ —
 the Airy asymptotics made native) NAMED as residue; Maslov/Langer
 rigor cited, not re-proved.
+
+## 2026-08-12 — CENSUS SWING N-4 SCORED: the ½ is a quarter turn per fold — selection by the PAIR, degeneracy at the sum named honestly
+Instrument madelung/madelung-swingN4-run.txt.
+- N-4a PASS: exact eye algebra — radial action = n_r + ½ for every
+  (n, l) [zero dials]; total offset (n_r+½) + (l+½) = n exactly:
+  THE OFFSET SUM = 1 IS FORCED by whole-turn conservation.
+- N-4b PASS with the honest note ON the record: every total-offset-1
+  split reproduces the tower SUM (degenerate there — the run shows it
+  and says so). The discrimination is the PAIR: the radial ledger
+  independently reads n_r + ½ (the action identity) AND the angular
+  ledger independently requires the Langer form (l+½)² (the form the
+  front's own TF k(Z,l) instruments measurably need). Unique
+  survivor: (½, ½) = ¼ TURN PER LIBRATION FOLD — radial 2 folds,
+  polar 2 folds, azimuth circulates (0 folds; m exact, consistent
+  with the exhibits' exact 2l+1 counting).
+- N-4c PASS: consequences booked — the Aufbau L = l + ½ import
+  UPGRADES to derived-offset (the polar fold pair); N-3's Scott ½
+  gains its native root (the radial fold pair at the eye).
+- N-4d residue: the ¼-escrow's own deeper derivation (Airy connection
+  made native) — named; Maslov/Langer rigor cited throughout.
+GRADE: derivation (offset sum forced; distribution selected by the
+pair + fold counting); the fold-escrow root stays a named residue.
