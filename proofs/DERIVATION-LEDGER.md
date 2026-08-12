@@ -3597,3 +3597,37 @@ at 0.1% ⇒ 5/6 stands and P gains its number.
 THE γ RESIDUE IS NO LONGER A FREE QUESTION — it is the anchor seam
 wearing a second hat. Open-list consolidation: {γ coefficient} +
 {pair-anchor −0.41%} → one item: THE RADIUS SEAM.
+
+## 2026-08-12 — SWING 43 REGISTERED (pre-run): the inter-cell scale c_x — object-class enumeration, magnitudes hand-declared, class gates only (no point claims)
+TARGET: c_x ≈ 1.47 (the Li-6 direct read c_d = 1.474; the A=5
+cross-identity rides it). What OBJECT is the inter-cell credit?
+THE ENUMERATION (classes frozen; magnitudes hand-declared from
+standing imports; radii = matter class r_α 1.49, r_d 1.96):
+- K1 composite shared turn at LOCK REACH (the bulk rule scaled up):
+  c = ħ²/4μR², μ = m_d m_α/(m_d+m_α) = (4/3)m, R = r_α + r_d + ξ =
+  3.87 fm → c = 0.52 → −65%. HAND-DECLARED DEAD.
+- K2 composite shared turn at SURFACE STAND-OFF: the halo pair's turn
+  rides the cell surface at its own rate radius, R = r_α + r_q = 2.35
+  → c = ħ²/(4·(4/3)m·R²) = 1.41 → −4.5%. HAND-DECLARED SURVIVOR
+  CLASS. Joints named: J1 the stand-off geometry (why surface + one
+  quantum radius is THE lock line for a composite-on-cell); J2 the
+  reduced-mass booking for composite claimants (extends two-claimant
+  ½ from quanta to cells). ±30% class gate only — the −4.5% point is
+  NOT claimed (coincidence-rich zone; several radius forks sit within
+  5% and none is forced).
+- K3 surface weak-mesh pair (the d meshes 2 cell-surface quanta
+  through weak channels): raw 2γδ₀ ≈ 23 MeV — needs an overlap
+  discount ~0.06 that has no derivation; the cell bar (no open lock
+  channel) argues the direct mesh is BARRED, consistent with the
+  two-order suppression. HAND-DECLARED PARKED (not dead by number —
+  dead by the bar, which is the cell-closure theorem already on the
+  books).
+GATES: S43a — K1 dead by magnitude as declared (|miss| > 50%).
+S43b — K2 inside ±30% (hand −4.5%). S43c — K3's bar consistency
+stated (the suppression REQUIRED is the cell bar's own prediction).
+S43d (report) — the A=5 cross-identity re-expressed in K2: the lone
+half-turn's R shifts (r_α + r_q vs r_α + r_n-halo) reported signed,
+unclaimed.
+GRADE CAP: CLASS IDENTIFICATION (K2), two joints named. Residues:
+derive the stand-off line (J1) and the composite claimant booking
+(J2) — then c_x closes or dies on its own point.
