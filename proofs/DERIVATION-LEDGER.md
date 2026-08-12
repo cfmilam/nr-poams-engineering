@@ -3527,3 +3527,51 @@ is a ceiling (geometry), a realization (packing theorem, gap-bounded),
 and a measurement (energy books) that read the realization. Residue:
 none new; the matching-gap bound 2.3% is the standing owner of the
 ceiling-realization distance.
+
+## 2026-08-12 — SWING 42 REGISTERED (pre-run): the two-mesh share — one claim rule, two appearances; and the sensitivity theorem that merges the γ question into the anchor seam
+PREMISE P (named, the swing's one joint): UNIVERSAL CLOSING-CLAIM
+SHARE — every banked credit carries a 1/6 reservation (the closing
+vertex's per-vertex split Ω/3 of the swept excess × the ledger's
+two-claimant ½), held by the loop-in-waiting through the object's
+shared bond. Co-sense neighbors: the reservation CASHES at the next
+closure — this is the swing-32/36 transfer, measured f* = 0.1669.
+Counter-sense (antiparallel) mesh: the reservation's reference must
+co-rotate; it can never be supplied; the sixth is FORFEIT:
+    γ = 1 − 1/6 = 5/6  (forced under P, zero freedom).
+Under P the transfer fraction and the channel asymmetry are ONE
+STRUCTURAL CONSTANT appearing in its two sense classes. The share
+applies to the banked quantity of its object (the loop's credit h;
+the mesh's gross δ₀) — stated, not hidden.
+INTERNAL IDENTITY (flagged, named, NOT counted as evidence): in the
+standing derived credits, c₃/δ_pair = (3/4·1/18)/(1/4) = 1/6 EXACTLY
+— but c₃'s lineage (swing 11: 3-loop collective moment per bond) is a
+geometric moment, not a claim construction; the exact sixth is either
+deep coherence or moment coincidence. On the record, unclaimed.
+HAND-DECLARED ARITHMETIC (before the instrument):
+- γ* reproduction at standing centrals (r_q = 0.86, strain′, f = 1/6):
+  0.8314(2), spread ~0.0007.
+- SENSITIVITY THEOREM: the extraction responds as dγ = (1+2γ)·d ln r_q
+  ≈ 2.66 per unit ln r_q (τ, strain, X radius-chain quantities fixed;
+  only dp, c₃, h, z_c move). The 5/6-vs-γ* gap (+0.0019) ≡ +0.07% in
+  r_q ≡ −0.6%-class in the pair anchor.
+- TWO PINS: r_q* (exact 5/6) = 0.8606(3), whence dp = 13.997 vs muonic
+  anchor 14.075 → −0.55%. Anchor-pinned r_q (dp ≡ 14.075) = 0.8583,
+  whence γ* → 0.826(1) and 5/6 sits +0.9% away — OUTSIDE the ±0.004
+  window.
+- CONSEQUENCE (the theorem): the γ-coefficient question and the
+  standing pair-anchor tension (−0.41%, swing 24) are ONE SEAM. The
+  ledger cannot discriminate 5/6 from 0.8314 internally; the anchor
+  resolution decides.
+KILL CONDITION ON THE RECORD (falsifiable commitment): if the pair
+anchor resolves toward dp = 14.075 (r_q → 0.858 operational), γ = 5/6
+DIES (exits the window). If an independent r_q holds ≥ 0.860 at 0.1%,
+5/6 stands and P gains its number. No internal rescue permitted.
+GATES: S42a — under P, 5/6 forced; consistency pair listed (f* 0.1669
+measured; swing-39 menu death). S42b — instrument reproduces the four
+hand numbers {0.8314, sensitivity 2.4–2.9, r_q* 0.8606(4), anchor-γ*
+0.826(1)}. S42c (report, unclaimed) — zero-parameter table at exact
+5/6 (W₂ = 8/3, W₄ = 16/3): declared class step1 +11% hot / step2 ~0% /
+sum +2.5% (re-expresses the same seam; no grade).
+VERDICT DECLARED IN ADVANCE: candidate PROMOTES from coincidence-class
+to PREMISE-CONDITIONAL DERIVATION (P named), stays unclosed pending
+the anchor seam; grade cap honored.
