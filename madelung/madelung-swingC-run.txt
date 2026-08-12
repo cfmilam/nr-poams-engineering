@@ -1,0 +1,19 @@
+guide: phi(1) = 1.467319745 (M-B booked 1.4673197); phi(0.1) = 0.024180
+chain: 570 segments; failures so far: 0
+D-brackets: eye D(0.1) in [1.79621, 1.87485] (width 0.0786); outer D(2.5) in [2.36468, 2.39435]
+middle piece: 160 intervals, 0 failures; worst margin 0.031 at t=0.870
+eye piece: 1/(1-t0) + 1/(tau_min-1) = 1.85185 <= 2: PASS (tau_min = 2.350, margin 7.4%)
+peak piece: m in [0.50351, 0.53468] on [0.9,1]; M_min 0.53068 on [1,1.15]; r = 1.00754
+  (3+r)^2 = 16.06037 <= 32*m_min = 16.11222: PASS (margin 0.32%)
+  outer-window self-consistency (0.1^2 M_max <= 0.15^2 m_min): PASS
+
+TOTAL exact checks: 2447; failures: 0
+G-C1 PASS (chain, 570 segments incl. extension)
+G-C2 PASS — THE INTERIOR INEQUALITY sigma_hat >= sigma* IS A THEOREM on (0,1)
+  (eye piece + middle intervals + peak piece + chain certificates;
+   modulo the two named classical imports of M-B)
+
+G-C3 spot rows (D-bracket vs M-A numeric v = e^-D):
+  t=0.14: D in [1.45926, 1.51020] -> v in [0.22087, 0.23241]
+  t=0.50: D in [0.30096, 0.30558] -> v in [0.73670, 0.74010]
+  t=0.74: D in [0.06994, 0.07078] -> v in [0.93167, 0.93245]

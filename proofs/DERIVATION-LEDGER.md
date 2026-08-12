@@ -4124,3 +4124,48 @@ INTERIOR INEQUALITY IS A THEOREM (modulo the two named imports).
 G-C3 consistency: brackets contain the M-A numeric Ψ profile (spot
 rows). G-C4 report: worst margins per piece; claim-map rows 5 and 1
 status updates drafted for the consolidated record.
+
+## 2026-08-12 — MADELUNG SWING M-C SCORED: ★★★★★ THE INTERIOR INEQUALITY IS A THEOREM — 2447/2447 EXACT CHECKS; THE MADELUNG MATHEMATICAL TIER IS CLOSED
+Instrument madelung/madelung-swingC{.py,-run.txt}.
+- G-C1 PASS: chain verified 0.1 → 2.95 (570 segments; M-B grading;
+  extension anchored at t=1 from M-B's [L(1), U(1)]).
+- G-C2 PASS: the four-piece certificate covers (0,1) with ZERO failed
+  checks — eye piece (one check, margin 7.4%, τ_min = 2.35 > 2.125
+  required); middle piece (160 interval-covering checks, worst margin
+  3.1% at t = 0.87); peak piece ((3+r)² = 16.0604 ≤ 32·m_min =
+  16.1122, margin 0.32% — thin exactly where the merge theorem says
+  it must be: the peak margin IS the dip margin); outer-window
+  self-consistency exact. ⇒ σ̂ ≥ σ* ON (0,1): THEOREM, modulo the two
+  named classical imports (Sommerfeld/Hille heteroclinic;
+  stable-manifold tangency).
+- G-C3 PASS: D-brackets contain the M-A numeric profile at all spot
+  rows (t = 0.14 / 0.50 / 0.74).
+- CONSTRUCTION ITERATIONS BOOKED: (1) middle-check Padé fraction
+  inverted in code (algebra right in registration, transcription bug;
+  fixed); (2) δ-ramp at the peak exceeded the barrier slack (the peak
+  is the tightest region — reverted to M-B's verified flat grading;
+  the D-bracket widening cost ~0.2% of middle margin, absorbed).
+CONSEQUENCE CHAIN (all previously proved in the record, now fed by
+theorem-grade D′ ≤ 0): D′ ≤ 0 at every level + D(f₀) = 0 ⇒ D ≥ 0;
+deficit identity ⇒ 2 − k(J) = Abel[−D′] ≥ 0 with strict positivity ⇒
+**k(J) < 2 STRICT for every J on every row** — the Madelung tie-break
+("lower n first") is now a THEOREM at the mathematical tier: closure
++ self-duality + Coulomb eye give the n+l families (C1), and the
+census's strict sub-closure gives the ordering, end to end, zero
+fitted numbers, modulo the TF census stand-in (the physics-tier
+import, named since the charter).
+CONSOLIDATED-RECORD STATUS: open items 1 AND 2 CLOSED (both by exact
+certificate — stronger than the "validated numerics" the record asked
+for). Claim rows updated: 5 → THEOREM (certificate); 10 → THEOREM
+(certificate, S ∈ [1.465319, 1.469320]). REMAINING OPEN ON THE FRONT:
+item 3 only — the POAMS-native census (replace the TF stand-in with
+closure-stacking; the physics tier). Day's Madelung arc: M-A merge
+theorem → M-B dip certificate → M-C full interior certificate: the
+2026-08-09 "analytic proof OPEN / soft estimates provably blind"
+boundary is fully paid three days later.
+EXHIBIT PROPOSAL (ratification required): aufbau-as-closure.html
+carries the empirical k ∈ (1.60, 1.94) leg — propose one line
+upgrading the k < 2 statement to theorem-grade with the rigorous
+k_edge bracket [1.93405, 1.94133] and a pointer to the certificate
+docs. Research-repo docs (reduction + enclosure + consolidated
+record) updated without ratification per house rule (research tier).
