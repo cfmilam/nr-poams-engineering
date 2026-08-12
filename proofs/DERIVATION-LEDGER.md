@@ -4169,3 +4169,54 @@ upgrading the k < 2 statement to theorem-grade with the rigorous
 k_edge bracket [1.93405, 1.94133] and a pointer to the certificate
 docs. Research-repo docs (reduction + enclosure + consolidated
 record) updated without ratification per house rule (research tier).
+
+## 2026-08-12 — NATIVE-CENSUS CAMPAIGN OPENED + SWINGS N-1/N-2 REGISTERED (derivation block, pre-execution): the Thomas–Fermi stand-in derived as closure-stacking bookkeeping
+THE TARGET (the Madelung front's last open; also the Aufbau exhibit's
+first named import): derive the census's net ledger — the screening
+shape χ — from closure stacking, replacing "Thomas–Fermi stands in."
+FAMOUS-EQUATION HONESTY (binding, the M-C1-class clause): the TF
+equation is 98 years old (Thomas 1926, Fermi 1928; March; the rigorous
+Z→∞ limit Lieb–Simon 1977). NO novelty of form is claimed — the claim
+is the BOOKKEEPING DERIVATION (discreteum counting + the E=0 license),
+exactly the Mass-ledger discipline vs von Weizsäcker. The falsifier
+risked: the derivation has ZERO dials — if the cell theorem's
+coefficient or the scale b were to land anywhere but the classical
+values, the POAMS reading would be FALSIFIED. Wyler gate: every
+counting step must name its extant shadow.
+SWING N-1 (the cell theorem) — registered structure:
+- A persistent census mode = three independent whole-turn winding
+  counts (n_r, l, m) about the eye — the discreteum's own coordinates
+  (extant shadow: Bohr–Sommerfeld/Weyl counting). Fractional turns are
+  no thing ⇒ one mode per (2πħ)³ action cell — THE CELL IS FORCED by
+  whole-turn closure, not chosen.
+- × 2 phase senses per cell (the ± doubling — DERIVED, The Elements).
+- Admission: the E=0 zero-binding frontier license (the same H4-class
+  license the closure theorem uses — one license, two jobs).
+- HAND-DECLARED RESULT: census density n = (2m)^{3/2}(−V)^{3/2}/(3π²ħ³)
+  — the 3/2 power AND coefficient forced, zero freedom.
+SWING N-2 (self-consistency → the census equation) — registered:
+- Budget bookkeeping: local rate deficit −V = eye term + like-sense
+  strain superposition under the 1/r RANGE LAW (the ONE import — the
+  same range law as the Mass front's strain column; sense assignment
+  physical: census members mutually like-sense, eye opposite;
+  "attraction/repulsion" = sense bookkeeping, GROUNDING §3).
+- HAND-DECLARED ALGEBRA: Poisson + cell law ⇒ χ″ = χ^{3/2}/√x exactly,
+  with b = (3π/4)^{2/3}·a₀/(2Z^{1/3}) = 0.88534 a₀ Z^{−1/3} (≡ the
+  classical (1/4)(9π²/2Z)^{1/3}a₀ — must match identically).
+- Neutrality identity (hand-declared): ∫√x χ^{3/2}dx = [xχ′ − χ]₀^∞ = 1
+  ⟺ χ(0) = 1 (bare eye) + xχ′ → 0 ⟺ THE SOMMERFELD BRANCH — the
+  heteroclinic of M-A/B/C selected by whole-count bookkeeping.
+- CONSEQUENCE: every theorem of this week (dip certificate, interior
+  inequality, k_edge bracket, valve/tangency, n+l tie-break) inherits
+  the native chain {discreteum cell + sense doubling + three windings
+  + E=0 license + 1/r range law} in place of "TF imported."
+GATES: N-1a coefficient exact; N-1b winding basis + independence
+import named w/ shadows; N-2a equation + b exact (zero dials); N-2b
+branch selection = neutrality; N-2c import audit table before/after;
+N-2d correspondence clause — the continuum census is the far-field
+appearance of the discrete count (GROUNDING §1), its discreteness
+corrections NAMED not claimed (eye-adjacent turns = extant Scott
+class; sense pairing = the AXIOM-C/pairing front; both future).
+GRADE CAP: bookkeeping-derivation (the Mass-ledger class); the
+independence/isotropy of the three windings and the continuum
+smoothing are named imports with rigorous extant anchors (Lieb–Simon).
