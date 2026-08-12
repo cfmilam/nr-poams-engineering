@@ -4410,3 +4410,28 @@ GRADE CAP: term-1 identity + tower identification; the eye-staircase
 coefficient's native derivation (the ½ from quarter-turns at the two
 libration edges) is the named residue for a future swing; term 3
 belongs to AXIOM-C.
+
+## 2026-08-12 — CENSUS SWING N-3 SCORED: the tower stands — c₇ is OUR identity at 1.2e-7; the Scott term reads as the eye staircase; Ne/Ar land at 0.6%
+Instrument madelung/madelung-swingN3-run.txt.
+- N-3a PASS: c₇ = (3/7)·B₁/β = 0.768745124 from the N-2 chain's own
+  constants (β = (3π/4)^{2/3}/2, B₁ the census launch) vs the extant
+  TF constant 0.768745 — 1.2e-7, zero dials. THE LEADING ATOMIC
+  BINDING CONSTANT IS AN IDENTITY OF THE DERIVED CENSUS.
+- N-3b PASS: the labeled tower −c₇Z^{7/3} + Z²/2 − c₅Z^{5/3} lands on
+  the non-relativistic benchmarks at 0.61% (Ne) and 0.65% (Ar).
+  Record at Z=18: continuum census −652.8 + eye staircase +162.0 +
+  sense pairing −33.4 = −524.1 vs −527.5 Ha.
+- N-3c PASS: the tower map booked — each term is the next
+  discreteness scale: Z^{7/3} = the continuum census (derived,
+  N-1/N-2); Z² = the eye staircase (the ramp-vs-stairs inversion of
+  GROUNDING §1 at the eye, scale forced, ½ = the Langer half-turn
+  offset; rigor cited: Siedentop–Weikard); Z^{5/3} = the sense-pairing
+  layer (AXIOM-C's object; coefficient imported, Schwinger/
+  Fefferman–Seco).
+RESIDUES NAMED: native derivation of the ½ (quarter-turns at the two
+libration edges — a future swing); the Z^{5/3} coefficient from the
+pairing ledger (AXIOM-C front, standing). GRADE AS CAPPED: term-1
+identity + tower identification. The census front now carries: the
+equation DERIVED, its theorems CERTIFIED, its energy constant an
+IDENTITY, and its corrections OWNED — none open without a named
+owner.

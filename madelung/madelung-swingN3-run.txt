@@ -1,0 +1,14 @@
+N-3a: c7 from OUR chain = (3/7) * B1 / beta = (3/7) * 1.5880710226 / 0.8853413770 = 0.768745124
+      extant TF constant 0.768745 -> |diff| = 1.24e-07 -> PASS
+
+N-3b: tower E(Z) = -c7 Z^{7/3} + Z^2/2 - c5 Z^{5/3}
+  Z=10: tower -128.15 vs reference -128.94 Ha -> 0.61% PASS
+  Z=18: tower -524.12 vs reference -527.54 Ha -> 0.65% PASS
+N-3b: PASS
+
+record (Z=18): continuum census -652.8 | eye staircase +162.0 | sense pairing -33.4 | sum -524.1
+
+N-3c tower map: Z^{7/3} = continuum census (OURS, derived N-1/N-2) |
+  Z^2 = eye staircase (discreteum ramp-vs-stairs; 1/2 = Langer half-turn offset;
+  rigor: Siedentop-Weikard 1987) | Z^{5/3} = sense-pairing layer (AXIOM-C front;
+  coefficient Schwinger, rigor Fefferman-Seco) — each term = the next discreteness scale.
