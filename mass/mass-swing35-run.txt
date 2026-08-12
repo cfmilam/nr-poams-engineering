@@ -1,0 +1,15 @@
+swing 35 — self-consistent fraction, lane audit (h=0.9458, c3=2.3363)
+lane values at f=0: s1_pooled 0.8498 | s1_t 0.8055 | s1_h 0.8941 | s2 2.4647 | gamma*(0) 0.8242
+E1-pooled : f* = 0.3055   (gamma*' 0.8416)
+E1-t      : NO root in [0,0.35] (F(0)=+0.1404, F(0.35)=+0.0299) — ESCAPES
+E1-h      : f* = 0.1646   (gamma*' 0.8335)
+E2        : f* = 0.1224   (gamma*' 0.8311)
+
+S35a existence (E1-pooled & E2 unique in [0,0.35]): PASS
+S35b span of in-range solutions: 0.1831 vs 0.05 -> STRAIN-LIMITED (queue reorders: displacement layer gates the fraction)
+  row F6 1/6       f=0.1667 | nearest solution E1-h 0.1646 (d=0.0021)
+  row F7 (2/zc)^2  f=0.1639 | nearest solution E1-h 0.1646 (d=0.0007)
+  row F8 1/(2zc)   f=0.1012 | nearest solution E2 0.1224 (d=0.0211)
+
+S35c report: lane bias (s1_h - s1_t)/2 = +0.0443 MeV at gamma*(0) — strain-side, T-P3' class;
+  pooled step1 sits +0.0443 above the strain-free t-lane.

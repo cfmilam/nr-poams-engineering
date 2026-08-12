@@ -3144,3 +3144,26 @@ GATES:
   T-P3′ residual class; escape behavior of E1-t.
 GRADE: audit/report. No fraction claim either way tonight; the swing's
 product is the QUEUE ORDER and the named contamination channel.
+
+## 2026-08-12 — SWING 35 SCORED: STRAIN-LIMITED, as declared — the displacement layer now formally gates the transfer fraction
+Instrument mass/mass-swing35{.py,-run.txt}. Every crossing landed on
+the hand declarations: E1-pooled f* = 0.3055 (hand 0.30); E1-t ESCAPES
+[0, 0.35] (hand: escape near 0.44); E1-h f* = 0.1646 (hand 0.165);
+E2 f* = 0.1224 (hand 0.124).
+- S35a PASS (E1-pooled, E2 unique in window).
+- S35b: span 0.1831 ≥ 0.05 ⇒ **STRAIN-LIMITED** — the cluster ladder
+  cannot force the transfer fraction while the mirror residue stands.
+  THE QUEUE REORDERS: the displacement-layer attack (T-P3′ class)
+  formally GATES the fraction identification.
+- S35c: lane bias (s1_h − s1_t)/2 = +0.044 MeV — the strain-side
+  contamination on the pooled step, quantified; the strain-free t-lane
+  escapes the window entirely (its step runs 0.140 cold of h).
+- SIGNED OBSERVATION, NO CREDIT (the gate said no claim): the h-lane
+  self-consistent solution sits 0.0007 from F7 and 0.0021 from F6 —
+  suggestive, refused; it rides the exact lane the strain residue
+  contaminates, which is the point of the verdict.
+STATE: item 2 (fraction forcing) BLOCKED BEHIND item 3 (displacement
+layer) by measurement, not by taste. The morning's order of battle is
+now: swing 36 = the displacement layer (native next strain layer:
+operator-split / finite-quantum-size / surface-exchange forks), THEN
+re-run the lane audit with the corrected strain column.
