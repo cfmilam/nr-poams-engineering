@@ -4609,3 +4609,32 @@ candidate named, not flown).
 STATUS RULE: axiom-status changes are Star Lord's call (two-pillar
 precedent) ⇒ scored tonight as PROPOSED DEMOTION, ratification
 required before any exhibit surface changes.
+
+## 2026-08-12 — AXIOM-C SWING X-1 SCORED: PROPOSED DEMOTION STANDS — the chain closes on standing premises; the energetic layer stays open with its donor named
+- X-1a PASS: the chain consumes NO new axiom — D1 is GROUNDING §1
+  verbatim (ratified 2026-08-05, the Light-Speed Ch.5 reading); D2 is
+  the census's definition (the front's own object since the charter);
+  D3 is arithmetic. The conclusion is forced: at the filing grain,
+  same-sense double-filing is uncountable rather than forbidden, and
+  basis ambiguity would require the non-integer blends D1 bars.
+- X-1b PASS (consistency): the filing ban, capacity 2 (with the
+  derived ± sense), and the aufbau growth capacities 2(2l+1) all
+  re-derive from the corollary + the exact m-count (N-4's no-fold
+  azimuth); the exhibit's pair-level exclusion theorem (minus sign
+  native to the closure-mode reading) sits downstream unchanged —
+  the corollary supplies exactly the "phase-basis definiteness" it
+  had assumed.
+- X-1c: the honest boundary — what counting does NOT deliver: the
+  same-sense hole's SHAPE and COEFFICIENT (the statistical ρ^{1/3}
+  discount at TFD fidelity; the d-collapse instrument's import).
+  Named cross-front donor for a future registered swing: the Mass
+  ledger's four-channel contact machinery (like-sense mesh = barred
+  channel; the strain/exchange bookkeeping already derived there at
+  cluster scale) — the atomic hole should be the same books at the
+  census's density. NOT flown tonight.
+VERDICT: AXIOM-C → PROPOSED COROLLARY (demotion), scope-bounded to
+the filing grain, awaiting Star Lord's ratification per the
+two-pillar precedent. If ratified: the Aufbau exhibit's open item
+(ii) contracts from "derive AXIOM-C or establish it irreducible" to
+the energetic hole coefficient alone, and the exhibit's imports
+paragraph updates (surface change gated on ratification).
