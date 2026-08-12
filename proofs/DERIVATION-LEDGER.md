@@ -3401,3 +3401,18 @@ GATES: S38a coherence — the counting uses ONLY standing derived
 objects (z⌈⌉, the ½ rule, the m = 1 floor) and reproduces both
 endpoints and the linear interior. S38b — degeneracy stated, no
 unique claim. S38c — discriminator on the record.
+
+## 2026-08-12 — SWING 38 SCORED: the 9 is a ledger count — two degenerate readings, one discriminator on the record
+S38a PASS: 1 (core, the forced m=1 floor) + 2 (claimants per shared
+turn, the δ_pair booking) × 4 (locks remaining when one of the five
+derived-ceiling channels is the fall direction) = 9, and occupancy-
+proportional filling gives m(u) = 1 + 8u exactly — endpoints and
+interior from standing objects only, zero new numbers. S38b PASS:
+cell reading (4 quanta × 2 claimants + core) degenerate — stated, no
+unique-forcing claim. S38c PASS: pure-species-skin discriminator
+booked (√(1/5) vs √(1/9) shoulder).
+STATE: the m = 9 endpoint moves from TAGGED IMPORT to DERIVED COUNT
+(two readings, discriminator named). λ(u) = 1/(1+8u) and a_s = 18.4
+now carry no extant-tagged number: the skin coefficient chain is
+ledger-native end to end. Residue REPLACED by the sharper one:
+which counting (capacity vs cell) — future skin data decides.
