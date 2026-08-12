@@ -2618,3 +2618,78 @@ DECLARED RECOMPUTES (hand values, exact, pre-script):
 GATES: S25a script reproduces every hand value above (±0.02); S25b all
 confrontations inside declared bands (anchor, marginal, s, sum-in-γ-band,
 δ̄-bracket, books window, T-PEAK bracket); S25c every shift booked signed.
+
+## 2026-08-11 — SWING 25 SCORED: reconciled state adopted; every shift signed; crown unchanged
+S25a PASS — script reproduces every registered hand value (z_c 4.9401,
+ladder 14.075/14.640/17.057 split 0.087, steps +0.56/+2.42/+2.98).
+S25b PASS — all confrontations inside declared bands: anchor −0.41%,
+marginal −3.4%, sum +10.1% (inside γ band [2.35, 3.61]), s γ-limited,
+δ̄ = 14.514 inside Rule-C bracket AND straddled by the functional h₀/h₁
+gross, books functional 37.01 (+3.2%) / liquid 35.06 (−2.2%) both in
+window, T-PEAK A* = 51.1 inside [49, 66].
+S25c shifts signed: anchor −2% → −0.41% (IMPROVED); marginal −8.7% →
+−3.4% (IMPROVED); two-loop sum −2.2% → +10.1% (REGRESSED, γ-entangled —
+named: no single γ aligns anchor/marginal/sum centrals; γ precision is
+the cluster-sector frontier); books central +1.0% → +3.2% (functional,
+min binds at realized z̄) / −2.0% → −2.2% (liquid); level identity
+22.2 → 21.50; frozen strong-channel band → [20.5, 22.6].
+RECONCILED STATE (operational): z_c = 4.940 (derived chain); muonic
+ladder; δ̄ = 14.51; δ₀(z_c) = 21.5; h = 0.946; s = 0.405; a_s = 18.39;
+crown books close under the unique rule. Instruments
+mass/mass-swing25{.py,-run.txt}.
+
+## 2026-08-11 — SWINGS 26–29 REGISTERED (pre-run, block): the closure sweep
+SWING 26 — the 1/m interior (open item 1). DERIVATION: the gradient tax
+divides among DISTINGUISHABLE co-falling amplitude classes. D1: the
+filled ladder carries 9 classes (the booked filled-ladder limit — a named
+import of extant gradient bookkeeping, tagged as such; deriving 9
+natively remains open). D2: the lone floor is forced — any nonzero fall
+is carried by at least one class (m ≥ 1, the swing-22 tail selection).
+D3: INDEPENDENT-CLASS PARTICIPATION — each of the 8 non-floor classes
+participates in proportion to its occupancy at local filling u
+(superposition of independent families; participation is linear in
+amplitude occupancy by independence — one named line) ⇒ m(u) = 1 + 8u
+EXACTLY. Confrontation: already measured-selected twice (swing 22: tail
+kill + window kill). GATE S26a: no free interior remains — the linear
+form is forced given the endpoints; item (1) closes to ONE residue:
+derive the 9 natively (named, stays on the list).
+SWING 27 — the A^{-1/2} pairing magnitude (open item 3). CLAIM: the
+pairing term is the LAST LIKE PAIR's lock: like-parallel is BARRED
+(filing ban) ⇒ the pair locks ANTIPARALLEL = the weak channel ⇒ depth
+γ·δ_pair (both factors already booked); the pair's shared turn is a
+collective amplitude spread coherently over the A-quantum ladder ⇒
+dilution 1/√A (coherent-amplitude normalization — the named joint).
+PREDICTION (zero new constants): Δ_pair = γ·δ_pair/√A = 0.85·14.018/√A
+= 11.92/√A MeV [10.7, 13.2 over γ and r_q bands].
+INSTRUMENT: AME2020 experimental odd-even gaps, 3-point Δ(A) across the
+chart; median of Δ·√A over ODD-A→even neighbors (both n and p gaps),
+A ∈ [20, 220]. GATES: S27a median Δ√A inside [10.7, 13.2] ⇒ identified;
+S27b A-shape report: median per A-quartile (the A^{-1/2} form itself
+tested, direction only); S27c the old ×1.5-high dimensional route
+RETIRED either way.
+SWING 28 — the sign root (open item 4), direction grade. CLAIM: a shared
+turn between co-rotating (parallel) unlike quanta composes SENSE-COHERENT
+writhe — full rate credit; antiparallel senses compose with partial
+cancellation — reduced credit (γ < 1, direction). Like-parallel is barred
+by the filing ban (same rate cell), so the deepest channel is forced to
+UNLIKE-PARALLEL. CONFRONTATIONS (booked facts, no instrument): (i) the
+deuteron binds spin-1 not spin-0; (ii) like-parallel barred (swing 5);
+(iii) γ_gross = 0.85 < 1 measured. GATE S28a: all three consistent ⇒
+sign root closes at DIRECTION grade; the γ coefficient remains a
+measured import (its derivation = open residue, named — candidate class
+patch-overlap of opposed senses, NOT swung tonight: the Wyler alarm
+fires on 0.80-adjacent candidates against a [0.80, 0.90] band).
+SWING 29 — the two-cell sector (open item 7), sign grade. CLAIM (the
+cell-closure bar): a FILLED rate cell (the alpha: 2S+4W, zero barred,
+arrangement-free — swing 5) presents no open lock channel to an external
+quantum; open clusters do. PREDICTED SIGNS: (i) closed+closed (Be-8 =
+2α): no inter-cell locks, no pot merge ⇒ net ≈ 0⁻; (ii) closed+open
+(Li-6 = α+d): weak inter-cluster locks allowed ⇒ net > 0; (iii)
+closed+single (A=5 = α+n): no open channel ⇒ UNBOUND (net < 0, the
+confinement-attempt cost). INSTRUMENT: AME reads. GATES: S29a three
+signs as predicted; S29b magnitudes reported, NOT scored (the rung-tax
+coefficient stays open, named).
+T-P3′ (open item 5): REMAINS OPEN — the displacement-anomaly boundary
+(odd-median 0.49 vs 0.40 tolerance after the derived exchange layer
+removed 63% of the bare signal); shared with the extant literature; no
+closure claimed tonight.
