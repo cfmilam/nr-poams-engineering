@@ -3222,3 +3222,50 @@ proceeds independently as swing 37.
 F7 NOTE: (2/z_c)² = 0.1639 sits 0.003 from 1/6 at this z_c — the two
 survivors are numerically indistinguishable HERE; their discrimination
 is a z_c-variation question (named for the record, not tonight's).
+
+## 2026-08-12 — SWING 36 SCORED: ★★ THE LAYER LANDS AND THE FRACTION RESOLVES — f = 1/6 is derived-central AND coherence-selected; the three cluster equations coincide at 0.0007
+Instrument mass/mass-swing36{.py,-run.txt}. Every gate on the hand
+declarations:
+- S36a PASS: st_h′ = k√(6/π)/r_pp = 0.7847 vs measured mirror
+  ΔB(³H−³He) = 0.7638 → **+2.7%** where the bare uniform-sphere entry
+  ran +30.7%. One range law, evaluated on the true pair geometry, zero
+  new imports (muonic point-proton radii, standing unfolding). The
+  CSB-class scale is absorbed/not-separated, named: the +2.7% may BE
+  it; no claim.
+- S36b PASS: under strain′ alone the t–h γ-gap collapses 0.0078 →
+  0.00070 — the swing-35 strain contamination is REMOVED by the
+  derived layer, not by tuning.
+- S36c PASS: the internal-coherence criterion (spread of the three
+  cluster γ-equations) has a sharp minimum at **f* = 0.1669 — 0.0002
+  from 1/6**. F8 = 1/(2z_c) sits 0.0657 away, excluded 8.7×. Unique
+  class selection (F6/F7 degenerate at this z_c, named).
+- S36d PASS: at {strain′, f = 1/6}: γ_t 0.83089 / γ_h 0.83160 /
+  γ_α 0.83161 — spread 0.00072, a 20× collapse from 0.0142; the step
+  ledger closes at +0.19% / −0.18% in anchor units (J3 offset as
+  declared).
+STATE CHANGES:
+1. THE TRANSFER FRACTION IS RESOLVED at identification-selected grade:
+   f = 1/6 — the derived central of swing 32 (per-vertex excess Ω_w/3
+   × the ledger's two-claimant ½) and the unique coherence selection
+   of swing 36 COINCIDE. Swing 35's strain-limit verdict is DISSOLVED
+   by the layer that gated it, exactly as ordered (item 3 gated item
+   2; item 3's cluster part now paid).
+2. THE LEDGER IS INTERNALLY CONSISTENT AT 0.07% IN γ: γ*″ = 0.8314,
+   conditional band ~0.0007 (was 0.824 ± 0.007 → a further ~10×
+   conditional sharpening, still 2.2% inside the free-scattering
+   import band).
+3. The split residual story is COMPLETE at cluster scale: h runs hot
+   and c₃ cold by exactly one latent sixth of the anholonomy,
+   transferred through the shared bond — mechanism (swing 32),
+   selection (swing 36), strain confound removed (swings 35+36).
+PROPOSED FOR RATIFICATION (not imposed): operational RE-ANCHOR —
+strain′ (pair-geometry evaluation at cluster scale) + f = 1/6 as
+standing centrals (swing-25 precedent); exhibit §9 update to the
+resolved state. Downstream ripples on re-anchor: γ-dependent entries
+(a_sym contact, T-C6 weights) recompute; crown books γ-free,
+untouched.
+STILL OPEN AFTER TONIGHT: bulk T-P3′ (−0.33 MeV/step; the layer's
+bulk evaluation = swing 37); F6-vs-F7 discrimination (z_c-variation
+question, named); CSB separation; the pool-census residues (δ_cell,
+φ); item-4 residues (native 9, γ coefficient, rung tax, capacity
+seam, skew program).
