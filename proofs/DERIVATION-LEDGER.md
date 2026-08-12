@@ -3448,3 +3448,16 @@ FROZEN REJECTED MENU (hand values vs 0.8314 ± 0.004): cos²(θ_w/2) =
 GATES: S39a — |5/6 − γ*″| < 0.004 (hand: 0.8333 − 0.8314 = +0.0019,
 +0.23%, expected PASS). S39b — the filing is complete: mechanism
 sketch + joints + menu on the record. NO closure claim either way.
+
+## 2026-08-12 — SWING 39 SCORED: the filing stands — 5/6 sits +0.23% from the conditional pin; capped as declared
+S39a PASS: 5/6 = 0.8333 vs γ*″ = 0.8314 → +0.0019, inside ±0.004; the
+entire frozen menu dead outside. S39b PASS: mechanism, joints, menu
+on the record. VERDICT (cap honored): γ = 5/6 is a REGISTERED
+CANDIDATE with a named mechanism class and two open joints — not a
+result. The residue sharpens: derive the 2-mesh composition share
+natively (does the counter-sense mesh park exactly the closing-claim
+sixth?); if that lands, γ leaves the import list and the four-channel
+ledger becomes fully derived. Note on the record: under γ = 5/6
+exactly, W₂ = 1 + 2γ = 8/3 and W₄ = 2 + 4γ = 16/3 — the channel
+weights become the ledger's own small fractions; no use is made of
+this tonight.
