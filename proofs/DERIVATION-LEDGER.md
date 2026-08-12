@@ -3631,3 +3631,18 @@ unclaimed.
 GRADE CAP: CLASS IDENTIFICATION (K2), two joints named. Residues:
 derive the stand-off line (J1) and the composite claimant booking
 (J2) — then c_x closes or dies on its own point.
+
+## 2026-08-12 — SWING 43 SCORED: K2 survivor class as declared; the A=5 report lands FOR the borrowed-half reading
+Scores exactly as hand-declared: S43a K1 DEAD (−65%); S43b K2 survives
+(−4.5%, inside ±30% class gate — point NOT claimed); S43c K3 parked by
+the cell bar (required ×0.063 suppression IS the bar's prediction).
+S43d report (signed, unclaimed): recomputing A=5 as an INDEPENDENT K2
+turn (μ = 4/5) gives c/2 = 1.173 vs measured 0.735 (+60% miss) — the
+lone half-turn is NOT its own turn; it is parasitic on the d-object's
+existing credit, exactly the swing-40 borrowed-half reading (banks
+half of c_d, not half of a recomputed turn). The miss of the wrong
+reading is consistency FOR the booked identity.
+STATE: c_x = CLASS-IDENTIFIED (composite shared turn at surface
+stand-off, R = r_cell + r_q); residues J1 (derive the stand-off line)
+and J2 (composite claimant booking). The 0.3% cross-identity survives
+untouched and gains a consistency note.
