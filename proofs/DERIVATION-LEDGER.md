@@ -1929,3 +1929,56 @@ not per-bond loop turns; the books-level identity C = a_v + τ_b ≈ (z_c/2)·
 references with zero fitted numbers — but the gated landing FAILED on the
 declared physical toy and the toy class is exhausted by rule. Nothing claimed
 beyond this. S15e (γ-channel 9.5-vs-15.0) deferred to swing 16 as registered.
+
+## 2026-08-11 — SWING 16 REGISTERED: Part A scored on registration (the level identity); Part B pre-run (the emergence instrument)
+PART A — THE LEVEL IDENTITY (derivation; the queued "γ-channel reconciliation"
+closes by algebra). Swing 7's own construction: δ̄ = 2(a_v+τ_b)/z_c = 15.02
+[13.98–16.19] and δ₀(z_c) = δ̄/μ_frozen. So δ₀(z_c) = 22.2 IS the flat per-bond
+books gross divided by the frozen-random strong-channel share:
+2·35.85/4.78 = 15.00 ✓ ; 15.00/0.675 = 22.22 ✓ (swing-7 booked value, exact).
+CONSEQUENCES, registered:
+(1) The swing-14 "37% gap" (9.5 vs 15.02) DISSOLVES — it compared μ·δ_pair =
+9.46 (strong-channel share of the bare turn) against δ̄ = 15.02 (FULL books
+gross): mismatched projections; there is no gap.
+(2) The swing-12/13 landing window [20.0, 24.9] was the strong-channel band
+applied one level down (to per-bond lock-graph depth). The correct per-bond
+books target is δ̄ [13.98, 16.19] — which Rule C's forced supply [14.02, 15.74]
+almost exactly brackets. Prior gate verdicts STAND as booked (registered
+windows are registered windows). Prior measured grosses REPORTED beside the
+corrected target, named-not-scored (numbers already seen): swing-13 15.55,
+swing-15 capped liquid 14.53 (h₀) / 15.37 (h₁) — inside the δ̄ band.
+(3) The ladder δ₀(z) is a COMPOSITE of two regimes: cluster points are
+deliberate-pairing (μ = 1) books gross with contact-scale triangle credits;
+the bulk endpoint is frozen-random (μ = 0.675) books gross with quad-only
+credits, divided by μ. The linear δ₀(z) law is not one mechanism; its
+extrapolation consistency (swing-7 L4, low edge) is partly compositional.
+THE OLD OPEN ITEM "derive the native δ₀(z) law" IS RETIRED AS A TARGET: there
+is no per-bond deepening to derive. Remaining: (a) cluster segment — DERIVED
+(pair anchor 2%, h, c₃ ≈ marginal); (b) bulk books — pending EMERGENCE only.
+PART B — THE EMERGENCE INSTRUMENT (pre-run): does z̄ → z_c emerge under the
+ledger's OWN terms? Functional (all named, zero dials): per node i,
+E_i = −(δ_pair/2)·L_i + τ_b·(d₀/d̄_i)², cage(i) = the ⌈z_c⌉ = 5 nearest
+neighbors (any distance), d̄_i = mean cage distance, L_i = # cage members with
+distance in [core 1.72, reach 2.14]; δ_pair = 14.02, τ_b = 20.1 (the booked
+per-quantum tax at ρ₀ — normalization pins τ(d₀) = τ_b exactly, d₀ = ρ₀^(-1/3)
+= 1.935 fm); inverse-square tax form = the ledger's uncertainty/turning-rate
+class ħ²/(m d²), named not fitted. Dynamics uses bare-turn profit only; loop
+credits enter at scoring (second order). Anneal: N = 256 periodic at ρ₀, hard
+core enforced, Metropolis on total E (exact ΔE, affected-cage recompute),
+T: 8 → 0.05 MeV geometric, ~2500–4000 sweeps (runtime pragmatics declared),
+3 snapshots. LOCK GRAPH for census: strict mutual cap-5 within reach
+(unchanged, swings 13/15). Rule C census (T, Q, R, f, β₁/E).
+GATES:
+- S16a THE EMERGENCE GATE (the landing hangs here): z̄_lock ∈ [4.3, 5.3].
+  FAIL ⇒ capacity coordination does not emerge under the profit+tax
+  transcription — booked as the wall; books landing remains open with NO
+  instrument class in hand (toys closed by S15b rule).
+- S16b gross gate (level-matched, declared for THIS instrument's fresh
+  output): per-bond gross (h₀ and h₁, central r_q) ∈ [13.98, 16.19].
+- S16c THE LANDING (books): G = min(z̄,z_c)/2·gross ∈ [32, 40] under both h
+  variants across the r_q band; central precision vs C = 35.85 reported.
+- S16d census composition reported (no gate).
+Expectations declared: bcc-like local order (NN 2.111 inside reach) ⇒ z̄_lock
+≈ 5, quad-rich census, gross ≈ 14.6–15.5, G ≈ 34–37. Glassy arrest or
+mutual-trim shortfall ⇒ z̄ ≈ 4.2 and S16a FAIL. Both outcomes booked. No
+post-count adjustments.
