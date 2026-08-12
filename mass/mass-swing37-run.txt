@@ -1,0 +1,21 @@
+fidelity: 13 chains | median |odd(0.5)| 0.155 | |odd(1.5)| 0.492 (booked 0.492) | slope 0.326 (booked -0.33)
+FIDELITY CLAUSE: PASS — scoring proceeds
+
+S37a — delta_fs(A) and per-chain step effect of L4 alone:
+  A 31: delta_fs 0.0355
+  A 39: delta_fs 0.0308
+  A 47: delta_fs 0.0275
+  A 55: delta_fs 0.0249
+  A 63: delta_fs 0.0229
+  A 71: delta_fs 0.0212
+  L4 odd-slope shift: median -0.250 MeV/step (declared [-0.31,-0.21]), chain band 0.011 (<0.15) -> PASS
+
+S37b post-L4 slope: +0.076 MeV/step (was +0.326; reduction 77%) | gate <0.18 & >=40% -> PASS
+S37c post-L4 median |odd(1.5)|: 0.112 (was 0.492) | gate <0.30 -> PASS
+
+S37d reports:
+  post-L4 |odd(0.5)| median 0.041 (linearity check: 3x odd(0.5) ~ odd(1.5)? 0.123 vs 0.112)
+  chains with negative residual slope: 3/13
+  per-chain residual slopes: [0.031, -0.09, 0.041, -0.051, 0.204, 0.076, 0.228, 0.095, 0.119, 0.099, 0.084, -0.016, 0.05]
+  L4b crude: exchange short-range kill fraction ~ 0.08 at d=r0 -> opposition ~ +0.005/step class (bounded 0.08, REPORT)
+  BOUNDARY STATEMENT: residual +0.076 -> REDUCED — remainder named (skin L1 + CSB)

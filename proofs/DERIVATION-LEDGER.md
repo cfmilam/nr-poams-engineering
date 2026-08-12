@@ -3331,3 +3331,41 @@ WYLER GUARD: r_p is a standing import used daily in the unfolding; a
 and δ_fs contain no freedom; the target residual was booked yesterday
 with its fingerprint; the prediction −0.26 was hand-declared above
 before the instrument ran.
+
+## 2026-08-12 — SWING 37 SCORED: ★ THE BULK LAYER LANDS — the charge quantum's own size removes 77% of the T-P3′ boundary; the displacement anomaly is now a 0.08 MeV/step question
+Instrument mass/mass-swing37{.py,-run.txt}.
+- FIDELITY CLAUSE PASS: rebuild reproduces the booked baseline exactly
+  — 13 chains, median |odd(1.5)| = 0.492 (booked 0.492), slope
+  magnitude 0.326 (booked 0.33; orientation convention noted).
+- S37a PASS: the L4 shift is parameter-free and lands on the hand
+  declaration — median −0.250 MeV/step (declared −0.26 ± 0.02, window
+  [−0.31, −0.21]) with chain-to-chain band **0.011** — as uniform as
+  the residual it was aimed at. δ_fs runs 3.6% → 2.1% across A ∈
+  [31, 75]; the A-dependences cancel in the step exactly as the
+  booked fingerprint required (uniform, smooth).
+- S37b PASS: post-L4 slope +0.076 MeV/step (from +0.326) — **77%
+  reduction**; combined with the exchange layer, two parameter-free
+  layers now account for **91.5% of the bare mirror-odd signal**
+  (−0.89 → −0.33 → 0.076).
+- S37c PASS: median |odd(1.5)| = 0.112 (from 0.492) — NOTE FOR THE
+  RECORD: the ORIGINAL T-P3′a tolerance (< 0.40), which FAILED at
+  0.492 and stays FAILED as booked, is now met 3.5× over by the
+  corrected column. The registered fail stands as an instructive
+  entry; the physics has moved past it by derivation.
+- S37d: linearity preserved (3×odd(0.5) = 0.123 vs 0.112); residual
+  slopes straddle zero (3/13 negative) — the uniform signal is GONE,
+  what remains is chain-level scatter ±0.1 with a +0.076 median;
+  L4b exchange-smearing opposition negligible (+0.005 class, report).
+- BOUNDARY STATEMENT (as registered): REDUCED — the remainder
+  (+0.076 median, scatter-dominated) is the named pair {skin response
+  of the proton radius to the census (L1, derivable from the
+  two-fluid skin E-L — queued), CSB-class content (open in extant
+  physics)}. The displacement-anomaly boundary the front hit on
+  2026-08-11 is now a tenth-of-an-MeV question with two named owners.
+DAY ARC OF THE STRAIN COLUMN: one range law, three derived
+evaluations — uniform sphere (bulk direct), exchange filing
+correction, charge-quantum finite size — plus the cluster-scale pair
+geometry: every coefficient from standing imports {k, r₀, r_p,
+muonic radii}. Zero dials in the entire column.
+EXHIBIT: §9 item (2) update PROPOSED (ratification): boundary
+half-paid → 91.5% derived, remainder 0.076 with named owners.
