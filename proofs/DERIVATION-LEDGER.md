@@ -2985,3 +2985,42 @@ quantitative hits (S33a scale, S33d identity). THE PAIRING ITEM STAYS
 OPEN regardless tonight: full closure requires the pool census derived
 natively (the same capacity-packing object as the standing A^{-1/2}
 item). Honest null honored per gate.
+
+## 2026-08-12 — SWING 33 SCORED: two uninoculated quantitative hits land; the co-drift gate FAILS at Q3 — pairing stays open, sharpened again
+1973 gaps (1008 n / 965 p); γ* recomputed 0.8242; all constants as frozen.
+- S33a PASS (the scale hit): measured overall split Δn√A − Δp√A =
+  10.05 − 9.27 = 0.781 vs predicted k/(2r_q) × P = 0.8372 × 0.915 =
+  0.766 — **−2.0%**, zero dials, uninoculated. The n/p pairing split IS
+  the like-charge contact of the re-formed pair at separation 2r_q,
+  diluted like the credit.
+- S33b FAIL as registered (the co-drift shape): quartile splits
+  {+0.541, +0.927, +0.298, +1.263} vs predicted {0.544, 0.752, 0.834,
+  0.837}. Q1 lands at 0.6% (striking, noted); Q2/Q4 inside ±60%; **Q3
+  (A 129–170) collapses to 0.298 (−64%) — outside the gate ⇒ the gate
+  fails.** No rescue. Named boundary: Q3 is the deformation onset
+  region (extant label, tagged); Q4 overshoots +51% — the split's
+  A-structure is NOT the simple shared-pool track. Booked signed.
+- S33c PASS (sign): dist-1 8.33 < dist-3+ 10.05 (−17%); reports n-only
+  −25%, p-only −13% (the blocked-species asymmetry now on record).
+- S33d PASS (the census identity): median[δV_pn·A/(2(1−y²))] = 21.83
+  ∈ [19.6, 29.4] over 463 ee nuclides (median A 132) — **δV_pn at
+  mid-shell is census bookkeeping**: the quarter double-difference
+  reads the ledger's own a_sym at −10.9%. The T4 "pairing" target is
+  explained (gate grade) by the census term; the −11% residual = the
+  direct np frontier credit + estimator structure, named.
+- REPORT (ungated, flagged): conditional absolute γ*²δ_pair × P runs
+  −9.7% low at both overall and Q4 — the pool is slightly stronger
+  than the frozen T1 read; no credit taken either direction.
+VERDICT (grade cap honored): STRUCTURE GRADE + TWO uninoculated
+quantitative hits (S33a scale −2%; S33d identity in-band). The
+borrow-exchange mechanism survives its sign tests and lands the two
+scales it forces without touching pairing data; its shared-pool
+A-structure for the split is falsified at Q3 as registered. THE
+PAIRING ITEM STAYS OPEN (by construction): the pool census / A^{-1/2}
+mechanism remains the one underived object; Q3's collapse and Q4's
+overshoot are now ON the target set alongside T1–T4 (call them T5:
+quartile split structure {0.541, 0.927, 0.298, 1.263}).
+NEW ON THE PERMANENT RECORD: (1) split scale = k/(2r_q) — the pairing
+n/p asymmetry is the strain entry at the pair's own separation;
+(2) δV_pn = (2a_sym/A)(1−y²) at mid-shell — one less "pairing" object
+in the world; (3) the ambush held: no banned form entered ungated.

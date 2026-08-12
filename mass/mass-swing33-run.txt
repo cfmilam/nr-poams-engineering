@@ -1,0 +1,21 @@
+swing 33 ambush confrontation — 1973 gaps (1008 n, 965 p); gamma* = 0.8242
+frozen: split scale k/(2r_q) = 0.8372; predicted overall 0.766; predicted quartiles [0.54 0.75 0.83 0.84]
+
+S33a T2 overall split: Dn 10.05 - Dp 9.27 = 0.781 | predicted 0.766 (-2.0%) | band [0.50,1.15] -> PASS
+
+S33b T2 co-drift (A-quartile splits vs predicted, gate +-60% each, all>0):
+  Q1 (A  20- 84, n= 503): split +0.541 | pred 0.544 | [0.22,0.87] -> pass
+  Q2 (A  84-129, n= 496): split +0.927 | pred 0.752 | [0.30,1.20] -> pass
+  Q3 (A 129-170, n= 505): split +0.298 | pred 0.834 | [0.33,1.33] -> FAIL
+  Q4 (A 170-220, n= 502): split +1.263 | pred 0.837 | [0.33,1.34] -> pass
+S33b -> FAIL
+
+S33c T3 sign: dist-1 8.33 (n=367) < dist-3+ 10.05 (n=1606) -> PASS
+   report n-only: dist-1 7.86 vs dist-3+ 10.48 (-25%)
+   report p-only: dist-1 8.39 vs dist-3+ 9.62 (-13%)
+
+S33d T4 census identity: median dV_pn 0.355 (n=463, med A 132); median[dV_pn*A/(2(1-y^2))] = 21.83 | band [19.6,29.4] (a_sym 24.5+-20%) -> PASS
+   residual vs derived a_sym 24.5: -10.9%
+
+REPORT (ungated, conditional on underived pool): gamma*^2*dp = 9.523;
+  x P(Q4-normalized): overall 8.71 vs measured 9.65 (-9.7%); Q4 9.52 vs 10.55 (-9.7%)
