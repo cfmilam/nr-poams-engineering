@@ -2009,3 +2009,47 @@ underived; it must come from patch geometry (θ_w, γ), not from fitting z̄.
 QUEUED as SWING 17: derive the capacity-graph rule first (registration must
 fix the census definition BEFORE any z̄ output is seen), then apply unchanged.
 Instruments mass/mass-swing16{.py,-run.txt}.
+
+## 2026-08-11 — SWING 17 REGISTERED (pre-run): the capacity-graph transcription, derived from patch geometry
+THE DERIVATION (before any census; no new numbers introduced):
+D1 (rigidity contradiction, theorem): rigid equal patches at the booked
+nominal θ_w = 54.5° require lock directions pairwise ≥ 2θ_w = 109°; the
+maximal spherical code at ≥ 109° is the tetrahedral 4 (5 points force ≤ 90°).
+So rigid patches cap z at 4 — contradicting z_c = 4.78 ± 0.35. PATCH
+DEFORMABILITY IS FORCED. Corollary: both prior transcriptions are wrong for
+named reasons — universal-4 contradicts z_c; mutual-5-NEAREST imports an
+unforced restriction (nearest-only) and then mutuality-trims to ~4.2 (the
+swing-13/15/16 wall, now explained rather than patched).
+D2 (per-node ceiling, from the booked bands): the deformability window is
+the booked capacity bands themselves — energy route 4.43–5.13 (swing 3),
+geometric route 4.5–5.3 (swing 4). The ONLY integer inside both bands is 5:
+per-node lock count ≤ 5 (z = 6 excluded by both bands; supporting arithmetic:
+5 tiles need a 4.5% patch squeeze, 6 need 20%). Under-filling (4, 3, …) is
+availability-limited slack, not stretch (area constraint is an inequality;
+unlocked area is just incoherent surface — costs nothing by itself).
+D3 (selection rule, from T = 0 profit): a lock is one shared turn — mutual by
+construction; each lock pays δ_pair gross. At T = 0 no unlocked in-reach pair
+with spare capacity on both sides can persist (it would form: profit, no
+cost). The lock graph is therefore the MAXIMUM-CARDINALITY degree-≤5 subgraph
+of the availability (in-reach) graph — locks REARRANGE to fill capacity;
+partners need not be the 5 nearest. This maximality is exactly what the
+failed nearest-rule forbade.
+PREDICTION DECLARED (hand estimate, before running): z̄ = Σ min(deg_i,5)/N
+minus a small matching deficit ⇒ z̄ ≈ 4.5–4.9 on the liquid; books
+G ≈ 33–36 central. If mutual-trim pathology persists (z̄ < 4.3) the
+transcription FAILS and is booked; capacity realization stays open.
+INSTRUMENT: mass-swing17.py — rebuild BOTH prior ensembles deterministically
+(swing-16 functional, seed 160811; swing-12 equilibrium liquid, seed
+20260811); availability graph at reach 2.14; lock graph = distance-greedy
+degree-≤5 matching + alternating-path augmentation (length ≤ 3), with the
+exact upper bound Σ min(deg_i, 5)/2 reported and the shortfall named; Rule C
+census (T, Q, R, f); books G = min(z̄, z_c)/2 · gross, constants unchanged
+(δ_pair 14.02, c₃ 2.336, c₄ 0.876, h = 0.84 as h₁ variant, r_q band, z_c
+4.78, C = 35.85).
+GATES:
+- S17a THE REALIZATION GATE: z̄_lock ∈ [4.3, 5.3] on BOTH ensembles.
+- S17b gross gate: per-bond gross (h₀, h₁ central r_q) ∈ [13.98, 16.19].
+- S17c THE LANDING (books): G ∈ [32, 40] under both h variants across the
+  r_q band, both ensembles; central precision vs C = 35.85 reported.
+- S17d census composition + matching-bound gap reported (no gate).
+No post-count adjustments. Misses booked.
