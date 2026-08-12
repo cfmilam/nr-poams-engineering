@@ -1,0 +1,18 @@
+SWING 23 — the capacity chain
+CLAIM 1: xi = 2 hbar/(m_N c) = 0.4203 fm
+S23a xi in [0.40, 0.50] (booked geometric band; reach-core = 0.42): PASS
+
+CLAIM 2 + CHAIN over r_q band:
+  r_q=0.84: reach=2.1003 fm  theta_w=53.12 deg  z_c(chain)=5.002
+  r_q=0.86: reach=2.1403 fm  theta_w=53.48 deg  z_c(chain)=4.940
+  r_q=0.88: reach=2.1803 fm  theta_w=53.83 deg  z_c(chain)=4.881
+
+S23b theta_w derived 53.48 deg vs booked 54.5 deg: signed tension -1.9%
+S23c THE CHAIN GATE: z_c(derived) = 4.940 [4.881, 5.002] vs window [4.50, 5.13]: PASS
+  signed vs energy central 4.78: +3.3%
+  named-rejected cos-assignment would give z_c = 10.2 (outside every band)
+
+S23d ripple (report only, z_c = 4.940):
+  h = 2c3/z_c: 0.946 (was 0.978 at 4.78) — vs measured 0.84(15): +13%
+  deltabar = 2C/z_c: 14.51 (was 15.00) — books gross target
+  suppression s = 2/z_c: 0.4049 (was 0.4184) vs measured 0.360±0.064: -0.7x

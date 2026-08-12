@@ -2486,3 +2486,28 @@ CONFRONTATIONS (booked windows, unchanged):
   central until a registered reconciliation swing).
 GRADE CAP: derived-identification — each claim is one named geometric
 line; the confrontations are against already-booked bands. Misses booked.
+
+## 2026-08-11 — SWING 23 SCORED: the capacity chain lands — open item (2) closes at derived-identification
+S23a PASS: ξ = 2ħ/m_N c = 0.4203 fm vs booked geometric band [0.40, 0.50] —
+dead on the band's central value (reach − core = 2.14 − 1.72 = 0.42). The
+lock range coefficient is TWO PARTICIPANTS: each quantum's phase stays
+co-rotational within its rate radius ħ/mc (mass = trapped turning rate,
+c-bounded); a shared turn forms when the two extensions touch.
+S23b: θ_w(tangent cone) = 53.48° vs 54.5° (capacity identity at z_c=4.78) —
+−1.9% signed. NOTE: this is ONE tension seen twice — the angle mismatch IS
+the z_c mismatch in angle space (two definitions, one seam).
+S23c PASS: z_c(chain) = 2/(1−cos θ_w), sin θ_w = 2r_q/(2r_q + 2ħ/m_N c) =
+4.940 [4.881, 5.002] over the r_q band — inside [4.5, 5.13]; +3.3% vs the
+energy-ledger central 4.78. CAPACITY IS NOW A DERIVED NUMBER: z_c from the
+quantum radius and the nucleon mass alone, tighter (±1.2%) than either
+booked route. Named-rejected cos-assignment confirmed absurd (z_c = 10.2).
+S23d ripples (report only, NO re-anchoring): under z_c = 4.94 — h = 0.946
+(+13% vs measured, softer than +16%); s = 0.405 (−0.7× vs measured, softer
+than −0.9×); δ̄ = 14.51. Every open tension MOVES TOWARD the data under
+the derived chain — noted, unclaimed. Reconciliation (adopting the chain
+central across the ledger) requires its own registered swing; until then
+the energy central 4.78 stays operational.
+Open item (2) CLOSES: the patch-angle coefficient is the tangent-cone
+sine with the two-Compton lock range. Grade: derived-identification (two
+named geometric lines; both confrontations inside booked bands).
+Instruments mass/mass-swing23{.py,-run.txt}.
