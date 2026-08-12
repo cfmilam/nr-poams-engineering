@@ -1,0 +1,33 @@
+seed 160812 A= 20: z=4.100 slots/A achieved 0.900 | LB 0.800 | center 0.850 (edges 41/ub 42) [2s]
+seed 160812 A= 30: z=4.600 slots/A achieved 0.400 | LB 0.400 | center 0.400 (edges 69/ub 69) [6s]
+seed 160812 A= 40: z=4.700 slots/A achieved 0.300 | LB 0.250 | center 0.275 (edges 94/ub 95) [11s]
+seed 160812 A= 60: z=4.400 slots/A achieved 0.600 | LB 0.433 | center 0.517 (edges 132/ub 137) [19s]
+seed 160812 A= 90: z=4.689 slots/A achieved 0.311 | LB 0.200 | center 0.256 (edges 211/ub 216) [33s]
+seed 160812 A=130: z=4.677 slots/A achieved 0.323 | LB 0.185 | center 0.254 (edges 304/ub 313) [57s]
+seed 160812 A=180: z=4.700 slots/A achieved 0.300 | LB 0.156 | center 0.228 (edges 423/ub 436) [93s]
+seed 160812 A=220: z=4.755 slots/A achieved 0.245 | LB 0.045 | center 0.145 (edges 523/ub 545) [142s]
+seed 260812 A= 20: z=4.000 slots/A achieved 1.000 | LB 0.900 | center 0.950 (edges 40/ub 41) [144s]
+seed 260812 A= 30: z=4.200 slots/A achieved 0.800 | LB 0.733 | center 0.767 (edges 63/ub 64) [147s]
+seed 260812 A= 40: z=4.600 slots/A achieved 0.400 | LB 0.400 | center 0.400 (edges 92/ub 92) [153s]
+seed 260812 A= 60: z=4.700 slots/A achieved 0.300 | LB 0.200 | center 0.250 (edges 141/ub 144) [161s]
+seed 260812 A= 90: z=4.756 slots/A achieved 0.244 | LB 0.133 | center 0.189 (edges 214/ub 219) [176s]
+seed 260812 A=130: z=4.738 slots/A achieved 0.262 | LB 0.108 | center 0.185 (edges 308/ub 318) [201s]
+seed 260812 A=180: z=4.600 slots/A achieved 0.400 | LB 0.256 | center 0.328 (edges 414/ub 427) [235s]
+seed 260812 A=220: z=4.682 slots/A achieved 0.318 | LB 0.173 | center 0.245 (edges 515/ub 531) [284s]
+seed 360812 A= 20: z=4.300 slots/A achieved 0.700 | LB 0.500 | center 0.600 (edges 43/ub 45) [286s]
+seed 360812 A= 30: z=4.400 slots/A achieved 0.600 | LB 0.533 | center 0.567 (edges 66/ub 67) [289s]
+seed 360812 A= 40: z=4.500 slots/A achieved 0.500 | LB 0.400 | center 0.450 (edges 90/ub 92) [295s]
+seed 360812 A= 60: z=4.667 slots/A achieved 0.333 | LB 0.233 | center 0.283 (edges 140/ub 143) [303s]
+seed 360812 A= 90: z=4.733 slots/A achieved 0.267 | LB 0.178 | center 0.222 (edges 213/ub 217) [317s]
+seed 360812 A=130: z=4.708 slots/A achieved 0.292 | LB 0.138 | center 0.215 (edges 306/ub 316) [340s]
+seed 360812 A=180: z=4.756 slots/A achieved 0.244 | LB 0.100 | center 0.172 (edges 428/ub 441) [379s]
+seed 360812 A=220: z=4.755 slots/A achieved 0.245 | LB 0.109 | center 0.177 (edges 523/ub 538) [428s]
+
+HEAVY: achieved 0.292 | LB 0.141 | bracket center 0.217 (width 0.151)
+S46a heavy center within 15% of 0.331: FAIL (0.217, -34.5%)
+S46b light center within 20% of 0.65: PASS (0.584, -10.1%)
+S46c shape: centers [0.8   0.578 0.375 0.35  0.222 0.218 0.243 0.189] | decreasing False saturating True -> FAIL
+S46d heavy center seed spread 0.156 < 0.08: FAIL
+S46e composed report: delta_cell/sqrt(phi) = 6.510/sqrt(0.217) = 13.99 vs measured 10.55 (+32.6%) [hand 11.05]
+
+1/3 note: center 0.217 — not 1/3, no conversion sought (inoculation intact)

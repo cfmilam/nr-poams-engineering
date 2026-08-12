@@ -3870,3 +3870,40 @@ WYLER GUARD: z_cap = 5 is a standing derived integer; no dial exists
 in the rule; the hand numbers were computed from the ALREADY-BOOKED
 run file before this registration; 1/3 stays inoculated (0.347 is not
 1/3, and no conversion is sought).
+
+## 2026-08-12 — SWING 46 SCORED: 1 PASS / 3 FAIL as registered — the seat unit moves the count to −12% at report grade; the BRACKET instrument is inadequate and the gate scores on the bracket; count stays OPEN
+Instrument mass/mass-swing46{.py,-run.txt}; families identical to
+swing 45 (deterministic rebuild verified by z̄ consistency).
+- S46b PASS: light seats/A = 0.584 vs measured 0.65 (−10.1%, inside
+  ±20%) — the light edge lands under the seat unit where the node
+  unit sat at 0.41.
+- S46a FAIL AS GATED: heavy bracket center 0.217 (−34.5%). THE
+  INSTRUMENT LESSON (booked, not a rescue): the degree-bounded
+  optimum ignores geometric frustration entirely — bracket width
+  0.151 swamps the measurement; the gate averaged a tight achieved
+  value with a hopeless bound. REPORT ROWS (unclaimed): heavy
+  ACHIEVED seats/A = 0.292 (−11.8% vs 0.331 — would sit inside the
+  ±15% band); composed on achieved: δ_cell/√0.292 = 12.05 vs
+  measured 10.55 (+14%). Direction note: a perfect b-matching RAISES
+  z̄ and LOWERS the seat count below 0.292 — the truth sits in
+  [0.14, 0.29]; the seat census likely lands ~0.25-class once solved,
+  still short of 0.331.
+- S46c FAIL (A=60/180 family scatter breaks strict monotone on
+  centers); S46d FAIL (center spread 0.156 — inherits graph noise ×
+  bound looseness).
+VERDICT: the SEAT UNIT is the right direction (both edges move toward
+the measurement; the counting reason stands) but the count is NOT
+SETTLED — three registered censuses now read: nodes 0.245 (−26%),
+seats-achieved 0.292 (−12%, report), seats-bracket FAIL. The residual
+physics candidates, named for a FUTURE registered campaign (not
+tonight): (a) the diffuse skin — sharp-wall droplets under-count
+surface cells; the ledger's own λ(u) skin (width 0.57 fm) adds open
+patches; (b) near-open seats (reorganization cost below the borrow
+credit γ*²δ_pair). INSTRUMENT REQUIREMENTS BOOKED for that campaign:
+exact max-b-matching solver (collapse the bracket), ≥10 seed
+families or A ≥ 500 droplets (kill the ±0.05 scatter), diffuse-wall
+option. The pool item stands: form THEOREM + depth DERIVED (+7.4%) +
+count OPEN (seat unit indicated at report grade, instrument-limited).
+HONEST DAY-CLOSE ON THIS ITEM: three attempts, three exact-as-
+registered scorings, no rescue, no unit claimed that the instrument
+cannot carry.

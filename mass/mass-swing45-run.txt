@@ -1,0 +1,32 @@
+seed 160812 A= 20: geo 0.550  zero-mode(deg5) 0.000  UNION 0.550  refined 0.550  (gap 0.09)  [2s]
+seed 160812 A= 30: geo 0.333  zero-mode(deg5) 0.000  UNION 0.333  refined 0.333  (gap 0.01)  [6s]
+seed 160812 A= 40: geo 0.275  zero-mode(deg5) 0.000  UNION 0.275  refined 0.275  (gap 0.03)  [11s]
+seed 160812 A= 60: geo 0.433  zero-mode(deg5) 0.000  UNION 0.433  refined 0.433  (gap 0.10)  [19s]
+seed 160812 A= 90: geo 0.267  zero-mode(deg5) 0.000  UNION 0.267  refined 0.267  (gap 0.06)  [33s]
+seed 160812 A=130: geo 0.246  zero-mode(deg5) 0.000  UNION 0.246  refined 0.246  (gap 0.06)  [57s]
+seed 160812 A=180: geo 0.250  zero-mode(deg5) 0.000  UNION 0.250  refined 0.250  (gap 0.06)  [92s]
+seed 160812 A=220: geo 0.218  zero-mode(deg5) 0.000  UNION 0.218  refined 0.218  (gap 0.05)  [142s]
+seed 260812 A= 20: geo 0.550  zero-mode(deg5) 0.000  UNION 0.550  refined 0.550  (gap 0.05)  [144s]
+seed 260812 A= 30: geo 0.433  zero-mode(deg5) 0.000  UNION 0.433  refined 0.433  (gap 0.05)  [147s]
+seed 260812 A= 40: geo 0.300  zero-mode(deg5) 0.000  UNION 0.300  refined 0.300  (gap 0.03)  [153s]
+seed 260812 A= 60: geo 0.250  zero-mode(deg5) 0.000  UNION 0.250  refined 0.250  (gap 0.05)  [162s]
+seed 260812 A= 90: geo 0.211  zero-mode(deg5) 0.000  UNION 0.211  refined 0.211  (gap 0.05)  [176s]
+seed 260812 A=130: geo 0.208  zero-mode(deg5) 0.000  UNION 0.208  refined 0.208  (gap 0.05)  [201s]
+seed 260812 A=180: geo 0.300  zero-mode(deg5) 0.000  UNION 0.300  refined 0.300  (gap 0.07)  [236s]
+seed 260812 A=220: geo 0.245  zero-mode(deg5) 0.000  UNION 0.245  refined 0.245  (gap 0.06)  [284s]
+seed 360812 A= 20: geo 0.400  zero-mode(deg5) 0.000  UNION 0.400  refined 0.400  (gap 0.09)  [286s]
+seed 360812 A= 30: geo 0.467  zero-mode(deg5) 0.000  UNION 0.467  refined 0.467  (gap 0.06)  [290s]
+seed 360812 A= 40: geo 0.350  zero-mode(deg5) 0.000  UNION 0.350  refined 0.350  (gap 0.06)  [295s]
+seed 360812 A= 60: geo 0.267  zero-mode(deg5) 0.000  UNION 0.267  refined 0.267  (gap 0.05)  [304s]
+seed 360812 A= 90: geo 0.222  zero-mode(deg5) 0.000  UNION 0.222  refined 0.222  (gap 0.04)  [317s]
+seed 360812 A=130: geo 0.246  zero-mode(deg5) 0.000  UNION 0.246  refined 0.246  (gap 0.06)  [341s]
+seed 360812 A=180: geo 0.183  zero-mode(deg5) 0.000  UNION 0.183  refined 0.183  (gap 0.05)  [380s]
+seed 360812 A=220: geo 0.218  zero-mode(deg5) 0.000  UNION 0.218  refined 0.218  (gap 0.05)  [428s]
+
+3-SEED MEANS (heavy trio): geometric 0.235 | UNION 0.235 | refined 0.235 | increment 0.000
+S45a UNION in [0.28,0.38] & +-15% of 0.331: FAIL (0.235, -29.0% vs measured)
+S45b increment in [0.02,0.12]: FAIL (0.000)
+S45c light-edge sign: union 0.406 > geometric 0.406 -> FAIL (measured Q1 share 0.65)
+S45d seed spread (max heavy) 0.117 < 0.06: FAIL | 3-seed monotone True saturating True (report)
+    union means by A: [0.5   0.411 0.308 0.317 0.233 0.233 0.244 0.227]
+S45e 1/3 clause: dormant (0.235)
