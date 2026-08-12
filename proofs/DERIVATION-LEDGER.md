@@ -2147,3 +2147,59 @@ CREDIT LEDGER AFTER SWING 18 (all derived, zero fitted):
 (required 15.0 ± 1.1); z̄ realized 4.85/4.59 (required 4.78 ± 0.35); books
 central 33.4–36.9 vs C = 35.85.
 Instruments mass/mass-swing18{.py,-run.txt}.
+
+## 2026-08-11 — SWING 19 REGISTERED (pre-run): the attribution seam — rule enumeration, cluster kill, rule-robust books
+PREMISE (named): SCALE UNIFORMITY — one closure-credit bookkeeping for
+cluster and bulk (one substance, one ledger). The h₀/h₁ "variants" were
+never rules; they were brackets. The admissible rule space is enumerated
+and each candidate is confronted with the CLUSTER ladder — the declared
+non-circular discriminator (independent of the bulk books C).
+CANDIDATE RULES (frozen; per-bond credit on top of δ_pair):
+- R1 first-closure-suppressed (the cluster reading, swings 9–11): raw
+  closures through a bond, shortest type first: first → h = 2c₃/z_c
+  (anholonomy only); each further → full (c₃ triangle, c₄ chordless quad).
+- R2 independent-modes (Rule C mean): (c₃T + c₄Q)/E per bond; no
+  anholonomy term anywhere.
+- R3 independent-modes + blanket anholonomy (the former h₁ bracket):
+  R2 + h on every non-bridge bond.
+- R4 anholonomy-per-independent-loop: h per basis cycle over its bonds;
+  no full credits.
+- R5 raw-full (the S14d class, carried for completeness): every raw
+  closure at full credit.
+CLUSTER CONFRONTATION (bands declared: trinucleon step 0.84 ± 0.15; alpha
+step 3.39 ± 0.20; KILL = any single residual > 4× band OR joint χ² > 9).
+Hand arithmetic at registration (exact, transparency):
+R1: t 0.978 (+0.9×), α 3.314 (−0.4×) → survives (χ² ≈ 1.0).
+R2: t 0.779 (−0.4×), α 3.504 (+0.6×) → survives (χ² ≈ 0.5).
+R3: t 1.757 (+6.1×) → DEAD. R4: α 0.489 (−14.5×) → DEAD.
+R5: α 4.672 (+6.4×) → DEAD.
+THE SEAM, EXACT FORM (booked, no mixture fitted): the first-closure
+suppression factor, measured 0.84/c₃ = 0.36 ± 0.064, CONTAINS both
+surviving readings — 1/3 (mode share, R2) and 2/z_c = 0.418 (anholonomy,
+R1). The swing-18 opposite-sign residual IS this seam. Undecided at
+current precision; both carried.
+BULK CONFRONTATION: both survivors applied UNCHANGED to the swing-17 lock
+graphs (deterministic rebuilds; functional = ledger-driven primary, liquid
+= geometry-only robustness). R1 needs the per-bond raw census (n₃ =
+triangles through bond, n₄ = chordless quads through bond) — reported with
+raw-vs-rank inflation; IF inflation > 1.5× the R1 bulk value is named
+structurally tainted (S14d lineage) and the verdict falls to R2-only
+grade. BLINDNESS DECLARED: R1-bulk is blind; R2-functional-central =
+34.58 was already seen at swing 17 — restated, named-not-blind.
+GATES:
+- S19a the kill table lands as the registration arithmetic states.
+- S19b THE FENCE: BOTH surviving rules' books on the functional ensemble
+  at central imports ∈ [32, 40] ⇒ THE CROWN BOOKS ARE TAKEN at rule-robust
+  grade — C = a_v + τ_b reproduced from derived quantities only (δ_pair,
+  c₃, c₄, h, transcription, realization) under EVERY attribution rule
+  admissible against cluster data; the attribution split stays open INSIDE
+  the closed books (named seam, width = R1−R2 spread). Either rule outside
+  [32, 40] ⇒ crown NOT taken, booked.
+- S19c spread, liquid, r_q band reported (no gate; swing-17 corner
+  precedent stands as booked).
+- S19d non-circularity (declared): the liquid ensemble carries NO ledger
+  energetics and realizes z̄ = 4.59; z_c enters only as min(z̄, z_c) with
+  its two independent routes agreeing (energy 4.43–5.13, geometry 4.5–5.3);
+  h uses the capacity identity Ω_w = 4π/z_c.
+Estimates declared pre-run: R1 functional G ≈ 35.5–36.5; R2 34.58 (seen).
+No post-count adjustments.
