@@ -1,0 +1,16 @@
+seed 160812 A= 60 (Rh 4.47): E*[100,100] gap 0 | z 3.333 deg0 2 | R-A 1.667  R-B 1.500  [5s]
+seed 160812 A=130 (Rh 5.90): E*[258,258] gap 0 | z 3.969 deg0 0 | R-A 1.031  R-B 1.031  [18s]
+seed 160812 A=220 (Rh 7.10): E*[458,458] gap 0 | z 4.164 deg0 1 | R-A 0.836  R-B 0.814  [40s]
+seed 260812 A= 60 (Rh 4.47): E*[102,102] gap 0 | z 3.400 deg0 0 | R-A 1.600  R-B 1.600  [45s]
+seed 260812 A=130 (Rh 5.90): E*[236,236] gap 0 | z 3.631 deg0 0 | R-A 1.369  R-B 1.369  [56s]
+seed 260812 A=220 (Rh 7.10): E*[449,450] gap 1 | z 4.082 deg0 2 | R-A 0.918  R-B 0.873  [80s]
+seed 360812 A= 60 (Rh 4.47): E*[108,108] gap 0 | z 3.600 deg0 0 | R-A 1.400  R-B 1.400  [85s]
+seed 360812 A=130 (Rh 5.90): E*[260,260] gap 0 | z 4.000 deg0 1 | R-A 1.000  R-B 0.962  [97s]
+seed 360812 A=220 (Rh 7.10): E*[462,462] gap 0 | z 4.200 deg0 0 | R-A 0.800  R-B 0.800  [119s]
+seed 160812 A=350 (Rh 8.33): E*[742,742] gap 0 | z 4.240 deg0 1 | R-A 0.760  R-B 0.746  [160s]
+
+P-2a R-A heavy mean = 0.992 | gate [0.25, 0.41] (measured 0.331): FAIL HIGH — raw rule dead; R-B fork = 0.975 (reported)
+   R-B heavy mean (host-adjacency, reported): 0.975 (+194.5% vs 0.331)
+P-2b shape: R-A phi(60) 1.556 > phi(220) 0.852 -> PASS | R-B: 1.500 vs 0.829
+P-2c solver: max gap 1 (<=1): PASS
+A=350 report: R-A 0.760 R-B 0.746 (gap 0)

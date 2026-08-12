@@ -4435,3 +4435,36 @@ identity + tower identification. The census front now carries: the
 equation DERIVED, its theorems CERTIFIED, its energy constant an
 IDENTITY, and its corrections OWNED — none open without a named
 owner.
+
+## 2026-08-12 — POOL P-2 SCORED: FAIL HIGH AS GATED — the raw seat rule dies by overshoot on the physical surface; BOTH unweighted geometric readings are now excluded from opposite sides, and the pool is a WEIGHTED count
+Instrument mass/mass-poolP2{.py,-run.txt}. Solver exact throughout
+(P-2c PASS, max gap 1); shape gate P-2b PASS (φ falls with A — the
+T1 participation direction, robustly).
+- P-2a FAIL HIGH, exactly as the fork anticipated: R-A heavy mean =
+  0.992 vs gate [0.25, 0.41] — the diffuse skin (the ledger's own
+  a = 0.574 tail) carries ~1 open patch per cell, 3× the measured
+  pool. The RAW rule (every open patch a seat) is DEAD. The
+  host-adjacency fork R-B = 0.975 — DEAD TOO as reported (deg-0
+  cells are rare; the overshoot lives in deg-2..4 skin cells, not
+  isolated ones). A = 350: R-A 0.760 — still 2.3× high; no rescue
+  by size.
+- THE DAY'S FINDING ON THE POOL, NOW TWO-SIDED AND RIGOROUS: the
+  sharp-wall count undershoots (0.210, −36.5%, proven-optimal
+  graphs) and the physical-surface count overshoots (0.99, +200%),
+  both with exact solvers, both as registered. **The pairing pool
+  is not an unweighted geometric census from either direction.**
+  The measured φ = 0.331 sits between the poles: the pool must be
+  a WEIGHTED seat count — and the weight has a pre-named owner from
+  the swing-44 addendum's candidate list: cost-below-credit (a seat
+  counts only where hosting the borrowed half-turn is profitable
+  against the borrow credit γ*²δ_pair — skin seats are geometrically
+  open but energetically expensive: their cells are under-locked,
+  and parking there forfeits lock profit). P-3 (fresh registration,
+  another session): the profit-weighted census — seats weighted by
+  the ledger's own functional, threshold = the borrow credit; the
+  two dead poles become its limits (weight→1: P-2's overshoot;
+  weight→sharp: P-1's undershoot); gates set at registration with
+  the poles as declared kills.
+- SEAT-UNIT STATUS (precise): the unweighted seat UNIT is dead; the
+  seat CLASS survives only as the weighted object. The A^{-1/2}
+  form theorem and the derived depth (δ_cell, +7.4%) are untouched.
