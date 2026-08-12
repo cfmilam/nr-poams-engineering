@@ -1,0 +1,17 @@
+swing 34 — pool census: 1973 gaps; dp/2 = 7.009; 2/z_c = 0.4049
+
+S34a exclusion theorem: stands as registered (exponent lattice {p/3}; -1/2 not in lattice)
+
+S34b light-edge intercept delta_cell (A 20-40, n=145): 6.058 | dp/2 = 7.009 (-13.6%) | [5.26,8.76] -> PASS
+S34c plateau (A 150-220, n=742): 10.528 -> phi = (6.058/10.528)^2 = 0.3311 | [0.30,0.52] -> PASS | vs 2/z_c 0.4049 (-18.2%)
+
+S34d consistency: quartile medians [ 7.52 10.12 10.37 10.55] | monotone(0.3) True | saturating True -> PASS
+
+report — implied frontier share n_f/A per quartile: [0.648 0.358 0.341 0.33 ] (light limit 1 by construction)
+
+S34e T5 diagnostic (exclude dist<=1):
+  Q1: split +0.620 | full-sample +0.541 | co-drift track 0.544 (n=355)
+  Q2: split +1.111 | full-sample +0.927 | co-drift track 0.752 (n=413)
+  Q3: split +0.514 | full-sample +0.298 | co-drift track 0.834 (n=451)
+  Q4: split +1.127 | full-sample +1.263 | co-drift track 0.837 (n=415)
+  Q3 gap to track: full 0.536 -> filtered 0.320 (<half recovery 40%)

@@ -3069,3 +3069,43 @@ GRADE CAP: theorem + extraction. The A^{-1/2} item RESOLVES to a
 frontier-share object with measured (δ_cell, φ); the native derivations
 of δ_cell (duty cycle) and φ (packing share) become the sharpened
 residues. Honest null per gate.
+
+## 2026-08-12 — SWING 34 SCORED: the A^{-1/2} item resolves in FORM — theorem + frontier-share object measured; both candidate identities miss their centrals and stay named
+1973 gaps; instrument mass/mass-swing34{.py,-run.txt}.
+- S34a THEOREM STANDS: no product/ratio of standing columns reaches
+  A^{-1/2} (exponent lattice {p/3}); the gap is a COUNT-DILUTION
+  observable, Δ = δ_cell/√n_f — the mass front's first frontier-census
+  quantity. The 33-swing-old "A^{-1/2} window mechanism" item is now a
+  measurement problem, not a mystery: which count, what share.
+- S34b PASS: light-edge intercept δ_cell = 6.058 ∈ [5.26, 8.76]; the
+  duty-cycle candidate δ_pair/2 = 7.01 runs +13.6% hot vs the
+  extraction — window holds, identity NOT claimed (named residue).
+  Hand expectation 6.0–7.0 met at its floor.
+- S34c PASS: plateau 10.528 ⇒ φ = (6.058/10.528)² = 0.3311 ∈
+  [0.30, 0.52]; the named candidate 2/z_c = 0.405 runs +18% high vs
+  the extraction — signed, NOT identified. Hand expectation 0.35–0.45
+  MISSED LOW by the measurement (booked honest: the prose expectation
+  was wrong, the registered gate held).
+  ★ POST-HOC FLAG, UNCLAIMED + INOCULATED: φ = 0.3311 sits +0.7% from
+  1/3. A clean fraction this close is exactly the Wyler bait the
+  research ledger exists to refuse: 1/3 may enter ONLY through a
+  registered forcing derivation filed before any further pairing-data
+  look. On the inoculation list it goes.
+- S34d PASS (consistency, zero credit): quartile medians
+  {7.52, 10.12, 10.37, 10.55} monotone + saturating. Implied frontier
+  share n_f/A per quartile: {0.65, 0.36, 0.34, 0.33} — a light system
+  is two-thirds frontier; a heavy one saturates at the φ share.
+- S34e T5 DIAGNOSTIC (signed): excluding dist ≤ 1, the quartile splits
+  become {0.620, 1.111, 0.514, 1.127} vs track {0.54, 0.75, 0.83,
+  0.84}: Q3 recovers 40% of its gap — LESS than the declared half ⇒
+  the frontier-census explanation does not carry the Q3 collapse
+  alone; the deformation-onset boundary stands named, with a real
+  frontier component now measured beside it (Q2/Q4 overshoots persist
+  filtered — the split's mid-chart structure is genuinely rougher
+  than the smooth co-drift).
+VERDICT: theorem + extraction grade, as capped. THE PAIRING MAGNITUDE
+LADDER IS NOW: Δ = δ_cell/√n_f, δ_cell = 6.06 (light-edge, measured),
+n_f/A: 0.65 → φ = 0.331 (measured saturation share). Sharpened
+residues: derive δ_cell (duty-cycle ½ runs hot) and φ (patch share
+2/z_c runs high; 1/3 inoculated) natively — the pool census is now
+TWO numbers with candidate mechanisms, not a form mystery.
