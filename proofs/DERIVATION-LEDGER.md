@@ -2120,3 +2120,30 @@ GATES:
 - S18e bulk restatement (report only, no gate): swing-17 books recomputed
   with h_derived in the h₁ variant.
 Instrument: mass-swing18.py (arithmetic + bands + confrontations only).
+
+## 2026-08-11 — SWING 18 SCORED: h derived and identified; the sum check lands at 2%; the credit ledger is whole
+S18b PASS: h = 2c₃/z_c = 0.978 central ∈ [0.6, 1.1]. The trinucleon step is
+now TIED to the capacity constant — no new number: the same Ω_w = 4π/z_c that
+sets saturation sets the first loop's suppressed credit (patch-cone geometric
+phase, J = 1 Berry, fraction 2/z_c = 0.418).
+S18c band overlap YES (derived [0.87, 1.11] vs measured [0.69, 0.99]); central
+tension +16%, and the pre-declared OPPOSITE-SIGN pattern appeared (c₃ −8% vs
+its measured marginal) — booked as the split-structure residual (no common
+r_q slide fixes both; named, kept).
+S18d THE SUM CHECK — the sharp one — PASS: h + c₃ = 3.314 [3.10, 3.55] vs
+measured α − pair total step 3.39(20), central −2.2%. The two-loop total is
+derived at 2% with zero fitted constants; the residual sits in the SPLIT
+between first and second loop, not the total.
+S18e (report): swing-17 books recomputed with h_derived: functional
+G = 36.92 (+3.0%), liquid G = 35.68 (−0.5%). The h₀/h₁ bracket [34.6, 36.9]
+(functional) contains C = 35.85; the bulk-h attribution (does the anholonomy
+discount apply per-bond in bulk or only at the first loop of a cluster?)
+remains the named seam — it is now the ONLY open attribution in the crown's
+arithmetic.
+CREDIT LEDGER AFTER SWING 18 (all derived, zero fitted):
+δ_pair = ħ²/4mr_q² = 14.02 (measured 14.31, −2%); h = 2c₃/z_c = 0.98
+(measured 0.84, +16%); c₃ = 2.34 (measured 2.55, −8%); h + c₃ = 3.31
+(measured 3.39, −2%); gross at capacity = 14.5–15.6 six constructions
+(required 15.0 ± 1.1); z̄ realized 4.85/4.59 (required 4.78 ± 0.35); books
+central 33.4–36.9 vs C = 35.85.
+Instruments mass/mass-swing18{.py,-run.txt}.

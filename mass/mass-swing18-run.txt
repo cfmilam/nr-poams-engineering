@@ -1,0 +1,30 @@
+SWING 18 — h = 2*c3/z_c (patch-cone anholonomy, J=1)
+capacity identity: Omega_w = 4pi/z_c => fraction Omega_w/2pi = 2/z_c = 0.4184 central
+r_q=0.84 z_c=4.43: c3=2.449  h=1.106  (h+c3=3.554)
+r_q=0.84 z_c=4.78: c3=2.449  h=1.025  (h+c3=3.473)
+r_q=0.84 z_c=5.13: c3=2.449  h=0.955  (h+c3=3.404)
+r_q=0.86 z_c=4.43: c3=2.336  h=1.055  (h+c3=3.391)
+r_q=0.86 z_c=4.78: c3=2.336  h=0.978  (h+c3=3.314)
+r_q=0.86 z_c=5.13: c3=2.336  h=0.911  (h+c3=3.247)
+r_q=0.88 z_c=4.43: c3=2.231  h=1.007  (h+c3=3.239)
+r_q=0.88 z_c=4.78: c3=2.231  h=0.934  (h+c3=3.165)
+r_q=0.88 z_c=5.13: c3=2.231  h=0.870  (h+c3=3.101)
+
+CENTRAL: c3 = 2.336, h = 0.978;  band h = [0.870, 1.106]
+
+S18b identification window [0.6, 1.1]: PASS
+S18c confrontation vs measured 0.84(15): derived [0.87, 1.11] vs measured [0.69, 0.99] — overlap YES (0.12 MeV)
+  central tension SIGNED: h_derived - h_meas = +0.138 MeV (+16%)
+  c3 tension SIGNED:      c3_derived - c3_meas = -0.214 MeV (-8%)
+  opposite-sign pattern per registration: YES — booked as split-structure residual
+
+S18d sum check: h + c3 = 3.314 [3.101, 3.554] vs measured alpha-step 3.39(20): inside
+  central offset: -0.076 MeV (-2.2%)
+
+S18e bulk restatement (report only) — swing-17 ensembles, h1 with h_derived = 0.978:
+  functional r_q=0.84: gross_h1'=16.19  G_h1'=38.70 (+7.9% vs 35.85)
+  functional r_q=0.86: gross_h1'=15.45  G_h1'=36.92 (+3.0% vs 35.85) <-- central
+  functional r_q=0.88: gross_h1'=14.75  G_h1'=35.26 (-1.7% vs 35.85)
+  liquid     r_q=0.84: gross_h1'=16.31  G_h1'=37.40 (+4.3% vs 35.85)
+  liquid     r_q=0.86: gross_h1'=15.56  G_h1'=35.68 (-0.5% vs 35.85) <-- central
+  liquid     r_q=0.88: gross_h1'=14.86  G_h1'=34.08 (-4.9% vs 35.85)
