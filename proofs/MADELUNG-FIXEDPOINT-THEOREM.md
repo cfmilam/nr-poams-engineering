@@ -158,3 +158,23 @@ L1–L4) · tier3m runs (master inequality, M1–M3) · tier3n.py / -run1 (high-
 dip) · earlier: tier3–tier3g (apsidal/aufbau chassis), tf-apsidal.py (BVP χ).
 Registrations were committed to this repo BEFORE each run (see DERIVATION-LEDGER
 entries of 2026-08-09/10).
+
+---
+
+## 12 · Addendum 2026-08-12 — the mathematical tier closes
+
+Same-day sequence M-A → M-B → M-C (docs: MADELUNG-INTERIOR-REDUCTION.md,
+MADELUNG-DIP-ENCLOSURE.md; instruments `madelung/`; registrations pre-run throughout):
+
+- **Claim 5 (sign structure ⇒ k < 2): VERIFIED → THEOREM.** Exact-rational certificate,
+  2447 checks: σ̂ ≥ σ* at every level (four-piece cover; the pointwise impossibility M1
+  circumvented by the two-point structure exactly as required). Hence D′ ≤ 0, D ≥ 0, and
+  k(J) < 2 strict on every row via the deficit identity (claim 4).
+- **Claim 10 (the dip): COMPUTER-ASSISTED → THEOREM.** S ∈ [1465319/1000000, 36733/25000],
+  S < 3/2 with exact margin 767/25000; k_edge ∈ [1.93405, 1.94133]. Certificate: 1564
+  exact checks; barrier chain + saddle cone; zero floats in verification.
+- **The merge theorem (new):** the interior inequality's peak case ⟺ S < 3/2; its peak
+  ratio = k_edge/2. Open items 1 and 2 were one object; both are now closed.
+- **Open item 3 (POAMS-native census) is the front's only remaining open** — the physics
+  tier. Imports carried by the theorems: TF census stand-in; Sommerfeld/Hille heteroclinic;
+  stable-manifold tangency (Perko/Hartman class).

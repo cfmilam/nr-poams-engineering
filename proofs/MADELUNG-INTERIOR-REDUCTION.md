@@ -116,3 +116,24 @@ Everything away from the peak carries 5–23% room.
 - The eye end is Lemma A4 (algebra) plus an explicit tail bound at rate λ = 0.772.
 
 Nothing else stands between the two-chassis verification and a validated theorem.
+
+---
+
+## 7 · Completion (swing M-C, same day) — the certificate over the full range
+
+The program of §6 executed: **σ̂ ≥ σ* is a theorem on every level** (registration 9543b00,
+score a7f882d; instrument `madelung/madelung-swingC.py`, 2447 exact checks, 0 failures).
+Pieces: the M-B chain extended to t₀ = 1/10 (570 segments total); the pairing handled
+entirely in the log-level D = p(1) − p(t) with directed rational brackets (no transcendental
+evaluation anywhere — the exponential enters only through the exact bound
+e^D ≥ 1 + D + D²/2); 160 interval-covering middle checks
+[1/(1−t_b) + 1/(τ_min−1)]²(D + D²/2) ≤ 4(1 + D + D²/2), worst margin 3.1% at t = 0.87;
+the eye tail reduced by monotonicity to one check (margin 7.4%); the peak neighborhood
+by the chain's own m/M extrema, (3 + m_max/M_min)² ≤ 32·m_min, margin 0.32% — thin exactly
+where the merge theorem (§4) says it must be: **the peak margin is the dip margin.**
+
+Consequence, via the record's deficit identity: **k(J) < 2 strictly for every J on every
+row** — the Madelung tie-break is a theorem at the mathematical tier, modulo the TF census
+stand-in (physics import, named since the charter) and the two classical ODE facts of the
+dip enclosure. The front's remaining open is the physics tier alone: the POAMS-native
+closure-stacking census.
