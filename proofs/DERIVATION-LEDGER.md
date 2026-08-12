@@ -3831,3 +3831,42 @@ BOOKED NUMBERS ONLY (swing-44 run file): heavy slots/A = 5 − z̄ =
 {0.369, 0.289, 0.382} → mean 0.347 vs measured 0.331 (+4.8%); light
 {0.800, 0.733, 0.600} → 0.711 vs measured light share 0.65 (+9%).
 BOTH edges land where the node census missed both. Registered next.
+
+## 2026-08-12 — SWING 46 REGISTERED (pre-run): the SLOT census — seats, not sites; the counting reason on the record before the run
+THE RULE (frozen): the borrow pool counts open half-turn SEATS, not
+open nodes: n_f = Σ_i (z_cap − deg_lock,i), z_cap = 5 (the derived
+integer ceiling, swing 17 D2). Ledger reason (the counting reason the
+1/3 clause and S44d demanded): patch capacity is per-patch, and every
+unlocked patch is one seat the borrowed half-turn can occupy — a
+deg-3 cell offers two seats, a filled cell none. The odd quantum
+delocalizes over seats; amplitude-count dilution gives Δ =
+δ_cell/√n_f with n_f the SEAT count. (The swing-44 node census was
+the right object in the wrong unit; the swing-45 kill removed the
+only orientation reading.)
+HAND ARITHMETIC (declared above from booked swing-44 z̄ only): heavy
+5 − z̄ = 0.347 (+4.8% vs measured 0.331); light 0.711 (+9% vs 0.65).
+INSTRUMENT: rebuild the three swing-45 families EXACTLY
+(deterministic rng seed+A0 ⇒ identical droplets); slot census per
+droplet; PLUS the honest bracket the matching gap requires:
+- achieved slots/A (greedy+augment graph) = UPPER estimate of seats;
+- degree-bounded optimum: opt_edges ≤ ⌊Σ_i min(5, avail_i)/2⌋ with
+  avail_i = reach-graph degree ⇒ slots_LB = 5 − 2·opt_edges/A =
+  LOWER bound on seats. Truth in [LB, achieved]. Gate on the
+  BRACKET CENTER; bracket width reported.
+GATES:
+- S46a heavy (9 droplets, 3-family mean of bracket centers):
+  slots/A within ±15% of 0.331.
+- S46b light (9 droplets): slots/A within ±20% of 0.65 (the light
+  extraction rides the T1 read; wider honest band).
+- S46c shape: slots/A decreasing in A and saturating on 3-family
+  means.
+- S46d seed spread of heavy bracket centers < 0.08 (widened per the
+  S45d instrument finding, declared not post-hoc: the gate is set
+  BEFORE this run).
+- S46e composed check (report, unclaimed): Δ√A(heavy) =
+  δ_cell^derived/√(slots/A) with δ_cell = 6.51 (swing 44) vs measured
+  10.55 — hand: 6.51/√0.347 = 11.05 (+4.7%).
+WYLER GUARD: z_cap = 5 is a standing derived integer; no dial exists
+in the rule; the hand numbers were computed from the ALREADY-BOOKED
+run file before this registration; 1/3 stays inoculated (0.347 is not
+1/3, and no conversion is sought).
