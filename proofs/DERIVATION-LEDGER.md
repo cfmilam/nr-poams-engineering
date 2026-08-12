@@ -3746,3 +3746,53 @@ patches (derived, 0.275) + orientation-open slots (the pre-named
 residual, ~0.06 share, needs the 2-sense × 2-orientation cell census
 = a genuinely new instrument, registerable as swing 45). The A^{-1/2}
 mechanism is now: theorem (form) + derived depth + 83%-derived count.
+
+## 2026-08-12 — SWING 45 REGISTERED (pre-run): the orientation cell census — the pool's second component, with the seed discipline S44b demanded
+TARGET: the missing ~0.06 share (measured φ 0.331 − geometric 0.275).
+Owner pre-named in the swing-44 registration's own census clause:
+orientation-open slots.
+THE INSTRUMENT (frozen):
+- Droplets: swing-44 build EXACTLY (same functional, sizes, anneal),
+  now ×3 SEEDS per size (160812/260812/360812) — the single-seed
+  scatter that failed S44b is addressed by design; gates score on
+  3-seed means, spreads reported.
+- Lock graph: greedy shortest-first + 2 shuffled orders, best kept,
+  + augmentation; upper-bound gap reported. Direction note (booked):
+  an imperfect graph INFLATES the geometric census — the undershoot
+  finding is gap-robust.
+- FOUR-CHANNEL ASSIGNMENT on the lock graph (the swing-5 ledger, no
+  new physics): sense = species label, counts FIXED at balance
+  (N=Z class); orientation = free binary. Edge weights: unlike-sense
+  parallel = 1 (strong); antiparallel = γ* (weak, sense-blind);
+  like-sense parallel = 0 (barred). T=0 assignment = anneal over
+  orientation flips + sense swaps (counts preserved); achieved weight
+  reported.
+- PRIMARY CENSUS (gated): orientation-open = deg-5 node with a
+  ZERO-COST orientation flip (ΔW = 0 zero mode — a free
+  re-orientation channel = a seat the odd quantum can borrow through
+  without reorganization cost). Pool = {deg < 5} ∪ {zero-mode at
+  deg 5}.
+- REFINED CENSUS (reported, unclaimed): zero-cost flips that
+  specifically open a weak (antiparallel) slot toward a like-sense
+  neighbor — the literal same-species borrow channel. If the primary
+  overshoots, this is the pre-named sub-census; it would fly as
+  swing 46 with fresh registration, never swapped in tonight.
+HAND EXPECTATIONS (honest): geometric 3-seed mean 0.26–0.29;
+zero-mode increment at deg 5: [0.02, 0.12] — genuinely uncertain
+(frustration fraction of a quad-dominated disordered graph; could
+overshoot ×2 — the overshoot clause above is live). Light edge:
+union must move TOWARD the measured 0.65 (sign).
+GATES:
+- S45a UNION (3-seed mean, heavy trio) ∈ [0.28, 0.38] AND within 15%
+  of 0.331 — the transferred S44a gate, now confronting the complete
+  registered census.
+- S45b the orientation increment ∈ [0.02, 0.12].
+- S45c light-edge sign: union(20–40) > geometric(20–40).
+- S45d seed discipline: heavy-trio union spread (max−min over seeds)
+  < 0.06; S44b's monotone+saturation retested on 3-seed means
+  (report + sign).
+- S45e the 1/3 clause (unchanged): conversion only with a counting
+  reason.
+GRADE CAP: extraction (the census is constructed from the derived
+channel ledger, but the zero-mode definition is an identification —
+named). Honest null per gate.
