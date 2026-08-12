@@ -2449,3 +2449,40 @@ fat-tailed/sharp-shouldered — outer decay 0.574 fm (lone rate), inner
 shoulder width ∝ √(1/9) — 2pF is blind to this skew; model-independent
 charge analyses are not.
 Instruments mass/mass-swing22{.py,-run.txt}.
+
+## 2026-08-11 — SWING 23 REGISTERED (pre-run): the lock range and the patch angle — the capacity chain from r_q and m alone
+TARGET: open item (2) — the patch angle θ_w "consistent at ≈ 2ħ/mc;
+coefficient underived." Two claims, each one geometric line, registered
+with hand arithmetic declared:
+CLAIM 1 (the lock range): ξ = 2·(ħ/m_q c). REASON (named): mass IS trapped
+turning rate ω = mc²/ħ (the ledger's founding identity); a quantum's phase
+stays co-rotational only within r = c/ω = ħ/mc of its matter core (the
+c-bound on coherent co-rotation — the same bound that runs the α front's
+cap). A lock is ONE SHARED turn: it forms when the two coherent extensions
+touch. Two participants ⇒ the coefficient 2: gap ≤ ħ/m₁c + ħ/m₂c = 2ħ/mc.
+Hand value: ħc = 197.327 MeV·fm, m_N = 938.92 MeV ⇒ ξ = 0.4203 fm.
+CLAIM 2 (the patch angle): the lock's angular footprint is the TANGENT
+CONE of the contact sphere seen from lock reach: sin θ_w = 2r_q/(2r_q+ξ).
+REASON (named): a partner at reach d = 2r_q + ξ holds the shared turn only
+while its line of centers still meets the contact sphere (radius 2r_q);
+the tangent half-angle of a sphere R from distance d is sin θ = R/d —
+standard, no freedom. NAMED-REJECTED alternative: cos θ_w = 2r_q/reach
+(assigns the footprint to the complement cone; gives z_c ≈ 10, outside
+every band — geometrically wrong object: the tangent relation is a sine).
+THE CHAIN (zero new constants): z_c = 2/(1 − cos θ_w) with
+sin θ_w = 2r_q/(2r_q + 2ħ/m_N c) — capacity from the quantum radius and
+the nucleon mass alone.
+Hand values declared: r_q = 0.86 ⇒ sin θ_w = 0.8036, θ_w = 53.5°,
+z_c = 4.94; band r_q ∈ [0.84, 0.88] ⇒ z_c ∈ [4.88, 5.00].
+CONFRONTATIONS (booked windows, unchanged):
+- S23a ξ vs the swing-4 geometric band [0.40, 0.50] fm (reach 2.14−1.72 =
+  0.42 central). Expected IN at 0.4203.
+- S23b θ_w vs the booked 54.5° (from Ω_w = 4π/z_c at z_c = 4.78):
+  derived 53.5° — report the 1.8% angular tension signed.
+- S23c THE CHAIN GATE: z_c(derived) ∈ [4.5, 5.13] (energy band ∩ geometric
+  route). Expected IN at 4.94 (+3.4% vs energy central 4.78 — signed).
+- S23d ripple report (no gate): h = 2c₃/z_c and δ̄ = 2C/z_c under
+  z_c = 4.94 (report only; the energy-ledger z_c remains the booked
+  central until a registered reconciliation swing).
+GRADE CAP: derived-identification — each claim is one named geometric
+line; the confrontations are against already-booked bands. Misses booked.
