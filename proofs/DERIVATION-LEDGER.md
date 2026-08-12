@@ -4368,3 +4368,45 @@ A = 200 droplet lives in the |r−R| < 2a shell, and dilute cells carry
 up to 5 open patches each, so overshoot is the live risk; R-B runs
 lower by the deg-0 exclusion. The instrument decides; no rescue in
 either direction.
+
+## 2026-08-12 — CENSUS SWING N-3 REGISTERED (pre-run): the correction tower — the eye staircase (Scott class) read as discreteum bookkeeping; the TF energy constant as an identity of OUR chain
+TARGET: the census equation's correction tower (named in N-2d). The
+extant large-Z expansion of total atomic binding:
+  E(Z) = −c₇ Z^{7/3} + (1/2)Z² − c₅ Z^{5/3} + …  (Hartree units)
+with c₇ = 0.768745 (TF), the Z² Scott term (rigor: Siedentop–Weikard
+1987; Hughes), c₅ = 0.269900 (Schwinger; rigor Fefferman–Seco 1990s).
+POAMS BOOKKEEPING READING (the claim class — identification, not
+re-proof):
+- TERM 1 IS OURS ALREADY: c₇ must be an identity of the N-2 chain —
+  HAND-DECLARED: c₇ = (3/7)·B₁/β with β = (3π/4)^{2/3}/2 = 0.885341
+  (our derived scale coefficient) and B₁ the census launch constant:
+  (3/7)(1.5880710/0.8853414) = 0.768745. Gate N-3a: reproduce to 6
+  digits from OUR constants, zero dials.
+- TERM 2 = THE EYE STAIRCASE: the continuum census reads the eye
+  region as a ramp; the discreteum's innermost turns are a staircase
+  (GROUNDING §1 — the same integrate-don't-differentiate inversion).
+  The correction scale Z² is FORCED (the eye tower's rate scale);
+  the coefficient 1/2 is the half-turn edge offset of turn counting
+  (Langer/Maslov class — the two turning points of a radial libration
+  each carry a quarter turn). IDENTIFICATION grade: extant rigor
+  cited, no independent derivation claimed tonight.
+- TERM 3 = THE SENSE-PAIRING LAYER (the AXIOM-C front's object) +
+  second-order staircase: coefficient IMPORTED (Schwinger), named.
+GATES:
+- N-3a: c₇ identity from our chain to 1e-6 (zero dials).
+- N-3b: the 3-term tower vs measured non-relativistic total binding
+  energies at Z = 10 (Ne, reference −128.94 Ha) and Z = 18 (Ar,
+  −527.54 Ha — standard non-rel benchmarks, cited from the record):
+  |tower − reference|/|reference| < 2% at both. (Consistency
+  confrontation of the labeled tower — the numbers are famous; the
+  claim is that OUR term-1 constant + the staircase reading + the
+  named import reproduce them; relativistic contamination bars
+  higher Z, declared.)
+- N-3c: the tower map on the record — (Z^{7/3}, Z², Z^{5/3}) =
+  (continuum census, eye staircase, sense pairing) with owners and
+  rigor citations; the discreteum ORDER (each correction = the next
+  discreteness scale) stated as the structural claim.
+GRADE CAP: term-1 identity + tower identification; the eye-staircase
+coefficient's native derivation (the ½ from quarter-turns at the two
+libration edges) is the named residue for a future swing; term 3
+belongs to AXIOM-C.
