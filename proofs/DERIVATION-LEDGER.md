@@ -2233,3 +2233,40 @@ seam — measured 0.360 ± 0.064 contains both 1/3 (mode share, R2) and
 fitted. Sharper trinucleon/alpha extraction or an independent observable
 would split them. Also standing: λ skin, sign root, A^{-1/2}, T-P3′.
 Instruments mass/mass-swing19{.py,-run.txt}. Doc MASS-LEDGER-SWING19.md.
+
+## 2026-08-11 — SWING 20 REGISTERED: consistency audit of the swing-19 rule table (error found, declared before rescoring)
+ERROR STATEMENT (found by inspection while hunting the seam-splitter; declared
+here BEFORE any rescoring is booked): swing 19's R2 row mixed two loop-credit
+conventions — its trinucleon entry (c₃/3 = 0.779) treats one independent loop
+as crediting c₃ TOTAL (the (c₃T+c₄Q)/E bulk convention), while its alpha entry
+(1.5c₃ = 3.504) treats one loop as crediting the FULL MODE 3c₃ (9c₃/6). No
+single convention yields both numbers. The error weakened the claim (it
+manufactured a phantom second survivor), it did not inflate it. R1, R3, R4,
+R5 rows verified convention-consistent as booked.
+CORRECTED RULE TABLE (registered; hand arithmetic exact, stated pre-script):
+- R2a (each independent loop credits c₃ total, spread over E — the bulk
+  convention actually used in swings 15–17): t 0.779 (−0.4×), α = 3c₃/6 =
+  1.168 (−11.1×) → DEAD on the alpha.
+- R2b (each independent loop credits the full mode 3c₃): t = c₃ = 2.336
+  (+10.0×) → DEAD on the trinucleon.
+- R6 (first-suppressed on independent-through-bond counts; added for
+  completeness): α per-bond h + 0.5c₃ = 2.146 (−6.2×) → DEAD (also
+  basis-dependent per-bond — ill-defined; named).
+- R1 (first raw closure → h, rest full; the cluster reading): t +0.9×,
+  α −0.4× → SOLE SURVIVOR.
+CONSEQUENCES REGISTERED (before the rescore script):
+- S20a corrected kill table: every consistent alternative dies on cluster
+  data; the admissible bookkeeping is UNIQUE (R1).
+- S20b crown restatement: S19b's letter ("both SURVIVING rules in window")
+  survives — the survivor set is {R1}, functional G = 36.22 (+1.0%), full
+  r_q band 34.59–37.97 in [32,40]. Grade renames: rule-robust →
+  UNIQUE-ADMISSIBLE-RULE. The C-inside-the-seam statement is RETIRED (no
+  second reading exists).
+- S20c seam verdict: open item (6) RESOLVES — the 1/3 (mode-share) reading
+  dies with its parent rule; the first-closure suppression is the patch-cone
+  anholonomy 2/z_c = 0.418 alone; measured 0.360 ± 0.064 = −0.9× consistent.
+  The remaining open structure is the swing-18 split residual (h +16% hot,
+  c₃ −8% cold) — real, named, 15%-level.
+- S20d dead-rule bulk values reported for the record only.
+Instrument: mass-swing20.py (corrected table + deterministic bulk rerun).
+Exhibit correction to follow per publication policy (corrections replace).
