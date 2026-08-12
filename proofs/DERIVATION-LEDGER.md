@@ -2928,3 +2928,60 @@ latent rider stays named-unclaimed.
 STATE: the split residual moves from "named shape target" to
 "mechanism established, fraction identified [1/6 | (2/z_c)² | 1/(2z_c)],
 next discriminator = step2 residual sign or an independent γ sharpening."
+
+## 2026-08-12 — SWING 33 REGISTERED (pre-run): the pairing candidate walks into the ambush — mechanism from primitives, two UNSEEN quantitative gates, absolute median explicitly ungated
+MECHANISM (zero pairing-data inputs; primitives only):
+The odd census holds one unclosable half-turn — the shared turn carries
+ħ as ħ/2 + ħ/2 (the δ_pair booking rule), and the odd quantum's
+counter-holder slot is empty; a fractional turn alone is no thing
+(discreteum). The gap = the re-pairing credit the odd quantum cannot
+cash directly. The only cashing route is BORROW-EXCHANGE through an
+existing pair: break-and-reform through an existing shared turn = TWO
+channel vertices ⇒ the credit carries γ² — this registration IS the
+independent forcing derivation required by the swing-31 inoculation
+clause for the γ²δ_pair FORM, filed BEFORE any further pairing-data
+look. THE POOL DILUTION REMAINS UNDERIVED: participation P(A) is read
+off the RECORD's T1 curve (frozen constants 6.86/9.48/10.51/10.55,
+overall 9.65 — seen, now fixed), NOT derived ⇒ the ABSOLUTE gap median
+is REPORT-ONLY, no gate, no credit (γ*²δ_pair/√A = 9.52 at γ* = 0.8242
+noted Wyler-adjacent and conditional; the standing A^{-1/2} open item
+is unchanged).
+FORCED STRUCTURE (gates, hand-declared):
+- S33a T2 MAGNITUDE (uninoculated, zero dials): same-species re-pairing
+  runs in the sense-blind weak channel for both species; the ledger's
+  ONLY n/p asymmetry is the strain entry ⇒ the re-formed pp turn pays
+  the like-charge contact at pair separation 2r_q once per event:
+  k/(2r_q) = 1.44/1.72 = 0.8372 MeV, riding the SAME participation as
+  the credit ⇒ in Δ√A units, split = 0.8372 × P√A. With P√A from the
+  frozen T1 curve (overall/Q4 = 9.65/10.55 = 0.915): predicted OVERALL
+  Δn√A − Δp√A = 0.766. GATE: measured overall split ∈ [0.50, 1.15].
+  (Seen value 0.78 — declared; prediction lands +1.8% low of it. The
+  scale 0.8372 is new derived content; the band is honest estimator
+  width, not tuning room.)
+- S33b T2 CO-DRIFT (UNSEEN — the sharp test): the split must TRACK the
+  T1 participation curve by quartile: predicted splits 0.8372 ×
+  {6.86, 9.48, 10.51, 10.55}/10.55 = {0.54, 0.75, 0.83, 0.84}. GATE:
+  all four measured quartile splits positive AND within ±60% of their
+  predicted values. Falsifier: flat-at-0.84 or anti-drifting splits
+  kill the shared-pool reading even if S33a lands.
+- S33c T3 SIGN (mechanism consistency; seen, sign-grade only): the
+  borrow pool = frontier cells with spare capacity; closures bar them ⇒
+  dist-1 median < dist-3+ median. No magnitude claim (pool census
+  underived, named).
+- S33d T4 CENSUS IDENTITY (UNSEEN in this form): the ee quarter
+  double-difference at 2-step spacing reads the census curvature:
+  δV_pn ≈ (2a_sym/A)(1 − y²), y = (N−Z)/A — with a_sym = 24.5 the
+  ledger's own derived number (kinetic floor + frozen contact). GATE:
+  median[δV_pn·A/(2(1−y²))] over the ee sample ∈ [19.6, 29.4]
+  (a_sym ± 20%). If PASS: the T4 target is EXPLAINED as census
+  bookkeeping — mid-shell δV_pn is not a pairing object; residual vs
+  band edge = the direct np frontier credit, named. If FAIL low/high:
+  booked, the identity is wrong or the direct credit dominates.
+REPORTS (no gates): absolute median vs conditional γ*²δ_pair × P;
+T1 shape consistency (seen); dist-0/2 structural emptiness; n-only vs
+p-only frontier suppression split.
+GRADE CAP DECLARED: structure grade + at most the two uninoculated
+quantitative hits (S33a scale, S33d identity). THE PAIRING ITEM STAYS
+OPEN regardless tonight: full closure requires the pool census derived
+natively (the same capacity-packing object as the standing A^{-1/2}
+item). Honest null honored per gate.
