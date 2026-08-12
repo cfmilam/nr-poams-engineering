@@ -3575,3 +3575,25 @@ sum +2.5% (re-expresses the same seam; no grade).
 VERDICT DECLARED IN ADVANCE: candidate PROMOTES from coincidence-class
 to PREMISE-CONDITIONAL DERIVATION (P named), stays unclosed pending
 the anchor seam; grade cap honored.
+
+## 2026-08-12 — SWING 42 SCORED: promoted to premise-conditional; the γ question and the anchor tension are ONE SEAM (theorem); kill condition live
+Instrument mass/mass-swing42{.py,-run.txt}. All four hand numbers hit:
+γ*(0.86) = 0.8314/spread 0.0007; sensitivity 2.625/ln r_q; r_q* =
+0.8606 → dp 13.997 (−0.56% vs anchor); anchor-pinned r_q 0.8582 →
+γ* = 0.8260, 5/6 sits +0.0073 OUTSIDE the window. S42b PASS. S42c
+report as declared (+11.4%/−0.0%/+2.5%). c₃/δ_pair = 1/6 EXACT
+confirmed (moment lineage; flagged, unclaimed).
+VERDICT (as declared): γ = 5/6 PROMOTED coincidence-class →
+PREMISE-CONDITIONAL DERIVATION under P (universal closing-claim
+share: the transfer f and the channel asymmetry are one structural
+constant in its two sense classes — co-sense cashes at closure,
+counter-sense forfeits). NOT closed: the SENSITIVITY THEOREM shows
+the ledger cannot discriminate 5/6 from 0.8314 internally — the
+discrimination IS the pair-anchor seam (dp 14.018 derived vs 14.075
+muonic, −0.41%): one seam now carries {anchor tension, γ value,
+r_q operational central}. KILL CONDITION LIVE on the record: anchor
+resolves to 14.075 (r_q → 0.858) ⇒ 5/6 dies; independent r_q ≥ 0.860
+at 0.1% ⇒ 5/6 stands and P gains its number.
+THE γ RESIDUE IS NO LONGER A FREE QUESTION — it is the anchor seam
+wearing a second hat. Open-list consolidation: {γ coefficient} +
+{pair-anchor −0.41%} → one item: THE RADIUS SEAM.

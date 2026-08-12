@@ -1,0 +1,12 @@
+S42b-1 gamma* at r_q=0.86: 0.8314 (spread 0.0007, dp 14.018) [hand 0.8314(2)]
+S42b-2 sensitivity dgamma/dln(r_q) = 2.625 [hand 2.4-2.9]
+S42b-3 r_q* (gamma*=5/6): 0.8606 fm -> dp = 13.997 vs anchor 14.075 (-0.56%) [hand 0.8606, -0.55%]
+S42b-4 anchor-pinned r_q = 0.8582 -> gamma* = 0.8260 (5/6 sits +0.0073 = OUTSIDE the 0.004 window) [hand 0.826(1)]
+S42b VERDICT (all four hand numbers): PASS
+
+S42c report (unclaimed) — zero-parameter cluster table at gamma == 5/6 exact:
+  W2 = 8/3, W4 = 16/3 | z2 14.7827  alpha 17.2775
+  step1 0.7077 vs (5/6)h = 0.7882 -> +11.4% | step2 2.4948 vs c3+h/6 = 2.4939 -> -0.0% | sum +2.5%
+  [declared class: +11%% / ~0%% / +2.5%%]
+
+c3/delta_pair = 0.166667 (exactly 1/6: True) — flagged, unclaimed (moment lineage)
