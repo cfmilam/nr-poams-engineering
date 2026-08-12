@@ -3986,3 +3986,55 @@ STATE: interior inequality = REDUCED + endpoints settled (one proved,
 one proved-with-booked-gate-miss) + merged with the dip at its pinch.
 Remaining: the validated instrument. No unconditional claim tonight,
 as capped.
+
+## 2026-08-12 — MADELUNG SWING M-B REGISTERED (pre-run): the validated dip enclosure — exact-rational barrier certificate for S < 3/2, no floating point in the verification
+GOAL: upgrade S < 3/2 from computer-assisted (1e-8 float budget) to
+THEOREM with an exact certificate, closing consolidated-record open
+item 2 and (via M-A's merge theorem) the tight end of item 1.
+ARCHITECTURE (declared):
+- The heteroclinic is the graph σ = φ(t) on (0,3) of dφ/dt = G(t,φ)
+  = φ(3−t)/(2(t+t²−φ)) below the nullcline (A1, PROVED in M-A).
+- CROSSING LEMMA (scalar, per segment, right-to-left): if h = U − φ
+  ≥ 0 at a segment's right end and G(t,U) > U′ wherever φ = U, then
+  h ≥ 0 on the segment (zeros of h are strict down-crossings in
+  increasing t; propagate leftward by induction over segments).
+  Mirror statement for lower barriers L with G(t,L) < L′.
+- SADDLE ANCHOR: straight lines through (3,12), U = 12 − K₁(3−t),
+  L = 12 − K₂(3−t), rational K₁ < (7+√73)/2 < K₂. The heteroclinic
+  approaches the hyperbolic saddle tangent to the stable eigendirection
+  (slope (7+√73)/2 ≈ 7.772) — CLASSICAL IMPORT, named: stable-manifold
+  theorem (Perko/Hartman class); TF far-field convergence to the
+  Sommerfeld point imported as established (Sommerfeld 1932; rigorous
+  TF asymptotics Hille 1970). Tangency ⇒ the orbit falls strictly
+  below U and strictly above L eventually as t → 3⁻ ⇒ anchors exist;
+  the crossing lemma propagates them left.
+- HAND-DECLARED EXACT SADDLE CHECKS (all rational arithmetic):
+  K₁ = 77/10: eigen-side (2K₁−7)² = 1764/25 = 70.56 < 73 ✓;
+  window: G > K₁ on [3−ε₀,3) ⟺ 12 − 2K₁(K₁−7) > 3K₁ε₀ at ε₀ = 1/20:
+  122/100 > 231/200 ✓ (margin 5.3%).
+  K₂ = 78/10: eigen-side (2K₂−7)² = 73.96 > 73 ✓; window condition
+  12 − 2K₂(K₂−7) = −12/25 < 0 ⇒ holds for ALL ε ≥ 0 ✓.
+- PL CHAIN on [1, 2.95]: 390 segments (h = 1/200), breakpoint values
+  = numerically-guided rationals (denominator 10⁶) at φ ± δ, δ =
+  0.002; junction values FORCED to the saddle lines (U: 2323/200,
+  L: 1161/100). Per-segment EXACT checks (fractions module, zero
+  floats): (i) nullcline gap N − W > 0 (convex quadratic: vertex/
+  endpoint minimum); (ii) upper: P(t) = W(3−t) − 2b(N−W) > 0 —
+  concave (leading −3b, b>0) ⇒ endpoint checks suffice; (iii) lower:
+  P_L < 0 — concave ⇒ vertex maximum check. Construction is float-
+  guided; VERIFICATION is exact; retuning construction pre-
+  verification is mechanical and allowed; gates are on the verified
+  object only.
+GATES:
+- G-B1: every exact check passes (saddle ×4 + per-segment ×3 chains;
+  counts reported). Any failure ⇒ no theorem tonight, booked.
+- G-B2: U(1) < 3/2 EXACTLY ⇒ S < 3/2 unconditional modulo the two
+  named classical imports. Report [L(1), U(1)] and width (hand
+  expectation: width ≤ 0.010, margin to 3/2 ≥ 0.02).
+- G-B3: consistency — numeric S = 1.46731975 ∈ [L(1), U(1)].
+- G-B4 (report): rigorous k_edge enclosure via the edge identity
+  k = √(2/(2−S)) (monotone in S): expect [1.9366, 1.9389]-class,
+  k_edge < 2 with rigorous margin.
+GRADE: theorem-with-certificate (exact rational); the merge theorem
+then gives the interior inequality in a peak neighborhood
+(quantification of the neighborhood = M-C, not tonight).
