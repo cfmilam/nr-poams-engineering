@@ -3796,3 +3796,38 @@ GATES:
 GRADE CAP: extraction (the census is constructed from the derived
 channel ledger, but the zero-mode definition is an identification —
 named). Honest null per gate.
+
+## 2026-08-12 — SWING 45 SCORED: FOUR FAILS AS REGISTERED — the zero-mode identification is DEAD, and the kill sharpens the census question to its unit
+Instrument mass/mass-swing45{.py,-run.txt}; 24 droplets (3 fresh seed
+families × 8 sizes; note booked: per-droplet rng = seed+A0 ⇒ these are
+fresh builds, swing-44's family stands as a 4th independent one).
+- S45b FAIL DECISIVE: zero-cost orientation flips at deg-5 seats =
+  **0.000 across all 24 droplets**. The T=0 four-channel assignment is
+  rigid — no free re-orientation seats exist. The "orientation-open =
+  zero-mode" identification is REJECTED, and with it the registration's
+  orientation-clause reading of the missing share. Clean kill, no
+  rescue.
+- S45a FAIL: union = geometric = 0.235 (3-seed heavy mean) vs 0.331
+  (−29%). With four independent families the geometric NODE census
+  undershoots robustly (0.275 / 0.238 / 0.251 / 0.216).
+- S45c FAIL trivially (increment zero). S45d FAIL: heavy-trio seed
+  spread 0.117 ≥ 0.06 — the node census is also NOISY at these sizes
+  (A=180: 0.250/0.300/0.183). INSTRUMENT-CLASS FINDING booked: droplet
+  node-counts at A ≤ 220 carry ±0.05-class seed scatter; any future
+  count gate needs the 3-family mean AND a wider tolerance or bigger
+  droplets.
+- 3-seed union means by A: {0.500, 0.411, 0.308, 0.317, 0.233, 0.233,
+  0.244, 0.227} — monotone + saturating on means (the S44b shape
+  verdict softens to pass-on-means; single-seed scatter was the
+  failure, as suspected).
+WHAT THE KILL TEACHES (named for swing 46, not scored tonight): the
+pool's shortfall is not orientation freedom — and the node census may
+simply be the WRONG UNIT. The borrow seat is an open PATCH (a half-turn
+slot), not an open NODE: a deg-3 surface cell offers two seats. The
+slot census n_f = Σ_i (5 − deg_i) is a pure counting rule with a
+ledger reason (patch capacity is the derived integer 5; every unlocked
+patch is a seat for the borrowed half-turn). HAND ARITHMETIC FROM
+BOOKED NUMBERS ONLY (swing-44 run file): heavy slots/A = 5 − z̄ =
+{0.369, 0.289, 0.382} → mean 0.347 vs measured 0.331 (+4.8%); light
+{0.800, 0.733, 0.600} → 0.711 vs measured light share 0.65 (+9%).
+BOTH edges land where the node census missed both. Registered next.
