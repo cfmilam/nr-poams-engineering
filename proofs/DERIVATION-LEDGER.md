@@ -3167,3 +3167,58 @@ layer) by measurement, not by taste. The morning's order of battle is
 now: swing 36 = the displacement layer (native next strain layer:
 operator-split / finite-quantum-size / surface-exchange forks), THEN
 re-run the lane audit with the corrected strain column.
+
+## 2026-08-12 — SWING 36 REGISTERED (pre-run): the displacement layer at cluster scale — one range law, evaluated on the true pair geometry; the joint resolution of the transfer fraction
+PREMISE (from swing 35): the fraction is strain-limited; the strain
+contamination lives in the t–h lane gap (+0.044 MeV on the step, 0.0078
+in γ). The strain column's A=3 entry is the uniform-sphere evaluation
+0.72·Z(Z−1)/A^{1/3} = 0.998 MeV — a DENSE-PACKING formula applied to a
+two-proton halo. THE LAYER: the strain column is ONE law,
+E_strain = k·Σ_{like pairs}⟨1/r_pair⟩; the uniform sphere is its bulk
+evaluation; at cluster scale the correct evaluation is the pair
+integral on the ledger's own muonic point-proton radii — ZERO new
+imports.
+DERIVATION (registered): ⟨1/r⟩ = √(6/π)/r_pp for Gaussian relative
+kinematics (J1 named); r_pp² = 2·r_p,point² for uncorrelated protons
+(J2 named); r_p,point² = r_c² − R_p² − (N/Z)R_n² (the standing
+isospin-even unfolding, swings 8/24/25).
+HAND ARITHMETIC (declared): ³He: r_p,point² = 3.2162 ⇒ r_pp = 2.5362 ⇒
+st_h′ = 1.44·1.38198/2.5362 = 0.7847 vs measured mirror ΔB =
+B(³H)−B(³He) = 0.7638 → +2.7% (bare entry ran +31%). Alpha:
+r_pp = 2.1095 ⇒ st_a′ = 0.9434 (bare 0.9072, +4.0% — the compact alpha
+is near the crossover where both evaluations agree; the regime
+assignment is the point). Deuteron: no like pair, 0, unchanged.
+CONSEQUENCE CHAIN (hand-declared, the joint prediction):
+X_h′ = 39.4312, X_a′ = 92.144 ⇒ at f = 0 the t–h γ-gap COLLAPSES
+0.0078 → 0.0007 while α−t (0.0147) becomes the whole spread — exactly
+the structure the transfer addresses. Under strain′, spread(f) has a
+sharp minimum: γ_t = γ_α at f = 0.1743, γ_h = γ_α at f = 0.1663 ⇒
+argmin f* ≈ 0.170. AT f = 1/6 EXACTLY: γ_t 0.83092, γ_h 0.83160,
+γ_α 0.83158 — spread 0.0007, a 21× collapse from 0.0142. F8 = 1/(2z_c)
+at the same criterion: spread 0.0062 — excluded by 9×. THE DERIVED
+CENTRAL AND THE COHERENCE SELECTION COINCIDE.
+GATES:
+- S36a: st_h′ within ±10% of the measured mirror ΔB (hand +2.7%).
+  CSB-class content absorbed/not-separated — NAMED: the residual may BE
+  the charge-symmetry-breaking scale; no claim either way.
+- S36b: under strain′ alone, |γ_h′ − γ_t| < 0.002 (hand 0.0007).
+- S36c: spread-minimizing f* ∈ [0.10, 0.25] with UNIQUE row selection
+  |f* − row| < 0.033 (half row spacing): hand f* ≈ 0.170 → F6 selected
+  (0.004), F7 degenerate-adjacent (noted), F8 excluded (0.069). If it
+  scores: THE TRANSFER FRACTION IDENTIFICATION UPGRADES — f = 1/6 is
+  both the derived central (per-vertex ½, swing 32) and the
+  internal-coherence selection under the derived strain layer.
+- S36d: joint closure at {strain′, f = 1/6}: spread < 0.0015 AND the
+  step ledger closes within 1% in anchor units (J3 named: dp − anchor
+  offset −0.057 propagates per swing-25 convention; hand 0.1%).
+- S36e (reports, unclaimed): γ*″ ≈ 0.8314 (conditional precision ~20×
+  if spread holds); st_a′ ripple; a_sym/Λ ripples; the operational
+  RE-ANCHOR (strain′ + f = 1/6 as standing centrals) is PROPOSED for
+  ratification, not imposed — swing-25 precedent.
+RISK CLAUSE (honest): f* off-row or between rows ⇒ identification
+stays split, booked; S36a > 10% ⇒ the Gaussian joint is wrong or CSB
+is large — the layer fails at cluster scale, booked, bulk T-P3′ attack
+proceeds independently as swing 37.
+F7 NOTE: (2/z_c)² = 0.1639 sits 0.003 from 1/6 at this z_c — the two
+survivors are numerically indistinguishable HERE; their discrimination
+is a z_c-variation question (named for the record, not tonight's).
