@@ -1,0 +1,24 @@
+SWING 24 — radius chains + gamma propagation
+Chain A radii (fm): d 1.9841 | tri matter 1.7369 | alpha 1.4916
+
+S24a chain-A vs swing-8 booked bands:
+  d    1.9841 vs [1.95, 1.98] -> OUT high
+  tri  1.7369 vs [1.65, 1.75] -> IN
+  a    1.4916 vs [1.45, 1.48] -> OUT high
+
+CHAIN C (booked swing-8):
+  ladder: d 14.31 [14.12,14.49] | z2 15.14 [13.95,16.49] | alpha 17.70 [16.63,18.42] | split 0.09
+  step1 (h-target): 0.84 [-0.54, 2.36]  -> s = 0.358 [-0.232, 1.012]
+  step2 (c3-target, gamma-correlated): 2.56 [1.31, 3.39]
+  c3 derived 2.336 vs step2: -8.7% | h derived 0.978/0.946 vs step1: +17% / +13%
+  s-window check: derived s 0.4184 (energy z_c) in band: True | 0.4049 (chain z_c): True
+
+CHAIN A (muonic charge-unfolded):
+  ladder: d 14.08 [14.07,14.08] | z2 14.64 [13.93,15.40] | alpha 17.06 [16.43,17.73] | split 0.09
+  step1 (h-target): 0.56 [-0.15, 1.34]  -> s = 0.242 [-0.065, 0.572]
+  step2 (c3-target, gamma-correlated): 2.42 [2.13, 2.72]
+  c3 derived 2.336 vs step2: -3.4% | h derived 0.978/0.946 vs step1: +73% / +68%
+  s-window check: derived s 0.4184 (energy z_c) in band: True | 0.4049 (chain z_c): True
+
+S24c pair anchor (chain A): d0(d) = 14.075 [14.066, 14.085] vs derived delta_pair = 14.018 (-0.41%) — FLAGGED UNCLAIMED
+S24 verdicts: gamma dominates step1 bands; step2 gamma-robust — see gates in ledger.

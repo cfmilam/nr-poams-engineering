@@ -2554,3 +2554,33 @@ GATES:
 - S24d the γ-robust second step: c₃ = 2.336 vs chain A / C values —
   reported signed; expected −3.5% / −8%.
 NO re-anchoring tonight. Misses and demotions booked as found.
+
+## 2026-08-11 — SWING 24 SCORED: the split residual demotes to γ-limited; c₃ is the sharp one; radius bands flagged stale; pair anchor at 0.4%
+S24a AS EXPECTED (+1): chain-A (muonic-era, charge-unfolded) radii vs the
+swing-8 booked bands — d 1.9841 OUT high (band top 1.98), trinucleon
+1.7369 IN, α 1.4916 OUT high (band top 1.48). TWO of three booked bands
+are STALE against muonic-atom radii.
+S24b CONFIRMED — THE DEMOTION: with honest γ propagation the first step's
+band is γ-wide: s = 0.358 [−0.23, +1.01] (booked chain) / 0.242
+[−0.07, +0.57] (muonic chain). The booked ±0.064 was γ-central only. The
+derived suppression (0.4184 energy z_c / 0.4049 chain z_c) sits INSIDE
+both honest bands ⇒ the "+16% h tension" of swings 18–20 was an artifact
+of quoting the step at central γ. CORRECTED ON THE RECORD: the exhibit's
+"no common import slide absorbs both" clause is WRONG for γ — γ slides
+the first step ±0.54 MeV while moving the second step < ±0.1 (the α's 4γ
+and trinucleon's 2γ cancel in the difference). The r_q clause stands
+(derived h, c₃ co-move under r_q). h is now γ-LIMITED: the path to a real
+first-loop test is sharpening γ (a free-scattering import), not radii.
+S24d THE SHARP ONE SURVIVES: the γ-robust second step confronts c₃ =
+2.336 at −8.7% (booked radii) / −3.4% (muonic chain) — the muonic chain
+IMPROVES the loop-credit confrontation.
+S24c THE FLAG (unclaimed): on the muonic deuteron radius the pair anchor
+extracts δ₀(d) = 14.075 [14.066, 14.085] — experimental band ±0.01 —
+vs the derived shared turn ħ²/4mr_q² = 14.018: −0.41%. Re-anchoring the
+ladder to the muonic chain (d 14.08 | z2 14.64 | α 17.06; steps 0.56,
+2.42) is a SEPARATE RATIFIED operation touching everything downstream —
+proposed, not executed. Note the mirror split holds at 0.09 under chain A.
+Open item (6) REFRAMES: not a residual tension but a γ-precision limit +
+a pending radius re-anchor. Exhibit sentence corrected per policy
+(replace-outright; correction, not claim upgrade).
+Instruments mass/mass-swing24{.py,-run.txt}.
