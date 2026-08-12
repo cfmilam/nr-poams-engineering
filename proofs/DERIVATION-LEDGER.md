@@ -4468,3 +4468,33 @@ T1 participation direction, robustly).
 - SEAT-UNIT STATUS (precise): the unweighted seat UNIT is dead; the
   seat CLASS survives only as the weighted object. The A^{-1/2}
   form theorem and the derived depth (δ_cell, +7.4%) are untouched.
+
+## 2026-08-12 — POOL P-3 REGISTERED (pre-run): the PROFIT-WEIGHTED census — every number standing, the two dead poles as declared kills
+THE RULE (derivation-first, zero new constants): a seat counts iff
+hosting the borrowed half-turn there is profitable against the borrow
+credit. Cost of hosting at local depletion u: the ledger's own derived
+skin books (swing 4): per-quantum net binding Δ(u) = τ_b·u^{2/3} −
+C·u + a_v with {τ_b = 20.1, C = 35.9, a_v = 15.8} ALL standing
+constants ⇒ cost(u) = a_v − Δ(u) = C·u − τ_b·u^{2/3}. Credit =
+γ*²δ_pair = 0.8314²·14.02 = 9.693 (ratified re-anchor; the swing-33
+two-vertex forcing). POOL RULE: n_f = Σ_i (5 − deg_i)·[cost(u_i) ≤
+credit], threshold u* solving C·u − τ_b·u^{2/3} = 9.693 (hand: u* ≈
+0.72; the pool reaches to r ≈ R_h + 0.94a — just past the half-density
+line).
+- u_i PRIMARY (gated): profile-local depletion u_i = 1/(1 +
+  e^{−(r_i−R_h)/a}) — the droplet's own declared profile, no new
+  freedom. FORK (reported, unclaimed): coordination-local u from
+  reach-availability vs bulk.
+- ENSEMBLE: the P-2 droplets EXACTLY (deterministic rebuild incl.
+  A = 350); exact solver mandatory.
+GATES: P-3a heavy mean (130/220 × 3 families) ∈ [0.25, 0.41]
+(measured 0.331 ± 25%). KILLS DECLARED: ≤ 0.21-class ⇒ the weighting
+kills everything reachable and the seat CLASS dies outright;
+≥ 0.6 ⇒ the credit window is insufficient discrimination — weighted
+seat census dies too, pool question reverts to mechanism-unknown.
+P-3b report: signed % vs 0.331. P-3c shape: φ(60) > φ(220).
+P-3d limit sanity: credit → ∞ reproduces P-2's R-A; credit → 0
+reproduces interior-only (report).
+HAND EXPECTATION (honest): [0.25, 0.55] — interior seats of the
+diffuse builds (z̄ ~ 4.2) plus in-window skin seats could still
+overshoot; the instrument decides; no rescue.
