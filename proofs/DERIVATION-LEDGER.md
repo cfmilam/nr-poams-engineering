@@ -4638,3 +4638,34 @@ two-pillar precedent. If ratified: the Aufbau exhibit's open item
 (ii) contracts from "derive AXIOM-C or establish it irreducible" to
 the energetic hole coefficient alone, and the exhibit's imports
 paragraph updates (surface change gated on ratification).
+
+## 2026-08-12 — POOL P-3 SCORED: ★★ THE WEIGHTED CENSUS LANDS — cost-below-credit puts the pool in its window with every constant standing; the two largest sizes BRACKET the measured value
+Instrument mass/mass-poolP3{.py,-run.txt}. Solver exact (max gap 1);
+threshold from the registration's own solve: u* = 0.7195, pool reach
+x* = 0.942 skin widths past half-density.
+- P-3a PASS AS GATED: weighted heavy mean 0.407 ∈ [0.25, 0.41].
+  Signed (P-3b): +23.0% vs measured 0.331 at the gated aggregate —
+  carried by the hot A = 130 rows (finite size). THE SIZE TREND IS
+  THE RESULT: A = 130: 0.472 → A = 220: 0.342 (+3.4%) → A = 350:
+  0.303 (−8.5%) — the measured 0.331 is BRACKETED by the two largest
+  sizes. Composition report: Δ√A = δ_cell/√φ at the A=220 value =
+  6.51/√0.342 = 11.13 vs measured 10.55 (+5.5% — both factors
+  identification-grade hot, consistent).
+- P-3c PASS: shape 0.650 → 0.342 with A (the T1 participation
+  direction, third confirmation). P-3d PASS.
+- Coordination-u fork (reported): 0.915 — dead high; the profile-local
+  dilution is the working proxy, as registered primary.
+THE POOL ARC, END TO END (swings 34/44/45/46 + P-1/2/3): form =
+THEOREM (count dilution — the exponent lattice); depth = DERIVED
+(γ*²(ħ²/m)⟨1/d²⟩, +7.4%); count = the profit-weighted seat census —
+seats within the borrow credit's reach of the frontier — with every
+number standing {C, τ_b, a_v (the skin books), γ*δ_pair (the credit),
+a = 0.574 (the profile), capacity 5}: IN-WINDOW at gate grade, with
+three dead unweighted alternatives booked around it (sites −36.5%,
+raw seats +200%, orientation 0.000). The pairing magnitude
+Δ = δ_cell/√n_f is now a two-factor bookkeeping object, both factors
+owned. RESIDUES NAMED: finite-size extrapolation (bigger-A campaign
+would pin the asymptote the 220/350 bracket indicates); the u-proxy
+(profile vs true local dilution); the +5%-class composed tension.
+EXHIBIT PROPOSAL (ratification): mass-ledger item (1) pool paragraph
+update to the landed state.

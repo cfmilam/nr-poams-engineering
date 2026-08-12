@@ -1,0 +1,16 @@
+seed 160812 A= 60: E*[100,100] gap 0 | z 3.333 | raw 1.667  WEIGHTED 0.650 (in-pool cells 63%)  fork 1.433  [5s]
+seed 160812 A=130: E*[258,258] gap 0 | z 3.969 | raw 1.031  WEIGHTED 0.431 (in-pool cells 66%)  fork 0.969  [17s]
+seed 160812 A=220: E*[458,458] gap 0 | z 4.164 | raw 0.836  WEIGHTED 0.327 (in-pool cells 67%)  fork 0.814  [39s]
+seed 260812 A= 60: E*[102,102] gap 0 | z 3.400 | raw 1.600  WEIGHTED 0.700 (in-pool cells 67%)  fork 1.200  [44s]
+seed 260812 A=130: E*[236,236] gap 0 | z 3.631 | raw 1.369  WEIGHTED 0.600 (in-pool cells 62%)  fork 1.215  [55s]
+seed 260812 A=220: E*[449,450] gap 1 | z 4.082 | raw 0.918  WEIGHTED 0.350 (in-pool cells 70%)  fork 0.764  [78s]
+seed 360812 A= 60: E*[108,108] gap 0 | z 3.600 | raw 1.400  WEIGHTED 0.600 (in-pool cells 65%)  fork 1.200  [83s]
+seed 360812 A=130: E*[260,260] gap 0 | z 4.000 | raw 1.000  WEIGHTED 0.385 (in-pool cells 64%)  fork 0.962  [94s]
+seed 360812 A=220: E*[462,462] gap 0 | z 4.200 | raw 0.800  WEIGHTED 0.350 (in-pool cells 69%)  fork 0.764  [117s]
+seed 160812 A=350: E*[742,742] gap 0 | z 4.240 | raw 0.760  WEIGHTED 0.303 (in-pool cells 71%)  fork 0.677  [156s]
+
+P-3a WEIGHTED heavy mean = 0.407 | gate [0.25, 0.41] (measured 0.331): PASS
+P-3b signed: +23.0% vs measured 0.331 | raw pole 0.992 | coordination fork 0.915 (reported)
+P-3c shape: W(60) 0.650 > W(220) 0.342 -> PASS
+P-3d solver: max gap 1 (<=1): PASS
+A=350 report: weighted 0.303 raw 0.760 fork 0.677

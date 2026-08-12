@@ -1,0 +1,1 @@
+credit = 9.6910 MeV; u* = 0.7195; pool reaches x* = (r-Rh)/a = 0.9420
