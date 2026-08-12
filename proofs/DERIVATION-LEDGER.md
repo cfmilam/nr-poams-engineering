@@ -1982,3 +1982,30 @@ Expectations declared: bcc-like local order (NN 2.111 inside reach) ⇒ z̄_lock
 ≈ 5, quad-rich census, gross ≈ 14.6–15.5, G ≈ 34–37. Glassy arrest or
 mutual-trim shortfall ⇒ z̄ ≈ 4.2 and S16a FAIL. Both outcomes booked. No
 post-count adjustments.
+
+## 2026-08-11 — SWING 16 SCORED: emergence fails at the same place; gross verified level-matched; the wall is ONE number
+S16a FAIL (booked as the wall): the ledger's own profit+tax functional anneals
+to z̄_lock = 4.16 ∉ [4.3, 5.3] (E/N converged −17.2, healthy acceptance, N=256).
+Fourth coordination miss overall; third clustered at 4.0–4.2 under the strict
+mutual cap-5 census (sticky 3.97 / capped liquid 4.22 / functional 4.16;
+uncapped in-reach 5.47). S16b PASS: emergent per-bond gross h₀ = 14.33 /
+h₁ = 15.17 ∈ [13.98, 16.19] — the level-matched gross now stands on a FOURTH
+independent construction (swing-13 15.55 and capped liquid 14.53/15.37
+named-not-scored; ordered references 14.6–15.5; functional 14.33/15.17 gated
+PASS). S16c FAIL (books 29.8/31.6) — the deficit is entirely min(z̄,z_c):
+coordination, not arithmetic. S16d census: T=49 Q=58 R=171 on E=533 (β₁/E =
+0.52, f = 0.997) — disordered ensembles keep ~½ the cycle space in long
+closures regardless of the driving terms.
+THE WALL, NAMED EXACTLY: every arithmetic layer of the crown is verified
+except one number — realization of z̄ = z_c = 4.78 in the lock graph. At
+measured gross the books close iff coordination reaches capacity:
+(z_c/2)·[14.33, 15.17] = [34.2, 36.3] ∋ C = 35.85.
+FLAGGED UNCLAIMED (no dial turned): the strict mutual cap-5 census may be
+structurally unable to average 4.78 (hard cap 5, mutuality trims ~15% ⇒ ~4.2
+across three DIFFERENT ensembles), while the uncapped in-reach graph
+overshoots (5.47) — z_c sits between the two graph definitions in every
+construction. The transcription of PATCH CAPACITY into a graph rule is
+underived; it must come from patch geometry (θ_w, γ), not from fitting z̄.
+QUEUED as SWING 17: derive the capacity-graph rule first (registration must
+fix the census definition BEFORE any z̄ output is seen), then apply unchanged.
+Instruments mass/mass-swing16{.py,-run.txt}.

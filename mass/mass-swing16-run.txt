@@ -1,0 +1,23 @@
+N=256 L=12.287 fm d0=1.9351 fm  (grid init spacing 1.7553)
+  sweep 0 T=8.000 acc=0.05 E/N=-7.974 (0s)
+  sweep 500 T=3.433 acc=0.34 E/N=-13.197 (2s)
+  sweep 1000 T=1.473 acc=0.32 E/N=-13.496 (4s)
+  sweep 1500 T=0.632 acc=0.30 E/N=-14.395 (7s)
+  sweep 2000 T=0.271 acc=0.27 E/N=-15.299 (9s)
+  sweep 2500 T=0.116 acc=0.23 E/N=-16.100 (12s)
+anneal done (14s), final E/N = -17.232
+snap 0: z_lock=4.133 E=529 beta1=274 T=47 Q=57 R=170 f=0.996 (tri=47 quad=62)
+snap 1: z_lock=4.234 E=542 beta1=287 T=56 Q=59 R=172 f=0.998 (tri=56 quad=62)
+snap 2: z_lock=4.117 E=527 beta1=273 T=44 Q=59 R=170 f=0.996 (tri=44 quad=61)
+
+MEANS: z_lock=4.161 E=533 T=49.0 Q=58.3 R=170.7 f=0.997 beta1/E=0.522
+
+S16a THE EMERGENCE GATE: z_lock = 4.161 in [4.3, 5.3]: FAIL — booked as the wall
+r_q=0.84: gross_h0=15.02 gross_h1=15.86 | G_h0=31.25 G_h1=32.99
+r_q=0.86: gross_h0=14.33 gross_h1=15.17 | G_h0=29.81 G_h1=31.56
+r_q=0.88: gross_h0=13.68 gross_h1=14.52 | G_h0=28.47 G_h1=30.22
+
+S16b gross gate (central r_q): h0=14.33 h1=15.17 in [13.98, 16.19]: PASS
+S16c THE LANDING (books): all G in [32,40]: FAIL
+  central: G_h0=29.81 (-16.8% vs C)  G_h1=31.56 (-12.0%)
+S16d census composition reported above.
