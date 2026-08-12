@@ -2782,3 +2782,37 @@ ZERO pairing-data inputs, then confront ALL FOUR blind):
 GATES: S31a-d = the four numbers land on the record with bands; NO
 scoring, NO candidate. The item stays OPEN by construction tonight; what
 closes is its TARGET DEFINITION.
+
+## 2026-08-11 — SWINGS 30–31 SCORED: γ pinned conditionally at 0.824(7); the pairing ambush is set
+SWING 30 SCORED — THE TRIANGULATION HOLDS:
+S30a PASS: γ_t = 0.8169, γ_h = 0.8247, γ_α = 0.8311 — spread 0.0142 ≪
+0.05: the three independent cluster equations COINCIDE. Conditional
+sharpening 7.0×: within the ledger, γ* = 0.824 ± 0.007.
+S30b PASS: γ* = 0.8242 ∈ [0.80, 0.90] — 3.0% below the free-scattering
+central, comfortably inside the import band. The ledger's internal
+solution is CONSISTENT with the free measurement.
+S30c the residual structure at γ* (signed, the honest new frontier):
+step1 0.850 vs h 0.946 (h runs +11.3% hot); step2 2.465 vs c₃ 2.336
+(−5.2% cold); sum −1.0%; suppression s = 0.364 vs 2/z_c = 0.405
+(+11.3%). With γ pinned, the SPLIT RESIDUAL RESURFACES as real
+~10%-level structure: the first loop credits slightly LESS than the
+patch-cone value, the second slightly MORE than the bare loop moment —
+same sum. One shape candidate named for a future registered swing (NOT
+scored tonight): credit transfer between consecutive closures through
+the shared bond. a_sym ripple booked signed: 24.45 → 24.71 (+1.1% worse
+vs shadow; band-compatible).
+GRADE AS REGISTERED: conditional. Import unchanged. The γ-precision
+item moves from "unknown frontier" to "pinned conditionally at ±0.007
+with a named residual shape."
+SWING 31 SCORED (characterization only, as registered — UNSCORED):
+T2 the n/p split: Δ_n√A = 10.05 vs Δ_p√A = 9.27 — proton gaps run 8%
+BELOW neutron (−0.78 MeV·√A): the sign is the strain direction (like-
+charge pair pays against its lock), magnitude now on record.
+T3 frontier suppression: dist-1 8.33 vs dist-3+ 10.05 (−17% at the
+census frontier; dist-0/2 structurally empty — the blocked species is
+odd, closures even). T4 np-pair indicator: median δV_pn = 0.355 MeV
+(IQR 0.28–0.50). T1 stands (6.86/9.48/10.51/10.55; overall 9.65).
+THE AMBUSH IS SET: four independent measured targets + the inoculation
+list. The pairing item remains OPEN as registered — its target
+definition is now complete; any candidate must walk through all four.
+Instruments mass/mass-swing{30,31}{.py,-run.txt}.

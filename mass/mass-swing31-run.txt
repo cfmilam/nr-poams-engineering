@@ -1,0 +1,14 @@
+SWING 31 — the pairing target set (characterization, UNSCORED)
+gaps: 1973 total (1008 n, 965 p)
+
+T1 (already on record, swing 27): A-drift medians 6.86 / 9.48 / 10.51 / 10.55; overall 9.65
+T2 n/p split: median Dn*sqrtA = 10.05 | Dp*sqrtA = 9.27 | ratio p/n = 0.922 | diff = -0.78 MeV
+T3 frontier suppression (median gap*sqrtA by distance to closure, n+p pooled):
+    dist 1  : 8.33  (n=367)
+    dist 3+ : 10.05  (n=1606)
+T4 np-pair indicator dV_pn (ee, quarter double-diff): median 0.355 MeV (n=463, IQR 0.279-0.496)
+
+NO SCORING. These four numbers + T1 = the registered ambush for any future
+pairing candidate (derived with zero pairing-data inputs, confronts all four).
+Inoculated near-coincidences (REFUSED post-hoc): (2/3)deltabar=9.68,
+gamma^2*dp=10.13, 4c3=9.35, mu*deltabar=9.79.

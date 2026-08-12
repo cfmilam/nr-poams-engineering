@@ -1,0 +1,19 @@
+credits: dp=14.0177 h=0.9458 c3=2.3363 | targets: tri 14.9636 alpha 17.2998 | z_c=4.9401
+
+THE TRIANGULATION:
+  gamma_t = 0.8169   gamma_h = 0.8247   gamma_alpha = 0.8311
+  joint gamma* = 0.8242   spread = 0.0142
+
+S30a COHERENCE (spread < 0.05): PASS — 7.0x conditional sharpening
+S30b CONSISTENCY (gamma* in [0.80, 0.90]): PASS (3.0% below import central)
+
+S30c residuals at gamma* (signed):
+  ladder: d 14.075 | z2 14.925 | alpha 17.390
+  step1 0.850 vs h 0.946 -> h runs +11.3%
+  step2 2.465 vs c3 2.336 -> c3 runs -5.2%
+  sum   3.315 vs h+c3 3.282 -> -1.0%
+  suppression s = step1/c3 = 0.364 vs 2/z_c = 0.4049 -> +11.3%
+S30d a_sym at import 0.85  = 24.45 (shadow 23.2-23.7, +4.3% vs 23.45)
+S30d a_sym at gamma*       = 24.71 (shadow 23.2-23.7, +5.4% vs 23.45)
+
+GRADE: CONDITIONAL (theory-conditioned). Import gamma = 0.85(5) unchanged; no re-anchor.
