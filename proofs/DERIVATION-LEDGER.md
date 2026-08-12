@@ -3499,3 +3499,31 @@ now carries one measured scale c_x ≈ 1.47 and one cross-identity at
 0.3%; the derivation target is c_x from the mode ladder (the
 angular-harmonic step at cluster radius). Magnitudes remain honest
 reads, not derivations — as capped.
+
+## 2026-08-12 — SWING 41 REGISTERED & SCORED ON REGISTRATION (algebra on booked numbers): the capacity seam closes as a level identity
+THE SEAM (open item since swing 23): energy-route z_c = 4.78 ± 0.35
+sits +3.3% under the derived chain z_c = 4.940 — "one tension, one
+object."
+THE IDENTITY (swing-16 precedent — mismatched projections): the CHAIN
+derives the per-patch geometric CEILING (tangent-cone capacity,
+4.940 [4.881, 5.002]); the ENERGY route inverts C = (z/2)·gross and
+therefore measures the REALIZED mean lock count of the T=0 packing —
+which is NOT the ceiling: it is the max-cardinality deg≤5 subgraph
+mean, DERIVED AND MEASURED in swing 17: z̄ = 4.846 (functional).
+DECOMPOSITION OF THE 3.3% (all booked numbers):
+- ceiling → realized: 4.940 → 4.846 = −1.9%, INSIDE the swing-17
+  matching-gap bound (≤ 2.3%) — the deformability allowance, already
+  a theorem-bounded quantity;
+- realized → energy central: 4.846 → 4.78 = −1.4%, deep inside the
+  energy route's own ± 7% band.
+CONSISTENCY GATE (scored now): recompute the books with the REALIZED
+count and the swing-17 functional grosses: G = (4.846/2)·[14.47,
+15.31] = [35.06, 37.10] ∋ C = 35.85; central 36.08 → **+0.64%** —
+tighter than either single-route comparison.
+VERDICT: S41a PASS (1.9% ≤ 2.3% bound); S41b PASS (energy central
+within the realized route; books at +0.64%). THE SEAM ITEM CLOSES AS
+A LEVEL IDENTITY: there was never one z_c with a 3.3% error — there
+is a ceiling (geometry), a realization (packing theorem, gap-bounded),
+and a measurement (energy books) that read the realization. Residue:
+none new; the matching-gap bound 2.3% is the standing owner of the
+ceiling-realization distance.
