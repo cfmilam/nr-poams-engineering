@@ -2270,3 +2270,27 @@ CONSEQUENCES REGISTERED (before the rescore script):
 - S20d dead-rule bulk values reported for the record only.
 Instrument: mass-swing20.py (corrected table + deterministic bulk rerun).
 Exhibit correction to follow per publication policy (corrections replace).
+
+## 2026-08-11 — SWING 20 SCORED: uniqueness confirmed; crown regraded UP; seam resolved; error on the page
+S20a PASS: corrected single-convention table — R1 sole survivor (χ² 0.99);
+ALL alternatives dead: R2a −11.1× on alpha (χ² 124), R2b +10.0× on trinucleon
+(χ² 100), R3 +6.1×/−6.2× (χ² 76; note its alpha entry corrects 4.482 → 2.146
+under the consistent R2a base — kill unchanged), R4 (222), R5 (141), R6 −6.2×
+(χ² 40; also basis-dependent per-bond — ill-defined). Swing-19's phantom
+second survivor was a chimera: R2a's trinucleon entry glued to R2b's alpha
+entry. The error weakened the claim; correcting it STRENGTHENS the result.
+S20b CROWN RESTATED — UNIQUE-ADMISSIBLE-RULE GRADE: the survivor set is {R1};
+S19b's letter holds; functional G = 36.22 (+1.0% vs C = 35.85), r_q band
+34.59–37.97 ⊂ [32, 40]; liquid 35.13 (−2.0%). The C-inside-the-seam statement
+is RETIRED (no second reading exists). Dead-rule values booked record-only
+(R2a would read 34.64 / 33.52).
+S20c SEAM RESOLVED: the 1/3 mode-share reading died with its parent rule; the
+first-closure suppression is the patch-cone anholonomy ALONE — s = 2/z_c =
+0.418 derived vs 0.360 ± 0.064 measured (−0.9×). Open item (6) closes; what
+remains is the swing-18 split residual (h +16% hot, c₃ −8% cold, sum −2%) —
+15%-level structure, honest target: sharper radius unfolding.
+THE CROWN, FINAL FORM TONIGHT: C = a_v + τ_b reproduced from derived
+quantities under the UNIQUE closure-credit bookkeeping admissible against
+cluster data, at +1.0% central. Zero fitted numbers. The audit trail —
+including tonight's own caught error — is the argument.
+Instruments mass/mass-swing20{.py,-run.txt}.

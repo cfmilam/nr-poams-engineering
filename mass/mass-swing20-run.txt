@@ -1,0 +1,20 @@
+SWING 20 — corrected cluster kill table (single-convention rules)
+constants: dp=14.018 c3=2.336 c4=0.876 h=0.978
+  R1 first-suppressed(raw)   t=0.978 (+0.9x)  a=3.314 (-0.4x)  chi2=0.99 -> SURVIVES
+  R2a loop=c3 total /E       t=0.779 (-0.4x)  a=1.168 (-11.1x)  chi2=123.58 -> DEAD
+  R2b loop=3c3 mode /E       t=2.336 (+10.0x)  a=3.504 (+0.6x)  chi2=99.83 -> DEAD
+  R3 R2a + blanket h         t=1.756 (+6.1x)  a=2.146 (-6.2x)  chi2=76.02 -> DEAD
+  R4 h per loop /E           t=0.326 (-3.4x)  a=0.489 (-14.5x)  chi2=222.18 -> DEAD
+  R5 raw-full                t=2.336 (+10.0x)  a=4.673 (+6.4x)  chi2=140.63 -> DEAD
+  R6 first-supp(indep/bond)  t=0.978 (+0.9x)  a=2.146 (-6.2x)  chi2=39.55 -> DEAD
+Survivors: R1 first-suppressed(raw)
+S20a UNIQUENESS: PASS — R1 is the sole admissible bookkeeping
+functional anneal done (14s)
+functional: z=4.891 | R1 G=36.22 (+1.0%) | [dead R2a would read 34.64]
+  r_q=0.84: R1 G=37.97
+  r_q=0.88: R1 G=34.59
+liquid: z=4.594 | R1 G=35.13 (-2.0%) | [dead R2a would read 33.52]
+
+S20b CROWN RESTATEMENT (unique rule R1): functional G=36.22 in [32,40]: PASS
+S20c SEAM: suppression = 2/z_c = 0.418 (sole reading); measured 0.360±0.064 -> -0.9x
+S20d dead-rule values above, record only.

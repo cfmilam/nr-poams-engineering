@@ -77,3 +77,22 @@ voided honestly, 3 theorems (triangle-free geometry, independence ceiling, level
 R1 books), 1 kill table landed exactly, and the crown taken with the misses still on the page —
 S16a, the swing-17 0.2% corner, the +16/−8 split residual. Fitting remained the only sin, and none
 was committed.
+
+---
+
+## Correction (2026-08-11, swing 20 — additive; original above stands as written)
+
+The §2 kill table's R2 row mixed two loop-credit conventions: its trinucleon entry (c₃/3) treats an
+independent loop as crediting c₃ total (the bulk convention of swings 15–17), while its alpha entry
+(1.5c₃) treats a loop as crediting the full mode 3c₃. No single convention yields both numbers; the
+"second survivor" was a chimera of the two. Under either consistent form the independent-modes rule
+is DEAD on cluster data (R2a: alpha −11.1×, χ² = 124; R2b: trinucleon +10.0×, χ² = 100) — swing 20,
+registration 0b00a0d, instrument `mass/mass-swing20{.py,-run.txt}`.
+
+Consequences: **R1 is the unique admissible bookkeeping** (the crown regrades rule-robust →
+unique-admissible-rule, G = 36.22, +1.0%); the C-inside-the-seam sentence of §3 is retired; §4's
+"under every admissible bookkeeping" now reads "under the only admissible bookkeeping"; the open
+seam of §4 RESOLVES — the suppression factor is the patch-cone anholonomy 2/z_c = 0.418 alone
+(measured 0.360 ± 0.064, −0.9×), and the remaining open structure is the swing-18 split residual.
+The error weakened the published claim rather than inflating it; it is kept on the page per policy
+(a definitive, instructive, registered failure of convention discipline).
