@@ -2053,3 +2053,35 @@ GATES:
   r_q band, both ensembles; central precision vs C = 35.85 reported.
 - S17d census composition + matching-bound gap reported (no gate).
 No post-count adjustments. Misses booked.
+
+## 2026-08-11 — SWING 17 SCORED: THE REALIZATION GATE PASSES — the wall is down; strict landing misses by one corner (booked)
+S17a PASS, BOTH ensembles: functional z̄_lock = 4.846, liquid z̄_lock = 4.586
+∈ [4.3, 5.3]. The registered prediction (liquid 4.5–4.9) HIT. The functional
+ensemble — annealed under the ledger's OWN terms — realizes z̄ = 4.85 vs
+z_c = 4.78 ± 0.35 (energy books) — 1.4% from capacity. Matching near-optimal:
+exact bounds z̄_ub = 4.95 / 4.69 (gap ≤ 2.3%), bounds themselves in-window ⇒
+realization is a property of ensemble + derived rule, not matcher heuristics.
+The swing-16 emergence FAIL is now EXPLAINED BY DERIVATION, not patched: the
+nearest-5 restriction was the unforced import (D1–D3); under the derived
+maximal-capacity rule the SAME functional ensemble realizes capacity
+coordination. Swing-16 verdict stands as booked; the emergence result now
+stands on THIS registration.
+S17b PASS: central gross functional 14.47/15.31, liquid 14.58/15.42 ∈
+[13.98, 16.19] — fifth and sixth independent constructions to land the
+level-matched gross.
+S17c FAIL as registered (booked, no rescue): 11 of 12 band values in [32, 40];
+the single miss = liquid, r_q = 0.88, h₀: G = 31.94 (0.06 below, 0.2%).
+Central: functional 34.58 (−3.5%) / 36.59 (+2.1%); liquid 33.44 (−6.7%) /
+35.37 (−1.4%). NOTE (structural, no dial): C = 35.85 sits INSIDE the
+h-variant bracket on the functional ensemble — the h₀/h₁ ambiguity (does the
+first-loop anholonomy credit apply per-bond in bulk?) is now the LARGEST
+remaining seam; its resolution is the h derivation (queued as swing 18).
+S17d: census functional T=83 Q=97 R=185 (β₁/E 0.59), liquid T=231 Q=143 R=289
+(β₁/E 0.57) — disordered-at-ρ₀ ensembles carry contact-scale triangles in
+local fluctuations (consistent with swings 14–15); f ≈ 1.00 both.
+STANDING AFTER SWING 17: capacity realization DERIVED AND MEASURED (the one
+missing number now lands within 1.4% on the ledger-driven ensemble); books
+close within ±3.5% central under the h-bracket; the strict all-corners gate
+records FAIL via one 0.2% corner. The crown claim remains UNTAKEN pending the
+h resolution — no rounding up.
+Instruments mass/mass-swing17{.py,-run.txt}.

@@ -1,0 +1,31 @@
+ENSEMBLE A: swing-16 functional anneal (seed 160811)
+  anneal done (14s) E/N=-17.232
+  snap 0: locks=626 (bound 634, gap 8)  z_lock=4.891  z_ub=4.953  T=89 Q=104 R=178
+  snap 1: locks=621 (bound 633, gap 12)  z_lock=4.852  z_ub=4.945  T=89 Q=83 R=194
+  snap 2: locks=614 (bound 628, gap 14)  z_lock=4.797  z_ub=4.910  T=72 Q=105 R=182
+
+== FUNCTIONAL (swing-16 rebuild) MEANS: z_lock=4.846 E=620 T=83.3 Q=97.3 R=184.7 f=1.000 beta1/E=0.589
+  r_q=0.84: gross_h0=15.17 gross_h1=16.01 | G_h0=36.25 G_h1=38.25
+  r_q=0.86: gross_h0=14.47 gross_h1=15.31 | G_h0=34.58 G_h1=36.59
+  r_q=0.88: gross_h0=13.82 gross_h1=14.66 | G_h0=33.03 G_h1=35.03
+
+ENSEMBLE B: swing-12 equilibrium liquid (seed 20260811)
+  eq sweep 0 (0s)
+  eq sweep 500 (3s)
+  eq sweep 1000 (5s)
+  snap 0: locks=1176 (bound 1201, gap 25)  z_lock=4.594  z_ub=4.691  T=253 Q=129 R=283
+  snap 1: locks=1175 (bound 1203, gap 28)  z_lock=4.590  z_ub=4.701  T=223 Q=144 R=297
+  snap 2: locks=1171 (bound 1188, gap 17)  z_lock=4.574  z_ub=4.643  T=217 Q=155 R=288
+
+== LIQUID (swing-12 rebuild) MEANS: z_lock=4.586 E=1174 T=231.0 Q=142.7 R=289.3 f=0.999 beta1/E=0.565
+  r_q=0.84: gross_h0=15.29 gross_h1=16.13 | G_h0=35.05 G_h1=36.98
+  r_q=0.86: gross_h0=14.58 gross_h1=15.42 | G_h0=33.44 G_h1=35.37
+  r_q=0.88: gross_h0=13.93 gross_h1=14.77 | G_h0=31.94 G_h1=33.86
+
+---- GATES ----
+S17a REALIZATION: functional z=4.846 in | liquid z=4.586 in | gate: PASS
+S17b GROSS (central): functional 14.47/15.31  liquid 14.58/15.42  in [13.98,16.19]: PASS
+S17c THE LANDING: all G in [32,40]: FAIL
+  functional central: G_h0=34.58 (-3.5%)  G_h1=36.59 (+2.1%)
+  liquid central:     G_h0=33.44 (-6.7%)  G_h1=35.37 (-1.4%)
+S17d composition + matching-bound gaps reported above.
