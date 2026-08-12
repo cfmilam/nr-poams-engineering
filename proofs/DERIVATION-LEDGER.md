@@ -2370,3 +2370,53 @@ thicker, inner sharper) ⇒ confrontable against measured surface
 diffuseness (2pF a ≈ 0.55 fm) and the swing-4 kink signature; also the
 joint-forcing route (derive m(ν) or the channel stiffnesses).
 Instruments mass/mass-swing21{.py,-run.txt}.
+
+## 2026-08-11 — SWING 22 REGISTERED (pre-run): λ closure — tail discriminator + weight correction
+CORRECTION DECLARED FIRST (found reading swing-4's booked functional):
+swing-21's Λ4 used the double-tangent weight √g, g = u^{2/3} − u; the BOOKED
+swing-4 construction is J = ∫₀¹√Δ(u)du = 2.992 with the FULL per-quantum
+deficit Δ(u) = τ_b u^{2/3} − (a_v+τ_b)u + a_v (per-volume excess ρ₀uΔ and
+stiffness λ(ħ²/8m)ρ₀/u — the u's cancel, leaving √Δ). The g-weight dropped
+the a_v(1−u) vacuum-deficit term. Swing-21's constant-λ entries are
+unaffected (weights cancel); Λ4 must be RESCORED under √Δ. Hand value
+declared: λ_eff(Λ4, Δ-weight) ≈ 0.29 (up from 0.264; the √Δ weight is
+large at low u where λ → 1). Second convention slip tonight — booked.
+THE CLOSURE INSTRUMENT (all under the booked functional, zero new dials):
+E-L first integral with local λ(u): λ(u)(ħ²/8m)ρ₀(u′)²/u = ρ₀uΔ(u) ⇒
+outer tail (u → 0, Δ → a_v): ρ ∝ exp(−x/ℓ) with
+    ℓ = √(λ_tail · (ħ²/8m)/a_v) = 0.574·√λ_tail fm — an ABSOLUTE
+prediction per candidate (ħ²/8m = 5.184 MeV·fm², a_v = 15.75; no scale
+freedom).
+- Λ3 (constant λ = 1/4, as registered in swing 21): ℓ = 0.287 fm.
+- Λ4 (profile λ(u) = 1/m(u), m = 1+8u): the LAST fall is carried by one
+  lone amplitude (m → 1 forced) ⇒ λ_tail = 1 ⇒ ℓ = 0.574 fm.
+- Named, no rescue credit: any "localized" rework of Λ3 (equal split only
+  where both channels exist ⇒ λ → 1 in the tail) JOINS Λ4's class; Λ3 as
+  registered is the constant-λ reading and is scored as such.
+- m-FORM SENSITIVITY (second selection, declared): threshold form
+  m = max(1, 9u) shares the tail (same ℓ) but its Δ-weighted λ_eff is
+  hand-estimated ≈ 0.38 ⇒ a_s ≈ 21 — expected to FAIL the shadow window;
+  if so, m-LINEARITY is selected by the a_s window, not assumed.
+CONFRONTATION IMPORTS (named): tail decay length vs 2pF diffuseness
+a = 0.55 ± 0.06 fm (charge-profile systematics, medium-heavy nuclei;
+convolution with compact form factors preserves the asymptotic exponential
+decay constant — theorem note, so charge tail ≈ matter tail). Shadow a_s
+window unchanged: 17.8 ± 1.0 ⇒ λ_eff ∈ [0.243, 0.304].
+GATES:
+- S22a calibration: reproduce J = 2.992 from ∫√Δ and a_s = 34.1√λ.
+- S22b THE TAIL KILL: candidates vs ℓ ∈ [0.49, 0.61] fm. Hand-expected:
+  Λ3 OUT at 0.287 (kill, >3× band); Λ4 IN at 0.574. If BOTH in or both
+  out: no closure, booked.
+- S22c THE m-FORM KILL: linear vs threshold under the a_s window
+  [16.8, 18.8]. Hand-expected: linear ≈ 18.4 IN, threshold ≈ 21 OUT.
+- S22d CLOSURE: if exactly one candidate survives S22b × S22c jointly,
+  λ is CLOSED at measured-selection grade: λ = λ(u) = 1/(1+8u) profile,
+  Δ-weighted λ_eff and a_s booked as THE ledger values; the tail length
+  stands as a passed independent absolute prediction. Grade note: the
+  m-linearity joint is then data-selected twice (tail + window), not
+  assumed; remaining softness = the 1/m sharing rule itself (named).
+- S22e skewness signature (report only, falsifiable): sharp inner
+  shoulder (λ(1) = 1/9), fat outer tail (λ → 1) — a named prediction for
+  profile-shape-sensitive data (model-independent charge analyses);
+  2pF cannot see skew (symmetric by construction), so not gated.
+No post-computation adjustments; misses booked.
