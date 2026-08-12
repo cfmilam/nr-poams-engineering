@@ -3907,3 +3907,44 @@ count OPEN (seat unit indicated at report grade, instrument-limited).
 HONEST DAY-CLOSE ON THIS ITEM: three attempts, three exact-as-
 registered scorings, no rescue, no unit claimed that the instrument
 cannot carry.
+
+## 2026-08-12 — MADELUNG SWING M-A REGISTERED (pre-derivation): the interior inequality — reduction to one coordinate, both endpoints, and the MERGE THEOREM (peak case ⟺ the dip)
+FRONT STATE INHERITED: σ̂ ≥ σ* verified two-chassis, analytic proof
+OPEN; pointwise route FALSE (M1 named negative — eye face genuinely
+shallower, the inequality irreducibly two-point); dip S = 1.467319754
+(1e-8 budget) < 3/2 computer-assisted, formal enclosure OPEN.
+PLAN + HAND DECLARATIONS (all algebra declared before the instrument):
+- A1 (t-monotonicity): along the census heteroclinic (0,0)→(3,12) of
+  t′ = t+t²−σ, σ′ = σ(3−t)/2 (σ=√q), the orbit stays strictly below
+  the nullcline σ = t+t² ⇒ t strictly increasing = global coordinate.
+  Proof route declared: {σ > t+t²} is forward-invariant (on the
+  parabola the field is (0, +)); the heteroclinic's tail enters the
+  saddle from BELOW (stable eigendirection slope (7+√73)/2·… = 7.772
+  vs parabola tangent 7); a touch at interior t forces immediate
+  entry to the invariant region — contradiction with the tail.
+- A2 (exact reduction): with φ(t) = σ on the orbit and p′ = (1−t)/
+  (t+t²−φ), level v = e^{p−p(1)}, pairing v(τ)=v(t): the interior
+  inequality σ̂ ≥ σ* is EXACTLY Ψ(t) := 1/(1−t) + 1/(τ(t)−1)
+  − 2/√(1−v(t)) ≤ 0 on (0,1).
+- A3 (THE MERGE THEOREM, peak endpoint): as t→1, both face
+  denominators → m₀ = 2−S ⇒ 1−v ≈ (1−t)²/(2m₀), τ−1 ≈ 1−t ⇒
+  Ψ ≈ [2/(1−t)]·(1 − √(2m₀)). SIGN OF THE PEAK CASE ⟺ SIGN OF
+  (3/2 − S): the interior inequality AT ITS PEAK LIMIT IS the dip
+  statement; open items (1) and (2) are one object at the frontier.
+  HAND ANCHOR DECLARED: σ*/σ̂ → 1/√(2(2−S)) = 0.9688 must reproduce
+  the booked M2 worst ratio 0.9687 at the peak.
+- A4 (eye endpoint): t→0: Ψ → 1 + 1/2 − 2 = −1/2 strictly.
+- CONSISTENCY INSTRUMENT (non-validated; RK4 on the autonomous
+  polynomial system, series launch at x=1e-6 w/ Baker B₁, integration
+  stopped at s=8 BEFORE saddle float-divergence — guard declared):
+  gates G-A2 Ψ < 0 on the full grid t∈[0.02, 0.98]; G-A3 S reproduced
+  |ΔS| < 1e-6 AND peak-ratio extrapolation 0.9687±0.002; G-A4 Ψ at
+  t=0.02 within −0.5±0.03; G-A5 (report) margin profile vs M2 (tight
+  at peak in RATIO, v≈0.75 structure).
+GRADE CAP: reduction + endpoint theorems + merge theorem = analysis;
+the interior inequality REMAINS OPEN pending the validated instrument
+(M-B: rigorous enclosure of the heteroclinic — polynomial field,
+saddle cone + interval Taylor backward integration ⇒ unconditional
+S < 3/2 closes the peak; M-C: same enclosure walks the compact middle
+where the relative margin is fat ~20%). Specs to be registered
+separately. No unconditional claim tonight.
