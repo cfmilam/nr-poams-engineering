@@ -1894,3 +1894,38 @@ GATES:
 - S15e γ-channel reconciliation (frozen-random 9.5 vs required 15.0): REPORT
   ONLY — swing-16 material, not scored here.
 No parameter adjustments after counting.
+
+## 2026-08-11 — SWING 15 SCORED: theorem stands, toy census VOID+FAIL, books reframing forced
+PART A (derivation) STANDS INDEPENDENT OF THE INSTRUMENT: per-bond depth
+ceiling under Rule C = δ_pair + h + c₄ = 15.73 MeV < 20.0 for ANY lock graph
+(β₁/E < 1). Combined with S14d: the per-bond deep-mesh reading of δ₀(z_c) =
+22.2 is DEAD BOTH WAYS (dependent counting = rejected overcounting; independent
+counting = unreachable). The swing-14 square-route lead (P₃_indep ≈ 8.5) is
+RETIRED. δ₀(z_c) = 22.2 is a decomposition-level quantity (frozen-mixing
+strong channel), NOT per-bond mesh depth. Bulk closure is BOOKS-LEVEL:
+G = min(z̄,z_c)/2 · gross, gross FORCED into [14.02, 15.74], required 15.00.
+PART B measured (instrument mass/mass-swing15{.py,-run.txt}):
+- S15b VOID: capped equilibrium liquid z̄ = 4.22 ∉ [4.3, 5.3]. THIRD MISS of
+  the capacity window by hard-sphere toys (5.47 uncapped / 3.97 sticky / 4.22
+  capped — z_c = 4.78 sits between the uncapped and every capped construction).
+  As registered: the hard-sphere toy class is CLOSED — no fourth census. The
+  capacity packing is not realized by geometry-only instruments; next
+  instrument must be the ledger's OWN energy functional (capped contact profit
+  + uncertainty tax at fixed μ) — swing 16.
+- S15c FAIL (and void): central G_h0 = 30.65 (−14.5%), G_h1 = 32.42 (−9.6%).
+  Census composition informative: T = 193 (every raw triangle independent),
+  Q = 108, R = 269 — ~47% of the toy's cycle space sits in closures LONGER
+  than 4, carrying zero primary credit. Disorder wastes closure.
+- S15d references (report-only, as registered): EVERY ordered feasible
+  candidate books in-window under BOTH variants across the full r_q band —
+  sc 34.9/36.9, bcc 35.1/37.1 (central r_q; spans 33.3–38.8 over the band);
+  ordered packings put ≥99% of β₁ in quads (R = 3, pure toroidal homology).
+  Central precision vs C = 35.85: −2.7%/+2.9% (sc), −2.2%/+3.4% (bcc). The
+  capacity cap min(z,z_c)/2 makes the books nearly candidate-invariant across
+  ordered packings — hand-estimates from the registration confirmed exactly.
+VERDICT: the crown is REFRAMED, not landed. Theorem-grade: bulk deepening is
+not per-bond loop turns; the books-level identity C = a_v + τ_b ≈ (z_c/2)·
+(δ_pair + basis credits [+h]) is consistent within ±3.4% central on ordered
+references with zero fitted numbers — but the gated landing FAILED on the
+declared physical toy and the toy class is exhausted by rule. Nothing claimed
+beyond this. S15e (γ-channel 9.5-vs-15.0) deferred to swing 16 as registered.
