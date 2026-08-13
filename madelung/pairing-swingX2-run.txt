@@ -1,0 +1,11 @@
+X-2 verification (per sense, pF = 1, rho_s = 0.016887):
+  kernel closed-form = ball integral at 3 separations: PASS
+X-2a contact deficit: g(0) = -2.50e-09 (exact 0): PASS
+X-2a hole total: int |K|^2/rho_s d^3s = 1.000003 (exact 1): PASS
+X-2b coefficient: eps_x per quantum = 0.738554 e^2 rho^{1/3}
+      hand-declared (3/4)(3/pi)^{1/3} = 0.738559 -> |diff| = 4.61e-06: PASS
+      scale invariance (rho x8): C_x = 0.738554 (rho^{4/3} law forced): PASS
+X-2c: derived ENERGY coefficient = (3/4)(3/pi)^{1/3} -> the extant record's
+      Dirac / Gaspar-Kohn-Sham convention (alpha = 2/3 in Xalpha language);
+      Slater alpha = 1 is the potential-averaging variant, NOT selected.
+      The d-collapse instrument's convention-sensitivity: resolved to alpha = 2/3.

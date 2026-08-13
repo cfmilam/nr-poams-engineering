@@ -4780,3 +4780,40 @@ HAND-DECLARED CONSEQUENCES (verified in-instrument, zero dials):
 GRADE CAP: derivation-by-composition (three standing results + the
 named axiom + the named import). The hole's beyond-uniform structure
 (gradient corrections) stays open, named.
+
+## 2026-08-12 — PAIRING SWING X-2 SCORED: ★★ THE HOLE COEFFICIENT IS DERIVED — 0.738554 vs declared (3/4)(3/π)^{1/3} at 4.6e-6; the d-collapse ledger's last pinned number falls
+Instrument madelung/pairing-swingX2{.py,-run.txt} (kept with the
+census instruments; the chain is the census's).
+- X-2a PASS ×2: the kernel reproduces BOTH previously-derived hole
+  constraints exactly — g(0) = 0 (contact deficit, 2.5e-9) and the
+  hole totaling one quantum (1.000003 with the analytic tail). The
+  sum rule is Parseval on the filled ball = COUNT CONSERVATION: the
+  hole totals one quantum because the census counts its cells once.
+  Two independent prior derivations now cross-anchor the kernel.
+- X-2b PASS: ε_x per quantum = 0.738554 e²ρ^{1/3} vs hand-declared
+  (3/4)(3/π)^{1/3} = 0.738559 — 4.6e-6, zero dials; scale check at
+  8× density confirms the ρ^{4/3} law is forced by the census scale
+  p_F ∝ ρ^{1/3} (N-1), not assumed.
+- X-2c PASS: the convention fork is RESOLVED BY DERIVATION — the
+  chain yields the energy coefficient (the extant record's Dirac /
+  Gáspár–Kohn–Sham α = 2/3); Slater α = 1 is the potential-averaging
+  variant, not selected. The d-collapse instrument's booked
+  convention-sensitivity has its answer.
+- CONSTRUCTION SLIPS BOOKED (caught in-run, pre-scoring): a pair-½ ×
+  two-senses factor slip (the run's exact 2× signature exposed it)
+  and a tail-formula transcription — both mechanical, gates scored on
+  the final object.
+STATE: the same-sense discount now reads, end to end — scaling
+(derived) + both hole constraints (derived, now cross-anchored) +
+booking (derived) + pair-level exclusion (theorem given the mode
+ontology) + COEFFICIENT (derived tonight, by composition: N-1 census
++ AXIOM-C's licensed coherent kernel + the exclusion subtraction +
+the 1/r strain law). AXIOM-C's keep is earned and visible: the
+packing-core rival has no kernel and no hole — the coefficient IS
+the axiom's fingerprint. Residues: gradient corrections to the
+uniform hole (named); the axiom itself (the ontology fork, decided
+empirically — unchanged).
+EXHIBIT PROPOSAL (ratification): Aufbau pairing-layer clause —
+"coefficient is empirically pinned" → derived (chain + 4.6e-6
+confrontation); the TFD instrument's convention-sensitivity note →
+resolved to α = 2/3 by the derivation.
