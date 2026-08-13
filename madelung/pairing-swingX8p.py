@@ -58,17 +58,19 @@ import numpy as np, math, time
 C_LDA = (3.0/4.0)*(3.0/math.pi)**(1.0/3.0)
 
 # ---------------- G1: native Airy table (fold equation y'' = x y) ----------------
-XHI, XLO, H = 12.0, -40.0, 5.0e-4
+XHI, XLO, H = 16.0, -40.0, 5.0e-4
 def build_airy():
     n = int(round((XHI - XLO)/H)) + 1
     xs = np.linspace(XLO, XHI, n)
     ai = np.zeros(n); aip = np.zeros(n)
-    # asymptotic seed at XHI with first correction
+    # asymptotic seed at XHI, DLMF series through the zeta^-3 terms
     x0 = XHI
     xi = (2.0/3.0)*x0**1.5
+    u1, u2, u3 = 5.0/72.0, 385.0/10368.0, 85085.0/2239488.0
+    v1, v2, v3 = -7.0/72.0, -455.0/10368.0, -95095.0/2239488.0
     pref = math.exp(-xi)/(2.0*math.sqrt(math.pi))
-    a0 = pref*x0**-0.25*(1.0 - 5.0/(72.0*xi))
-    ap0 = -pref*x0**0.25*(1.0 + 7.0/(72.0*xi))
+    a0 = pref*x0**-0.25*(1.0 - u1/xi + u2/xi**2 - u3/xi**3)
+    ap0 = -pref*x0**0.25*(1.0 - v1/xi + v2/xi**2 - v3/xi**3)
     y, yp = a0, ap0
     ai[-1], aip[-1] = y, yp
     h = -H
