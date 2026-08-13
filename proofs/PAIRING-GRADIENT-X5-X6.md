@@ -1,4 +1,4 @@
-# Pairing — The Gradient Layer at Next Fidelity (Swings X-5, X-6)
+# Pairing — The Gradient Layer at Next Fidelity (Swings X-5, X-6, X-7)
 
 **Date:** 2026-08-13. Registrations pre-run; every gate scored as hand-declared.
 Chain: X-3 (exposure measured, `a92bf6e/ee66e98`) → X-4 (bounded paste, kill measured,
@@ -66,3 +66,25 @@ The deciding instrument is named: a **self-consistent smooth-density gradient ch
 **native hole shape** carried beyond the uniform census (deriving μ from the AXIOM-C kernel
 itself, which would also retire the last import of this layer). Either is a fresh
 registration.
+
+## X-7 — the smooth-density chassis (2026-08-13 evening; `8a040fe/04ec95f`, construction fix `baed686`)
+
+Natural cubic spline of ln ρ per SCF iteration; every layer quantity analytic off the spline
+(no numerical differencing anywhere); validity clause: the verdict must converge AND agree
+across the knot ladder {NG//12, NG//8, NG//5}, no knot chosen after the fact. Run 1's baseline
+failed its own gate correctly (a construction bug — the baseline touched the spline; fixed and
+booked, run-1 output kept). Rerun: **baseline reproduced exactly** (resid 0.000), and
+**X-7b INSTRUMENT-LIMIT as declared** — with the layer on, no deciding cell converges at any
+knot setting. The smooth representation cured the pointwise pathology (div share 0.07–0.16 at
+r = 1, 4 a₀ vs the raw grid's 2.1–2.8 oscillating) but pockets remain (1.2 at r = 0.5, 2.6 at
+r = 2), and the potential-iteration SCF is genuinely unstable under the divergence term's
+feedback.
+
+## State of the item after X-5/X-6/X-7
+
+The bracket stands — paste drags to 20, first-order holds 21 — now with potential-iteration
+instrument-limited at **both** raw and smooth density representation. The deciding instrument
+narrows to: an **energy-variational treatment** (minimize E[ρ] directly; no v_x iteration for
+the imported-μ layer), or the **native hole shape / native μ** (X-8: the census's own
+second-order response, where count conservation resolves the Sham-vs-AK limit-order fork —
+retiring the import changes the object itself). X-8 is the named next registration.
