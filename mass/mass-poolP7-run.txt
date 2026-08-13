@@ -1,0 +1,39 @@
+seed 160812 A= 30: gap 0 | z_bulk 4.500 | phi_W 0.400 | E_bulk -18.08 | PHI_N 1.300 (pool 83%, halo 13%) | fork 0.767 [4s]
+seed 160812 A= 55: gap 0 | z_bulk 4.550 | phi_W 0.382 | E_bulk -17.71 | PHI_N 1.073 (pool 95%, halo 2%) | fork 0.982 [12s]
+seed 160812 A=107: gap 0 | z_bulk 4.727 | phi_W 0.280 | E_bulk -17.70 | PHI_N 1.028 (pool 93%, halo 6%) | fork 0.879 [28s]
+seed 160812 A=150: gap 0 | z_bulk 4.878 | phi_W 0.180 | E_bulk -17.84 | PHI_N 0.707 (pool 97%, halo 1%) | fork 0.600 [56s]
+seed 160812 A=195: gap 0 | z_bulk 4.779 | phi_W 0.200 | E_bulk -17.78 | PHI_N 0.738 (pool 97%, halo 3%) | fork 0.615 [93s]
+seed 160812 A=220: gap 0 | z_bulk 4.838 | phi_W 0.123 | E_bulk -17.80 | PHI_N 0.655 (pool 97%, halo 3%) | fork 0.582 [135s]
+seed 160812 A=350: gap 0 | z_bulk 4.763 | phi_W 0.197 | E_bulk -17.77 | PHI_N 0.654 (pool 96%, halo 3%) | fork 0.617 [214s]
+seed 160812 A=500: gap 1 | z_bulk 4.876 | phi_W 0.094 | E_bulk -17.84 | PHI_N 0.424 (pool 97%, halo 3%) | fork 0.420 [347s]
+seed 260812 A= 30: gap 0 | z_bulk 3.750 | phi_W 0.667 | E_bulk -14.36 | PHI_N 1.633 (pool 83%, halo 17%) | fork 0.833 [351s]
+seed 260812 A= 55: gap 0 | z_bulk 4.444 | phi_W 0.545 | E_bulk -16.50 | PHI_N 1.200 (pool 93%, halo 5%) | fork 1.055 [359s]
+seed 260812 A=107: gap 0 | z_bulk 4.675 | phi_W 0.299 | E_bulk -17.51 | PHI_N 1.000 (pool 90%, halo 6%) | fork 0.925 [376s]
+seed 260812 A=150: gap 0 | z_bulk 4.830 | phi_W 0.227 | E_bulk -17.95 | PHI_N 0.600 (pool 89%, halo 9%) | fork 0.620 [402s]
+seed 260812 A=195: gap 0 | z_bulk 4.725 | phi_W 0.226 | E_bulk -17.95 | PHI_N 0.610 (pool 94%, halo 5%) | fork 0.600 [439s]
+seed 260812 A=220: gap 1 | z_bulk 4.873 | phi_W 0.177 | E_bulk -17.83 | PHI_N 0.705 (pool 95%, halo 2%) | fork 0.645 [485s]
+seed 260812 A=350: gap 1 | z_bulk 4.826 | phi_W 0.129 | E_bulk -17.74 | PHI_N 0.500 (pool 97%, halo 2%) | fork 0.486 [564s]
+seed 260812 A=500: gap 0 | z_bulk 4.882 | phi_W 0.086 | E_bulk -17.80 | PHI_N 0.428 (pool 97%, halo 1%) | fork 0.424 [701s]
+seed 360812 A= 30: gap 0 | z_bulk 3.727 | phi_W 0.900 | E_bulk -13.47 | PHI_N 2.000 (pool 93%, halo 0%) | fork 1.467 [705s]
+seed 360812 A= 55: gap 0 | z_bulk 4.278 | phi_W 0.618 | E_bulk -17.37 | PHI_N 1.382 (pool 93%, halo 5%) | fork 1.091 [712s]
+seed 360812 A=107: gap 0 | z_bulk 4.718 | phi_W 0.336 | E_bulk -17.86 | PHI_N 0.916 (pool 89%, halo 7%) | fork 0.832 [729s]
+seed 360812 A=150: gap 0 | z_bulk 4.796 | phi_W 0.247 | E_bulk -17.77 | PHI_N 0.860 (pool 93%, halo 5%) | fork 0.773 [755s]
+seed 360812 A=195: gap 1 | z_bulk 4.754 | phi_W 0.174 | E_bulk -17.86 | PHI_N 0.651 (pool 95%, halo 3%) | fork 0.585 [791s]
+seed 360812 A=220: gap 1 | z_bulk 4.653 | phi_W 0.232 | E_bulk -17.85 | PHI_N 0.709 (pool 95%, halo 1%) | fork 0.736 [834s]
+seed 360812 A=350: gap 0 | z_bulk 4.703 | phi_W 0.166 | E_bulk -17.84 | PHI_N 0.683 (pool 98%, halo 1%) | fork 0.654 [915s]
+seed 360812 A=500: gap 1 | z_bulk 4.861 | phi_W 0.122 | E_bulk -17.83 | PHI_N 0.514 (pool 97%, halo 2%) | fork 0.484 [1050s]
+
+P7-fid CONFIG IDENTITY:
+  z_bulk(500) 4.873 vs booked 4.873 -> ok
+P7-fid: PASS — configs identical; scoring proceeds
+
+P7a plateau: phi_N(220) = 0.689 (measured 0.331; gate [0.265, 0.397]; kills <0.15 / >0.60) -> KILL
+P7b light edge: phi_N(55) = 1.218 (measured 0.90; gate [0.72, 1.08]) -> FAIL — LAST OWNER DIES; escalation pre-named: the form's small-A domain becomes the object | phi_N(30) = 1.644 (expect ~1)
+P7c asymptote: phi_N = 0.006 + 3.922 A^-1/3 | phi_inf = 0.006 | gate [0.08, 0.25] -> FAIL | residuals [-0.022 -0.016  0.033  0.05  -0.045]
+
+P7d honesty: solver max gap 1 (<=1) PASS | E_bulk<0 violations: 0
+     phi_N ladder: {30: 1.644, 55: 1.218, 107: 0.981, 150: 0.722, 195: 0.667, 220: 0.689, 350: 0.612, 500: 0.455}
+     phi_W ladder: {30: 0.656, 55: 0.515, 107: 0.305, 150: 0.218, 195: 0.2, 220: 0.177, 350: 0.164, 500: 0.101} (retained map, fidelity)
+     fork ladder:  {30: 1.022, 55: 1.042, 107: 0.879, 150: 0.664, 195: 0.6, 220: 0.655, 350: 0.586, 500: 0.443} (coordination map, report-only)
+     E_bulk ladder: {30: -15.3, 55: -17.19, 107: -17.69, 150: -17.85, 195: -17.86, 220: -17.83, 350: -17.78, 500: -17.82} MeV
+     halo (u>=0.9) share: {30: 0.1, 55: 0.04, 107: 0.06, 150: 0.05, 195: 0.03, 220: 0.02, 350: 0.02, 500: 0.02} | in-pool frac: {30: 0.87, 55: 0.93, 107: 0.9, 150: 0.93, 195: 0.95, 220: 0.96, 350: 0.97, 500: 0.97}
