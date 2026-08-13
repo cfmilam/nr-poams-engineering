@@ -5043,3 +5043,30 @@ flight): robust ⇒ the gradient layer moves OFF the open list to a
 named-residue line (full functional-derivative treatment); fatal ⇒
 the exposure is promoted to the page's lead open with the kill
 booked.
+
+## 2026-08-12 — PAIRING X-4 SCORED: THE KILL FIRED — the Sc/Ca placement is gradient-sensitive at identification grade; the exposure is now a measured fact with its mechanism identified
+Instrument madelung/pairing-swingX4{.py,-run.txt}.
+- X-4a PASS: baseline (F ≡ 1) reproduces the booked tier3g result
+  exactly — Z* = 21 at every multiplier, 3d bound through the block.
+  The instrument is validated against its own history.
+- X-4b KILL AS GATED: with the bounded enhancement on, the flip moves
+  to Z* = 20 at the felt floor (m = 1.5) and to Z* = 19 at the
+  ceiling. The d-collapse's scandium placement does NOT survive the
+  bounded gradient layer at this grade.
+- X-4c THE MECHANISM (the instrument corrects X-3's hand direction):
+  F at the compact-3d radii is tiny (1.002–1.03) — but the
+  PRE-collapse 3d is DIFFUSE, living exactly where F runs 1.5–1.8;
+  the enhanced outer discount pulls the diffuse 3d down before the
+  4s, advancing the collapse. The "outward excess favors 4s" note
+  was backwards for the actual competition; booked.
+HONEST FRAME: identification grade — F multiplies the felt potential;
+a functional-derivative treatment carries compensating gradient terms
+this probe omits. The result therefore establishes SENSITIVITY, not
+the true placement: the TFD-fidelity claim on the page stands AS
+STATED (fidelity named), and the anomaly layer's placement now
+belongs to the next fidelity — proper gradient treatment or the
+native hole shape beyond the uniform census. The Aufbau open item is
+updated to carry the measured kill (ratified restructure in flight).
+Also: X-3's page-side sensitivity statement ("> 3% above the floor
+drags the collapse into calcium") is now CONFIRMED by an actual
+gradient-layer run, not just coefficient arithmetic.

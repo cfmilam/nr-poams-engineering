@@ -1,0 +1,23 @@
+[tf-bvp] n=4000 grid [0.0001,300], Newton res=3.35e-03 after 200 iters
+    chi( 1.0) = 0.424008   (lit ~0.424008)
+    chi( 5.0) = 0.078808   (lit ~0.078808)
+    chi(10.0) = 0.024314   (lit ~0.024314)
+    chi(20.0) = 0.005785   (lit ~0.005786)
+    chi(50.0) = 0.000632   (lit ~0.000632)
+X-4a BASELINE (F == 1) — must reproduce tier3g booked flip:
+  m=1.500 |   4s   4s   3d   3d   3d | Z*=21  3d-bound=True  maxF=1.000
+  m=1.700 |   4s   4s   3d   3d   3d | Z*=21  3d-bound=True  maxF=1.000
+  m=1.949 |   4s   4s   3d   3d   3d | Z*=21  3d-bound=True  maxF=1.000
+X-4a: PASS — baseline reproduced (floor Z*=21, all in {20,21}, 3d bound)
+
+X-4b THE TEST (bounded enhancement ON):
+  m=1.500 |   4s   3d   3d   3d   3d | Z*=20  3d-bound=True  maxF=1.804
+  m=1.700 |   4s   3d   3d   3d   3d | Z*=20  3d-bound=True  maxF=1.804
+  m=1.949 |   3d   3d   3d   3d   3d | Z*=19  3d-bound=True  maxF=1.804
+X-4b: KILL: collapse dragged into Ca
+
+X-4c report: max F reached 1.804 (bound 1.804);
+  r=0.5 a0: s=0.24  F=1.007
+  r=1.0 a0: s=0.11  F=1.002
+  r=2.0 a0: s=0.47  F=1.027
+  r=4.0 a0: s=3.93  F=1.566
