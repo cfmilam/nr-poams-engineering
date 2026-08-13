@@ -1,0 +1,17 @@
+X-8 native gradient coefficient — census second-order discount response
+X8-zero ABSOLUTE CONVENTION GATE: E0_x one sense = -0.00403144 vs -kF^4/(8 pi^3) = -0.00403144 (-0.000%)
+X8-zero: PASS
+
+X8a LINDHARD CHASSIS (measured vs closed form) + F(q) diagnostic ladder:
+  q~=0.06: chi0 -0.101145 vs -0.101291  (-0.14%) | F(q) = -0.7885  [terms -0.1732 -0.1726 0.3418]
+  q~=0.10: chi0 -0.101149 vs -0.101237  (-0.09%) | F(q) = -1.3257  [terms -0.1317 -0.1360 0.2610]
+  q~=0.15: chi0 -0.101072 vs -0.101131  (-0.06%) | F(q) = -1.8615  [terms -0.1088 -0.1124 0.2117]
+  q~=0.20: chi0 -0.100939 vs -0.100983  (-0.04%) | F(q) = -2.1311  [terms -0.0931 -0.0965 0.1788]
+  q~=0.25: chi0 -0.100757 vs -0.100792  (-0.03%) | F(q) = -2.1787  [terms -0.0804 -0.0754 0.1447]
+  q~=0.30: chi0 -0.100529 vs -0.100558  (-0.03%) | F(q) = -2.5133  [terms -0.0750 -0.0775 0.1398]
+  analytic LDA target e_x'' = -3.1416
+X8a: PASS
+
+X8b CONVENTION/LDA GATE: F(q->0) vs analytic e_x'' = -3.141593
+  F(0) extrapolated = -0.486244  (+84.52%)
+X8b: FAIL — STOP (bookkeeping incomplete; no mu claim)

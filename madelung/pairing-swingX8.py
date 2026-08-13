@@ -246,18 +246,21 @@ if abs((E0m - E0an)/E0an) > 0.005:
     print("X8-zero: FAIL — STOP (pair-sum convention broken; nothing downstream is meaningful)")
     raise SystemExit(1)
 print("X8-zero: PASS")
-res, rho0, ex0, ex2an = measure()
-print("\nX8a LINDHARD CHASSIS (measured vs closed form):")
+res, rho0, ex0, ex2an = measure(qts=(0.06, 0.10, 0.15, 0.20, 0.25, 0.30))
+print("\nX8a LINDHARD CHASSIS (measured vs closed form) + F(q) diagnostic ladder:")
 ok_a = True
 for qt, d in res.items():
     dev = (d['chi_meas'] - d['chi_an'])/d['chi_an']
     ok_a = ok_a and abs(dev) < 0.005
-    print("  q~=%.2f: chi0 %.6f vs %.6f  (%+.2f%%)" % (qt, d['chi_meas'], d['chi_an'], 100*dev))
+    print("  q~=%.2f: chi0 %.6f vs %.6f  (%+.2f%%) | F(q) = %.4f  [terms %s]"
+          % (qt, d['chi_meas'], d['chi_an'], 100*dev, d['F'],
+             " ".join("%.4f" % t for t in d['terms'])))
+print("  analytic LDA target e_x'' = %.4f" % ex2an)
 print("X8a:", "PASS" if ok_a else "FAIL — STOP")
 if not ok_a: raise SystemExit(1)
 
 print("\nX8b CONVENTION/LDA GATE: F(q->0) vs analytic e_x'' = %.6f" % ex2an)
-qts = sorted(res)
+qts = sorted(res)[:4]
 Fs = [res[q]['F'] for q in qts]
 # quadratic-in-q^2 extrapolation to q=0 using the two smallest points
 q1, q2 = qts[0], qts[1]
