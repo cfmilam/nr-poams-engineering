@@ -131,14 +131,26 @@ def smooth_lnrho(mass, knots):
 GUARD = {"hits": 0}
 
 def vx_smooth(mass, mult, bounded, knots):
+    # CONSTRUCTION FIX (booked, pre-scoring): baseline (bounded=False) must be the
+    # tier3g chassis VERBATIM — raw deposit density, no spline anywhere. Run 1 of
+    # this instrument smoothed the baseline density too and scrambled the
+    # near-degenerate flip cells (X-7a FAIL -> STOP fired correctly).
+    if not bounded:
+        out = [0.0]*NG
+        for i in range(NG):
+            dr = RG[i]*DLNR
+            rr = mass[i]/(4.0*math.pi*RG[i]*RG[i]*dr)
+            if rr > 0:
+                out[i] = -mult*CX*(rr**(1.0/3.0))
+        return out, 0.0
     rho, dln, d2ln, resid = smooth_lnrho(mass, knots)
     A = 0.75*mult*CX
     out = [0.0]*NG
     for i in range(NG):
         if rho[i] <= 1e-14: continue
         base = -mult*CX*(rho[i]**(1.0/3.0))
-        if not bounded or dln is None or RG[i] < 0.05 or rho[i] < 1e-13:
-            if bounded: GUARD["hits"] += 1
+        if dln is None or RG[i] < 0.05 or rho[i] < 1e-13:
+            GUARD["hits"] += 1
             out[i] = base; continue
         kF = (3.0*math.pi**2*rho[i])**(1.0/3.0)
         sgn = 1.0 if dln[i] > 0 else -1.0
@@ -150,7 +162,10 @@ def vx_smooth(mass, mult, bounded, knots):
         out[i] = base*loc + div
     return out, resid
 
-def scf(Z, cfg, mult, bounded, knots, iters=60, mix=0.3):
+def scf(Z, cfg, mult, bounded, knots, iters=None, mix=None):
+    # baseline = tier3g/X-5 chassis numerics verbatim (40/0.4); layer = declared 60/0.3
+    if iters is None: iters = 60 if bounded else 40
+    if mix is None: mix = 0.3 if bounded else 0.4
     b = B0*max(Z,1)**(-1.0/3.0)
     Qf = sum(cfg.values())
     Ve = [min(Qf, Z)*(1.0 - t3c.TF(r/b))/r for r in RG]
