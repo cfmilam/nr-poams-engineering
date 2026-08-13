@@ -116,7 +116,20 @@ def Tshift_one_sense(q, kF, Nk=900, Nx=500, dtube=0.015):
         Ikp = np.array([I_ball(p, kF) for p in kp])
         integ = np.where(m, (1.0/np.where(np.abs(D) > 1e-12, D, 1e-12))**2*(Ikp - Ik), 0.0)
         tot += k*k*(kF/Nk)*((1.0 - xl)/Nx)*2.0*np.sum(integ)   # x2 both branches
-    return -tot/(4*math.pi**2)
+    # measure: d3k/(2pi)^3 = k^2 dk dx/(4 pi^2); the k' integral lives inside I_ball
+    # BARE, so the pair sum carries one further 1/(2pi)^3 (construction iteration 3:
+    # the missing factor was caught by the X8b gate at 4000x; chi pinned the single-
+    # integral convention, the zeroth-order gate below pins the pair convention).
+    return -tot/(4*math.pi**2)/(2*math.pi)**3
+
+def E0_one_sense(kF, Nk=3000):
+    """Zeroth-order same-sense discount energy per volume: must equal -kF^4/(8 pi^3)
+    (equivalently the X-2 LDA at rho/2 per sense). Absolute convention gate."""
+    kk = (np.arange(Nk) + 0.5)*(kF/Nk)
+    tot = 0.0
+    for k in kk:
+        tot += k*k*(kF/Nk)*2.0*I_ball(k, kF)    # x-integral trivial: 2
+    return -0.5*tot/(4*math.pi**2)/(2*math.pi)**3
 
 def E2_terms(q, kF, Nk=110, Nx=74, dtube=0.015):
     """Second-order same-sense discount energy per volume, per v_q^2 (ONE sense).
@@ -186,6 +199,14 @@ def measure(kF=1.0, Nk=110, Nx=74, dtube=0.015, qts=(0.15, 0.20, 0.25, 0.30)):
 
 t0 = time.time()
 print("X-8 native gradient coefficient — census second-order discount response")
+E0m = E0_one_sense(1.0)
+E0an = -1.0/(8*math.pi**3)
+print("X8-zero ABSOLUTE CONVENTION GATE: E0_x one sense = %.8f vs -kF^4/(8 pi^3) = %.8f (%+.3f%%)"
+      % (E0m, E0an, 100*(E0m - E0an)/abs(E0an)))
+if abs((E0m - E0an)/E0an) > 0.005:
+    print("X8-zero: FAIL — STOP (pair-sum convention broken; nothing downstream is meaningful)")
+    raise SystemExit(1)
+print("X8-zero: PASS")
 res, rho0, ex0, ex2an = measure()
 print("\nX8a LINDHARD CHASSIS (measured vs closed form):")
 ok_a = True
