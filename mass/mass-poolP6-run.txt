@@ -1,0 +1,40 @@
+seed 160812 A= 30: gap 0 | z 2.933 z_bulk 4.500 | phi_W 0.400 | drift -0.0046 evap 7 | Rh_eff 3.94 a_meas 3.69 [4s]
+seed 160812 A= 55: gap 0 | z 3.709 z_bulk 4.550 | phi_W 0.382 | drift -0.0048 evap 7 | Rh_eff 4.79 a_meas 4.83 [12s]
+seed 160812 A=107: gap 0 | z 3.626 z_bulk 4.727 | phi_W 0.280 | drift -0.0040 evap 18 | Rh_eff 5.60 a_meas 6.19 [28s]
+seed 160812 A=150: gap 0 | z 4.147 z_bulk 4.878 | phi_W 0.180 | drift -0.0065 evap 13 | Rh_eff 5.85 a_meas 5.17 [55s]
+seed 160812 A=195: gap 0 | z 4.123 z_bulk 4.779 | phi_W 0.200 | drift -0.0047 evap 23 | Rh_eff 6.71 a_meas 6.63 [92s]
+seed 160812 A=220: gap 0 | z 4.191 z_bulk 4.838 | phi_W 0.123 | drift -0.0034 evap 20 | Rh_eff 6.96 a_meas 7.73 [134s]
+seed 160812 A=350: gap 0 | z 4.166 z_bulk 4.763 | phi_W 0.197 | drift -0.0037 evap 28 | Rh_eff 8.04 a_meas 6.69 [214s]
+seed 160812 A=500: gap 1 | z 4.420 z_bulk 4.876 | phi_W 0.094 | drift -0.0030 evap 28 | Rh_eff 8.84 a_meas 5.86 [344s]
+seed 260812 A= 30: gap 0 | z 2.533 z_bulk 3.750 | phi_W 0.667 | drift -0.0056 evap 11 | Rh_eff 4.57 a_meas 2.19 [348s]
+seed 260812 A= 55: gap 0 | z 3.455 z_bulk 4.444 | phi_W 0.545 | drift -0.0075 evap 9 | Rh_eff 5.11 a_meas 6.57 [356s]
+seed 260812 A=107: gap 0 | z 3.533 z_bulk 4.675 | phi_W 0.299 | drift -0.0046 evap 19 | Rh_eff 6.17 a_meas 7.26 [372s]
+seed 260812 A=150: gap 0 | z 3.920 z_bulk 4.830 | phi_W 0.227 | drift -0.0019 evap 15 | Rh_eff 6.01 a_meas 7.00 [399s]
+seed 260812 A=195: gap 0 | z 4.113 z_bulk 4.725 | phi_W 0.226 | drift -0.0028 evap 16 | Rh_eff 6.70 a_meas 7.51 [436s]
+seed 260812 A=220: gap 1 | z 4.082 z_bulk 4.873 | phi_W 0.177 | drift -0.0033 evap 18 | Rh_eff 6.77 a_meas 6.05 [481s]
+seed 260812 A=350: gap 1 | z 4.349 z_bulk 4.826 | phi_W 0.129 | drift -0.0031 evap 21 | Rh_eff 7.91 a_meas 1.28 [560s]
+seed 260812 A=500: gap 0 | z 4.460 z_bulk 4.882 | phi_W 0.086 | drift -0.0026 evap 34 | Rh_eff 8.83 a_meas 1.83 [695s]
+seed 360812 A= 30: gap 0 | z 2.733 z_bulk 3.727 | phi_W 0.900 | drift -0.0093 evap 10 | Rh_eff 5.94 a_meas 0.77 [699s]
+seed 360812 A= 55: gap 0 | z 3.273 z_bulk 4.278 | phi_W 0.618 | drift -0.0057 evap 10 | Rh_eff 5.62 a_meas 2.06 [706s]
+seed 360812 A=107: gap 0 | z 3.589 z_bulk 4.718 | phi_W 0.336 | drift -0.0044 evap 14 | Rh_eff 6.02 a_meas 5.68 [723s]
+seed 360812 A=150: gap 0 | z 3.800 z_bulk 4.796 | phi_W 0.247 | drift -0.0052 evap 21 | Rh_eff 6.39 a_meas 6.97 [749s]
+seed 360812 A=195: gap 1 | z 4.144 z_bulk 4.754 | phi_W 0.174 | drift -0.0037 evap 17 | Rh_eff 6.58 a_meas 6.82 [785s]
+seed 360812 A=220: gap 1 | z 4.109 z_bulk 4.653 | phi_W 0.232 | drift -0.0043 evap 14 | Rh_eff 7.09 a_meas 0.96 [828s]
+seed 360812 A=350: gap 0 | z 4.223 z_bulk 4.703 | phi_W 0.166 | drift -0.0041 evap 30 | Rh_eff 7.95 a_meas 5.64 [908s]
+seed 360812 A=500: gap 1 | z 4.372 z_bulk 4.861 | phi_W 0.122 | drift -0.0034 evap 30 | Rh_eff 8.87 a_meas 5.13 [1042s]
+
+P6a FIDELITY ANCHOR: z_bulk(500) = 4.873 | seam realized 4.846 | gate [4.65, 5.00]
+P6a: PASS — honest bulk reached; scoring proceeds
+
+P6b asymptote: phi_W = -0.102 + 1.725 A^-1/3 | phi_inf = -0.102 | gate [0.08, 0.25] -> FAIL | residuals [-0.005  0.005 -0.006  0.021 -0.015]
+
+P6c window at full fidelity: phi_W(220) = 0.177 vs 0.331 (-46.4%)
+P6c: window carried a frozen-instrument share — named: frozen 0.342 vs annealed 0.177 (delta -0.165)
+
+P6d light edge retest: phi_W(30) = 0.656, phi_W(55) = 0.515 (measured light edge 0.90 at 55; ~1 at intercept)
+     direction: NOT toward saturation — credit-side owner stands alone
+
+P6e honesty: solver max gap 1 (<=1) PASS | max evap 34 | max |drift| 0.0093 (<0.01) PASS
+     z_bulk ladder: {30: 3.992, 55: 4.424, 107: 4.707, 150: 4.835, 195: 4.753, 220: 4.788, 350: 4.764, 500: 4.873}
+     phi_W ladder:  {30: 0.656, 55: 0.515, 107: 0.305, 150: 0.218, 195: 0.2, 220: 0.177, 350: 0.164, 500: 0.101}
+     a_meas ladder: {30: 2.21, 55: 4.49, 107: 6.38, 150: 6.38, 195: 6.98, 220: 4.91, 350: 4.54, 500: 4.27} (map retained a = 0.574 — joint named)
