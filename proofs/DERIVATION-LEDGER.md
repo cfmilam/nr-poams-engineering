@@ -4855,3 +4855,37 @@ GATES (hand declarations from P-3's booked values):
 KILL: any quartile point off by > 35% ⇒ the weighted census does NOT
 carry the participation curve — booked as a shape falsification even
 if the window holds.
+
+## 2026-08-12 — PAIRING SWING X-3 REGISTERED (pre-run): the hole's gradient corrections — form forced, coefficient imported with its cautionary history, and the d-collapse EXPOSURE measured
+TARGET: X-2's named residue — the hole beyond the uniform census.
+- X-3a (FORM, forced): where the census varies across the hole's own
+  radius (~1/k_F), the kernel distorts; first order vanishes by
+  symmetry (the hole is centered on its quantum); the unique
+  second-order scalar at the right dimension is |∇ρ|²/ρ^{4/3} ⇒
+  F_x = 1 + μ s², s = |∇ρ|/(2 k_F ρ). Dimensional bookkeeping only;
+  algebra gate.
+- X-3b (COEFFICIENT, imported WITH history — the honesty clause): the
+  gradient coefficient's own literature is a cautionary tale of
+  limit-order — Sham's 7/81 (1971) was corrected to μ_GEA = 10/81
+  (Antoniewicz–Kleinman 1985): the answer depends on how the
+  screening/long-range limit is taken, i.e., ON THE HOLE'S TAIL —
+  the exact class of subtlety the ledger flags. IMPORT μ = 10/81,
+  named; native derivation = future work, not claimed.
+- X-3c (THE EXPOSURE — the real question): the page's booked
+  sensitivity says a UNIFORM discount > ~3% above the floor drags the
+  d-collapse from Sc into Ca. The gradient term is NOT uniform — it
+  concentrates where s is large (the atom's edge, where 4s lives) and
+  is SIGNED (enhances the discount). MEASURE, on the TF profile at
+  Z = 21: s(x), the local enhancement (10/81)s², and the
+  density-weighted mean enhancement over (i) the 3d scoring region
+  (r ~ 0.5–2 a₀, the collapsed orbit's seat) vs (ii) the 4s region
+  (outer, r ~ 2.5–6 a₀). REPORT signed differential. VERDICT RULE:
+  |3d-region uniform-equivalent| < 3% AND differential favoring the
+  page's verdict direction ⇒ gradient-robust, booked; otherwise
+  EXPOSURE BOOKED and the gradient-corrected d-collapse re-run is
+  named as the follow-up. Either outcome is the deliverable —
+  no rescue, no claim beyond the measurement.
+HAND EXPECTATION (honest): TF s grows outward; interior s ~ 0.3–0.6
+(enhancement 1–4%), edge s > 1 (LDA-class breakdown where the atom
+ends). The 3d region likely sits at the few-% level — genuinely
+uncertain against the 3% line. The instrument decides.
