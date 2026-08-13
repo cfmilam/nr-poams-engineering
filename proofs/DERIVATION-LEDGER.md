@@ -4913,3 +4913,40 @@ re-run with a bounded F_x(s) — registered gates to include the
 Ca/Sc window as the kill. Until flown, the booked d-collapse verdict
 carries a NAMED 5.7%-class exposure with a favorable-direction note.
 Honest state, no rescue.
+
+## 2026-08-12 — CENSUS SWING N-5 REGISTERED (pre-run): the ¼-escrow made native — locality + universality + an overdetermined anchor ledger, no Airy asymptotics consumed
+TARGET (N-4's residue): derive the ¼ turn per libration fold rather
+than citing Maslov.
+THE ARGUMENT (registered):
+- N-5a LOCALITY/UNIVERSALITY (theorem-sketch): the whole-turn count
+  and the loop's enclosed action agree wherever counting is smooth;
+  the discrepancy (escrow) is generated ONLY at folds (p → 0, where
+  node-counting fails) and at hard walls. A generic fold's normal
+  form is the linear ramp (nonzero slope — universal); a wall's is
+  the reflecting edge. Hence: escrow = f per fold + w per wall,
+  CONSTANTS independent of the well's global shape. (Extant shadow:
+  uniform-approximation theory; cited, not consumed.)
+- N-5b THE ANCHOR LEDGER (overdetermined, exact/numeric): offsets
+  read from exact spectra via ν(E) = ∮p dq/2πħ at eigenvalues:
+  · harmonic well (2 soft folds): offset ½ EXACT (algebra);
+  · Coulomb eye (2 soft folds, radial): offset ½ EXACT (N-4a);
+  · linear symmetric well (2 soft folds): eigenvalues = Airy-function
+    zeros COMPUTED (mpmath) — ν(E_n) − n → ½ (numeric convergence;
+    the zeros are data here, no asymptotic formula consumed);
+  · bouncer (1 wall + 1 fold): ν(E_n) − n → w + f (hand: ¾).
+  Ledger: 2f = ½ (three independent wells) and w + f = ¾ ⇒
+  **f = ¼, w = ½** — overdetermined and consistent.
+- N-5c THE PREDICTION ROW (new system, not used in the fit): the
+  quartic well V = q⁴ (2 soft folds, different shape class):
+  eigenvalues by finite-difference diagonalization; GATE:
+  ν(E_n) − n → ½ within 1e-2 by n = 6 (the fold constant is
+  shape-blind, as locality demands).
+GATES: N-5b consistency (linear-well offsets → 0.500 ± 0.005 by
+k = 8; bouncer → 0.750 ± 0.005 by k = 8); N-5c the quartic
+prediction. HAND VALUES: bouncer k=1: ν = 0.759 (from a₁ = 2.33811);
+convergence from above.
+GRADE: derivation-by-universality-and-anchors (the fold constant is
+measured from exact systems and forced to be universal by locality);
+the escrow's closed-form root (the stationary-phase ¼ itself) remains
+cited territory — named residue, likely permanent import at the
+Airy-function level of rigor.
