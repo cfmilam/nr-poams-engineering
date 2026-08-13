@@ -5010,3 +5010,36 @@ participation curve captured over Q2–Q4 (−11% to −2%); two named
 residues (light-edge saturation clause; full-anneal asymptote). The
 swing-31 ambush's T1 target: three of its four numbers now fall out
 of the ledger with zero dials.
+
+## 2026-08-12 — PAIRING SWING X-4 REGISTERED (pre-run): the bounded-enhancement d-collapse re-run — X-3's named follow-up, with the Ca/Sc window as the kill
+TARGET: X-3 booked a 5.7% in-domain gradient exposure on the
+d-collapse verdict (above the page's 3% sensitivity line) and found
+raw GEA out of domain where 4s lives. The named instrument: re-run
+the tier3g bracket sweep with a BOUNDED enhancement on the same-sense
+discount: F(s) = 1 + κ − κ/(1 + μs²/κ), μ = 10/81 (X-3's import),
+κ = 0.804 (the extant bound parameter — Lieb–Oxford class; imported,
+named). F is monotone, F(0) = 1, F(∞) = 1.804: the out-of-domain
+divergence is capped by construction.
+INSTRUMENT NOTE (honesty): F multiplies the local discount potential
+v_x — the felt-booking analog of the enhancement (a full
+functional-derivative treatment carries extra gradient terms; this is
+an identification-grade probe of whether the measured exposure MOVES
+the flip). s(r) computed from the SCF's own converged density per
+iteration.
+GATES:
+- X-4a baseline: F ≡ 1 reproduces the booked tier3g result (flip
+  Z* ∈ {20, 21}, floor m = 1.5 gives Z* = 21).
+- X-4b THE TEST: with F on, sweep m ∈ {1.50, 1.70, 1.949}, Q ∈
+  {19, 20, 21, 22, 23}: verdict SURVIVES iff Z* ∈ {20, 21} with the
+  felt floor still at 21 and 3d bound through the block. KILLS: Z*
+  moves to ≤ 20 at the floor (collapse dragged into Ca — the
+  enhancement's inward part wins) or Z* > 21 / 3d unbinds (the
+  outward part wins) ⇒ EXPOSURE FATAL, booked, and the Aufbau open
+  item states it.
+- X-4c report: max F reached in the SCF (bounded ≤ 1.804), F at the
+  3d and 4s scoring radii, and the flip margin shift vs baseline.
+EITHER OUTCOME UPDATES THE AUFBAU OPEN ITEM (ratified restructure in
+flight): robust ⇒ the gradient layer moves OFF the open list to a
+named-residue line (full functional-derivative treatment); fatal ⇒
+the exposure is promoted to the page's lead open with the kill
+booked.
