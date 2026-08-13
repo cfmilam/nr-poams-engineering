@@ -4976,3 +4976,37 @@ selected by the pair) + N-5 (the ¼ measured native) ⇒ the Langer
 (l+½)², the radial (n_r+½), and the Scott staircase ½ all now stand
 on: whole-turn conservation + fold locality + anchor measurements —
 POAMS-native end to end at identification-plus grade.
+
+## 2026-08-12 — POOL P-4 SCORED: THE CURVE TRACKS ON THREE OF FOUR QUARTILES; the light edge and the asymptote both teach, and both are booked
+Instrument mass/mass-poolP4{.py,-run.txt}; 21 droplets, exact solver
+throughout (max gap 1).
+- P-4a FAIL AS GATED (by 1.3% over the line; the 35% kill NOT
+  triggered): predicted Δ√A vs measured at the T1 quartile centers —
+  A=55: 8.32 vs 6.86 (+21.3%) | A=107: 8.44 vs 9.48 (−11.0%) |
+  A=150: 9.99 vs 10.51 (−4.9%) | A=195: 10.32 vs 10.55 (−2.2%).
+  THE HEAVY THREE-QUARTERS OF THE PARTICIPATION CURVE IS CAPTURED,
+  zero dials, converging with A. THE LIGHT-EDGE MISS IS STRUCTURAL
+  AND CONSISTENT: the measured light edge implies near-total
+  participation (φ(Q1) ≈ (6.51/6.86)² = 0.90 — the swing-44 intercept
+  read the same fact); the weighted SEAT count gives 0.61. Named
+  residue: at light A the pool saturates toward the whole census
+  (host-count/cap class — every quantum within the credit's reach of
+  every seat in a small droplet); the seat census needs its
+  saturation clause at the light edge. NOT flown tonight.
+- P-4b PASS: window A=220 rebuilt 0.342 (+3.5% vs measured 0.331).
+- P-4c FAIL AS GATED, WITH THE DIAGNOSIS: the A^{-1/3} fit
+  extrapolates to φ_∞ = −0.144 (unphysical) — the tangential-frozen
+  droplets UNDERCOORDINATE their interiors (z̄(500) = 4.31–4.38 vs
+  the realized bulk 4.85), so the true asymptote φ_∞ = 5 − z̄_bulk ≈
+  0.15-class is not reachable by this instrument class. The valid
+  comparison is the window (the measured plateau's own A-range),
+  which lands at +3.5%/−2.2%. Full-anneal (radial-relaxing) diffuse
+  droplets = the named follow-up instrument.
+- P-4d PASS (solver; monotone shape — fourth confirmation of the T1
+  direction).
+STATE: the pairing pool now carries — form theorem; derived depth
+(+7.4%); weighted count in-window (+3.5% at the plateau); the
+participation curve captured over Q2–Q4 (−11% to −2%); two named
+residues (light-edge saturation clause; full-anneal asymptote). The
+swing-31 ambush's T1 target: three of its four numbers now fall out
+of the ledger with zero dials.

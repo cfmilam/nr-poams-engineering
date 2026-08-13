@@ -1,0 +1,32 @@
+seed 160812 A= 55: E*[95,95] gap 0 | z 3.455 | raw 1.545  WEIGHTED 0.564 (in-pool cells 60%)  fork 1.255  [4s]
+seed 160812 A=107: E*[191,191] gap 0 | z 3.570 | raw 1.430  WEIGHTED 0.636 (in-pool cells 65%)  fork 1.178  [13s]
+seed 160812 A=150: E*[293,293] gap 0 | z 3.907 | raw 1.093  WEIGHTED 0.500 (in-pool cells 69%)  fork 0.907  [27s]
+seed 160812 A=195: E*[394,395] gap 1 | z 4.041 | raw 0.959  WEIGHTED 0.369 (in-pool cells 65%)  fork 0.872  [46s]
+seed 160812 A=220: E*[458,458] gap 0 | z 4.164 | raw 0.836  WEIGHTED 0.327 (in-pool cells 67%)  fork 0.814  [68s]
+seed 160812 A=350: E*[742,742] gap 0 | z 4.240 | raw 0.760  WEIGHTED 0.303 (in-pool cells 71%)  fork 0.677  [107s]
+seed 160812 A=500: E*[1077,1077] gap 0 | z 4.308 | raw 0.692  WEIGHTED 0.256 (in-pool cells 70%)  fork 0.626  [169s]
+seed 260812 A= 55: E*[100,100] gap 0 | z 3.636 | raw 1.364  WEIGHTED 0.600 (in-pool cells 58%)  fork 1.291  [174s]
+seed 260812 A=107: E*[194,194] gap 0 | z 3.626 | raw 1.374  WEIGHTED 0.598 (in-pool cells 61%)  fork 1.224  [183s]
+seed 260812 A=150: E*[299,299] gap 0 | z 3.987 | raw 1.013  WEIGHTED 0.340 (in-pool cells 65%)  fork 0.873  [197s]
+seed 260812 A=195: E*[398,398] gap 0 | z 4.082 | raw 0.918  WEIGHTED 0.400 (in-pool cells 67%)  fork 0.856  [216s]
+seed 260812 A=220: E*[449,450] gap 1 | z 4.082 | raw 0.918  WEIGHTED 0.350 (in-pool cells 70%)  fork 0.764  [239s]
+seed 260812 A=350: E*[755,755] gap 0 | z 4.314 | raw 0.686  WEIGHTED 0.223 (in-pool cells 69%)  fork 0.571  [277s]
+seed 260812 A=500: E*[1095,1095] gap 0 | z 4.380 | raw 0.620  WEIGHTED 0.244 (in-pool cells 69%)  fork 0.596  [340s]
+seed 360812 A= 55: E*[93,93] gap 0 | z 3.382 | raw 1.618  WEIGHTED 0.673 (in-pool cells 60%)  fork 1.527  [344s]
+seed 360812 A=107: E*[194,194] gap 0 | z 3.626 | raw 1.374  WEIGHTED 0.551 (in-pool cells 62%)  fork 1.065  [353s]
+seed 360812 A=150: E*[286,286] gap 0 | z 3.813 | raw 1.187  WEIGHTED 0.433 (in-pool cells 67%)  fork 0.967  [367s]
+seed 360812 A=195: E*[394,394] gap 0 | z 4.041 | raw 0.959  WEIGHTED 0.426 (in-pool cells 65%)  fork 0.892  [386s]
+seed 360812 A=220: E*[462,462] gap 0 | z 4.200 | raw 0.800  WEIGHTED 0.350 (in-pool cells 69%)  fork 0.764  [408s]
+seed 360812 A=350: E*[728,729] gap 1 | z 4.160 | raw 0.840  WEIGHTED 0.314 (in-pool cells 67%)  fork 0.771  [447s]
+seed 360812 A=500: E*[1089,1089] gap 0 | z 4.356 | raw 0.644  WEIGHTED 0.232 (in-pool cells 70%)  fork 0.602  [510s]
+
+P-4a THE CURVE: predicted Delta*sqrtA = dcell/sqrt(phi_W) at the T1 quartile centers
+  A= 55: phi_W 0.612 -> pred 8.32 vs measured 6.86  (+21.3%)
+  A=107: phi_W 0.595 -> pred 8.44 vs measured 9.48  (-11.0%)
+  A=150: phi_W 0.424 -> pred 9.99 vs measured 10.51  (-4.9%)
+  A=195: phi_W 0.398 -> pred 10.32 vs measured 10.55  (-2.2%)
+P-4a: FAIL (worst 21.3%)
+P-4b window A=220: 0.342 vs 0.331 (+3.5%): PASS
+P-4c asymptote: phi_W = -0.144 + 3.032 A^-1/3 | phi_inf = -0.144 | residuals [-0.002  0.019 -0.016 -0.006  0.006]
+      gate phi_inf in [0.20, 0.35]: FAIL | A=500 3-family mean: 0.244
+P-4d solver max gap 1 (<=1): PASS | monotone shape: PASS
