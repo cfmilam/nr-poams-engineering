@@ -4831,3 +4831,27 @@ moves from source to confirmation. Nothing on the page falsified;
 X-2's scoring line is sharpened, not withdrawn. Second consecutive
 lesson of the same species as tonight's X-1 catch: COMPOSE WITH THE
 LIVE PAGE, never with the memory of it.
+
+## 2026-08-12 — POOL P-4 REGISTERED (pre-run): the finite-size campaign — the asymptote, and THE FULL PARTICIPATION CURVE predicted across the chart
+DESIGN: the P-3 weighted census (rule unchanged: cost(u) ≤ credit,
+u* = 0.7195) run at sizes matched to the MEASURED T1 quartile centers
+plus an asymptote ladder: A ∈ {55, 107, 150, 195, 220, 350, 500} ×
+3 families (deterministic seeds); exact solver mandatory.
+GATES (hand declarations from P-3's booked values):
+- P-4a THE CURVE (the prize): compose Δ√A(A) = δ_cell/√φ_W(A) with
+  δ_cell = 6.51 (derived, swing 44) at the four T1 quartile centers
+  {55, 107, 150, 195} and confront the measured medians
+  {6.86, 9.48, 10.51, 10.55}. HAND PREDICTIONS: {≈8.0, ≈9.0, ≈9.8,
+  ≈10.7} → expected deviations {+15%, −5%, −7%, +1%}. GATE: all four
+  within ±20%. If it lands: the pairing magnitude's A-dependence is
+  predicted across the chart, native, zero dials — the T1 target set
+  (on the books since swing 31) falls.
+- P-4b window: A = 220 3-family mean ∈ 0.331 ± 15% (P-3 carried
+  0.342; rebuild must reproduce).
+- P-4c asymptote: fit φ_W(A) = φ_∞ + c·A^{−1/3} over {150…500}
+  family means; φ_∞ ∈ [0.20, 0.35] reported with residuals; A = 500
+  is new territory (hand: ≈0.28).
+- P-4d solver exactness (gaps ≤ 1) and shape monotonicity.
+KILL: any quartile point off by > 35% ⇒ the weighted census does NOT
+carry the participation curve — booked as a shape falsification even
+if the window holds.
