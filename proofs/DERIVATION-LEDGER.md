@@ -4669,3 +4669,28 @@ would pin the asymptote the 220/350 bracket indicates); the u-proxy
 (profile vs true local dilution); the +5%-class composed tension.
 EXHIBIT PROPOSAL (ratification): mass-ledger item (1) pool paragraph
 update to the landed state.
+
+## 2026-08-12 — AXIOM-C DISPOSITION (delegated by Star Lord; decision + rationale booked): ADOPTED AS CONDITIONAL COROLLARY
+Star Lord ratified the mass-ledger pool update (#2) and delegated the
+AXIOM-C demotion (#1) and its contingent exhibit surfaces (#3).
+DECISION: the X-1 demotion is ADOPTED at CONDITIONAL-COROLLARY grade.
+RATIONALE (the load-bearing point): this ratifies NO new ontological
+commitment. The discreteum — closures as integer winding tuples, a
+fractional turn is no thing — is GROUNDING §1, ratified by Star Lord
+2026-08-05 (the Light-Speed Ch.5 reading). X-1 establishes ENTAILMENT
+from that ratified axiom at the filing grain (D1–D3, no new premise).
+Entailment from a ratified commitment is a bookkeeping fact, not an
+ontology decision — exactly the two-pillar precedent, where the
+running-law FORM became a conditional theorem on the ratified pillars
+without separate ratification of the conclusion.
+TERMS: (i) AXIOM-C leaves the imports list; the name and lineage stay
+on the record. (ii) Scope: filing grain only (the X-1 boundary —
+phase-level structure untouched). (iii) The energetic hole layer
+(ρ^{1/3}-class coefficient) remains the named import, donor
+identified (Mass four-channel books). (iv) REOPENER (mirrors the
+pillars' clause): a Star Lord/Viv ruling narrowing or rejecting the
+discreteum reading reverts AXIOM-C to independent-axiom status and
+the exhibit language rolls back.
+#3 EXECUTES per replacement policy: Aufbau open item (ii) contracts
+to the hole coefficient; the L = l + ½ import line upgrades to
+derived-offset (N-4).
