@@ -4694,3 +4694,40 @@ the exhibit language rolls back.
 #3 EXECUTES per replacement policy: Aufbau open item (ii) contracts
 to the hole coefficient; the L = l + ½ import line upgrades to
 derived-offset (N-4).
+
+## 2026-08-12 — CORRECTION (self-catch, pre-surface): X-1's DEMOTION WITHDRAWN; the delegated disposition REVERSES — AXIOM-C STAYS AN AXIOM
+THE CATCH: executing the delegated decision required re-reading the
+Aufbau page's CURRENT AXIOM-C section — which carries a 2026-08-10
+REGISTERED result X-1 never confronted: an explicit counterexample
+census (the hard-core packing profile) satisfies EVERY slot-and-
+winding axiom with no shared amplitude, so AXIOM-C is irreducible
+RELATIVE TO THAT KIT, and irreducibly GLOBAL (finite-range locking
+provably fails; the 3/2 cap needs the sharp global bandlimit).
+X-1's D1–D3 (integer tuples, census-as-count, count arithmetic) ARE
+slot-and-winding-kit facts ⇒ by the booked counterexample they CANNOT
+entail AXIOM-C. The error, precisely: AXIOM-C's content is not
+cell-definiteness or the filing ban — it is WHICH definite basis the
+same-sense census fills (closure-mode with one coherent amplitude,
+versus packing-core adding densities). X-1's "corollary 1" claimed
+basis ambiguity requires non-integer blends — FALSE: the packing
+census is a rival DEFINITE integer basis, no blends involved. The
+selection between integer bases is the axiom; the Ca/Sc window votes
+it empirically (as the page states). I derived against a stale
+paraphrase from my own summary instead of the live page. Booked as
+the day's process lesson: REGISTRATIONS AGAINST NAMED AXIOMS MUST
+QUOTE THE CURRENT CANONICAL STATEMENT.
+DISPOSITION (delegated, decided): the 03234d6 adoption is VOID.
+AXIOM-C remains the named import — an ontology fork decided by
+measurement, exactly as the page has it since 08-10. No exhibit
+AXIOM-C line changes.
+WHAT SURVIVES OF X-1 (real, smaller): (i) the uncountability framing
+— double-filing as count arithmetic rather than prohibition — a
+cleaner native ROOT for the already-derived pair-level exclusion
+theorem (a phrasing upgrade of an existing result, not a new one);
+(ii) the explicit scope boundary (filing grain vs phase level) —
+useful hygiene, now doing its real job: marking exactly where the
+axiom BEGINS. X-1's score line is corrected to: consistency
+re-derivation + framing contribution; demotion claim DEAD.
+UNAFFECTED: N-4 (the ½ derivation) is independent of X-1 and stands;
+its Aufbau import-line upgrade executes. #2 (pool paragraph,
+ratified) executes.
