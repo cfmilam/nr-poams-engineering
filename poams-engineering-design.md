@@ -6,6 +6,19 @@
 **Objective:** Zero-weight condition and directional control via orbital radius manipulation  
 **Date:** February 2026  
 
+> **STATUS (2026-08-12): partially superseded — read with the spec.** This program document
+> predates the Rev 3 physics correction in `yig-levitation-experiment.md`. Its bismuth-first
+> materials recommendation (§1.1) is **retired**: the Marshall failure analysis showed bismuth's
+> conductivity (skin-depth exclusion), diamagnetic character (no net twist to align), and
+> picosecond relaxation make it the wrong substrate; the working class is **insulating
+> single-crystal ferrimagnets** (YIG and its class — ruby/sapphire/olivine family), per the
+> spec Revs 3–7. The mechanism language here ("hyperpolarization of vortex core spins") also
+> predates the collective-phase-advance correction (constitutive spin is not addable; alignment
+> + coherent phase advance is the drive) and the λ-partition channel structure (twist vs writhe
+> — the sign is the experiment's own readout). For current physics: the spec; for application
+> terms (claims skeleton, acceptance criteria, prior art, disclosure posture):
+> `yig-application-framing.md`. Retained unedited below as the program's dated planning record.
+
 ---
 
 ## 1. MATERIALS RESEARCH

@@ -1138,3 +1138,18 @@ A rotating YIG sphere doing something is corroboration only if the effect is a c
 *Date: 2026-07-30*
 *Framework: Normal Realism / POAMS (Vortex Model)*
 *Authors: Star Lord, Parzival*
+
+---
+
+## Application Framing Companion (2026-08-12)
+
+The experiment is restated in **claims language** — operational method/apparatus claims, a
+definitions section, acceptance criteria, the prior-art landscape (Alzofon, Wallace, Barnett/
+Einstein–de Haas, Laithwaite, the St Andrews decoy), and the disclosure-clock posture of this
+public repository — in the companion document **`yig-application-framing.md`**. Purpose:
+application-grade thinking (what is operationally done, what is measurably produced, what is
+the minimum structure that produces it), not a filing. Two points from that exercise worth
+carrying back into the spec's own head: (1) the **λ-partition readout is a second invention** —
+a method of measuring which internal channel driven angular momentum enters, standing on its
+own regardless of effect magnitude; (2) the **acceptance criteria** A1–A6 there are this spec's
+success criteria restated sign-agnostically — reduction to practice = A1 ∧ A2 ∧ A3 at 3σ.
