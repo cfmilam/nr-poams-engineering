@@ -79,49 +79,49 @@ def lindhard(q, kF):
     else: F = 0.5 + (1 - x*x)/(4*x)*math.log(abs((1 + x)/(1 - x)))
     return -(kF/(math.pi**2))*F
 
-def chi_one_sense(q, kF, Nk=520, Nx=420):
-    """Measured density response coefficient rho_q/v_q (ONE sense) on its own fine
-    grid, NO tube: the integrand (occupancy)/D is BOUNDED at the Kohn corner (both
-    factors vanish together) — construction fix booked after run 1 (the tube was
-    biting real response, and rho_q carried a spurious x2 against its own
-    convention)."""
+def chi_one_sense(q, kF, Nk=4000):
+    """rho_q/v_q (ONE sense), EXACT x-integration (construction iteration 2):
+    the promotable domain is x in [x_c(k), 1] with x_c = (kF^2-k^2-q^2)/(2kq)
+    exactly, and the x-antiderivative is closed form; the D-pole sits provably
+    BELOW the domain (x_0 = -q/2k < x_c for all k < kF, q < kF). +q and -q
+    branches equal by x -> -x symmetry. Only the k-integral is numeric."""
     kk = (np.arange(Nk) + 0.5)*(kF/Nk)
-    xx = -1.0 + (np.arange(Nx) + 0.5)*(2.0/Nx)
-    K, X = np.meshgrid(kk, xx, indexing='ij')
-    w3d = (K*K)*(kF/Nk)*(2.0/Nx)*2*math.pi/(2*math.pi)**3
-    kz = K*X
-    Dp = -(kz*q + q*q/2.0)
-    Dm = -(-kz*q + q*q/2.0)
-    # micro-tube 0.002 (grid-poison guard only — a lattice point landing at D~0
-    # inside the corner would spike; the corner's true contribution is integrable
-    # and the residual bias is ladder-checked in X8d)
-    up = (K*K + 2*q*kz + q*q > kF*kF) & (np.abs(Dp) > 2e-3)
-    um = (K*K - 2*q*kz + q*q > kF*kF) & (np.abs(Dm) > 2e-3)
-    cp = np.where(up, 1.0/np.where(np.abs(Dp) > 1e-12, Dp, 1e-12), 0.0)
-    cm = np.where(um, 1.0/np.where(np.abs(Dm) > 1e-12, Dm, 1e-12), 0.0)
-    return float(np.sum(w3d*(cp + cm)))
+    tot = 0.0
+    for k in kk:
+        xc = (kF*kF - k*k - q*q)/(2*k*q)
+        xl = max(xc, -1.0)
+        if xl >= 1.0: continue
+        num = k*q*1.0 + q*q/2.0
+        den = k*q*xl + q*q/2.0
+        J = -(1.0/(k*q))*math.log(num/den)
+        tot += k*k*(kF/Nk)*2.0*J          # x2: both branches
+    return tot/(4*math.pi**2)
 
-def E2_terms(q, kF, Nk=110, Nx=74, dtube=0.015, Nk2=300, Nx2=220):
+def Tshift_one_sense(q, kF, Nk=900, Nx=500, dtube=0.015):
+    """Promoted-weight + normalization class with EXACT boundary in x per k
+    (no staircase): x sub-grid mapped onto [x_c, 1]; closed-form I kernels;
+    tube applies to this 1/D^2 class only (ladder-gated)."""
+    kk = (np.arange(Nk) + 0.5)*(kF/Nk)
+    tot = 0.0
+    for k in kk:
+        xc = (kF*kF - k*k - q*q)/(2*k*q)
+        xl = max(xc, -1.0)
+        if xl >= 1.0: continue
+        xs = xl + (np.arange(Nx) + 0.5)*((1.0 - xl)/Nx)
+        D = -(k*q*xs + q*q/2.0)
+        m = np.abs(D) > dtube
+        if not m.any(): continue
+        kp = np.sqrt(k*k + 2*q*k*xs + q*q)
+        Ik = I_ball(k, kF)
+        Ikp = np.array([I_ball(p, kF) for p in kp])
+        integ = np.where(m, (1.0/np.where(np.abs(D) > 1e-12, D, 1e-12))**2*(Ikp - Ik), 0.0)
+        tot += k*k*(kF/Nk)*((1.0 - xl)/Nx)*2.0*np.sum(integ)   # x2 both branches
+    return -tot/(4*math.pi**2)
+
+def E2_terms(q, kF, Nk=110, Nx=74, dtube=0.015):
     """Second-order same-sense discount energy per volume, per v_q^2 (ONE sense).
-    T_shift on its own finer 2D grid (cheap, closed-form kernels); cross terms 4D."""
-    # ---- T_shift grid (fine) ----
-    kkf = (np.arange(Nk2) + 0.5)*(kF/Nk2)
-    xxf = -1.0 + (np.arange(Nx2) + 0.5)*(2.0/Nx2)
-    Kf, Xf = np.meshgrid(kkf, xxf, indexing='ij')
-    w3df = (Kf*Kf)*(kF/Nk2)*(2.0/Nx2)*2*math.pi/(2*math.pi)**3
-    kzf = Kf*Xf
-    kplus2f = Kf*Kf + 2*q*kzf + q*q
-    kminus2f = Kf*Kf - 2*q*kzf + q*q
-    Dpf = -(kzf*q + q*q/2.0)
-    Dmf = -(-kzf*q + q*q/2.0)
-    upf = (kplus2f > kF*kF) & (np.abs(Dpf) > dtube)
-    umf = (kminus2f > kF*kF) & (np.abs(Dmf) > dtube)
-    cpf = np.where(upf, 1.0/np.where(np.abs(Dpf) > 1e-12, Dpf, 1e-12), 0.0)
-    cmf = np.where(umf, 1.0/np.where(np.abs(Dmf) > 1e-12, Dmf, 1e-12), 0.0)
-    Ikf = np.vectorize(lambda p: I_ball(p, kF))(Kf.ravel()).reshape(Kf.shape)
-    Ikpf = np.vectorize(lambda p: I_ball(p, kF))(np.sqrt(kplus2f).ravel()).reshape(Kf.shape)
-    Ikmf = np.vectorize(lambda p: I_ball(p, kF))(np.sqrt(kminus2f).ravel()).reshape(Kf.shape)
-    T_shift = -np.sum(w3df*(cpf*cpf*(Ikpf - Ikf) + cmf*cmf*(Ikmf - Ikf)))
+    T_shift exact-boundary 2D; cross terms 4D (their own ladders gate them)."""
+    T_shift = Tshift_one_sense(q, kF, dtube=dtube)
     # ---- 4D cross grids (coarser) ----
     kk = (np.arange(Nk) + 0.5)*(kF/Nk)
     xx = -1.0 + (np.arange(Nx) + 0.5)*(2.0/Nx)
