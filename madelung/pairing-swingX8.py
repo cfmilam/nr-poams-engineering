@@ -155,25 +155,46 @@ def E2_terms(q, kF, Nk=110, Nx=74, dtube=0.015):
     # (normalization exactly balances promoted weight) — stated, not faked.
     trg2 = 0.0
     # ---- 4D cross terms with azimuthal closed form (looped over k1 axis: memory-safe)
+    # STAGGERED second grid (construction iteration 6): the ring-averaged kernel
+    # diverges (integrably) on COINCIDENT rings (|k|=|k'|, x=x'); an aligned grid
+    # with a floor turns diagonal cells into spurious spikes (the X8b 4000x blowout).
+    # Irrational-fraction offsets remove all coincidences; floor hits are counted
+    # as poison (expect zero); the grid ladder gates the residual.
     kz = K*X
     A2g = K*K
     ArR2g = np.maximum(A2g - kz*kz, 0.0)
-    w2d = (K*K)*(kF/Nk)*(2.0/Nx)/(2*math.pi)**3 * 2*math.pi   # d3k/(2pi)^3 azim-integrated
+    w2d = (K*K)*(kF/Nk)*(2.0/Nx)/(2*math.pi)**3 * 2*math.pi
+    kkB = (np.arange(Nk) + 0.317)*(kF/Nk)
+    xxB = -1.0 + (np.arange(Nx) + 0.683)*(2.0/Nx)
+    KB, XB = np.meshgrid(kkB, xxB, indexing='ij')
+    kzB = KB*XB
+    A2B = KB*KB
+    ArR2B = np.maximum(A2B - kzB*kzB, 0.0)
+    w2dB = (KB*KB)*(kF/Nk)*(2.0/Nx)/(2*math.pi)**3 * 2*math.pi
+    DpB = -(kzB*q + q*q/2.0)
+    DmB = -(-kzB*q + q*q/2.0)
+    upB = (KB*KB + 2*q*kzB + q*q > kF*kF) & (np.abs(DpB) > dtube)
+    umB = (KB*KB - 2*q*kzB + q*q > kF*kF) & (np.abs(DmB) > dtube)
+    cpB = np.where(upB, 1.0/np.where(np.abs(DpB) > 1e-12, DpB, 1e-12), 0.0)
+    cmB = np.where(umB, 1.0/np.where(np.abs(DmB) > 1e-12, DmB, 1e-12), 0.0)
+    FLOOR = {"hits": 0}
     def Wazi(a2, b2, az, bz, arho2, brho2):
         s2 = a2 + b2 - 2*az*bz
         cr2 = 4.0*arho2*brho2
-        val = np.maximum(s2*s2 - cr2, 1e-12)
+        val = s2*s2 - cr2
+        FLOOR["hits"] += int(np.count_nonzero(val < 1e-10))
+        val = np.maximum(val, 1e-10)
         return 4*math.pi/np.sqrt(val)
     T_c1 = 0.0; T_c2 = 0.0
     for i in range(Nk):
-        a2 = A2g[i, :][:, None, None]         # (Nx,1,1)
+        a2 = A2g[i, :][:, None, None]
         az = kz[i, :][:, None, None]
         ar2 = ArR2g[i, :][:, None, None]
         w1 = w2d[i, :][:, None, None]
         cp1 = cp[i, :][:, None, None]; cm1 = cm[i, :][:, None, None]
-        b2 = A2g[None, :, :]; bz = kz[None, :, :]; br2 = ArR2g[None, :, :]
-        w2 = w2d[None, :, :]
-        cp2 = cp[None, :, :]; cm2 = cm[None, :, :]
+        b2 = A2B[None, :, :]; bz = kzB[None, :, :]; br2 = ArR2B[None, :, :]
+        w2 = w2dB[None, :, :]
+        cp2 = cpB[None, :, :]; cm2 = cmB[None, :, :]
         Wkk = Wazi(a2, b2, az, bz, ar2, br2)
         T_c1 += -0.5*np.sum(w1*w2*2.0*(cp1*cp2 + cm1*cm2)*Wkk)
         az_s = az - q
@@ -183,7 +204,7 @@ def E2_terms(q, kF, Nk=110, Nx=74, dtube=0.015):
         Wsh2 = Wazi(ar2 + az_s2*az_s2, b2, az_s2, bz, ar2, br2)
         T_c2 += -0.5*np.sum(w1*w2*2.0*(cp1*cm2)*Wsh2)
     E2_one_sense = T_shift + T_c1 + T_c2
-    return E2_one_sense, rho_q, (T_shift, T_c1, T_c2), trg2
+    return E2_one_sense, rho_q, (T_shift, T_c1, T_c2), FLOOR["hits"]
 
 def measure(kF=1.0, Nk=110, Nx=74, dtube=0.015, qts=(0.15, 0.20, 0.25, 0.30)):
     rho0 = kF**3/(3*math.pi**2)          # total (2 senses)
