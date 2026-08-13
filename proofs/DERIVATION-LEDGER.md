@@ -4731,3 +4731,52 @@ re-derivation + framing contribution; demotion claim DEAD.
 UNAFFECTED: N-4 (the ½ derivation) is independent of X-1 and stands;
 its Aufbau import-line upgrade executes. #2 (pool paragraph,
 ratified) executes.
+
+## 2026-08-12 — PAIRING SWING X-2 REGISTERED (pre-run): the same-sense hole COEFFICIENT — composed from three standing results and the retained axiom, zero dials
+TARGET: the last empirically-pinned piece of the d-collapse ledger —
+the coefficient of the same-sense discount (what QM calls the Dirac
+exchange term; extant tag). The exhibit holds: scaling ρ^{1/3}, both
+hole constraints (full deficit at contact; total exactly −1 quantum),
+the booking, and the pair-level exclusion all derived natively;
+COEFFICIENT pinned empirically. Tonight: derive it.
+THE CHAIN (each piece standing; nothing new consumed):
+- C1 (the census, DERIVED — N-1): at local budget the same-sense
+  census fills the whole-turn action ball to p_F per sense,
+  ρ_s = p_F³/(6π²ħ³) — the cell theorem.
+- C2 (AXIOM-C, THE RETAINED AXIOM, doing its job): the same-sense
+  census is one coherent amplitude in the closure-mode basis —
+  occupied closures INTERFERE. Its coherent overlap across separation
+  s is the phase sum over filled cells:
+  K(s) = ∫_{|p|≤p_F} e^{ip·s/ħ} d³p/(2πħ)³ = ρ_s·3j₁(p_F s/ħ)/(p_F s/ħ)
+  (each closure's winding density p/ħ read across the separation —
+  N-1's own reading of p). THIS IS EXACTLY THE WORK THE AXIOM EXISTS
+  TO LICENSE — the packing-core rival adds densities and has no K.
+- C3 (the pair-level exclusion theorem, DERIVED on the page given the
+  mode ontology): the same-sense two-entry books subtract the
+  coherent overlap: ρ₂(s) = ρ_s² − |K(s)|².
+- C4 (the strain range law, the ONE import): the like-sense strain
+  k/s integrated against the depletion.
+HAND-DECLARED CONSEQUENCES (verified in-instrument, zero dials):
+- X-2a the two ALREADY-DERIVED hole constraints become the kernel's
+  checks: g(0) = 0 exactly (full deficit at contact) and
+  ∫(|K|²/ρ_s)d³s = 1 exactly (the hole totals one quantum) — the
+  independent derivations now cross-anchor the kernel.
+- X-2b THE COEFFICIENT: ε_x per quantum = −(3/4)(3/π)^{1/3} e²ρ^{1/3}
+  = −0.738559 e²ρ^{1/3} — forced by C1–C4; numeric verification of
+  the composed integral to 1e-5.
+- X-2c THE CONVENTION FORK RESOLVED: the derivation yields the energy
+  coefficient (what the extant record calls the Dirac / α = 2/3
+  convention); Slater's α = 1 is the potential-averaging variant —
+  the d-collapse instrument's booked convention-sensitivity gets its
+  answer: the ledger derivation selects α = 2/3.
+- X-2d honesty: extant shadow named in full (Dirac 1930; the
+  filled-ball kernel is standard fare) — the claim is the BOOKKEEPING
+  COMPOSITION in the POAMS chain with the axiom's role explicit,
+  Mass-ledger discipline. X-2e donor-note CORRECTION (amending X-1's
+  scoring): the cross-front root shared with the Mass ledger is the
+  sense filing ban / two-claimant bookkeeping; the four-channel
+  ORIENTATION structure does NOT transfer to the charge strain —
+  X-1's "four-channel donor" line was too loose, corrected here.
+GRADE CAP: derivation-by-composition (three standing results + the
+named axiom + the named import). The hole's beyond-uniform structure
+(gradient corrections) stays open, named.
