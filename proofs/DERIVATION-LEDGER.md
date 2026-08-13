@@ -4950,3 +4950,29 @@ measured from exact systems and forced to be universal by locality);
 the escrow's closed-form root (the stationary-phase ¼ itself) remains
 cited territory — named residue, likely permanent import at the
 Airy-function level of rigor.
+
+## 2026-08-12 — CENSUS N-5 SCORED: ★ f = ¼ PER FOLD, MEASURED NATIVE — overdetermined anchor ledger consistent, blind quartic row confirms shape-blindness
+Instrument madelung/madelung-swingN5{.py,-run.txt}. The Airy zeros
+enter as computed spectra of the fold equation itself (y″ = xy
+integrated natively; no asymptotic formula consumed anywhere).
+- N-5b PASS ×2: linear symmetric well offsets → 0.500 (tail within
+  0.005; alternating convergence from the two parities); bouncer
+  offsets → 0.750 (0.7509 by n = 6). LEDGER SOLVE: 2f = ½ from THREE
+  independent wells (harmonic exact, Coulomb exact, linear computed)
+  and w + f = ¾ from the bouncer ⇒ **f = ¼ per soft fold, w = ½ per
+  hard wall** — overdetermined, consistent.
+- N-5c PASS (the blind row): quartic well, a different shape class,
+  never used in the fit — offsets 0.581, 0.514, 0.511, … → 0.5034 by
+  n = 7: the fold constant is SHAPE-BLIND exactly as the locality
+  argument demands.
+GRADE: derivation-by-universality-and-anchors. The ¼ is no longer a
+Maslov citation: it is a measured universal constant of the fold,
+forced constant by locality (N-5a normal-form argument), pinned by an
+overdetermined ledger of exact systems, and confirmed blind. The
+stationary-phase closed form stays cited territory (named residue,
+acceptable as permanent at the rigor tier).
+CHAIN COMPLETE: N-4 (offset sum forced; distribution = ¼/fold
+selected by the pair) + N-5 (the ¼ measured native) ⇒ the Langer
+(l+½)², the radial (n_r+½), and the Scott staircase ½ all now stand
+on: whole-turn conservation + fold locality + anchor measurements —
+POAMS-native end to end at identification-plus grade.

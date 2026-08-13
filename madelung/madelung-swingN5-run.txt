@@ -1,0 +1,41 @@
+N-5b THE ANCHOR LEDGER (nu(E) = action loop / 2pi; offset = nu - n):
+  harmonic well: nu(E_n) = n + 1/2 EXACT (algebra; E_n = (n+1/2)w, loop area = 2pi E/w)
+  Coulomb eye:   offset 1/2 EXACT (N-4a, all (n,l))
+
+  linear symmetric well V = |q| (2 soft folds):
+    n= 0: offset = 0.43643
+    n= 1: offset = 0.51735
+    n= 2: offset = 0.48458
+    n= 3: offset = 0.50790
+    n= 4: offset = 0.49131
+    n= 5: offset = 0.50508
+    n=14: offset = 0.49728
+    n=15: offset = 0.50181
+  linear-well offsets -> 1/2 (tail within 0.005): PASS
+
+  bouncer (1 wall + 1 fold):
+    n= 0: offset = 0.75867
+    n= 1: offset = 0.75395
+    n= 2: offset = 0.75254
+    n= 3: offset = 0.75187
+    n= 6: offset = 0.75104
+    n= 7: offset = 0.75091
+  bouncer offsets -> 3/4 (tail within 0.005): PASS
+
+  LEDGER SOLVE: 2f = 1/2 (harmonic, Coulomb, linear) and w + f = 3/4 (bouncer)
+  => f = 1/4 per soft fold, w = 1/2 per hard wall — overdetermined, consistent
+
+N-5c PREDICTION ROW — quartic well V = q^4 (not used in the fit):
+    n=0: E =    1.0604  offset = 0.58142
+    n=1: E =    3.7997  offset = 0.51429
+    n=2: E =    7.4556  offset = 0.51053
+    n=3: E =   11.6446  offset = 0.50748
+    n=4: E =   16.2616  offset = 0.50582
+    n=5: E =   21.2380  offset = 0.50473
+    n=6: E =   26.5279  offset = 0.50396
+    n=7: E =   32.0977  offset = 0.50338
+  GATE offset -> 1/2 within 0.01 by n = 6: PASS
+
+  the fold constant is shape-blind across {harmonic, Coulomb, linear, quartic} —
+  exactly what locality demands: f = 1/4 per fold, measured native, no asymptotic
+  formula consumed (the Airy zeros enter as computed spectra of the fold equation itself).
