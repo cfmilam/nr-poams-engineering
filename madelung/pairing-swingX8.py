@@ -135,11 +135,22 @@ def E0_one_sense(kF, Nk=3000):
         tot += k*k*(kF/Nk)*2.0*I_ball(k, kF)    # x-integral trivial: 2
     return -0.5*tot/(4*math.pi**2)/(2*math.pi)**3
 
-def E2_terms(q, kF, Nk=110, Nx=74, dtube=0.015):
+def E2_terms(q, kF, Nk=120, Nx=80, dtube=1e-4):
     """Second-order same-sense discount energy per volume, per v_q^2 (ONE sense).
-    T_shift exact-boundary 2D; cross terms 4D (their own ladders gate them)."""
-    T_shift = Tshift_one_sense(q, kF, dtube=dtube)
-    # ---- 4D cross grids (coarser) ----
+
+    CONSTRUCTION ITERATION 7 — THE COMPLETE-SQUARE FORM: the O(v^2) inventory
+    regroups EXACTLY (term-for-term against the |M|^2 expansion) into
+
+      E2 = -(1/2) SUMSUM [  w(k-k'-q) (c+(k') + c-(k))^2
+                          + w(k-k'+q) (c+(k) + c-(k'))^2
+                          - w(k-k')  { (c+(k)-c+(k'))^2 + (c-(k)-c-(k'))^2 } ]
+
+    (squares at shifted kernels absorb T_shift's promoted-weight pieces and
+    T_cross2; the difference-squares absorb normalization and T_cross1). The
+    near-Fermi-surface log divergences now cancel INSIDE each square BEFORE
+    quadrature — the delicacy that split the extant fork is handled by
+    construction, not by cutoff. No I_ball kernels at O(v^2); no tube (a 1e-4
+    micro-guard only, hits counted as poison)."""
     kk = (np.arange(Nk) + 0.5)*(kF/Nk)
     xx = -1.0 + (np.arange(Nx) + 0.5)*(2.0/Nx)
     K, X = np.meshgrid(kk, xx, indexing='ij')
@@ -185,9 +196,8 @@ def E2_terms(q, kF, Nk=110, Nx=74, dtube=0.015):
         FLOOR["hits"] += int(np.count_nonzero(val < 1e-10))
         val = np.maximum(val, 1e-10)
         return 4*math.pi/np.sqrt(val)
-    T_c1 = 0.0; T_c2 = 0.0
+    T_sq1 = 0.0; T_sq2 = 0.0; T_diff = 0.0
     for i in range(Nk):
-        a2 = A2g[i, :][:, None, None]
         az = kz[i, :][:, None, None]
         ar2 = ArR2g[i, :][:, None, None]
         w1 = w2d[i, :][:, None, None]
@@ -195,16 +205,20 @@ def E2_terms(q, kF, Nk=110, Nx=74, dtube=0.015):
         b2 = A2B[None, :, :]; bz = kzB[None, :, :]; br2 = ArR2B[None, :, :]
         w2 = w2dB[None, :, :]
         cp2 = cpB[None, :, :]; cm2 = cmB[None, :, :]
-        Wkk = Wazi(a2, b2, az, bz, ar2, br2)
-        T_c1 += -0.5*np.sum(w1*w2*2.0*(cp1*cp2 + cm1*cm2)*Wkk)
+        a2 = A2g[i, :][:, None, None]
+        # square 1 at w(k-k'-q): shift k z-component by -q
         az_s = az - q
         Wsh = Wazi(ar2 + az_s*az_s, b2, az_s, bz, ar2, br2)
-        T_c2 += -0.5*np.sum(w1*w2*2.0*(cm1*cp2)*Wsh)
+        T_sq1 += -0.5*np.sum(w1*w2*Wsh*(cp2 + cm1)**2)
+        # square 2 at w(k-k'+q): shift k z-component by +q
         az_s2 = az + q
         Wsh2 = Wazi(ar2 + az_s2*az_s2, b2, az_s2, bz, ar2, br2)
-        T_c2 += -0.5*np.sum(w1*w2*2.0*(cp1*cm2)*Wsh2)
-    E2_one_sense = T_shift + T_c1 + T_c2
-    return E2_one_sense, rho_q, (T_shift, T_c1, T_c2), FLOOR["hits"]
+        T_sq2 += -0.5*np.sum(w1*w2*Wsh2*(cp1 + cm2)**2)
+        # difference squares at w(k-k')
+        Wkk = Wazi(a2, b2, az, bz, ar2, br2)
+        T_diff += +0.5*np.sum(w1*w2*Wkk*((cp1 - cp2)**2 + (cm1 - cm2)**2))
+    E2_one_sense = T_sq1 + T_sq2 + T_diff
+    return E2_one_sense, rho_q, (T_sq1, T_sq2, T_diff), FLOOR["hits"]
 
 def measure(kF=1.0, Nk=110, Nx=74, dtube=0.015, qts=(0.15, 0.20, 0.25, 0.30)):
     rho0 = kF**3/(3*math.pi**2)          # total (2 senses)
@@ -295,6 +309,6 @@ print("  grid ladder (Nk 110->140, Nx 74->90): F(0.20) moves %+.2f%% -> %s" % (1
 resT, _, _, _ = measure(dtube=0.0075, qts=(0.20,))
 devT = (resT[0.20]['F'] - res[0.20]['F'])/abs(res[0.20]['F'])
 print("  tube ladder (0.015 -> 0.0075): F(0.20) moves %+.2f%% -> %s" % (100*devT, "PASS" if abs(devT) < 0.03 else "FLAG"))
-print("  term table at q~=0.20 (one sense): T_shift %.6f | T_cross_same %.6f | T_cross_opp %.6f"
+print("  term table at q~=0.20 (one sense): T_sq(-q) %.6f | T_sq(+q) %.6f | T_diffsq %.6f"
       % res[0.20]['terms'])
 print("  [%.0fs]" % (time.time()-t0))
