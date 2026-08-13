@@ -4817,3 +4817,17 @@ EXHIBIT PROPOSAL (ratification): Aufbau pairing-layer clause —
 "coefficient is empirically pinned" → derived (chain + 4.6e-6
 confrontation); the TFD instrument's convention-sensitivity note →
 resolved to α = 2/3 by the derivation.
+
+## 2026-08-12 — X-2c PHRASING CORRECTED (composition with the page's booking-pair theorem, caught at surface-edit time)
+The Aufbau page's 2026-08-10 upgrade already DERIVED the convention
+structure: the Xα bracket [⅔, 1] is the [variational, felt] booking
+pair of ONE hole (3/2 generic to the 1/r kernel), and frontier
+questions (which orbit binds next) force the FELT booking. X-2's
+"Slater not selected" applies ONLY to the energy-density question.
+COMPOSED STATEMENT (the correct one): X-2 derives the VARIATIONAL
+ANCHOR of the pair ab initio — (3/4)(3/π)^{1/3}, 4.6e-6, zero dials;
+the felt member rides the page's derived 3/2 ratio; the Ca/Sc window
+moves from source to confirmation. Nothing on the page falsified;
+X-2's scoring line is sharpened, not withdrawn. Second consecutive
+lesson of the same species as tonight's X-1 catch: COMPOSE WITH THE
+LIVE PAGE, never with the memory of it.
