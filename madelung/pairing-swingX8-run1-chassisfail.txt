@@ -1,0 +1,12 @@
+/Users/cfmacbook/.openclaw/workspace/poams-engineering-public/madelung/pairing-swingX8.py:97: RuntimeWarning: divide by zero encountered in divide
+  cp = np.where(up, 1.0/Dp, 0.0)       # c_+ per v_q
+/Users/cfmacbook/.openclaw/workspace/poams-engineering-public/madelung/pairing-swingX8.py:98: RuntimeWarning: divide by zero encountered in divide
+  cm = np.where(um, 1.0/Dm, 0.0)
+X-8 native gradient coefficient — census second-order discount response
+
+X8a LINDHARD CHASSIS (measured vs closed form):
+  q~=0.15: chi0 -0.181972 vs -0.101131  (+79.94%)
+  q~=0.20: chi0 -0.187840 vs -0.100983  (+86.01%)
+  q~=0.25: chi0 -0.186832 vs -0.100792  (+85.36%)
+  q~=0.30: chi0 -0.194054 vs -0.100558  (+92.98%)
+X8a: FAIL — STOP

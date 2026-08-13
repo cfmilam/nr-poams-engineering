@@ -79,34 +79,64 @@ def lindhard(q, kF):
     else: F = 0.5 + (1 - x*x)/(4*x)*math.log(abs((1 + x)/(1 - x)))
     return -(kF/(math.pi**2))*F
 
-def E2_terms(q, kF, Nk=110, Nx=74, dtube=0.015):
-    """Second-order same-sense discount energy per volume, per v_q^2 (ONE sense),
-       plus measured rho_q per v_q (one sense) and Tr gamma2 residual."""
-    # grids: k in (0,kF], x = cos(theta) in (-1,1), midpoint rules (avoid exact edges)
+def chi_one_sense(q, kF, Nk=520, Nx=420):
+    """Measured density response coefficient rho_q/v_q (ONE sense) on its own fine
+    grid, NO tube: the integrand (occupancy)/D is BOUNDED at the Kohn corner (both
+    factors vanish together) — construction fix booked after run 1 (the tube was
+    biting real response, and rho_q carried a spurious x2 against its own
+    convention)."""
     kk = (np.arange(Nk) + 0.5)*(kF/Nk)
     xx = -1.0 + (np.arange(Nx) + 0.5)*(2.0/Nx)
     K, X = np.meshgrid(kk, xx, indexing='ij')
-    w3d = (K*K)*(kF/Nk)*(2.0/Nx)*2*math.pi/(2*math.pi)**3   # d3k/(2pi)^3 weight
+    w3d = (K*K)*(kF/Nk)*(2.0/Nx)*2*math.pi/(2*math.pi)**3
     kz = K*X
-    kplus2 = K*K + 2*q*kz + q*q          # |k+q|^2
-    kminus2 = K*K - 2*q*kz + q*q
-    Dp = -(kz*q + q*q/2.0)               # eps_k - eps_{k+q}
+    Dp = -(kz*q + q*q/2.0)
     Dm = -(-kz*q + q*q/2.0)
-    up = (kplus2 > kF*kF) & (np.abs(Dp) > dtube)   # promotable +q
-    um = (kminus2 > kF*kF) & (np.abs(Dm) > dtube)
-    cp = np.where(up, 1.0/Dp, 0.0)       # c_+ per v_q
-    cm = np.where(um, 1.0/Dm, 0.0)
-    # ---- chassis: density response (one sense): rho_q = sum 2 c_+ /V per cos-component
-    # delta rho(r) = (2/V) sum_k occ c_+(k) cos(q z)*2 ... measured coefficient:
-    rho_q = 2.0*np.sum(w3d*(cp + cm))    # per v_q (one sense)
+    # micro-tube 0.002 (grid-poison guard only — a lattice point landing at D~0
+    # inside the corner would spike; the corner's true contribution is integrable
+    # and the residual bias is ladder-checked in X8d)
+    up = (K*K + 2*q*kz + q*q > kF*kF) & (np.abs(Dp) > 2e-3)
+    um = (K*K - 2*q*kz + q*q > kF*kF) & (np.abs(Dm) > 2e-3)
+    cp = np.where(up, 1.0/np.where(np.abs(Dp) > 1e-12, Dp, 1e-12), 0.0)
+    cm = np.where(um, 1.0/np.where(np.abs(Dm) > 1e-12, Dm, 1e-12), 0.0)
+    return float(np.sum(w3d*(cp + cm)))
+
+def E2_terms(q, kF, Nk=110, Nx=74, dtube=0.015, Nk2=300, Nx2=220):
+    """Second-order same-sense discount energy per volume, per v_q^2 (ONE sense).
+    T_shift on its own finer 2D grid (cheap, closed-form kernels); cross terms 4D."""
+    # ---- T_shift grid (fine) ----
+    kkf = (np.arange(Nk2) + 0.5)*(kF/Nk2)
+    xxf = -1.0 + (np.arange(Nx2) + 0.5)*(2.0/Nx2)
+    Kf, Xf = np.meshgrid(kkf, xxf, indexing='ij')
+    w3df = (Kf*Kf)*(kF/Nk2)*(2.0/Nx2)*2*math.pi/(2*math.pi)**3
+    kzf = Kf*Xf
+    kplus2f = Kf*Kf + 2*q*kzf + q*q
+    kminus2f = Kf*Kf - 2*q*kzf + q*q
+    Dpf = -(kzf*q + q*q/2.0)
+    Dmf = -(-kzf*q + q*q/2.0)
+    upf = (kplus2f > kF*kF) & (np.abs(Dpf) > dtube)
+    umf = (kminus2f > kF*kF) & (np.abs(Dmf) > dtube)
+    cpf = np.where(upf, 1.0/np.where(np.abs(Dpf) > 1e-12, Dpf, 1e-12), 0.0)
+    cmf = np.where(umf, 1.0/np.where(np.abs(Dmf) > 1e-12, Dmf, 1e-12), 0.0)
+    Ikf = np.vectorize(lambda p: I_ball(p, kF))(Kf.ravel()).reshape(Kf.shape)
+    Ikpf = np.vectorize(lambda p: I_ball(p, kF))(np.sqrt(kplus2f).ravel()).reshape(Kf.shape)
+    Ikmf = np.vectorize(lambda p: I_ball(p, kF))(np.sqrt(kminus2f).ravel()).reshape(Kf.shape)
+    T_shift = -np.sum(w3df*(cpf*cpf*(Ikpf - Ikf) + cmf*cmf*(Ikmf - Ikf)))
+    # ---- 4D cross grids (coarser) ----
+    kk = (np.arange(Nk) + 0.5)*(kF/Nk)
+    xx = -1.0 + (np.arange(Nx) + 0.5)*(2.0/Nx)
+    K, X = np.meshgrid(kk, xx, indexing='ij')
+    kz = K*X
+    Dp = -(kz*q + q*q/2.0)
+    Dm = -(-kz*q + q*q/2.0)
+    up = (K*K + 2*q*kz + q*q > kF*kF) & (np.abs(Dp) > dtube)
+    um = (K*K - 2*q*kz + q*q > kF*kF) & (np.abs(Dm) > dtube)
+    cp = np.where(up, 1.0/np.where(np.abs(Dp) > 1e-12, Dp, 1e-12), 0.0)
+    cm = np.where(um, 1.0/np.where(np.abs(Dm) > 1e-12, Dm, 1e-12), 0.0)
+    rho_q = chi_one_sense(q, kF)
     # Count conservation Tr gamma^(2) = 0 is STRUCTURAL in this construction
     # (normalization exactly balances promoted weight) — stated, not faked.
     trg2 = 0.0
-    # ---- T_shift (+ normalization class), closed-form kernels
-    Ik = np.vectorize(lambda p: I_ball(p, kF))(K.ravel()).reshape(K.shape)
-    Ikp = np.vectorize(lambda p: I_ball(p, kF))(np.sqrt(kplus2).ravel()).reshape(K.shape)
-    Ikm = np.vectorize(lambda p: I_ball(p, kF))(np.sqrt(kminus2).ravel()).reshape(K.shape)
-    T_shift = -np.sum(w3d*(cp*cp*(Ikp - Ik) + cm*cm*(Ikm - Ik)))
     # ---- 4D cross terms with azimuthal closed form (looped over k1 axis: memory-safe)
     kz = K*X
     A2g = K*K
