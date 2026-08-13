@@ -4889,3 +4889,27 @@ HAND EXPECTATION (honest): TF s grows outward; interior s ~ 0.3–0.6
 (enhancement 1–4%), edge s > 1 (LDA-class breakdown where the atom
 ends). The 3d region likely sits at the few-% level — genuinely
 uncertain against the 3% line. The instrument decides.
+
+## 2026-08-12 — PAIRING X-3 SCORED: EXPOSURE BOOKED — the d-collapse's gradient exposure is real, outward-concentrated, and beyond raw GEA where it is largest
+Instrument madelung/pairing-swingX3{.py,-run.txt} (Z = 21 TF profile).
+- X-3a PASS (algebra): form |∇ρ|²/ρ^{4/3} forced (symmetry kills
+  first order; dimension fixes the scalar).
+- X-3b booked: μ = 10/81 imported with its cautionary lineage
+  (Sham 7/81 → Antoniewicz–Kleinman 10/81; the limit-order/tail
+  lesson named).
+- X-3c THE MEASUREMENT: 3d scoring region (r 0.5–2 a₀): ⟨s⟩ = 0.67,
+  uniform-equivalent enhancement 5.7% — ABOVE the 3% sensitivity
+  line ⇒ NO robustness claim; EXPOSURE BOOKED. The 4s region reads
+  ⟨s⟩ = 1.6 with nominal enhancement 49% — but s > 1 means RAW GEA
+  IS OUT OF ITS DOMAIN there (s = 17.6 at r = 6: the expansion
+  diverges where the atom ends). Direction note (qualitative,
+  unclaimed): the excess discount concentrates OUTWARD — deepening
+  the 4s books pushes AGAINST early collapse, so the Sc verdict's
+  exposure is likely on the safe side — but the quantitative
+  statement needs a BOUNDED enhancement factor (resummed,
+  PBE-class), not raw GEA.
+FOLLOW-UP NAMED (the deliverable): the gradient-corrected d-collapse
+re-run with a bounded F_x(s) — registered gates to include the
+Ca/Sc window as the kill. Until flown, the booked d-collapse verdict
+carries a NAMED 5.7%-class exposure with a favorable-direction note.
+Honest state, no rescue.

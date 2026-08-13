@@ -1,0 +1,12 @@
+TF solved: x range [0.01, 19.90] (guard at chi=-9.28e-08); b = 0.3209 a0
+
+X-3c exposure on the Z = 21 profile (mu = 10/81):
+  3d scoring region      r in [0.5, 2.0] a0: <s> = 0.672  <enhancement> = 5.69%
+  4s region              r in [2.5, 6.0] a0: <s> = 1.625  <enhancement> = 49.31%
+  differential (4s - 3d): +43.62% — enhancement concentrates OUTWARD (4s side)
+  spot values of s: r=0.5: 0.547 | r=1: 0.664 | r=2: 0.914 | r=4: 1.649 | r=6: 17.615
+
+VERDICT RULE: 3d-region uniform-equivalent 5.69% vs the 3% line -> EXPOSURE BOOKED
+  direction note: the excess discount sits on the 4s side — it deepens the OUTER
+  orbit's books, i.e., pushes AGAINST early collapse; the Sc verdict's exposure is
+  therefore on the safe side IF the differential dominates (signed, reported, unclaimed).
