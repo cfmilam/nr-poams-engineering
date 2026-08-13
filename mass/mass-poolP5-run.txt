@@ -1,0 +1,43 @@
+seed 160812 A= 30: gap 0 | z 3.067 | phi_W 0.733 | locks 46 prof 19 crit 19 OPEN 0 -> phi_eff 0.733 (2p 0.733) [2s]
+seed 160812 A= 55: gap 0 | z 3.455 | phi_W 0.564 | locks 95 prof 33 crit 28 OPEN 5 -> phi_eff 0.655 (2p 0.745) [7s]
+seed 160812 A=107: gap 0 | z 3.570 | phi_W 0.636 | locks 191 prof 71 crit 64 OPEN 7 -> phi_eff 0.701 (2p 0.766) [16s]
+seed 160812 A=150: gap 0 | z 3.907 | phi_W 0.500 | locks 293 prof 136 crit 105 OPEN 31 -> phi_eff 0.707 (2p 0.913) [30s]
+seed 160812 A=195: gap 1 | z 4.041 | phi_W 0.369 | locks 394 prof 190 crit 173 OPEN 17 -> phi_eff 0.456 (2p 0.544) [50s]
+seed 160812 A=220: gap 0 | z 4.164 | phi_W 0.327 | locks 458 prof 209 crit 171 OPEN 38 -> phi_eff 0.500 (2p 0.673) [72s]
+seed 260812 A= 30: gap 0 | z 3.267 | phi_W 0.567 | locks 49 prof 19 crit 14 OPEN 5 -> phi_eff 0.733 (2p 0.900) [74s]
+seed 260812 A= 55: gap 0 | z 3.636 | phi_W 0.600 | locks 100 prof 36 crit 30 OPEN 6 -> phi_eff 0.709 (2p 0.818) [79s]
+seed 260812 A=107: gap 0 | z 3.626 | phi_W 0.598 | locks 194 prof 72 crit 67 OPEN 5 -> phi_eff 0.645 (2p 0.692) [88s]
+seed 260812 A=150: gap 0 | z 3.987 | phi_W 0.340 | locks 299 prof 133 crit 105 OPEN 28 -> phi_eff 0.527 (2p 0.713) [103s]
+seed 260812 A=195: gap 0 | z 4.082 | phi_W 0.400 | locks 398 prof 181 crit 152 OPEN 29 -> phi_eff 0.549 (2p 0.697) [122s]
+seed 260812 A=220: gap 1 | z 4.082 | phi_W 0.350 | locks 449 prof 229 crit 168 OPEN 61 -> phi_eff 0.627 (2p 0.905) [146s]
+seed 360812 A= 30: gap 0 | z 2.533 | phi_W 0.967 | locks 38 prof 10 crit 10 OPEN 0 -> phi_eff 0.967 (2p 0.967) [148s]
+seed 360812 A= 55: gap 0 | z 3.382 | phi_W 0.673 | locks 93 prof 32 crit 29 OPEN 3 -> phi_eff 0.727 (2p 0.782) [152s]
+seed 360812 A=107: gap 0 | z 3.626 | phi_W 0.551 | locks 194 prof 82 crit 65 OPEN 17 -> phi_eff 0.710 (2p 0.869) [162s]
+seed 360812 A=150: gap 0 | z 3.813 | phi_W 0.433 | locks 286 prof 132 crit 104 OPEN 28 -> phi_eff 0.620 (2p 0.807) [176s]
+seed 360812 A=195: gap 0 | z 4.041 | phi_W 0.426 | locks 394 prof 177 crit 135 OPEN 42 -> phi_eff 0.641 (2p 0.856) [195s]
+seed 360812 A=220: gap 0 | z 4.200 | phi_W 0.350 | locks 462 prof 222 crit 195 OPEN 27 -> phi_eff 0.473 (2p 0.595) [217s]
+
+P5-fid FIDELITY (phi_W vs P-4 booked):
+  A= 55: phi_W 0.612 vs booked 0.612 -> ok
+  A=107: phi_W 0.595 vs booked 0.595 -> ok
+  A=150: phi_W 0.424 vs booked 0.425 -> ok
+  A=195: phi_W 0.398 vs booked 0.398 -> ok
+  A=220: phi_W 0.342 vs booked 0.342 -> ok
+P5-fid: PASS — scoring proceeds
+
+P5a light edge: phi_eff(55) = 0.697 (measured 0.90; gate [0.75, 1.05]) -> FAIL
+P5b plateau: phi_eff(220) = 0.533 vs phi_W 0.342 (drift 0.191, gate <= 0.05) -> FAIL — CHANNEL FLOODS, clause dead as registered
+
+P5c curve re-score (pred = 6.51/sqrt(phi_eff)):
+  A= 55: phi_eff 0.697 -> pred 7.80 vs 6.86  (+13.7%; |dev|<=12%) -> FAIL
+  A=107: phi_eff 0.685 -> pred 7.86 vs 9.48  (-17.1%; |dev|<=8%) -> FAIL
+  A=150: phi_eff 0.618 -> pred 8.28 vs 10.51  (-21.2%; dev>=-8%) -> FAIL
+  A=195: phi_eff 0.549 -> pred 8.79 vs 10.55  (-16.7%; dev>=-5%) -> FAIL
+P5c: FAIL — booked as found
+
+P5d reports:
+  A=30 light anchor: phi_eff 0.811 (phi_W 0.756) — intercept region, expect -> ~1
+  N_open/A per size: {30: 0.056, 55: 0.085, 107: 0.09, 150: 0.193, 195: 0.15, 220: 0.191} | crossover A_sat (half the A=30 share): None
+  2-patch variant phi_eff2: {30: 0.867, 55: 0.782, 107: 0.776, 150: 0.811, 195: 0.699, 220: 0.724}
+  solver: max gap 1 (<=1) -> PASS | criticality oracle = flow UB (LP-gap <=1 joint, named)
+  profitable/critical/open per size: {30: (16.0, 14.3, 1.7), 55: (33.7, 29.0, 4.7), 107: (75.0, 65.3, 9.7), 150: (133.7, 104.7, 29.0), 195: (182.7, 153.3, 29.3), 220: (220.0, 178.0, 42.0)}
