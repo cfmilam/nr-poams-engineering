@@ -1,0 +1,16 @@
+L1-fid: 13 chains | slope +0.076 (booked +0.076) | |odd(1.5)| 0.112 (booked 0.112)
+FIDELITY CLAUSE: PASS — scoring proceeds
+
+L1a seat-layer slope shift: median -0.0685 MeV/step (declared [-0.045,-0.020]), band 0.0133 (<0.02) -> FAIL
+L1b post-L1 slope: +0.0066 MeV/step (was +0.076) | owned 91% (claim [30,70], hand ~44) -> outside claim band — booked as found  [OVER-OWNERSHIP FLAG — CSB is a real co-owner]
+L1c post-L1 |odd(1.5)| 0.088 (was 0.112) | |odd(0.5)| 0.048 | linearity 3x: 0.145 vs 0.088 | neg slopes 6/13
+    per-chain residual slopes: [-0.046, -0.165, -0.033, -0.123, 0.133, 0.007, 0.16, 0.028, 0.052, 0.033, 0.019, -0.08, -0.013]
+
+L1d sensitivities (report-only):
+  x=0.95                           slope +0.0236 | shift -0.0518
+  seats=2                          slope -0.0630 | shift -0.1370
+  m=9 full skin (pre-named DEAD)   slope -0.5182 | shift -0.6165
+  erf interplay at d=R (A=47): (1-erf(R/a)) = 2.84e-10 -> nil, as declared
+  exchange-seat eta=1/2 per-step class: ~0.0040 MeV/step -> report-only, as declared
+
+BOUNDARY STATEMENT: post-L1 residual +0.0066 -> remainder named: CSB (extant-open) + seat-profile refinement
