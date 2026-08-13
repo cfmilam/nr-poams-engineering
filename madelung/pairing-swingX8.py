@@ -70,10 +70,11 @@ def I_ball(p, kF):
         L = 0.0
     else:
         L = math.log(abs((p + kF)/(p - kF)))
-    # 8 pi^2 kF (1 + tL)/2 x2 — the azimuthal 2pi belongs INSIDE the closed form
-    # (construction iteration 4: the X8-zero gate caught the missing 2pi exactly:
-    # measured/true = 1/2pi; p=0 check: 4pi x 4pi kF = 16 pi^2 kF).
-    return 8*math.pi**2*kF*(0.5 + 0.5*t*L)
+    # I_ball = 4pi x 2pi kF (1 + tL) = 8 pi^2 kF (1 + tL); pinned by BOTH limits:
+    # p->0 gives 16 pi^2 kF (direct: 4pi x 4pi kF) and p=kF gives 8 pi^2 kF.
+    # (Construction iterations 4-5: the X8-zero gate caught first a missing 2pi,
+    # then the bracket written as its own average — exact factors 1/2pi and 1/2.)
+    return 8*math.pi**2*kF*(1.0 + t*L)
 
 def lindhard(q, kF):
     """Static chi0 (per BOTH senses, standard) — density response to v_q."""
