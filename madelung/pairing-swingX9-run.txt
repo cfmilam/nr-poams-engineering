@@ -1,0 +1,25 @@
+[tf-bvp] n=4000 grid [0.0001,300], Newton res=3.35e-03 after 200 iters
+    chi( 1.0) = 0.424008   (lit ~0.424008)
+    chi( 5.0) = 0.078808   (lit ~0.078808)
+    chi(10.0) = 0.024314   (lit ~0.024314)
+    chi(20.0) = 0.005785   (lit ~0.005786)
+    chi(50.0) = 0.000632   (lit ~0.000632)
+X9a BASELINE (F == 1) — must reproduce tier3g booked flip:
+  m=1.500 |   4s   4s   3d   3d   3d | Z*=21  3d-bound=True
+  m=1.700 |   4s   4s   3d   3d   3d | Z*=21  3d-bound=True
+  m=1.949 |   4s   4s   3d   3d   3d | Z*=21  3d-bound=True
+X9a: PASS — baseline reproduced
+
+X9b THE VERDICT (native-law paste ON):
+  m=1.500 |   4s   4s   4s   4s   4s | Z*=None  3d-bound=False
+  m=1.700 |   4s   4s   4s   4s   4s | Z*=None  3d-bound=False
+  m=1.949 |   4s   4s   4s   4s   4s | Z*=None  3d-bound=False
+X9b: collapse lost/unbound at floor — booked as found.
+
+X9c mechanism (Z=21, m=1.50 felt floor):
+  r=0.5 a0: s=0.10  F_native=1.000   [X-4 imported: 1.007]
+  r=1.0 a0: s=0.09  F_native=1.000   [X-4 imported: 1.002]
+  r=2.0 a0: s=0.25  F_native=1.000   [X-4 imported: 1.027]
+  r=4.0 a0: s=0.00  F_native=1.000   [X-4 imported: 1.566]
+
+X9d honesty: law usage — floor(s<0.3) 32% | table 64% | hold(s>6.19) 4%
