@@ -83,7 +83,7 @@ TH = (np.arange(384) + 0.5)*(math.pi/384)
 def J1(x):
     x = np.asarray(x, float)
     return np.trapezoid(np.cos(TH[None, :] - x[..., None]*np.sin(TH[None, :])), TH, axis=-1)/math.pi
-g2 = abs(float(J1(np.array(1.0))) - 0.4400505857) < 1e-6
+g2 = abs(float(np.ravel(J1(np.array([1.0])))[0]) - 0.4400505857) < 1e-6
 
 DT = 2.0e-3
 def n_s(z):

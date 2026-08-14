@@ -1,0 +1,4 @@
+P2-a stack: Airy ok | Bessel ok | census ok -> PASS
+
+P2-b difference-trick validation at zbar = -10:
+  shared systematic |E-Qu|/E = 5.14e-04 | F_nat = 1.000226 (|F-1| = 2.3e-04, gate < 2e-4) -> FAIL — STOP
