@@ -1,0 +1,29 @@
+P3-a stack: PASS
+
+P3-b law working gate: F_nat(-10) = 1.000211 (|F-1| = 2.1e-04 < 1e-3) -> PASS — law licensed
+
+P3-c precision chain (mu license):
+  |F(-10)-1| = 2.11e-04 (< 1e-4) -> MISS
+  range ladder: dF(8) = -7.99e-06  dF(16) = +1.81e-05 (< 3e-5) -> ok
+  dt/2: dF = +1.16e-09 (< 2e-5) -> ok
+P3-c: FAIL — mu INSTRUMENT-LIMIT (law still delivered)
+
+P3-d: unscored (P3-c clause)
+
+P3-e THE LAW + EXPORT:
+  zbar= -8.0: s = 0.0330  F_nat = 1.00042  vs imported 1.00013  (+0.0%)
+  zbar= -7.0: s = 0.0400  F_nat = 1.00029  vs imported 1.00020  (+0.0%)
+  zbar= -6.0: s = 0.0504  F_nat = 0.99920  vs imported 1.00031  (-0.1%)
+  zbar= -5.0: s = 0.0682  F_nat = 0.99821  vs imported 1.00057  (-0.2%)
+  zbar= -4.0: s = 0.0947  F_nat = 1.00407  vs imported 1.00111  (+0.3%)
+  zbar= -3.0: s = 0.1393  F_nat = 0.99599  vs imported 1.00239  (-0.6%)
+  zbar= -2.5: s = 0.1835  F_nat = 1.01039  vs imported 1.00414  (+0.6%)
+  zbar= -2.0: s = 0.2858  F_nat = 0.99845  vs imported 1.00996  (-1.1%)
+  zbar= -1.5: s = 0.4685  F_nat = 0.90273  vs imported 1.02622  (-12.0%)
+  zbar= -1.0: s = 0.7667  F_nat = 0.71438  vs imported 1.06656  (-33.0%)
+  zbar= -0.5: s = 1.2557  F_nat = 0.48833  vs imported 1.15672  (-57.8%)
+  zbar=  0.0: s = 2.0846  F_nat = 0.29020  vs imported 1.32178  (-78.0%)
+  zbar=  0.5: s = 3.5415  F_nat = 0.15233  vs imported 1.52922  (-90.0%) (report-only)
+  zbar=  1.0: s = 6.1916  F_nat = 0.08066  vs imported 1.68725  (-95.2%) (report-only)
+  exported 14 rows -> madelung/native-gradient-law.csv
+[total 313s]
