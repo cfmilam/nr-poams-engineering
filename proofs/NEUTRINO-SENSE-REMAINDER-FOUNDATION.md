@@ -1,8 +1,9 @@
 # THE NEUTRINO AS SENSE REMAINDER — a native POAMS account
 
-**Status:** foundation derivation, first draft for ratification. Commissioned by Star Lord 2026-08-14
-("derive a POAMS native neutrino account") while reading The Patient Sun, whose §7 declared this item
-OPEN. Nothing on the public exhibit changes until this document is ratified.
+**Status:** foundation derivation — **RATIFIED by Star Lord 2026-08-14**, the same evening it was
+commissioned ("derive a POAMS native neutrino account," issued while reading The Patient Sun, whose §7
+had declared this item OPEN). The Patient Sun §7 and §10 now carry the account; the residues of §9
+(mass magnitude, flavor count, the Majorana/Dirac fork) remain open there as here.
 
 **Grading legend, used line by line:**
 - **[FORCED]** — follows from the two pillars + established corpus results; denying it breaks the books.
