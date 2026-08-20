@@ -481,7 +481,7 @@ Daniel Alzofon's analysis of observed craft identifies features consistent with 
 - **Daniel Alzofon** — authored UAP engineering analysis, ran AGNUE experiments at Hathaway Research, now aligned with POAMS framework. Contract resource for Star Lord.
 - **George Hathaway** — Hathaway Research International, Toronto. Ran original AGNUE verification experiments. Detected anomalous motion.
 - **Hal Puthoff** — present at Hathaway lab visit with Star Lord.
-- **Norman Vincent Pope & Anthony Osborne** — POAMS theoretical framework.
+- **N. Vivian “Viv” Pope & Dr. Anthony D. Osborne, PhD** — POAMS theoretical framework.
 
 ---
 
