@@ -100,3 +100,17 @@ one-window designs carry live signal. Present concordance bounds k ≲ 10⁻⁶;
 cross-channel δα⁻¹ ~ 10⁻⁷ (next-generation muonic-atom spectroscopy). Under the standing
 firewall a confirmed null with its k-bound is a full success; a nonzero split has no extant
 competitor. Published cross-ref: exhibit §15 "THE DECISIVE VENUE, NAMED" block.
+
+**Same-night correction (2026-08-28, the audit that killed its own candidate).** The k-derivation
+pass (RUNNING-LAW-K-DERIVATION.md — its headline k rejected at parent review for contradicting
+the banked freeze and magnitude features) nonetheless exposed a real flaw in the venue named
+above: the μH Lamb/Uehling channel books the ELECTRON's vacuum-polarization scale — a different
+vortex's window — not a deep rung of the muon's own coil; under the co-moving (F2) reading,
+cross-vortex comparisons co-move and null by construction. Deeper: for the theorem's own forced
+magnitude (~1 unit across the window) to coexist with 10⁻⁶-level e–μ concordance, standard
+spectroscopic channels must sample their window at essentially ONE depth — the concordance is
+itself evidence FOR co-motion. Honest state restored: distinct-in-principle, not yet isolable —
+with the isolation gate now NAMED: any candidate pair must first prove Δt_eff ≠ 0 within one
+vortex's own window. The F2 window-fork selection survives unchanged. Full audit trail:
+RUNNING-LAW-SEPARABILITY-TEST.md (the venue search) + RUNNING-LAW-K-DERIVATION.md (the
+rejected-but-fertile k pass) + the exhibits §15 corrected block.
