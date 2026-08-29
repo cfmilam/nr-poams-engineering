@@ -81,3 +81,22 @@ multi-species tower regime (log-like, ~8 units over ~12 e-folds); testing √-of
 curve tests the wrong regime — a miss would not falsify it, and a fit would be curve-fitting. The
 claim is therefore **distinct from log in principle, not yet isolable in data**. The decisive open
 test is to find any regime or observable in which the bare-vortex √-of-log separates from log.
+
+**The decisive venue, named (2026-08-28; full audit: RUNNING-LAW-SEPARABILITY-TEST.md).**
+A ranked audit of candidate regimes (between-threshold slopes, below-threshold spectroscopy,
+slope-curvature programmes, tower-suppressed systems) found the zero-background design: **below
+the lightest charged species' rung, conventional QED running is exactly frozen** (s_QED = 0 below
+the electron threshold — extant statement), so comparing two resolved depths *inside one vortex's
+own window* has no logarithmic competitor at all. The named test: **muonic hydrogen, one atom read
+through two channels** — the 2S–2P interval (extant booking: electron-loop vacuum polarization at
+the electron-Compton depth) vs a contact/hyperfine channel ~5 e-folds away (extant channel labels;
+natively: one winding read at two depths of its own coil). QED demands identical α in both
+channels; the bare-vortex law predicts Δα⁻¹ = k[√t_deep − √t_shallow], k never fitted.
+Structural rider settled retrospectively: an *absolute* (lab-length, species-shared) window would
+make α species-dependent — excluded at k ≲ 4×10⁻⁸ by e–μ concordance — while the *co-moving*
+window (each vortex's [r_s, r_orb] riding its own coil; the pillars' natural reading) predicts the
+observed universality: the data already selected the native reading, and only two-depths-within-
+one-window designs carry live signal. Present concordance bounds k ≲ 10⁻⁶; decisive at
+cross-channel δα⁻¹ ~ 10⁻⁷ (next-generation muonic-atom spectroscopy). Under the standing
+firewall a confirmed null with its k-bound is a full success; a nonzero split has no extant
+competitor. Published cross-ref: exhibit §15 "THE DECISIVE VENUE, NAMED" block.
