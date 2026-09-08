@@ -1,4 +1,10 @@
 # Mass Ledger — Swing 8: Mirror Unification, and the Crown Contracted to One Number
+> **SUPERSEDED IN PART — corrected 2026-09-08.** The corrected localization bound destroys the
+> flat cluster ladder that this run uses to contract the crown. The \(\gamma\), capacity, crown,
+> loop-credit, and dependent skin/displacement chain are **not current results**. Historical values
+> and verdicts remain verbatim; see the
+> [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md).
+
 **Follows:** swings 1–7. Registration (ledger d942dc7) committed BEFORE the run.
 GROUNDING gate binding; labels tagged; imports named; fitting is the only sin.
 Instrument: mass-swing8.py / mass-swing8-run.txt.

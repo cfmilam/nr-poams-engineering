@@ -1,4 +1,10 @@
 # Mass Ledger — Swing 7: The Two Books Close on One Curve
+> **SUPERSEDED IN PART — corrected 2026-09-08.** The flat light-cluster anchor and the resulting
+> \(\gamma\), crown, capacity, and contact-\(a_{\rm sym}\) closure used below do not survive the
+> corrected intrinsic Robertson bound. Independent enumeration results may survive, but the
+> advertised closed numerical chain is **not current**. Historical values and verdicts remain
+> verbatim; see the [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md).
+
 **Follows:** swings 1–6. Registration (ledger 058a82c) committed BEFORE the run.
 GROUNDING gate binding; labels tagged; imports named; fitting is the only sin.
 Instrument: mass-swing7.py / mass-swing7-run.txt (exact enumeration + band arithmetic).

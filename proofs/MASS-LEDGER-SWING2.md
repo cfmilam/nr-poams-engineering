@@ -1,4 +1,11 @@
 # Mass Ledger — Swing 2: The Two-Column Ledger (Scale Tension Dissolved)
+> **SUPERSEDED IN PART — corrected 2026-09-08.** The finite-cluster localization term below
+> omitted the second \((1-1/n)\) factor required by Robertson for the stated intrinsic variables.
+> The corrected quantities are lower bounds and are not flat. The former \(\sim15\) MeV cluster
+> anchor and its dependent \(\gamma\), capacity, crown, loop-credit, contact-\(a_{\rm sym}\), skin,
+> valley, and eyewall chain are **not current**. Historical values and verdicts remain verbatim;
+> see the [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md).
+
 **Front:** mass as trapped rate; binding as packing discount. Follows swing 1
 (MASS-LEDGER-DERIVATION.md). Registration M-C1 (89d309e); swing-1 booking 56b6f16.
 Committed BEFORE the AME pull (only dimer/alpha/bulk classics appear, labeled).

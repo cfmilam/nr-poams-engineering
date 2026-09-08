@@ -1,4 +1,10 @@
 # Mass Ledger — Swing 5: The Four-Channel Contact Ledger and the Census Magnitude
+> **SUPERSEDED IN PART — corrected 2026-09-08.** The cluster-derived contact magnitude,
+> \(\gamma\) extraction, crown total, and contact contribution to \(a_{\rm sym}\) inherit a failed
+> localization calibration and are **not current results**. Independent channel counts and leading
+> imbalance scaling must be read separately. Historical values and verdicts remain verbatim; see
+> the [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md).
+
 **Follows:** swings 1–4. GROUNDING gate binding; labels tagged; imports named;
 fitting is the only sin.
 

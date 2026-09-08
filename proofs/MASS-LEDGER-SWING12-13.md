@@ -1,4 +1,10 @@
 # Mass Ledger — Swings 12–13: The Landing Attempt (Bulk Sector Rejected as Registered)
+> **SUPERSEDED IN PART — corrected 2026-09-08.** This historical landing attempt inherits the
+> failed cluster anchor and its pair/loop-credit decomposition. Its preserved failures remain useful
+> controls, but no numerical `STANDS` statement that spends that chain is current. Values and scored
+> outputs remain verbatim; see the
+> [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md).
+
 **Follows:** swings 9–11. Registrations 521f4ff / 880e176, each pre-run, with the
 decision rule fixed in advance. Instruments mass-swing12/13{.py,-run.txt}.
 

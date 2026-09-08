@@ -1,5 +1,14 @@
 # POAMS CORPUS AUDIT — RUNNING FINDINGS LEDGER
 
+> **Mass-Ledger disposition (corrected 2026-09-08): superseded in part.** This is a chronological
+> ledger, so the historical claims and outputs remain below as dated evidence. The finite-cluster
+> localization term omitted the second \((1-1/n)\) factor required by Robertson for the stated
+> intrinsic variables. The resulting lower bounds are not flat. The former \(\sim15\) MeV cluster
+> anchor and every result that spends it—including the \(\gamma\), energy-capacity, crown/loop-credit,
+> contact-\(a_{\rm sym}\), skin, valley, and eyewall-pricing chain—are **not current results**.
+> See the [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md) before citing any
+> Mass-Ledger `PASS`, `PROVED`, or `DERIVED` line below.
+>
 > **Alpha-program disposition (ratified 2026-09-07): retired.** This is a chronological ledger, so the original claims and model outputs remain below as dated evidence. They do not state the corpus's current grade. The adjudication found: measured α was imported; the scalar correction is sign-blind and does not derive a doublet; the proposed whole-turn count is non-integer; the bootstrap's tree structure and normalization were assumed; and the running law was not quantitatively established. Current status: [The Alpha Problem — An Open Front](https://cfmilam.github.io/nr-poams-exhibits/alpha-fine-structure-derivation.html). Full adjudicated exhibit: [2026 archive](https://cfmilam.github.io/nr-poams-exhibits/alpha-program-2026-archive.html).
 Started 2026-07-04. Fork B: audit full corpus first, fix systematically at end.
 Process: charter-grounded (liturgy=ontology, DATA=sovereign), both Opus-4.8 + Fable-5 per file, findings self-classified [INTERNAL]/[CONTAMINATION]/[HOSTILE-PREP]. Only [INTERNAL] (+ notable [HOSTILE-PREP]) tracked here as fix-candidates. Full per-file outputs in memory/poams-audit/.

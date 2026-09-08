@@ -1,4 +1,10 @@
 # Mass Ledger — Swings 16–18: The Level Identity, the Realization, and the Anholonomy Credit
+> **SUPERSEDED IN PART — corrected 2026-09-08.** The claimed crown closure, energy-capacity route,
+> and anholonomy credit below inherit the failed flat light-cluster calibration and are **not current
+> results**. Independent graph/counting outputs remain only at their own grade. Values and scored
+> outputs remain verbatim; see the
+> [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md).
+
 
 **Date:** 2026-08-11 (evening–night) · **Registrations:** 16e4949 (16), 827a193 (17), 2161822 (18) — all pre-run/pre-derivation.
 **Scores:** 3297161 (16), 63eb8b4 (17), ce3e462 (18). Instruments: `mass/mass-swing{16,17,18}{.py,-run.txt}`.

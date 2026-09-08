@@ -1,4 +1,11 @@
 # Mass Ledger — Swing 6: The Cluster Ladder (Enhancement Measured, Residual Named)
+> **VOIDED CALIBRATION — corrected 2026-09-08.** The localization tax below used one power of
+> \((1-1/n)\); Robertson requires the square for the stated intrinsic variables. Re-running the
+> frozen gates gives **FAIL / PASS / FAIL**, and the corrected lower bounds are not interaction
+> energies or a flat cluster anchor. Every dependent `PASS` or extraction below is historical,
+> not current. Values remain verbatim; see the
+> [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md).
+
 **Follows:** swings 1–5. Registration T-C6 (ledger 5ff4541) committed BEFORE the run.
 GROUNDING gate binding; labels tagged; imports named; fitting is the only sin.
 Instrument: mass-swing6.py, run file mass-swing6-run.txt (AME2020 local, experimental).

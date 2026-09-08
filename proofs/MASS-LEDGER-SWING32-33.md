@@ -1,4 +1,10 @@
 # Mass Ledger — Swings 32–33: The Credit Transfer and the Ambush Confrontation
+> **SUPERSEDED IN PART — corrected 2026-09-08.** The \(\gamma\), cluster-step, crown, and credit
+> chain inherited here rests on the failed finite-cluster localization calibration and is **not
+> current**. Independent combinatorial searches remain historical evidence at their own grade.
+> Values and scored outputs remain verbatim; see the
+> [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md).
+
 
 **Date:** 2026-08-12 (early morning) · **Registrations:** 72428eb (32), 5fa1759 (33) — both pre-run.
 **Scores:** 2762f3f (32), 1cdc844 (33). Instruments: `mass/mass-swing{32,33}{.py,-run.txt}`.

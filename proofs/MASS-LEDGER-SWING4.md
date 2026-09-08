@@ -1,4 +1,10 @@
 # Mass Ledger — Swing 4: Saturation at Capacity, and the Skin Integral
+> **SUPERSEDED IN PART — corrected 2026-09-08.** This run inherits the failed flat-cluster
+> calibration. Its energy-capacity route, crown total, contact magnitude, and calibrated skin
+> chain are **not current results**. Conditional algebra and independent scalings remain available
+> only at their own stated grade. Historical values and verdicts remain verbatim; see the
+> [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md).
+
 **Follows:** swings 1–3 (56b6f16, 43fb9a7/71d6382/44656c2, 5be7b5e/4aec87f).
 GROUNDING gate binding; labels tagged; imports named; fitting is the only sin.
 

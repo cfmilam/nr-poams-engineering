@@ -1,4 +1,10 @@
 # Mass Ledger — Swings 14–15: The Geometry Answer and the Independence Rule
+> **SUPERSEDED IN PART — corrected 2026-09-08.** The graph enumeration and cycle-space results
+> remain historical work, but the pair anchor, target crown, energy-capacity agreement, and any
+> claimed numerical closure that spends the failed light-cluster calibration are **not current**.
+> Values and scored outputs remain verbatim; see the
+> [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md).
+
 
 **Date:** 2026-08-11 · **Registrations:** fdcf31e (swing 14), 0c7be63 (swing 15) — both pre-run.
 **Scores:** b8088e0 (swing 14), 0af5482 (swing 15). Instruments: `mass/mass-swing{14,15}{.py,-run.txt}`.

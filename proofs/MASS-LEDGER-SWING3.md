@@ -1,4 +1,11 @@
 # Mass Ledger — Swing 3: The Phase-Capacity Law and the Forced Peak, Located
+> **SUPERSEDED IN PART — corrected 2026-09-08.** The finite-cluster localization input inherited
+> here omitted the second \((1-1/n)\) factor required by Robertson. The corrected lower bounds are
+> not flat. The former \(\sim15\) MeV cluster anchor and its dependent \(\gamma\), capacity, crown,
+> loop-credit, contact-\(a_{\rm sym}\), skin, valley, and eyewall chain are **not current**.
+> Historical values and verdicts remain verbatim; see the
+> [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md).
+
 **Follows:** swing 1 (56b6f16), swing 2 (43fb9a7, 71d6382, 44656c2). GROUNDING gate
 binding; labels tagged; imports named; fitting is the only sin.
 

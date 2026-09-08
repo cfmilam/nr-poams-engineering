@@ -1,4 +1,10 @@
 # Mass Ledger — Swings 9–11: The Crown Assault (Three Registered Confrontations)
+> **SUPERSEDED IN PART — corrected 2026-09-08.** The pair anchor, cluster marginal, and crown
+> confrontations below inherit a failed finite-cluster localization calibration. Those numerical
+> matches and every later chain that spends them are **not current results**; independent negative
+> controls remain historical evidence at their own grade. Values and scored outputs remain
+> verbatim; see the [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md).
+
 **Follows:** swings 1–8. Registrations 3737696 / e9dfdf5 / 350f48f, each pre-run.
 GROUNDING gate binding. Instruments mass-swing9/10/11{.py,-run.txt}.
 Target: the native law δ₀(z) — measured 14.31 | 15.14 | 17.70 | 22.2[20.0,24.9],

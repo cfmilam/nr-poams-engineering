@@ -1,4 +1,10 @@
 # Mass Ledger — Swings 34–41: The Pool Census, the Layer, the Resolution, and the Residue Sweep
+> **SUPERSEDED IN PART — corrected 2026-09-08.** The cluster-derived \(\gamma\), displacement,
+> capacity-seam, crown, contact-\(a_{\rm sym}\), and skin chain below inherits the failed finite-cluster
+> localization calibration and is **not current**. Independent exclusion/counting results require
+> separate grading. Values and scored outputs remain verbatim; see the
+> [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md).
+
 
 **Date:** 2026-08-12 (early morning). All registrations pre-run; every gate scored as hand-declared.
 Registrations/scores (eng repo): 34 a8c671e/08c7cbb · 35 7ee8df4/03c8fb3 · 36 696992d/ffa8bf6 ·

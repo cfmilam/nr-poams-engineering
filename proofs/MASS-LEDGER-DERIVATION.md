@@ -1,4 +1,12 @@
 # The Mass Ledger — Five Entries and the Forced Peak (Swing 1)
+> **HISTORICAL RECORD — corrected 2026-09-08.** Later swings used a first-power
+> center-of-mass localization factor where Robertson requires \((1-1/n)^2\) for the stated
+> intrinsic variables. Any conclusion in this run series that spends the former flat
+> \(\sim15\) MeV cluster anchor or its dependent \(\gamma\), capacity, crown, loop-credit,
+> contact-\(a_{\rm sym}\), skin, valley, or eyewall chain is **not current**. Independent
+> scaling/counting results may survive at their own grade. Values below remain verbatim as audit
+> history; see the [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md).
+
 **Front:** Mass as trapped rate → binding as packing discount.
 **Registration:** M-C1 (2026-08-11 01:25, ledger 89d309e) — committed BEFORE this derivation.
 **Rule:** structure and coefficient ratios must be FORCED by ledger bookkeeping;

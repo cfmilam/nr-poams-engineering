@@ -1,4 +1,9 @@
 # Mass Ledger — Swing 19: The Crown Books Are Taken
+> **SUPERSEDED — corrected 2026-09-08.** The claimed crown closure and cluster-to-bulk attribution
+> below inherit the failed light-cluster localization calibration. They are **not current results**.
+> The full rule search is preserved verbatim as audit history; see the
+> [canonical correction](../MASS-LEDGER-CORRECTION-2026-09-08.md).
+
 
 **Date:** 2026-08-11 (night) · **Registration:** 5bcb14f (pre-run) · **Score:** 6e6f93c.
 **Instrument:** `mass/mass-swing19{.py,-run.txt}`.
