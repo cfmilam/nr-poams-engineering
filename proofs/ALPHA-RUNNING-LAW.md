@@ -1,6 +1,8 @@
-# The Running of α — a Pre-Registered Conditional Theorem in Normal Realism (2026)
+# ARCHIVE — The Running of α: Retired 2026 Research Attempt
 
-Companion record to *Spectra, Gravitation, and Fine Structure in Normal Realism*, Part II, §15.
+> **Current disposition (ratified 2026-09-07): not a theorem.** The reasoning below was not quantitatively confronted, and it depends on a bootstrap whose tree structure was assumed and whose row normalization installed the marginal eigenvalue later reported as a result. It is preserved as a chronological research record. Current status: [The Alpha Problem — An Open Front](https://cfmilam.github.io/nr-poams-exhibits/alpha-fine-structure-derivation.html). Full adjudicated program: [2026 archive](https://cfmilam.github.io/nr-poams-exhibits/alpha-program-2026-archive.html).
+
+Historical companion record to the retired *Spectra, Gravitation, and Fine Structure in Normal Realism*, Part II, §15.
 Full night-by-night derivation: `DERIVATION-LEDGER.md` (running-law region, swings 1–10).
 
 **Process.** Same discipline as the value program: a frame-holding reasoning model reasoning

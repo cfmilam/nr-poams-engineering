@@ -1,4 +1,6 @@
-# ONE ANHOLONOMY, TWO LEVELS — Mercury's perihelion (sourced) and α's Berry defect (source-free) as one geometric phase
+# ARCHIVE PROMPT — One Anholonomy, Two Levels
+
+> **Current disposition (ratified 2026-09-07): historical programme prompt, not a current result.** The proposed source-free α leg and macro/micro identity were not derived. Current status: [The Alpha Problem](https://cfmilam.github.io/nr-poams-exhibits/alpha-fine-structure-derivation.html); full adjudicated record: [2026 archive](https://cfmilam.github.io/nr-poams-exhibits/alpha-program-2026-archive.html).
 Assembled 2026-07-08 (Parzival), on Star Lord's insight: the α phase-slip and Mercury's perihelion are the SAME "doesn't-quite-close" at two scales. Feeds ALPHA-ANHOLONOMY-{opus,fable}.txt.
 
 ## THE CLAIM TO FORMALIZE / TEST
@@ -20,4 +22,4 @@ Both are ANHOLONOMIES — a closed loop on the one substance's angular-radial ti
 UNIFIED (one holonomy: sourced→perihelion reproducing 43″/cy, source-free→α Berry defect, coefficients explained from loop geometry, source-free = contingent direction) / SAME-TYPE-NOT-ONE-FORMULA (both anholonomies but genuinely distinct connections — say why) / FAILS (the parallel is only dimensional/scaling — say why).
 
 ## SOURCES
-poams-engineering-public/alpha-fine-structure-derivation.html (§3 gravitation=orbital time dilation, §4 fine structure=orbital time dilation, §5 what α is); poams-books/2015-einstein-lost-legacy.txt (App.1 Pythagorean time; App.4 orbital dynamics; App.5 varying G); osborne-2007/chapters/ (time-cone, instantaneity); memory/poams-audit/ALPHA-TIMEKERNEL-{opus,fable}.txt (Berry holonomy −π(1−cosθ)=−π/N, source-free closure, the duality); ALPHA-BOOTSTRAP-/ALPHA-CYCLIC-*.txt (γ=1/scale-invariance = the contingent direction to recover in the M→self limit); FINDINGS-LEDGER.md; CHARTER.md (liturgy: everything is time; no container; relativity=Pythagoras on a cone).
+Archived exhibit `alpha-program-2026-archive.html` (§3 gravitation=orbital time dilation, §4 fine-structure attempt, §5 former α interpretation); poams-books/2015-einstein-lost-legacy.txt (App.1 Pythagorean time; App.4 orbital dynamics; App.5 varying G); osborne-2007/chapters/ (time-cone, instantaneity); memory/poams-audit/ALPHA-TIMEKERNEL-{opus,fable}.txt (historical Berry-holonomy attempt); ALPHA-BOOTSTRAP-/ALPHA-CYCLIC-*.txt (historical bootstrap attempt); FINDINGS-LEDGER.md; CHARTER.md (liturgy: everything is time; no container; relativity=Pythagoras on a cone).

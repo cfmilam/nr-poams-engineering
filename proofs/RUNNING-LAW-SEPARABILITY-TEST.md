@@ -1,4 +1,6 @@
-# Running-Law Separability Test — Where √-of-log Separates from log Observably
+# ARCHIVE — Running-Law Separability Test
+
+> **Current disposition (ratified 2026-09-07): superseded research design, not a current prediction.** The running law it was designed to separate was never quantitatively established and is now carried as an open question. Preserve this document as a record of the proposed falsification programme, not as a live theorem. Current status: [The Alpha Problem — An Open Front](https://cfmilam.github.io/nr-poams-exhibits/alpha-fine-structure-derivation.html).
 
 Companion to `poams-engineering-public/proofs/ALPHA-RUNNING-LAW.md` (the conditional theorem:
 bare-vortex fine-structure running is **multiplicative**, natural realization

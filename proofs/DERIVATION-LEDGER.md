@@ -1,4 +1,6 @@
 # POAMS CORPUS AUDIT — RUNNING FINDINGS LEDGER
+
+> **Alpha-program disposition (ratified 2026-09-07): retired.** This is a chronological ledger, so the original claims and model outputs remain below as dated evidence. They do not state the corpus's current grade. The adjudication found: measured α was imported; the scalar correction is sign-blind and does not derive a doublet; the proposed whole-turn count is non-integer; the bootstrap's tree structure and normalization were assumed; and the running law was not quantitatively established. Current status: [The Alpha Problem — An Open Front](https://cfmilam.github.io/nr-poams-exhibits/alpha-fine-structure-derivation.html). Full adjudicated exhibit: [2026 archive](https://cfmilam.github.io/nr-poams-exhibits/alpha-program-2026-archive.html).
 Started 2026-07-04. Fork B: audit full corpus first, fix systematically at end.
 Process: charter-grounded (liturgy=ontology, DATA=sovereign), both Opus-4.8 + Fable-5 per file, findings self-classified [INTERNAL]/[CONTAMINATION]/[HOSTILE-PREP]. Only [INTERNAL] (+ notable [HOSTILE-PREP]) tracked here as fix-candidates. Full per-file outputs in memory/poams-audit/.
 
