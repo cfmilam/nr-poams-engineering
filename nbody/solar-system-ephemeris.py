@@ -20,10 +20,12 @@ Registration (2026-09-09, before the 30-year pull):
 Cross-system registration (same date, before the added pulls): the published
 critical arguments for Mimas-Tethys, Enceladus-Dione, Titan-Hyperion, and
 Naiad-Thalassa must remain bounded (wrapped span < 350 degrees) over the same
-interval and both halves. Node-bearing satellite arguments are evaluated in
-the central body's IAU equator-and-node-of-date frame; node-free arguments are
-frame invariant. Janus-Epimetheus is reported as a co-orbital exchange control
-because its horseshoe angle need not fit inside one semicircle.
+interval and both halves. These finite-window gates are consistency checks for
+the cited locks; by themselves they do not prove sustained libration. Node-
+bearing satellite arguments are evaluated in the central body's IAU equator-
+and-node-of-date frame; node-free arguments are frame invariant. Janus-
+Epimetheus is reported as a co-orbital exchange control because its horseshoe
+angle need not fit inside one semicircle.
 """
 
 from __future__ import annotations

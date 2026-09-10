@@ -378,7 +378,8 @@ JPL JUP365 solution directly over 2000–2030 without re-propagating osculating 
 The Laplace angle remains centred at 180°, spans only 0.844°, and retains that bounded
 cluster in both 15-year halves and at 1/2/4/8-day cadences. Of the four first-order
 2:1 eccentricity arguments, exactly three librate and the Ganymede-pericentre argument
-circulates. Their dominant slow period is 476.48 days. This 3-of-4 topology is the
+circulates. The dominant registered 30-year FFT bin lies near 476 days, with
+adjacent bins near 457 and 498 days setting the window-limited resolution. This 3-of-4 topology is the
 connected-channel signature; it also demonstrates why the isolated coefficient is an
 identification calculation rather than the system's precision width.
 
@@ -387,7 +388,9 @@ on period ratios. Node-bearing satellite arguments are evaluated in Horizons'
 central-body equator-and-node-of-date frame; using the J2000 ecliptic for these angles
 is a coordinate error. Over 2000–2030, Mimas–Tethys spans 155.30°, Enceladus–Dione
 42.88°, Titan–Hyperion 105.91°, and Naiad–Thalassa 106.78°; every argument remains
-bounded in both 15-year halves. Janus–Epimetheus is retained as a report-only
+bounded in both 15-year halves. These finite-window spans are consistency checks
+for the cited critical-angle locks, not independent proof of sustained libration.
+Janus–Epimetheus is retained as a report-only
 horseshoe exchange control because its co-orbital angle is not a single semicircular
 cluster.
 
@@ -521,7 +524,7 @@ same Galilean endpoint.
 | Three-body leading coefficient | Derived algorithm; Galilean leading-order value run |
 | One scalar width inside overlap | Not well-defined |
 | Galilean present lock | JPL JUP365 bounded-libration test passed; connected 3-of-4 first-order topology established |
-| Other displayed present locks | Direct Horizons bounded-angle gates pass for Mimas–Tethys, Enceladus–Dione, Titan–Hyperion, Naiad–Thalassa, and the 18-kyr Neptune–Pluto interval; Janus–Epimetheus retained as horseshoe control |
+| Other displayed present locks | Thirty-year Horizons consistency gates pass for the cited Mimas–Tethys, Enceladus–Dione, Titan–Hyperion, and Naiad–Thalassa locks; the 18-kyr Neptune–Pluto bounded-angle gate passes; Janus–Epimetheus retained as horseshoe control |
 | Stable versus destructive outcome from the integer ratio alone | Not derivable; coefficient, topology, and escape boundary are now separately computed |
 | Main-belt centres and leading widths | Registered 4/4 centre and 4/4 factor-three width gates pass; proper-orbit 7:3 control differs by factor 1.07 |
 | Conditional capture criterion | Derived; eight-family published history ensemble registered and audited |
@@ -553,8 +556,9 @@ same Galilean endpoint.
 - Direct angle and population instruments: NASA/JPL Horizons API and DE441/JUP365/
   SAT441L/NEP098 integrated solutions; NASA/JPL SBDB Query API; D. Nesvorný et al.,
   *Catalog of Proper Orbits for 1.25 Million Main Belt Asteroids*, arXiv:2407.18221.
-- Extended migration constraint: D. Nesvorný et al., *The Dynamical History of the
-  Kuiper Belt*, arXiv:2602.16999 (67 registered outer-system histories).
+- Extended migration constraint: P. S. Lykawka, J. Horner & P. Bernardinelli,
+  *Kuiper Belt Formation via Grainy Planetary Migration*, arXiv:2602.16999
+  (67 registered outer-system histories).
 
 The source theorems are imported mathematics. The coefficient factorization, the
 zero-remainder selection, the ledger-share reconstruction, and their POAMS reading are
