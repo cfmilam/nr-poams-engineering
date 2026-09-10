@@ -33,10 +33,12 @@ def hist(sample):
 def wbins(lo,hi):  # bins fully inside [lo,hi]
     return [i for i in range(NB) if A0+i*BW >= lo-1e-9 and A0+(i+1)*BW <= hi+1e-9]
 
-GAPS = [  # name, computed center, flanks [(lo,hi),...], one_sided, comp dA, factor(None=report-only)
+GAPS = [  # name, computed center, flanks [(lo,hi),...], one_sided, comp dA, factor
     ("3:1", 2.502, [(2.36,2.46),(2.54,2.64)], False, 0.0144, 3.0),
-    ("5:2", 2.825, [(2.72,2.79),(2.86,2.91)], False, 0.0183, None),
-    ("7:3", 2.958, [(2.88,2.93),(2.99,3.02)], False, 0.0160, None),
+    # W_phi is the resonant-angle beat width; delta n = W_phi/q.  The former
+    # values below carried q into the semimajor-axis conversion a second time.
+    ("5:2", 2.825, [(2.72,2.79),(2.86,2.91)], False, 0.00917, 3.0),
+    ("7:3", 2.958, [(2.88,2.93),(2.99,3.02)], False, 0.00535, 3.0),
     ("2:1", 3.279, [(3.10,3.22)],             True,  0.0785, 2.0),
 ]
 

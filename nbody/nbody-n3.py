@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """nbody-n3 — the channel criterion vs the Galilean system (N3a-f; reg 34a9473 pre-run).
 Width (derived, NBODY-FORWARD T3): W = 2(j-1) n sqrt(3 alpha f' |f_d| e), open iff
-|p n' - q n| < W. f_d = 1/2[-2j - alpha d/dalpha] b_{1/2}^{(j)}(alpha) + indirect
-(2:1 interior indirect = -2 alpha; benchmark vs tabulated -1.19). Data: N2 elements +
-eccentricities (same pulls, 2026-08-10); f' = partition fractions (comparison-class)."""
+|p n' - q n| < W. For the cited eccentricity-type argument,
+f_d = 1/2[-2j - alpha d/dalpha] b_{1/2}^{(j)}(alpha); the 2:1 indirect -2 alpha
+belongs to a different argument and is deliberately excluded (run-2 correction;
+benchmark vs tabulated -1.19). Data: N2 elements + eccentricities (same pulls,
+2026-08-10); f' = partition fractions (comparison-class)."""
 import math
 
 def b_laplace(s, j, alpha, N=20000):
@@ -13,13 +15,11 @@ def b_laplace(s, j, alpha, N=20000):
         tot += math.cos(j*psi)/ (1 - 2*alpha*math.cos(psi) + alpha*alpha)**s
     return (2.0/math.pi)*tot*(math.pi/N)
 
-def f_d(j, alpha, indirect=True):
+def f_d(j, alpha):
     h = 1e-6
     b  = b_laplace(0.5, j, alpha)
     db = (b_laplace(0.5, j, alpha+h) - b_laplace(0.5, j, alpha-h))/(2*h)
-    val = 0.5*(-2*j*b - alpha*db)
-    if j == 2 and indirect: val += -2.0*alpha   # 2:1 interior indirect term
-    return val
+    return 0.5*(-2*j*b - alpha*db)
 
 D = 86400.0
 # (name, a km, T d, e, partition fraction f')

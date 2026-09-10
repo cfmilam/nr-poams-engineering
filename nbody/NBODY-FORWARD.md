@@ -263,3 +263,48 @@ computation lands −1.1832 (0.6% from tabulated) ✓.
   the exact three-body channel Hamiltonian (bracketed here, never fabricated);
   N4 = Kirkwood confrontation with real gap-width data; N2b upgrade path (JPL
   elements). Public exhibit surfaces untouched pending ratification.
+
+## 2026-09-09 re-execution and n-centre closure
+
+- Re-execution caught a source/run mismatch in `nbody-n3.py`: the saved run-2 record
+  correctly excluded the 2:1 indirect `-2 alpha` term, but the committed instrument
+  still defaulted to including it. That stale flag made N3f miss its benchmark by
+  105% and moved the generous 7:3 control inside its deliberately loose bound.
+  The canonical instrument now implements the recorded run-2 correction. N3f again
+  lands at -1.1832 (0.6% from the cited -1.19); pair beats remain outside by 3.78x and
+  2.87x; the 7:3 control is outside the generous bound by 1.31x.
+- `NCENTRE-CLOSURE-DERIVATION.md` replaces the guessed three-body bracket with the
+  general pair-additive n-centre Hamiltonian and the second-order cross-bracket
+  construction. Its direct/circular Galilean evaluation gives
+  `C2=4.553326265e-13`, `W/n_E=1.532332442e-3`, and measured `detuning/W=2.223866052e-5`
+  (44,967x inside). The result is leading-order, not ephemeris-grade.
+- The inverse-square branch is now conditional on one exposed new statement: the
+  zero-remainder boundary. Whole-orbit closure plus Bertrand alone leaves both Kepler
+  and oscillator branches. Capture probabilities require an added reservoir history;
+  unique historical capture from current endpoints is underdetermined.
+
+## 2026-09-09 physics-closure extension — ratified
+
+- Star Lord ratified P1–P5 and every result through this closure pass. The
+  zero-remainder boundary is therefore an explicit premise, not a hidden assumption.
+- Scale symmetry proves that closure integers cannot determine a dimensionful
+  numerical value for the system circulation scale: one rod–clock calibration is
+  required. That is an identifiability theorem, not unfinished algebra.
+- The direct Horizons audit reads JUP365/SAT441L/NEP098/DE441 osculating elements in
+  place. Over 2000–2030, the Galilean Laplace angle spans 0.844 degrees and exactly
+  three of its four connected first-order angles librate. In the relevant central-body
+  equatorial frames, Mimas–Tethys, Enceladus–Dione, Titan–Hyperion, and Naiad–Thalassa
+  all pass their registered bounded-angle gates. Across 9000 BC–AD 9000, the
+  Neptune–Pluto 3:2 argument spans 159.68 degrees and remains bounded in both halves.
+- N4 has been superseded by `solar-system-belt.py`. The old conversion carried the
+  resonance integer q twice when mapping beat-angle width to semimajor-axis width;
+  the correct relation is `delta n = W_phi/q`. Corrected predictions pass all four
+  registered JPL population-width gates (factors 2.09, 1.64, 2.14, 1.36), and the
+  independent proper-orbit 7:3 width differs by only factor 1.07. Historical run
+  outputs remain frozen as records of the correction.
+- `solar-system-history-audit.py` executes eight published reservoir families without
+  pooling incompatible priors. It selects some reservoir classes, preserves reported
+  conditional frequencies, and proves unique-history recovery impossible by retaining
+  two distinct viable routes to the same Galilean endpoint.
+- Star Lord ratified the completed exhibit, all new closure instruments, and these
+  claim boundaries before publication on 2026-09-09.

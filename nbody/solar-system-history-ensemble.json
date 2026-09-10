@@ -1,0 +1,134 @@
+{
+  "registered_method": {
+    "date": "2026-09-09",
+    "rule": "Treat each published dynamical model as a conditional history family. Preserve its priors, reservoir, sample size, controls, and failures. Never pool probabilities across incompatible models.",
+    "hard_constraints": [
+      "present resonant-angle topology",
+      "neighboring locked and non-locked populations",
+      "measured present migration or dissipation where available",
+      "independent thermal, geological, and figure constraints",
+      "explicit failed outcomes"
+    ]
+  },
+  "families": [
+    {
+      "id": "galilean-primordial-disc",
+      "system": "Io-Europa-Ganymede",
+      "reservoir": "circumjovian disc",
+      "history_class": "primordial convergent migration",
+      "model_condition": "Differential migration during satellite formation; larger Ganymede migrates first, captures Europa, then Io.",
+      "reported_outcome": "The Laplace relation forms in about 100000 years and can evolve toward the present configuration after disc dispersal.",
+      "probability": null,
+      "present_status": "viable",
+      "discriminant_status": "not selected over later tidal capture by the present endpoint",
+      "sources": [
+        {"doi": "10.1126/science.1076557", "arxiv": "astro-ph/0210589", "authors": "Peale & Lee", "year": 2002}
+      ]
+    },
+    {
+      "id": "galilean-later-tidal",
+      "system": "Io-Europa-Ganymede",
+      "reservoir": "Jupiter-moon tidal exchange",
+      "history_class": "later differential orbital expansion",
+      "model_condition": "Measured present dissipation is continued backward through resonance encounters; chaotic branches and eccentricity damping are modelled.",
+      "reported_outcome": "A later capture route remains dynamically viable, but the present lock does not uniquely select it.",
+      "probability": null,
+      "present_status": "viable",
+      "discriminant_status": "not selected over primordial disc capture by the present endpoint",
+      "sources": [
+        {"doi": "10.1038/nature08108", "authors": "Lainey et al.", "year": 2009},
+        {"arxiv": "2001.01106", "authors": "Lari, Saillenfest & Fenucci", "year": 2020}
+      ]
+    },
+    {
+      "id": "saturn-two-body-convergent",
+      "system": "Mimas-Tethys; Titan-Hyperion",
+      "reservoir": "convergent satellite migration",
+      "history_class": "adiabatic two-body separatrix encounter",
+      "model_condition": "Single-resonance Hamiltonians, test-particle approximation, slow convergent migration, negligible relevant inclination/eccentricity damping.",
+      "reported_outcome": "Capture probability about 6.0-6.6% for Mimas-Tethys and 100% for Titan-Hyperion.",
+      "probability": {
+        "Mimas-Tethys": {"value": 0.06, "reported_range": [0.06, 0.066]},
+        "Titan-Hyperion": {"value": 1.0, "reported_range": [1.0, 1.0]}
+      },
+      "present_status": "model-conditioned",
+      "discriminant_status": "not a posterior probability for the real historical route",
+      "sources": [
+        {"arxiv": "1410.2648", "authors": "Luan", "year": 2014}
+      ]
+    },
+    {
+      "id": "saturn-three-body-past",
+      "system": "Saturnian moons",
+      "reservoir": "tidal migration through a multi-resonance network",
+      "history_class": "temporary three-body capture",
+      "model_condition": "Direct numerical integrations including three-body resonances omitted by two-body-only histories.",
+      "reported_outcome": "Three-body captures are common and can persist for 10 million years or longer.",
+      "probability": null,
+      "present_status": "required complication",
+      "discriminant_status": "invalidates a unique two-body-only reconstruction",
+      "sources": [
+        {"doi": "10.3847/2041-8213/ac501c", "arxiv": "2201.12313", "authors": "Cuk & El Moutamid", "year": 2022}
+      ]
+    },
+    {
+      "id": "neptune-grainy-migration",
+      "system": "Neptune-Pluto and the Kuiper belt",
+      "reservoir": "outer planetesimal disc",
+      "history_class": "outward grainy Neptune migration",
+      "model_condition": "Neptune begins near 24 AU; two-stage migration with tau1=10 or 30 Myr and tau2=30 or 100 Myr; 1000-4000 Pluto-mass perturbers or 1000 double-Pluto perturbers; 1000000 test particles per run.",
+      "reported_outcome": "Twelve grainy and four smooth simulations show that graininess reduces resonant overpopulation and better reproduces the observed resonant/non-resonant ratio and libration-amplitude distribution.",
+      "probability": {"implantation_efficiency": {"value": 0.001, "reported_order": "approximately 10^-3"}},
+      "sample": {"simulations": 16, "grainy": 12, "smooth": 4, "test_particles_per_simulation": 1000000},
+      "present_status": "strongly constrained family",
+      "discriminant_status": "reservoir and migration direction selected; exact encounter sequence remains non-unique",
+      "sources": [
+        {"doi": "10.3847/0004-637X/825/2/94", "arxiv": "1602.06988", "authors": "Nesvorny & Vokrouhlicky", "year": 2016}
+      ]
+    },
+    {
+      "id": "neptune-grainy-update-2026",
+      "system": "Neptune and the Kuiper belt",
+      "reservoir": "self-gravitating outer planetesimal disc",
+      "history_class": "jumping and grainy migration",
+      "model_condition": "Four giant planets, 1500 primordial Pluto-class bodies, 4.5-Gyr integrations, multiple initial disc edges and primordial scattered-disc variants.",
+      "reported_outcome": "Across 67 simulated systems, the best broad matches use a jumping Neptune, self-gravitating Plutos, and a 45-47 AU initial disc edge; detached and extreme populations remain underproduced.",
+      "probability": null,
+      "sample": {"simulated_systems": 67, "primordial_pluto_class_bodies": 1500},
+      "present_status": "independent current support with named failures",
+      "discriminant_status": "strengthens the family but does not close all outer-system populations",
+      "sources": [
+        {"arxiv": "2602.16999", "authors": "Lykawka, Horner & Bernardinelli", "year": 2026, "status": "preprint"}
+      ]
+    },
+    {
+      "id": "asteroid-belt-sweeping",
+      "system": "Main asteroid belt",
+      "reservoir": "Jupiter-Saturn migration coupled to a planetesimal disc",
+      "history_class": "sweeping mean-motion and nu6 secular resonances",
+      "model_condition": "Exponential migration; initial offsets relative to current semimajor axes +0.2, -0.8, -3.0, and -7.0 AU for Jupiter, Saturn, Uranus, and Neptune in the published experiment.",
+      "reported_outcome": "The model loses 62% of its pre-migration belt and reproduces excess depletion exterior to the 5:2, 7:3, and 2:1 gaps; total inferred migration-era depletion can be 90-95% but is speed-sensitive.",
+      "probability": {"model_depletion_fraction": {"value": 0.62, "reported_range": [0.62, 0.62]}},
+      "present_status": "strong spatial record",
+      "discriminant_status": "selects sweeping migration over a uniform current-architecture erosion model; exact speed history remains model-dependent",
+      "sources": [
+        {"doi": "10.1038/nature07778", "arxiv": "0906.4574", "authors": "Minton & Malhotra", "year": 2009}
+      ]
+    },
+    {
+      "id": "pluto-charon-resonant-transport",
+      "system": "Pluto-Charon and Styx, Nix, Kerberos, Hydra",
+      "reservoir": "Charon-forming impact followed by Pluto-Charon tidal expansion",
+      "history_class": "outward resonant transport of the small moons",
+      "model_condition": "Multiple-resonance transport under constant-Q and frequency-dependent tidal histories, with Pluto figure and finite moon masses tested.",
+      "reported_outcome": "No stable 3:1 or 4:1 transport; nonzero hydrostatic Pluto J2 destroys the required multiple-resonance condition; finite minimal Nix/Hydra masses yield no survivors.",
+      "probability": null,
+      "present_status": "falsified as a complete four-moon route",
+      "discriminant_status": "constructive null: the boundary history is plausible but this transport mechanism does not reproduce the system",
+      "sources": [
+        {"doi": "10.1016/j.icarus.2014.07.006", "arxiv": "1407.1059", "authors": "Cheng, Peale & Lee", "year": 2014},
+        {"arxiv": "1402.0625", "authors": "Cheng, Lee & Peale", "year": 2014}
+      ]
+    }
+  ]
+}

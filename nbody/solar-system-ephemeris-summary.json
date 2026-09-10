@@ -1,0 +1,221 @@
+{
+  "cadence_robustness": {
+    "1d": {
+      "center_deg": -179.997640792292,
+      "linear_drift_deg_per_year": 0.0010463445033217123,
+      "max_abs_deg": 0.437060172526202,
+      "p99_5_abs_deg": 0.3792766624262181,
+      "passed": true,
+      "span_deg": 0.8435829541377586
+    },
+    "2d": {
+      "center_deg": -179.99763891956582,
+      "linear_drift_deg_per_year": 0.0010445855683979175,
+      "max_abs_deg": 0.43705829980001454,
+      "p99_5_abs_deg": 0.37737541808292097,
+      "passed": true,
+      "span_deg": 0.8435829541377871
+    },
+    "4d": {
+      "center_deg": -179.99757474883464,
+      "linear_drift_deg_per_year": 0.0010480948727161717,
+      "max_abs_deg": 0.43699412906883595,
+      "p99_5_abs_deg": 0.37907724259904013,
+      "passed": true,
+      "span_deg": 0.8435829541378155
+    },
+    "8d": {
+      "center_deg": -179.9974726626412,
+      "linear_drift_deg_per_year": 0.0010499262379080594,
+      "max_abs_deg": 0.4368920428753995,
+      "p99_5_abs_deg": 0.3724750681332627,
+      "passed": true,
+      "span_deg": 0.8085787395546618
+    }
+  },
+  "connected_angle_librating_count": 3,
+  "connected_angle_topology": {
+    "Europa-Ganymede / varpi_Europa": {
+      "center_deg": 0.0025367066419806337,
+      "dominant_slow_period_days": 476.47826086956525,
+      "linear_drift_deg_per_year": -0.0020692284664406654,
+      "max_abs_deg": 5.580297563794147,
+      "p99_5_abs_deg": 5.152765813908798,
+      "passed": true,
+      "span_deg": 11.135437956069836
+    },
+    "Europa-Ganymede / varpi_Ganymede": {
+      "center_deg": 179.9794816068888,
+      "dominant_slow_period_days": 476.47826086956525,
+      "linear_drift_deg_per_year": 0.08079342876562756,
+      "max_abs_deg": 179.92961009067847,
+      "p99_5_abs_deg": 178.45214600469504,
+      "passed": false,
+      "span_deg": 359.79739710384274
+    },
+    "Io-Europa / varpi_Europa": {
+      "center_deg": -179.99510143371805,
+      "dominant_slow_period_days": 476.47826086956525,
+      "linear_drift_deg_per_year": -0.0010228839631189423,
+      "max_abs_deg": 5.797849674833742,
+      "p99_5_abs_deg": 5.317259441648713,
+      "passed": true,
+      "span_deg": 11.534996911327482
+    },
+    "Io-Europa / varpi_Io": {
+      "center_deg": 0.0004845678975711115,
+      "dominant_slow_period_days": 476.47826086956525,
+      "linear_drift_deg_per_year": 0.0019891853925148094,
+      "max_abs_deg": 9.497499037344198,
+      "p99_5_abs_deg": 9.211044523080606,
+      "passed": true,
+      "span_deg": 18.927438202400936
+    }
+  },
+  "cross_system_named_angles": {
+    "Enceladus-Dione 2:1 / varpi_Enceladus": {
+      "bounded_350deg_gate": true,
+      "center_deg": 0.052966916104288005,
+      "linear_drift_deg_per_year": 0.022921822471979957,
+      "max_abs_deg": 21.496391546210788,
+      "p99_5_abs_deg": 21.013638481404193,
+      "passed": true,
+      "span_deg": 42.883795717676435
+    },
+    "Janus-Epimetheus 1:1 horseshoe control": {
+      "bounded_350deg_gate": null,
+      "center_deg": -96.15770815457638,
+      "classification": "co-orbital exchange control; reported, not scored by the semicircle gate",
+      "linear_drift_deg_per_year": -0.0335441666885885,
+      "max_abs_deg": 179.99790720839644,
+      "p99_5_abs_deg": 178.98706598845527,
+      "passed": false,
+      "span_deg": 359.92251699814693
+    },
+    "Mimas-Tethys 4:2 mixed-inclination": {
+      "bounded_350deg_gate": true,
+      "center_deg": 46.82840948747452,
+      "linear_drift_deg_per_year": 5.59895002559837,
+      "max_abs_deg": 108.09676977289382,
+      "p99_5_abs_deg": 107.58415726712605,
+      "passed": true,
+      "span_deg": 155.30226356889892
+    },
+    "Naiad-Thalassa 73:69 inclination": {
+      "bounded_350deg_gate": true,
+      "center_deg": 179.69594761337183,
+      "linear_drift_deg_per_year": -0.08152471918160274,
+      "max_abs_deg": 53.83623392962704,
+      "p99_5_abs_deg": 52.36226149502857,
+      "passed": true,
+      "span_deg": 106.77889644649625
+    },
+    "Neptune-Pluto 3:2 / varpi_Pluto": {
+      "center_deg": -172.52558960110935,
+      "dominant_period_years": 17999.726214921287,
+      "epochs": 16436,
+      "interval": "9000bc-Jan-01 to 9000-Jan-01",
+      "linear_drift_deg_per_year": 0.0003844416885720875,
+      "max_abs_deg": 86.36788144167639,
+      "p99_5_abs_deg": 84.75502257422528,
+      "passed": true,
+      "span_deg": 159.68283473489208,
+      "step": "400d",
+      "window_robustness": {
+        "first_half": {
+          "center_deg": -174.77876704255567,
+          "linear_drift_deg_per_year": 0.020210269808789618,
+          "max_abs_deg": 84.11470400023006,
+          "p99_5_abs_deg": 82.91893303776064,
+          "passed": true,
+          "span_deg": 159.59684431236195
+        },
+        "second_half": {
+          "center_deg": -170.31311927641275,
+          "linear_drift_deg_per_year": -0.01980737973867604,
+          "max_abs_deg": 88.20137085671172,
+          "p99_5_abs_deg": 86.28632892388899,
+          "passed": true,
+          "span_deg": 159.30385382523082
+        }
+      }
+    },
+    "Titan-Hyperion 4:3 / varpi_Hyperion": {
+      "bounded_350deg_gate": true,
+      "center_deg": 177.71015204667808,
+      "linear_drift_deg_per_year": -0.006843005303941052,
+      "max_abs_deg": 54.815946697726076,
+      "p99_5_abs_deg": 51.133978997075694,
+      "passed": true,
+      "span_deg": 105.91380177300445
+    }
+  },
+  "dominant_slow_period_days": 476.47826086956525,
+  "element_ranges": {
+    "Europa": {
+      "a_km_max": 671344.1603193417,
+      "a_km_min": 671145.2714325796,
+      "e_max": 0.01010915171978077,
+      "e_min": 0.008591618315492495
+    },
+    "Ganymede": {
+      "a_km_max": 1070961.298891723,
+      "a_km_min": 1070332.858040703,
+      "e_max": 0.00313215408992166,
+      "e_min": 0.0005389764385040898
+    },
+    "Io": {
+      "a_km_max": 422052.0843374754,
+      "a_km_min": 422018.0280656512,
+      "e_max": 0.004856451817595317,
+      "e_min": 0.003460772350350253
+    }
+  },
+  "epochs": 10959,
+  "full_interval": {
+    "center_deg": -179.997640792292,
+    "linear_drift_deg_per_year": 0.0010463445033217123,
+    "max_abs_deg": 0.437060172526202,
+    "p99_5_abs_deg": 0.3792766624262181,
+    "passed": true,
+    "span_deg": 0.8435829541377586
+  },
+  "laplace_angle": "lambda_Io - 3 lambda_Europa + 2 lambda_Ganymede",
+  "osculating_detuning_deg_per_day": {
+    "median": -0.11176157792929797,
+    "p01": -0.20373632307137074,
+    "p99": -0.02018882013568063
+  },
+  "provenance": {
+    "api": "https://ssd.jpl.nasa.gov/api/horizons.api",
+    "center": "500@599 (Jupiter body center)",
+    "node_bearing_cross_system_reference_plane": "central-body IAU equator and node of date (Horizons REF_PLANE=BODY)",
+    "reference_plane": "J2000 ecliptic",
+    "retrieved_utc": "2026-09-10T03:31:43Z",
+    "service": "NASA/JPL Horizons API",
+    "source_solution": "JUP365 merged (reported by Horizons)",
+    "start_tdb": "2000-01-01",
+    "step": "1d",
+    "stop_tdb": "2030-01-01",
+    "warning": "Osculating elements evaluated in place; never used to initialize a separate integration."
+  },
+  "width_interpretation": "The observed object is a connected two-resonance domain. The isolated pure-three-body leading coefficient remains an identification calculation, not a precision scalar width.",
+  "window_robustness": {
+    "first_half": {
+      "center_deg": 179.9927143080209,
+      "linear_drift_deg_per_year": -0.00045428317398639673,
+      "max_abs_deg": 0.35098170224193836,
+      "p99_5_abs_deg": 0.2994370065682335,
+      "passed": true,
+      "span_deg": 0.6682628691222305
+    },
+    "second_half": {
+      "center_deg": -179.98799762601374,
+      "linear_drift_deg_per_year": 0.001110430403653954,
+      "max_abs_deg": 0.42741700624793566,
+      "p99_5_abs_deg": 0.3872167252386439,
+      "passed": true,
+      "span_deg": 0.8435829541377302
+    }
+  }
+}

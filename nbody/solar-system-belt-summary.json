@@ -1,0 +1,155 @@
+{
+  "hilda_3:2_storage_control": {
+    "computed_center_au": 3.97170053596304,
+    "core_density_per_au": 11849.999999999989,
+    "core_to_sideband_ratio": 338.57142857142856,
+    "passed": true,
+    "sideband_density_per_au": 34.99999999999997
+  },
+  "interpretation": "The pair kernel predicts channel locations and leading eccentricity-dependent widths. Escape requires eccentricity growth to a crossing boundary; storage versus clearing is therefore a phase-space topology result, not a property of the integer ratio alone.",
+  "migration_scar_density_controls": {
+    "outside_2:1_vs_inside_2:1": {
+      "density_ratio": 0.031799328461386424,
+      "inside_interval_au": [
+        3.1,
+        3.23
+      ],
+      "outside_interval_au": [
+        3.34,
+        3.47
+      ]
+    },
+    "outside_5:2_to_7:3_vs_inside_5:2": {
+      "density_ratio": 0.42623308598864856,
+      "inside_interval_au": [
+        2.72,
+        2.79
+      ],
+      "outside_interval_au": [
+        2.86,
+        2.93
+      ]
+    }
+  },
+  "population": {
+    "all": 64737,
+    "primary_e_0.10_0.20": 32146
+  },
+  "proper_orbit_7:3_control": {
+    "catalog": "Nesvorny et al. 2024 synthetic proper-orbit catalog",
+    "observed": {
+      "background_per_bin": 31.0,
+      "half_width_au": 0.004999999999999893,
+      "minimum_bin_center_au": 2.9575,
+      "minimum_bin_count": 3,
+      "run_au": [
+        2.95,
+        2.96
+      ],
+      "status": "measured",
+      "threshold": 15.5
+    },
+    "passed_factor_3": true,
+    "predicted_half_width_au": 0.005350054548851445,
+    "selected_rows": 1316,
+    "source": "https://www2.boulder.swri.edu/~davidn/Proper24/proper_catalog24.dat.gz",
+    "width_factor": 1.0700109097703119
+  },
+  "provenance": {
+    "api": "https://ssd-api.jpl.nasa.gov/sbdb_query.api",
+    "note": "Osculating semimajor axes; population-edge comparison, not proper-element dynamics.",
+    "selection": "numbered asteroids, H<=15.0, 2.0<=a<=4.2 AU",
+    "service": "NASA/JPL Small-Body Database Query API"
+  },
+  "registered_width_gate": "4/4 pass within factor 3",
+  "resonances": {
+    "2:1": {
+      "center_error_percent": -0.013218785104029962,
+      "computed_center_au": 3.2785665560364388,
+      "jupiter_crossing_e": 0.5101111767532387,
+      "leading_half_width_at_e_0.15_au": 0.07847796126863814,
+      "mars_crossing_e": 0.4918510966530204,
+      "observed": {
+        "background_per_bin": 317.0,
+        "half_width_au": 0.05749999999999966,
+        "minimum_bin_center_au": 3.2824999999999998,
+        "minimum_bin_count": 0,
+        "run_au": [
+          3.225,
+          4.2
+        ],
+        "status": "measured",
+        "threshold": 158.5
+      },
+      "published_center_au": 3.279,
+      "registered_width_scored": true,
+      "width_factor": 1.3648341090198017
+    },
+    "3:1": {
+      "center_error_percent": 0.0005817173977629153,
+      "computed_center_au": 2.502014554569292,
+      "jupiter_crossing_e": 0.9788054353873603,
+      "leading_half_width_at_e_0.15_au": 0.014361695133623922,
+      "mars_crossing_e": 0.3341365672883575,
+      "observed": {
+        "background_per_bin": 157.5,
+        "half_width_au": 0.030000000000000027,
+        "minimum_bin_center_au": 2.5025,
+        "minimum_bin_count": 1,
+        "run_au": [
+          2.46,
+          2.52
+        ],
+        "status": "measured",
+        "threshold": 78.75
+      },
+      "published_center_au": 2.502,
+      "registered_width_scored": true,
+      "width_factor": 2.088889906161798
+    },
+    "5:2": {
+      "center_error_percent": 0.013557832258626057,
+      "computed_center_au": 2.8253830087613063,
+      "jupiter_crossing_e": 0.7523287938829215,
+      "leading_half_width_at_e_0.15_au": 0.009171801393442083,
+      "mars_crossing_e": 0.41034543110302013,
+      "observed": {
+        "background_per_bin": 124.0,
+        "half_width_au": 0.014999999999999902,
+        "minimum_bin_center_au": 2.8275,
+        "minimum_bin_count": 0,
+        "run_au": [
+          2.815,
+          2.8449999999999998
+        ],
+        "status": "measured",
+        "threshold": 62.0
+      },
+      "published_center_au": 2.825,
+      "registered_width_scored": true,
+      "width_factor": 1.635447537135402
+    },
+    "7:3": {
+      "center_error_percent": 0.012582501574320837,
+      "computed_center_au": 2.9583721903965685,
+      "jupiter_crossing_e": 0.6735554830024009,
+      "leading_half_width_at_e_0.15_au": 0.005350054548851445,
+      "mars_crossing_e": 0.4368524672425773,
+      "observed": {
+        "background_per_bin": 42.0,
+        "half_width_au": 0.0024999999999999467,
+        "minimum_bin_center_au": 2.9575,
+        "minimum_bin_count": 19,
+        "run_au": [
+          2.955,
+          2.96
+        ],
+        "status": "measured",
+        "threshold": 21.0
+      },
+      "published_center_au": 2.958,
+      "registered_width_scored": true,
+      "width_factor": 2.1400218195406238
+    }
+  }
+}
