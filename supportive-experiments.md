@@ -1,6 +1,6 @@
 # Supportive Bench Experiments — Exhibit-Verification Track
 
-*Established 2026-08-16 (Star Lord directive: "simple supportive work when we get into the lab"). This track is **secondary and opportunistic**: the program's primary experiment remains the YIG phase-rotation spec (`yig-levitation-experiment.md`, v7.0). Entries here are cheap bench items that support the public exhibit corpus by putting modern instrumentation on claims the published record states but the extant literature has not re-run. Shield-side discipline applies throughout: nothing below is claimable apparatus; both entries test the published Pope record.*
+*Established 2026-08-16 (Star Lord directive: "simple supportive work when we get into the lab"). This track is **secondary and opportunistic**: the program's primary experiment remains the YIG phase-rotation spec (`yig-levitation-experiment.md`, v7.0). Entries here are bench protocols that support the public exhibit corpus by putting modern instrumentation on claims or reported behaviors that have not yet passed registered measurement. Shield-side discipline applies throughout: nothing below is evidence merely because it has been assigned an experiment number.*
 
 ---
 
@@ -39,4 +39,24 @@
 
 ---
 
-*Both entries: no claimable device matter; the patent family map explicitly excludes FTL communications — EXP-S2 is a bound-measurement on the published record, not a comms device. Exhibit cross-links: `poams-electricity.html` §2, `poams-telecommunications.html` §4.*
+## EXP-S3 — Gyro Spin–Orbit Exchange Protocol
+
+**Supports:** the public Spin–Orbit Settlement Ledger's experimentally gated branch. **Record basis:** the three-account rotor ledger, the reported free-axis/locked-gimbal branch behavior, and the Venus audit's requirement for calibrated odd-under-sense torque and power rather than anecdotal grinding.
+
+**Object:** determine whether any mechanical-gyro response survives ordinary bearing, drive, support, magnetic, electrical, aerodynamic, thermal, pressure, acoustic, and vibration accounts and remains odd under reversal of the preregistered `S_rotor·L_containing` sense.
+
+**Registered structure:** matched co-sense/anti-sense and free-axis/locked-gimbal preparations; translation-null, orbit-onset, plane-tracking, orbit-off hierarchy-switch, and locked-gimbal branch gates; synchronous vector angular-momentum and energy books; primary observables
+
+`N_odd,q=(N_anti,q-N_co,q)/2` and `P_odd=(P_anti-P_co)/2`,
+
+plus integrated angular impulse, trajectory, containing rate, work, heat, vibration, and acoustics. Latency is bounded by instrument resolution and is never called instantaneous.
+
+**Promotion rule:** the result must reverse with `S_rotor·L_containing`, close mutually exclusive AM and energy accounts, survive the full control set, distinguish the free and blocked branches, and reproduce at least one preregistered scaling law. Loud grinding, violent movement, or a felt reaction is not sufficient evidence. No bench coefficient transfers to Venus, galaxies, atoms, or propulsion without a surviving scale law.
+
+**Protocol:** [`gyro-spin-orbit-exchange-protocol.md`](gyro-spin-orbit-exchange-protocol.md)
+
+**Status:** protocol registered; apparatus not yet reduced to a measured effect.
+
+---
+
+*All entries remain gated engineering work. The patent family map explicitly excludes FTL communications—EXP-S2 is a bound-measurement on the published record, not a communications device. Exhibit cross-links: `poams-electricity.html` §2, `poams-telecommunications.html` §4, and `spin-orbit-settlement-ledger.html` §§7–10.*
