@@ -1,5 +1,7 @@
 # YIG Phase Rotation Levitation Experiment
 
+> **Development-history paper.** The canonical current program is [Alignment, Phase Drive & Support Response](yig-levitation-experiment.html), which owns the reviewed protocol, bill of goods, data schema, controls, and gap/source ledger. This paper remains available for its instructional development of the original proposal; where specifications or evidential grades differ, the canonical program governs.
+
 ## Engineering Specification & Theoretical Basis
 
 **Framework:** Normal Realism / Pope-Osborne Angular Momentum Synthesis (POAMS)

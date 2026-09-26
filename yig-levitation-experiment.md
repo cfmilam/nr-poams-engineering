@@ -1,4 +1,15 @@
-# YIG Phase Rotation Experiment — Design & Specification
+# Alignment, Phase Drive & Support Response
+
+**Canonical engineering program.** This page preserves the technical development of the YIG phase-rotation experiment. The current execution package separates static alignment, coherent phase drive, retained state, and whole-apparatus support response rather than treating them as one inferred effect.
+
+## Current program package
+
+- [Protocol](programs/alignment-phase-drive-support-response/protocol.html)
+- [Bill of goods](programs/alignment-phase-drive-support-response/bill-of-goods.html)
+- [Data schema and custody contract](programs/alignment-phase-drive-support-response/data-schema.html)
+- [Gap and source ledger](programs/alignment-phase-drive-support-response/gap-and-source-ledger.html)
+
+**Present grade:** prospective; design complete; run annex incomplete; no physical effect claimed. The detailed material below records the program's development and remains useful background, but the four linked documents govern a future build and run.
 
 ## Objective
 

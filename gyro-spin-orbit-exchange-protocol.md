@@ -1,5 +1,7 @@
 # EXP-S3 — Gyro Spin–Orbit Exchange Protocol
 
+> **Supporting protocol record.** The canonical current landing page is [Mechanically Ordered Angular Momentum](mechanically-ordered-angular-momentum.html), with its consolidated protocol, bill of goods, data schema, and gap/source ledger. This page preserves the earlier preregistration record.
+
 **Status:** preregistered engineering protocol; no positive effect is claimed by this document<br>
 **Date:** 2026-09-20<br>
 **Framework:** Normal Realism / Pope–Osborne Angular Momentum Synthesis (NR-POAMS)<br>

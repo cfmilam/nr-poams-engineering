@@ -1,5 +1,7 @@
 # Supportive Bench Experiments — Exhibit-Verification Track
 
+> **Development-history index.** The experiments first collected here now have canonical homes: EXP-S1 is incorporated into [Electricity Complete-Apparatus Response](electricity-complete-apparatus-response.html); EXP-S2 into the [Receiver sequence](receiver-stage-0.html); and EXP-S3 into [Mechanically Ordered Angular Momentum](mechanically-ordered-angular-momentum.html). This page preserves the earlier reasoning and does not govern a current build or run.
+
 *Established 2026-08-16 (Star Lord directive: "simple supportive work when we get into the lab"). This track is **secondary and opportunistic**: the program's primary experiment remains the YIG phase-rotation spec (`yig-levitation-experiment.md`, v7.0). Entries here are bench protocols that support the public exhibit corpus by putting modern instrumentation on claims or reported behaviors that have not yet passed registered measurement. Shield-side discipline applies throughout: nothing below is evidence merely because it has been assigned an experiment number.*
 
 ---
