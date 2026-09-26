@@ -1,4 +1,4 @@
-# POAMS Engineering Design: Controlled Flight Through Spin Angular Momentum Manipulation
+# POAMS Engineering Design: Controlled Flight Through Angular Momentum Manipulation
 
 *A comprehensive engineering research program for achieving controlled flight through hyperpolarization of vortex core spins in bulk materials*
 
