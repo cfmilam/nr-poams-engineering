@@ -183,3 +183,25 @@ RF-open interlock; leakage survey for every state; magnet exclusion zone and pro
 ## 13. Downstream dependencies
 
 Results feed, but do not automatically validate: the twist/writhe partition law; mechanical-gyro comparison; navigation/Variable-G support claims; persistent winding memory and gate mathematics; Einstein–de Haas/Barnett accounting; Polyverse parity; and any force-actuator concept. The retained branch depends on a presently missing independent readout architecture. The support interpretation depends on full B1/B2 closure, not merely better balance sensitivity.
+
+## 14. Tariff reciprocity acceptance gate (amendment 2026-09-27)
+
+**Operational calibration (Coulomb-free).** Over a declared closed measurement window, with reservoir postings bounded by the §9 budget, define the magnetic angular-momentum change from the closed mechanical receipt:
+
+```
+ΔJ_mag ≡ −ΔL_body   (closed window)
+γ_eff  ≡ V·ΔM / ΔJ_mag
+```
+
+from co-registered magnetometry and mechanical-impulse records. This defines the specimen tariff from receipts. It imports no e/2m value and no electron-substance ontology.
+
+**Gate R — reciprocity.** On the same specimen in the same preparation state:
+
+1. Measure γ_EdH: drive magnetization; read the closed mechanical angular impulse.
+2. Measure γ_Barnett: drive rotation; read the magnetization change against the declared small-signal comparator (§5), respecting its hysteresis/anisotropy/domain validity limits.
+3. The gate passes iff the two tariffs agree within the preregistered combined uncertainty.
+
+Under one-substance bookkeeping this equality is the structural expectation; empirically it is a test, not a given. A failure blocks all downstream sign interpretation (Gates 2–4) for that specimen state and is reported as an adverse calibration result — never repaired by post-hoc reweighting.
+
+**Cross-reference.** Magnetometry and angular momentum are distinct accounts: an M-null never certifies a J-null (data schema §9).
+

@@ -43,3 +43,8 @@ Each row retains `trial_id`, reduction code hash, calibration IDs, window, filte
 ## 8. Release bundle
 
 Include raw data; manifests; calibration data; boundary diagrams; randomization commitment and post-unblind map; source code and environment lock; frozen analysis output; all exclusions and failed runs; SHA-256 inventory; README replay command; and analyst signature. M0 requires this physical custody. M1 may replay it. Neither simulations nor regenerated figures substitute for missing M0 bytes.
+
+## 9. Compensation warning — M-null ≠ J-null (amendment 2026-09-27)
+
+Magnetometry (`M`) and angular-momentum (`J`) entries are distinct typed fields and are never derived from one another. Sublattice or orbital/spin compensation can null the magnetization tariff while a nonzero angular-momentum posting remains — and conversely. Twin nulls, detuned controls, and background subtractions must therefore carry both fields explicitly. Any analysis that infers `J = 0` from `M = 0` (or the reverse) is invalid and must be flagged in `derived` provenance.
+

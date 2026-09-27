@@ -1164,3 +1164,25 @@ carrying back into the spec's own head: (1) the **λ-partition readout is a seco
 a method of measuring which internal channel driven angular momentum enters, standing on its
 own regardless of effect magnitude; (2) the **acceptance criteria** A1–A6 there are this spec's
 success criteria restated sign-agnostically — reduction to practice = A1 ∧ A2 ∧ A3 at 3σ.
+
+
+## Bench translation appendix (2026-09-27)
+
+Labels drag intuition backward; accounts hold the line. The full card is [A Catalog of Ontological Translations](ontological-translations.html) — first item on this shelf. The rows most used at this bench:
+
+| Bench label | Account it posts | Trap |
+|---|---|---|
+| Gauss/tesla, "B field" | Alignment-coupling strength, priced through specimen tariff γ | No in-vacuo field substance adopted |
+| Coil current | Drive-side ledger: coil reaction postings | The coil is inside the boundary |
+| VCO / MW frequency | Phase-advance rate imposed on the order | A rate account, not a wave in the gap |
+| Forward RF power | Action per second **offered** | Offered ≠ accepted |
+| Reflected power | Unaccepted drive returned | Never book as specimen response |
+| FMR dip | Census window: drive rate matches the order's turn rate | Certifies rate-matching, not exclusivity |
+| Magnetometer "M" | Magnetization tariff over sampled volume | **M is not J** — see schema §9 |
+| γ | Measured specimen tariff M↔J | Never silently imported from e/2m |
+| Torsion / optical lever | Closed mechanical angular impulse | Defines ΔJ_mag ≡ −ΔL_body operationally |
+| Balance / load cell | Contact constraint bill | Not a gravity-field meter |
+| Non-magnetic twin / off-resonance | Plumbing controls: empty account / closed window | A twin null certifies plumbing, not ontology |
+
+Two governing additions of this date: the **tariff reciprocity acceptance gate** (protocol §14) and the **M-null ≠ J-null field warning** (data schema §9).
+
