@@ -1,4 +1,4 @@
-# POAMS Engineering Design: Controlled Flight Through Angular Momentum Manipulation
+# Topics in Materials and Measurements
 
 *A comprehensive engineering research program for achieving controlled flight through hyperpolarization of vortex core spins in bulk materials*
 
@@ -17,7 +17,7 @@
 > + coherent phase advance is the drive) and the λ-partition channel structure (twist vs writhe
 > — the sign is the experiment's own readout). For current physics: the spec; for application
 > terms (claims skeleton, acceptance criteria, prior art, disclosure posture):
-> `yig-application-framing.md`. Retained unedited below as the program's dated planning record.
+> `yig-application-framing.md`. Retained below as the program's dated planning record (title and phase-schedule annotations updated 2026-09-27 at owner direction; content otherwise unedited).
 
 ---
 
@@ -440,27 +440,27 @@ Based on POAMS framework and E=mc² energy density considerations:
 - **Quality control**: Maintain polarization-grade purity and crystal structure
 - **Cost optimization**: Reduce material and processing costs for commercial viability
 
-### 5.5 Timeline and Milestones for Systematic Program
+### 5.5 Milestones for Systematic Program
 
-**Phase 1: Foundation (Years 1-2)**
+**Phase 1: Foundation**
 - Establish Stanford laboratory facility with all required instrumentation
 - Reproduce NASA Marshall results with enhanced precision and measurement capability
 - Demonstrate >1% bulk polarization using optimized conventional techniques
 - Complete material characterization and process optimization studies
 
-**Phase 2: Enhancement (Years 2-4)**
+**Phase 2: Enhancement**
 - Achieve 5-10% bulk polarization through advanced techniques and materials
 - Demonstrate measurable levitation effects (significant weight reduction)
 - Develop room temperature polarization methods for practical applications
 - Establish automated, repeatable polarization processes
 
-**Phase 3: Integration (Years 4-6)**
+**Phase 3: Integration**
 - Scale to larger samples (100g-1kg) maintaining high polarization percentages
 - Demonstrate directional control and spatial polarization gradient techniques
 - Achieve zero-weight condition under laboratory conditions
 - Complete engineering design for vehicle-scale systems
 
-**Phase 4: Application (Years 6-8)**
+**Phase 4: Application**
 - Prototype vehicle-scale demonstration system
 - Validate controlled flight capability in laboratory environment
 - Develop commercial applications and manufacturing processes
@@ -725,7 +725,7 @@ Various reported "anomalous propulsion" effects gain coherent explanation within
 
 ## 8. EXPERIMENTAL VALIDATION PROGRAM
 
-### 8.1 Immediate Objectives (Phase 1: 6 months)
+### 8.1 Immediate Objectives (Phase 1)
 
 **Facility Establishment:**
 - **Laboratory setup**: Complete installation of precision measurement systems at Stanford
@@ -739,7 +739,7 @@ Various reported "anomalous propulsion" effects gain coherent explanation within
 - **Systematic error elimination**: Identify and eliminate all non-POAMS sources of apparent weight change
 - **Spin state correlation**: Demonstrate correlation between spin polarization and weight changes
 
-### 8.2 Advanced Technique Development (Phase 2: 12 months)
+### 8.2 Advanced Technique Development (Phase 2)
 
 **Polarization Enhancement:**
 - **Advanced DNP techniques**: Implement state-of-art hyperpolarization methods for bismuth
@@ -753,7 +753,7 @@ Various reported "anomalous propulsion" effects gain coherent explanation within
 - **Statistical analysis**: Rigorous statistical treatment of all measurements
 - **Third-party verification**: Independent verification of measurements by outside groups
 
-### 8.3 Scale-Up and Optimization (Phase 3: 18 months)
+### 8.3 Scale-Up and Optimization (Phase 3)
 
 **Larger Sample Studies:**
 - **Mass scaling**: Demonstrate effects in 100g+ samples while maintaining high polarization
@@ -767,7 +767,7 @@ Various reported "anomalous propulsion" effects gain coherent explanation within
 - **Cost analysis**: Complete cost analysis for larger-scale implementation
 - **Safety protocols**: Develop comprehensive safety procedures for larger systems
 
-### 8.4 Practical Demonstration (Phase 4: 24 months)
+### 8.4 Practical Demonstration (Phase 4)
 
 **Zero-Weight Achievement:**
 - **Complete weight cancellation**: Demonstrate samples with zero apparent weight
