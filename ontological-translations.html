@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>A Catalog of Ontological Translations</title>
 <style>
-:root{--bg:#0d1117;--card:#161b22;--fg:#e6edf3;--fg2:#9aa4b2;--gold:#c9a84c;--line:#2d333b;--ok:#4c9a63;--warn:#b6483f}
+:root{--bg:#faf8f2;--card:rgba(0,0,0,0.03);--fg:#2a2a2a;--fg2:#5c574a;--gold:#8b6914;--line:#d9d2bf;--ok:#3a7a4e;--warn:#a03a32}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding:2rem 1rem}
 .page{max-width:980px;margin:0 auto}
@@ -40,7 +40,7 @@ a{color:var(--gold)}
 <div class="page">
 <a class="back" href="index.html">&larr; NR-POAMS Engineering</a>
 <h1>A Catalog of Ontological Translations</h1>
-<p class="strap">Bench reference &mdash; reading extant instrument labels and unit measures inside the one-substance account. Operate every instrument by its manual; book every result in these accounts. Nothing on this card is evidence.</p>
+<p class="strap">Bench reference &mdash; reading extant unit measures and instrument labels inside the one-substance account. Operate every instrument by its manual; book every result in these accounts. Nothing on this card is evidence.</p>
 
 <div class="rules">
 <strong>Three rules at the point of measurement</strong>
@@ -51,7 +51,27 @@ a{color:var(--gold)}
 </ol>
 </div>
 
-<h2>Chart 1 &middot; Instruments and readouts</h2>
+<h2>Chart 1 &middot; Units and measures</h2>
+<table>
+<thead><tr><th>Extant measure</th><th>POAMS reading</th><th>Bridge / tariff</th></tr></thead>
+<tbody>
+<tr><td>second; hertz</td><td>Observer's count unit; completions per second</td><td>Native records are integer whole turns; rates are priced per observer second.</td></tr>
+<tr><td>metre; c</td><td>Distance as the time-projection read through c &mdash; the ledger's units conversion, not the travel speed of a resident thing</td><td>r/c &ldquo;travel time&rdquo; is a projection-ledger entry; completion is two-ended.</td></tr>
+<tr><td>h; &#8463;</td><td>One whole turn of action; action per radian</td><td>Integer turns are native; radians are chart divisions.</td></tr>
+<tr><td>energy (J, eV)</td><td>Action-rate billing of completed exchange: E = h&nu; = L&omega;</td><td>eV &harr; rate tariff: 1 eV &#8793; 2.418&times;10<sup>14</sup> Hz (measured calibration).</td></tr>
+<tr><td>mass (kg)</td><td>Trapped rate; the rest receipt priced m &equiv; E<sub>0</sub>/c&sup2;</td><td>Ratified boundary-transfer calibration (Translation Ledger &sect;3). The bridge is measured, not derived.</td></tr>
+<tr><td>momentum (p)</td><td>Covector tariff on the calibrated endpoint translation of a completed exchange (&delta;W = p&middot;&delta;X &minus; E&delta;T)</td><td>Adopted, stated premise &mdash; not a substance in transit.</td></tr>
+<tr><td>temperature; kT</td><td>Churn scale of the local census</td><td>Landauer receipt: erasing one bit prices kT&thinsp;ln&thinsp;2 (measured).</td></tr>
+<tr><td>volt; e.m.f.</td><td>Ledger bias per elementary posting; the eV prices the posting</td><td>Bias is bookkeeping; no charge substance is adopted.</td></tr>
+<tr><td>Coulomb coefficient e&sup2;</td><td>Elementary pair coefficient translated as K<sub>Q</sub> = &alpha;&#8463;c</td><td>Magnitude only: the species/sign law is a separate typed grade &mdash; &alpha; does not supply it.</td></tr>
+<tr><td>tesla (via &gamma;)</td><td>Phase-advance rate per specimen tariff: &Omega; = &gamma;B as a rate conversion</td><td>The tariff is specimen- and state-dependent; no vacuum field is adopted.</td></tr>
+<tr><td>Lk = Tw + Wr</td><td>Dimensionless topological bookkeeping of a framed closed circulation</td><td>Needs a declared action scale (e.g. &#8463;&middot;Lk) before any comparison with physical angular momentum; topology fixes the sum, never the physical partition.</td></tr>
+<tr><td>&ldquo;spin &frac12;,&rdquo; g&nbsp;&asymp;&nbsp;2</td><td>Two axis-attitudes of one fixed species grade in the imported doublet</td><td>Representation and statistics are separate debts; a scalar &alpha;&sup2; correction cannot split a doublet.</td></tr>
+<tr><td>newton; weight</td><td>Constraint-bill rate for holding a body off its natural configuration</td><td>Free bodies ride the ledger weightless; the bill appears at the support.</td></tr>
+</tbody>
+</table>
+
+<h2>Chart 2 &middot; Instruments and readouts</h2>
 <table>
 <thead><tr><th>Bench label</th><th>Account it actually posts</th><th>Trap it sets</th></tr></thead>
 <tbody>
@@ -69,26 +89,6 @@ a{color:var(--gold)}
 <tr><td>Non-magnetic twin</td><td>Control specimen with no net intrinsic alignment: same plumbing, empty account</td><td>A twin null certifies the plumbing, not the ontology.</td></tr>
 <tr><td>Off-resonance drive</td><td>Control: identical billing offered with the census window closed</td><td>Separates rate-matched acceptance from generic heating and vibration.</td></tr>
 <tr><td>&ldquo;g&nbsp;=&nbsp;9.8&nbsp;m/s&sup2;&rdquo;</td><td>The laboratory's orbital-edge composition reference; sets the constraint-bill scale</td><td>Not a downward force field acting on a static mass.</td></tr>
-</tbody>
-</table>
-
-<h2>Chart 2 &middot; Units and measures</h2>
-<table>
-<thead><tr><th>Extant measure</th><th>POAMS reading</th><th>Bridge / tariff</th></tr></thead>
-<tbody>
-<tr><td>second; hertz</td><td>Observer's count unit; completions per second</td><td>Native records are integer whole turns; rates are priced per observer second.</td></tr>
-<tr><td>metre; c</td><td>Distance as the time-projection read through c &mdash; the ledger's units conversion, not the travel speed of a resident thing</td><td>r/c &ldquo;travel time&rdquo; is a projection-ledger entry; completion is two-ended.</td></tr>
-<tr><td>h; &#8463;</td><td>One whole turn of action; action per radian</td><td>Integer turns are native; radians are chart divisions.</td></tr>
-<tr><td>energy (J, eV)</td><td>Action-rate billing of completed exchange: E = h&nu; = L&omega;</td><td>eV &harr; rate tariff: 1 eV &#8793; 2.418&times;10<sup>14</sup> Hz (measured calibration).</td></tr>
-<tr><td>mass (kg)</td><td>Trapped rate; the rest receipt priced m &equiv; E<sub>0</sub>/c&sup2;</td><td>Ratified boundary-transfer calibration (Translation Ledger &sect;3). The bridge is measured, not derived.</td></tr>
-<tr><td>momentum (p)</td><td>Covector tariff on the calibrated endpoint translation of a completed exchange (&delta;W = p&middot;&delta;X &minus; E&delta;T)</td><td>Adopted, stated premise &mdash; not a substance in transit.</td></tr>
-<tr><td>temperature; kT</td><td>Churn scale of the local census</td><td>Landauer receipt: erasing one bit prices kT&thinsp;ln&thinsp;2 (measured).</td></tr>
-<tr><td>volt; e.m.f.</td><td>Ledger bias per elementary posting; the eV prices the posting</td><td>Bias is bookkeeping; no charge substance is adopted.</td></tr>
-<tr><td>Coulomb coefficient e&sup2;</td><td>Elementary pair coefficient translated as K<sub>Q</sub> = &alpha;&#8463;c</td><td>Magnitude only: the species/sign law is a separate typed grade &mdash; &alpha; does not supply it.</td></tr>
-<tr><td>tesla (via &gamma;)</td><td>Phase-advance rate per specimen tariff: &Omega; = &gamma;B as a rate conversion</td><td>The tariff is specimen- and state-dependent; no vacuum field is adopted.</td></tr>
-<tr><td>Lk = Tw + Wr</td><td>Dimensionless topological bookkeeping of a framed closed circulation</td><td>Needs a declared action scale (e.g. &#8463;&middot;Lk) before any comparison with physical angular momentum; topology fixes the sum, never the physical partition.</td></tr>
-<tr><td>&ldquo;spin &frac12;,&rdquo; g&nbsp;&asymp;&nbsp;2</td><td>Two axis-attitudes of one fixed species grade in the imported doublet</td><td>Representation and statistics are separate debts; a scalar &alpha;&sup2; correction cannot split a doublet.</td></tr>
-<tr><td>newton; weight</td><td>Constraint-bill rate for holding a body off its natural configuration</td><td>Free bodies ride the ledger weightless; the bill appears at the support.</td></tr>
 </tbody>
 </table>
 
