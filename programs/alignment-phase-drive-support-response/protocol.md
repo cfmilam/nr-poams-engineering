@@ -63,6 +63,8 @@ Classify as coherent candidate, coherent null, artifact, or channel-unassigned. 
 
 The analysis window starts only after thresholds for resonator field, magnetic coherence, vibration, RF leakage, electrical settling and thermal derivative are all crossed. Require an independent signed coordinate, dose relation, commanded erase/reverse, support covariance, B2 closure, remount repeat and an out-of-sample article or drive level. A lingering balance offset is drift unless the independent witness passes.
 
+Apply the ratified retained-transaction kernel event by event: assign an immutable event ID; record starting and ending state, independent-witness and settling-gate results, topology reduction if established, article and complementary B2 angular-momentum entries, receipt-consumption status, and any later reset or inverse-event ID. Each event may post once. Replay, reread and raw RF cycle recounting are transaction-inert. A later same-sense posting requires a newly resolved event and eligible starting state; erase or reversal is a new oppositely signed event whose occurrence remains in history.
+
 “Retained writhe candidate” additionally requires a measured oriented closed 3-D centerline and framing, frozen Wr/Tw/Lk reductions and reconnection rules, signed reproducible change, associated boundary/link account, and independently calibrated action scale. Oriented solid angle or phase-space loop alone is insufficient.
 
 ### Gate 4 — replication
@@ -204,4 +206,3 @@ from co-registered magnetometry and mechanical-impulse records. This defines the
 Under one-substance bookkeeping this equality is the structural expectation; empirically it is a test, not a given. A failure blocks all downstream sign interpretation (Gates 2–4) for that specimen state and is reported as an adverse calibration result — never repaired by post-hoc reweighting.
 
 **Cross-reference.** Magnetometry and angular momentum are distinct accounts: an M-null never certifies a J-null (data schema §9).
-

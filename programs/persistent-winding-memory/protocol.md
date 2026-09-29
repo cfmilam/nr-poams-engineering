@@ -73,6 +73,8 @@ At pump-off, show at least two signed state clusters using the physical sensor. 
 
 Randomize `write +`, `write -`, `erase`, `sham`, and `no-operation`. Verify transitions from every starting state, not only from an assumed zero. Record full pulse waveform and post-pulse settling. Build a transition matrix with confidence intervals.
 
+Assign each independently resolved transition an immutable event ID and record its eligible starting state, independent witness, settling gate, signed state change, topology reduction if established, article/apparatus receipt and consumption status. Each event may post once. A reread, replay or repeated analysis is transaction-inert; erase and reversal are newly receipted inverse events and do not delete the occurrence history. Same-sense repetition requires a new resolved transition, available register capacity or reset, and a separately closed receipt.
+
 ### Gate 3 — retention and spontaneous phase slips
 
 After all registered electrical, thermal and mechanical settling thresholds are crossed, conduct logarithmically spaced reads through the frozen hold horizon. Preserve right-censored trials. Repeat over a preregistered temperature and field grid. Time-tag every state transition; distinguish single-quantum, multi-quantum and unresolved events by calibrated likelihood. Do not discard “glitches” that coincide with environmental channels.

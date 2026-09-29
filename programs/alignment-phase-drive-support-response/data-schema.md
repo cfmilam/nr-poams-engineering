@@ -22,7 +22,13 @@ True condition labels remain escrowed until unblinding.
 
 ## 4. Event stream (`events.csv`)
 
-`clock_tick, event_code, source_device, command_value, acknowledged_value, status_bits`. Include every bias/RF/heater/servo command, hardware marker, interlock, range switch and manual note.
+`clock_tick, event_id, event_code, source_device, command_value, acknowledged_value, status_bits`. Include every bias/RF/heater/servo command, hardware marker, interlock, range switch and manual note. Event identifiers are immutable and unique across the run.
+
+For every proposed retained transition add `retained_events.csv`:
+
+`event_id, trial_id, starting_state_blind, ending_state_blind, signed_topology_change, topology_reduction_id, witness_channel_ids, witness_pass, settling_gate_pass, eligibility_pass, receipt_consumed, reset_or_inverse_event_id, article_am_value, article_am_unit, article_am_uncertainty, apparatus_am_value, apparatus_am_unit, apparatus_am_uncertainty, closure_residual, residual_bound, channel_assignment, channel_assignment_source, raw_refs`.
+
+One `event_id` may enter the retained transaction account at most once. Replay, reread and reanalysis retain the identifier and cannot create a second posting. A blank or unresolved `signed_topology_change` is permitted and must remain operationally unclassified rather than being forced to an integer.
 
 ## 5. Waveforms (`raw.h5`)
 
@@ -38,7 +44,7 @@ An item cannot be counted both as an internal state change and a boundary crossi
 
 ## 7. Derived table (`derived.parquet` or CSV)
 
-Each row retains `trial_id`, reduction code hash, calibration IDs, window, filter, state coordinates, coherent/ring-down measures, retained coordinate, support-wrench components, nuisance covariates, uncertainty components and flags. Derived files are reproducible from raw files without manual edits.
+Each row retains `trial_id`, reduction code hash, calibration IDs, window, filter, state coordinates, coherent/ring-down measures, retained coordinate, contributing retained-event IDs, event-consumption status, starting-state eligibility, reset/inverse linkage, support-wrench components, nuisance covariates, uncertainty components and flags. Derived files are reproducible from raw files without manual edits.
 
 ## 8. Release bundle
 
@@ -47,4 +53,3 @@ Include raw data; manifests; calibration data; boundary diagrams; randomization 
 ## 9. Compensation warning — M-null ≠ J-null (amendment 2026-09-27)
 
 Magnetometry (`M`) and angular-momentum (`J`) entries are distinct typed fields and are never derived from one another. Sublattice or orbital/spin compensation can null the magnetization tariff while a nonzero angular-momentum posting remains — and conversely. Twin nulls, detuned controls, and background subtractions must therefore carry both fields explicitly. Any analysis that infers `J = 0` from `M = 0` (or the reverse) is invalid and must be flagged in `derived` provenance.
-

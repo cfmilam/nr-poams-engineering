@@ -24,12 +24,13 @@ True command/state labels remain escrowed until the frozen report is generated.
 
 ## 5. Event and waveform custody
 
-- `events.csv`: `clock_tick,event_code,source_device,command_value,acknowledged_value,status_bits,operator_note_id`.
+- `events.csv`: `clock_tick,event_id,event_code,source_device,command_value,acknowledged_value,status_bits,operator_note_id`. Event identifiers are immutable and unique across the run.
 - `raw.h5`: native samples, clock ticks, device sequence numbers and status bits per channel; no baseline correction.
 - `reads.csv`: `trial_id,read_id,start_tick,stop_tick,read_amplitude,read_energy,raw_feature_refs,classifier_revision,blind_state_call,ambiguity_score,sensor_reset,status_bits`.
-- `transitions.csv`: `event_id,trial_id,lower_tick,upper_tick,pre_state_blind,post_state_blind,delta_state_blind,event_probability,event_method,concurrent_environment_refs,censoring,event_merge_rule`.
+- `transitions.csv`: `event_id,trial_id,lower_tick,upper_tick,pre_state_blind,post_state_blind,delta_state_blind,event_probability,event_method,witness_channel_ids,witness_pass,settling_gate_pass,eligibility_pass,signed_topology_change,topology_reduction_id,receipt_consumed,reset_or_inverse_event_id,article_am_value,article_am_unit,article_am_uncertainty,apparatus_am_value,apparatus_am_unit,apparatus_am_uncertainty,closure_residual,residual_bound,concurrent_environment_refs,censoring,event_merge_rule`.
 
 Interval bounds are mandatory when a transition occurs between reads. No-read holds remain right/interval censored rather than assigned an invented event time.
+Each event may enter the transaction account once. Reclassification, reread or replay retains the same ID and cannot create another posting. Erase and reversal are new oppositely signed events linked through `reset_or_inverse_event_id`; neither deletes the occurrence history. If topology is not independently established, `signed_topology_change` remains blank rather than inheriting a command label.
 
 ## 6. Calibration and boundary ledgers
 
@@ -42,7 +43,7 @@ A term cannot be both an internal state change and a boundary crossing.
 
 ## 7. Derived outputs
 
-`derived_trials.parquet`: operation result, starting/ending state distributions, settle time, hold exposure, read count/energy, transition count/multiplicity, temperature/field/vibration summaries, input/output energy, AM receipt and closure residual.
+`derived_trials.parquet`: operation result, starting/ending state distributions, settle time, hold exposure, read count/energy, transition count/multiplicity, contributing event IDs, receipt-consumption and reset/inverse links, temperature/field/vibration summaries, input/output energy, AM receipt and closure residual.
 
 `endurance.parquet`: cycle index, operation type/sign, error, state separation, write margin/energy, read disturbance, slip-rate estimate, calibration drift, thermal load, cumulative exposure and device-health flags.
 
