@@ -271,3 +271,75 @@ Generation 1 is intentionally low voltage and current limited, but all capacitor
 Short-circuit tests require a separately reviewed current/time envelope, arc suppression, protective enclosure, and abort logic. No person touches the apparatus until two independent voltage checks confirm the safe state. Whole-platform fixtures must tolerate electromagnetic force, thermal expansion, switch impulse, and cable reaction. RF/microwave operation, vacuum, cryogens, or mains connection are outside Generation 1 unless separately designed and reviewed.
 
 Safety overrides blinding. Every trip remains in raw custody.
+
+## 13. Discrete two-rail apparatus-map annex
+
+### 13.1 Status and claim boundary
+
+This annex tests a finite two-rail action-seat candidate. The candidate's exact pair-account conservation, balanced exchange symmetry, and leakage orders have passed synthetic audits. Those checks establish internal mathematics only. No physical conductor realization, absolute emission law, or device effect is claimed.
+
+### 13.2 Native interventions
+
+The minimum modular article provides registered operations for:
+
+- complete rail exchange, including conductors, connectors, terminations, probes, and support geometry;
+- differential and common preparation at the source plane;
+- cell-count changes at fixed cell construction;
+- section-order permutation;
+- source/load reversal;
+- controlled one-cell amplitude, phase, timing, impedance, and orientation defects;
+- defect-location translation without changing the defect article; and
+- cadence sweeps within independently qualified instrument bandwidth.
+
+Every operation receives a physical configuration identifier. A software relabeling is not a rail exchange.
+
+### 13.3 Raw seat record and units
+
+At each retained boundary record synchronized complex voltage and current, timestamp and clock uncertainty, local temperature, fixture displacement/strain, source work, load work, recoverable storage, dissipated heat, and external-channel detector output. Preserve the unreduced waveforms and calibration injections.
+
+An operational complex record `y` may be expressed in volts only after current channels have a declared independently calibrated conversion. A candidate action account has the form
+
+\[
+S(y)=y^\dagger H y,
+\qquad [S]={\rm J\,s},
+\qquad [H]={\rm J\,s\,V^{-2}}.
+\]
+
+The positive metric `H` must be calibrated from independently measured reversible energy and a declared timing interval. Transfer data may test whether `T_c^dagger H T_c = H`; they may not choose the scale or physical meaning of `H` after seeing the desired result.
+
+### 13.4 Training and held-out split
+
+Before fitting, freeze:
+
+- training cell counts, arrangements, cadences, and defect configurations;
+- held-out cell counts and section orderings;
+- held-out defect locations and signs;
+- map composition order;
+- noise model, uncertainty propagation, exclusions, and failure threshold; and
+- the terminal definitions for differential, common/even, load, storage, loss, external, and remainder outcomes.
+
+Fit one local operational map `T_c` only on the training set. Freeze it and the independently calibrated `H`. Predict every held-out record by composition with no location-specific retuning. A larger state may be proposed after failure, but the minimal homogeneous law is recorded as failed rather than silently repaired.
+
+### 13.5 Primary symmetry discriminator
+
+For a qualified physical rail exchange `X`, balanced successor `U0`, differential preparation, and exchange-even terminal, test the predeclared null against the instrument floor. Introduce a signed dimensionless defect `epsilon` and estimate the log-log slopes of amplitude-like common response and completed terminal count/energy/power over the registered small-defect interval.
+
+The candidate requires:
+
+- restoration of the null under physical defect removal or rail-exchange compensation;
+- amplitude slope consistent with one;
+- completed terminal weight or power slope consistent with two;
+- predicted defect-location dependence from the frozen local map; and
+- no closure by common-mode, EMI, thermal, mechanical, timing, or analysis-pipeline injections.
+
+The numerical tolerances are set from pilot covariance and calibration floors before confirmatory acquisition. A zero fitted coefficient, wrong slope, failed symmetry restoration, or held-out transfer failure rejects the tested candidate in its registered domain.
+
+### 13.6 Absolute law gate
+
+Only after the relative map and complete-apparatus receipts pass may the program estimate
+
+\[
+P_j=\Gamma_0\,A_j\,\epsilon_j,
+\]
+
+where `Gamma0` is measured in inverse seconds, `Aj` is a dimensionless calibrated terminal weight, `epsilon_j` is measured in joules per completion, and `P_j` is measured in watts. The special tariff `epsilon_j = h nu` is permitted only for a channel that independently demonstrates that debit. Agreement with a known antenna formula may be reported as a comparator; it cannot supply a missing native factor.
