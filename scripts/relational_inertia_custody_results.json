@@ -1,0 +1,115 @@
+{
+  "status": "design arithmetic only; no physical data; f is not predicted",
+  "equations": {
+    "inertial_fraction": "Delta k_u/m = (3/2) f q_u",
+    "oscillator_fraction": "Delta omega/omega ~= -(3/4) f q_u, conditional on fixed stiffness and the named bridge"
+  },
+  "illustrative_ladder": [
+    {
+      "f_illustrative": 0.001,
+      "q_illustrative": 1.0,
+      "delta_inertial_fraction": 0.0015,
+      "delta_oscillator_frequency_fraction": -0.00075
+    },
+    {
+      "f_illustrative": 0.001,
+      "q_illustrative": 0.1,
+      "delta_inertial_fraction": 0.00015000000000000001,
+      "delta_oscillator_frequency_fraction": -7.500000000000001e-05
+    },
+    {
+      "f_illustrative": 0.001,
+      "q_illustrative": 0.01,
+      "delta_inertial_fraction": 1.5e-05,
+      "delta_oscillator_frequency_fraction": -7.5e-06
+    },
+    {
+      "f_illustrative": 1e-06,
+      "q_illustrative": 1.0,
+      "delta_inertial_fraction": 1.5e-06,
+      "delta_oscillator_frequency_fraction": -7.5e-07
+    },
+    {
+      "f_illustrative": 1e-06,
+      "q_illustrative": 0.1,
+      "delta_inertial_fraction": 1.5000000000000002e-07,
+      "delta_oscillator_frequency_fraction": -7.500000000000001e-08
+    },
+    {
+      "f_illustrative": 1e-06,
+      "q_illustrative": 0.01,
+      "delta_inertial_fraction": 1.5000000000000002e-08,
+      "delta_oscillator_frequency_fraction": -7.500000000000001e-09
+    },
+    {
+      "f_illustrative": 1e-09,
+      "q_illustrative": 1.0,
+      "delta_inertial_fraction": 1.5000000000000002e-09,
+      "delta_oscillator_frequency_fraction": -7.500000000000001e-10
+    },
+    {
+      "f_illustrative": 1e-09,
+      "q_illustrative": 0.1,
+      "delta_inertial_fraction": 1.5000000000000002e-10,
+      "delta_oscillator_frequency_fraction": -7.500000000000001e-11
+    },
+    {
+      "f_illustrative": 1e-09,
+      "q_illustrative": 0.01,
+      "delta_inertial_fraction": 1.5000000000000003e-11,
+      "delta_oscillator_frequency_fraction": -7.500000000000002e-12
+    },
+    {
+      "f_illustrative": 1e-12,
+      "q_illustrative": 1.0,
+      "delta_inertial_fraction": 1.5e-12,
+      "delta_oscillator_frequency_fraction": -7.5e-13
+    },
+    {
+      "f_illustrative": 1e-12,
+      "q_illustrative": 0.1,
+      "delta_inertial_fraction": 1.5000000000000002e-13,
+      "delta_oscillator_frequency_fraction": -7.500000000000001e-14
+    },
+    {
+      "f_illustrative": 1e-12,
+      "q_illustrative": 0.01,
+      "delta_inertial_fraction": 1.5000000000000002e-14,
+      "delta_oscillator_frequency_fraction": -7.500000000000001e-15
+    },
+    {
+      "f_illustrative": 1e-15,
+      "q_illustrative": 1.0,
+      "delta_inertial_fraction": 1.5000000000000001e-15,
+      "delta_oscillator_frequency_fraction": -7.500000000000001e-16
+    },
+    {
+      "f_illustrative": 1e-15,
+      "q_illustrative": 0.1,
+      "delta_inertial_fraction": 1.5000000000000002e-16,
+      "delta_oscillator_frequency_fraction": -7.500000000000001e-17
+    },
+    {
+      "f_illustrative": 1e-15,
+      "q_illustrative": 0.01,
+      "delta_inertial_fraction": 1.5e-17,
+      "delta_oscillator_frequency_fraction": -7.5e-18
+    }
+  ],
+  "trace_free_example": {
+    "delta_M_diagonal": [
+      -0.4,
+      0.2,
+      0.2
+    ],
+    "trace": 0.0,
+    "f_illustrative": 1e-06,
+    "delta_K_over_m_diagonal": [
+      -6.000000000000001e-07,
+      3.0000000000000004e-07,
+      3.0000000000000004e-07
+    ],
+    "response_trace": 0.0
+  },
+  "identifiability_boundary": "a null bounds f*q times the tested bridge; without an independent custody witness it does not identify f"
+}
