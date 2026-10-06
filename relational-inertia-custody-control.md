@@ -3,7 +3,7 @@
 **Status:** foundational engineering paper — design analysis only; no physical run, no M0/M1 evidence, no apparatus or fabrication authorization  
 **Date:** 4 October 2026  
 **Theory source:** [Inertia — The Felt and the Seen](https://cfmilam.github.io/nr-poams-exhibits/inertia.html)  
-**Governing principle:** No-Orphan Inertial Response (NOIR), adopted 4 October 2026
+**Governing principles:** No-Orphan Inertial Response (NOIR) and Phase-Renewed Custody (PRC), adopted 4 October 2026
 
 > This paper begins an engineering program. It does not report inertial modification, weight change, propulsion, time-rate control, or a measured custody fraction. Its job is to expose the consequence deeply enough that nature can reject it.
 
@@ -52,6 +52,14 @@ Then
 \]
 
 No additional response coefficient remains after NOIR. The unknown is whether the preparation participates at all and, if so, the value of \(f\).
+
+PRC makes that fraction a maintained whole-turn state rather than a static or historically accumulated parameter:
+
+\[
+\boxed{f_{n+1}=(1-\mu)f_n+\mu s_n,\qquad 0\le\mu\le1,}
+\]
+
+where \(s_n\) is the controlled share of independently witnessed, completed, phase-qualified renewal receipts and \(\mu\) is the fraction of the active custody account renewed per completed turn. Constant \(s\) gives \(f_n=s+(f_0-s)(1-\mu)^n\); after removal of qualified drive, \(f_n=f_0(1-\mu)^n\). PRC does not determine \(\mu\), the relevant turn duration, the phase-completion law or whether those receipts participate in inertia.
 
 ## 3. The participation firewall
 
@@ -108,7 +116,7 @@ For a rotated uniaxial quadrupole this becomes a second angular harmonic,
 with the trace rule requiring the sum over three orthogonal principal responses to vanish:
 
 \[
-\Delta k_x+Delta k_y+Delta k_z=0.
+\Delta k_x+\Delta k_y+\Delta k_z=0.
 \]
 
 That trace-free three-axis closure is more discriminating than a single periodic signal.
@@ -199,6 +207,7 @@ Calculated conventional expectations do not replace these injections.
 - **HL — local ordinary coupling:** a real effect follows source geometry but is fully explained by measured electromagnetic, thermal, mechanical, optical or timing transfer.
 - **HB — bridge-specific response:** one of RI-R, RI-T or RI-C survives while the others do not; claims remain confined to that lane.
 - **HA — adverse NOIR result:** an independently established custody-tensor change fails the frozen proportionality, eigenvector or trace rule.
+- **HC — adverse PRC result:** independently qualified receipt and response records require unequal build and release turnover fractions, retain history beyond \((f_n,s_n)\), respond to noncompleted drive, or leave undeclared permanent residue after \(s=0\).
 - **HX — structurally inconclusive:** rank, custody, stability, calibration or control coverage is insufficient.
 
 ## 11. Stage gates
@@ -213,7 +222,7 @@ Establish repeatable isotropic, quadrupolar, reversed, detuned, dummy and absent
 
 ### Stage 2 — bounded coupling search
 
-Run the randomized factorial schedule against one preselected sensor lane. Use the frozen nuisance model and decision rule. A null sets an upper bound on the product of custody participation and that bridge's response; absent an independent custody witness it does not separately bound \(f\).
+Run the randomized factorial schedule against one preselected sensor lane. Include randomized drive-on, hold, brief-interruption, drive-off and reacquisition blocks. Use the frozen nuisance model and decision rule. A null sets an upper bound on the product of custody participation and that bridge's response; absent an independent custody witness it does not separately bound \(f\).
 
 ### Stage 3 — independent custody and bridge separation
 
@@ -252,7 +261,8 @@ A custody-control candidate requires all of the following:
 5. survival of direct artifact-transfer subtraction with uncertainty;
 6. repeat after shutdown, remount and fresh randomization;
 7. a noncircular custody witness or held-out response family;
-8. bridge-specific replication.
+8. one turnover fraction jointly predicting buildup, interruption memory, release and reacquisition;
+9. bridge-specific replication.
 
 Failure of any item prevents promotion. A beautiful \(2\theta\) signal alone is insufficient.
 
@@ -262,6 +272,8 @@ Failure of any item prevents promotion. A beautiful \(2\theta\) signal alone is 
 - A response that follows hardware rather than the P-frame kills the custody interpretation.
 - A nonzero three-axis trace after calibrated ordinary transfers kills the minimal redistribution law.
 - Different inferred \(f\) values across tensor geometries under one preparation narrow or kill the affine-mixture model.
+- Different turnover fractions for buildup and release kill the minimal one-state PRC law; unexplained age or preparation-history dependence requires a larger declared state.
+- A response that follows the phase command or launched power rather than independently completed terminal receipts kills the PRC custody interpretation.
 - Failure to construct an independent custody witness leaves the program at an effective-coupling result, never a measurement of \(f\).
 - A response confined to one bridge narrows the theory to that bridge and forbids broader inertia, weight, clock or propulsion claims.
 
