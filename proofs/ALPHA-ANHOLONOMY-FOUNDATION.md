@@ -1,6 +1,6 @@
 # ARCHIVE PROMPT — One Anholonomy, Two Levels
 
-> **Current disposition (ratified 2026-09-07): historical programme prompt, not a current result.** The proposed source-free α leg and macro/micro identity were not derived. Current status: [The Alpha Problem](https://cfmilam.github.io/nr-poams-exhibits/alpha-fine-structure-derivation.html); full adjudicated record: [2026 archive](https://cfmilam.github.io/nr-poams-exhibits/alpha-program-2026-archive.html).
+> **Current program:** [The Alpha Problem — An Open Front](https://cfmilam.github.io/nr-poams-exhibits/alpha-fine-structure-derivation.html).
 Assembled 2026-07-08 (Parzival), on Star Lord's insight: the α phase-slip and Mercury's perihelion are the SAME "doesn't-quite-close" at two scales. Feeds ALPHA-ANHOLONOMY-{opus,fable}.txt.
 
 ## THE CLAIM TO FORMALIZE / TEST
