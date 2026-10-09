@@ -30,6 +30,14 @@ h2 { font-size: 1.3rem; color: var(--accent); margin: 2.5rem 0 0.8rem; border-bo
 .exhibit .desc { font-size: 0.88rem; color: var(--fg); opacity: 0.8; line-height: 1.5; }
 .exhibit .tags { font-size: 0.78rem; color: var(--accent2); margin-top: 0.4rem; }
 .tag { display: inline-block; background: rgba(201,168,76,0.1); border: 1px solid rgba(201,168,76,0.2); border-radius: 4px; padding: 0.1rem 0.5rem; margin-right: 0.4rem; margin-top: 0.2rem; }
+.guidance-card { border-left: 4px solid var(--accent); padding: 1.25rem 1.35rem; }
+.guidance-card h3 { color: var(--accent); font-size: 1.2rem; }
+.guidance-card p { margin: 0.75rem 0; font-size: 0.92rem; }
+.guidance-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; margin: 1rem 0; }
+.guidance-panel { border: 1px solid var(--card-border); border-radius: 7px; padding: 0.9rem 1rem; }
+.guidance-panel h4 { color: var(--accent2); margin-bottom: 0.45rem; }
+.guidance-panel ol { margin-left: 1.2rem; font-size: 0.88rem; }
+.guidance-panel li { margin: 0.35rem 0; }
 #theme-btn {
   position: fixed; top: 1rem; right: 1rem; z-index: 200;
   background: var(--accent); color: var(--bg); border: none;
@@ -38,7 +46,7 @@ h2 { font-size: 1.3rem; color: var(--accent); margin: 2.5rem 0 0.8rem; border-bo
 }
 footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--card-border); font-size: 0.85rem; color: var(--accent2); }
 footer a { color: var(--link); }
-@media (max-width: 768px) { main { padding: 2rem 1rem; } }
+@media (max-width: 768px) { main { padding: 2rem 1rem; } .guidance-grid { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
@@ -69,7 +77,37 @@ footer a { color: var(--link); }
   <div class="tags"><span class="tag">Reference</span><span class="tag">Design Map</span><span class="tag">Historical Context</span></div>
 </div>
 
-<h2>University Compatibility Maps and References</h2>
+<h2>Research Guidance and University Compatibility Maps</h2>
+
+<div class="exhibit guidance-card">
+  <h3>Before the Pencil</h3>
+  <p>Begin where Plato and Aristotle began: not with a formula, but with the deepest questions about being, knowledge, and explanation. Look inward before drawing outward. A pencil can unfold a premise with extraordinary precision; it cannot make an incoherent premise real.</p>
+  <p><strong>Right can reinforce right, and wrong can reinforce wrong.</strong> The direction of the first step matters because every later success feeds back into the assumptions that produced it.</p>
+  <div class="guidance-grid">
+    <section class="guidance-panel">
+      <h4>How error seals itself</h4>
+      <ol>
+        <li>A formalism predicts a limited class of observations.</li>
+        <li>Its symbols are promoted from useful terms into literal entities.</li>
+        <li>Those entities generate a worldview that is mistaken for nature.</li>
+        <li>The worldview decides which questions, careers, and instruments are legitimate.</li>
+        <li>New observations are interpreted inside the same worldview until the model decides what counts as a test of itself.</li>
+      </ol>
+    </section>
+    <section class="guidance-panel">
+      <h4>How inquiry corrects itself</h4>
+      <ol>
+        <li><strong>Natural philosophy:</strong> ask what can coherently exist and what would count as an explanation.</li>
+        <li><strong>POAMS:</strong> state the native physical organization—circulation, closure, exchange, twist, writhe, or natural orbit.</li>
+        <li><strong>Mathematics:</strong> represent that bookkeeping without allowing notation to invent the ontology.</li>
+        <li><strong>Experiment:</strong> name the raw observable and failure condition, leaving nature the power of veto.</li>
+        <li><strong>Engineering:</strong> use what survives, and return what the instrument teaches to the beginning of the inquiry.</li>
+      </ol>
+    </section>
+  </div>
+  <p><strong>Normal Realism came first; POAMS followed from it. Mathematics serves the physics, experiment tests it, and engineering earns the consequence. The loop remains healthy only while nature can still say no.</strong></p>
+  <div class="tags"><span class="tag">Research Guidance</span><span class="tag">Natural Philosophy</span><span class="tag">Experimental Discipline</span></div>
+</div>
 
 <div class="exhibit">
   <h3><a href="stanford-research-compatibility-map.html">Stanford Research Compatibility Map</a></h3>
