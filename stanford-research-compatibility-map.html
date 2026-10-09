@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A capability-led map of Stanford researchers, laboratories, facilities, and engagement routes for the Normal Realism and POAMS experimental program.">
+<title>Stanford Research Compatibility Map · NR-POAMS Engineering</title>
+<style>
+:root{--bg:#f6f3eb;--panel:#fffdf8;--ink:#25251f;--muted:#666256;--gold:#8b6914;--gold2:#c9a84c;--line:#d9d0ba;--green:#315f4b;--blue:#365f78;--red:#8a4339;--shadow:0 14px 42px rgba(63,48,12,.08)}
+:root[data-theme="dark"]{--bg:#161724;--panel:#202131;--ink:#e7e3d8;--muted:#aaa595;--gold:#e0bd61;--gold2:#a98533;--line:#3d3b48;--green:#76b99c;--blue:#79b6d6;--red:#dc9187;--shadow:0 14px 42px rgba(0,0,0,.22)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,serif;line-height:1.65}a{color:var(--gold)}a:hover{text-decoration-thickness:2px}.wrap{width:min(1160px,calc(100% - 2rem));margin:auto}nav{display:flex;justify-content:space-between;gap:1rem;align-items:center;padding:1rem 0;font-family:system-ui,sans-serif;font-size:.88rem}nav .links{display:flex;gap:1rem;flex-wrap:wrap}button{background:var(--gold);color:var(--bg);border:0;border-radius:7px;padding:.52rem .7rem;cursor:pointer;font-size:1rem}header{padding:4rem 0 2.8rem;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.eyebrow,.kicker{text-transform:uppercase;letter-spacing:.14em;font:700 .76rem/1.3 system-ui,sans-serif;color:var(--gold)}h1{font-size:clamp(2.35rem,6vw,5.5rem);line-height:.95;letter-spacing:-.045em;margin:.8rem 0 1.2rem;max-width:900px}header .lede{font-size:clamp(1.08rem,2vw,1.34rem);max-width:850px;color:var(--muted)}.status-row{display:flex;gap:.55rem;flex-wrap:wrap;margin-top:1.5rem}.pill,.tag{font:700 .72rem/1.2 system-ui,sans-serif;border:1px solid var(--line);border-radius:999px;padding:.38rem .68rem;background:var(--panel)}main{padding:2.5rem 0 4rem}section{scroll-margin-top:1rem;margin:0 0 4.5rem}h2{font-size:clamp(1.65rem,3vw,2.45rem);line-height:1.1;margin:.3rem 0 1.3rem}h3{line-height:1.2;margin:.2rem 0 .55rem}p{margin:.45rem 0 1rem}.intro-grid,.grid-2,.grid-3,.person-grid,.campaign-grid{display:grid;gap:1rem}.intro-grid{grid-template-columns:1.2fr .8fr}.grid-2{grid-template-columns:repeat(2,1fr)}.grid-3{grid-template-columns:repeat(3,1fr)}.person-grid{grid-template-columns:repeat(2,1fr)}.campaign-grid{grid-template-columns:repeat(2,1fr)}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:1.25rem 1.35rem;box-shadow:var(--shadow)}.card p:last-child,.card ul:last-child{margin-bottom:0}.verdict{border-left:5px solid var(--gold);font-size:1.08rem}.start-list{counter-reset:start;list-style:none;padding:0;margin:0}.start-list li{counter-increment:start;display:grid;grid-template-columns:2rem 1fr;gap:.65rem;margin:.8rem 0}.start-list li:before{content:counter(start);display:grid;place-items:center;width:1.75rem;height:1.75rem;border-radius:50%;background:var(--gold);color:var(--bg);font:700 .78rem system-ui,sans-serif}.section-head{display:flex;justify-content:space-between;align-items:end;gap:1rem;border-bottom:2px solid var(--gold);padding-bottom:.65rem;margin-bottom:1.25rem}.section-head p{max-width:600px;color:var(--muted);margin:0}.rank{display:inline-block;font:800 .68rem system-ui,sans-serif;text-transform:uppercase;letter-spacing:.09em;color:var(--green);margin-bottom:.4rem}.rank.two{color:var(--blue)}.rank.three{color:var(--muted)}.role{font-weight:bold;color:var(--gold)}.route{border-top:1px solid var(--line);padding-top:.75rem;margin-top:.8rem;color:var(--muted);font-size:.94rem}.mini{font:700 .72rem system-ui,sans-serif;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.hierarchy{display:grid;grid-template-columns:190px 1fr;gap:1rem;border-bottom:1px solid var(--line);padding:1.1rem 0}.hierarchy:last-child{border-bottom:0}.school{font-weight:bold;color:var(--gold)}.people{display:grid;grid-template-columns:repeat(2,1fr);gap:.9rem}.person{border-left:3px solid var(--line);padding-left:.85rem}.person strong{display:block}.person span{color:var(--muted);font-size:.93rem}.fit-table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);font-size:.91rem}.fit-table th,.fit-table td{text-align:left;vertical-align:top;padding:.8rem;border-bottom:1px solid var(--line)}.fit-table th{font:700 .72rem system-ui,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:var(--gold)}.fit-table tr:last-child td{border-bottom:0}.campaign{position:relative;padding-top:2.9rem}.campaign .letter{position:absolute;top:1rem;left:1.25rem;font:900 1.3rem system-ui,sans-serif;color:var(--gold)}.campaign .objective{border-top:1px solid var(--line);padding-top:.7rem;margin-top:.8rem}.rail{border-top:4px solid var(--gold)}.rail:nth-child(2){border-color:var(--blue)}.rail:nth-child(3){border-color:var(--green)}.callout{background:linear-gradient(135deg,rgba(201,168,76,.15),transparent);border:1px solid var(--gold);border-radius:12px;padding:1.4rem}.quote{font-size:1.15rem;font-style:italic;margin:0}.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.time{position:relative;padding-top:3rem}.time .when{position:absolute;top:1rem;left:1.25rem;font:800 .75rem system-ui,sans-serif;text-transform:uppercase;letter-spacing:.1em;color:var(--gold)}.note{color:var(--muted);font-size:.9rem}.sources{columns:2;column-gap:2rem}.sources li{break-inside:avoid;margin-bottom:.55rem}.guardrails li{margin:.45rem 0}footer{border-top:1px solid var(--line);padding:2rem 0 3rem;color:var(--muted);font-size:.88rem}
+@media(max-width:850px){.intro-grid,.grid-3,.timeline{grid-template-columns:1fr}.person-grid,.campaign-grid,.grid-2{grid-template-columns:1fr}.hierarchy{grid-template-columns:1fr}.people{grid-template-columns:1fr}.fit-scroll{overflow-x:auto}.fit-table{min-width:760px}.sources{columns:1}h1{letter-spacing:-.03em}}
+@media print{button{display:none}body{background:#fff}.card{box-shadow:none}a{color:#000}.wrap{width:94%}section{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Engineering navigation"><div class="links"><a href="./index.html">← Engineering Laboratory</a><a href="https://cfmilam.github.io/nr-poams-exhibits/">Exhibits Hub</a></div><button type="button" onclick="theme()" aria-label="Toggle color theme">☀︎</button></nav>
+</div>
+<header>
+  <div class="wrap">
+    <div class="eyebrow">NR-POAMS Engineering · Laboratory Foundation · 8 October 2026</div>
+    <h1>Stanford Research Compatibility Map</h1>
+    <p class="lede">A capability-led map of the researchers, laboratories, facilities, and institutional routes most likely to move Normal Realism and POAMS from bounded experiments to independently measured effects and working prototypes.</p>
+    <div class="status-row"><span class="pill">Capability map</span><span class="pill">No outreach performed</span><span class="pill">Evidence before endorsement</span><span class="pill">Living strategy</span></div>
+  </div>
+</header>
+<main class="wrap">
+
+<section id="start">
+  <div class="intro-grid">
+    <div class="card verdict">
+      <div class="kicker">Executive judgment</div>
+      <h2>Buy capabilities against experiments—not agreement with a worldview.</h2>
+      <p>Stanford can materially accelerate the program through magnetic-material fabrication, spintronic device engineering, nanofabrication, precision metrology, experimental design, and prototype translation. Researchers do not need to accept POAMS ontology to do decisive work. They need a fair test, a complete nuisance model, preserved adverse results, and access to the raw record.</p>
+      <p><strong>The strongest first scientific nucleus:</strong> Garry Nolan as institutional bridge; Yuri Suzuki for magnetic-material experiments; Shan X. Wang for sensors and prototypes; nano@stanford for direct facility access; an independent statistician; and a metrologist introduced only after the apparatus is mature.</p>
+    </div>
+    <div class="card">
+      <div class="kicker">Start here</div>
+      <ol class="start-list">
+        <li><span>Give Nolan two instrument-and-null briefs.</span></li>
+        <li><span>Seek warm introductions to Suzuki and Wang.</span></li>
+        <li><span>Open RMC access to nano@stanford.</span></li>
+        <li><span>Freeze analysis before collecting data.</span></li>
+        <li><span>Contract one bounded Stanford project first.</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section id="contract">
+  <div class="section-head"><div><div class="kicker">The research contract</div><h2>Five gates for every engagement</h2></div><p>The invitation is an instrument-and-null problem. It is never “prove POAMS.”</p></div>
+  <div class="grid-3">
+    <div class="card"><h3>1 · Native intervention</h3><p>Name the circulation, winding, phase, twist/writhe partition, or closure condition being changed.</p></div>
+    <div class="card"><h3>2 · Raw observable</h3><p>Name the voltage, displacement, torque, support record, phase, spectrum, image, or count before interpretation.</p></div>
+    <div class="card"><h3>3 · Frozen discriminator</h3><p>Fix the sign, ordering, reversal, threshold, scaling law, or null before the run.</p></div>
+    <div class="card"><h3>4 · Direct controls</h3><p>Measure thermal, magnetic, electrical, acoustic, mechanical, timing, and analyst transfer paths.</p></div>
+    <div class="card"><h3>5 · Technological leverage</h3><p>State what reliable control of the measured occurrence would permit us to build.</p></div>
+    <div class="card guardrails"><h3>Standing exclusions</h3><ul><li>No theory-only sponsorship without a bounded theorem or apparatus decision.</li><li>No UAP framing in first technical contact.</li><li>No advanced claim before its lower-stage gate passes.</li></ul></div>
+  </div>
+</section>
+
+<section id="nolan">
+  <div class="section-head"><div><div class="kicker">Institutional bridge</div><h2>Garry Nolan and the Sol Foundation</h2></div><p>Openness is inferred only from public professional behavior—not from presumed private belief.</p></div>
+  <div class="grid-2">
+    <div class="card"><h3>Why Nolan is unusually useful</h3><p>Nolan’s biomedical subject matter is not the natural home for the first physics experiments. His value is architectural: he has built high-dimensional measurement platforms, collaborated across statistics and engineering, translated instruments into companies, and worked where evidence is difficult and reputationally contested.</p><p class="route"><strong>Best role:</strong> translate two experiments into Stanford-legible scopes; recruit the experimental PI, device builder, and independent critic; govern preregistration, custody, blinding, and adverse-result preservation.</p></div>
+    <div class="card"><h3>What Sol demonstrates</h3><p>Nolan and Peter Skafish built a multidisciplinary institution around anomalous evidence, policy, public education, and research standards. That is evidence of convening ability and methodological aperture—not evidence that Sol or Nolan endorses NR/POAMS.</p><p class="route"><strong>Boundary:</strong> do not make Nolan nominal PI outside his laboratory’s competence, and do not use Sol as the scientific premise of a Stanford proposal.</p></div>
+  </div>
+</section>
+
+<section id="priority">
+  <div class="section-head"><div><div class="kicker">Capability tiers</div><h2>Who matters first—and for what</h2></div><p>Priority reflects present experimental fit, accessible infrastructure, and translational usefulness. It is not a ranking of scientific stature.</p></div>
+  <div class="person-grid">
+    <article class="card"><span class="rank">Priority 1 · bridge</span><h3>Garry Nolan</h3><p class="role">Sponsor · translator · recruiter · evidence governance</p><p>Use across the portfolio to assemble a credible experimental nucleus and protect the distinction between occurrence and story.</p><p class="route"><strong>Caution:</strong> not the nominal physics PI.</p></article>
+    <article class="card"><span class="rank">Priority 1 · infrastructure</span><h3>nano@stanford</h3><p class="role">Fabrication · characterization · trained-user access</p><p>External organizations can directly access prototype R&amp;D facilities without waiting for a faculty patron.</p><p class="route"><strong>Caution:</strong> RMC supplies trained users and pays external rates.</p></article>
+    <article class="card"><span class="rank">Priority 1 · experiments</span><h3>Yuri Suzuki</h3><p class="role">Magnetic materials · thin films · spin transport</p><p>Closest apparatus match for alignment/phase-drive response, YIG controls, magnetic state preparation, and material-state screening.</p><p class="route"><strong>First ask:</strong> paid design study for a blinded reversible magnetic-material protocol.</p></article>
+    <article class="card"><span class="rank">Priority 1 · devices</span><h3>Shan X. Wang</h3><p class="role">Spintronics · sensors · persistent memory · prototypes</p><p>Strongest fit for converting a repeatable magnetic or winding-state occurrence into a manufacturable sensor architecture.</p><p class="route"><strong>Caution:</strong> repeatability before product enthusiasm.</p></article>
+    <article class="card"><span class="rank">Priority 1 · design firewall</span><h3>Art Owen—or equivalent</h3><p class="role">Randomization · power · stopping rules · independent analysis</p><p>Protects every first experiment from flexible analysis, multiplicity, weak nulls, and effect-seeking feedback.</p><p class="route"><strong>Structural rule:</strong> independent of the effect-seeking laboratory.</p></article>
+    <article class="card"><span class="rank two">Priority 2 · independent metrology</span><h3>Mark Kasevich / Michel Digonnet</h3><p class="role">Acceleration · inertial · strain · rotation · acoustic discrimination</p><p>Bring in only after local mechanical, magnetic, thermal, electrical, and support-path controls are mature.</p><p class="route"><strong>Role:</strong> referee the measurement—not adjudicate ontology.</p></article>
+  </div>
+</section>
+
+<section id="campus-map">
+  <div class="section-head"><div><div class="kicker">School → department → lab → researcher</div><h2>The broader campus map</h2></div><p>Approach named capabilities. Avoid a department-wide theory campaign.</p></div>
+  <div class="card">
+    <div class="hierarchy"><div class="school">Engineering<br><span class="mini">Materials Science</span></div><div class="people"><div class="person"><strong>Yuri Suzuki</strong><span>Magnetic films, spin transport, SQUID, PPMS, VSM, AFM/MFM, electrical transport.</span></div><div class="person"><strong>Shan X. Wang</strong><span>Spintronics, magnetic sensors, MRAM, device translation.</span></div><div class="person"><strong>Jennifer Dionne</strong><span>Nanophotonic sensing, atomic-scale imaging, interdisciplinary program bridge.</span></div><div class="person"><strong>Aaron Lindenberg · Ian Fisher</strong><span>Ultrafast transitions; quantum-material discovery and strain tuning—second wave only.</span></div></div></div>
+    <div class="hierarchy"><div class="school">Humanities &amp; Sciences<br><span class="mini">Applied Physics</span></div><div class="people"><div class="person"><strong>Amir Safavi-Naeini</strong><span>Cryogenic microwave, optomechanical, and electro-optic hardware for mature low-noise questions.</span></div><div class="person"><strong>Benjamin Lev</strong><span>Magnetic quantum matter and scanning magnetometry.</span></div><div class="person"><strong>Hideo Mabuchi</strong><span>Control theory, nonlinear dynamics, fabrication, and hardware translation.</span></div><div class="person"><strong>Michel Digonnet</strong><span>Fiber gyroscopes, femtostrain sensing, and optical acoustic controls.</span></div></div></div>
+    <div class="hierarchy"><div class="school">Humanities &amp; Sciences<br><span class="mini">Physics · Chemistry</span></div><div class="people"><div class="person"><strong>Mark Kasevich</strong><span>Atom-interferometric acceleration and gravity-gradient metrology; late independent referee.</span></div><div class="person"><strong>Hemamala Karunadasa · Ian Fisher</strong><span>Custom material synthesis and candidate-state discovery after a property window is fixed.</span></div><div class="person"><strong>Steven Boxer</strong><span>Inventive method design for making hidden states operationally observable.</span></div><div class="person"><strong>W. E. Moerner</strong><span>Single-object spectroscopy and precision optical tracking for later nanoscale signatures.</span></div></div></div>
+    <div class="hierarchy"><div class="school">Mathematics<br><span class="mini">Statistics · ICME</span></div><div class="people"><div class="person"><strong>Art Owen</strong><span>Experimental design and analysis firewall.</span></div><div class="person"><strong>Gunnar Carlsson</strong><span>Topological data analysis for a narrowly defined high-dimensional record.</span></div><div class="person"><strong>Mohammed Abouzaid · topology faculty</strong><span>Exact invariants, obstructions, and counterexamples only.</span></div><div class="person"><strong>ICME</strong><span>A staffing pipeline for bounded inversion, calibration, detector geometry, uncertainty, or simulation work.</span></div></div></div>
+  </div>
+</section>
+
+<section id="fit">
+  <div class="section-head"><div><div class="kicker">Fast comparison</div><h2>Capability-to-program fit</h2></div><p>High-end optical and quantum hardware remains downstream of simpler physical gates.</p></div>
+  <div class="fit-scroll"><table class="fit-table"><thead><tr><th>Capability</th><th>Best first people / unit</th><th>Program fit</th><th>Use now?</th><th>Stop condition</th></tr></thead><tbody>
+    <tr><td>Magnetic preparation and measurement</td><td>Suzuki · Moore facilities</td><td>Alignment/phase drive · YIG · material state</td><td><strong>Yes</strong></td><td>Preparation cannot be separated from claimed response.</td></tr>
+    <tr><td>Sensor and memory architecture</td><td>Wang · Mabuchi</td><td>Persistent winding memory · magnetic readout</td><td><strong>Yes</strong></td><td>No retained, reversible, independently readable state.</td></tr>
+    <tr><td>Shared fabrication and characterization</td><td>nano@stanford · SNSF · SNF</td><td>All material/device programs</td><td><strong>Yes</strong></td><td>Required process cannot be safely or reproducibly supported.</td></tr>
+    <tr><td>Experimental design</td><td>Owen or Nolan-recommended equivalent</td><td>All first campaigns</td><td><strong>Yes</strong></td><td>Analysis independence or raw-data custody cannot be secured.</td></tr>
+    <tr><td>Inertial and mechanical discrimination</td><td>Digonnet → Kasevich</td><td>Mechanical rotor · support response</td><td>After local controls</td><td>Ordinary support, strain, vibration, thermal, or magnetic paths remain open.</td></tr>
+    <tr><td>Cryogenic / optical / quantum readout</td><td>Safavi-Naeini · Lev · Dionne · Ginzton</td><td>Mature state transition · later receiver</td><td>Later</td><td>No repeatable lower-complexity occurrence to read.</td></tr>
+    <tr><td>Formal mathematics</td><td>Carlsson · Abouzaid · ICME</td><td>Exact invariant, obstruction, calibration, or inverse problem</td><td>Debt-specific</td><td>The question cannot be stated without assuming the desired physics.</td></tr>
+  </tbody></table></div>
+</section>
+
+<section id="campaigns">
+  <div class="section-head"><div><div class="kicker">Experiment teams</div><h2>Match people to actual debts</h2></div><p>Each campaign names the first objective rather than a hoped-for interpretation.</p></div>
+  <div class="campaign-grid">
+    <article class="card campaign"><span class="letter">A</span><h3>Magnetic alignment and driven phase response</h3><p><strong>Team:</strong> Suzuki · nano@stanford/Moore · Wang · independent statistician.</p><p class="objective"><strong>First objective:</strong> separate static alignment from driven phase advance while measuring thermal, magnetic-gradient, acoustic, cable-force, and support transfer.</p></article>
+    <article class="card campaign"><span class="letter">B</span><h3>Persistent winding memory</h3><p><strong>Team:</strong> Wang · Suzuki · Mabuchi or Safavi-Naeini · nano@stanford.</p><p class="objective"><strong>First objective:</strong> demonstrate a retained, reversible, addressable state whose readout survives declared controls and whose transition rule was frozen in advance.</p></article>
+    <article class="card campaign"><span class="letter">C</span><h3>Mechanically ordered angular momentum</h3><p><strong>Team:</strong> RMC build · Digonnet controls · independent statistician · Kasevich late.</p><p class="objective"><strong>First objective:</strong> close ordinary support, vibration, magnetic, thermal, and aerodynamic channels before any anomalous inertial interpretation.</p></article>
+    <article class="card campaign"><span class="letter">D</span><h3>Rate-of-time material state</h3><p><strong>Team:</strong> Suzuki or Fisher · Lev or Dionne · Kasevich only for an earned consequence.</p><p class="objective"><strong>First objective:</strong> establish a directly measured, reversible material-state signature before attaching a rate interpretation.</p></article>
+    <article class="card campaign"><span class="letter">E</span><h3>Receiver and three-route optical work</h3><p><strong>Team:</strong> Ginzton/SPRC; Miller, Vučković, Fejer, Safavi-Naeini, or Mabuchi selected by the exact debt.</p><p class="objective"><strong>Sequence:</strong> Receiver Stages 0 and 1 must physically pass before Stage 2 or any capacity language.</p></article>
+  </div>
+</section>
+
+<section id="facilities">
+  <div class="section-head"><div><div class="kicker">Infrastructure</div><h2>Facilities that change the timetable</h2></div><p>Direct external access matters because it reduces dependence on a single faculty sponsor.</p></div>
+  <div class="grid-3">
+    <div class="card"><h3>nano@stanford</h3><p>External academic, government, private, and industrial organizations may open accounts, train users, and perform prototype R&amp;D. Relevant tools include cleanroom fabrication, microscopy, X-ray and surface analysis, XRD, XPS, NanoSIMS, AFM, Raman, and electronics characterization.</p></div>
+    <div class="card"><h3>Ginzton + Stanford Photonics</h3><p>A cross-department network for mature optical and receiver questions. Enter with a specified wavelength, bandwidth, state preparation, raw detector record, and rejection controls—not a broad request to explore.</p></div>
+    <div class="card"><h3>Adjacent RMC dry lab</h3><p>Use for RMC-controlled preregistration, data custody, apparatus integration, nonhazardous bench work, consultant reviews, and prototype iteration. Proximity should lower friction while keeping equipment, people, data, and inventions visibly separate.</p></div>
+  </div>
+</section>
+
+<section id="rails">
+  <div class="section-head"><div><div class="kicker">Institutional architecture</div><h2>Keep three engagement rails separate</h2></div><p>Money, access, staffing, reports, and intellectual-property rights travel differently on each rail.</p></div>
+  <div class="grid-3">
+    <div class="card rail"><h3>1 · External facility use</h3><p>RMC opens its own nano@stanford account, trains named users, and buys instrument time. This is the fastest route to practical familiarity and does not require a faculty research agreement.</p></div>
+    <div class="card rail"><h3>2 · Sponsored research</h3><p>Use a Stanford Sponsored Research Agreement when RMC funds named Stanford researchers for defined work and expects detailed reports or negotiated IP rights. One PI, one bounded apparatus question, milestone and stop gates.</p></div>
+    <div class="card rail"><h3>3 · Personal consulting</h3><p>Use for short design reviews, criticism, and strategy. Consulting does not rent Stanford laboratories, employees, or equipment. Keep personal advice and institutional work contractually distinct.</p></div>
+  </div>
+</section>
+
+<section id="sequence">
+  <div class="section-head"><div><div class="kicker">Execution</div><h2>A disciplined first 90 days</h2></div><p>Start small enough that a null is useful and a positive result can be independently repeated.</p></div>
+  <div class="timeline">
+    <div class="card time"><span class="when">Days 1–30</span><h3>Assemble the nucleus</h3><ul><li>Portfolio-design meeting with Nolan.</li><li>Two two-page experiment briefs.</li><li>Introductions to Suzuki and Wang.</li><li>nano@stanford feasibility discussion.</li><li>Dry-lab requirements from actual apparatus.</li></ul></div>
+    <div class="card time"><span class="when">Days 30–90</span><h3>Freeze one campaign</h3><ul><li>Short consulting reviews where useful.</li><li>Freeze intervention, raw channels, fixtures, rules, and schema.</li><li>Separate RMC facility work from Stanford research.</li><li>Negotiate one SRA.</li><li>Install independent design review before first data.</li></ul></div>
+    <div class="card time"><span class="when">After first result</span><h3>Let the receipt decide</h3><ul><li><strong>Null:</strong> preserve it and close the exact premise.</li><li><strong>Positive:</strong> repeat with a second operator and apparatus.</li><li>Add advanced metrology only for the remaining nuisance debt.</li><li>Prototype only after independent repetition.</li></ul></div>
+  </div>
+</section>
+
+<section id="ask">
+  <div class="callout"><div class="kicker">The first ask to Nolan</div><p class="quote">“Garry, we are not asking Stanford to endorse POAMS. We want to fund two tightly bounded experiments in which the intervention, raw observables, artifact injections, null conditions, and data custody are fixed before the run. We need your help identifying the best magnetic-material PI, device or sensor builder, and independent measurement critic—and choosing the correct Stanford mechanism for each role.”</p></div>
+</section>
+
+<section id="sources">
+  <div class="section-head"><div><div class="kicker">Public evidence base</div><h2>Selected primary sources</h2></div><p>The map is strategic judgment built from public institutional and laboratory records. Inclusion implies neither affiliation nor endorsement.</p></div>
+  <ol class="sources">
+    <li><a href="https://profiles.stanford.edu/garry-nolan">Garry Nolan · Stanford Profiles</a></li>
+    <li><a href="https://web.stanford.edu/group/nolan/">Nolan Laboratory</a></li>
+    <li><a href="https://thesolfoundation.org/people/">The Sol Foundation · People</a></li>
+    <li><a href="https://mse.stanford.edu/people/yuri-suzuki">Yuri Suzuki · Materials Science</a></li>
+    <li><a href="https://suzukilab.stanford.edu/user-facilities/moore-building">Suzuki Lab · Moore facilities</a></li>
+    <li><a href="https://mse.stanford.edu/people/shan-wang">Shan X. Wang · Materials Science</a></li>
+    <li><a href="https://mse.stanford.edu/people/jennifer-dionne">Jennifer Dionne · Materials Science</a></li>
+    <li><a href="https://nanolabs.stanford.edu/access/external">nano@stanford · External users</a></li>
+    <li><a href="https://nanolabs.stanford.edu/our-facilities">nano@stanford · Facilities</a></li>
+    <li><a href="https://photonics.stanford.edu/people/amir-safavi-naeini">Amir Safavi-Naeini · Stanford Photonics</a></li>
+    <li><a href="https://appliedphysics.stanford.edu/quantum-sensing-simulation-computation">Applied Physics · Quantum sensing</a></li>
+    <li><a href="https://hideomabuchi.people.stanford.edu/">Hideo Mabuchi Group</a></li>
+    <li><a href="https://physics.stanford.edu/people/mark-kasevich">Mark Kasevich · Stanford Physics</a></li>
+    <li><a href="https://statistics.stanford.edu/people/art-b-owen">Art Owen · Stanford Statistics</a></li>
+    <li><a href="https://ginzton.stanford.edu/about-lab">Ginzton Laboratory</a></li>
+    <li><a href="https://photonics.stanford.edu/">Stanford Photonics Research Center</a></li>
+    <li><a href="https://ico.stanford.edu/faqs-sponsored-research-agreements">Stanford · Sponsored Research Agreements</a></li>
+    <li><a href="https://doresearch.stanford.edu/policies/research-policy-handbook/conflicts-commitment-and-interest/consulting-and-other-outside-professional-activities-members-academic-council-and-medical-center-line-faculty">Stanford · Faculty consulting policy</a></li>
+  </ol>
+  <p class="note">This exhibit is a living research-planning document, not a representation that Stanford University or any person named here participates in, sponsors, or endorses NR, POAMS, or RMC.</p>
+</section>
+
+</main>
+<footer><div class="wrap"><p><strong>Normal Realism · Pope–Osborne Angular Momentum Synthesis · Engineering Laboratory</strong></p><p><a href="./index.html">Engineering index</a> · <a href="https://cfmilam.github.io/nr-poams-exhibits/">Exhibits Hub</a> · Nature retains the veto.</p></div></footer>
+<script>
+function theme(){const h=document.documentElement,d=h.dataset.theme==='dark';h.dataset.theme=d?'light':'dark';localStorage.setItem('poams-theme',h.dataset.theme);document.querySelector('button').textContent=d?'☾':'☀︎'}
+document.documentElement.dataset.theme=localStorage.getItem('poams-theme')||'dark';
+</script>
+</body>
+</html>
