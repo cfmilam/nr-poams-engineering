@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Direct Arrival — Experimental Protocol — Normal Realism &amp; POAMS</title><meta name="description" content="The complete eight-experiment sequence: apparatus, late-choice trials, partner selection, accounts, controls and independent replication.">
+<link rel="stylesheet" href="assets/direct-arrival-reader.css"><link rel="stylesheet" href="assets/direct-arrival.css">
+<script defer src="assets/direct-arrival.js"></script></head>
+<body class="reader-standard"><a class="skip" href="#content">Skip to content</a>
+<nav class="topbar" aria-label="Library navigation"><a href="https://cfmilam.github.io/nr-poams-exhibits/index.html#engineering-card">← Hub laboratory library</a><a href="index.html">Engineering shelf</a><span class="series">Normal Realism · POAMS</span><button id="print-document" type="button">Print / save PDF</button></nav>
+<header><h1>Direct Arrival — Experimental Protocol</h1><p class="reader-attribution">This exhibit is an extrapolation of the foundational work of N. Vivian “Viv” Pope &amp; Dr. Anthony D. Osborne, PhD, in the philosophy of Normal Realism (NR) and the mathematics of the Pope Osborne Angular Momentum Synthesis (POAMS).</p><p class="subtitle">The complete eight-experiment sequence: apparatus, late-choice trials, partner selection, accounts, controls and independent replication.</p><p class="edition">Research design · Public edition 1.0 · 17 October 2026</p><nav class="package-nav" aria-label="Direct Arrival research package"><a href="direct-arrival-research.html">Research & mechanism</a><a href="direct-arrival-protocol.html" aria-current="page">Full protocol</a><a href="direct-arrival-lab-brief.html">Lab brief</a></nav></header>
+<main id="content"><details class="contents"><summary>In this document</summary><ul><li><a href="#objective-and-hypothesis-boundary">1. Objective and hypothesis boundary</a></li><li><a href="#minimum-apparatus-and-ownership">2. Minimum apparatus and ownership</a></li><li><a href="#time-and-sensitivity-budget">3. Time and sensitivity budget</a></li><li><a href="#one-trial-precisely">4. One trial, precisely</a></li><li><a href="#experiments-and-decision-gates">5. Experiments and decision gates</a></li><li><a href="#confound-budget-that-can-actually-be-tested">6. Confound budget that can actually be tested</a></li><li><a href="#statistics-stopping-and-nulls">7. Statistics, stopping and nulls</a></li><li><a href="#data-receipt-and-reduction">8. Data receipt and reduction</a></li><li><a href="#release-to-run-gate-and-practical-next-action">9. Release-to-run gate and practical next action</a></li></ul></details><h2 id="objective-and-hypothesis-boundary">1. Objective and hypothesis boundary</h2>
+<p>Determine whether a jointly prepared pair retains a controllable exchange channel after its known bridge is physically removed. Establish address/history selectivity, energy accounting and reproducibility before investigating custody.</p>
+<p>The five research gates are explicit:</p>
+<ol type="1">
+<li><strong>Native intervention:</strong> reciprocal preparation of retained circulation; removal of the admitted bridge; local boundary detuning that changes source phase; independently controlled termination, discharge and re-enrollment.</li>
+<li><strong>Raw observations:</strong> continuous local ADC I/Q voltage samples, source/receiver port-power traces, tuner voltage/current, local oscillator records, physical-switch witnesses, thermal/vibration/magnetic/electrical witnesses and local timestamps.</li>
+<li><strong>Discriminator:</strong> a late random source sign predicts a frozen remote statistic; in the minimal seeded exchange model, opposite quarter-turns produce opposite source/receiver redistribution. The effect must follow the enrolled pair through swaps and exceed measured artifact bounds.</li>
+<li><strong>Artifact controls:</strong> explicit injections and path manipulations below; vendor attenuation ratings alone never qualify isolation.</li>
+<li><strong>Leverage:</strong> a controlled new exchange channel would justify address-selective communication/energy-routing development. A null produces a useful exclusion domain and isolation metrology; neither outcome is payload transport.</li>
+</ol>
+<h2 id="minimum-apparatus-and-ownership">2. Minimum apparatus and ownership</h2>
+<p>Use three endpoint stations: source A, enrolled terminal B, and independently prepared clone C. Expansion to a third candidate terminal occurs in DA-2. The initial connected calibration may use only A/B; it is not the discovery apparatus.</p>
+<div class="table-wrap" role="region" aria-label="Scrollable data table 1" tabindex="0"><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Assembly</th>
+<th>Requirement</th>
+<th>Qualification record</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Retention module</td>
+<td>Long-lived, independently identifiable resonator mode; measured loading in final configuration</td>
+<td>Ringdown, frequency drift, phase retention, nonlinear range and mode leakage</td>
+</tr>
+<tr>
+<td>Boundary actuator</td>
+<td>Local tuner with measured positive/negative phase displacement and restored final resonance</td>
+<td>Actual I/Q phase, tuner V/I/work, thermal and vibration responses; inability to achieve the required pulse stops the design</td>
+</tr>
+<tr>
+<td>Enrollment bridge</td>
+<td>Explicit reciprocal ordinary link used only before isolation</td>
+<td>Measured transfer function, delay, power and both-end completion; terminal challenge tied to physical settings</td>
+</tr>
+<tr>
+<td>Bridge isolation</td>
+<td>Independent disconnection near both endpoints; local terminations; removable intermediate segment or equivalent witnessed physical gap</td>
+<td>Position/contact/optical witness traces, leakage injections, settling envelope; an RF switch command alone is insufficient</td>
+</tr>
+<tr>
+<td>Local timing/readout</td>
+<td>Separate oscillators, controllers, storage, supply and downconversion at each station</td>
+<td>Holdover and calibration drift; no common live LO, trigger, oscilloscope chassis, USB, Ethernet or software feedback</td>
+</tr>
+<tr>
+<td>Shields/support</td>
+<td>Independent RF/optical enclosure and mechanically characterized mounting at each end</td>
+<td>Multi-path injections at all relevant frequencies and control transitions</td>
+</tr>
+<tr>
+<td>Energy records</td>
+<td>Calibrated weak port readout plus source work and receiver local-store monitoring</td>
+<td>Full uncertainty and covariance model, loss/output calibration and before/after checks</td>
+</tr>
+<tr>
+<td>Raw-data custody</td>
+<td>Append-only local records, independent hashes after acquisition, sealed source choices</td>
+<td>Original samples, clock mapping, all scheduled trials, exclusions and versions</td>
+</tr>
+</tbody>
+</table></div>
+<p>Lead implementation is SRF-class storage with a qualified boundary tuner. An existing experienced cryogenic laboratory is the natural host. Separate cryostats are preferable; a common cryostat, cold plate, cryogenic line or controller is an ordinary path until measured otherwise. No live networked instrument may carry a source setting to B or C during the isolated interval.</p>
+<p>A standing-mode SRF module can test phase and energy. Its I/Q signal does not certify net angular momentum. A handed-mode/torque-capable successor is required for a directional angular-momentum-transfer claim. That successor has not been engineered here.</p>
+<h2 id="time-and-sensitivity-budget">3. Time and sensitivity budget</h2>
+<p>The following is a <strong>design target</strong>, not qualified hardware performance:</p>
+<div class="table-wrap" role="region" aria-label="Scrollable data table 2" tabindex="0"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Item</th>
+<th>Illustrative requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Frequency and loaded Q</td>
+<td>1.3 GHz; at least 1.5×10⁹ in the fully instrumented configuration</td>
+</tr>
+<tr>
+<td>Passive energy decay time</td>
+<td>Approximately 184 ms under the single-mode calibration model</td>
+</tr>
+<tr>
+<td>Time from final bridge break to late source choice</td>
+<td>At least 20 ms, and longer if measured bridge/support transients demand it</td>
+</tr>
+<tr>
+<td>Source phase operation</td>
+<td>At most 5 ms; net excess phase ±π/2 with matched final frequency and amplitude</td>
+</tr>
+<tr>
+<td>Observation after phase operation</td>
+<td>50 ms, with continuous acquisition beginning before preparation ends</td>
+</tr>
+<tr>
+<td>Total retained interval in this example</td>
+<td>75 ms; predicted energy survival approximately 0.665 and amplitude survival approximately 0.815</td>
+</tr>
+<tr>
+<td>Relative phase uncertainty over the interval</td>
+<td>At most π/6; a constant residual mismatch alone would need abs(δf) ≤1.11 Hz over 75 ms</td>
+</tr>
+<tr>
+<td>Readout</td>
+<td>Continuous complex baseband with analog bandwidth and sampling specified from measured tuner/transient spectra; no nominal sample-rate assertion before qualification</td>
+</tr>
+</tbody>
+</table></div>
+<p>The +π/2 phase operation over 5 ms corresponds to an average frequency offset of +50 Hz, with the opposite sign for −π/2. This is an actuator specification, not evidence that a chosen tuner achieves it without unacceptable microphonics or work injection.</p>
+<p>The actual guard is the greater of the planned guard and the measured latest possible influence of preparation/disconnection, including echoes, ringdown and support motion at the eventual sensitivity. If the needed guard consumes the retained state, the branch is <strong>not testable on that apparatus</strong>. Redesign storage or isolation; do not shorten the guard after seeing data.</p>
+<p>Measured classical phase retention is an independent gate. High Q, the quoted energy lifetime and a shared preparation reference do not establish it. Record phase with local references; pre/post clock calibration cannot be fitted using the desired cross-end correlation.</p>
+<p>No absolute signal floor is promised. The example statistical target is an effect of 0.2 times the actual standard deviation of the fixed receiver contrast. Calibrated port sensitivity, loss uncertainty and artifact bounds must establish whether that statistical target means a useful physical transfer fraction.</p>
+<h2 id="one-trial-precisely">4. One trial, precisely</h2>
+<ol type="1">
+<li><strong>Commit:</strong> protocol version, trial ID, candidate identities, frequency/mode, analysis window, physical challenge mapping, control assignment, reset criteria and logging configuration are fixed. Conceal the control assignment from the analysis team.</li>
+<li><strong>Challenge:</strong> B generates a fresh challenge after the trial plan is committed. Convey it over the declared ordinary link. It selects among a calibrated finite set of physical preparations and authenticates the record. Distinguish challenge entropy from the much smaller number of physically distinguishable address states.</li>
+<li><strong>Prepare:</strong> A/B exchange through the known bridge and record both-end completion. C is independently driven to match the relevant local amplitude, frequency, phase and loading using its own characterized preparation path. Record imperfect matching. Shared preparation histories are not discovery evidence.</li>
+<li><strong>Stop all preparation:</strong> remove the preparation drives and feedback. Open both ends of every enrollment/authentication/reference bridge, terminate each local stub and establish the witnessed gap. Digitizers and local witness systems remain autonomous.</li>
+<li><strong>Wait the frozen guard:</strong> source/receivers follow their precommitted local schedules. There is no remote “ready” acknowledgment after isolation. The schedules allow for worst-case clock and switch uncertainty. The source choice must occur after the latest remotely possible isolation time, checked from independent logs.</li>
+<li><strong>Choose late:</strong> a source-local random source, not a shared seed or preloaded choice sequence, generates z∈{+1,−1}. It has not existed in receiver memory during enrollment. Record the choice locally without broadcasting it.</li>
+<li><strong>Act:</strong> apply the calibrated sign-z phase operation at A. B and C perform the same local readout program regardless of z. In dedicated sham trials, apply matched actuator activity to a local dummy while leaving A’s retained state untouched.</li>
+<li><strong>Record:</strong> preserve all samples through the entire fixed interval. No source-triggered receiver acquisition, coincidence-selection, best-lag search, event-only storage or outcome-dependent windowing.</li>
+<li><strong>Close:</strong> hash and seal each station’s raw acquisition before exporting data or source choices. Hashes protect custody; they are not physical measurement evidence by themselves.</li>
+<li><strong>Release labels and analyze:</strong> apply the already frozen transforms and validity rules. Every scheduled attempt appears in the census. Sensor faults and failed isolations remain visible; they cannot be silently removed to improve selectivity.</li>
+<li><strong>Reset:</strong> actively discharge, verify baseline and wait the measured environmental/reset interval before re-enrollment. If carryover remains, increase the experimental unit to a reset-separated block and re-size the run before confirmation.</li>
+</ol>
+<p>Never let a high-entropy <em>preparation</em> challenge substitute for the genuinely late <em>intervention</em> choice. Both are needed for their different purposes.</p>
+<h2 id="experiments-and-decision-gates">5. Experiments and decision gates</h2>
+<h3 id="da-0-apparatus-qualification-and-deliberate-false-signals">DA-0 — apparatus qualification and deliberate false signals</h3>
+<p><strong>Aim:</strong> show that the complete setup can see a genuine known exchange, reject intentionally introduced false channels, and finish isolation before the useful state disappears.</p>
+<ul>
+<li>Measure A/B/C independently; characterize connected A/B phase exchange and known phase reversals.</li>
+<li>Inject a calibrated weak signal through an explicitly present ordinary link. Verify correct sign, endpoint selection, source depletion, known latency and reduction accuracy at the proposed effect floor.</li>
+<li>Perform real and sham disconnections with identical actuation and matched endpoint loading. Characterize memory of the enrollment bridge and receiver transducers.</li>
+<li>Inject source-like RF, low-frequency tuner pickup, vibration, heat, supply disturbances, timing shifts and deliberately leaked bits. Include phase-sensitive and nonlinear receiver amplification tests.</li>
+<li>Validate source randomness, absence of shared choice state, full raw logging, saturation detection and blinded label handling.</li>
+</ul>
+<p><strong>Pass:</strong> measured validity and artifact limits support a specified DA-1 sensitivity with a nonempty time window. No universal dB threshold suffices. If sensitivity, phase retention, isolation or logging fails, return an apparatus failure—not a physical null.</p>
+<h3 id="da-1-late-choice-post-isolation-coupling">DA-1 — late-choice, post-isolation coupling</h3>
+<p><strong>Primary endpoint:</strong> a receiver-only differential statistic. For j∈{B,C}, estimate the no-action ringdown from pre-choice measurements and disjoint calibration; use the fixed end-of-window energy and normalize by the pre-choice-predicted energy at the start of the observation window:</p>
+<p><code>x_j = [E_j(end) − E_j,no-action(end)] / E_j,reference</code><br />
+<code>Y = x_B − x_C</code><br />
+<code>tau = mean(Y | z=+1) − mean(Y | z=−1)</code>.</p>
+<p>Baseline coefficients and reference construction are frozen before the confirmation labels are available. Do not fit away a source-dependent result. Record raw B and C contrasts separately; subtraction alone could conceal an equal effect at both terminals or manufacture one through a clone artifact.</p>
+<p><strong>Minimal-model prediction:</strong> at matched equal energies and losses, the normalized B contrast is <code>2 exp(−κT) sin(2gT)</code> while the un-enrolled clone contrast is zero. Source energy has the opposite signed change. The ideal formula assumes the stated phase control and exchange interval; measured dynamics during the finite tuner pulse belong in a separately calibrated trace model.</p>
+<p><strong>Advance:</strong> a statistically resolved late-choice effect at B, not explained by C or measured artifacts, plus a compatible independently checked source record. This is a <strong>candidate controlled channel</strong>; DA-2 through DA-5 and independent replication establish its operating domain. If only B’s local store drains into its detector, classify local release and continue DA-4 only as a discriminator.</p>
+<h3 id="da-2-address-partner-and-collision-experiments">DA-2 — address, partner and collision experiments</h3>
+<p>Use at least three candidate terminal stations once DA-1 is qualified.</p>
+<ul>
+<li>Enroll B while C presents the same measured local physical code; then enroll C instead, keeping geometry fixed.</li>
+<li>Swap B and C’s positions and readout/controller roles without changing the enrolled physical identity. Repeat after re-enrollment to separate identity from location history.</li>
+<li>Present a near-match physical frequency/mode, a stale challenge, a label-only change, and a physically absent terminal replaced by a characterized dummy.</li>
+<li>Randomly choose which previously enrolled source storage mode to phase-operate after isolation. Its intended counterpart is fixed by an actual enrollment operation, not an undocumented software routing table.</li>
+<li>If two terminals have the same compatible code, measure whether response splits, selects enrollment history, or follows geometry. Collision behavior is an output; unique selection is not assumed.</li>
+</ul>
+<p><strong>Advance:</strong> terminal response follows the declared enrolled relation under the specified swaps, and the code-only, geometry and cached-label countermodels fail within measured tolerances. Terminal absence is an ensemble control with matched source preparation/loading; nobody quietly moves apparatus during an allegedly isolated trial.</p>
+<h3 id="da-3-phase-retained-state-and-channel-mechanism">DA-3 — phase, retained state and channel mechanism</h3>
+<p>Use disjoint discovery and confirmation sets. Test phase 0, π/2, π and 3π/2 at fixed energy, both source detuning directions, several frozen waiting times, and complete discharge/re-enrollment.</p>
+<ul>
+<li>The seeded minimal model predicts a signed sinusoid with a frozen phase origin. The 0/π outcomes are nulls for this statistic, not assertions that no energy exchange can occur in other preparations.</li>
+<li>Apply random relative phase while retaining energy. Its average phase-odd response should vanish; unseeded energy transfer need not.</li>
+<li>Compare genuine discharge/erasure to phase scrambling, and re-enrollment to independent local state recreation.</li>
+<li>Deliberately detune one endpoint over a directly measured series. Do not presume an unearned universal linewidth law for the new channel.</li>
+<li>Use both historical connected enrollment and independently matched preparation. RA specifically predicts a dependence on real pair history; code-only compatibility is a distinct hypothesis.</li>
+</ul>
+<p><strong>Advance:</strong> one prospectively frozen state/channel model predicts held-out signs, relative responses, erasure/recovery and waiting-time behavior. A fit requiring outcome-dependent phase origins or hidden replacement states does not pass.</p>
+<h3 id="da-4-passive-transfer-and-complete-differential-accounts">DA-4 — passive transfer and complete differential accounts</h3>
+<p>Separate seeded phase sensitivity from usable energy transport.</p>
+<ol type="1">
+<li>Reduce the receiver seed to a measured small store while retaining the prescribed hardware/address state. If a candidate channel requires a seed, explicitly determine that threshold.</li>
+<li>Disable receiver actuation and regenerative gain during the transfer window, or meter their maximum available contribution. The detector’s own oscillator/readout pump is part of the account.</li>
+<li>Measure terminal stored-energy increase and extracted load work, source stored-energy decrease, incident/reflected port power, tuner work and losses. Track all terms over a common declared boundary and full settling interval.</li>
+<li>Define an auditable differential balance: <code>change in endpoint stored energies + measured exported heat/work − measured injected work = residual</code>. Calibrate unmeasured loss bounds separately. Total refrigerator power is not a femtojoule calorimeter.</li>
+<li>Require the residual uncertainty, including covariance and systematic bounds, to be smaller than the claimed transferred amount by a frozen margin. A nominal zero residual with larger uncertainty does not close an account.</li>
+<li>For angular-momentum transfer, use a physically characterized handed mode, measure reversal and support torque/recoil with a sufficient impulse floor, and declare the vector boundary. Do not infer J from standing-wave energy. At the illustrative microwave energy scale the necessary angular impulse may be below available readout; in that case this gate remains unpassed.</li>
+</ol>
+<p><strong>Advance:</strong> evidence for transfer rather than a remotely triggered local battery. Full closure is not claimed while an unresolved support or angular-momentum term could carry the result. A lower-frequency torsional/circular-mode implementation may offer a larger measurable angular impulse, but the channel would first have to be reproduced on that implementation.</p>
+<h3 id="da-5-latency-distance-and-ordinary-path-discrimination">DA-5 — latency, distance and ordinary-path discrimination</h3>
+<p>Begin with attainable laboratory baselines; freeze actual distances only after site survey. Vary baseline, shield placement, known-link length in connected controls, endpoint orientation and physical-support route independently where possible.</p>
+<ul>
+<li>Record source-choice, actual phase-operation and terminal-response intervals, each with clock, filtering and onset uncertainty.</li>
+<li>Require an onset estimator qualified against injected signals with the same spectrum; no acausal filtering or post-hoc alignment.</li>
+<li>For an extraordinary early-arrival claim, the conservative <strong>upper</strong> bound on the delay from the earliest unpredictable source act to the terminal response must be below <code>d_min/c</code>, with survey and clock uncertainty included. Merely beating a long coaxial route does not exclude a shorter free-space leak.</li>
+<li>At 1 m, the light-travel time is about 3.34 ns; at 100 m about 334 ns; at 1 km about 3.34 µs. A 50 ms narrow-band energy statistic cannot resolve these fronts. Do not sell the initial bench as a speed-of-light test.</li>
+<li>Narrow-band energy-envelope or group delay is not automatically information-front velocity. A separately qualified broadband intervention/onset detector is needed for that claim.</li>
+<li>Fit and validate distance-dependent amplitude/delay and energy costs; do not assume distance independence from a small baseline range.</li>
+</ul>
+<p><strong>Advance:</strong> an externally replicable candidate channel with a mapped validity envelope and unresolved path hypotheses explicitly named. Finite measurements can bound specified ordinary routes, not prove a universal absence of intermediates. Any spacelike result additionally owes a coherent operational ordering account.</p>
+<h3 id="da-6-retained-organization-and-custody">DA-6 — retained organization and custody</h3>
+<p>First encode a source-private multi-mode phase/amplitude pattern <strong>after</strong> isolation and test held-out terminal reconstruction while recording source depletion. This establishes at most a state-description channel: a classical pattern can be copied, and depletion can be deliberately arranged.</p>
+<p>If that gate passes, commission a separate quantum channel/state-transfer protocol with independently generated nonorthogonal preparations, tomography, survival/loss records, entanglement-breaking benchmark and source-residual characterization. Neither entanglement nor success after ordinary label exchange establishes an isolated usable channel by itself.</p>
+<p>A material token or package requires a different invariant/custody witness that excludes substitution, copying, destruction/reassembly and ordinary-route carriage. No such physical mechanism or ready protocol is claimed by this resonator design. A future package gate must be written and reviewed on its own merits; no living subjects are in scope.</p>
+<h3 id="da-7-independent-replication">DA-7 — independent replication</h3>
+<p>A second apparatus/laboratory receives the frozen protocol and raw-data requirements, not a selected effect trace to reproduce. Independently implement control electronics and analysis, change hardware roles and repeat blinded ordinary-channel injections. Require the same effect domain, controls, conservation limits and finite-null interpretation. Independent experimental review is a release-to-run requirement.</p>
+<h2 id="confound-budget-that-can-actually-be-tested">6. Confound budget that can actually be tested</h2>
+<div class="table-wrap" role="region" aria-label="Scrollable data table 3" tabindex="0"><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Path</th>
+<th>Deliberate control</th>
+<th>Failure condition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF / magnetic / electrical pickup</td>
+<td>Inject the full measured tuner/drive spectrum and adversarial nearby frequencies through exposed seams, cables and supplies</td>
+<td>A calibrated ordinary path can account for the claimed terminal record, or the extrapolation is unqualified</td>
+</tr>
+<tr>
+<td>Optical paths</td>
+<td>Block and instrument viewports/fibers; local independent light sources; modulated-light injections</td>
+<td>Choice-sensitive light or a usable leaked bit remains</td>
+</tr>
+<tr>
+<td>Mechanical / acoustic</td>
+<td>Matched dummy actuation, independent supports, vibration/acoustic injections at measured mode bands</td>
+<td>Response follows support transmission or transducer sensitivity</td>
+</tr>
+<tr>
+<td>Thermal / cryogenic</td>
+<td>Matched heat pulses, hold-time series, bath/line records and stable reset gates</td>
+<td>Signal follows thermal memory or unmetered local energy</td>
+</tr>
+<tr>
+<td>Switching memory</td>
+<td>Real/sham gaps, matched terminations, long guard and pre-choice tail characterization</td>
+<td>Post-isolation response is preparation echo or disconnect transient</td>
+</tr>
+<tr>
+<td>Clock / trigger</td>
+<td>Independent holdover; intentional offsets; no shared live acquisition trigger</td>
+<td>Effect depends on correction fitted to the result or setting-bearing timing traffic</td>
+</tr>
+<tr>
+<td>Software / data</td>
+<td>Stand-alone loggers; post-acquisition commits; replay and fabricated-choice negative fixtures</td>
+<td>Choice is accessible to terminal acquisition/analysis before freeze</td>
+</tr>
+<tr>
+<td>Clone mismatch</td>
+<td>Match local state and port response, then swap history, positions and electronics</td>
+<td>Apparent selectivity can be explained by unequal sensitivity, loading or calibration</td>
+</tr>
+<tr>
+<td>Local amplification</td>
+<td>Receiver drive off, seed-energy sweep, local-store and readout-pump metering</td>
+<td>Terminal energy comes from a local reserve or detector backaction</td>
+</tr>
+</tbody>
+</table></div>
+<p>For linear coherent paths, bound worst-case summed <em>amplitudes</em> with measured phases or conservative coherent addition; summing power attenuations can understate leakage. For nonlinear or thresholded paths, inject directly across the operating range. Random source choices are informational interventions: a path need not deliver the observed terminal energy to trigger it.</p>
+<p>Predeclare an artifact envelope in the same units as tau. A confirmation result must exceed that envelope with uncertainty. If an unidentified path remains large enough, the correct classification is unresolved, not “all ordinary paths excluded.”</p>
+<h2 id="statistics-stopping-and-nulls">7. Statistics, stopping and nulls</h2>
+<ul>
+<li>One primary scalar contrast: tau in DA-1. Two-sided alpha 0.001; target power 0.90. Other windows, modes, phases and transformations are exploratory until separately confirmed with an error allocation.</li>
+<li>Under a two-group independent Gaussian planning approximation, a standardized effect d=0.2 needs about 1,046 experimental units per sign. Plan 1,100 per sign <strong>only if</strong> the blinded pilot supports the independence/noise assumptions. These are not 2,200 arbitrary ADC samples.</li>
+<li>Real repetitions must reset the retained state and satisfy the frozen carryover/thermal criterion. With clustering, use cluster-level units or inflate the design from the blinded pilot. Record how many independent blocks, physical shots and dropped records actually exist.</li>
+<li>Before confirmation, freeze a blocked randomization/permutation test using the physical assignment scheme, exclusion/missingness rules, sample size and uncertainty calculation. A normal approximation is planning, not the final evidence engine.</li>
+<li>Define control equivalence margins in physical units before examining confirmation outcomes. A nonsignificant clone or sham test does not establish a null. Give each required negative control enough data for its interval to fit inside the specified margin; its sample size is additional to the main 2,200-unit illustration.</li>
+<li>No effect-driven early stopping. Equipment protection or loss of calibration can stop a run, but the event and all earlier records are retained. A new apparatus or window requires a new preregistration and independent confirmation data.</li>
+<li>Use a chronological held-out confirmation set and require reproducibility across separately prepared runs; one extreme block cannot establish the mechanism.</li>
+<li>Report a confidence interval, calibrated artifact envelope and physical detection floor. Translate a null to g only under the explicitly specified weak-exchange model in the <a href="direct-arrival-research.html#mechanism-and-conditional-predictions">mechanism construction</a>; disclose unresolved phase, delay and bandwidth domains.</li>
+</ul>
+<p>Success is the intersection of the relevant gates, not a vote among partially significant tests. A physical adverse result is preserved even if another branch remains open.</p>
+<h2 id="data-receipt-and-reduction">8. Data receipt and reduction</h2>
+<p>Each trial must retain:</p>
+<p><code>protocol/version/hash; trial and block IDs; endpoint serials and locations; challenge commitment and physical mapping; enrollment history; mode and initial state; actuator target and actual trace; choice creation time; local timestamps and clock uncertainty; raw ADC files and units; sample/analog bandwidth; calibrations; isolation-witness records; environmental channels; energy/support records; validity flags; all missing/saturated data; immutable raw hashes; delayed label-release record; reduction code/version; exclusions; full result including nulls</code>.</p>
+<p>There are no illustrative sensor records in this package. All demonstration calculations are labeled NOT_EMPIRICAL. Keep raw occurrence, calibrated reduction and causal interpretation in different output fields. Cryptographic integrity does not elevate a reported result to Foundation-Wall M0/M1.</p>
+<h2 id="release-to-run-gate-and-practical-next-action">9. Release-to-run gate and practical next action</h2>
+<p>Before a physical DA-1 run, fill the draft preregistration with actual laboratory/owner, selected resonators and tuner, measured combined-system retention, guard and leakage floor, calibration and injection receipts, source randomness method, timebase bounds, data storage, final sample allocation and analysis implementation. Obtain an independent experimental review. Lab-authorized cryogenic/RF/electrical procedures govern execution.</p>
+<p>This gate is not a request to approve an unspecified purchase. The immediate action is a <strong>DA-0 qualification proposal</strong>: the laboratory must demonstrate the whole preparation–break–hold–phase-operation–readout sequence in connected/null controls at the intended sensitivity. The laboratory proposal supplies the personnel, equipment, costs and schedule for that milestone.</p>
+<p>Do not increase stored energy, add regenerative receiver gain or attempt a new payload class while an unexplained channel/account is unresolved. Any positive anomaly first returns to injections and replication at the qualified low-energy envelope.</p>
+</main>
+<footer><p>Normal Realism → POAMS → Mathematics → Experiment → Engineering. Nature remains the referee.</p><p><a href="https://cfmilam.github.io/nr-poams-exhibits/no-holes-in-space.html">Direct Arrival — conceptual exhibit and audio</a> · <a href="downloads/direct-arrival-research-package-2026-10-17.zip" download>Download complete research package</a> · <a href="index.html">Engineering shelf</a></p></footer></body></html>

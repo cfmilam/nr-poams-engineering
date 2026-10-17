@@ -1,0 +1,117 @@
+{
+  "schema": "poams.direct-arrival.design-preregistration.v0.1",
+  "date": "2026-10-17",
+  "status": "DRAFT_NOT_RUN_READY",
+  "evidence_kind": "DESIGN_ONLY_NOT_EMPIRICAL",
+  "custody": "PUBLIC_RESEARCH_DESIGN",
+  "hypothesis": {
+    "name": "retained_adjacency",
+    "ratified": false,
+    "statement": "A qualified reciprocal preparation may retain a nonzero controllable two-ended exchange after the admitted ordinary bridge is physically removed.",
+    "null": "No post-isolation setting-dependent terminal effect beyond calibrated ordinary paths and local evolution.",
+    "guaranteed_nonzero_magnitude": false,
+    "arbitrary_unprepared_destinations": false,
+    "payload_transport_claim": false,
+    "local_coherence_is_pair_channel_witness": false
+  },
+  "experiment_ids": [
+    "DA-0",
+    "DA-1",
+    "DA-2",
+    "DA-3",
+    "DA-4",
+    "DA-5",
+    "DA-6",
+    "DA-7"
+  ],
+  "primary_experiment": "DA-1",
+  "primary_contrast": "difference of mean normalized enrolled-minus-clone terminal energy residual, positive versus negative late source phase operation",
+  "source_choice": {
+    "values": [
+      -1,
+      1
+    ],
+    "created_after_all_endpoints_isolated": true,
+    "shared_seed_allowed": false,
+    "receiver_knows_choice_during_acquisition": false,
+    "source_triggered_receiver_acquisition_allowed": false
+  },
+  "illustrative_parameters_not_hardware_receipts": {
+    "frequency_hz": 1300000000.0,
+    "loaded_q": 1500000000.0,
+    "guard_s": 0.02,
+    "phase_operation_s": 0.005,
+    "observation_s": 0.05,
+    "phase_step_magnitude_rad": 1.5707963267948966,
+    "max_phase_uncertainty_rad": 0.5235987755982988,
+    "illustrative_stored_energy_j": 1e-12,
+    "illustrative_null_contrast_upper_bound": 0.01,
+    "weak_exchange_branch_abs_g_times_T_less_than": 0.7853981633974483
+  },
+  "statistical_plan": {
+    "primary_contrasts": 1,
+    "alpha_two_sided": 0.001,
+    "target_power": 0.9,
+    "illustrative_standardized_effect": 0.2,
+    "illustrative_independent_units_per_sign": 1100,
+    "planning_distribution": "independent Gaussian approximation only",
+    "final_inference": "blocked randomization/permutation inference frozen to the actual assignment scheme",
+    "effect_dependent_stopping": false,
+    "outcome_dependent_window_or_phase_selection": false,
+    "required_controls_need_equivalence_intervals": true,
+    "control_sample_sizes_additional_to_primary": true,
+    "pilot_and_confirmation_disjoint": true,
+    "all_scheduled_attempts_retained": true
+  },
+  "required_control_families": [
+    "known_bridge_on_positive_control",
+    "real_and_sham_disconnection_with_matched_loading",
+    "independently_prepared_unenrolled_clone",
+    "physical_address_and_position_swaps",
+    "near_match_stale_label_and_dummy_terminal",
+    "matched_source_dummy_actuation",
+    "phase_scramble_separate_from_energy_erasure",
+    "receiver_passivity_and_local_store_accounting",
+    "electromagnetic_optical_mechanical_acoustic_thermal_injections",
+    "independent_clocks_no_live_cross_endpoint_reference",
+    "software_replay_label_and_missingness_controls"
+  ],
+  "run_specific_required": {
+    "laboratory_and_responsible_operator": null,
+    "endpoint_serials_modes_and_geometry": null,
+    "physical_address_mapping_and_resolution": null,
+    "tuner_phase_work_and_transient_qualification": null,
+    "measured_loaded_ringdown_and_phase_retention": null,
+    "measured_disconnect_guard_and_witness_receipts": null,
+    "calibrated_ordinary_path_envelope": null,
+    "source_rng_implementation_and_independence_receipt": null,
+    "independent_clock_holdover_and_alignment_bounds": null,
+    "raw_adc_units_bandwidth_sampling_and_storage": null,
+    "energy_loss_readout_and_support_uncertainty": null,
+    "fixed_reference_baseline_and_endpoint_reduction": null,
+    "blocked_randomization_and_final_sample_allocation": null,
+    "physical_effect_floor_and_control_equivalence_margins": null,
+    "missingness_saturation_fault_and_carryover_rules": null,
+    "locked_analysis_implementation_and_hash": null,
+    "laboratory_execution_envelope": null,
+    "independent_experimental_review": null
+  },
+  "classification_rules": {
+    "DA1_positive": "candidate controlled channel only",
+    "unclosed_receiver_local_energy": "triggered local release or unresolved account",
+    "ordinary_path_explains_result": "ordinary coupling",
+    "failed_retention_or_isolation": "apparatus failure, not physical null",
+    "adequate_finite_null": "scoped bound for tested preparation, timing, bandwidth and effect size",
+    "classical_state_copy": "information or state-description transfer, not physical custody",
+    "full_adjacency": "requires relevant DA2-DA5 gates plus DA7 replication; no absolute absence-of-path theorem",
+    "spacelike_channel": "separate broadband timing and causal-ordering burden"
+  },
+  "authority": {
+    "external_contacts_made": false,
+    "equipment_purchased": false,
+    "hardware_operated": false,
+    "public_package_publication_authorized": true,
+    "patent_files_changed": false
+  },
+  "public_edition": "1.0"
+}

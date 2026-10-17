@@ -1,0 +1,132 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "max_energy_error": 3.552713678800501e-15,
+        "max_inverse_error": 4.965068306494546e-16
+      },
+      "name": "finite_joint_map_conserves_equal_frequency_energy_and_is_reversible",
+      "passed": true
+    },
+    {
+      "detail": {
+        "max_error": 4.440892098500626e-16
+      },
+      "name": "seeded_phase_odd_transfer_matches_derived_sign_and_magnitude",
+      "passed": true
+    },
+    {
+      "detail": {
+        "global_max_error": 1.7763568394002505e-15,
+        "seedless_max_error": 0.0
+      },
+      "name": "global_phase_and_seedless_phase_do_not_fake_address_selectivity",
+      "passed": true
+    },
+    {
+      "detail": {
+        "phase_averaged_seeded_excess": 0.0,
+        "unseeded_transfer_fraction_same_coupling": 0.016805010932743388
+      },
+      "name": "dephasing_zeroes_seeded_mean_without_proving_channel_erasure",
+      "passed": true
+    },
+    {
+      "detail": {
+        "energy_after": 3.998649636676556,
+        "energy_before": 5.250000000000001,
+        "posted_loss": 1.2513503633234442
+      },
+      "name": "passive_loss_account_closes_without_equating_amplitude_and_energy_lifetimes",
+      "passed": true
+    },
+    {
+      "detail": {
+        "max_remote_marginal_error": 1.1443916996305594e-16
+      },
+      "name": "local_trace_preserving_operations_do_not_signal_to_correlated_receiver",
+      "passed": true
+    },
+    {
+      "detail": "Identical joint maps are observationally identical; isolation evidence is necessary.",
+      "name": "endpoint_curve_does_not_identify_an_ordinary_or_new_path",
+      "passed": true
+    },
+    {
+      "detail": {
+        "illustrative_bound_rad_per_s": 0.06564763340526285,
+        "large_bound_gives_no_constraint": true,
+        "recovered_contrast": 0.010000000000000002
+      },
+      "name": "conditional_weak_exchange_null_bound_inverts_only_its_stated_branch",
+      "passed": true
+    },
+    {
+      "detail": {
+        "approximate_power": 0.9192267239688205,
+        "not_validated_for_actual_apparatus": true,
+        "planned_per_sign": 1100,
+        "required_per_sign": 1046
+      },
+      "name": "planning_sample_size_attains_nominal_power_under_declared_iid_assumption",
+      "passed": true
+    },
+    {
+      "detail": {
+        "missing_required_fields": 18
+      },
+      "name": "draft_cannot_be_misclassified_as_run_ready_by_status_label_alone",
+      "passed": true
+    }
+  ],
+  "checks_passed": 10,
+  "checks_total": 10,
+  "evidence_kind": "DESIGN_CHECKS_NOT_EMPIRICAL",
+  "illustrative_budget": {
+    "amplitude_lifetime_s": 0.3672806379043739,
+    "amplitude_survival": 0.8152964231480925,
+    "constant_relative_frequency_error_limit_hz": 1.111111111111111,
+    "energy_decay_rate_per_s": 5.445427266222308,
+    "energy_lifetime_s": 0.18364031895218694,
+    "energy_survival": 0.6647082575980734,
+    "frequency_hz": 1300000000.0,
+    "light_travel_s_at_1m_100m_1km": [
+      3.3356409519815204e-09,
+      3.3356409519815204e-07,
+      3.3356409519815205e-06
+    ],
+    "loaded_q": 1500000000.0,
+    "one_mhz_linewidth_energy_lifetime_s": 1.5915494309189535e-07,
+    "one_percent_of_that_angular_impulse": 1.2242687930145796e-24,
+    "phase_step_average_frequency_shift_hz": 49.99999999999999,
+    "qualified_circular_mode_only_J_for_illustrative_energy": 1.2242687930145795e-22,
+    "total_retained_interval_s": 0.07500000000000001
+  },
+  "independent_review": false,
+  "physical_verification": false,
+  "readiness": {
+    "missing_required_fields": [
+      "laboratory_and_responsible_operator",
+      "endpoint_serials_modes_and_geometry",
+      "physical_address_mapping_and_resolution",
+      "tuner_phase_work_and_transient_qualification",
+      "measured_loaded_ringdown_and_phase_retention",
+      "measured_disconnect_guard_and_witness_receipts",
+      "calibrated_ordinary_path_envelope",
+      "source_rng_implementation_and_independence_receipt",
+      "independent_clock_holdover_and_alignment_bounds",
+      "raw_adc_units_bandwidth_sampling_and_storage",
+      "energy_loss_readout_and_support_uncertainty",
+      "fixed_reference_baseline_and_endpoint_reduction",
+      "blocked_randomization_and_final_sample_allocation",
+      "physical_effect_floor_and_control_equivalence_margins",
+      "missingness_saturation_fault_and_carryover_rules",
+      "locked_analysis_implementation_and_hash",
+      "laboratory_execution_envelope",
+      "independent_experimental_review"
+    ],
+    "ready": false,
+    "status": "DRAFT_NOT_RUN_READY"
+  },
+  "schema": "poams.direct-arrival.design-checks.v0.1"
+}

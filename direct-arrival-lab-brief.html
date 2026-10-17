@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Direct Arrival — Laboratory Brief — Normal Realism &amp; POAMS</title><meta name="description" content="A buildable prepare–disconnect–hold–phase-operate–read sequence, with engineering targets and a staged laboratory proposal.">
+<link rel="stylesheet" href="assets/direct-arrival-reader.css"><link rel="stylesheet" href="assets/direct-arrival.css">
+<script defer src="assets/direct-arrival.js"></script></head>
+<body class="reader-standard"><a class="skip" href="#content">Skip to content</a>
+<nav class="topbar" aria-label="Library navigation"><a href="https://cfmilam.github.io/nr-poams-exhibits/index.html#engineering-card">← Hub laboratory library</a><a href="index.html">Engineering shelf</a><span class="series">Normal Realism · POAMS</span><button id="print-document" type="button">Print / save PDF</button></nav>
+<header><h1>Direct Arrival — Laboratory Brief</h1><p class="reader-attribution">This exhibit is an extrapolation of the foundational work of N. Vivian “Viv” Pope &amp; Dr. Anthony D. Osborne, PhD, in the philosophy of Normal Realism (NR) and the mathematics of the Pope Osborne Angular Momentum Synthesis (POAMS).</p><p class="subtitle">A buildable prepare–disconnect–hold–phase-operate–read sequence, with engineering targets and a staged laboratory proposal.</p><p class="edition">Research design · Public edition 1.0 · 17 October 2026</p><nav class="package-nav" aria-label="Direct Arrival research package"><a href="direct-arrival-research.html">Research & mechanism</a><a href="direct-arrival-protocol.html">Full protocol</a><a href="direct-arrival-lab-brief.html" aria-current="page">Lab brief</a></nav></header>
+<main id="content"><details class="contents"><summary>In this document</summary><ul><li><a href="#objective">Objective</a></li><li><a href="#physical-construction">Physical construction</a></li><li><a href="#decisive-trial">Decisive trial</a></li><li><a href="#initial-engineering-targets">Initial engineering targets</a></li><li><a href="#work-packages">Work packages</a></li><li><a href="#requested-laboratory-proposal">Requested laboratory proposal</a></li></ul></details><h2 id="objective">Objective</h2>
+<p>Build and test a pair of prepared endpoints whose exchange relationship can be interrogated after their preparation link is removed.</p>
+<p>Direct Arrival approaches transport through <strong>controlled endpoint adjacency</strong>: prepare two physical organizations to exchange, retain their organization, and test whether that exchange can be selected and operated without the original connection. The opening experiment seeks an address-selective terminal response, accompanied by the corresponding source energy change.</p>
+<p>A reproducible result would establish the experimental foundation for address-selective exchange devices. The immediate laboratory task is to deliver the preparation, isolation, phase-control and readout system, then conduct a blinded test.</p>
+<h2 id="physical-construction">Physical construction</h2>
+<p>Use long-lived superconducting RF resonators with a removable, phase-controlled enrollment bridge. The bridge establishes and measures reciprocal exchange before isolation. A local boundary tuner then advances or retards the source’s retained phase.</p>
+<p>The first test uses three stations:</p>
+<ul>
+<li><strong>A — source:</strong> jointly prepared with the enrolled receiver; carries the boundary tuner and local random-choice generator.</li>
+<li><strong>B — enrolled receiver:</strong> shares the measured preparation history with A.</li>
+<li><strong>C — reference receiver:</strong> independently prepared to match B’s local frequency, phase, amplitude and loading, without A–C enrollment.</li>
+</ul>
+<p>Each station has its own acquisition, timing reference and local records. The receiver comparison asks whether the response follows the prepared relationship.</p>
+<p>The lead hardware has a concrete precedent: phase-controlled coupled SRF cavities with long loaded ringdown. <a href="https://arxiv.org/html/2305.15662v2">Wang et al., coupled-cavity apparatus</a></p>
+<h2 id="decisive-trial">Decisive trial</h2>
+<ol type="1">
+<li><strong>Prepare.</strong> Establish reciprocal A–B exchange. Bind the trial to a fresh terminal challenge mapped to measured physical settings. Independently prepare C.</li>
+<li><strong>Isolate.</strong> Remove the preparation drives and disconnect the bridge at both ends, with local terminations and recorded physical-break witnesses. Disconnect cross-station authentication, timing and feedback links.</li>
+<li><strong>Hold.</strong> Allow the measured switching and preparation transients to settle while retaining the endpoint states.</li>
+<li><strong>Choose and act.</strong> Generate a fresh random choice at A after isolation. Apply a calibrated positive or negative quarter-turn phase operation and restore the nominal resonance.</li>
+<li><strong>Read.</strong> Record continuous source and receiver traces over a fixed window. B and C execute the same autonomous acquisition regardless of A’s choice.</li>
+<li><strong>Compare.</strong> Seal the raw records, release the source choices, and apply the predetermined analysis.</li>
+</ol>
+<p>The primary measurement is the difference between B’s and C’s normalized energy changes, compared across the two source phase choices. In the seeded exchange model, opposite quarter-turns produce opposite energy redistribution between A and B. Record each station separately as well as the differential result.</p>
+<p>The receivers learn the source choice only after acquisition is complete.</p>
+<h2 id="initial-engineering-targets">Initial engineering targets</h2>
+<div class="table-wrap" role="region" aria-label="Scrollable data table 1" tabindex="0"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Starting target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Storage mode</td>
+<td>1.3 GHz-class superconducting resonator</td>
+</tr>
+<tr>
+<td>Loaded quality factor</td>
+<td>Approximately 1.5 billion in the assembled apparatus</td>
+</tr>
+<tr>
+<td>Isolation guard</td>
+<td>20 ms, extended to cover measured transients</td>
+</tr>
+<tr>
+<td>Source phase operation</td>
+<td>±π/2 within 5 ms; matched final frequency and amplitude</td>
+</tr>
+<tr>
+<td>Observation window</td>
+<td>50 ms after the phase operation</td>
+</tr>
+<tr>
+<td>Retained-state interval</td>
+<td>75 ms for this sequence</td>
+</tr>
+<tr>
+<td>Relative phase uncertainty</td>
+<td>At most π/6 across the retained-state interval</td>
+</tr>
+</tbody>
+</table></div>
+<p>The passive storage calculation gives an energy decay time of approximately 184 ms and about 66% energy retention over 75 ms. A 5 ms quarter-turn requires an average detuning of ±50 Hz.</p>
+<p>Set the final timing and operating amplitude from measurements of the <strong>complete assembly</strong>, including tuner, switches, terminations and readout. Alternative resonator architectures are welcome where they improve retained phase, isolation or measurement sensitivity.</p>
+<h2 id="work-packages">Work packages</h2>
+<h3 id="establish-the-operating-window">1. Establish the operating window</h3>
+<p>Measure loaded energy decay, phase holdover, mode purity, readout loading and tuner response. Demonstrate both phase-operation signs, restored final resonance and repeatable reset. Determine the interval available after actual disconnection and settling.</p>
+<h3 id="calibrate-exchange-and-isolation">2. Calibrate exchange and isolation</h3>
+<p>With a known bridge present, recover weak exchange of measured strength, phase sign and delay. With it removed, characterize residual paths through calibrated RF, optical, electrical, mechanical, acoustic and thermal injections.</p>
+<p>Include matched dummy actuation, real/sham disconnects and deliberate setting-bearing leaks. Meter receiver-local stores and readout inputs so triggered local release can be distinguished from transferred energy.</p>
+<h3 id="run-the-blinded-endpoint-test">3. Run the blinded endpoint test</h3>
+<p>Freeze the operating settings, receiver statistic, timing window, sample allocation and control margins. Generate source choices after isolation, retain every scheduled trial, and analyze using the recorded randomization scheme.</p>
+<p>Measure source depletion, terminal gain, port work, actuator/readout inputs and the differential loss budget. Report the response or exclusion bound in physical units with its measured uncertainty.</p>
+<h3 id="establish-selectivity-and-reproducibility">4. Establish selectivity and reproducibility</h3>
+<p>Swap enrollment between receivers while holding geometry fixed; then swap positions and electronics. Test phase reversal, detuning, retained-state erasure and re-enrollment. Repeat the result with an independently prepared apparatus.</p>
+<p>These tests determine whether the effect follows the enrolled endpoint and which preparation sustains it.</p>
+<h2 id="requested-laboratory-proposal">Requested laboratory proposal</h2>
+<p>Provide:</p>
+<ol type="1">
+<li><strong>Apparatus and team:</strong> block diagram, responsible investigators, existing equipment and required additions. Price the third reference station separately.</li>
+<li><strong>Performance plan:</strong> achievable retention, phase-operation time, disconnect settling, isolation floor and energy sensitivity.</li>
+<li><strong>Run plan:</strong> calibration and injection program, blinded trial matrix, independent experimental unit, sample allocation and reset procedure.</li>
+<li><strong>Deliverables:</strong> complete raw records, calibration and uncertainty budgets, reproducible analysis, and an endpoint-response map or quantitative exclusion bound.</li>
+<li><strong>Cost and schedule:</strong> staged estimates for apparatus qualification, the first blinded run and replication.</li>
+</ol>
+<p>The first milestone is a demonstrated <strong>prepare–disconnect–hold–phase-operate–read</strong> sequence at a stated sensitivity. That establishes the platform for the Direct Arrival experiment.</p>
+<p>Supporting technical material: <a href="direct-arrival-protocol.html">experimental protocol</a> · <a href="direct-arrival-research.html#mechanism-and-conditional-predictions">mechanism and predictions</a>.</p>
+</main>
+<footer><p>Normal Realism → POAMS → Mathematics → Experiment → Engineering. Nature remains the referee.</p><p><a href="https://cfmilam.github.io/nr-poams-exhibits/no-holes-in-space.html">Direct Arrival — conceptual exhibit and audio</a> · <a href="downloads/direct-arrival-research-package-2026-10-17.zip" download>Download complete research package</a> · <a href="index.html">Engineering shelf</a></p></footer></body></html>
