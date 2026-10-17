@@ -11,6 +11,7 @@ Reproduce the calculations:
 This writes design-checks.json. Python 3.9+ and its standard library are sufficient.
 The 10 checks validate conditional mathematics and design arithmetic, not physical measurements.
 The draft preregistration requires instrument-specific entries and independent experimental review before a run.
-package-manifest.json hashes the public release files relative to the archive/site root; it excludes itself and the ZIP.
+package-manifest.json hashes the GitHub Pages source files and the byte-identical ZIP entries, relative to the archive/site root; it excludes itself and the ZIP.
+The protected Hub rewrites navigation in reflected HTML. Those rendered views are not byte-identical to source HTML; verify the ZIP or public source site against this manifest.
 The ZIP includes source/source-manifest.json to bind the additional readable Markdown sources.
 Private review diaries and superseded drafts are retained separately and are not distributed here.

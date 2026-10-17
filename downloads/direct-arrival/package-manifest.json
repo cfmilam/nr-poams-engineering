@@ -4,9 +4,9 @@
   "evidence_kind": "FILE_INTEGRITY_NOT_PHYSICAL_EVIDENCE",
   "files": [
     {
-      "bytes": 33851,
+      "bytes": 33984,
       "path": "direct-arrival-research.html",
-      "sha256": "511b94ee9a790eca1b01a9211d338ab2f4fe2778ad0454976ee5abedf3c12a57"
+      "sha256": "a265acc0bab74ecbec5669504d360b99d190136ff38a936c1f28285d47fe96db"
     },
     {
       "bytes": 33729,
@@ -49,10 +49,12 @@
       "sha256": "50fd68a4513cdbfefb684e4d4e35abf26dd18fab79d1c9a2a82ec53989583886"
     },
     {
-      "bytes": 1062,
+      "bytes": 1280,
       "path": "downloads/direct-arrival/README.txt",
-      "sha256": "39ca2c81b979dcf74265c7dda9ee5bfd166af189767c59c19f3f59e5ba63b777"
+      "sha256": "4a6eac008187ea81a5ca94cbd21a453d8293f44f5c09be819d71c38ab2a5936f"
     }
   ],
+  "hash_scope": "GITHUB_PAGES_SOURCE_FILES_AND_BYTE_IDENTICAL_ZIP_ENTRIES",
+  "protected_hub_note": "The Hub rewrites HTML navigation. Verify source files or ZIP entries, not rewritten Hub HTML, against these hashes.",
   "schema": "poams.direct-arrival.public-package-manifest.v1"
 }
