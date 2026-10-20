@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Direct Arrival: A Silicon Correspondence for Coupled Ledgers — Normal Realism &amp; POAMS</title>
+<meta name="description" content="A physical correspondence from the two-ledger model to connected silicon photonics, with independent experimental support, energy accounts and reproducible mathematical checks.">
+<link rel="stylesheet" href="assets/direct-arrival-reader.css"><link rel="stylesheet" href="assets/direct-arrival.css"><link rel="stylesheet" href="assets/direct-arrival-paper.css">
+<script defer src="assets/direct-arrival.js"></script></head><body class="reader-standard">
+<a class="skip" href="#content">Skip to content</a>
+<nav class="topbar" aria-label="Library navigation"><a href="https://cfmilam.github.io/nr-poams-exhibits/no-holes-in-space.html#synthetic-model">← Direct Arrival &amp; model</a><a href="index.html">Engineering shelf</a><button id="print-document" type="button">Print / save PDF</button></nav>
+<header><p class="paper-kicker">Engineering · Technical paper</p><h1>Direct Arrival: A Silicon Correspondence for Coupled Ledgers</h1>
+<p class="reader-attribution">This paper develops the Direct Arrival program arising from the foundational work of N. Vivian “Viv” Pope &amp; Dr. Anthony D. Osborne, PhD, in Normal Realism and the Pope Osborne Angular Momentum Synthesis.</p>
+<p class="subtitle">From coupled ledger dynamics to physical optical exchange.</p>
+<p class="edition">Public edition 1.0 · 19 October 2026</p>
+<nav class="package-nav" aria-label="Paper and related work"><a class="pdf-download" href="downloads/direct-arrival-silicon-correspondence.pdf">Download PDF</a><a href="direct-arrival-research.html">Research &amp; mechanism</a><a href="https://cfmilam.github.io/nr-poams-exhibits/no-holes-in-space.html#synthetic-model">Interactive model</a><a href="#reproduce-the-mathematical-checks">Verification files</a></nav></header>
+<main id="content"><details class="contents"><summary>In this paper</summary><ul><li><a href="#abstract">Abstract</a></li><li><a href="#independent-experimental-support">Independent experimental support</a></li><li><a href="#the-question-and-the-distinction-it-requires">1. The question and the distinction it requires</a></li><li><a href="#exact-scope-of-the-candidate">2. Exact scope of the candidate</a></li><li><a href="#deriving-the-pair-exchange-from-physical-mode-propagation">3. Deriving the pair exchange from physical mode propagation</a></li><li><a href="#full-graph-correspondence-and-resource-scaling">4. Full graph correspondence and resource scaling</a></li><li><a href="#derived-predictions-without-fitting-the-response">5. Derived predictions, without fitting the response</a></li><li><a href="#mismatch-loss-error-and-complete-accounts">6. Mismatch, loss, error and complete accounts</a></li><li><a href="#operational-readout-and-failure-conditions">7. Operational readout and failure conditions</a></li><li><a href="#angular-momentum-storage-and-residual-unknowns">8. Angular momentum, storage and residual unknowns</a></li><li><a href="#verification-and-evidence-status">9. Verification and evidence status</a></li><li><a href="#conclusion">10. Conclusion</a></li></ul></details><h2 id="abstract">Abstract</h2>
+<p>A coupled ledger becomes a physical construction when its state variables, exchange rule and conserved account have explicit counterparts in an apparatus. This paper supplies that correspondence for the twelve-node, two-ledger model accompanying <em>Direct Arrival</em>. Coherent optical modes represent the complex state; integrated packet energies represent the ledger balances; and matched coupling sections implement the model’s finite two-mode rotation. An ordered network reproduces the complete graph evolution, with derived phase response, inverse operations, loss accounts and error bounds.</p>
+<p>The connected mechanism has an independent experimental precedent. Silicon directional couplers and programmable coherent transformations have been investigated experimentally for optical communications and computing, independently of this proposal. Those results support the physical component class and connected operations used here. The present contribution is the explicit correspondence to our ledger model and its complete accounting requirements. The distinctive Direct Arrival question remains what happens after the ordinary physical connection is removed.</p>
+<p><strong>Result:</strong> an energy-normalized, connected silicon-photonic construction, with reported external experimental support for its building blocks and eleven reproducible mathematical checks of the correspondence.</p>
+<h2 id="independent-experimental-support">Independent experimental support</h2>
+<p>We need not begin by inventing an unobserved connected interaction. Two independently motivated experimental programs already address the relevant silicon operations:</p>
+<div class="table-wrap" role="region" aria-label="Scrollable table 1" tabindex="0"><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Experimental work</th>
+<th>Reported result relevant here</th>
+<th>Supported claim</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ahmed H. El-Saeed and colleagues, <em>Low-Loss Silicon Directional Coupler with Arbitrary Coupling Ratios</em> (2024)</td>
+<td>Fabricated silicon couplers with measured through/cross power behavior and several coupling ratios</td>
+<td>Silicon structures can physically redistribute optical power between connected ports; symmetry, mismatch and loss matter</td>
+</tr>
+<tr>
+<td>José Roberto Rausell-Campo, Daniel Pérez-López and José Capmany, <em>Programming universal unitary transformations on a general-purpose silicon photonic platform</em> (2025; preprint 2024)</td>
+<td>Programmed and tested coherent 3×3 and 4×4 transformations on an integrated photonic processor</td>
+<td>Physical networks of calibrated couplers and phase controls can implement coherent linear transformations</td>
+</tr>
+</tbody>
+</table></div>
+<p>The coupler study reports device measurements and the effects of asymmetry; it does not establish that every splitter has the ideal symmetric phase relation. <a href="https://arxiv.org/html/2404.06117v1">El-Saeed et al., full paper</a></p>
+<p>The transformation study’s preprint describes 1,500 random matrices per size/architecture combination. Its reported comparison normalizes the measured output powers, so that comparison supports transformation behavior, not an independent absolute energy-closure test. <a href="https://arxiv.org/html/2407.03235v1#S4">Rausell-Campo et al., experimental procedure</a></p>
+<p>These experiments predate this ledger construction and were performed for other purposes. Their independence gives a useful external check; our correspondence is retrospective, not a prediction those experiments were designed to confirm. Neither study tested this exact twelve-node schedule or exchange after physical disconnection. Their published results are used as reported experimental support; raw instrument records have not been independently replayed here.</p>
+<p>The separation is productive: the connected physical mechanism has an experimental basis, the complete ledger mapping is developed below, and <strong>retained adjacency after disconnect remains the new physical question</strong>.</p>
+<h2 id="the-question-and-the-distinction-it-requires">1. The question and the distinction it requires</h2>
+<p>Silicon’s physical energetic transfers can supply a connection between represented states. The stronger construction identifies the <em>particular conserved account and exchange law</em> with physical quantities and interactions. That distinction separates ordinary physical computation from an apparatus whose own dynamics perform the proposed exchange.</p>
+<p>For an ordinary computer, let a decoding map D take a valid hardware state p to a numerical model state ψ. A running implementation has the approximate correspondence</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi><mo stretchy="false" form="prefix">(</mo><mi>F</mi><mo stretchy="false" form="prefix">(</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="postfix">)</mo><mo>≈</mo><mi>U</mi><mi>D</mi><mo stretchy="false" form="prefix">(</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">
+D(F(p))\approx U D(p)
+</annotation></semantics></math></p>
+<p>where F includes actual processor, memory and control operations. The approximation includes floating-point arithmetic. This does <strong>not</strong> imply that hardware energy has the form</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>E</mi><mrow><mi mathvariant="normal">h</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">d</mi><mi mathvariant="normal">w</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">e</mi></mrow></msub><mo stretchy="false" form="prefix">(</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msub><mi>E</mi><mo>*</mo></msub><msup><mrow><mo stretchy="true" form="prefix">‖</mo><mi>D</mi><mo stretchy="false" form="prefix">(</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo stretchy="true" form="postfix">‖</mo></mrow><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">
+E_{\mathrm{hardware}}(p)=E_*\lVert D(p)\rVert^2
+</annotation></semantics></math></p>
+<p>Encoding changes, unused storage, clock activity and different instruction sequences can preserve the decoded calculation while changing hardware activity and energy cost. The memory representing 1.25 need not contain more physical energy than memory representing 0.75. Moreover, the program reads and writes both endpoints during exchange. “No scripted outcome” does not mean “no programmed update.”</p>
+<p>The model’s disconnected control proves independence of its represented B state from a fresh A intervention under that code. It does not physically isolate two parts of the computer from shared power, heat, clocks or other hardware paths.</p>
+<h3 id="candidate-selection">Candidate selection</h3>
+<div class="table-wrap" role="region" aria-label="Scrollable table 2" tabindex="0"><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Candidate</th>
+<th>What is physically represented</th>
+<th>Correspondence established here</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Existing CPU / digital memory</td>
+<td>Binary encodings of complex numbers</td>
+<td>Physical execution of the numerical rule; no energy identification</td>
+</tr>
+<tr>
+<td>Digital FPGA implementation</td>
+<td>Register encodings and hardware arithmetic</td>
+<td>Could remove a software execution layer, but encoding is still not an energy account</td>
+</tr>
+<tr>
+<td>Coupled electrical/optical storage resonators</td>
+<td>Retained oscillatory states</td>
+<td>Relevant to storage, but switching work, interaction energy and mode normalization need their own branch</td>
+</tr>
+<tr>
+<td><strong>Finite silicon-photonic network</strong></td>
+<td><strong>Coherent optical port amplitudes and calibrated pulse energies</strong></td>
+<td><strong>Selected: explicit finite exchange and full-network energy correspondence</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>Silicon directional couplers and programmable interferometer networks are established component classes in the literature. The independent reports support these connected component classes; they did not test our particular twelve-mode network. <a href="https://arxiv.org/abs/2404.06117">El-Saeed et al.</a>, <a href="https://doi.org/10.1063/5.0235712">Rausell-Campo, Pérez-López and Capmany</a></p>
+<h2 id="exact-scope-of-the-candidate">2. Exact scope of the candidate</h2>
+<p>The candidate is a finite-depth, connected, feed-forward optical network on a silicon photonic platform. Its twelve labeled channels represent A0–A5 and B0–B5 at successive reference planes. A graph step is a prescribed sequence of physical coupling sections, <strong>not elapsed time in twelve permanently interconnected resonators</strong>.</p>
+<p>The adopted assumptions are:</p>
+<ol type="1">
+<li>Power-normalized, mutually orthogonal input/output port modes with a common carrier frequency and specified polarization. Arbitrary overlapping fields cannot be assigned additive energies just by naming them separate nodes.</li>
+<li>Linear, passive, time-independent sections during each packet’s passage; negligible unwanted reflections and unmodeled mode conversion in the ideal case.</li>
+<li>Sufficiently narrow-band packets and matched channel delays that a common envelope factors out. All remaining relative propagation phases are explicitly included or compensated.</li>
+<li>Prepared input amplitudes and phases are independent of the eventual receiver measurement. The source intervention changes only A0 at its designated reference plane.</li>
+<li>Every nonzero A–B coupling is an ordinary admitted physical path. The branch contains no post-disconnection interaction.</li>
+</ol>
+<p>These are operational assumptions imported from classical photonic circuit modeling. They are not derived from the one-substance ontology. In particular, orthogonal coupled-mode formulas have a limited domain; cross-power terms matter for unsuitable modal bases. <a href="https://doi.org/10.1364/JOSAA.11.000963">Huang, coupled-mode scope and normalization</a></p>
+<h3 id="state-energy-and-phase-mapping">State, energy and phase mapping</h3>
+<p>Let the dimensionless published state be ψ ∈ C¹². Let f(t) be a common packet envelope with ∫|f(t)|² dt = 1, and let E_* &gt; 0 be an independently specified energy scale. Define the physical port amplitude</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>x</mi><mi>j</mi></msub><mo stretchy="false" form="prefix">(</mo><mi>t</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msqrt><msub><mi>E</mi><mo>*</mo></msub></msqrt><mspace width="0.167em"></mspace><msub><mi>ψ</mi><mi>j</mi></msub><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>t</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">
+x_j(t)=\sqrt{E_*}\,\psi_j f(t)
+</annotation></semantics></math></p>
+<p>Here |x_j|² is power in watts, f has units <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi mathvariant="normal">s</mi><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup><annotation encoding="application/x-tex">\mathrm{s}^{-1/2}</annotation></semantics></math>, and</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>E</mi><mi>j</mi></msub><mo>=</mo><mo>∫</mo><mo stretchy="false" form="prefix">|</mo><msub><mi>x</mi><mi>j</mi></msub><mo stretchy="false" form="prefix">(</mo><mi>t</mi><mo stretchy="false" form="postfix">)</mo><msup><mo stretchy="false" form="prefix">|</mo><mn>2</mn></msup><mspace width="0.167em"></mspace><mi>d</mi><mi>t</mi><mo>=</mo><msub><mi>E</mi><mo>*</mo></msub><mo stretchy="false" form="prefix">|</mo><msub><mi>ψ</mi><mi>j</mi></msub><msup><mo stretchy="false" form="prefix">|</mo><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">
+E_j=\int |x_j(t)|^2\,dt=E_*|\psi_j|^2
+</annotation></semantics></math></p>
+<p>Thus <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>E</mi><mi>A</mi></msub><mo>=</mo><msub><mi>E</mi><mo>*</mo></msub><msub><mo>∑</mo><mrow><mi>j</mi><mo>∈</mo><mi>A</mi></mrow></msub><mo stretchy="false" form="prefix">|</mo><msub><mi>ψ</mi><mi>j</mi></msub><msup><mo stretchy="false" form="prefix">|</mo><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">E_A=E_*\sum_{j\in A}|\psi_j|^2</annotation></semantics></math> and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>E</mi><mi>B</mi></msub><mo>=</mo><msub><mi>E</mi><mo>*</mo></msub><msub><mo>∑</mo><mrow><mi>j</mi><mo>∈</mo><mi>B</mi></mrow></msub><mo stretchy="false" form="prefix">|</mo><msub><mi>ψ</mi><mi>j</mi></msub><msup><mo stretchy="false" form="prefix">|</mo><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">E_B=E_*\sum_{j\in B}|\psi_j|^2</annotation></semantics></math>. The model’s seed is <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">[</mo><msqrt><mn>0.6</mn></msqrt><mo>,</mo><msqrt><mn>0.08</mn></msqrt><mo>,</mo><msqrt><mn>0.08</mn></msqrt><mo>,</mo><msqrt><mn>0.08</mn></msqrt><mo>,</mo><msqrt><mn>0.08</mn></msqrt><mo>,</mo><msqrt><mn>0.08</mn></msqrt><mo stretchy="false" form="postfix">]</mo></mrow><annotation encoding="application/x-tex">[\sqrt{0.6},\sqrt{0.08},\sqrt{0.08},\sqrt{0.08},\sqrt{0.08},\sqrt{0.08}]</annotation></semantics></math> in each group, so each input group carries E_* and the two carry 2E_*. These are <strong>packet energies crossing reference planes</strong>, not a claim about energy stored permanently at the displayed vertices.</p>
+<p>Relative optical phase supplies the model phase. A static, source-local phase section multiplies A0 by exp(iφ), leaving its packet energy unchanged in the ideal model. It is set before that packet arrives; arbitrary choices between packets are possible. This is not a claim that a time-varying phase kick on already stored motion costs zero work. Preparation, actuator setting and thermal stabilization belong to the apparatus account.</p>
+<h2 id="deriving-the-pair-exchange-from-physical-mode-propagation">3. Deriving the pair exchange from physical mode propagation</h2>
+<p>For a matched symmetric two-port coupling section, adopt normalized even/odd supermodes. Their finite propagation factors are exp(-iβ₊ℓ) and exp(-iβ₋ℓ). With</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>H</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac><mrow><mo stretchy="true" form="prefix">(</mo><mtable><mtr><mtd columnalign="center" style="text-align: center"><mn>1</mn></mtd><mtd columnalign="center" style="text-align: center"><mn>1</mn></mtd></mtr><mtr><mtd columnalign="center" style="text-align: center"><mn>1</mn></mtd><mtd columnalign="center" style="text-align: center"><mi>−</mi><mn>1</mn></mtd></mtr></mtable><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">
+H_2=\frac{1}{\sqrt 2}\begin{pmatrix}1&amp;1\\1&amp;-1\end{pmatrix}
+</annotation></semantics></math></p>
+<p>transforming to the supermodes, propagating, and transforming back gives</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mtable><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"><mi>S</mi></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><mo>=</mo><msub><mi>H</mi><mn>2</mn></msub><mrow><mi mathvariant="normal">diag</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">(</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>i</mi><msub><mi>β</mi><mo>+</mo></msub><mi>ℓ</mi></mrow></msup><mo>,</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>i</mi><msub><mi>β</mi><mo>−</mo></msub><mi>ℓ</mi></mrow></msup><mo stretchy="false" form="postfix">)</mo><msub><mi>H</mi><mn>2</mn></msub></mtd></mtr><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><mo>=</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>i</mi><mover><mi>β</mi><mo accent="true">‾</mo></mover><mi>ℓ</mi></mrow></msup><mrow><mo stretchy="true" form="prefix">(</mo><mtable><mtr><mtd columnalign="center" style="text-align: center"><mrow><mi mathvariant="normal">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mtd><mtd columnalign="center" style="text-align: center"><mi>−</mi><mi>i</mi><mrow><mi mathvariant="normal">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mtd></mtr><mtr><mtd columnalign="center" style="text-align: center"><mi>−</mi><mi>i</mi><mrow><mi mathvariant="normal">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mtd><mtd columnalign="center" style="text-align: center"><mrow><mi mathvariant="normal">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mtd></mtr></mtable><mo stretchy="true" form="postfix">)</mo></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">
+\begin{aligned}S&amp;=H_2\operatorname{diag}(e^{-i\beta_+\ell},e^{-i\beta_-\ell})H_2\\&amp;=e^{-i\bar\beta\ell}\begin{pmatrix}\cos\theta&amp;-i\sin\theta\\-i\sin\theta&amp;\cos\theta\end{pmatrix}\end{aligned}
+</annotation></semantics></math></p>
+<p>where <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover><mi>β</mi><mo accent="true">‾</mo></mover><mo>=</mo><mo stretchy="false" form="prefix">(</mo><msub><mi>β</mi><mo>+</mo></msub><mo>+</mo><msub><mi>β</mi><mo>−</mo></msub><mo stretchy="false" form="postfix">)</mo><mi>/</mi><mn>2</mn></mrow><annotation encoding="application/x-tex">\bar\beta=(\beta_++\beta_-)/2</annotation></semantics></math> and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>θ</mi><mo>=</mo><mo stretchy="false" form="prefix">(</mo><msub><mi>β</mi><mo>+</mo></msub><mo>−</mo><msub><mi>β</mi><mo>−</mo></msub><mo stretchy="false" form="postfix">)</mo><mi>ℓ</mi><mi>/</mi><mn>2</mn></mrow><annotation encoding="application/x-tex">\theta=(\beta_+-\beta_-)\ell/2</annotation></semantics></math>.</p>
+<p>After accounting for the common propagation reference, this is precisely the published pair rule:</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mtable><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"><msup><mi>a</mi><mi>′</mi></msup></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><mo>=</mo><mrow><mi mathvariant="normal">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mspace width="0.167em"></mspace><mi>a</mi><mo>−</mo><mi>i</mi><mrow><mi mathvariant="normal">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mspace width="0.167em"></mspace><mi>b</mi></mtd></mtr><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"><msup><mi>b</mi><mi>′</mi></msup></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><mo>=</mo><mrow><mi mathvariant="normal">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mspace width="0.167em"></mspace><mi>b</mi><mo>−</mo><mi>i</mi><mrow><mi mathvariant="normal">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mspace width="0.167em"></mspace><mi>a</mi></mtd></mtr></mtable><annotation encoding="application/x-tex">
+\begin{aligned}a^\prime&amp;=\cos\theta\,a-i\sin\theta\,b\\b^\prime&amp;=\cos\theta\,b-i\sin\theta\,a\end{aligned}
+</annotation></semantics></math></p>
+<p>The matrix is unitary; therefore the sum of the <strong>port packet energies</strong> is conserved under the declared encoding. Optical propagation and coupling perform the operation without a processor calculating the new amplitudes from the old ones.</p>
+<p><strong>Phase-reference obligation:</strong> a phase common to the two participating modes is not necessarily common to all twelve modes. It cannot silently be discarded at each section. Matched bypass paths or explicitly tracked phase sections must make the complete twelve-mode matrix equal to the target, up to one genuinely global phase and common delay. Published silicon meshes likewise require path-phase calibration; intensity splitting ratios alone do not establish the required complex matrix. <a href="https://arxiv.org/html/2407.03235v1">Rausell-Campo et al., calibration and coherent transformations</a></p>
+<p><strong>Coupler qualification:</strong> not every device sold as a 2×2 splitter has this exact phase law. Asymmetric/bent couplers can change relative phase and the maximum coupling. We use the symmetric idealization and an explicitly calibrated complex transfer matrix, not a generic device label. <a href="https://arxiv.org/html/2404.06117v1">El-Saeed et al., symmetry and phase dependence</a></p>
+<h2 id="full-graph-correspondence-and-resource-scaling">4. Full graph correspondence and resource scaling</h2>
+<p>The accompanying JavaScript executes, in order:</p>
+<ol type="1">
+<li>Six internal ring edges of A, then six internal ring edges of B, each at θ=0.035.</li>
+<li>A0–B0 at θ=0.085 when enabled, or zero when disabled.</li>
+<li>The twelve internal edges again in reverse order at θ=0.035.</li>
+</ol>
+<p>There are <strong>25 pair sections per enabled step</strong>. If the temporal sequence of section matrices is L₁,…,L₂₅, then the transfer is <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>U</mi><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">p</mi></mrow></msub><mo>=</mo><msub><mi>L</mi><mn>25</mn></msub><mi>⋯</mi><msub><mi>L</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">U_{\mathrm{step}}=L_{25}\cdots L_1</annotation></semantics></math>. Each L is the pair matrix embedded into a twelve-mode identity, with all required bypass phases included. A source intervention is <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>P</mi><mn>0</mn></msub><mo stretchy="false" form="prefix">(</mo><mi>φ</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mrow><mi mathvariant="normal">diag</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">(</mo><msup><mi>e</mi><mrow><mi>i</mi><mi>φ</mi></mrow></msup><mo>,</mo><mn>1</mn><mo>,</mo><mi>…</mi><mo>,</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">P_0(\varphi)=\operatorname{diag}(e^{i\varphi},1,\ldots,1)</annotation></semantics></math>.</p>
+<p>For n steps after one source intervention:</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>ψ</mi><mrow><mi mathvariant="normal">o</mi><mi mathvariant="normal">u</mi><mi mathvariant="normal">t</mi></mrow></msub><mo>=</mo><msubsup><mi>U</mi><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">p</mi></mrow><mi>n</mi></msubsup><msub><mi>P</mi><mn>0</mn></msub><mo stretchy="false" form="prefix">(</mo><mi>φ</mi><mo stretchy="false" form="postfix">)</mo><msub><mi>ψ</mi><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">n</mi></mrow></msub></mrow><annotation encoding="application/x-tex">
+\psi_{\mathrm{out}}=U_{\mathrm{step}}^n P_0(\varphi)\psi_{\mathrm{in}}
+</annotation></semantics></math></p>
+<p>The finite spatial network can implement this ordered product. Its direct, unoptimized representation requires 25n coupling sections plus input preparation, phase/bypass/routing sections and output access. Ten steps correspond to 250 pair sections, <strong>not a demonstrated chip footprint or a statement that every optical route crosses all 250 couplers</strong>. The actual phase/loss/depth budget depends on routing. Alternative compilation into a smaller net transformation would need its own correspondence if intermediate graph states are to remain inspectable.</p>
+<p>Other finite, prescribed histories are compositions of the same sections and source-local phase factors at specified reference planes. This does not implement the browser’s indefinite Pause/Run/Undo interface as persistent optical memory. Adaptive intervention on a packet already in the device, repeated circulation, or stopping and retaining its state would require an additional storage/control branch. No detector is assumed to read out a complex state nondestructively between every section.</p>
+<p>It is not enough to fabricate twelve resonators with all edges continuously active. Neighboring edge generators generally do not commute. The always-on map <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="normal">exp</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mi>i</mi><msub><mo>∑</mo><mi>e</mi></msub><msub><mi>θ</mi><mi>e</mi></msub><msub><mi>X</mi><mi>e</mi></msub><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\exp(-i\sum_e\theta_e X_e)</annotation></semantics></math> differs from the ordered product. Numerically, the one-step operator-norm difference is 1.74434×10⁻⁴ at the published angles. Halving all angles reduces the discrepancy by approximately eight, as expected for the symmetric sequence’s leading cubic error. A controlled approximation is possible, but it is not identity.</p>
+<p>This is a theoretical correspondence in the stated modal model, not a full-wave semiconductor/material calculation or a fabrication design. Packet passage has ordinary finite delay. A spatial reference-plane map does not supply instantaneous action or remove the physical propagation path.</p>
+<h2 id="derived-predictions-without-fitting-the-response">5. Derived predictions, without fitting the response</h2>
+<h3 id="two-populated-modes">Two populated modes</h3>
+<p>For <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>=</mo><msqrt><msub><mi>E</mi><mn>0</mn></msub></msqrt><msup><mi>e</mi><mrow><mi>i</mi><mi>φ</mi></mrow></msup></mrow><annotation encoding="application/x-tex">a=\sqrt{E_0}e^{i\varphi}</annotation></semantics></math> and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>b</mi><mo>=</mo><msqrt><msub><mi>E</mi><mn>0</mn></msub></msqrt></mrow><annotation encoding="application/x-tex">b=\sqrt{E_0}</annotation></semantics></math> in energy-normalized units, direct expansion gives</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Δ</mi><msub><mi>E</mi><mi>B</mi></msub><mo>=</mo><msub><mi>E</mi><mn>0</mn></msub><mrow><mi mathvariant="normal">sin</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mi>θ</mi><mo stretchy="false" form="postfix">)</mo><mrow><mi mathvariant="normal">sin</mi><mo>&#8289;</mo></mrow><mi>φ</mi><mo>,</mo><mspace width="2.0em"></mspace><mi mathvariant="normal">Δ</mi><msub><mi>E</mi><mi>A</mi></msub><mo>=</mo><mi>−</mi><mi mathvariant="normal">Δ</mi><msub><mi>E</mi><mi>B</mi></msub></mrow><annotation encoding="application/x-tex">
+\Delta E_B=E_0\sin(2\theta)\sin\varphi,\qquad\Delta E_A=-\Delta E_B
+</annotation></semantics></math></p>
+<p>For general input amplitudes:</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mtable><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"><mi mathvariant="normal">Δ</mi><msub><mi>E</mi><mi>B</mi></msub><mo>=</mo><mrow></mrow></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><msup><mrow><mi mathvariant="normal">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>θ</mi><mspace width="0.167em"></mspace><mo stretchy="false" form="prefix">(</mo><mo stretchy="false" form="prefix">|</mo><mi>a</mi><msup><mo stretchy="false" form="prefix">|</mo><mn>2</mn></msup><mo>−</mo><mo stretchy="false" form="prefix">|</mo><mi>b</mi><msup><mo stretchy="false" form="prefix">|</mo><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo></mtd></mtr><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><mi>+</mi><mn>2</mn><mrow><mi mathvariant="normal">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mrow><mi mathvariant="normal">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mspace width="0.167em"></mspace><mrow><mi mathvariant="normal">Im</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">(</mo><mi>a</mi><msup><mi>b</mi><mo>*</mo></msup><mo stretchy="false" form="postfix">)</mo></mtd></mtr></mtable><annotation encoding="application/x-tex">
+\begin{aligned}\Delta E_B={}&amp;\sin^2\theta\,(|a|^2-|b|^2)\\&amp;+2\sin\theta\cos\theta\,\operatorname{Im}(ab^*)\end{aligned}
+</annotation></semantics></math></p>
+<p>If b=0, then <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mi>E</mi><mi>B</mi><mi>′</mi></msubsup><mo>=</mo><msub><mi>E</mi><mi>A</mi></msub><msup><mrow><mi mathvariant="normal">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>θ</mi></mrow><annotation encoding="application/x-tex">E_B^\prime=E_A\sin^2\theta</annotation></semantics></math>, independent of A’s global phase. Phase response needs a relative-phase reference, not merely a source label. If both inputs receive the same phase, no port energy changes. For symmetric equal seeding, uniform random relative phase removes the mean signed interference term but does not remove the physical coupling.</p>
+<h3 id="the-actual-twelve-mode-graph">The actual twelve-mode graph</h3>
+<p>The simple pair’s opposite-phase equal magnitudes do <strong>not</strong> generally survive the full network. This can be derived without fitting or appeal to numerical noise.</p>
+<p>Set <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>U</mi><mo>=</mo><msubsup><mi>U</mi><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">p</mi></mrow><mi>n</mi></msubsup></mrow><annotation encoding="application/x-tex">U=U_{\mathrm{step}}^n</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>=</mo><msub><mi>ψ</mi><mrow><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">n</mi></mrow><mo>,</mo><mn>0</mn></mrow></msub><msub><mi>e</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">p=\psi_{\mathrm{in},0}e_0</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>=</mo><msub><mi>P</mi><mi>B</mi></msub><mi>U</mi><mi>p</mi></mrow><annotation encoding="application/x-tex">x=P_B U p</annotation></semantics></math>, and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><msub><mi>P</mi><mi>B</mi></msub><mi>U</mi><mo stretchy="false" form="prefix">(</mo><msub><mi>ψ</mi><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">n</mi></mrow></msub><mo>−</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">y=P_B U(\psi_{\mathrm{in}}-p)</annotation></semantics></math>. Here P_B selects the six receiver outputs. Define <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi><mo>=</mo><msup><mi>y</mi><mo>†</mo></msup><mi>x</mi></mrow><annotation encoding="application/x-tex">C=y^\dagger x</annotation></semantics></math>. Compared with the same circuit and no source phase operation,</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><msub><mi>R</mi><mi>B</mi></msub><mo stretchy="false" form="prefix">(</mo><mi>φ</mi><mo stretchy="false" form="postfix">)</mo></mrow><msub><mi>E</mi><mo>*</mo></msub></mfrac><mo>=</mo><mi>A</mi><mo stretchy="false" form="prefix">(</mo><mrow><mi mathvariant="normal">cos</mi><mo>&#8289;</mo></mrow><mi>φ</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>B</mi><mrow><mi mathvariant="normal">sin</mi><mo>&#8289;</mo></mrow><mi>φ</mi></mrow><annotation encoding="application/x-tex">
+\frac{R_B(\varphi)}{E_*}=A(\cos\varphi-1)+B\sin\varphi
+</annotation></semantics></math></p>
+<p>where <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant="normal">Re</mi><mo>&#8289;</mo></mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">A=2\operatorname{Re}C</annotation></semantics></math> and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>B</mi><mo>=</mo><mi>−</mi><mn>2</mn><mrow><mi mathvariant="normal">Im</mi><mo>&#8289;</mo></mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">B=-2\operatorname{Im}C</annotation></semantics></math>. Both coefficients are computed from the frozen graph and seed, not adjusted to the phase scan.</p>
+<p>At the published angles and n=10:</p>
+<div class="table-wrap" role="region" aria-label="Scrollable table 3" tabindex="0"><table>
+<thead>
+<tr>
+<th>Quantity</th>
+<th style="text-align: right;">Prediction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td style="text-align: right;">0.0783177175757793</td>
+</tr>
+<tr>
+<td>B</td>
+<td style="text-align: right;">0.3293143476848204</td>
+</tr>
+<tr>
+<td>+π/2 source phase: R_B/E_*</td>
+<td style="text-align: right;">+0.250996630109041</td>
+</tr>
+<tr>
+<td>−π/2 source phase: R_B/E_*</td>
+<td style="text-align: right;">−0.407632065260600</td>
+</tr>
+<tr>
+<td>Maximum over phase</td>
+<td style="text-align: right;">+0.260181328918237</td>
+</tr>
+<tr>
+<td>Minimum over phase</td>
+<td style="text-align: right;">−0.416816764069796</td>
+</tr>
+<tr>
+<td>Phase of maximum</td>
+<td style="text-align: right;">atan2(B,A) ≈ 76.6224°</td>
+</tr>
+</tbody>
+</table></div>
+<p>For the energy-normalized optical implementation, multiply these by the independently established E_*. For the existing CPU implementation, they remain dimensionless numbers; that conversion has not been made physically.</p>
+<h3 id="cutting-the-bridge">Cutting the bridge</h3>
+<p>With every A–B coupling removed, the admitted transfer becomes block diagonal: <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>U</mi><mrow><mi mathvariant="normal">o</mi><mi mathvariant="normal">f</mi><mi mathvariant="normal">f</mi></mrow></msub><mo>=</mo><mrow><mi mathvariant="normal">diag</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">(</mo><msub><mi>U</mi><mi>A</mi></msub><mo>,</mo><msub><mi>U</mi><mi>B</mi></msub><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">U_{\mathrm{off}}=\operatorname{diag}(U_A,U_B)</annotation></semantics></math>. Therefore for a fresh source-local phase P_A,</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>P</mi><mi>B</mi></msub><msub><mi>U</mi><mrow><mi mathvariant="normal">o</mi><mi mathvariant="normal">f</mi><mi mathvariant="normal">f</mi></mrow></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>P</mi><mi>A</mi></msub><mo>⊕</mo><mi>I</mi><mo stretchy="false" form="postfix">)</mo><mi>ψ</mi><mo>=</mo><msub><mi>U</mi><mi>B</mi></msub><msub><mi>ψ</mi><mi>B</mi></msub></mrow><annotation encoding="application/x-tex">
+P_B U_{\mathrm{off}}(P_A\oplus I)\psi=U_B\psi_B
+</annotation></semantics></math></p>
+<p>The new source operation cannot affect B under this candidate, even when ψ contains changes left by an earlier connected history. Retained energy/state is not retained ability to transmit a new choice. This explicitly separates a physically connected analogue from Direct Arrival’s proposed retained-adjacency extension.</p>
+<h3 id="inverse-operation">Inverse operation</h3>
+<p>For a pair, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mi>θ</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>Z</mi><mi>S</mi><mo stretchy="false" form="prefix">(</mo><mi>θ</mi><mo stretchy="false" form="postfix">)</mo><mi>Z</mi></mrow><annotation encoding="application/x-tex">S(-\theta)=Z S(\theta)Z</annotation></semantics></math>, with <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Z</mi><mo>=</mo><mrow><mi mathvariant="normal">diag</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">Z=\operatorname{diag}(1,-1)</annotation></semantics></math>. Thus an ideal inverse can use the same positive-coupling section and π phase shifts. For a network, reverse the order and invert every phase/coupling operation. The coherent output must be routed into this inverse network; a photograph or detected intensity list does not contain the full state.</p>
+<p>Passing backwards through an ordinary reciprocal coupler is not automatically this algebraic inverse for arbitrary complex input. Reciprocity and inversion must not be conflated.</p>
+<p>With one-pass intensity transmission T and otherwise ideal propagation, a lossy forward circuit followed by an equally lossy inverse returns only T² of the input signal energy. The numerical Undo button does not reverse heat or erase the apparatus history. Reset physically requires discharge/output routing and preparation of a new input; it is not free.</p>
+<h2 id="mismatch-loss-error-and-complete-accounts">6. Mismatch, loss, error and complete accounts</h2>
+<h3 id="phase-mismatch">Phase mismatch</h3>
+<p>As an explicitly adopted nonideal two-mode model, use the Hermitian propagation generator</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mtable><mtr><mtd columnalign="center" style="text-align: center"><mi>δ</mi><mi>/</mi><mn>2</mn></mtd><mtd columnalign="center" style="text-align: center"><mi>g</mi></mtd></mtr><mtr><mtd columnalign="center" style="text-align: center"><mi>g</mi></mtd><mtd columnalign="center" style="text-align: center"><mi>−</mi><mi>δ</mi><mi>/</mi><mn>2</mn></mtd></mtr></mtable><mo stretchy="true" form="postfix">)</mo></mrow><mo>,</mo><mspace width="1.0em"></mspace><mi mathvariant="normal">Ω</mi><mo>=</mo><msqrt><mrow><msup><mi>g</mi><mn>2</mn></msup><mo>+</mo><mo stretchy="false" form="prefix">(</mo><mi>δ</mi><mi>/</mi><mn>2</mn><msup><mo stretchy="false" form="postfix">)</mo><mn>2</mn></msup></mrow></msqrt></mrow><annotation encoding="application/x-tex">
+K=\begin{pmatrix}\delta/2&amp;g\\g&amp;-\delta/2\end{pmatrix},\quad\Omega=\sqrt{g^2+(\delta/2)^2}
+</annotation></semantics></math></p>
+<p>The finite section is <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mo>=</mo><mrow><mi mathvariant="normal">cos</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">(</mo><mi mathvariant="normal">Ω</mi><mi>ℓ</mi><mo stretchy="false" form="postfix">)</mo><mi>I</mi><mo>−</mo><mi>i</mi><mrow><mi mathvariant="normal">sin</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">(</mo><mi mathvariant="normal">Ω</mi><mi>ℓ</mi><mo stretchy="false" form="postfix">)</mo><mi>K</mi><mi>/</mi><mi mathvariant="normal">Ω</mi></mrow><annotation encoding="application/x-tex">S=\cos(\Omega\ell)I-i\sin(\Omega\ell)K/\Omega</annotation></semantics></math>. Put <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>c</mi><mo>=</mo><mrow><mi mathvariant="normal">cos</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">(</mo><mi mathvariant="normal">Ω</mi><mi>ℓ</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">c=\cos(\Omega\ell)</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>s</mi><mo>=</mo><mrow><mi mathvariant="normal">sin</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">(</mo><mi mathvariant="normal">Ω</mi><mi>ℓ</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">s=\sin(\Omega\ell)</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>r</mi><mo>=</mo><mi>g</mi><mi>/</mi><mi mathvariant="normal">Ω</mi></mrow><annotation encoding="application/x-tex">r=g/\Omega</annotation></semantics></math>, and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>d</mi><mo>=</mo><mi>δ</mi><mi>/</mi><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mi mathvariant="normal">Ω</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">d=\delta/(2\Omega)</annotation></semantics></math>. For equal populated inputs as above,</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><msubsup><mi>E</mi><mi>B</mi><mi>′</mi></msubsup><mo>−</mo><msub><mi>E</mi><mn>0</mn></msub></mrow><msub><mi>E</mi><mn>0</mn></msub></mfrac><mo>=</mo><mn>2</mn><mi>r</mi><mi>s</mi><mi>c</mi><mrow><mi mathvariant="normal">sin</mi><mo>&#8289;</mo></mrow><mi>φ</mi><mo>−</mo><mn>2</mn><mi>r</mi><mi>d</mi><msup><mi>s</mi><mn>2</mn></msup><mrow><mi mathvariant="normal">cos</mi><mo>&#8289;</mo></mrow><mi>φ</mi></mrow><annotation encoding="application/x-tex">
+\frac{E_B^\prime-E_0}{E_0}=2rsc\sin\varphi-2rds^2\cos\varphi
+</annotation></semantics></math></p>
+<p>Against the φ=0 reference the cosine term becomes <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>2</mn><mi>r</mi><mi>d</mi><msup><mi>s</mi><mn>2</mn></msup><mo stretchy="false" form="prefix">(</mo><mrow><mi mathvariant="normal">cos</mi><mo>&#8289;</mo></mrow><mi>φ</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">-2rds^2(\cos\varphi-1)</annotation></semantics></math>. An unseeded receiver satisfies <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mi>E</mi><mi>B</mi><mi>′</mi></msubsup><mi>/</mi><msub><mi>E</mi><mi>A</mi></msub><mo>≤</mo><msup><mi>g</mi><mn>2</mn></msup><mi>/</mi><mo stretchy="false" form="prefix">[</mo><msup><mi>g</mi><mn>2</mn></msup><mo>+</mo><mo stretchy="false" form="prefix">(</mo><mi>δ</mi><mi>/</mi><mn>2</mn><msup><mo stretchy="false" form="postfix">)</mo><mn>2</mn></msup><mo stretchy="false" form="postfix">]</mo></mrow><annotation encoding="application/x-tex">E_B^\prime/E_A\le g^2/[g^2+(\delta/2)^2]</annotation></semantics></math>. The resonant pair law follows at δ=0. g, δ and ℓ have defined roles and must be determined independently; they are not unrestricted fitted response functions.</p>
+<h3 id="loss-and-outputs">Loss and outputs</h3>
+<p>In a common-loss section, an intensity attenuation exp(-αℓ) multiplies all ideal output energies. Unequal loss cannot generally be removed by a single normalization. An adopted local model is</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>z</mi></mrow></mfrac><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>−</mi><mi>i</mi><mi>K</mi><mo>−</mo><mfrac><mi mathvariant="normal">Γ</mi><mn>2</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mi>x</mi><mo>,</mo><mspace width="2.0em"></mspace><mi>K</mi><mo>=</mo><msup><mi>K</mi><mo>†</mo></msup><mo>,</mo><mspace width="1.0em"></mspace><mi mathvariant="normal">Γ</mi><mo>≽</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">
+\frac{dx}{dz}=\left(-iK-\frac{\Gamma}{2}\right)x,\qquad K=K^\dagger,\quad\Gamma\succeq0
+</annotation></semantics></math></p>
+<p>giving <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mi>d</mi><mo stretchy="false" form="prefix">(</mo><msup><mi>x</mi><mo>†</mo></msup><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><mrow><mi>d</mi><mi>z</mi></mrow></mfrac><mo>=</mo><mi>−</mi><msup><mi>x</mi><mo>†</mo></msup><mi mathvariant="normal">Γ</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\frac{d(x^\dagger x)}{dz}=-x^\dagger\Gamma x</annotation></semantics></math>. Integrating the right-hand side supplies the loss account. For a general passive port transfer T, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>T</mi><mo>†</mo></msup><mi>T</mi><mo>≤</mo><mi>I</mi></mrow><annotation encoding="application/x-tex">T^\dagger T\le I</annotation></semantics></math>, and</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>E</mi><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">s</mi><mi mathvariant="normal">s</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">g</mi></mrow></msub><mo>=</mo><msub><mi>E</mi><mo>*</mo></msub><msup><mi>ψ</mi><mo>†</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>I</mi><mo>−</mo><msup><mi>T</mi><mo>†</mo></msup><mi>T</mi><mo stretchy="false" form="postfix">)</mo><mi>ψ</mi><mo>≥</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">
+E_{\mathrm{missing}}=E_*\psi^\dagger(I-T^\dagger T)\psi\ge0
+</annotation></semantics></math></p>
+<p>Missing monitored-port energy can include separately routed ports, readout taps, reflection, radiation and absorption. It must not all be labeled heat without distinguishing these channels. Signal amplification, nonlinear saturation, time modulation and gain are outside the frozen passive candidate; admitting any of them requires an explicit source account and revised dynamics.</p>
+<p>For a network boundary excluding the source and detectors, integrate a complete packet and retain any internal residual:</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mtable><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"><msub><mi>E</mi><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">g</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">l</mi><mo mathvariant="normal">,</mo><mi mathvariant="normal">i</mi><mi mathvariant="normal">n</mi></mrow></msub><mo>+</mo><msub><mi>W</mi><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">l</mi><mo mathvariant="normal">→</mo><mi mathvariant="normal">s</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">g</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">l</mi></mrow></msub><mo>=</mo><mrow></mrow></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><msub><mi>E</mi><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">g</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">l</mi><mo mathvariant="normal">,</mo><mi mathvariant="normal">o</mi><mi mathvariant="normal">u</mi><mi mathvariant="normal">t</mi></mrow></msub><mo>+</mo><msub><mi>E</mi><mrow><mi mathvariant="normal">o</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">h</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">r</mi><mspace width="0.222em"></mspace><mi mathvariant="normal">p</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">s</mi></mrow></msub></mtd></mtr><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><mi>+</mi><msub><mi>Q</mi><mrow><mi mathvariant="normal">a</mi><mi mathvariant="normal">b</mi><mi mathvariant="normal">s</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">b</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">d</mi></mrow></msub><mo>+</mo><mi mathvariant="normal">Δ</mi><msub><mi>E</mi><mrow><mi mathvariant="normal">r</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">d</mi></mrow></msub></mtd></mtr></mtable><annotation encoding="application/x-tex">
+\begin{aligned}E_{\mathrm{signal,in}}+W_{\mathrm{control\to signal}}={}&amp;E_{\mathrm{signal,out}}+E_{\mathrm{other\ ports}}\\&amp;+Q_{\mathrm{absorbed}}+\Delta E_{\mathrm{retained}}\end{aligned}
+</annotation></semantics></math></p>
+<p>For static, passive settings in the ideal branch, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>W</mi><mrow><mi mathvariant="normal">c</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">l</mi><mo mathvariant="normal">→</mo><mi mathvariant="normal">s</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">g</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">l</mi></mrow></msub><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">W_{\mathrm{control\to signal}}=0</annotation></semantics></math>, and after complete passage <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Δ</mi><msub><mi>E</mi><mrow><mi mathvariant="normal">r</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">d</mi></mrow></msub><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\Delta E_{\mathrm{retained}}=0</annotation></semantics></math>. Electrical heater/control consumption is not thereby zero. It enters a separate apparatus balance. A larger boundary including preparation, electronics and detectors has</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mtable><mtr><mtd columnalign="right" style="text-align: right"><msub><mi>E</mi><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">l</mi></mrow></msub><mo>+</mo><msub><mi>W</mi><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">u</mi><mi mathvariant="normal">p</mi><mi mathvariant="normal">p</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">s</mi></mrow></msub><mo>+</mo><msub><mi>E</mi><mrow><mi mathvariant="normal">o</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">h</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">r</mi><mo mathvariant="normal">,</mo><mi mathvariant="normal">i</mi><mi mathvariant="normal">n</mi></mrow></msub></mtd></mtr><mtr><mtd columnalign="right" style="text-align: right"><mo>=</mo><msub><mi>E</mi><mrow><mi mathvariant="normal">f</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">l</mi></mrow></msub><mo>+</mo><msub><mi>Q</mi><mrow><mi mathvariant="normal">e</mi><mi mathvariant="normal">x</mi><mi mathvariant="normal">p</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">d</mi></mrow></msub><mo>+</mo><msub><mi>E</mi><mrow><mi mathvariant="normal">o</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">h</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">r</mi><mo mathvariant="normal">,</mo><mi mathvariant="normal">o</mi><mi mathvariant="normal">u</mi><mi mathvariant="normal">t</mi></mrow></msub></mtd></mtr></mtable><annotation encoding="application/x-tex">
+\begin{aligned}E_{\mathrm{initial}}+W_{\mathrm{supplies}}+E_{\mathrm{other,in}}\\=E_{\mathrm{final}}+Q_{\mathrm{exported}}+E_{\mathrm{other,out}}\end{aligned}
+</annotation></semantics></math></p>
+<p>Optical energy absorbed inside that larger boundary is an internal transfer, not a second external output. This avoids double-counting detector heat and the optical packet that produced it. Source preparation, receiver absorption, intentionally discarded encoding ports, reset and environmental outlets all have a place; none is silently folded into “ledger conservation.”</p>
+<h3 id="stability-and-error-propagation">Stability and error propagation</h3>
+<p>The ideal network preserves norm and has no amplitude gain. For per-section operator errors ε_k, unitary ideal sections and contractive actual sections give the telescoping bound <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mo stretchy="true" form="prefix">‖</mo><msub><mi>T</mi><mrow><mi mathvariant="normal">a</mi><mi mathvariant="normal">c</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">u</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">l</mi></mrow></msub><mo>−</mo><mi>U</mi><mo stretchy="true" form="postfix">‖</mo></mrow><mo>≤</mo><msub><mo>∑</mo><mi>k</mi></msub><msub><mi>ε</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">\lVert T_{\mathrm{actual}}-U\rVert\le\sum_k\varepsilon_k</annotation></semantics></math>. A pair angle error Δθ has exact operator error <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mo stretchy="false" form="prefix">|</mo><mrow><mi mathvariant="normal">sin</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">(</mo><mi mathvariant="normal">Δ</mi><mi>θ</mi><mi>/</mi><mn>2</mn><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="prefix">|</mo></mrow><annotation encoding="application/x-tex">2|\sin(\Delta\theta/2)|</annotation></semantics></math>. A phase-setting error Δφ at A0 gives state error <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mo stretchy="false" form="prefix">|</mo><msub><mi>ψ</mi><mn>0</mn></msub><mo stretchy="false" form="prefix">|</mo><mspace width="0.167em"></mspace><mo stretchy="false" form="prefix">|</mo><mrow><mi mathvariant="normal">sin</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">(</mo><mi mathvariant="normal">Δ</mi><mi>φ</mi><mi>/</mi><mn>2</mn><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="prefix">|</mo></mrow><annotation encoding="application/x-tex">2|\psi_0|\,|\sin(\Delta\varphi/2)|</annotation></semantics></math>, preserved by subsequent ideal propagation.</p>
+<p>If the ideal output is y and its actual deviation is d, any receiver-energy error obeys</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mo stretchy="false" form="prefix">|</mo><mi>δ</mi><msub><mi>E</mi><mi>B</mi></msub><mo stretchy="false" form="prefix">|</mo></mrow><msub><mi>E</mi><mo>*</mo></msub></mfrac><mo>≤</mo><mn>2</mn><mrow><mo stretchy="true" form="prefix">‖</mo><mi>y</mi><mo stretchy="true" form="postfix">‖</mo></mrow><mrow><mo stretchy="true" form="prefix">‖</mo><mi>d</mi><mo stretchy="true" form="postfix">‖</mo></mrow><mo>+</mo><msup><mrow><mo stretchy="true" form="prefix">‖</mo><mi>d</mi><mo stretchy="true" form="postfix">‖</mo></mrow><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">
+\frac{|\delta E_B|}{E_*}\le2\lVert y\rVert\lVert d\rVert+\lVert d\rVert^2
+</annotation></semantics></math></p>
+<p>This gives a finite uncertainty budget before inspecting the phase-response data. Bandwidth, differential delay, phase drift, undesired coupling and calibrated readout errors must enter that budget or make the candidate inapplicable. For lossless but dispersive S(ω), total spectral energy can remain conserved while the single-envelope, single-matrix representation fails. Neither renormalizing every result nor fitting a separate matrix to each trial repairs that failure.</p>
+<h2 id="operational-readout-and-failure-conditions">7. Operational readout and failure conditions</h2>
+<p>The prospective raw records are port-detector current traces and acquisition times, source/phase settings and independent calibration records—not the browser’s state vector. For a specified linear readout with independently calibrated responsivity ρ_j and dark trace i_dark,j,</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mover><mi>E</mi><mo accent="true">̂</mo></mover><mi>j</mi></msub><mo>=</mo><mfrac><mn>1</mn><msub><mi>ρ</mi><mi>j</mi></msub></mfrac><mo>∫</mo><mo stretchy="false" form="prefix">[</mo><msub><mi>i</mi><mi>j</mi></msub><mo stretchy="false" form="prefix">(</mo><mi>t</mi><mo stretchy="false" form="postfix">)</mo><mo>−</mo><msub><mi>i</mi><mrow><mrow><mi mathvariant="normal">d</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">k</mi></mrow><mo>,</mo><mi>j</mi></mrow></msub><mo stretchy="false" form="prefix">(</mo><mi>t</mi><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="postfix">]</mo><mspace width="0.167em"></mspace><mi>d</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">
+\widehat E_j=\frac1{\rho_j}\int[i_j(t)-i_{\mathrm{dark},j}(t)]\,dt
+</annotation></semantics></math></p>
+<p>This is a proposed operational reduction, not data collected here. Collection must cover the packet, account for gain, loading and unmonitored paths, and preserve raw records. The reduction specifies what a future measurement would mean; sensor selection and apparatus qualification follow a defined physical target.</p>
+<p>The frozen target is the declared complex transfer, phase curve and complete energy balance within an <strong>independently determined</strong> uncertainty bound. Port intensities alone do not establish all phases or certify inverse state recovery. Phase-sensitive records or an explicitly sufficient set of coherent input comparisons would be required for that stronger claim.</p>
+<div class="table-wrap" role="region" aria-label="Scrollable table 4" tabindex="0"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Candidate consequence</th>
+<th>What would fail it within its admitted domain</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Full matrix equals the prescribed ordered exchange product</td>
+<td>Independently characterized complex transfer lies outside the predeclared error budget</td>
+</tr>
+<tr>
+<td>Predicted phase curve and source/receiver balance</td>
+<td>Raw reduced records disagree with frozen coefficients beyond calibration uncertainty</td>
+</tr>
+<tr>
+<td>Fresh A changes do not reach B when all admitted cross-coupling is absent</td>
+<td>A repeatable source-dependent B record not explained by independently bounded ordinary paths</td>
+</tr>
+<tr>
+<td>Passive signal account closes</td>
+<td>Unaccounted output or loss beyond uncertainty, or hidden gain/control work needed to force agreement</td>
+</tr>
+<tr>
+<td>Ideal inverse recovers coherent signal, with known passive attenuation</td>
+<td>State mismatch inconsistent with independently characterized phase/loss errors</td>
+</tr>
+</tbody>
+</table></div>
+<p>These are theoretical failure conditions, not a completed experimental protocol. Alternative explanations requiring explicit characterization include control-heater feedthrough, electrical/readout crosstalk, source-power changes correlated with phase setting, residual optical paths, nonorthogonal-mode accounting, detector gain changes and nonlinear response. Software synthesis of output numbers or feedback based on measured input is also a countermodel for an allegedly autonomous transfer device. Documentation of the actual circuit and causal controls matters; one matched curve alone cannot identify its mechanism.</p>
+<h2 id="angular-momentum-storage-and-residual-unknowns">8. Angular momentum, storage and residual unknowns</h2>
+<p>The energy-normalized optical account is not automatically a net angular-momentum account. In particular, do not assign <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>J</mi><mo>=</mo><mi>E</mi><mi>/</mi><mi>ω</mi></mrow><annotation encoding="application/x-tex">J=E/\omega</annotation></semantics></math> to an arbitrary guided or standing mode. Polarization, spatial mode, support torque and outlet angular momentum must be specified and independently linked to records before that stronger identification. The present branch uses imported operational photonic mathematics; it does not supply the native circulation/closure derivation demanded for a POAMS-native claim.</p>
+<div class="table-wrap" role="region" aria-label="Scrollable table 5" tabindex="0"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Remaining item</th>
+<th>Kind and status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E_*, coupler phases/angles, mismatch, loss, delay, bandwidth and readout gain</td>
+<td>Empirical calibrations with defined roles, independent characterization routes and derived consequences; not yet measured here</td>
+</tr>
+<tr>
+<td>Particular waveguide geometry, material stack and component count after routing</td>
+<td>Device design and full-wave/material work, outside this finite-network correspondence</td>
+</tr>
+<tr>
+<td>Persistent stored A/B states with arbitrary in-time operations</td>
+<td>Different candidate; interaction energy, switching work, retention and reset must be closed before adopting it</td>
+</tr>
+<tr>
+<td>Net angular momentum and native POAMS mechanism</td>
+<td>Open physical/ontological correspondence; energy and optical phase alone do not close it</td>
+</tr>
+<tr>
+<td>Continued exchange after ordinary paths are removed</td>
+<td>Additional retained-adjacency hypothesis; not supplied by this construction</td>
+</tr>
+</tbody>
+</table></div>
+<p>The bounded finite-network correspondence is closed on paper under its declared assumptions. <strong>The gate to a native POAMS mechanism, a stored-endpoint machine, or an experimental build is not cleared by this result.</strong> The next paper branch, if pursued, must specify the retained physical state and its full source/support/exchange account. The connected construction supplies a baseline for that further work.</p>
+<h2 id="verification-and-evidence-status">9. Verification and evidence status</h2>
+<p><code>verify.py</code> performs independent NumPy eigenmode propagation and compares it with the unchanged accompanying JavaScript implementation. It also evaluates the derived phase and mismatch laws, block-diagonal independence, inverse/loss behavior, error bounds and an independently integrated unequal-loss account.</p>
+<p><strong>11/11 mathematical checks passed.</strong> The 24 full-graph comparisons differ by at most 1.70×10⁻¹⁴ per complex component. The phase curve’s maximum sampled discrepancy is 5.0×10⁻¹⁶. Unequal-loss state evolution plus its integrated loss account closes to 1.84×10⁻¹⁴ in synthetic model units. The schedule-versus-always-on countermodel fails identity as predicted; it is preserved rather than normalized away.</p>
+<p>These checks establish consistency of the conditional mathematical correspondence. They are not measurements of silicon. The external experimental support and its scope are set out at the beginning of the paper. The numerical checks reported here are separate mathematical evidence, not additional instrument measurements.</p>
+<h3 id="reproduce-the-mathematical-checks">Reproduce the mathematical checks</h3>
+<p>The <a href="downloads/direct-arrival-silicon-correspondence/README.txt">verification download</a> contains a standalone checker, the unchanged model core and its recorded results. Python with NumPy and Node.js are required; no instrument connection or external service is used.</p>
+<ul>
+<li><a href="downloads/direct-arrival-silicon-correspondence/verify.py">Checker</a></li>
+<li><a href="downloads/direct-arrival-silicon-correspondence/verification.json">Recorded mathematical results</a></li>
+<li><a href="downloads/direct-arrival-silicon-correspondence/direct-arrival-model-core.js">Model core</a></li>
+<li><a href="downloads/direct-arrival-silicon-correspondence/paper.md">Readable paper source</a></li>
+</ul>
+<h2 id="conclusion">10. Conclusion</h2>
+<p><strong>The ledger dynamics have a concrete connected silicon counterpart.</strong> Coherent optical amplitudes carry the state, packet energies carry the account, and a prescribed sequence of physical couplers performs the same exchange as the model. Independent experiments undertaken for other purposes already support the connected component class and coherent transformations on which this construction rests.</p>
+<p>The full correspondence makes the next question sharper. A state can persist after a connection is removed without preserving the ability to exchange a newly chosen intervention. The connected construction predicts no such new influence once its cross-coupling is absent. Whether a suitably prepared pair retains an additional interaction is the distinctive Direct Arrival question, addressed by the <a href="direct-arrival-research.html">retained-adjacency research program</a>.</p>
+<h3 id="references">References</h3>
+<ol type="1">
+<li>A. H. El-Saeed et al., <em>Low-Loss Silicon Directional Coupler with Arbitrary Coupling Ratios for Broadband Wavelength Operation Based on Bent Waveguides</em>, arXiv:2404.06117 (2024). <a href="https://arxiv.org/abs/2404.06117">Paper</a></li>
+<li>J. R. Rausell-Campo, D. Pérez-López and J. Capmany, <em>Programming universal unitary transformations on a general-purpose silicon photonic platform</em>, <strong>APL Photonics 10</strong>, 026102 (2025). <a href="https://doi.org/10.1063/5.0235712">Published article</a> · <a href="https://arxiv.org/abs/2407.03235">Open preprint and experimental procedure</a></li>
+<li>W.-P. Huang, <em>Coupled-mode theory for optical waveguides: an overview</em>, <strong>Journal of the Optical Society of America A 11</strong>, 963–983 (1994). <a href="https://doi.org/10.1364/JOSAA.11.000963">Article</a></li>
+</ol>
+</main>
+<footer><p>Direct Arrival · A Silicon Correspondence for Coupled Ledgers · Edition 1.0</p><p><a href="downloads/direct-arrival-silicon-correspondence.pdf">Download PDF</a> · <a href="downloads/direct-arrival-silicon-correspondence/paper.md">Paper source</a> · <a href="index.html">Engineering shelf</a></p></footer></body></html>

@@ -1,17 +1,27 @@
-Direct Arrival — Public Research Package, edition 1.0 (17 October 2026)
+Direct Arrival — Research Package edition 1.1 (19 October 2026)
 
-Open direct-arrival-research.html in a browser. The protocol and lab brief are linked from every page.
-The approved reader stylesheet is included; native MathML equations need no network or CDN.
-Print / save PDF provides a light paper layout. Markdown sources are in source/ within the ZIP.
+Open direct-arrival-research.html. The protocol and lab brief retain their
+scientific content; navigation now includes the silicon-correspondence paper.
+Open direct-arrival-silicon-correspondence.html for the new technical paper.
+Its PDF is downloads/direct-arrival-silicon-correspondence.pdf.
 
-Reproduce the calculations:
+Native MathML and included reader styles keep the HTML readable offline.
+The printed PDF uses HTTPS links to the public edition.
+
+Original research design checks (Python standard library):
   cd downloads/direct-arrival
   python3 check_design.py
 
-This writes design-checks.json. Python 3.9+ and its standard library are sufficient.
-The 10 checks validate conditional mathematics and design arithmetic, not physical measurements.
-The draft preregistration requires instrument-specific entries and independent experimental review before a run.
-package-manifest.json hashes the GitHub Pages source files and the byte-identical ZIP entries, relative to the archive/site root; it excludes itself and the ZIP.
-The protected Hub rewrites navigation in reflected HTML. Those rendered views are not byte-identical to source HTML; verify the ZIP or public source site against this manifest.
-The ZIP includes source/source-manifest.json to bind the additional readable Markdown sources.
-Private review diaries and superseded drafts are retained separately and are not distributed here.
+Silicon-correspondence checks (Python + NumPy and Node.js):
+  Follow downloads/direct-arrival-silicon-correspondence/README.txt.
+
+Both check sets concern conditional mathematics, not physical measurements.
+The paper separately identifies the independent published silicon experiments.
+Post-disconnection exchange remains the Direct Arrival research question.
+
+package-manifest.json hashes the source-site files and byte-identical ZIP entries,
+excluding the manifest itself and the ZIP. Paths are relative to the site/archive root.
+The protected Hub rewrites HTML navigation; verify this archive or public source
+files against the manifest, not the rewritten protected HTML.
+Readable Markdown sources and source/source-manifest.json are included.
+The prior dated 17 October package remains byte-exact; it is not this edition.

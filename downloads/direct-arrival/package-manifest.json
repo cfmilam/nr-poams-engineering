@@ -1,22 +1,12 @@
 {
-  "date": "2026-10-17",
-  "edition": "1.0",
+  "date": "2026-10-19",
+  "edition": "1.1",
   "evidence_kind": "FILE_INTEGRITY_NOT_PHYSICAL_EVIDENCE",
   "files": [
     {
-      "bytes": 33984,
-      "path": "direct-arrival-research.html",
-      "sha256": "a265acc0bab74ecbec5669504d360b99d190136ff38a936c1f28285d47fe96db"
-    },
-    {
-      "bytes": 33729,
-      "path": "direct-arrival-protocol.html",
-      "sha256": "26d8e4bfd0cc6ac8ed577c16196395ad5fa790f73569824f3dd607da18f17b2c"
-    },
-    {
-      "bytes": 10932,
-      "path": "direct-arrival-lab-brief.html",
-      "sha256": "b6187e8275c078264fc5619aca8abc0931b15d53ca7584cfd06eee61af6f6dd5"
+      "bytes": 966,
+      "path": "assets/direct-arrival-paper.css",
+      "sha256": "d9b60d6e4a61b995e07f6305785e42b7e04b171646f1bfe1c4d7ad85f770df9f"
     },
     {
       "bytes": 4976,
@@ -34,9 +24,64 @@
       "sha256": "8cd45c59d9966ecaa0f4e01c0cf0127d73544aca90880d373f3c8b239db180a0"
     },
     {
-      "bytes": 5080,
-      "path": "downloads/direct-arrival/preregistration.json",
-      "sha256": "6e291f0a3d9d141ec198e9be13327d572117b2fa6911ce229059a8b973bcbd17"
+      "bytes": 11017,
+      "path": "direct-arrival-lab-brief.html",
+      "sha256": "114b16576ef0d3a26b834d111f43db43df6e0075950d63caf386fe1d413a534e"
+    },
+    {
+      "bytes": 33814,
+      "path": "direct-arrival-protocol.html",
+      "sha256": "38a5e6d033add46376403f8d0dc6c957982508a9203ae1245aa5a9c48174f2dd"
+    },
+    {
+      "bytes": 34477,
+      "path": "direct-arrival-research.html",
+      "sha256": "d93f5bcc001060f9cf7d9e7d4890052da829bc8c794043835c56d9f4952bb8d5"
+    },
+    {
+      "bytes": 70899,
+      "path": "direct-arrival-silicon-correspondence.html",
+      "sha256": "83334d6e6418abc52e973b6e5e625877aa844a9bb9e733244a0d280fc113ba9a"
+    },
+    {
+      "bytes": 1001371,
+      "path": "downloads/direct-arrival-silicon-correspondence.pdf",
+      "sha256": "eed9a0b9c9236976be9da3176572bb52b9d852213f254d0dd6009c8506b3cf64"
+    },
+    {
+      "bytes": 843,
+      "path": "downloads/direct-arrival-silicon-correspondence/README.txt",
+      "sha256": "226b91ce72b96a53a30fc7cb0f84ed22e71bb87d2ec8e9fdb79d9a896f5c9452"
+    },
+    {
+      "bytes": 2017,
+      "path": "downloads/direct-arrival-silicon-correspondence/direct-arrival-model-core.js",
+      "sha256": "be3f381ae1e85e170078bf0ace54114ec92d09bce29919bae6f373365d8b784c"
+    },
+    {
+      "bytes": 29576,
+      "path": "downloads/direct-arrival-silicon-correspondence/paper.md",
+      "sha256": "a62934a6abda234ff039a65a26c213184ad353bc5bf5500b7508c96d04ad9d2d"
+    },
+    {
+      "bytes": 13,
+      "path": "downloads/direct-arrival-silicon-correspondence/requirements.txt",
+      "sha256": "d9d44ae46cc2088e11dbf0fc6b28c1aefb8b77a1377c7543fa838f6cb48f25d8"
+    },
+    {
+      "bytes": 3177,
+      "path": "downloads/direct-arrival-silicon-correspondence/verification.json",
+      "sha256": "a6f9b2d967c92517ce60d2c5b169ff96f1d1a598ca19a47418c103c2fadb3513"
+    },
+    {
+      "bytes": 10438,
+      "path": "downloads/direct-arrival-silicon-correspondence/verify.py",
+      "sha256": "ce9aef6abbacbce0d5e35f8c47fac657bdb75052bd31d6c08a32bf2965230e77"
+    },
+    {
+      "bytes": 1433,
+      "path": "downloads/direct-arrival/README.txt",
+      "sha256": "ecdf1a83eed4414128705a49fcdb1e311bb810df78c391b3b949cba96a6bef1f"
     },
     {
       "bytes": 11244,
@@ -49,12 +94,12 @@
       "sha256": "50fd68a4513cdbfefb684e4d4e35abf26dd18fab79d1c9a2a82ec53989583886"
     },
     {
-      "bytes": 1280,
-      "path": "downloads/direct-arrival/README.txt",
-      "sha256": "4a6eac008187ea81a5ca94cbd21a453d8293f44f5c09be819d71c38ab2a5936f"
+      "bytes": 5080,
+      "path": "downloads/direct-arrival/preregistration.json",
+      "sha256": "6e291f0a3d9d141ec198e9be13327d572117b2fa6911ce229059a8b973bcbd17"
     }
   ],
   "hash_scope": "GITHUB_PAGES_SOURCE_FILES_AND_BYTE_IDENTICAL_ZIP_ENTRIES",
-  "protected_hub_note": "The Hub rewrites HTML navigation. Verify source files or ZIP entries, not rewritten Hub HTML, against these hashes.",
+  "protected_hub_note": "The Hub rewrites HTML navigation. Verify source files or ZIP entries against these hashes.",
   "schema": "poams.direct-arrival.public-package-manifest.v1"
 }

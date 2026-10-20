@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "evidence": "synthetic mathematical verification; no physical measurements",
+  "timestamp_utc": "2026-10-20T04:18:26.809463+00:00",
+  "model_core_sha256": "be3f381ae1e85e170078bf0ace54114ec92d09bce29919bae6f373365d8b784c",
+  "verifier_sha256": "ce9aef6abbacbce0d5e35f8c47fac657bdb75052bd31d6c08a32bf2965230e77",
+  "numpy_version": "2.4.2",
+  "checks": [
+    {
+      "name": "Supermode finite propagation gives the published pair exchange",
+      "status": "PASS",
+      "maximum_component_error": 2.2206818240686694e-16
+    },
+    {
+      "name": "Ordered 25-section optical matrix agrees with current JavaScript core",
+      "status": "PASS",
+      "cases": 24,
+      "maximum_component_error": 1.6918526033898223e-14
+    },
+    {
+      "name": "Entire graph obeys derived phase curve including unequal signed responses",
+      "status": "PASS",
+      "cosine_coefficient": 0.0783177175757793,
+      "sine_coefficient": 0.32931434768482043,
+      "positive_quarter_turn_response": 0.25099663010904116,
+      "negative_quarter_turn_response": -0.4076320652605997,
+      "maximum_phase_curve_error": 4.996003610813204e-16
+    },
+    {
+      "name": "All-state norm conservation of the ideal full graph",
+      "status": "PASS",
+      "maximum_norm_error": 1.7763568394002505e-14,
+      "spectral_unitarity_error": 1.0403088791135005e-14
+    },
+    {
+      "name": "Cut bridge blocks fresh source influence even after a connected history",
+      "status": "PASS",
+      "receiver_component_error": 0.0,
+      "off_block_norm": 0.0
+    },
+    {
+      "name": "Inverse phases work ideally but passive loss is not undone",
+      "status": "PASS",
+      "pair_inverse_error": 0.0,
+      "full_inverse_error": 7.684836746131319e-15,
+      "illustrative_one_pass_intensity_transmission": 0.81,
+      "illustrative_round_trip_energy_fraction": 0.6560999999999885
+    },
+    {
+      "name": "Detuning law and maximum unseeded-transfer bound",
+      "status": "PASS",
+      "maximum_formula_error": 1.1102230246251565e-15,
+      "transfer_upper_bound": 0.6023529411764705
+    },
+    {
+      "name": "Unequal-loss differential account closes without hidden normalization",
+      "status": "PASS",
+      "energy_balance_defect": 1.8318679906315083e-14,
+      "refinement_difference": 2.4802422001833213e-13,
+      "lost_account": 0.6017340503185383
+    },
+    {
+      "name": "Simultaneous coupling countermodel differs with cubic split-step error",
+      "status": "PASS",
+      "spectral_differences": [
+        0.00017443428888969247,
+        2.1826808869430424e-05,
+        2.7290555945887602e-06
+      ],
+      "halving_ratios": [
+        7.991744919432392,
+        7.997934858017977
+      ]
+    },
+    {
+      "name": "General passive port-energy deficit is nonnegative and accounted",
+      "status": "PASS",
+      "missing_account": 0.42505117949099214,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "name": "Source phase-error bound is preserved through the ideal circuit",
+      "status": "PASS",
+      "illustrative_phase_error": 0.01,
+      "state_error": 0.007745934417593903,
+      "analytic_bound": 0.007745934417593959
+    }
+  ]
+}
