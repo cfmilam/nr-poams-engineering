@@ -311,18 +311,18 @@ These checks establish consistency of the conditional mathematical correspondenc
 
 ### Reproduce the mathematical checks
 
-The [verification download](downloads/direct-arrival-silicon-correspondence/README.txt) contains a standalone checker, the unchanged model core and its recorded results. Python with NumPy and Node.js are required; no instrument connection or external service is used.
+The [verification download](https://cfmilam.github.io/nr-poams-engineering/downloads/direct-arrival-silicon-correspondence/README.txt) contains a standalone checker, the unchanged model core and its recorded results. Python with NumPy and Node.js are required; no instrument connection or external service is used.
 
-- [Checker](downloads/direct-arrival-silicon-correspondence/verify.py)
-- [Recorded mathematical results](downloads/direct-arrival-silicon-correspondence/verification.json)
-- [Model core](downloads/direct-arrival-silicon-correspondence/direct-arrival-model-core.js)
-- [Readable paper source](downloads/direct-arrival-silicon-correspondence/paper.md)
+- [Checker](https://cfmilam.github.io/nr-poams-engineering/downloads/direct-arrival-silicon-correspondence/verify.py)
+- [Recorded mathematical results](https://cfmilam.github.io/nr-poams-engineering/downloads/direct-arrival-silicon-correspondence/verification.json)
+- [Model core](https://cfmilam.github.io/nr-poams-engineering/downloads/direct-arrival-silicon-correspondence/direct-arrival-model-core.js)
+- [Readable paper source](https://cfmilam.github.io/nr-poams-engineering/downloads/direct-arrival-silicon-correspondence/paper.md)
 
 ## 10. Conclusion
 
 **The ledger dynamics have a concrete connected silicon counterpart.** Coherent optical amplitudes carry the state, packet energies carry the account, and a prescribed sequence of physical couplers performs the same exchange as the model. Independent experiments undertaken for other purposes already support the connected component class and coherent transformations on which this construction rests.
 
-The full correspondence makes the next question sharper. A state can persist after a connection is removed without preserving the ability to exchange a newly chosen intervention. The connected construction predicts no such new influence once its cross-coupling is absent. Whether a suitably prepared pair retains an additional interaction is the distinctive Direct Arrival question, addressed by the [retained-adjacency research program](direct-arrival-research.html).
+The full correspondence makes the next question sharper. A state can persist after a connection is removed without preserving the ability to exchange a newly chosen intervention. The connected construction predicts no such new influence once its cross-coupling is absent. Whether a suitably prepared pair retains an additional interaction is the distinctive Direct Arrival question, addressed by the [retained-adjacency research program](https://cfmilam.github.io/nr-poams-engineering/direct-arrival-research.html).
 
 ### References
 
