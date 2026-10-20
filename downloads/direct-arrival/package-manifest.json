@@ -39,19 +39,19 @@
       "sha256": "d93f5bcc001060f9cf7d9e7d4890052da829bc8c794043835c56d9f4952bb8d5"
     },
     {
-      "bytes": 70899,
+      "bytes": 70849,
       "path": "direct-arrival-silicon-correspondence.html",
-      "sha256": "83334d6e6418abc52e973b6e5e625877aa844a9bb9e733244a0d280fc113ba9a"
+      "sha256": "1e87523dda0edb41fc072fbcd58ad63deb6d077988dd5adce4365d5f1d36dbe8"
     },
     {
-      "bytes": 1001371,
+      "bytes": 995741,
       "path": "downloads/direct-arrival-silicon-correspondence.pdf",
-      "sha256": "eed9a0b9c9236976be9da3176572bb52b9d852213f254d0dd6009c8506b3cf64"
+      "sha256": "86dcd16a6a02dd5fbe0238f954ac0fd031cbea9bf038d44587741ca0d01cf74e"
     },
     {
-      "bytes": 843,
+      "bytes": 827,
       "path": "downloads/direct-arrival-silicon-correspondence/README.txt",
-      "sha256": "226b91ce72b96a53a30fc7cb0f84ed22e71bb87d2ec8e9fdb79d9a896f5c9452"
+      "sha256": "e4fe1056c0dfc3ac0eb412f6280a265426dce19253422dcdee212e728e088652"
     },
     {
       "bytes": 2017,
@@ -59,9 +59,9 @@
       "sha256": "be3f381ae1e85e170078bf0ace54114ec92d09bce29919bae6f373365d8b784c"
     },
     {
-      "bytes": 29858,
+      "bytes": 29842,
       "path": "downloads/direct-arrival-silicon-correspondence/paper.md",
-      "sha256": "9ddf6cfd11d0f7e4d73e2a65047c144528641c623aaa1d4004ec163be357bd8c"
+      "sha256": "1a048eb12a76d0c3fc7e116ccacf5dc52f2e6f0b92c62cdb25ebd9140423d3a6"
     },
     {
       "bytes": 13,

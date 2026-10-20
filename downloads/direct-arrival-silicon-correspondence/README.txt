@@ -1,4 +1,4 @@
-Direct Arrival: A Silicon Correspondence for Coupled Ledgers
+A Silicon Correspondence for Coupled Ledgers
 Public edition 1.0 — 19 October 2026
 
 Read the HTML paper or downloads/direct-arrival-silicon-correspondence.pdf.
