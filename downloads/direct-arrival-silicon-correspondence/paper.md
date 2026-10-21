@@ -1,6 +1,6 @@
 # A Silicon Correspondence for Coupled Ledgers
 
-Technical paper · Public edition 1.0 · 19 October 2026
+Technical paper · Public edition 1.1 · 20 October 2026
 
 ## Abstract
 
@@ -9,6 +9,12 @@ A coupled ledger becomes a physical construction when its state variables, excha
 The connected mechanism has an independent experimental precedent. Silicon directional couplers and programmable coherent transformations have been investigated experimentally for optical communications and computing, independently of this proposal. Those results support the physical component class and connected operations used here. The present contribution is the explicit correspondence to our ledger model and its complete accounting requirements. The distinctive Direct Arrival question remains what happens after the ordinary physical connection is removed.
 
 **Result:** an energy-normalized, connected silicon-photonic construction, with reported external experimental support for its building blocks and eleven reproducible mathematical checks of the correspondence.
+
+### Two accounts of one construction
+
+This paper follows each principal operation from its engineering description to its POAMS reading, then states the observable consequence they share. The engineering account specifies modes, phases, transfer matrices and port energies. POAMS reads the source, silicon structure, supports and receiver as organizations of one angular-momentum substance, with completed exchanges recorded at their participating ends. The mathematical description remains usable without making a traveling object its ontology.
+
+The POAMS passages below are an interpretation of the declared connected model. Its calibrated optical transfer laws remain adopted inputs; their derivation from a specified circulation organization is the further construction identified in §8. All comparisons retain the same apparatus settings, finite timing and energy records. A change of account does not remove a connection's measured delay.
 
 ## Independent experimental support
 
@@ -90,6 +96,14 @@ Thus \(E_A=E_*\sum_{j\in A}|\psi_j|^2\) and \(E_B=E_*\sum_{j\in B}|\psi_j|^2\). 
 
 Relative optical phase supplies the model phase. A static, source-local phase section multiplies A0 by exp(iφ), leaving its packet energy unchanged in the ideal model. It is set before that packet arrives; arbitrary choices between packets are possible. This is not a claim that a time-varying phase kick on already stored motion costs zero work. Preparation, actuator setting and thermal stabilization belong to the apparatus account.
 
+#### Preparation and guidance: the two accounts
+
+**Engineering account.** A prepared coherent packet has specified amplitudes and relative phases in twelve optical ports. Waveguide geometry constrains the supported modes and their transfer between reference planes.
+
+**POAMS account.** The source and silicon are participants in the physical organization, not a launcher and a passive container for a second substance. The mode labels distinguish operational alternatives within that prepared connection. The complex entries summarize its phase-sensitive response; the waveguide supplies material constraints on the permitted exchange. Reference planes mark where that account is compared, rather than places where twelve tiny occupants must be imagined.
+
+**Shared observable consequence.** The same preparation must yield the specified port-energy balances, relative-phase response and finite timing records.
+
 ## 3. Deriving the pair exchange from physical mode propagation
 
 For a matched symmetric two-port coupling section, adopt normalized even/odd supermodes. Their finite propagation factors are exp(-iβ₊ℓ) and exp(-iβ₋ℓ). With
@@ -118,6 +132,14 @@ The matrix is unitary; therefore the sum of the **port packet energies** is cons
 
 **Coupler qualification:** not every device sold as a 2×2 splitter has this exact phase law. Asymmetric/bent couplers can change relative phase and the maximum coupling. We use the symmetric idealization and an explicitly calibrated complex transfer matrix, not a generic device label. [El-Saeed et al., symmetry and phase dependence](https://arxiv.org/html/2404.06117v1)
 
+#### Pair coupling: the two accounts
+
+**Engineering account.** A matched coupling section coherently mixes two modal amplitudes by the derived two-mode matrix, preserving their summed packet energy in the ideal case.
+
+**POAMS account.** The two entries are coordinates of one connected account. The coupling section changes their coherent combination and hence the distribution of energy that can be registered at the outputs. On this reading the silicon constrains an exchange relationship; it is not merely a place where independently existing couriers trade cargo. The angle θ specifies the adopted transfer rule, not an already established mechanical rotation of the material's angular momentum.
+
+**Shared observable consequence.** Both output energies and the relative phase must agree with the same complex matrix; matching only a splitting ratio is insufficient.
+
 ## 4. Full graph correspondence and resource scaling
 
 The accompanying JavaScript executes, in order:
@@ -142,6 +164,14 @@ It is not enough to fabricate twelve resonators with all edges continuously acti
 
 This is a theoretical correspondence in the stated modal model, not a full-wave semiconductor/material calculation or a fabrication design. Packet passage has ordinary finite delay. A spatial reference-plane map does not supply instantaneous action or remove the physical propagation path.
 
+#### The ordered network: the two accounts
+
+**Engineering account.** Successive connected coupling sections implement an ordered product of transfer matrices, including the phases of the bypass paths.
+
+**POAMS account.** The calculation composes changes to a coherent account under successive apparatus constraints. Its intermediate reference planes are mathematical comparison boundaries, not claims that a detector event or a completed photum occurs at every step. Order matters because one constraint changes the preparation on which the next acts.
+
+**Shared observable consequence.** The final port records must follow the prescribed ordered product, including its ordinary delay; an always-on network is a different construction.
+
 ## 5. Derived predictions, without fitting the response
 
 ### Two populated modes
@@ -159,6 +189,14 @@ For general input amplitudes:
 \]
 
 If b=0, then \(E_B^\prime=E_A\sin^2\theta\), independent of A's global phase. Phase response needs a relative-phase reference, not merely a source label. If both inputs receive the same phase, no port energy changes. For symmetric equal seeding, uniform random relative phase removes the mean signed interference term but does not remove the physical coupling.
+
+#### Phase control: the two accounts
+
+**Engineering account.** Changing one populated input's phase changes interference at the outputs. A common phase on both inputs changes neither output energy.
+
+**POAMS account.** Relative phase belongs to the prepared relationship between alternatives. In the adopted coherent description, changing it changes how those alternatives combine into possible terminal records. The intervention reorganizes the distribution of the existing account; it does not create an extra energy supply. Its physical setting and stabilization still belong to the apparatus balance.
+
+**Shared observable consequence.** The simple pair retains the derived sine response and equal, opposite energy changes. The full network retains its separately derived cosine-plus-sine response.
 
 ### The actual twelve-mode graph
 
@@ -196,6 +234,14 @@ P_B U_{\mathrm{off}}(P_A\oplus I)\psi=U_B\psi_B
 
 The new source operation cannot affect B under this candidate, even when ψ contains changes left by an earlier connected history. Retained energy/state is not retained ability to transmit a new choice. This explicitly separates a physically connected analogue from Direct Arrival's proposed retained-adjacency extension.
 
+#### Disconnection: the two accounts
+
+**Engineering account.** Removing every cross-coupling makes the transfer block diagonal. A fresh phase choice at A then leaves the B output unchanged.
+
+**POAMS account.** Earlier exchanges may have changed the preparations at both ends. Those changes are not themselves a continuing permission for a new joint exchange. One substance and a shared history do not imply perpetual addressability. Retained adjacency would require an additional physical state and exchange law beyond this connected candidate.
+
+**Shared observable consequence.** After removal of all admitted A–B paths, a newly selected A intervention produces no B response under the present model.
+
 ### Inverse operation
 
 For a pair, \(S(-\theta)=Z S(\theta)Z\), with \(Z=\operatorname{diag}(1,-1)\). Thus an ideal inverse can use the same positive-coupling section and π phase shifts. For a network, reverse the order and invert every phase/coupling operation. The coherent output must be routed into this inverse network; a photograph or detected intensity list does not contain the full state.
@@ -203,6 +249,14 @@ For a pair, \(S(-\theta)=Z S(\theta)Z\), with \(Z=\operatorname{diag}(1,-1)\). T
 Passing backwards through an ordinary reciprocal coupler is not automatically this algebraic inverse for arbitrary complex input. Reciprocity and inversion must not be conflated.
 
 With one-pass intensity transmission T and otherwise ideal propagation, a lossy forward circuit followed by an equally lossy inverse returns only T² of the input signal energy. The numerical Undo button does not reverse heat or erase the apparatus history. Reset physically requires discharge/output routing and preparation of a new input; it is not free.
+
+#### Inversion: the two accounts
+
+**Engineering account.** A coherent inverse reverses the sequence and each operation; passive losses remain. Detection does not preserve a complete complex input for later inversion.
+
+**POAMS account.** Reversing the reversible part of the account is not making a completed occurrence unhappen. Receiver absorption, apparatus changes and discarded outputs remain in the physical history. Reset is a new preparation with its own transfers, not deletion of the old ledger.
+
+**Shared observable consequence.** Recovery concerns the surviving coherent amplitude and phase, with the stated attenuation and reset costs—not recovery of numbers alone.
 
 ## 6. Mismatch, loss, error and complete accounts
 
@@ -252,6 +306,14 @@ For static, passive settings in the ideal branch, \(W_{\mathrm{control\to signal
 
 Optical energy absorbed inside that larger boundary is an internal transfer, not a second external output. This avoids double-counting detector heat and the optical packet that produced it. Source preparation, receiver absorption, intentionally discarded encoding ports, reset and environmental outlets all have a place; none is silently folded into “ledger conservation.”
 
+#### Loss: the two accounts
+
+**Engineering account.** Energy absent from the monitored ports can appear in other ports, reflection, radiation, absorption or retained internal excitation. Control supplies have their own balance.
+
+**POAMS account.** An entry missing from one selected account has not vanished from the physical organization. Its destination belongs in another participating account, including the apparatus and its environment. Moving the bookkeeping boundary changes which transfers count as internal; it does not permit counting an absorbed packet and the heat it produces as two independent exports.
+
+**Shared observable consequence.** Close the same complete energy balance with separately identified outlets. Calling every deficit heat, or normalizing it away, does not close the account.
+
 ### Stability and error propagation
 
 The ideal network preserves norm and has no amplitude gain. For per-section operator errors ε_k, unitary ideal sections and contractive actual sections give the telescoping bound \(\lVert T_{\mathrm{actual}}-U\rVert\le\sum_k\varepsilon_k\). A pair angle error Δθ has exact operator error \(2|\sin(\Delta\theta/2)|\). A phase-setting error Δφ at A0 gives state error \(2|\psi_0|\,|\sin(\Delta\varphi/2)|\), preserved by subsequent ideal propagation.
@@ -274,6 +336,14 @@ The prospective raw records are port-detector current traces and acquisition tim
 
 This is a proposed operational reduction, not data collected here. Collection must cover the packet, account for gain, loading and unmonitored paths, and preserve raw records. The reduction specifies what a future measurement would mean; sensor selection and apparatus qualification follow a defined physical target.
 
+#### Readout: the two accounts
+
+**Engineering account.** A detector produces a current trace; the independently calibrated reduction gives an estimate of energy received at its port.
+
+**POAMS account.** The receiver is a participant in a completed exchange, not a spectator watching an unseen traveler. A photum names an individual completed two-ended exchange in the POAMS account. This paper's optical packet and integrated current can summarize many exchanges; neither is automatically one photum. The trace is the instrument occurrence, while its source–receiver interpretation and microscopic angular-momentum allocation are distinct identifications.
+
+**Shared observable consequence.** Preserve the same raw current, timing, settings and calibration records. A current trace alone does not establish a path or resolve individual exchanges.
+
 The frozen target is the declared complex transfer, phase curve and complete energy balance within an **independently determined** uncertainty bound. Port intensities alone do not establish all phases or certify inverse state recovery. Phase-sensitive records or an explicitly sufficient set of coherent input comparisons would be required for that stronger claim.
 
 | Candidate consequence | What would fail it within its admitted domain |
@@ -289,6 +359,12 @@ These are theoretical failure conditions, not a completed experimental protocol.
 ## 8. Angular momentum, storage and residual unknowns
 
 The energy-normalized optical account is not automatically a net angular-momentum account. In particular, do not assign \(J=E/\omega\) to an arbitrary guided or standing mode. Polarization, spatial mode, support torque and outlet angular momentum must be specified and independently linked to records before that stronger identification. The present branch uses imported operational photonic mathematics; it does not supply the native circulation/closure derivation demanded for a POAMS-native claim.
+
+### What the ontological bridge supplies
+
+The paired accounts locate the participants, controls, boundaries and terminal records of the connected construction in POAMS language. They also locate the remaining native task: construct the relevant circulation organization, its permitted exchange operation and its coupling to the supports and outlets, so that the optical transfer is obtained with a specified angular-momentum account.
+
+POAMS already admits finite complex alternative states and norm-preserving reversible controls through its adopted Coherent Completion Kernel. That supplies a compatible mathematical vocabulary, not a selection of these silicon modes or their coupling constants. Here the squared modal norm is an energy account under the stated classical-optical normalization; it is not being promoted to a count of photums or a single-quantum outcome probability. A microscopic completion mapping would be additional work.
 
 | Remaining item | Kind and status |
 | --- | --- |
@@ -323,6 +399,8 @@ The [verification download](https://cfmilam.github.io/nr-poams-engineering/downl
 **The ledger dynamics have a concrete connected silicon counterpart.** Coherent optical amplitudes carry the state, packet energies carry the account, and a prescribed sequence of physical couplers performs the same exchange as the model. Independent experiments undertaken for other purposes already support the connected component class and coherent transformations on which this construction rests.
 
 The full correspondence makes the next question sharper. A state can persist after a connection is removed without preserving the ability to exchange a newly chosen intervention. The connected construction predicts no such new influence once its cross-coupling is absent. Whether a suitably prepared pair retains an additional interaction is the distinctive Direct Arrival question, addressed by the [retained-adjacency research program](https://cfmilam.github.io/nr-poams-engineering/direct-arrival-research.html).
+
+The bridge is therefore operationally specific: the same connected apparatus can be described by optical transfer and interpreted as constrained relational bookkeeping, without changing its predicted records. Deriving that transfer from an explicit microscopic circulation construction remains a distinct, well-defined next step.
 
 ### References
 

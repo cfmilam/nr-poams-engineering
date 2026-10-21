@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-19",
-  "edition": "1.1",
+  "date": "2026-10-20",
+  "edition": "1.2",
   "evidence_kind": "FILE_INTEGRITY_NOT_PHYSICAL_EVIDENCE",
   "files": [
     {
-      "bytes": 966,
+      "bytes": 1005,
       "path": "assets/direct-arrival-paper.css",
-      "sha256": "d9b60d6e4a61b995e07f6305785e42b7e04b171646f1bfe1c4d7ad85f770df9f"
+      "sha256": "7e129acb6c7e62de4183be4fc910c7e157be59f7943594db658f478400f29674"
     },
     {
       "bytes": 4976,
@@ -26,32 +26,32 @@
     {
       "bytes": 11017,
       "path": "direct-arrival-lab-brief.html",
-      "sha256": "114b16576ef0d3a26b834d111f43db43df6e0075950d63caf386fe1d413a534e"
+      "sha256": "10a5cefea54f41b2d9510e71fa459d6a240b238c2ebfdaceddaef80991f38b18"
     },
     {
       "bytes": 33814,
       "path": "direct-arrival-protocol.html",
-      "sha256": "38a5e6d033add46376403f8d0dc6c957982508a9203ae1245aa5a9c48174f2dd"
+      "sha256": "534668d7b8841a4e819fd596f54551dc2f8cb2610546692e1cd6dc38c4c79b69"
     },
     {
       "bytes": 34477,
       "path": "direct-arrival-research.html",
-      "sha256": "d93f5bcc001060f9cf7d9e7d4890052da829bc8c794043835c56d9f4952bb8d5"
+      "sha256": "5a6fe01a4e681b10a69c08faba8f3c7cb4040b9dbd3f6af3ce7daaed4f7e899a"
     },
     {
-      "bytes": 70849,
+      "bytes": 81064,
       "path": "direct-arrival-silicon-correspondence.html",
-      "sha256": "1e87523dda0edb41fc072fbcd58ad63deb6d077988dd5adce4365d5f1d36dbe8"
+      "sha256": "a627d6a9b6b887e8eb1e8247fe088846d6432783d3c449077b21087489271278"
     },
     {
-      "bytes": 995741,
+      "bytes": 1037816,
       "path": "downloads/direct-arrival-silicon-correspondence.pdf",
-      "sha256": "86dcd16a6a02dd5fbe0238f954ac0fd031cbea9bf038d44587741ca0d01cf74e"
+      "sha256": "4ec85f07e44aee029378498c548e2bf33f0042a0be85c276daf949e4cfe9cd3c"
     },
     {
-      "bytes": 827,
+      "bytes": 910,
       "path": "downloads/direct-arrival-silicon-correspondence/README.txt",
-      "sha256": "e4fe1056c0dfc3ac0eb412f6280a265426dce19253422dcdee212e728e088652"
+      "sha256": "852dc1b171b2a642c421a034bea6c9cf9ac435111c339552ae63d76430d887b4"
     },
     {
       "bytes": 2017,
@@ -59,9 +59,9 @@
       "sha256": "be3f381ae1e85e170078bf0ace54114ec92d09bce29919bae6f373365d8b784c"
     },
     {
-      "bytes": 29842,
+      "bytes": 38431,
       "path": "downloads/direct-arrival-silicon-correspondence/paper.md",
-      "sha256": "1a048eb12a76d0c3fc7e116ccacf5dc52f2e6f0b92c62cdb25ebd9140423d3a6"
+      "sha256": "d4b451e63072b087d8f37e45f0515596f8688159cdcaaf0becfe4db5a8ccc36c"
     },
     {
       "bytes": 13,
@@ -79,9 +79,9 @@
       "sha256": "ce9aef6abbacbce0d5e35f8c47fac657bdb75052bd31d6c08a32bf2965230e77"
     },
     {
-      "bytes": 1433,
+      "bytes": 1583,
       "path": "downloads/direct-arrival/README.txt",
-      "sha256": "ecdf1a83eed4414128705a49fcdb1e311bb810df78c391b3b949cba96a6bef1f"
+      "sha256": "3ef970f6cfac69540a27f19315f0f75578d0bcb1e999ff86d77da276ce7d6987"
     },
     {
       "bytes": 11244,

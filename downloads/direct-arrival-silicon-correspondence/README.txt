@@ -1,5 +1,6 @@
 A Silicon Correspondence for Coupled Ledgers
-Public edition 1.0 — 19 October 2026
+Public edition 1.1 — 20 October 2026
+Stepwise engineering, POAMS and observable accounts; mathematical model unchanged.
 
 Read the HTML paper or downloads/direct-arrival-silicon-correspondence.pdf.
 The source paper is paper.md. Equations in the HTML use native MathML.

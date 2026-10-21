@@ -1,8 +1,10 @@
-Direct Arrival — Research Package edition 1.1 (19 October 2026)
+Direct Arrival — Research Package edition 1.2 (20 October 2026)
 
 Open direct-arrival-research.html. The protocol and lab brief retain their
 scientific content; navigation now includes the silicon-correspondence paper.
-Open direct-arrival-silicon-correspondence.html for the new technical paper.
+Open direct-arrival-silicon-correspondence.html for technical paper edition 1.1,
+with stepwise engineering, POAMS and shared-observable explanations.
+Its original mathematical model and numerical results are unchanged.
 Its PDF is downloads/direct-arrival-silicon-correspondence.pdf.
 
 Native MathML and included reader styles keep the HTML readable offline.
@@ -24,4 +26,4 @@ excluding the manifest itself and the ZIP. Paths are relative to the site/archiv
 The protected Hub rewrites HTML navigation; verify this archive or public source
 files against the manifest, not the rewritten protected HTML.
 Readable Markdown sources and source/source-manifest.json are included.
-The prior dated 17 October package remains byte-exact; it is not this edition.
+The prior dated 17 and 19 October packages remain byte-exact; neither is this edition.
