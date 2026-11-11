@@ -8,13 +8,13 @@
 | Item | Status | What it supports | What it does not support |
 |---|---|---|---|
 | Pope–Osborne orthogonal-turn premise | adopted POAMS constitutive premise | conditional kinematic Cone law | material-state map or coefficient |
-| `E=L omega=h nu` for a named closure | native identity under declared premise | transition rate pricing | common proper-count change |
+| $$E=L\omega=h\nu$$ for a named closure | native identity under declared premise | transition rate pricing | common proper-count change |
 | boundary-transfer tariff | adopted POAMS measurement premise | laboratory work/recoil calibration | allocation among transitions or universal time |
 | atomic-clock systematic-shift practice | imported metrology | apparatus design and nuisance vocabulary | POAMS ontology |
 | optical/microwave frequency comparison | imported apparatus method | measured ratios and closure tests | universal material response |
 | material organization commands common in-place rate | prospective POAMS hypothesis | motivates experiment | no achieved effect, sign, scale or range |
 | fitted common residual | operational reduction | candidate covariance after gates | by itself not “time” |
-| finite null | M0 result only after qualified run | bound on tested family/domain | universal `g=0` |
+| finite null | M0 result only after qualified run | bound on tested family/domain | universal $$g=0$$ |
 
 ## 2. Governing/internal sources inspected
 
@@ -31,7 +31,7 @@
 
 These sources are used only for metrology practice, achievable comparison architecture, and reporting discipline—not as POAMS ontological premises.
 
-1. **NIST multi-species optical ratios (2026):** Aeppli et al., *Optical clock frequency ratios with uncertainty <=3.2e-18*, NIST publication record, reporting Al+, Yb and Sr ratios and emphasizing repeated comparisons. https://www.nist.gov/publications/optical-clock-frequency-ratios-uncertainty-32-10-18
+1. **NIST multi-species optical ratios (2026):** Aeppli et al., *Optical clock frequency ratios with uncertainty $$\le3.2\times10^{-18}$$*, NIST publication record, reporting Al+, Yb and Sr ratios and emphasizing repeated comparisons. https://www.nist.gov/publications/optical-clock-frequency-ratios-uncertainty-32-10-18
 2. **Dissimilar optical ratio example:** Yamanaka et al., *Frequency Ratio of 199Hg and 87Sr Optical Lattice Clocks beyond the SI Limit*, PRL 114, 230801 (2015), DOI 10.1103/PhysRevLett.114.230801. Used as evidence that unlike clock species can be ratio-compared with explicit systematic evaluation.
 3. **Independent transfer paths:** Bodine et al., *Optical atomic clock comparison through turbulent air*, Physical Review Research 2, 033395 (2020), DOI 10.1103/PhysRevResearch.2.033395. Free-space and noise-cancelled fibre comparisons agreed at reported sub-1e-18 scale over the campaign; this motivates redundant transfer/reference paths, not a promised floor for this apparatus.
 4. **BIPM CCTF Recommendation 2 (2004):** primary-standard corrections, uncertainty methods, instrumentation descriptions, and archival should be documented and available. https://www.bipm.org/documents/20126/31691794/16th%2Bmeeting%2B%25282004%2529/c501a751-a378-6639-9fa7-8c13913c742a
@@ -42,11 +42,11 @@ All performance values remain M2/reported until the selected host supplies its o
 
 ## 4. Directly inherited mathematical findings
 
-1. **One-clock gauge freedom:** `y=g+ell` is invariant under `g->g+q`, `ell->ell-q`.
+1. **One-clock gauge freedom:** $$y=g+\ell$$ is invariant under $$g\to g+q$$, $$\ell\to\ell-q$$.
 2. **Rank condition:** a common component is not identifiable when the all-ones vector lies in the nuisance/local span.
 3. **Reference counterexample:** one changing reference produces equal apparent A/R and B/R shifts.
 4. **Cone non-selection:** infinitely many bounded state maps satisfy the Cone; it selects none.
-5. **Rate-pricing non-selection:** clock-specific transition shifts all obey `E=h nu` without a common factor.
+5. **Rate-pricing non-selection:** clock-specific transition shifts all obey $$E=h\nu$$ without a common factor.
 6. **Cross-clock limitation:** shared clock covariance does not prove other processes share it.
 
 These determine the three-clock closure architecture, direct injection matrix, and cautious classification.

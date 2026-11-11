@@ -130,9 +130,9 @@ Emergency unblinds, operator interventions, aborted trials, lock loss, clipping 
 
 For each registered state pair:
 
-\[
+$$
 \Delta F_{ij}=\bar F_i-\bar F_j.
-\]
+$$
 
 Estimate it with the preregistered time window and bandwidth using block as the experimental unit. Report confidence/credible intervals, effect and equivalence conclusions, and odd/even components under each reversal. A state-normalized secant may be reported only for a frozen scalar coordinate with nonzero separation; it is local and not a universal law.
 
@@ -193,17 +193,19 @@ Results feed, but do not automatically validate: the twist/writhe partition law;
 
 **Operational calibration (Coulomb-free).** Over a declared closed measurement window, with reservoir postings bounded by the §9 budget, define the magnetic angular-momentum change from the closed mechanical receipt:
 
-```
-ΔJ_mag ≡ −ΔL_body   (closed window)
-γ_eff  ≡ V·ΔM / ΔJ_mag
-```
+$$
+\begin{aligned}
+\Delta J_{\mathrm{mag}} &\equiv -\Delta L_{\mathrm{body}} \quad \text{(closed window)} \\
+\gamma_{\mathrm{eff}} &\equiv \frac{V\cdot\Delta M}{\Delta J_{\mathrm{mag}}}
+\end{aligned}
+$$
 
-from co-registered magnetometry and mechanical-impulse records. This defines the specimen tariff from receipts. It imports no e/2m value and no electron-substance ontology.
+from co-registered magnetometry and mechanical-impulse records. This defines the specimen tariff from receipts. It imports no $$e/2m$$ value and no electron-substance ontology.
 
 **Gate R — reciprocity.** On the same specimen in the same preparation state:
 
-1. Measure γ_EdH: drive magnetization; read the closed mechanical angular impulse.
-2. Measure γ_Barnett: drive rotation; read the magnetization change against the declared small-signal comparator (§5), respecting its hysteresis/anisotropy/domain validity limits.
+1. Measure $$\gamma_{\mathrm{EdH}}$$: drive magnetization; read the closed mechanical angular impulse.
+2. Measure $$\gamma_{\mathrm{Barnett}}$$: drive rotation; read the magnetization change against the declared small-signal comparator (§5), respecting its hysteresis/anisotropy/domain validity limits.
 3. The gate passes iff the two tariffs agree within the preregistered combined uncertainty.
 
 Under one-substance bookkeeping this equality is the structural expectation; empirically it is a test, not a given. A failure blocks all downstream sign interpretation (Gates 2–4) for that specimen state and is reported as an adverse calibration result — never repaired by post-hoc reweighting.

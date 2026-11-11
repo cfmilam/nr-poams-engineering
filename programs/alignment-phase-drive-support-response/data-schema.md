@@ -55,4 +55,4 @@ Include raw data; manifests; calibration data; boundary diagrams; randomization 
 
 ## 9. Compensation warning — M-null ≠ J-null (amendment 2026-09-27)
 
-Magnetometry (`M`) and angular-momentum (`J`) entries are distinct typed fields and are never derived from one another. Sublattice or orbital/spin compensation can null the magnetization tariff while a nonzero angular-momentum posting remains — and conversely. Twin nulls, detuned controls, and background subtractions must therefore carry both fields explicitly. Any analysis that infers `J = 0` from `M = 0` (or the reverse) is invalid and must be flagged in `derived` provenance.
+Magnetometry (`M`) and angular-momentum (`J`) entries are distinct typed fields and are never derived from one another. Sublattice or orbital/spin compensation can null the magnetization tariff while a nonzero angular-momentum posting remains — and conversely. Twin nulls, detuned controls, and background subtractions must therefore carry both fields explicitly. Any analysis that infers $$J=0$$ from $$M=0$$ (or the reverse) is invalid and must be flagged in `derived` provenance.

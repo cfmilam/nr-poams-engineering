@@ -5,24 +5,29 @@
 
 ## 1. Question and evidential boundary
 
-Can a controlled material-state contrast `X_1-X_0`, witnessed independently of the clocks, produce a shared fractional component in two dissimilar clock outputs that is not reproduced by measured thermal, electromagnetic, mechanical, optical/RF, source, reference, software, or analyst paths?
+Can a controlled material-state contrast $$X_1-X_0$$, witnessed independently of the clocks, produce a shared fractional component in two dissimilar clock outputs that is not reproduced by measured thermal, electromagnetic, mechanical, optical/RF, source, reference, software, or analyst paths?
 
 Before a run, the proposed common term is conjectural. Frequency ratios and phase records are measurements when fully receipted; “proper time changed” is an interpretation. No single clock can distinguish a universal factor from a transition shift. Two clocks do so only relative to a nuisance/local model of adequate rank. Even a passed two-clock result is a **common-clock candidate**, not universal time.
 
 ## 2. Registered variables
 
-For clocks `i in {A,B}`:
+For clocks $$i\in\{A,B\}$$:
 
-`y_i(t)=Delta ln nu_i(t)=g[u](t)+ell_i[u,H](t)+sum_q s_iq z_q(t)+d_i(t)+epsilon_i(t)`.
+$$
+\begin{aligned}
+y_i(t) &= \Delta\ln\nu_i(t) \\
+&= g[u](t)+\ell_i[u,H](t)+\sum_q s_{iq}z_q(t)+d_i(t)+\epsilon_i(t).
+\end{aligned}
+$$
 
-- `u(t)`: dimensionless, independently measured intervention coordinate, baseline `u=0`.
-- `g`: candidate shared fractional component.
-- `ell_i`: clock-local state response.
-- `z_q`: measured nuisance and reference/link coordinates.
-- `s_iq`: coefficients learned only from direct injections/training data.
-- `d_i`: frozen drift/dead-time model.
+- $$u(t)$$: dimensionless, independently measured intervention coordinate, baseline $$u=0$$.
+- $$g$$: candidate shared fractional component.
+- $$\ell_i$$: clock-local state response.
+- $$z_q$$: measured nuisance and reference/link coordinates.
+- $$s_{iq}$$: coefficients learned only from direct injections/training data.
+- $$d_i$$: frozen drift/dead-time model.
 
-Primary contrasts are the simultaneously recorded closure ratios A/R, B/R, and A/B. The analysis must show whether the common vector `(1,1)` is outside the span of calibrated nuisance and reference columns over the analysis bandwidth.
+Primary contrasts are the simultaneously recorded closure ratios A/R, B/R, and A/B. The analysis must show whether the common vector $$(1,1)$$ is outside the span of calibrated nuisance and reference columns over the analysis bandwidth.
 
 ## 3. Preregistered hypotheses
 
@@ -60,7 +65,7 @@ Estimate transfer functions on training blocks; validate them on held-out amplit
 
 ### Gate 3 — state preparation qualification
 
-Demonstrate `u(t)` without using clock output: repeatability, reversal or magnitude steps, hysteresis, relaxation, cycle life, spatial map, source work, heat, force/strain, fields, and drive-off retention if claimed. Use active state, matched dummy, sham command, and nuisance-equivalent controls. Down-select using the README rule before any clock-outcome unblinding.
+Demonstrate $$u(t)$$ without using clock output: repeatability, reversal or magnitude steps, hysteresis, relaxation, cycle life, spatial map, source work, heat, force/strain, fields, and drive-off retention if claimed. Use active state, matched dummy, sham command, and nuisance-equivalent controls. Down-select using the README rule before any clock-outcome unblinding.
 
 ### Gate 4 — blinded discovery run
 
@@ -96,11 +101,11 @@ Because coupling range is unknown, register geometry as a factor. Minimum layout
 
 ### Primary estimands
 
-For each common family, estimate `kappa` or the registered kernel coefficients jointly from A/R and B/R while checking A/B closure. Report clock-local coefficients separately. Use block/day as experimental units; account for colored noise and dead time using a method frozen after baseline pilot.
+For each common family, estimate $$\kappa$$ or the registered kernel coefficients jointly from A/R and B/R while checking A/B closure. Report clock-local coefficients separately. Use block/day as experimental units; account for colored noise and dead time using a method frozen after baseline pilot.
 
 ### Rank and identifiability gate
 
-Construct the design matrix from injected nuisance, reference/link, drift, and registered local-state bases. Compute singular values and the projection of `(1,1)` onto its column space across the target bandwidth. If common mode is not resolvable at the preregistered condition threshold, do not fit or report H-C as identified.
+Construct the design matrix from injected nuisance, reference/link, drift, and registered local-state bases. Compute singular values and the projection of $$(1,1)$$ onto its column space across the target bandwidth. If common mode is not resolvable at the preregistered condition threshold, do not fit or report H-C as identified.
 
 ### Model comparison
 
@@ -108,7 +113,7 @@ Compare N, L, R, C1, C2, CD, and CH using one frozen predictive criterion on hel
 
 ### Equivalence and finite null
 
-Set equivalence margins from pilot stability, independently motivated device relevance, and achievable state interval before the confirmatory run. For linear response report `|kappa| < kappa_95` over the named material, normalized coordinate, interval, geometry, bandwidth, averaging time, and confidence construction. For dynamic response report a bound on the preregistered kernel norm over `[0,Omega]`. Never report zero or “time unaffected.”
+Set equivalence margins from pilot stability, independently motivated device relevance, and achievable state interval before the confirmatory run. For linear response report $$\lvert\kappa\rvert<\kappa_{95}$$ over the named material, normalized coordinate, interval, geometry, bandwidth, averaging time, and confidence construction. For dynamic response report a bound on the preregistered kernel norm over $$[0,\Omega]$$. Never report zero or “time unaffected.”
 
 ### Multiple testing
 
