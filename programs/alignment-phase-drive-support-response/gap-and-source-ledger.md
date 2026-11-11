@@ -4,7 +4,7 @@
 
 The strongest existing artifact is the 2026-09-25 private canonical draft `yig-channel-partition-experiment.md` (40,079 bytes in its sealed audit snapshot). It already supplies:
 
-- honest prospective status and claim boundary;
+- prospective status and claim boundary;
 - static / bounded-coherent / retained operational separation;
 - prohibition on cycle-count accumulation;
 - independent state witness requirement;

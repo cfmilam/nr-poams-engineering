@@ -52,7 +52,7 @@ below would survive even if the theoretical reading were revised, so long as the
    crystalline material having a net uncompensated internal circulation (extant label: net
    electronic spin moment);
    (b) applying a substantially uniform static alignment field to said body along a selected
-   axis, of magnitude at or above the material's saturation value;
+   axis, of magnitude sufficient to saturate the test mass in its mounted geometry;
    (c) applying an oscillating electromagnetic drive to said body at a frequency substantially
    equal to the material's precession resonance (extant label: ferromagnetic resonance) under
    said alignment field, whereby the aligned population is driven in phase-coherent precession;
@@ -74,7 +74,7 @@ below would survive even if the theoretical reading were revised, so long as the
 **Dependent (the design-around surface — each is a real degree of freedom):**
 
 3. The method of claim 1, wherein the drive is pulsed with pulse width 0.1–10 μs and repetition
-   rate 50 Hz–1 MHz, the repetition rate being swept to maximize the measured change (the
+   rate 50 Hz–1 MHz with duty cycle below unity, the repetition rate being swept to maximize the measured change (the
    pump-and-relax protocol; Alzofon-informed, discovery parameter).
 4. The method of claim 1, wherein the drive frequency is servo-locked to the absorption minimum
    through a directional coupler (temperature-drift tracking; the EPR/FMR lock).
@@ -85,15 +85,14 @@ below would survive even if the theoretical reading were revised, so long as the
 6. The method of claim 1, wherein the measured relaxation time of the force change upon drive
    termination exceeds the material's electronic coherence time, indicating storage in a channel
    other than the driven precession (the relaxation-curve diagnostic).
-7. The apparatus of claim 2, wherein the cavity is a TM₀₁₀ cylinder with unloaded Q ≥ 10⁴ and
+7. The apparatus of claim 2, wherein the cavity is a resonant cavity presenting RF magnetic field transverse to the alignment field at the test mass, with unloaded Q ≥ 10⁴, and
    the test mass is a polished sphere of diameter 2–15 mm (uniform demagnetization ⇒ single
    sharp resonance).
 8. The apparatus of claim 2, comprising a plurality of test masses in a common or coupled
    cavity array driven phase-coherently (the scaling claim).
 9. The method of claim 1, wherein the material is selected from the class of insulating
    crystals bearing net alignable circulation: iron garnets (YIG and substituted variants),
-   doped corundum (ruby, sapphire class), olivine class (the materials envelope — the
-   operational technology's own class per the engineering analysis).
+   doped corundum (ruby, sapphire class), olivine class (the materials envelope).
 10. The apparatus of claim 2, further comprising a vertical RF-transparent guide above the
     cavity and a distributed drive structure maintaining resonant illumination of the test mass
     through vertical travel (the levitation-containment claim; development record in repository history).
@@ -114,10 +113,10 @@ calibration and noise, then applies its state, artifact, closure and repeat gate
   intrinsic circulation is constitutive — not addable — per the recorded correction (repository history).
 - **Alignment:** ordering of the circulation senses toward a common axis by a static field;
   quantified by the polarized fraction (order unity at saturation for ferrimagnets — the reason
-  this class and not Barnett-level bulk rotation, factor ~10¹⁰, Laithwaite's missing lever).
+  this class and not Barnett-level bulk rotation, factor ~10¹¹ (vs thermal Barnett ~1.4 × 10⁻¹¹), Laithwaite's missing lever).
 - **Coherent phase advance:** driven, in-lockstep advance of the aligned population's
-  collective orientation phase at the precession resonance; operationally certified by the
-  absorption lock (reflected-power minimum). The micro-equivalent of bulk rotation without the
+  collective orientation phase at the precession resonance; operationally indicated by the
+  absorption lock (reflected-power minimum; see protocol Gate 2). The micro-equivalent of bulk rotation without the
   fracture limit — GHz winding vs ~170 Hz mechanical.
 - **Weight:** the support force at the constraint (what the load cell reads) — operationally
   the only definition a claim needs; the specification may add: the constraint bill for
@@ -153,13 +152,13 @@ gates. The protocol's scoped-null and adverse-result rules apply; significance a
 - **Alzofon 1981 (AIAA-81-1608), Dynamic Nuclear Orientation.** Closest art. Same drive class
   (pulsed GHz at resonance under static alignment), same claim target (gravitational
   modification). Distinguished by: working channel (electronic vs nuclear orientation — ~10³
-  moment advantage, ~10⁵ shorter coherence; different regime), materials (insulating
+  moment advantage, ~6 × 10⁴ shorter coherence; different regime), materials (insulating
   single-crystal ferrimagnet vs Al+Fe composite), coherence architecture (tuned cavity enforcing
   spatial phase), and protocol (feedback-locked, differential, sign-resolving). His framing
   (virtual-particle energy removal) is not adopted; his parameters informed the pulse protocol.
 - **Hathaway/AGNUE (Toronto).** Reported anomalous motion of a test mass; no published raw
   record known to this program; listed as a lead, not as verification.
-- **Wallace patents (US 3,626,605 / 3,626,606, 1971).** The extant patent record's spin-force
+- **Wallace patents (US 3,626,605 / 3,626,606, 1971 (not independently verified)).** The extant patent record's spin-force
   claims ("kinemassic field"): force-field generation by aligned nuclear spin in rotating
   bodies. Prior art to acknowledge and distinguish: mechanical rotation of half-integer-spin
   material bodies vs stationary bulk with electromagnetic collective phase advance; no resonant
@@ -169,9 +168,9 @@ gates. The protocol's scoped-null and adverse-result rules apply; significance a
   cited as the anchor that alignment IS mechanical angular momentum at the constituent level.
   Not a weight claim.
 - **Laithwaite (1974 RI discourse).** The right instinct on the wrong lever (bulk rotation,
-  Barnett-level alignment ~10⁻¹⁰); static weight-loss claim did not survive careful weighing.
+  Barnett-level alignment ~1.4 × 10⁻¹¹); static weight-loss claim did not survive careful weighing.
   Our design is his lever inverted: order-unity alignment first, then electromagnetic winding.
-- **St Andrews levitated rotor ("600 MRPM sphere cooling").** The modern decoy, analyzed in the
+- **St Andrews levitated rotor ("600 MRPM sphere cooling (not independently verified)").** The modern decoy, analyzed in the
   spec (Rev 7): diamagnetic body (no twist to align), motional statistic (not constraint force),
   channel-1 gyroscopics. Excluded by the acceptance criteria's own terms (A6).
 - **Standard FMR/EPR instrumentation.** All drive/lock components are stock art; no novelty
