@@ -1,3 +1,6 @@
+---
+{layout: reader, title: "Rate-of-Time gap and source ledger"}
+---
 # Rate-of-Time gap and source ledger
 
 ## 1. Claim/provenance ledger

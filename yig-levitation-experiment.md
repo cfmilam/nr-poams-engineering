@@ -1,3 +1,6 @@
+---
+{layout: reader, title: "Alignment, Phase Drive & Support Response"}
+---
 # Alignment, Phase Drive & Support Response
 
 **Canonical engineering program.** This is the entry point for the YIG program. The current package separates static alignment, coherent phase drive, retained state, and whole-apparatus support response rather than treating them as one inferred effect. The technical development is preserved in repository history.

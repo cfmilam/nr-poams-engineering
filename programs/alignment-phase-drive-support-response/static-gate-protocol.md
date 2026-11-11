@@ -1,3 +1,6 @@
+---
+{layout: reader, title: "YIG static-gate protocol"}
+---
 # YIG static-gate protocol
 
 **Final public preregistration — 2026-11-11. Decision table LOCKED under Convention A before any sphere data.**

@@ -1,3 +1,6 @@
+---
+{layout: reader, title: "Raw-data and custody schema"}
+---
 # Raw-data and custody schema
 
 Use open, self-describing containers (for example HDF5 plus CSV/JSON manifests) with immutable hashes. This is a field contract, not software implementation.

@@ -1,3 +1,6 @@
+---
+{layout: reader, title: "λ-partition and the magnitude of a YIG drive-toggle response"}
+---
 # λ-partition and the magnitude of a YIG drive-toggle response
 
 **Final public research edition — 2026-11-11. Outcome class: CONDITIONAL.**

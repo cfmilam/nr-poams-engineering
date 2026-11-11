@@ -1,3 +1,6 @@
+---
+{layout: reader, title: "Functional bill of goods"}
+---
 # Functional bill of goods
 
 No pricing is supplied. Procurement follows achieved noise, field, bandwidth and safety requirements set in the run annex.

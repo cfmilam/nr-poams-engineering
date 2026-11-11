@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>{{ page.title | escape }}</title>
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/direct-arrival-reader.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/direct-arrival.css">
+<style>main#content{padding-top:34px;overflow-wrap:anywhere}@media(max-width:700px){main#content{padding-top:26px}}</style>
+<script>
+window.MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']]}};
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body class="reader-standard">
+<main id="content" class="content">
+{{ content }}
+</main>
+<script>
+// These sources use headered tables. Kramdown also misreads prose |absolute values|
+// as one-row, three-cell headerless tables; restore those paragraphs first.
+document.querySelectorAll('#content table:not(:has(thead))').forEach(table=>{
+  const rows=table.rows,cells=rows[0]?.cells;
+  if(rows.length!==1||cells.length!==3||table.textContent.length<60||cells[1].textContent.trim().length>12)return;
+  const parts=Array.from(cells,c=>c.innerHTML.trim()),p=document.createElement('p');
+  p.innerHTML=(parts[0]+' |'+parts[1]+'|'+(/^[,.;:!?]/.test(parts[2])?'':' ')+parts[2])
+    .replace(/\*\*([\s\S]+?)\*\*/g,'<strong>$1</strong>');
+  table.replaceWith(p);
+});
+// Keep generated tables in the same local scrollers as the styled papers.
+document.querySelectorAll('#content table').forEach((table,i)=>{
+  const wrap=document.createElement('div');
+  wrap.className='table-wrap';wrap.setAttribute('role','region');
+  wrap.setAttribute('aria-label','Scrollable data table '+(i+1));wrap.tabIndex=0;
+  table.before(wrap);wrap.append(table);
+});
+// Kramdown escapes away standalone \\[ and \\] delimiters; restore only TeX blocks.
+document.querySelectorAll('#content p').forEach(p=>{
+  const match=p.textContent.trim().match(/^\[\s*\n([\s\S]*\\[A-Za-z][\s\S]*?)\n\s*\]$/);
+  if(match)p.textContent='\\['+match[1]+'\\]';
+});
+</script>
+</body>
+</html>

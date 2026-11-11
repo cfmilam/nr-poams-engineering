@@ -1,3 +1,6 @@
+---
+{layout: reader, title: "Rate-of-Time material-state protocol"}
+---
 # Rate-of-Time material-state protocol
 
 ## 1. Question and evidential boundary

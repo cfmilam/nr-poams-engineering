@@ -1,3 +1,6 @@
+---
+{layout: reader, title: "Rate-of-Time bill of goods"}
+---
 # Rate-of-Time bill of goods
 
 This is a functional procurement specification, not authorization to buy. Final part numbers, quantities, prices, compatibility, facility work, and lead times require the selected host and clock platforms.

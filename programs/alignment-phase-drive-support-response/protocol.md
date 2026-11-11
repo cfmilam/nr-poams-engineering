@@ -1,3 +1,6 @@
+---
+{layout: reader, title: "YIG four-account laboratory protocol"}
+---
 # YIG four-account laboratory protocol
 
 ## 1. Objective and claim grades

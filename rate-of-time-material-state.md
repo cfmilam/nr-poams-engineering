@@ -1,3 +1,6 @@
+---
+{layout: reader, title: "Rate-of-Time Material-State"}
+---
 # Rate-of-Time Material-State
 
 ## Program question

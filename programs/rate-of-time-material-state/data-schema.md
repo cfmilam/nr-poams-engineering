@@ -1,3 +1,6 @@
+---
+{layout: reader, title: "Rate-of-Time data and custody schema"}
+---
 # Rate-of-Time data and custody schema
 
 ## 1. Custody principles

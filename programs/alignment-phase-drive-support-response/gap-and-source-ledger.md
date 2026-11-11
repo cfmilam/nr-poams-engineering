@@ -1,3 +1,6 @@
+---
+{layout: reader, title: "Existing-work, gap and source ledger"}
+---
 # Existing-work, gap and source ledger
 
 ## 1. Existing work already complete

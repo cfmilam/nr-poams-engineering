@@ -1,3 +1,5 @@
+> **Supersession notice — 2026-11-11.** Pre-filing framing record of 2026-08-12. The current program is [Alignment, Phase Drive & Support Response](yig-levitation-experiment.html) and its current package; where this page differs, the package governs.
+
 # YIG Phase-Rotation — Application Framing
 ## The Experiment Restated in Claims Language (Pre-Filing Draft of 2026-08-12; Not the Filed Text)
 
@@ -70,6 +72,7 @@ below would survive even if the theoretical reading were revised, so long as the
    mass; a force sensor supporting the assembly; and a controller configured to execute a
    differential measurement protocol in which drive state and alignment sense are toggled and
    the direction-dependent force component is extracted.
+{:start="2"}
 
 **Dependent (the design-around surface — each is a real degree of freedom):**
 
@@ -99,6 +102,7 @@ below would survive even if the theoretical reading were revised, so long as the
 11. A method of trimming the effective weight of a payload element comprising mounting thereto
     a body per claim 1 and operating the drive to produce a selected weight offset (the use
     claim — actuation/trim; deliberately modest).
+{:start="3"}
 
 **Definiteness note.** Claim 1(d)'s "change" must be operationally bounded. For the stated
 150 mg example, a 0.01 mg balance increment is **66.7 ppm** (0.01 / 150 × 10⁶); this resolution
