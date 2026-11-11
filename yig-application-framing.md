@@ -1,36 +1,25 @@
 # YIG Phase-Rotation — Application Framing
-## The Experiment Restated in Claims Language (a Skeleton, Not a Filing)
+## The Experiment Restated in Claims Language (Pre-Filing Draft of 2026-08-12; Not the Filed Text)
 
 *Date: 2026-08-12 · Framework: Normal Realism / POAMS · Authors: Star Lord, Parzival*
-*Companion to `yig-levitation-experiment.md` (v7.0). Purpose: focus the program's minds on
-application terms — what would be claimed, how it would be defined, what counts as the effect,
-and what the prior-art landscape looks like — in anticipation of, not as, a filing. Nothing here
-is legal advice.*
+*Companion to [Alignment, Phase Drive & Support Response](yig-levitation-experiment.html).
+Purpose: application terms — what would be claimed, how it would be defined, and what would
+count as the effect. This is the framing exercise first written on 2026-08-12, not the filed text.*
+
+**Updated 2026-11-10.** The [current program protocol](programs/alignment-phase-drive-support-response/protocol.html)
+and its companion package govern qualification and interpretation; this framing page records
+proposed applications, not a performed experiment.
 
 ---
 
 ## 0 · Posture (read this first)
 
-**This repository is a defensive publication.** Every revision of the experiment spec is public
-with a commit date. That cuts both ways, and the trade should be held consciously:
+**Filed status (2026-11-07).** All 15 program provisionals have been filed with the USPTO
+under Customer No. 247086: nine on 2026-09-24, four on 2026-10-14, and two on 2026-11-07.
+This page is the application-framing draft first written on 2026-08-12, not a filed application
+or the filed claim text.
 
-- **Shield:** the published record is prior art against anyone else attempting to patent the
-  same method/apparatus later. The mechanism, the materials selection logic, the pulsed
-  protocol, the sign-reversal readout, and the λ-partition discriminant are all on the record
-  with dates.
-- **Cost:** public disclosure starts the novelty clock on ourselves. In the U.S. a 12-month
-  grace period runs from first public disclosure; most foreign jurisdictions have **no** grace
-  period — anything already published here is already unpatentable abroad as-is. Concretely:
-  the March 2026 revisions' disclosed content has a U.S. filing window closing on the order of
-  **March 2027**; material first disclosed in later revisions runs from its own date.
-- **The live option:** improvements *not yet disclosed* (specific feedback laws, cavity/array
-  geometries, materials treatments, control firmware, application-specific integrations) remain
-  fresh subject matter. If patent value is ever intended, the discipline is: **decide before
-  publishing each new increment** whether it goes in the public spec (shield) or in a filing
-  first (sword). To date everything has gone to the shield — a defensible default for a
-  foundational program; this document exists so that choice is made with eyes open.
-
-**Why claims language at all, if not filing:** a claim is a falsifiable, operational statement
+**Why claims language at all:** a claim is a falsifiable, operational statement
 stripped of ontology — the same discipline as a registered gate. Drafting the experiment in
 claims form forces exactly the application-grade questions: what is *operationally* done, what
 is *measurably* produced, what is the *minimum* structure that produces it, and what would a
@@ -54,7 +43,7 @@ POAMS reading — weight as constraint force against the natural orbital radius;
 channel structure). This is standard patent craft and also good epistemics: the claim skeleton
 below would survive even if the theoretical reading were revised, so long as the effect is real.
 
-## 2 · Claims skeleton (prophetic; drafted in anticipation of reduction to practice)
+## 2 · Claims skeleton (pre-filing draft of 2026-08-12; prophetic; not the filed claims)
 
 **Independent — method:**
 
@@ -90,9 +79,9 @@ below would survive even if the theoretical reading were revised, so long as the
 4. The method of claim 1, wherein the drive frequency is servo-locked to the absorption minimum
    through a directional coupler (temperature-drift tracking; the EPR/FMR lock).
 5. The method of claim 1, further comprising toggling the drive at fixed alignment and recording
-   the sign of the resulting change, thereby reading which internal channel receives the driven
-   angular momentum (**the λ-partition readout** — the experiment's own discriminant claimed as
-   a measurement method in its own right).
+   the sign of the resulting change alongside independent channel-state receipts (**the prospective
+   λ-partition readout**). A support sign alone does not identify the deposited channel;
+   interpretation requires the program protocol's state, reaction and calibration gates.
 6. The method of claim 1, wherein the measured relaxation time of the force change upon drive
    termination exceeds the material's electronic coherence time, indicating storage in a channel
    other than the driven precession (the relaxation-curve diagnostic).
@@ -107,21 +96,22 @@ below would survive even if the theoretical reading were revised, so long as the
    operational technology's own class per the engineering analysis).
 10. The apparatus of claim 2, further comprising a vertical RF-transparent guide above the
     cavity and a distributed drive structure maintaining resonant illumination of the test mass
-    through vertical travel (the levitation-containment claim, Rev 5).
+    through vertical travel (the levitation-containment claim; development record in repository history).
 11. A method of trimming the effective weight of a payload element comprising mounting thereto
     a body per claim 1 and operating the drive to produce a selected weight offset (the use
     claim — actuation/trim; deliberately modest).
 
-**Definiteness note.** Claim 1(d)'s "change" must be operationally bounded to be a claim at
-all — the spec's own numbers do the work: detection threshold 7 ppm of a 150 mg mass on a
-0.01 mg balance (Rev 1); effect declared only on the **differential** signal (ON−OFF, UP−DOWN)
-exceeding 3σ of baseline; controls (non-magnetic mass; off-resonance drive) reciting zero.
+**Definiteness note.** Claim 1(d)'s "change" must be operationally bounded. For the stated
+150 mg example, a 0.01 mg balance increment is **66.7 ppm** (0.01 / 150 × 10⁶); this resolution
+ratio is not a measured detection threshold. The current protocol freezes sensitivity from
+calibration and noise, then applies its state, artifact, closure and repeat gates to the
+**differential** signal (ON−OFF, UP−DOWN). A 3σ contrast alone does not establish the effect.
 
 ## 3 · Definitions (patent-style "as used herein," liturgy-clean)
 
 - **Circulation quantum / accumulator:** the persistent angular-momentum organization
   constituting a constituent of the body (extant comparative labels: atom, ion moment). Its
-  intrinsic circulation is constitutive — not addable — per the Rev 3 correction.
+  intrinsic circulation is constitutive — not addable — per the recorded correction (repository history).
 - **Alignment:** ordering of the circulation senses toward a common axis by a static field;
   quantified by the polarized fraction (order unity at saturation for ferrimagnets — the reason
   this class and not Barnett-level bulk rotation, factor ~10¹⁰, Laithwaite's missing lever).
@@ -132,25 +122,31 @@ exceeding 3σ of baseline; controls (non-magnetic mass; off-resonance drive) rec
 - **Weight:** the support force at the constraint (what the load cell reads) — operationally
   the only definition a claim needs; the specification may add: the constraint bill for
   standing off the natural orbital radius (POAMS reading, GROUNDING §3).
-- **Sign / channel structure (specification teaching, kept out of the claims):** driven angular
-  momentum can land in the intrinsic-alignment channel (twist → effective-coupling route →
-  co-sense **heavier**; the settled brass-gyroscope anchor) or the orbital-winding channel
-  (writhe → angular-momentum-numerator route → co-sense **lighter**); the **λ-partition** —
-  which channel the resonant drive feeds — is precisely what claim 5's readout measures. Either
-  sign is a positive result; the differential protocol is sign-agnostic by design.
+- **Sign / channel structure (prospective specification teaching):** the intrinsic-twist
+  assignment gives co-sense **heavier** under the Appendix 5 route; a tabletop brass-gyroscope
+  observation by a program author is reported, without a measurement receipt (M2, a lead only).
+  The orbital-winding assignment gives co-sense **lighter**. Neither assignment follows from
+  the drive command or support sign alone. The prospective **λ-partition** readout requires
+  independent channel-state receipts and the protocol's frozen physical transformation;
+  an opposite registered sign is an adverse result, not a channel reassignment.
 
 ## 4 · What counts as the effect (the go/no-go, restated as acceptance criteria)
 
-| Acceptance test | Pass condition | Artifact excluded |
+| Acceptance test | Pass condition | Artifact account / required control |
 |---|---|---|
-| A1 directional signature | differential weight change reverses sign under alignment reversal at fixed drive | heating, radiation pressure, magnetostriction (sign-blind) |
-| A2 resonance specificity | effect present at FMR lock, absent ≥500 MHz off-resonance at equal power | broadband RF/thermal coupling |
+| A1 directional signature | differential weight change reverses sign under alignment reversal at fixed drive | a polarity-odd magnetic dipole force in a non-reversing gradient also passes; measure gradient-injection response and thermal, radiation-pressure and magnetostriction transfers |
+| A2 resonance specificity | effect present at FMR lock, absent when detuned with matched delivered and absorbed energy | broadband RF/thermal coupling |
 | A3 material specificity | zero effect on matched non-magnetic mass under full protocol | balance/RF interaction, convection |
-| A4 λ-readout | drive-toggle at fixed alignment yields a definite, repeatable sign | — (this one is a measurement, not a control) |
+| A4 prospective λ-readout | drive-toggle at fixed alignment yields a repeatable sign with independent channel-state receipts | a sign alone does not assign twist or writhe; apply the protocol state and reaction gates |
 | A5 relaxation diagnostic | force relaxation time ≠ electronic T₂* class | pure FMR ring-down |
 | A6 channel separation (Rev 7) | effect reads on the constraint force, not on motional statistics; body has net twist to align | gyroscopic stiffening (channel 1), churn (channel 2) |
 
-Reduction to practice = A1 ∧ A2 ∧ A3 at 3σ. Everything else is characterization.
+Reduction to practice is decided by the [program protocol](programs/alignment-phase-drive-support-response/protocol.html)
+(§3 Gate 0 through §10), not by this table; A1–A3 are necessary and not sufficient.
+A polarity-odd magnetic force in a non-reversing gradient passes all three. The alignment
+reversal must satisfy the registered state-equivalence conditions, preserve geometry and pass measured gradient,
+thermal and source-reaction controls, independent-state covariance, B1/B2 closure and repeat
+gates. The protocol's scoped-null and adverse-result rules apply; significance alone is insufficient.
 
 ## 5 · Prior art landscape (named, dated, distinguished)
 
@@ -161,9 +157,8 @@ Reduction to practice = A1 ∧ A2 ∧ A3 at 3σ. Everything else is characteriza
   single-crystal ferrimagnet vs Al+Fe composite), coherence architecture (tuned cavity enforcing
   spatial phase), and protocol (feedback-locked, differential, sign-resolving). His framing
   (virtual-particle energy removal) is not adopted; his parameters informed the pulse protocol.
-- **Hathaway/AGNUE (Toronto).** Partial experimental verification of the Alzofon program
-  ("anomalous motion of a test mass"); no theoretical frame, no sign protocol. Witnessed by
-  Star Lord with H. Puthoff.
+- **Hathaway/AGNUE (Toronto).** Reported anomalous motion of a test mass; no published raw
+  record known to this program; listed as a lead, not as verification.
 - **Wallace patents (US 3,626,605 / 3,626,606, 1971).** The extant patent record's spin-force
   claims ("kinemassic field"): force-field generation by aligned nuclear spin in rotating
   bodies. Prior art to acknowledge and distinguish: mechanical rotation of half-integer-spin
@@ -183,12 +178,12 @@ Reduction to practice = A1 ∧ A2 ∧ A3 at 3σ. Everything else is characteriza
   claimed in the microwave chain — novelty lives in (i) the *purpose-composition* (weight
   modulation), (ii) the differential sign-resolving protocol, (iii) the λ-readout.
 
-## 6 · The application ladder (kept honest)
+## 6 · The application ladder
 
 | Rung | Condition | Application class |
 |---|---|---|
-| 0 (now) | pre-detection | The experiment itself is the product: a decisive, cheap (~$1–2k) discriminating instrument |
-| 1 | A1–A3 pass at mg scale | Metrology: a new force-modulation standard; the λ-partition as a laboratory observable; publication + replication kit |
+| 0 (now) | pre-detection | The experiment itself is the proposed discriminating instrument; qualification and resourcing follow the program package |
+| 1 | protocol-qualified state-linked support response at mg scale | Metrology: a new force-modulation standard; the λ-partition as a laboratory observable; publication + replication kit |
 | 2 | effect ≥ 0.1% of test-mass weight, controllable | Mass trim / ballast-free attitude actuation (satellite reaction control without propellant or wheels — trim class, not lift class) |
 | 3 | effect approaches unity at engineering power | Lift/launch assist; the Rev 5 architecture (containment, feedback, distributed drive) becomes the product skeleton |
 
@@ -201,20 +196,20 @@ ladder deliberately does not lead with levitation.
 1. **Claims are registered gates wearing a suit.** Operational steps, measurable outcomes,
    pre-declared acceptance criteria, artifacts named and excluded — the program already runs at
    patent discipline; this document only changes the notation.
-2. **The λ-partition is not a complication — it is a second invention.** A method of *measuring
-   which channel driven angular momentum enters* stands on its own (claim 5) regardless of the
-   weight effect's magnitude, and it is the piece with no prior art at all.
-3. **The disclosure clock is the one strategic decision.** Everything disclosed to date is
-   shield. The next genuinely new increments — control laws, array geometry, materials
-   treatments — should each pass through the publish-or-file decision consciously (§0).
-4. **Mechanism-free claim language is an honesty instrument.** Writing the effect without POAMS
+2. **The λ-partition is a prospective measurement method.** Reading which channel driven
+   angular momentum enters requires independent channel-state receipts (claim 5), regardless
+   of the weight effect's magnitude; support sign alone cannot supply that reading.
+3. **The program provisionals are filed.** All 15 were filed with the USPTO on 2026-09-24,
+   2026-10-14 and 2026-11-07, under Customer No. 247086 (§0). This framing page is not the
+   filed text.
+4. **Mechanism-free claim language keeps the claim testable.** Writing the effect without POAMS
    vocabulary and without extant vocabulary (no "gravity shielding," no force-field) leaves
    exactly what a balance would certify — which is the same standard the research ledger already
    holds every swing to.
 
 ---
 
-*Cross-references: `yig-levitation-experiment.md` (full spec, Revs 1–7); the λ-partition record
-`memory/poams-audit/directional-sign-2026-07-19.md` and `LAMBDA-SWAMP-forward-opus.md` (research
-workspace); Alzofon AIAA-81-1608 (`Alzofon-1981-AIAA.pdf`, this repo); GROUNDING §3–§4 (weight
-as constraint bill; spin-orbit channel structure).*
+*Cross-references: [current program and package](yig-levitation-experiment.html);
+[legacy development in repository history](https://github.com/cfmilam/nr-poams-engineering/commits/gh-pages/yig-levitation-experiment.md);
+Alzofon AIAA-81-1608 ([source paper](Alzofon-1981-AIAA.pdf)); GROUNDING §3–§4
+(weight as constraint bill; spin-orbit channel structure).*
