@@ -8,8 +8,10 @@
 - [Bill of goods](programs/alignment-phase-drive-support-response/bill-of-goods.html)
 - [Data schema and custody contract](programs/alignment-phase-drive-support-response/data-schema.html)
 - [Gap and source ledger](programs/alignment-phase-drive-support-response/gap-and-source-ledger.html)
+- [Partition-magnitude derivation (conditional)](programs/alignment-phase-drive-support-response/partition-magnitude-derivation.html)
+- [Static-gate protocol and bench runbook](programs/alignment-phase-drive-support-response/static-gate-protocol.html)
 
-**Present grade:** prospective; design complete; run annex incomplete; no physical effect claimed. The four linked documents are the current program authority; execution requires their qualification gates and completed run annex.
+**Present grade:** prospective; design complete; run annex incomplete; no physical effect claimed. The linked documents are the current program authority; execution requires their qualification gates and completed run annex.
 
 ## Companion references
 
