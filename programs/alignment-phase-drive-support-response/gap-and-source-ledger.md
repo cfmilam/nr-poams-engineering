@@ -47,7 +47,6 @@ The public legacy Engineering documents contain substantial apparatus craft, app
 - `poams-review/work/native-wall-corpus-sweep-2026-09-24/repairs/audits/yig-bva-paired-postrepair-reaudit-v5.md`
 - `poams-review/work/native-wall-corpus-sweep-2026-09-24/repairs/proposals/yig-engineering-consolidation.json`
 - `poams-engineering-public/yig-levitation-experiment.md`
-- `poams-engineering-public/yig-phase-rotation-experiment-paper.md`
 - `poams-engineering-public/yig-application-framing.md`
 - `poams-review/reviews/brilliant-vortex-yig-alignment-derivation.md`
 - `memory/poams-audit/LAMBDA-SWAMP-forward-opus.md`
